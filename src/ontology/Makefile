@@ -70,7 +70,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro bfo pato obi uo envo po agro
+IMPORTS =  ro bfo pato obi uo envo po agro foodon
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -318,6 +318,17 @@ mirror/agro.trigger: $(SRC)
 
 mirror/agro.owl: mirror/agro.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/agro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+
+## ONTOLOGY: foodon
+## Copy of foodon is re-downloaded whenever source changes
+mirror/foodon.trigger: $(SRC)
+
+mirror/foodon.owl: mirror/foodon.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/foodon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
