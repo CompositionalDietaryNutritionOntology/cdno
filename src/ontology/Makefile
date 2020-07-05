@@ -306,7 +306,7 @@ mirror/envo.owl: mirror/envo.trigger
 mirror/po.trigger: $(SRC)
 
 mirror/po.owl: mirror/po.trigger
-        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/po.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/po.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
