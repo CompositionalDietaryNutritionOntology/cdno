@@ -1,1 +1,55 @@
-FOODON:00002403 # food material
+FOODON:00002403 #food material
+FOODON:00002473	#apple (whole)
+FOODON:00002775	#bambara groundnut (whole)
+FOODON:03316257	#banana (whole)
+FOODON:00003394	#barley seed (whole)
+FOODON:03317254	#beetroot (whole)
+FOODON:00003131	#common wheat kernel
+FOODON:00003405	#broccoli floret (whole)
+FOODON:03311885	#brussels sprout (whole)
+FOODON:00003407	#rapeseed (whole)
+FOODON:00003408	#carrot root (whole)
+FOODON:00003409	#cassava (whole)
+FOODON:00003410	#cauliflower (whole)
+FOODON:00003411	#celery stalk (whole)
+FOODON:00003413	#sweet cherry (whole)
+FOODON:03306811	#chickpea (whole)
+FOODON:00003449	#coconut (whole)
+FOODON:00003399	#arabica coffee bean (whole)
+FOODON:00003403	#common bean seed
+FOODON:00003404	#common bean pod
+FOODON:00003414	#cowpea (whole)
+FOODON:00003415	#cucumber (whole)
+FOODON:00003416	#durum wheat kernel
+FOODON:03301227	#broad bean (whole)
+FOODON:00003417	#grape (whole)
+FOODON:00003206	#peanut (whole)
+FOODON:00003418	#common hazelnut (whole)
+FOODON:00003421	#indian mustard seed (whole)
+FOODON:00003422	#kohlrabi stem (whole)
+FOODON:03310641	#lentil (whole)
+FOODON:00003003	#macadamia nut (whole)
+FOODON:00003427	#maize kernel (whole)
+FOODON:00003428	#maize cob (whole)
+FOODON:03301275	#mung bean (whole)
+FOODON:00003429	#whole oats
+FOODON:03315106	#orange (whole)
+FOODON:00003430	#perl millet kernel
+FOODON:00002781	#pigeon pea (whole)
+FOODON:03315354	#potato (whole)
+FOODON:00003431	#radish (whole)
+FOODON:00003433	#raspberry (whole)
+FOODON:00003432	#rhubarb stalk (whole)
+FOODON:00003434	#whole grain rice
+FOODON:00003440	#rutabaga (whole)
+FOODON:00003441	#saffron thread
+FOODON:00003442	#siberian kale leaf (whole)
+FOODON:03309978	#sorghum kernel
+FOODON:03301415	#soybean (whole)
+FOODON:00003443	#strawberry (whole)
+FOODON:00003412	#sugar beet (whole)
+FOODON:00003444	#sugar cane stem
+FOODON:00003445	#sweet potato (whole)
+FOODON:03301453	#tomato (whole)
+FOODON:00003447	#turnip (whole)
+FOODON:00003448	#yam (whole)
