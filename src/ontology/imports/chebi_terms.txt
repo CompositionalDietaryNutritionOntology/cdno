@@ -1,4 +1,3 @@
-CHEBI:16646 #carbohydrate
 CHEBI:15377	#water
 CHEBI:16646	#carbohydrate
 CHEBI:18154	#polysaccharide
