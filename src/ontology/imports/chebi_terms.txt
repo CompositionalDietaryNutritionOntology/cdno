@@ -1,1 +1,484 @@
-CHEBI:16646 # carbohydrate
+CHEBI:16646 #carbohydrate
+CHEBI:15377	#water
+CHEBI:16646	#carbohydrate
+CHEBI:18154	#polysaccharide
+CHEBI:28057	#amylopectin
+CHEBI:28102	#amylose
+CHEBI:17992	#sucrose
+CHEBI:17306	#maltose
+CHEBI:17309	#pectin
+CHEBI:24174	#galacturonan
+CHEBI:26543	#rhamnogalacturonan
+CHEBI:61266	#hemicellulose
+CHEBI:28808	#mannan
+CHEBI:37166	#xylan
+CHEBI:18233	#xyloglucan
+CHEBI:28796	#fructan
+CHEBI:15443	#inulin
+CHEBI:22590	#arabinan
+CHEBI:27680	#galactomannan
+CHEBI:37165	#galactan
+CHEBI:35381	#monosaccharide
+CHEBI:17234	#glucose
+CHEBI:28757	#fructose
+CHEBI:17992	#sucrose
+CHEBI:17306	#maltose
+CHEBI:26546	#rhamnose
+CHEBI:16689	#D-apiose
+CHEBI:33830	#galacturonic acid
+CHEBI:33984	#fucose
+CHEBI:18222	#xylose
+CHEBI:22599	#arabinose
+CHEBI:28260	#galactose
+CHEBI:37684	#mannose
+CHEBI:18222	#xylose
+CHEBI:33942	#ribose
+CHEBI:36233	#disaccharide
+CHEBI:17992	#sucrose
+CHEBI:17306	#maltose
+CHEBI:27082	#trehalose
+CHEBI:28017	#starch
+CHEBI:28057	#amylopectin
+CHEBI:17234	#glucose
+CHEBI:28102	#amylose
+CHEBI:17234	#glucose
+CHEBI:28757	#fructose
+CHEBI:17234	#glucose
+CHEBI:17992	#sucrose
+CHEBI:17234	#glucose
+CHEBI:28757	#fructose
+CHEBI:17306	#maltose
+CHEBI:17234	#glucose
+CHEBI:17309	#pectin
+CHEBI:24174	#galacturonan
+CHEBI:33830	#galacturonic acid
+CHEBI:26543	#rhamnogalacturonan
+CHEBI:26546	#rhamnose
+CHEBI:16689	#D-apiose
+CHEBI:33830	#galacturonic acid
+CHEBI:33984	#fucose
+CHEBI:18222	#xylose
+CHEBI:22599	#arabinose
+CHEBI:28260	#galactose
+CHEBI:74961	#raffinose family oligosaccharide
+CHEBI:16634	#raffinose
+CHEBI:28260	#galactose
+CHEBI:17234	#glucose
+CHEBI:28757	#fructose
+CHEBI:17164	#stachyose
+CHEBI:28260	#galactose
+CHEBI:17234	#glucose
+CHEBI:28757	#fructose
+CHEBI:28586	#verbascose
+CHEBI:28260	#galactose
+CHEBI:17234	#glucose
+CHEBI:28757	#fructose
+CHEBI:62967	#amorphous cellulose
+CHEBI:17234	#glucose
+CHEBI:61266	#hemicellulose
+CHEBI:28808	#mannan
+CHEBI:37684	#mannose
+CHEBI:37166	#xylan
+CHEBI:17234	#glucose
+CHEBI:18222	#xylose
+CHEBI:18233	#xyloglucan
+CHEBI:17234	#glucose
+CHEBI:18222	#xylose
+CHEBI:17020	#glucomannan
+CHEBI:17234	#glucose
+CHEBI:37684	#mannose
+CHEBI:28427	#arabinoxylan
+CHEBI:22599	#arabinose
+CHEBI:18222	#xylose
+CHEBI:28796	#fructan
+CHEBI:15443	#inulin
+CHEBI:28757	#fructose
+CHEBI:36080	#protein
+CHEBI:33709	#amino acid
+CHEBI:16449	#alanine
+CHEBI:29016	#arginine
+CHEBI:22653	#asparagine
+CHEBI:22660	#aspartic acid
+CHEBI:15356	#cysteine
+CHEBI:18237	#glutamic acid
+CHEBI:28300	#glutamine
+CHEBI:15428	#glycine
+CHEBI:27570	#histidine
+CHEBI:24741	#hydroxyproline
+CHEBI:24898	#isoleucine
+CHEBI:25017	#leucine
+CHEBI:25094	#lysine
+CHEBI:16811	#methionine
+CHEBI:28044	#phenylalanine
+CHEBI:26271	#proline
+CHEBI:17822	#serine
+CHEBI:26986	#threonine
+CHEBI:27897	#tryptophan
+CHEBI:18186	#tyrosine
+CHEBI:27266	#valine
+CHEBI:18059	#lipid
+CHEBI:18035	#diglyceride
+CHEBI:17855	#triglyceride
+CHEBI:35366	#fatty acid
+CHEBI:26607	#saturated fatty acid
+CHEBI:28837	#octanoic acid
+CHEBI:15756	#pentadecanoic acid
+CHEBI:28866	#tetracosanoic acid
+CHEBI:30805	#dodecanoic acid
+CHEBI:28875	#tetradecanoic acid
+CHEBI:15756	#hexadecanoic acid
+CHEBI:32365	#heptadecanoic acid
+CHEBI:28842	#octadecanoic acid
+CHEBI:28822	#arachidic acid
+CHEBI:28941	#docosanoic acid
+CHEBI:28866	#tetracosanoic acid
+CHEBI:30768	#propionic acid
+CHEBI:25413	#monounsaturated fatty acid
+CHEBI:27781	#myristoleic acid
+CHEBI:28716	#palmitoleic acid
+CHEBI:16196	#oleic acid
+CHEBI:59265	#palmitelaidic acid
+CHEBI:27997	#elaidic acid
+CHEBI:36023	#vaccenic acid
+CHEBI:32425	#(Z)-icos-11-enoic acid
+CHEBI:28792	#erucic acid
+CHEBI:44247	#(15Z)-tetracosenoic acid
+CHEBI:26208	#polyunsaturated fatty acid
+CHEBI:25681	#ω−3 fatty acid
+CHEBI:32389	#all-cis-octadeca-6,9,12,15-tetraenoic acid
+CHEBI:53460	#all-cis-icosa-11,14,17-trienoic acid
+CHEBI:77366	#(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoic acid
+CHEBI:27432	#α-linolenic acid
+CHEBI:36006	#icosapentaenoic acid
+CHEBI:61204	#docosapentaenoic acid
+CHEBI:36005	#docosahexaenoic acid
+CHEBI:72785	#9-hydroxy-5E,7Z,11Z,14Z-eicosatetraenoic acid
+CHEBI:36009	#ω−6 fatty acid
+CHEBI:25048	#linolenic acid
+CHEBI:28661	#γ-linolenic acid
+CHEBI:72850	#icosadienoic acid
+CHEBI:15843	#arachidonic acid
+CHEBI:75115	#docosadienoic acid
+CHEBI:131693	#7,10,13,16-docosatetraenoic acid
+CHEBI:61204	#docosapentaenoic acid
+CHEBI:3374	#capsaicin
+CHEBI:16247	#phospholipid
+CHEBI:64482	#phosphatidylcholine
+CHEBI:16038	#phosphatidylethanolamine
+CHEBI 18303	#phosphatidyl-L-serine
+CHEBI:28874	#phosphatidylinositol
+CHEBI:60479	#lysophosphatidylcholine
+CHEBI:33563	#glycolipid
+CHEBI:24385	#glycoglycerolipid
+CHEBI:15889	#sterol
+CHEBI:36799	#campestanol
+CHEBI:16113	#cholesterol
+CHEBI:6570	#lupeol
+CHEBI:89400	#stigmastanol
+CHEBI:26125	#phytosterols
+CHEBI:80096	#delta7-avenasterol
+CHEBI:3168	#brassicasterol
+CHEBI:28623	#campesterol
+CHEBI:16933	#ergosterol
+CHEBI:27693	#sitosterol
+CHEBI:89400	#stigmastanol
+CHEBI:28824	#stigmasterol
+CHEBI:22984	#calcium atom
+CHEBI:17996	#chloride
+CHEBI:25107	#magnesium atom
+CHEBI:25555	#nitrogen atom
+CHEBI:28659	#phosphorus atom
+CHEBI:26216	#potassium atom
+CHEBI:26708	#sodium atom
+CHEBI:26833	#sulfur atom
+CHEBI:28984	#aluminium atom
+CHEBI:30513	#antimony atom
+CHEBI:27563	#arsenic atom
+CHEBI:27560	#boron atom
+CHEBI:22977	#cadmium atom
+CHEBI:28073	#chromium atom
+CHEBI:27638	#cobalt atom
+CHEBI:28694	#copper atom
+CHEBI:17051	#fluoride
+CHEBI:24859	#iodine atom
+CHEBI:18248	#iron atom
+CHEBI:25016	#lead atom
+CHEBI:30145	#lithium atom
+CHEBI:18291	#manganese atom
+CHEBI:25195	#mercury atom
+CHEBI:28685	#molybdenum atom
+CHEBI:28112	#nickel atom
+CHEBI:33322	#rubidium atom
+CHEBI:27568	#selenium atom
+CHEBI:33324	#strontium atom
+CHEBI:27007	#tin atom
+CHEBI:33341	#titanium atom
+CHEBI:27698	#vanadium atom
+CHEBI:27363	#zinc atom
+CHEBI:32595	#barium(0)
+CHEBI:30514	#caesium atom
+CHEBI:33301	#bismuth atom
+CHEBI:33336	#lanthanum atom
+CHEBI:24866	#salt
+CHEBI:26710	#sodium chloride
+CHEBI:51084	#inorganic nitrate salt
+CHEBI:15858	#bromide
+CHEBI:33229	#vitamin
+CHEBI:27314	#water-soluble vitamin
+CHEBI:75782	#vitamin B complex
+CHEBI:67011	#folates
+CHEBI:15640	#5-formyltetrahydrofolic acid
+CHEBI:57455	#(6R)-5,10-methenyltetrahydrofolate
+CHEBI:26948	#thiamine
+CHEBI:17015	#riboflavin
+CHEBI:15940	#nicotinic acid
+CHEBI:46905	#(R)-pantothenic acid
+CHEBI:16709	#pyridoxine
+CHEBI:15956	#biotin
+CHEBI:27470	#folic acid
+CHEBI:17439	#cyanocob(III)alamin
+CHEBI:21241	#vitamin C
+CHEBI:29073	#L-ascorbic acid
+CHEBI:24020	#fat-soluble vitamin
+CHEBI:12777	#vitamin A
+CHEBI:23044	#carotenoid
+CHEBI:28425	#α-carotene
+CHEBI:17579	#β-carotene
+CHEBI:140677	#4-hydroxy-all-trans-β-carotene
+CHEBI:67188	#9-cis-β-carotene
+CHEBI:27300	#vitamin D
+CHEBI:17933	#calcidiol
+CHEBI:33234	#vitamin E
+CHEBI:27013	#tocopherol
+CHEBI:22470	#α-tocopherol
+CHEBI:47771	#β-tocopherol
+CHEBI:18185	#γ-tocopherol
+CHEBI:47772	#δ-tocopherol
+CHEBI:33235	#tocotrienol
+CHEBI:33270	#α-tocotrienol
+CHEBI:33275	#β-tocotrienol
+CHEBI:33277	#γ-tocotrienol
+CHEBI:33276	#δ-tocotrienol
+CHEBI:28384	#vitamin K
+CHEBI:22315	#alkaloid
+CHEBI:27732	#caffeine
+CHEBI:28346	#mescaline
+CHEBI:28946	#theobromine
+CHEBI:33853	#phenols
+CHEBI:26195	#polyphenol
+CHEBI:26848	#tannin
+CHEBI:16112	#chlorogenic acid
+CHEBI:26267	#proanthocyanidin
+CHEBI:78689	#hydrolysable tannin
+CHEBI:23909	#ellagitannin
+CHEBI:24182	#gallotannin
+CHEBI:71222	#phlorotannin
+CHEBI:18135	#catechol
+CHEBI:16204	#phloroglucinol
+CHEBI:4806	#(−)-epigallocatechin 3-gallate
+CHEBI:30778	#gallic acid
+CHEBI:24676	#hydroxybenzoic acid
+CHEBI:16914	#salicylic acid
+CHEBI:30816	#vanillic acid
+CHEBI:68329	#syringic acid
+CHEBI:51867	#methyl ketone
+CHEBI:27632	#acetophenone
+CHEBI:30745	#phenylacetic acid
+CHEBI:24689	#hydroxycinnamic acid
+CHEBI:36281	#caffeic acid
+CHEBI:77131	#sinapic acid
+CHEBI:23238	#chromones
+CHEBI:3594	#Chicoric acid
+CHEBI:23401	#coumaric acid
+CHEBI:36090	#4-coumaric acid
+CHEBI:18176	#2-coumaric acid
+CHEBI:47925	#3-coumaric acid
+CHEBI:17620	#ferulic acid
+CHEBI:17488	#scopoletin
+CHEBI:25481	#naphthoquinone
+CHEBI:132141	#1,2-naphthoquinones
+CHEBI:132142	#1,4-naphthoquinones
+CHEBI:15794	#juglone
+CHEBI:26776	#stilbenoid
+CHEBI:26775	#stilbene
+CHEBI:22580	#anthraquinone
+CHEBI:42223	#emodin
+CHEBI:51149	#xanthones
+CHEBI:83231	#xanthone glycoside
+CHEBI:4806	#(−)-epigallocatechin 3-gallate
+CHEBI:72544	#flavonoids
+CHEBI:47916	#flavonoid
+CHEBI:6674	#malvidin
+CHEBI:28499	#kaempferol
+CHEBI:38691	#flavan
+CHEBI:5070	#flavanone
+CHEBI:27566	#6-prenylnaringenin
+CHEBI:50207	#sophoraflavanone B
+CHEBI:28709	#eriocitrin
+CHEBI:28412	#eriodictyol
+CHEBI:28230	#hesperetin
+CHEBI:28775	#hesperidin
+CHEBI:74960	#homoeriodictyol
+CHEBI:27552	#4'-methoxy-5,7-dihydroxyflavanone
+CHEBI:50202	#naringenin
+CHEBI:28819	#naringin
+CHEBI:28705	#narirutin
+CHEBI:7502	#neoeriocitrin
+CHEBI:59016	#neohesperidin
+CHEBI:28157	#pinocembrin
+CHEBI:66773	#(2S)-poncirin
+CHEBI:28927	#sakuranetin
+CHEBI:42491	#flavone
+CHEBI:2197	#6-hydroxyluteolin
+CHEBI:66046	#6-hydroxyluteolin 7-O-laminaribioside
+CHEBI:29503	#4',7-dihydroxyflavone
+CHEBI:18388	#apigenin
+CHEBI:2979	#baicalein
+CHEBI:75095	#chrysin
+CHEBI:3718	#cirsilineol
+CHEBI:81337	#cirsimaritin
+CHEBI:4631	#diosmin
+CHEBI:28917	#dihydromyricetin
+CHEBI:136666	#eupatorin
+CHEBI:79628	#gardenin B
+CHEBI:5326	#geraldone
+CHEBI:75902	#hispidulin
+CHEBI:18330	#isovitexin
+CHEBI:66103	#jaceosidin
+CHEBI:15864	#luteolin
+CHEBI:77791	#luteolin 7-O-?-D-glucoside(1-)
+CHEBI:70082	#myricitrin
+CHEBI:7602	#nobiletin
+CHEBI:16243	#quercetin
+CHEBI:31227	#apigenin 7-O-neohesperidoside
+CHEBI:9062	#scutellarein
+CHEBI:9159	#sinensetin
+CHEBI:9400	#tangeretin
+CHEBI:16954	#vitexin
+CHEBI:48039	#dihydroflavonols
+CHEBI:72010	#hydroxyflavan
+CHEBI:23053	#catechin
+CHEBI:76132	#(+)-catechin-3-o-gallate
+CHEBI:71225	#(?)-gallocatechin
+CHEBI:76125	#(+)-epicatechin
+CHEBI:70255	#(-)-epicatechin-3-O-gallate
+CHEBI:42255	#(-)-epigallocatechin
+CHEBI:4806	#(-)-epigallocatechin 3-gallate
+CHEBI:70254	#methylepicatechin
+CHEBI:70256	#4'-O-methylepigallocatechin-3-O-gallate
+CHEBI:70253	#4'-O-methylepigallocatechin
+CHEBI:26267	#proanthocyanidin
+CHEBI:81227	#cinnamtannin A2
+CHEBI:75633	#procyanidin B1
+CHEBI:75632	#procyanidin B2
+CHEBI:75630	#procyanidin B3
+CHEBI:27589	#procyanidin B4
+CHEBI:75621	#procyanidin B5
+CHEBI:75619	#procyanidin B6
+CHEBI:75643	#procyanidin C1
+CHEBI:75644	#procyanidin C2
+CHEBI:136609	#theaflavin
+CHEBI:71230	#dihydrochalcones
+CHEBI:88354	#3-hydroxyphloretin 2'-O-xylosylglucoside
+CHEBI:17276	#phloretin
+CHEBI:8113	#phlorizin
+CHEBI:23086	#chalcones
+CHEBI:3237	#butein
+CHEBI:66331	#xanthohumol
+CHEBI:47964	#aurone
+CHEBI:38695	#anthocyanidin
+CHEBI:27843	#cyanidin cation
+CHEBI:27475	#cyanidin 3-O-β-D-galactoside
+CHEBI:28064	#cyanidin 3-O-rutinoside
+CHEBI:74811	#cyanidin 3-O-β-D-sambubioside
+CHEBI:80438	#cyanidin 3-O-sophoroside
+CHEBI:142263	#isopeonidin 3-rutinoside
+CHEBI:25863	#pelargonidin
+CHEBI:31968	#pelargonidin 3-O-rutinoside
+CHEBI:38697	#anthocyanin
+CHEBI:38698	#anthocyanin chlorides
+CHEBI:37664	#cyanidin 3-O-β-D-galactoside chloride
+CHEBI:16726	#cyanidin 3-O-rutinoside chloride
+CHEBI:38021	#cyanin chloride
+CHEBI:36122	#pelargonidin 3-O-β-D-glucoside chloride
+CHEBI:22798	#?-D-glucoside
+CHEBI:31463	#delphinidin 3-O-β-D-glucoside
+CHEBI:31985	#petunidin 3-O-β-D-glucoside
+CHEBI:31799	#malvidin 3-O-β-D-glucoside
+CHEBI:50753	#isoflavonoid
+CHEBI:72572	#isoflavans
+CHEBI:27945	#isoflavanone
+CHEBI:38757	#isoflavones
+CHEBI:38755	#hydroxyisoflavone
+CHEBI:28197	#daidzein
+CHEBI:28088	#genistein
+CHEBI:34778	#glycitein
+CHEBI:24278	#glucoside
+CHEBI:80373	#glycitin
+CHEBI:74630	#glycosyloxyisoflavone
+CHEBI:80371	#malonyldaidzin
+CHEBI:80372	#malonylgenistin
+CHEBI:80374	#malonylglycitin
+CHEBI:71543	#rotenoid
+CHEBI:72577	#coumestans
+CHEBI:72578	#coumestan
+CHEBI:3908	#coumestrol
+CHEBI:26377	#pterocarpans
+CHEBI:73033	#pterocarpan
+CHEBI:108	#(-)-phaseolin
+CHEBI:67347	#(+)-pisatin
+CHEBI:71971	#neoflavonoid
+CHEBI:50128	#biflavonoid
+CHEBI:26004	#phenylpropanoid
+CHEBI:25036	#lignan
+CHEBI:25497	#neolignan
+CHEBI:6457	#lignin
+CHEBI:25179	#melanins
+CHEBI:23055	#cachetol melanin
+CHEBI:26873	#terpenoid
+CHEBI:25409	#monoterpenoid
+CHEBI:26658	#sesquiterpoid
+CHEBI:23849	#diterpenoid
+CHEBI:23044	#carotenoid
+CHEBI:27325	#xanthophyll
+CHEBI:27547	#zeaxanthin
+CHEBI:10223	#α-cryptoxanthin
+CHEBI:10362	#β-cryptoxanthin
+CHEBI:28838	#lutein
+CHEBI:26119	#phytoene
+CHEBI:25501	#neoxanthin
+CHEBI:27295	#violaxanthin
+CHEBI:15948	#lycopene
+CHEBI:62466	#7,7',9,9'-tetra-cis-lycopene
+CHEBI:50211	#retinol
+CHEBI:36615	#triterpenoid
+CHEBI:64709	#organic acid
+CHEBI:15366	#acetic acid
+CHEBI:30769	#citric acid
+CHEBI:422 (S)
+CHEBI:42111 [R]	#lactic acid
+CHEBI:42111	#(R)-lactic acid
+CHEBI:422	#(S)-lactic acid
+CHEBI:6650	#malic acid
+CHEBI:30794	#malonic acid
+CHEBI:22652	#ascorbic acid
+CHEBI:27956	#L-dehydroascorbic acid
+CHEBI:29073	#L-ascorbic acid
+CHEBI:16995	#oxalic acid
+CHEBI:16914	#salicylic acid
+CHEBI:26493	#quinic acid
+CHEBI:32816	#pyruvic acid
+CHEBI:16119	#shikimic acid
+CHEBI:15741	#succinic acid
+CHEBI:26849	#tartaric acid
+CHEBI:30887	#isocitric acid
+CHEBI:30744	#oxaloacetic acid
+CHEBI:24848	#inositol
+CHEBI:15891	#taurine
+CHEBI:17750	#glycine betaine
+CHEBI:26191	#polyol
+CHEBI:29864	#mannitol
+CHEBI:17151	#xylitol
+CHEBI:30911	#glucitol
+CHEBI:17754	#glycerol
+CHEBI:15354	#choline
