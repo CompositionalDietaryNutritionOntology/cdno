@@ -345,12 +345,17 @@ mirror/foodon.owl: mirror/foodon.trigger
 
 # ENVO Makefile's verion of CHEBI import
 # chebi.owl is large and the owlapi often times out when reading it; use the obo instead
-mirror/chebi-local.owl: 
+#mirror/chebi-local.owl: 
+#	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
+#mirror/chebi.owl: mirror/chebi-local.owl
+#	owltools  --no-debug $< --log-debug --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+#.PRECIOUS: mirror/%.owl
+
+mirror/chebi-local.owl:
 	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
 mirror/chebi.owl: mirror/chebi-local.owl
-	owltools  --no-debug $< --log-debug --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+	owltools  --no-debug $< --log-debug -o $@
 .PRECIOUS: mirror/%.owl
-
 
 
 # ----------------------------------------
