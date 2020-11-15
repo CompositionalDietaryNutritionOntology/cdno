@@ -454,8 +454,6 @@ CHEBI:36615	#triterpenoid
 CHEBI:64709	#organic acid
 CHEBI:15366	#acetic acid
 CHEBI:30769	#citric acid
-CHEBI:422 (S)
-CHEBI:42111 [R]	#lactic acid
 CHEBI:42111	#(R)-lactic acid
 CHEBI:422	#(S)-lactic acid
 CHEBI:6650	#malic acid
