@@ -1,0 +1,21 @@
+Ontology ID	label	parent class	equivalence axiom	exact synonym	definition	definition source	comment	editors note	broad synonym	narrow synonym	in subset	cross reference	subclass axiom	creation date	created by
+ID	AL rdfs:label@en	SC %	EC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AL IAO:0000115@en	A IAO:0000119 SPLIT=|	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	A oboInOwl:inSubset SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	SC %	AT oboInOwl:creation_date^^xsd:dateTime	AI oboInOwl:created_by SPLIT=|
+TEST:0000001	available carbohydrate	carbohydrate													
+CHEBI:28017	starch	available carbohydrate													
+TEST:0000002	amylopectin derived from starch		(amylopectin and 'derives from' some starch)												
+TEST:0000003	glucose derived from amylopectin derived from starch		(glucose and 'derives from' some 'amylopectin derived from starch')												
+TEST:0000003a	glucose derived from amylopectin derived from starch (alt)		(glucose and ( 'derives from' some (amylopectin and 'derives from' some starch)))												
+TEST:0000004	amylose derived from starch		(amylose and 'derives from' some starch)												
+TEST:0000005	glucose derived from amylose derived from starch		(glucose and 'derives from' some 'amylose derived from starch')												
+TEST:0000006	free sugar														
+CHEBI:28757	fructose	free sugar													
+CHEBI:17234	glucose	free sugar													
+CHEBI:17992	sucrose	free sugar													
+TEST:0000007	glucose derived from sucrose		(glucose and 'derives from' some sucrose)												
+TEST:0000008	fructose derived from sucrose		(fructose and 'derives from' some sucrose)												
+CHEBI:17306	maltose	free sugar													
+TEST:0000009	glucose derived from maltose		(glucose and 'derives from' some maltose)												
+															
+CHEBI:28057	amylopectin														
+CHEBI:16646	carbohydrate														
+CHEBI:28102	amylose														

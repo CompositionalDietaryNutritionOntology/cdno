@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16646 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16646">
+        <rdfs:label xml:lang="en">carbohydrate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17234 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TEST_0000006"/>
+        <rdfs:label xml:lang="en">glucose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17306 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TEST_0000006"/>
+        <rdfs:label xml:lang="en">maltose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17992 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TEST_0000006"/>
+        <rdfs:label xml:lang="en">sucrose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28017 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TEST_0000001"/>
+        <rdfs:label xml:lang="en">starch</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28057 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28057">
+        <rdfs:label xml:lang="en">amylopectin</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28102 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28102">
+        <rdfs:label xml:lang="en">amylose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28757 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TEST_0000006"/>
+        <rdfs:label xml:lang="en">fructose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000001 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">available carbohydrate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000002">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28057"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">amylopectin derived from starch</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000003">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TEST_0000002"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">glucose derived from amylopectin derived from starch</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000003a -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000003a">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28057"/>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">glucose derived from amylopectin derived from starch (alt)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000004 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000004">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28102"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">amylose derived from starch</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000005">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TEST_0000004"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">glucose derived from amylose derived from starch</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000006 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000006">
+        <rdfs:label xml:lang="en">free sugar</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000007">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">glucose derived from sucrose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000008 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000008">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">fructose derived from sucrose</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEST_0000009 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TEST_0000009">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17306"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">glucose derived from maltose</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
