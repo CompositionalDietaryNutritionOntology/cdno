@@ -13,19 +13,8 @@ Annotation(dce:description "None")
 Annotation(dce:title "Crop Dietary Nutrition Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 
-Declaration(Class(<http://purl.obolibrary.org/obo/CDNO_00000000>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
-
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/CDNO_00000000> (root node)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CDNO_00000000> "root node"@en)
-
 
 )
