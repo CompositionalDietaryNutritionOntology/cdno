@@ -96,6 +96,26 @@ OBO_REPORT = $(SRC)-obo-report
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 
+#############################################################
+#### -- dosdp pattern targets -- ####
+
+## DOSDP pattern targets modified from ENVO version
+MODS = chemical_concentration
+ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS)) # in CDNO mods dir is for the owl files envo's mod dir is both owl files and their csvs. maybe want to rename ALL_MODS_OWL because it's not all owl files in modules that will be complied this way perhaps we'll see when we add the the robot compile lines to make.
+ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
+
+## Modules make targets modified from ENVO's version
+all_modules: all_modules_owl #all_modules_obo
+all_modules_owl: $(ALL_MODS_OWL)
+
+
+# Targets for DOSDP modules #this will work when it's only the DOSDP but it'll will maybe apply this same pattern to all owl files in modules/ or at least those called from all_modules
+modules/%.owl: templates/%.csv patterns/%.yaml curie_map.yaml
+	dosdp-tools --table-format=csv --template=patterns/$*.yaml --outfile=modules/$*.tmp.owl --obo-prefixes=true generate --infile=templates/$*.csv
+	$(ROBOT) annotate --input modules/$*.tmp.owl -O http://purl.obolibrary.org/obo/cdno/modules/$*.owl --output modules/$*.owl && rm modules/$*.tmp.owl
+
+
+
 all_reports: all_reports_onestep $(REPORT_FILES)
 
 ## -- all files/assets --
@@ -345,7 +365,7 @@ mirror/foodon.owl: mirror/foodon.trigger
 
 # ENVO Makefile's verion of CHEBI import
 # chebi.owl is large and the owlapi often times out when reading it; use the obo instead
-#mirror/chebi-local.owl: 
+#mirror/chebi-local.owl:
 #	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
 #mirror/chebi.owl: mirror/chebi-local.owl
 #	owltools  --no-debug $< --log-debug --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
