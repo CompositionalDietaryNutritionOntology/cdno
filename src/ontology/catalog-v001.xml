@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/modules/mappings.owl" uri="modules/mappings.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/modules/nutritional_components_framework_full.owl" uri="modules/nutritional_components_framework_full.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/modules/chemical_concentration.owl" uri="modules/chemical_concentration.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/modules/sugar_derivatives.owl" uri="modules/sugar_derivatives.owl"/>
