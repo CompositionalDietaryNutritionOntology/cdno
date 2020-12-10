@@ -1,0 +1,4 @@
+RO:0001000 #derives from
+RO:0000087 #has role
+RO:0000086 #has quality
+RO:0000052 #inheres in
