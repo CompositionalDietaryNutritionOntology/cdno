@@ -1,0 +1,5 @@
+﻿defined_class,defined_class_label,chemical,chemical_label,material,material_label
+CDNO:0200001,,CDNO:0000002,dry matter,PO:0009011,plant structure
+CDNO:0200002,,ENVO:02000090,ash,PO:0009011,plant structure
+CDNO:0200003,,CHEBI:16646,carbohydrate,PO:0009011,plant structure
+CDNO:0200004,,CHEBI:18154,polysaccharide,PO:0009011,plant structure
