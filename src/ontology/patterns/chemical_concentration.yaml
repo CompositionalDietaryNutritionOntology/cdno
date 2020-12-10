@@ -1,0 +1,42 @@
+pattern_name: cdno-p/patterns/chemical_concentration
+
+classes:
+  chemical entity: CHEBI:24431
+  plant structure: PO:0009011
+  concentration of: PATO:0000033
+
+relations:
+  part of: BFO:0000050
+  inheres in: RO:0000052
+
+vars:
+  chemical: "'chemical entity'"
+  material: "'plant structure'"
+
+name:
+  text: "concentration of %s in %s"
+  vars:
+    - chemical
+    - material
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s %s concentration"
+    vars:
+      - material
+      - chemical
+
+def:
+  text: "The concentration of %s when measured in %s."
+  vars:
+    - chemical
+    - material
+
+equivalentTo:
+  text: "'concentration of' and 'inheres in' some (%s and 'part of' some %s)"
+  vars:
+    - chemical
+    - material
