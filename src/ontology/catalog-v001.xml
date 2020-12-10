@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/modules/sugar_derivatives.owl" uri="modules/sugar_derivatives.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/modules/nutritional_components_framework_full.owll" uri="modules/nutritional_components_framework_full.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cdno/releases/2020-11-15/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
         <uri name="http://purl.obolibrary.org/obo/cdno/imports/ro_import.owl" uri="imports/ro_import.owl"/>
