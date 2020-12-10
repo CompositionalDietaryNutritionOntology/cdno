@@ -1,2 +1,2 @@
-PATO:0000001
-
+PATO:0000001  #quality
+PATO:0000033  #concentration of
