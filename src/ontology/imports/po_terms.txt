@@ -1,1 +1,2 @@
-PO:0030104 #caryopsis fruit
+PO:0030104  #caryopsis fruit
+PO:0009011	#plant structure
