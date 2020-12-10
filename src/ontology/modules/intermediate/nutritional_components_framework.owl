@@ -1,0 +1,4691 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cdno/modulesintermediate/nutritional_components_framework.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cdno/modulesintermediate/nutritional_components_framework.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/modulesintermediate/nutritional_components_framework.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/modules/intermediate/nutritional_components_framework.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000001">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">dietary nutritional component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">dry matter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">available carbohydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">free sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">dietary fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">soluble dietary fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">resistant starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">insoluble dietary fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">seed storage protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">macro element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">trace element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">plant secondary metabolite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_10223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-cryptoxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_10362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-cryptoxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26377"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(_)-phaseolin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_125451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_125451">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25036"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">silymarin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_12777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_12777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_131693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_131693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">docosatetraenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25481"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">1,2-napthoquinone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25481"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">1,4-napthoquinone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_133348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_133348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74630"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">acetyl glycitin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">theaflavin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eupatorin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_140677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17579"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">trans-beta-carotene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_142263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_142263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isopeonidin 3-o-rutinoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">choline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cysteine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">acetic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28796"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">inulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">5-formyltetrahydrofolic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">succinic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">palmitic acid (hexadecanoic acid)</rdfs:label>
+        <rdfs:label xml:lang="en">pentadecanoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_132142"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">juglone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15843">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arachidonic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">bromide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">luteolin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15891">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">taurine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15940">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">niacin (b3) (nicotinic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lycopene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">biotin (b7)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phosphatidylethanolamine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chlorogenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15889"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cholesterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">shikimic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">oleic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phloroglucinol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">quercetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phospholipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">alanine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">raffinose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">carbohydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166885">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166899"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">prolamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166886">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166899"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cruciferin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166887">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166899"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glutenin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166888">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">avenasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28824"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">delta7-stigmasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">apiose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166890 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166890">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenolic acid c6--c1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166891">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenylpropane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22580"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">aglycone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eicsoatetraenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166894">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xanthonolignoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166896">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">peltogynoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">3-arylcoumarin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23055"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">allomelanin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000009"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">globulin type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000009"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">albumin type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">simple oxygenated xanthones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">prenylated and related xanthones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166967">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cis-fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">trans-fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pyridoxine (b6)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin 3-o-rutinoside chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">methionine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16914 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16914">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24676"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">salicylic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16933">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">ergosterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16954">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitexin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">oxalic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">riboflavin (b2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucomannan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fluoride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stachyose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_71230"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phloretin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">maltose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phytic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanocobalamin (b12)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">scopoletin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-carotene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">ferulic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycine betaine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17754">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycerol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">serine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">triglyceride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17933">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27300"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">calcidiol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">diglyceride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">catechol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">polysaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23401"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">o-coumaric acid (2-coumaric acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tyrosine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xyloglucan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glutamic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">manganese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phosphatidyl-L-serine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arbutin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isovitexin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">apigenin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">6-hydroxyluteolin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">alkaloid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26776"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">anthraquinone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">ascorbic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">asparagine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">aspartic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38697"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-d-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cadmium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_12777"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23849"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">carotenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">catechin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_89634"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">catechol melanin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chalcone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chromones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">coumaric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23849">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">diterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">ellagitannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fat soluble vitamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galacturonan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">gallotannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33563"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycoglycerolipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hydroxybenzoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hydroxycinnamates (c6--c3)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hydroxyproline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">inositol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">iodine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isoleucine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">leucine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26004"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lignan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">linolenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lysine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mercury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">monoterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">monounsaturated fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">napthoquinone c6--c4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26004"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">neolignan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">neoxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">n-3 fatty acid (omega 3 pufa)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25863">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pelargonidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenylpropanoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phytoene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15889"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phytosterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">polyol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">polyphenol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">polyunsaturated fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">potassium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">condensed tannin</rdfs:label>
+        <rdfs:label xml:lang="en">proanthocyanidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">proline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pterocarpans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">quinic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24174"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rhamnogalacturonan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rhamnose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">saturated fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sesquiterpoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sodium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sodium chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26776"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stilbene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stilbenoid c6--c2--c6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sulfur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26195"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26849">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tartaric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">terpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">thiamine (b1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">threonine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">trehalose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">valine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">violaxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27300">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">water soluble vitamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xanthophyll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">zinc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27432">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-linolenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">b9 folate (folic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27475">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin 3-o-galactoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24278"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">genistin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">zeaxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isosakuranetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">boron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arsenic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">6-prenylnaringenin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">selenium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">histidine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin dimer b4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51867"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">acetophenone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cobalt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactomannan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sitosterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vanadium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27732">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">caffeine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27781">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">myristoleic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27843">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tryptophan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isoflavanone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22652"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">L-dehydroascorbic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27997">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">elaidic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenylalanine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28057">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">amylopectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin 3-o-rutinoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chromium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38755"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">genistein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">amylose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">nickel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pinocembrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38755"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">daidzein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hesperetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glutamine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mescaline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28384">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin K</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eriodictyol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-carotene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37166"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinoxylan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">kaempferol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">verbascose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166888"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">delta5-avenasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">campesterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-linolenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">molybdenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">copper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">narirutin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eriocitrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">palmitoleic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hesperidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">erucic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28808">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mannan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28819">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">naringin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arachidic acid (eicosanoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stigmasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">octanoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lutein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28842">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stearic acid (octadecanoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lignoceric acid (tetracosanoic acid)</rdfs:label>
+        <rdfs:label xml:lang="en">tetracosanoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phosphatidylinositol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">myristic acid (tetradecanoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28917">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">dihydromyricetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sakuranetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">behenic acid (docosanoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28946">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">theobromine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">aluminium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arginine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_21241"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22652"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">L-ascorbic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">4&apos;,7-dihydroxyflavone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">baicalein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mannitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lithium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">antimony</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">caesium atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">oxaloacetic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51867"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenylacetic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30768">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">propionic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30769">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">citric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30778">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">gallic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malonic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lauric acid (dodecanoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vanillic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30887">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isocitric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rhoifolin (apigenin 7-o-neohesperidoside)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">delphinidin 3-o-_-d-glucoside (myrtillin)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">brassicasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malvidin 3-o-_-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pelargonidin 3-o-rutinoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31985">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">petunidin 3-o-_-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">heptadecanoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23086"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">butein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stearidonic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">gondoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">barium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pyruvic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33234">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tocotrienol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocotrienol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocotrienol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocotrienol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocotrienol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">bismuth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rubidium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">strontium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lanthanum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">titanum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycolipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">capsaicin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galacturonic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33853">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">ribose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fucose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34778">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38755"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycitein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">monosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chicoric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">docosahexaenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">icosapentaenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">n-6 fatty acid (omega 6 pufa)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vaccenic acid (octadec-11-enoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23401"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">p-coumaric acid (-4-coumaric acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pelargonidin 3-o-_-d-glucoside chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">disaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">caffeic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">triterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15889"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">campestanol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cirsilineol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37664">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin 3-o-_-d-galactoside chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mannose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanin chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">flavan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">anthocyanidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">anthocyanin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38697"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">anthocyanin chlorides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hydroxyisoflavone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isoflavone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72577"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">coumestrol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78320"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">D-lactic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78320"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">L-lactic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24278"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">daidzin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22580"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">emodin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(-)-epigallocatechin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">flavone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_44247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">nervonic acid ((15)- tetracosenoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">diosmin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46905">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pantothenic acid (b5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47771">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">_-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47916">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72544"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">flavonoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23401"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">m-coumaric (3-coumaric acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">aurone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">dihydroflavanol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(-)-epigallocatechin 3-o-gallate</rdfs:label>
+        <rdfs:label xml:lang="en">(_)-epigallocatechin 3-gallate</rdfs:label>
+        <rdfs:label xml:lang="en">epigallocatechin-3-gallate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72544"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">biflavonoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">naringenin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">8-prenylnaringenin (sophoraflavanone b)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23849"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">retinol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">oligosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">flavanone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72544"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isoflavonoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">inorganic nitrate salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xanthones c6--c01--c6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51867">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phenolic ketone c6--c2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">geraldone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eicosatrienoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">homo-g-linolenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_57455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_57455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75782"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(6R)-5,10-methenyltetrahydrofolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">neohesperidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">palmitelaidic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lysophosphatidylcholine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_61204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">docosapentaenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_61266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15948"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cis-lycopene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62967">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phophotidlycholine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26004"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lignin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">organic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15889"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lupeol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_66046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_66046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">6-hydroxyluteolin 7-o-rhamnoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_66103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_66103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">jaceosidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_66331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_66331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23086"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xanthohumol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malvidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_66773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_66773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">poncirin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_67188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17579"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">beta-carotene-cis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_67347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26377"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(+)-pisatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_68329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">syringic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_70082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">myricitrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_70253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">4&apos;-o-methylepigallocatechin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_70254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">3&apos;-o-methylepicatechin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_70255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(-)-epicatechin 3-o-gallate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_70256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">4&apos;-o-methylepigallocatechin-3-o-gallate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phlorotannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(+)-gallocatechin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">dihydrochalcone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rotenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71971">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72544"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">neoflavonoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">flavanols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">flavonoid c6--c3--c6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">isoflavan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">coumestans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72577"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">coumestan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72785">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eicosatetraenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72850">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">eicosadienoic acid (icosadienoic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_73033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26377"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">pterocarpan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50753"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycosyloxyisoflavone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">4&apos;-o-methylcyanidin 3-o-d-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin 3-o-sambubioside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74960 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74960">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">homoeriodictyol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74961">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">neoeriocitrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">chrysin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">docosadienoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin dimer b6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin dimer b5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin dimer b3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin dimer b2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin dimer b1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin trimer c1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">procyanidin trimer c2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75782">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">vitamin B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75902">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hispidulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">nobiletin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(-)-epicatechin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">(+)-catechin 3-o-gallate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_77131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sinapic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_77366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">6,9,12,15,18,21-tetracosahexaenoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_77791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">luteolin 7-o-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_78320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">lactic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_78689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">hydrolysable tannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_79628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_79628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">gardenin b</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166888"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">delta7-avenasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74630"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malonyl daidzin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74630"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malonyl genistin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24278"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycitin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74630"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">malonyl glycitin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cyanidin 3-o-sophoroside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_71230"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">phlorizin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_81227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26267"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cinnamtannin a2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_81337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">cirsimaritin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_83231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xanthone glycoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_88354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_88354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_71230"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">3-hydroxyphloretin-2&apos;-o-xylosyl-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_89400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_89400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6570"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stigmastanol</rdfs:label>
+        <rdfs:label xml:lang="en">stigmastanol (sitostanol)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_89634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_89634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">melanin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">scutellarein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">sinensetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">tangeretin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">ash</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

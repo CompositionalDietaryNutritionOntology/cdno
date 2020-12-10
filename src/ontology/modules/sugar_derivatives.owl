@@ -1,0 +1,1537 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cdno/modules/sugar_derivatives.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cdno/modules/sugar_derivatives.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/modules/sugar_derivatives.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/modules/sugar_derivatives.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28057"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Amylopectin which is derived from starch.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">amylopectin derived from starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28102"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Amylose which is derived from starch.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">amylose derived from starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24174"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17309"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galacturonan which is derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26543"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17309"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Rhamnogalacturonan which is derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28808"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Mannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mannan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37166"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xylan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18233"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xyloglucan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xyloglucan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17020"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucomannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucomannan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Arabinoxylan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinoxylan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28796"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fructan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100011">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22590"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Arabinan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100012">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27680"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galactomannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactomannan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100013">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galactan which is derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from amylopectin derived from starch.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from amylopectin derived from starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from amylose derived from starch.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from amylose derived from starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100016">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from sucrose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100017">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from sucrose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructose derived from sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17306"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from maltose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from maltose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100019">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33830"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galacturonic acid which is derived from galacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galacturonic acid derived from galacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100020">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26546"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Rhamnose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">rhamnose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100021">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16689"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Apiose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">apiose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100022">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33830"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galacturonic acid which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galacturonic acid derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100023">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33984"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fucose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fucose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100024">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xylose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100025">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Arabinose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100026">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100027">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16634"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74961"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Raffinose which is derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100028">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100027"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from raffinose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactose derived from raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100029">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100027"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from raffinose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100030">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100027"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from raffinose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructose derived from raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100031">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17164"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74961"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Stachyose which is derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100032">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100031"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from stachyose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactose derived from stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100033">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100031"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from stachyose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100034">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100031"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from stachyose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructose derived from stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28586"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74961"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Verbascose which is derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100036">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100035"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from verbascose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">galactose derived from verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100037">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100035"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from verbascose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100038">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100035"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from verbascose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructose derived from verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100039">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_62967"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from cellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from cellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100040">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37684"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Mannose which is derived from mannan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mannose derived from mannan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100041">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from xylan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from xylan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100042">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xylose which is derived from xylan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylose derived from xylan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100043">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from xyloglucan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from xyloglucan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100044">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xylose which is derived from xyloglucan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylose derived from xyloglucan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100045">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from glucomannan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glucose derived from glucomannan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100046">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37684"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Mannose which is derived from glucomannan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">mannose derived from glucomannan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100047">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Arabinose which is derived from arabinoxylan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">arabinose derived from arabinoxylan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100048">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xylose which is derived from arabinoxylan derived from hemicellulose.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">xylose derived from arabinoxylan derived from hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100049">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_15443"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28796"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Inulin which is derived from fructan.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">inulin derived from fructan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100050">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDNO_0100049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from inulin derived from fructan.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fructose derived from inulin derived from fructan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100051">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Amino acid which is derived from protein.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">amino acid derived from protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100052">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Triglyceride which is derived from lipid.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">triglyceride derived from lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100053">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Fatty acid which is derived from lipid.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">fatty acid derived from lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100054">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166967"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Saturated fatty acid which is derived from cis-fatty acid.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">saturated fatty acid derived from cis-fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100055">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166967"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Monounsaturated fatty acid which is derived from cis-fatty acid.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">monounsaturated fatty acid derived from cis-fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100056">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166967"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Polyunsaturated fatty acid which is derived from cis-fatty acid.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">polyunsaturated fatty acid derived from cis-fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0100057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100057">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17754"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glycerol which is derived from polyol.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cdno#display"/>
+        <rdfs:label xml:lang="en">glycerol derived from polyol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15443"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16634"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16689"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_166967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_166967"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17164"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17306"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17309"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17754"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22590"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24174"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25413"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26543"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26546"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27680"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28102"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28586"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28796"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28808"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33830"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33984"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37166"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37684"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_61266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62967"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74961"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
