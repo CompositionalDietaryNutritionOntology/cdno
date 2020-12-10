@@ -1,4 +1,4 @@
 ﻿ontology ID,label,cross reference 1,cross reference 2
-ID,,A oboInOwl:hasDbXref SPLIT=|,AI oboInOwl:hasDbXref SPLIT=|
+ID,,A oboInOwl:hasDbXref SPLIT=|,A oboInOwl:hasDbXref SPLIT=|
 CDNO:0200001,,Dry,dry matter
 CDNO:0200002,,Ash,
