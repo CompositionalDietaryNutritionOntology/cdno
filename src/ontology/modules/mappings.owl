@@ -44,8 +44,8 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200001">
-        <oboInOwl:hasDbXref rdf:resource="dry matter"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry matter</oboInOwl:hasDbXref>
     </owl:Class>
     
 
