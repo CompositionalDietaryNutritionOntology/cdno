@@ -1,0 +1,530 @@
+﻿0 level,01st level ,2nd level,3rd level,4th level,5th level,6th level,Nutrition_tree_ID,[Level],ChEBI_ID,CDNO Relationships ,Synonym,,parent,parent ID,term,term ID,relationship
+dietary nutritional component,,,,,,,0_ROOT,[0],n/a,root,,,,,dietary nutritional component,unspecified CHEBI term,is a
+,water,,,,,,01_water,[1],CHEBI:15377,is a,,,dietary nutritional component,unspecified CHEBI term,water,CHEBI:15377,is a
+,dry matter,,,,,,01_dry matter,[1],unspecified CHEBI term,is a,"solids, total",,dietary nutritional component,unspecified CHEBI term,dry matter,unspecified CHEBI term,is a
+,ash,,,,,,01_ash,[1],ENVO:02000090,is a,,,dietary nutritional component,unspecified CHEBI term,ash,ENVO:02000090,is a
+,carbohydrate,,,,,,01_carbohydrate,[1],CHEBI:16646,is a,Total carbohydrate (US),,dietary nutritional component,unspecified CHEBI term,carbohydrate,CHEBI:16646,is a
+,,polysaccharide,,,,,02_polysaccharide,[2],CHEBI:18154,is a,,,carbohydrate,CHEBI:16646,polysaccharide,CHEBI:18154,is a
+,,,starch ,,,,03_starch,[3],CHEBI:28017,is a,,,polysaccharide,CHEBI:18154,starch,CHEBI:28017,is a
+,,,,amylopectin,,,04_amylopectin,[4],CHEBI:28057,derived from,,,starch,CHEBI:28017,amylopectin,CHEBI:28057,derived from
+,,,,amylose ,,,04_amylose ,[4],CHEBI:28102,derived from,,,starch,CHEBI:28017,amylose,CHEBI:28102,derived from
+,,,pectin,,,,03_pectin,[3],CHEBI:17309,is a,,,polysaccharide,CHEBI:18154,pectin,CHEBI:17309,is a
+,,,,galacturonan,,,04_galacturonan,[4],CHEBI:24174,derived from,,,pectin,CHEBI:17309,galacturonan,CHEBI:24174,derived from
+,,,,rhamnogalacturonan,,,04_rhamnogalacturonan,[4],CHEBI:26543,derived from,,,pectin,CHEBI:17309,rhamnogalacturonan,CHEBI:26543,derived from
+,,,cellulose ,,,,03_cellulose ,[3],CHEBI:62967,is a,closest chebi term,,polysaccharide,CHEBI:18154,cellulose,CHEBI:62967,is a
+,,,hemicellulose,,,,03_hemicellulose,[3],CHEBI:61266,is a,,,polysaccharide,CHEBI:18154,hemicellulose,CHEBI:61266,is a
+,,,,mannan,,,04_mannan,[4],CHEBI:28808,derived from,,,hemicellulose,CHEBI:61266,mannan,CHEBI:28808,derived from
+,,,,xylan,,,04_xylan,[4],CHEBI:37166,derived from,,,hemicellulose,CHEBI:61266,xylan,CHEBI:37166,derived from
+,,,,xyloglucan ,,,04_xyloglucan ,[4],CHEBI:18233,derived from,,,hemicellulose,CHEBI:61266,xyloglucan,CHEBI:18233,derived from
+,,,,glucomannan,,,04_glucomannan,[4],CHEBI:17020,derived from,,,hemicellulose,CHEBI:61266,glucomannan,CHEBI:17020,derived from
+,,,,arabinoxylan,,,04_arabinoxylan,[4],CHEBI:28427,derived from,,,hemicellulose,CHEBI:61266,arabinoxylan,CHEBI:28427,derived from
+,,,,fructan,,,04_fructan,[4],CHEBI:28796,derived from,,,hemicellulose,CHEBI:61266,fructan,CHEBI:28796,derived from
+,,,,,inulin,,05_inulin,[5],CHEBI:15443,is a,,,fructan,CHEBI:28796,inulin,CHEBI:15443,is a
+,,,,arabinan,,,03_arabinan,[4],CHEBI:22590,derived from,,,hemicellulose,CHEBI:61266,arabinan,CHEBI:22590,derived from
+,,,,galactomannan,,,03_galactomannan,[4],CHEBI:27680,derived from,,,hemicellulose,CHEBI:61266,galactomannan,CHEBI:27680,derived from
+,,,,galactan,,,03_galactan,[4],CHEBI:37165,derived from,,,hemicellulose,CHEBI:61266,galactan,CHEBI:37165,derived from
+,,monosaccharide,,,,,02_monosaccharide,[2],CHEBI:35381,is a,,,carbohydrate,CHEBI:16646,monosaccharide,CHEBI:35381,is a
+,,,glucose ,,,,03_glucose ,[3],CHEBI:17234,is a,,,monosaccharide,CHEBI:35381,glucose,CHEBI:17234,is a
+,,,fructose ,,,,03_fructose ,[3],CHEBI:28757,is a,,,monosaccharide,CHEBI:35381,fructose,CHEBI:28757,is a
+,,,rhamnose,,,,03_rhamnose,[3],CHEBI:26546,is a,,,monosaccharide,CHEBI:35381,rhamnose,CHEBI:26546,is a
+,,,apiose,,,,03_apiose,[3],CHEBI:16689,is a,,,monosaccharide,CHEBI:35381,apiose,CHEBI:16689,is a
+,,,galacturonic acid ,,,,03_galacturonic acid ,[3],CHEBI:33830,is a,,,monosaccharide,CHEBI:35381,galacturonic acid,CHEBI:33830,is a
+,,,fucose,,,,03_fucose,[3],CHEBI:33984,is a,,,monosaccharide,CHEBI:35381,fucose,CHEBI:33984,is a
+,,,xylose,,,,03_xylose,[3],CHEBI:18222,is a,,,monosaccharide,CHEBI:35381,xylose,CHEBI:18222,is a
+,,,arabinose,,,,03_arabinose,[3],CHEBI:22599,is a,,,monosaccharide,CHEBI:35381,arabinose,CHEBI:22599,is a
+,,,galactose,,,,03_galactose,[3],CHEBI:28260,is a,,,monosaccharide,CHEBI:35381,galactose,CHEBI:28260,is a
+,,,mannose,,,,03_mannose,[3],CHEBI:37684,is a,,,monosaccharide,CHEBI:35381,mannose,CHEBI:37684,is a
+,,,ribose,,,,03_ribose,[3],CHEBI:33942,is a,,,monosaccharide,CHEBI:35381,ribose,CHEBI:33942,is a
+,,disaccharide,,,,,02_disaccharide,[2],CHEBI:36233,is a,,,carbohydrate,CHEBI:16646,disaccharide,CHEBI:36233,is a
+,,,sucrose,,,,03_sucrose,[3],CHEBI:17992,is a,,,disaccharide,CHEBI:36233,sucrose,CHEBI:17992,is a
+,,,trehalose,,,,03_trehalose,[3],CHEBI:27082,is a,,,disaccharide,CHEBI:36233,trehalose,CHEBI:27082,is a
+,,,maltose ,,,,03_maltose ,[3],CHEBI:17306,is a,,,disaccharide,CHEBI:36233,maltose,CHEBI:17306,is a
+,,oligosaccharide,,,,,02_oligosaccharide,[2],CHEBI:50699,is a,,,carbohydrate,CHEBI:16646,oligosaccharide,CHEBI:50699,is a
+,,,raffinose family of oligosaccharide (rfo),,,,04_raffinose family of oligosaccharide (rfo),[3],CHEBI:74961,is a,,,oligosaccharide,CHEBI:50699,raffinose family of oligosaccharide (rfo),CHEBI:74961,is a
+,,,,raffinose,,,05_raffinose,[4],CHEBI:16634,is a,,,oligosaccharide,CHEBI:50699,raffinose,CHEBI:16634,is a
+,,,,stachyose,,,05_stachyose,[4],CHEBI:17164,is a,,,oligosaccharide,CHEBI:50699,stachyose,CHEBI:17164,is a
+,,,,verbascose,,,05_verbascose,[4],CHEBI:28586,is a,,,oligosaccharide,CHEBI:50699,verbascose,CHEBI:28586,is a
+,,,maltose ,,,,03_maltose ,[3],CHEBI:17306,is a,,,oligosaccharide,CHEBI:50699,maltose,CHEBI:17306,is a
+,,available carbohydrate,,,,,02_available carbohydrate,[2],unspecified CHEBI term,is a,,,carbohydrate,CHEBI:16646,available carbohydrate,unspecified CHEBI term,is a
+,,,starch,,,,03_starch,[3],CHEBI:28017,is a,,,available carbohydrate,unspecified CHEBI term,starch,CHEBI:28017,is a
+,,,,amylopectin,,,04_amylopectin,[4],CHEBI:28057,derived from,,,starch,CHEBI:28017,amylopectin,CHEBI:28057,derived from
+,,,,,glucose ,,05_glucose ,[5],CHEBI:17234,derived from,,,amylopectin derived from starch,,glucose,CHEBI:17234,derived from
+,,,,amylose ,,,04_amylose ,[4],CHEBI:28102,derived from,,,starch,CHEBI:28017,amylose,CHEBI:28102,derived from
+,,,,,glucose ,,05_glucose ,[5],CHEBI:17234,derived from,,,amylose derived from starch,,glucose,CHEBI:17234,derived from
+,,,free sugar,,,,03_free sugar,[3],unspecified CHEBI term,is a,,,available carbohydrate,unspecified CHEBI term,free sugar,unspecified CHEBI term,is a
+,,,,fructose ,,,04_fructose ,[4],CHEBI:28757,is a,,,free sugar,unspecified CHEBI term,fructose,CHEBI:28757,is a
+,,,,glucose,,,04_glucose,[4],CHEBI:17234,is a,,,free sugar,unspecified CHEBI term,glucose,CHEBI:17234,is a
+,,,,sucrose,,,04_sucrose,[4],CHEBI:17992,is a,,,free sugar,unspecified CHEBI term,sucrose,CHEBI:17992,is a
+,,,,,glucose,,05_glucose,[5],CHEBI:17234,derived from,,,sucrose,CHEBI:17992,glucose,CHEBI:17234,derived from
+,,,,,fructose,,05_fructose,[5],CHEBI:28757,derived from,,,sucrose,CHEBI:17992,fructose,CHEBI:28757,derived from
+,,,,maltose ,,,04_maltose ,[4],CHEBI:17306,is a,,,free sugar,unspecified CHEBI term,maltose,CHEBI:17306,is a
+,,,,,glucose,,05_glucose,[5],CHEBI:17234,derived from,,,maltose,CHEBI:17306,glucose,CHEBI:17234,derived from
+,,dietary fibre,,,,,02_dietary fibre,[2],unspecified CHEBI term,is a,"non digestible carbohydrate, resistant",,carbohydrate,CHEBI:16646,dietary fibre,unspecified CHEBI term,is a
+,,,soluble dietary fibre,,,,03_soluble dietary fibre,[3],unspecified CHEBI term,is a,,,dietary fibre,unspecified CHEBI term,soluble dietary fibre,unspecified CHEBI term,is a
+,,,,resistant starch,,,04_resistant starch,[4],unspecified CHEBI term,is a,,,soluble dietary fibre,unspecified CHEBI term,resistant starch,unspecified CHEBI term,is a
+,,,,pectin,,,04_pectin,[4],CHEBI:17309,is a,,,soluble dietary fibre,unspecified CHEBI term,pectin,CHEBI:17309,is a
+,,,,,galacturonan,,05_galacturonan,[5],CHEBI:24174,derived from,,,pectin,CHEBI:17309,galacturonan,CHEBI:24174,derived from
+,,,,,,galacturonic acid ,06_galacturonic acid ,[6],CHEBI:33830,derived from,,,galacturonan derived from pectin,,galacturonic acid,CHEBI:33830,derived from
+,,,,,rhamnogalacturonan,,05_rhamnogalacturonan,[5],CHEBI:26543,derived from,,,pectin,CHEBI:17309,rhamnogalacturonan,CHEBI:26543,derived from
+,,,,,,rhamnose,06_rhamnose,[6],CHEBI:26546,derived from,,,rhamnogalacturonan derived from pectin,,rhamnose,CHEBI:26546,derived from
+,,,,,,apiose,06_apiose,[6],CHEBI:16689,derived from,,,rhamnogalacturonan derived from pectin,,apiose,CHEBI:16689,derived from
+,,,,,,galacturonic acid ,06_galacturonic acid ,[6],CHEBI:33830,derived from,,,rhamnogalacturonan derived from pectin,,galacturonic acid,CHEBI:33830,derived from
+,,,,,,fucose,06_fucose,[6],CHEBI:33984,derived from,,,rhamnogalacturonan derived from pectin,,fucose,CHEBI:33984,derived from
+,,,,,,xylose,06_xylose,[6],CHEBI:18222,derived from,,,rhamnogalacturonan derived from pectin,,xylose,CHEBI:18222,derived from
+,,,,,,arabinose,06_arabinose,[6],CHEBI:22599,derived from,,,rhamnogalacturonan derived from pectin,,arabinose,CHEBI:22599,derived from
+,,,,,,galactose,06_galactose,[6],CHEBI:28260,derived from,,,rhamnogalacturonan derived from pectin,,galactose,CHEBI:28260,derived from
+,,,,raffinose family of oligosaccharide (rfo),,,04_raffinose family of oligosaccharide (rfo),[4],CHEBI:74961,is a,,,soluble dietary fibre,unspecified CHEBI term,raffinose family of oligosaccharide (rfo),CHEBI:74961,is a
+,,,,,raffinose,,05_raffinose,[5],CHEBI:16634,derived from,,,raffinose family of oligosaccharide (rfo),CHEBI:74961,raffinose,CHEBI:16634,derived from
+,,,,,,galactose,06_galactose,[6],CHEBI:28260,derived from,,,raffinose derived from raffinose family of oligosaccharide (rfo),,galactose,CHEBI:28260,derived from
+,,,,,,glucose,06_glucose,[6],CHEBI:17234,derived from,,,raffinose derived from raffinose family of oligosaccharide (rfo),,glucose,CHEBI:17234,derived from
+,,,,,,fructose ,06_fructose ,[6],CHEBI:28757,derived from,,,raffinose derived from raffinose family of oligosaccharide (rfo),,fructose,CHEBI:28757,derived from
+,,,,,stachyose,,05_stachyose,[5],CHEBI:17164,derived from,,,raffinose family of oligosaccharide (rfo),CHEBI:74961,stachyose,CHEBI:17164,derived from
+,,,,,,galactose,06_galactose,[6],CHEBI:28260,derived from,,,stachyose derived from raffinose family of oligosaccharide (rfo),,galactose,CHEBI:28260,derived from
+,,,,,,glucose,06_glucose,[6],CHEBI:17234,derived from,,,stachyose derived from raffinose family of oligosaccharide (rfo),,glucose,CHEBI:17234,derived from
+,,,,,,fructose ,06_fructose ,[6],CHEBI:28757,derived from,,,stachyose derived from raffinose family of oligosaccharide (rfo),,fructose,CHEBI:28757,derived from
+,,,,,verbascose,,05_verbascose,[5],CHEBI:28586,derived from,,,raffinose family of oligosaccharide (rfo),CHEBI:74961,verbascose,CHEBI:28586,derived from
+,,,,,,galactose,06_galactose,[6],CHEBI:28260,derived from,,,verbascose derived from raffinose family of oligosaccharide (rfo),,galactose,CHEBI:28260,derived from
+,,,,,,glucose,06_glucose,[6],CHEBI:17234,derived from,,,verbascose derived from raffinose family of oligosaccharide (rfo),,glucose,CHEBI:17234,derived from
+,,,,,,fructose ,06_fructose ,[6],CHEBI:28757,derived from,,,verbascose derived from raffinose family of oligosaccharide (rfo),,fructose,CHEBI:28757,derived from
+,,,insoluble dietary fibre,,,,03_insoluble dietary fibre,[3],unspecified CHEBI term,is a,,,dietary fibre,unspecified CHEBI term,insoluble dietary fibre,unspecified CHEBI term,is a
+,,,,cellulose ,,,04_cellulose ,[4],CHEBI:62967,is a,closest chebi term,,insoluble dietary fibre,unspecified CHEBI term,cellulose,CHEBI:62967,is a
+,,,,,glucose ,,05_glucose ,[5],CHEBI:17234,derived from,,,cellulose,CHEBI:62967,glucose,CHEBI:17234,derived from
+,,,,hemicellulose,,,04_hemicellulose,[4],CHEBI:61266,is a,,,insoluble dietary fibre,unspecified CHEBI term,hemicellulose,CHEBI:61266,is a
+,,,,,mannan,,05_mannan,[5],CHEBI:28808,derived from,,,hemicellulose,CHEBI:61266,mannan,CHEBI:28808,derived from
+,,,,,,mannose,06_mannose,[6],CHEBI:37684,derived from,,,mannan derived from hemicellulose,,mannose,CHEBI:37684,derived from
+,,,,,xylan,,05_xylan,[5],CHEBI:37166,derived from,,,hemicellulose,CHEBI:61266,xylan,CHEBI:37166,derived from
+,,,,,,glucose ,06_glucose ,[6],CHEBI:17234,derived from,,,xylan derived from hemicellulose,,glucose,CHEBI:17234,derived from
+,,,,,,xylose,06_xylose,[6],CHEBI:18222,derived from,,,xylan derived from hemicellulose,,xylose,CHEBI:18222,derived from
+,,,,,xyloglucan ,,05_xyloglucan ,[5],CHEBI:18233,derived from,,,hemicellulose,CHEBI:61266,xyloglucan,CHEBI:18233,derived from
+,,,,,,glucose ,06_glucose ,[6],CHEBI:17234,derived from,,,xyloglucan derived from hemicellulose,,glucose,CHEBI:17234,derived from
+,,,,,,xylose,06_xylose,[6],CHEBI:18222,derived from,,,xyloglucan derived from hemicellulose,,xylose,CHEBI:18222,derived from
+,,,,,glucomannan,,05_glucomannan,[5],CHEBI:17020,derived from,,,hemicellulose,CHEBI:61266,glucomannan,CHEBI:17020,derived from
+,,,,,,glucose ,06_glucose ,[6],CHEBI:17234,derived from,,,glucomannan derived from hemicellulose,,glucose,CHEBI:17234,derived from
+,,,,,,mannose ,06_mannose ,[6],CHEBI:37684,derived from,,,glucomannan derived from hemicellulose,,mannose,CHEBI:37684,derived from
+,,,,,arabinoxylan,,05_arabinoxylan,[5],CHEBI:28427,derived from,,,hemicellulose,CHEBI:61266,arabinoxylan,CHEBI:28427,derived from
+,,,,,,arabinose,06_arabinose,[6],CHEBI:22599,derived from,,,arabinoxylan derived from hemicellulose,,arabinose,CHEBI:22599,derived from
+,,,,,,xylose ,06_xylose ,[6],CHEBI:18222,derived from,,,arabinoxylan derived from hemicellulose,,xylose,CHEBI:18222,derived from
+,,,,fructan,,,04_fructan,[4],CHEBI:28796,is a,,,insoluble dietary fibre,unspecified CHEBI term,fructan,CHEBI:28796,is a
+,,,,,inulin,,05_inulin,[5],CHEBI:15443,derived from,,,fructan,CHEBI:28796,inulin,CHEBI:15443,derived from
+,,,,,,fructose ,06_fructose ,[6],CHEBI:28757,derived from,,,inulin derived from fructan,,fructose,CHEBI:28757,derived from
+,protein,,,,,,01_protein,[1],CHEBI:36080,is a,,,dietary nutritional component,unspecified CHEBI term,protein,CHEBI:36080,is a
+,,seed storage protein,,,,,02_seed storage protein,[2],unspecified CHEBI term,is a,,,protein,CHEBI:36080,seed storage protein,unspecified CHEBI term,is a
+,,,albumin type,,,,03_albumin type,[3],CHEBI:166964,is a,,,seed storage protein,unspecified CHEBI term,albumin type,CHEBI:166964,is a
+,,,globulin type,,,,03_globulin type,[3],CHEBI:166899,is a,,,seed storage protein,unspecified CHEBI term,globulin type,CHEBI:166899,is a
+,,,,prolamin,,,04_prolamin,[4],CHEBI:166885,is a,,,globulin type,CHEBI:166899,prolamin,CHEBI:166885,is a
+,,,,cruciferin,,,04_cruciferin,[4],CHEBI:166886,is a,,,globulin type,CHEBI:166899,cruciferin,CHEBI:166886,is a
+,,,,glutenin,,,04_glutenin,[4],CHEBI:166887,is a,,,globulin type,CHEBI:166899,glutenin,CHEBI:166887,is a
+,,amino acid,,,,,02_amino acid,[2],CHEBI:33709,derived from,,,protein,CHEBI:36080,amino acid,CHEBI:33709,derived from
+,,,alanine,,,,03_alanine,[3],CHEBI:16449,is a,,,amino acid,CHEBI:33709,alanine,CHEBI:16449,is a
+,,,arginine,,,,03_arginine,[3],CHEBI:29016,is a,,,amino acid,CHEBI:33709,arginine,CHEBI:29016,is a
+,,,asparagine,,,,03_asparagine,[3],CHEBI:22653,is a,,,amino acid,CHEBI:33709,asparagine,CHEBI:22653,is a
+,,,aspartic acid,,,,03_aspartic acid,[3],CHEBI:22660,is a,,,amino acid,CHEBI:33709,aspartic acid,CHEBI:22660,is a
+,,,cysteine,,,,03_cysteine,[3],CHEBI:15356,is a,,,amino acid,CHEBI:33709,cysteine,CHEBI:15356,is a
+,,,glutamic acid,,,,03_glutamic acid,[3],CHEBI:18237,is a,,,amino acid,CHEBI:33709,glutamic acid,CHEBI:18237,is a
+,,,glutamine,,,,03_glutamine,[3],CHEBI:28300,is a,,,amino acid,CHEBI:33709,glutamine,CHEBI:28300,is a
+,,,glycine,,,,03_glycine,[3],CHEBI:15428,is a,,,amino acid,CHEBI:33709,glycine,CHEBI:15428,is a
+,,,histidine,,,,03_histidine,[3],CHEBI:27570,is a,,,amino acid,CHEBI:33709,histidine,CHEBI:27570,is a
+,,,hydroxyproline,,,,03_hydroxyproline,[3],CHEBI:24741,is a,,,amino acid,CHEBI:33709,hydroxyproline,CHEBI:24741,is a
+,,,isoleucine,,,,03_isoleucine,[3],CHEBI:24898,is a,,,amino acid,CHEBI:33709,isoleucine,CHEBI:24898,is a
+,,,leucine,,,,03_leucine,[3],CHEBI:25017,is a,,,amino acid,CHEBI:33709,leucine,CHEBI:25017,is a
+,,,lysine,,,,03_lysine,[3],CHEBI:25094,is a,,,amino acid,CHEBI:33709,lysine,CHEBI:25094,is a
+,,,methionine,,,,03_methionine,[3],CHEBI:16811,is a,,,amino acid,CHEBI:33709,methionine,CHEBI:16811,is a
+,,,phenylalanine ,,,,03_phenylalanine ,[3],CHEBI:28044,is a,,,amino acid,CHEBI:33709,phenylalanine,CHEBI:28044,is a
+,,,proline,,,,03_proline,[3],CHEBI:26271,is a,,,amino acid,CHEBI:33709,proline,CHEBI:26271,is a
+,,,serine ,,,,03_serine ,[3],CHEBI:17822,is a,,,amino acid,CHEBI:33709,serine,CHEBI:17822,is a
+,,,threonine,,,,03_threonine,[3],CHEBI:26986,is a,,,amino acid,CHEBI:33709,threonine,CHEBI:26986,is a
+,,,tryptophan ,,,,03_tryptophan ,[3],CHEBI:27897,is a,,,amino acid,CHEBI:33709,tryptophan,CHEBI:27897,is a
+,,,tyrosine,,,,03_tyrosine,[3],CHEBI:18186,is a,,,amino acid,CHEBI:33709,tyrosine,CHEBI:18186,is a
+,,,valine,,,,03_valine,[3],CHEBI:27266,is a,,,amino acid,CHEBI:33709,valine,CHEBI:27266,is a
+,lipid,,,,,,01_lipid,[1],CHEBI:18059,is a,,,dietary nutritional component,unspecified CHEBI term,lipid,CHEBI:18059,is a
+,,diglyceride,,,,,02_diglyceride,[2],CHEBI:18035,is a,,,lipid,CHEBI:18059,diglyceride,CHEBI:18035,is a
+,,triglyceride,,,,,02_triglyceride,[2],CHEBI:17855,derived from,,,lipid,CHEBI:18059,triglyceride,CHEBI:17855,derived from
+,,fatty acid,,,,,02_fatty acid,[2],CHEBI:35366,derived from,,,lipid,CHEBI:18059,fatty acid,CHEBI:35366,derived from
+,,,cis-fatty acid,,,,03_cis-fatty acid,[3],CHEBI:166967,is a,equivalent chebi term,,fatty acid,CHEBI:35366,cis-fatty acid,CHEBI:166967,is a
+,,,,saturated fatty acid,,,04_saturated fatty acid,[4],CHEBI:26607,derived from,,,cis-fatty acid,CHEBI:166967,saturated fatty acid,CHEBI:26607,derived from
+,,,,,octanoic acid,,05_octanoic acid,[5],CHEBI:28837,is a,,,saturated fatty acid,CHEBI:26607,octanoic acid,CHEBI:28837,is a
+,,,,,pentadecanoic acid,,05_pentadecanoic acid,[5],CHEBI:15756,is a,,,saturated fatty acid,CHEBI:26607,pentadecanoic acid,CHEBI:15756,is a
+,,,,,tetracosanoic acid,,05_tetracosanoic acid,[5],CHEBI:28866,is a,,,saturated fatty acid,CHEBI:26607,tetracosanoic acid,CHEBI:28866,is a
+,,,,,lauric acid (dodecanoic acid),,05_lauric acid (dodecanoic acid),[5],CHEBI:30805,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,lauric acid (dodecanoic acid),CHEBI:30805,is a
+,,,,,myristic acid (tetradecanoic acid),,05_myristic acid (tetradecanoic acid),[5],CHEBI:28875,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,myristic acid (tetradecanoic acid),CHEBI:28875,is a
+,,,,,palmitic acid (hexadecanoic acid),,05_palmitic acid (hexadecanoic acid),[5],CHEBI:15756,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,palmitic acid (hexadecanoic acid),CHEBI:15756,is a
+,,,,,heptadecanoic acid,,05_heptadecanoic acid,[5],CHEBI:32365,is a,,,saturated fatty acid,CHEBI:26607,heptadecanoic acid,CHEBI:32365,is a
+,,,,,stearic acid (octadecanoic acid),,05_stearic acid (octadecanoic acid),[5],CHEBI:28842,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,stearic acid (octadecanoic acid),CHEBI:28842,is a
+,,,,,arachidic acid (eicosanoic acid),,05_arachidic acid (eicosanoic acid),[5],CHEBI:28822,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,arachidic acid (eicosanoic acid),CHEBI:28822,is a
+,,,,,behenic acid (docosanoic acid),,05_behenic acid (docosanoic acid),[5],CHEBI:28941,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,behenic acid (docosanoic acid),CHEBI:28941,is a
+,,,,,lignoceric acid (tetracosanoic acid) ,,05_lignoceric acid (tetracosanoic acid) ,[5],CHEBI:28866,is a,equivalent chebi term,,saturated fatty acid,CHEBI:26607,lignoceric acid (tetracosanoic acid),CHEBI:28866,is a
+,,,,,propionic acid,,05_ propionic acid,[5],CHEBI:30768,is a,,,saturated fatty acid,CHEBI:26607,propionic acid,CHEBI:30768,is a
+,,,,monounsaturated fatty acid,,,04_monounsaturated fatty acid,[4],CHEBI:25413,derived from,,,cis-fatty acid,CHEBI:166967,monounsaturated fatty acid,CHEBI:25413,derived from
+,,,,,myristoleic acid,,05_myristoleic acid,[5],CHEBI:27781,is a,,,monounsaturated fatty acid,CHEBI:25413,myristoleic acid,CHEBI:27781,is a
+,,,,,palmitoleic acid,,05_palmitoleic acid,[5],CHEBI:28716,is a,,,monounsaturated fatty acid,CHEBI:25413,palmitoleic acid,CHEBI:28716,is a
+,,,,,oleic acid,,05_oleic acid,[5],CHEBI:16196,is a,,,monounsaturated fatty acid,CHEBI:25413,oleic acid,CHEBI:16196,is a
+,,,,,palmitelaidic acid,,05_palmitelaidic acid,[5],CHEBI:59265,is a,,,monounsaturated fatty acid,CHEBI:25413,palmitelaidic acid,CHEBI:59265,is a
+,,,,,elaidic acid,,05_elaidic acid,[5],CHEBI:27997,is a,,,monounsaturated fatty acid,CHEBI:25413,elaidic acid,CHEBI:27997,is a
+,,,,,vaccenic acid (octadec-11-enoic acid),,05_vaccenic acid (octadec-11-enoic acid),[5],CHEBI:36023,is a,equivalent chebi term,,monounsaturated fatty acid,CHEBI:25413,vaccenic acid (octadec-11-enoic acid),CHEBI:36023,is a
+,,,,,gondoic acid,,05_gondoic acid ,[5],CHEBI:32425,is a,equivalent chebi term,,monounsaturated fatty acid,CHEBI:25413,gondoic acid,CHEBI:32425,is a
+,,,,,erucic acid,,05_erucic acid,[5],CHEBI:28792,is a,,,monounsaturated fatty acid,CHEBI:25413,erucic acid,CHEBI:28792,is a
+,,,,,nervonic acid ((15)- tetracosenoic acid),,05_nervonic acid ((15)- tetracosenoic acid),[5],CHEBI:44247,is a,equivalent chebi term,,monounsaturated fatty acid,CHEBI:25413,nervonic acid ((15)- tetracosenoic acid),CHEBI:44247,is a
+,,,,polyunsaturated fatty acid ,,,04_polyunsaturated fatty acid,[4],CHEBI:26208,derived from,equivalent chebi term,,cis-fatty acid,CHEBI:166967,polyunsaturated fatty acid,CHEBI:26208,derived from
+,,,,,n-3 fatty acid (omega 3 pufa),,05_n-3 fatty acid (omega 3 pufa),[5],CHEBI:25681,is a,,,polyunsaturated fatty acid,CHEBI:26208,n-3 fatty acid (omega 3 pufa),CHEBI:25681,is a
+,,,,,,stearidonic acid,06_stearidonic acid,[6],CHEBI:32389,is a,equivalent chebi term,,polyunsaturated fatty acid,CHEBI:26208,stearidonic acid,CHEBI:32389,is a
+,,,,,,eicosatrienoic acid,06_eicosatrienoic acid,[6],CHEBI:53460,is a,equivalent chebi term,,polyunsaturated fatty acid,CHEBI:26208,eicosatrienoic acid,CHEBI:53460,is a
+,,,,,,eicosatetraenoic acid,06_eicsoatetraenoic acid,[6],CHEBI:166893,is a,equivalent chebi term,,polyunsaturated fatty acid,CHEBI:26208,eicsoatetraenoic acid,CHEBI:166893,is a
+,,,,,,"6,9,12,15,18,21-tetracosahexaenoic acid","7_6,9,12,15,18,21-tetracosahexaenoic acid",[6],CHEBI:77366,is a,equivalent chebi term,,polyunsaturated fatty acid,CHEBI:26208,"6,9,12,15,18,21-tetracosahexaenoic acid",CHEBI:77366,is a
+,,,,,,α-linolenic acid,06_α-linolenic acid,[6],CHEBI:27432,is a,,,polyunsaturated fatty acid,CHEBI:26208,α-linolenic acid,CHEBI:27432,is a
+,,,,,,icosapentaenoic acid,06_icosapentaenoic acid,[6],CHEBI:36006,is a,eicosapentaenoic acid (EPA),,polyunsaturated fatty acid,CHEBI:26208,icosapentaenoic acid,CHEBI:36006,is a
+,,,,,,docosapentaenoic acid,06_docosapentaenoic acid,[6],CHEBI:61204,is a,,,polyunsaturated fatty acid,CHEBI:26208,docosapentaenoic acid,CHEBI:61204,is a
+,,,,,,docosahexaenoic acid,06_docosahexaenoic acid,[6],CHEBI:36005,is a,,,polyunsaturated fatty acid,CHEBI:26208,docosahexaenoic acid,CHEBI:36005,is a
+,,,,,,eicosatetraenoic acid (eta),06_eicosatetraenoic acid,[6],CHEBI:72785,is a,,,polyunsaturated fatty acid,CHEBI:26208,eicosatetraenoic acid,CHEBI:72785,is a
+,,,,,n-6 fatty acid (omega 6 pufa),,05_n-6 fatty acid (omega 6 pufa),[5],CHEBI:36009,is a,equivalent chebi term,,polyunsaturated fatty acid,CHEBI:26208,n-6 fatty acid (omega 6 pufa),CHEBI:36009,is a
+,,,,,,linolenic acid,06_ linolenic acid,[6],CHEBI:25048,is a,,,polyunsaturated fatty acid,CHEBI:26208,linolenic acid,CHEBI:25048,is a
+,,,,,,homo-g-linolenic acid,06_homo-g-linolenic acid,[6],CHEBI:53486,is a,,,polyunsaturated fatty acid,CHEBI:26208,homo-g-linolenic acid,CHEBI:53486,is a
+,,,,,,γ-linolenic acid,06_γ-linolenic acid,[6],CHEBI:28661,is a,,,polyunsaturated fatty acid,CHEBI:26208,γ-linolenic acid,CHEBI:28661,is a
+,,,,,,eicosadienoic acid  (icosadienoic acid),06_eicosadienoic acid (icosadienoic acid),[6],CHEBI:72850,is a,equivalent chebi term,,polyunsaturated fatty acid,CHEBI:26208,eicosadienoic acid (icosadienoic acid),CHEBI:72850,is a
+,,,,,,arachidonic acid,06_arachidonic acid,[6],CHEBI:15843,is a,,,polyunsaturated fatty acid,CHEBI:26208,arachidonic acid,CHEBI:15843,is a
+,,,,,,docosadienoic acid ,06_docosadienoic acid ,[6],CHEBI:75115,is a,,,polyunsaturated fatty acid,CHEBI:26208,docosadienoic acid,CHEBI:75115,is a
+,,,,,,docosatetraenoic acid,06_docosatetraenoic acid,[6],CHEBI:131693,is a,,,polyunsaturated fatty acid,CHEBI:26208,docosatetraenoic acid,CHEBI:131693,is a
+,,,,,,docosapentaenoic acid,06_docosapentaenoic acid,[6],CHEBI:61204,is a,,,polyunsaturated fatty acid,CHEBI:26208,docosapentaenoic acid,CHEBI:61204,is a
+,,,trans-fatty acid,,,,03_trans-fatty acid,[3],CHEBI:166968,is a,,,fatty acid,CHEBI:35366,trans-fatty acid,CHEBI:166968,is a
+,,capsaicin,,,,,02_capsaicin,[2],CHEBI:3374,is a,equivalent chebi term,,lipid,CHEBI:18059,capsaicin,CHEBI:3374,is a
+,,phospholipid,,,,,02_phospholipid,[2],CHEBI:16247,is a,,,lipid,CHEBI:18059,phospholipid,CHEBI:16247,is a
+,,,phophotidlycholine,,,,03_phophotidlycholine,[3],CHEBI:64482,is a,,,phospholipid,CHEBI:16247,phophotidlycholine,CHEBI:64482,is a
+,,,phosphatidylethanolamine,,,,03_phosphatidylethanolamine,[3],CHEBI:16038,is a,,,phospholipid,CHEBI:16247,phosphatidylethanolamine,CHEBI:16038,is a
+,,,phosphatidyl-L-serine,,,,03_phosphatidyl-L-serine,[3],CHEBI 18303,is a,,,phospholipid,CHEBI:16247,phosphatidyl-L-serine,CHEBI:18303,is a
+,,,phosphatidylinositol,,,,03_phosphatidylinositol,[3],CHEBI:28874,is a,,,phospholipid,CHEBI:16247,phosphatidylinositol,CHEBI:28874,is a
+,,,lysophosphatidylcholine ,,,,03_lysophosphatidylcholine ,[3],CHEBI:60479,is a,,,phospholipid,CHEBI:16247,lysophosphatidylcholine,CHEBI:60479,is a
+,,glycolipid,,,,,02_glycolipid,[2],CHEBI:33563,is a,,,lipid,CHEBI:18059,glycolipid,CHEBI:33563,is a
+,,,glycoglycerolipid,,,,03_glycoglycerolipid,[3],CHEBI:24385,is a,,,glycolipid,CHEBI:33563,glycoglycerolipid,CHEBI:24385,is a
+,,sterol,,,,,02_sterol,[2],CHEBI:15889,is a,,,lipid,CHEBI:18059,sterol,CHEBI:15889,is a
+,,,campestanol,,,,03_campestanol,[3],CHEBI:36799,is a,,,sterol,CHEBI:15889,campestanol,CHEBI:36799,is a
+,,,cholesterol,,,,03_cholesterol,[3],CHEBI:16113,is a,,,sterol,CHEBI:15889,cholesterol,CHEBI:16113,is a
+,,,lupeol,,,,03_lupeol,[3],CHEBI:6570,is a,,,sterol,CHEBI:15889,lupeol,CHEBI:6570,is a
+,,,,stigmastanol (sitostanol),,,04_stigmastanol (sitostanol),[4],CHEBI:89400,is a,,,lupeol,CHEBI:6570,stigmastanol (sitostanol),CHEBI:89400,is a
+,,,phytosterol,,,,03_phytosterol,[3],CHEBI:26125,is a,,,sterol,CHEBI:15889,phytosterol,CHEBI:26125,is a
+,,,,avenasterol,,,04_avenasterol,[4],CHEBI:166888,is a,,,phytosterol,CHEBI:26125,avenasterol,CHEBI:166888,is a
+,,,,,delta5-avenasterol,,05_delta5-avenasterol,[5],CHEBI:28604,is a,,,avenasterol,CHEBI:166888,delta5-avenasterol,CHEBI:28604,is a
+,,,,,delta7-avenasterol,,05_delta7-avenasterol,[5],CHEBI:80096,is a,,,avenasterol,CHEBI:166888,delta7-avenasterol,CHEBI:80096,is a
+,,,,brassicasterol,,,04_brassicasterol,[4],CHEBI:3168,is a,,,phytosterol,CHEBI:26125,brassicasterol,CHEBI:3168,is a
+,,,,campesterol,,,04_campesterol,[4],CHEBI:28623,is a,,,phytosterol,CHEBI:26125,campesterol,CHEBI:28623,is a
+,,,,ergosterol,,,04_ergosterol,[4],CHEBI:16933,is a,,,phytosterol,CHEBI:26125,ergosterol,CHEBI:16933,is a
+,,,,sitosterol,,,04_sitosterol,[4],CHEBI:27693,is a,,,phytosterol,CHEBI:26125,sitosterol,CHEBI:27693,is a
+,,,,stigmastanol,,,04_stigmastanol,[4],CHEBI:89400,is a,,,phytosterol,CHEBI:26125,stigmastanol,CHEBI:89400,is a
+,,,,stigmasterol,,,04_stigmasterol,[4],CHEBI:28824,is a,,,phytosterol,CHEBI:26125,stigmasterol,CHEBI:28824,is a
+,,,,,delta7-stigmasterol,,05_delta7-stigmasterol,[5],CHEBI:166889,is a,Corbisterol,,stigmasterol,CHEBI:28824,delta7-stigmasterol,CHEBI:166889,is a
+,element,,,,,,01_element,[1],unspecified chebi term,is a,minerals,,dietary nutritional component,unspecified CHEBI term,element,unspecified CHEBI term,is a
+,,macro element,,,,,02_macro element,[2],unspecified chebi term,is a,macromineral,,element,unspecified chebi term,macro element,unspecified CHEBI term,is a
+,,,calcium,,,,03_calcium,[3],CHEBI:22984,is a,equivalent chebi term,,macro element,unspecified chebi term,calcium,CHEBI:22984,is a
+,,,chloride,,,,03_chloride,[3],CHEBI:17996,is a,,,macro element,unspecified chebi term,chloride,CHEBI:17996,is a
+,,,magnesium,,,,03_magnesium,[3],CHEBI:25107,is a,equivalent chebi term,,macro element,unspecified chebi term,magnesium,CHEBI:25107,is a
+,,,nitrogen,,,,03_nitrogen,[3],CHEBI:25555,is,equivalent chebi term,,macro element,unspecified chebi term,nitrogen,CHEBI:25555,is a
+,,,phosphorus,,,,03_phosphorus,[3],CHEBI:28659,is a,equivalent chebi term,,macro element,unspecified chebi term,phosphorus,CHEBI:28659,is a
+,,,potassium,,,,03_potassium,[3],CHEBI:26216,is a,equivalent chebi term,,macro element,unspecified chebi term,potassium,CHEBI:26216,is a
+,,,sodium,,,,03_sodium,[3],CHEBI:26708,is a,equivalent chebi term,,macro element,unspecified chebi term,sodium,CHEBI:26708,is a
+,,,sulfur,,,,03_sulfur,[3],CHEBI:26833,is a,equivalent chebi term,,macro element,unspecified chebi term,sulfur,CHEBI:26833,is a
+,,trace element,,,,,02_trace element,[2],unspecified chebi term,is a,micromineral,,element,unspecified chebi term,trace element,unspecified CHEBI term,is a
+,,,aluminium,,,,03_aluminium,[3],CHEBI:28984,is a,equivalent chebi term,,trace element,unspecified chebi term,aluminium,CHEBI:28984,is a
+,,,antimony,,,,03_antimony,[3],CHEBI:30513,is a,equivalent chebi term,,trace element,unspecified chebi term,antimony,CHEBI:30513,is a
+,,,arsenic,,,,03_arsenic,[3],CHEBI:27563,is a,equivalent chebi term,,trace element,unspecified chebi term,arsenic,CHEBI:27563,is a
+,,,boron,,,,03_boron,[3],CHEBI:27560,is a,equivalent chebi term,,trace element,unspecified chebi term,boron,CHEBI:27560,is a
+,,,cadmium,,,,03_cadmium,[3],CHEBI:22977,is a,equivalent chebi term,,trace element,unspecified chebi term,cadmium,CHEBI:22977,is a
+,,,chromium,,,,03_chromium,[3],CHEBI:28073,is a,equivalent chebi term,,trace element,unspecified chebi term,chromium,CHEBI:28073,is a
+,,,cobalt,,,,03_cobalt,[3],CHEBI:27638,is a,equivalent chebi term,,trace element,unspecified chebi term,cobalt,CHEBI:27638,is a
+,,,copper,,,,03_copper,[3],CHEBI:28694,is a,equivalent chebi term,,trace element,unspecified chebi term,copper,CHEBI:28694,is a
+,,,fluoride,,,,03_fluoride,[3],CHEBI:17051,is a,equivalent chebi term,,trace element,unspecified chebi term,fluoride,CHEBI:17051,is a
+,,,iodine,,,,03_iodine,[3],CHEBI:24859,is a,equivalent chebi term,,trace element,unspecified chebi term,iodine,CHEBI:24859,is a
+,,,iron,,,,03_iron,[3],CHEBI:18248,is a,equivalent chebi term,,trace element,unspecified chebi term,iron,CHEBI:18248,is a
+,,,lead,,,,03_lead,[3],CHEBI:25016,is a,equivalent chebi term,,trace element,unspecified chebi term,lead,CHEBI:25016,is a
+,,,lithium,,,,03_lithium,[3],CHEBI:30145,is a,equivalent chebi term,,trace element,unspecified chebi term,lithium,CHEBI:30145,is a
+,,,manganese,,,,03_manganese,[3],CHEBI:18291,is a,equivalent chebi term,,trace element,unspecified chebi term,manganese,CHEBI:18291,is a
+,,,mercury,,,,03_mercury,[3],CHEBI:25195,is a,equivalent chebi term,,trace element,unspecified chebi term,mercury,CHEBI:25195,is a
+,,,molybdenum,,,,03_molybdenum,[3],CHEBI:28685,is a,equivalent chebi term,,trace element,unspecified chebi term,molybdenum,CHEBI:28685,is a
+,,,nickel,,,,03_nickel,[3],CHEBI:28112,is a,equivalent chebi term,,trace element,unspecified chebi term,nickel,CHEBI:28112,is a
+,,,rubidium,,,,03_rubidium,[3],CHEBI:33322,is a,equivalent chebi term,,trace element,unspecified chebi term,rubidium,CHEBI:33322,is a
+,,,selenium,,,,03_selenium,[3],CHEBI:27568,is a,equivalent chebi term,,trace element,unspecified chebi term,selenium,CHEBI:27568,is a
+,,,strontium,,,,03_strontium,[3],CHEBI:33324,is a,equivalent chebi term,,trace element,unspecified chebi term,strontium,CHEBI:33324,is a
+,,,tin,,,,03_tin,[3],CHEBI:27007,is a,equivalent chebi term,,trace element,unspecified chebi term,tin,CHEBI:27007,is a
+,,,titanum,,,,03_titanum,[3],CHEBI:33341,is a,,,trace element,unspecified chebi term,titanum,CHEBI:33341,is a
+,,,vanadium,,,,03_vanadium,[3],CHEBI:27698,is a,equivalent chebi term,,trace element,unspecified chebi term,vanadium,CHEBI:27698,is a
+,,,zinc,,,,03_zinc,[3],CHEBI:27363,is a,equivalent chebi term,,trace element,unspecified chebi term,zinc,CHEBI:27363,is a
+,,,barium,,,,03_barium,[3],CHEBI:32595,is a,,,trace element,unspecified chebi term,barium,CHEBI:32595,is a
+,,,caesium,,,,03_caesium atom,[3],CHEBI:30514,is a,,,trace element,unspecified chebi term,caesium atom,CHEBI:30514,is a
+,,,bismuth,,,,03_bismuth,[3],CHEBI:33301,is a,,,trace element,unspecified chebi term,bismuth,CHEBI:33301,is a
+,,,lanthanum,,,,03_lanthanum,[3],CHEBI:33336,is a,,,trace element,unspecified chebi term,lanthanum,CHEBI:33336,is a
+,salt,,,,,,01_salt,[1],CHEBI:24866,is a,,,dietary nutritional component,unspecified CHEBI term,salt,CHEBI:24866,is a
+,,sodium chloride ,,,,,02_sodium chloride,[2],CHEBI:26710,is a,,,salt,CHEBI:24866,sodium chloride,CHEBI:26710,is a
+,,inorganic nitrate,,,,,02_inorganic nitrate salt,[2],CHEBI:51084,is a,,,salt,CHEBI:24866,inorganic nitrate salt,CHEBI:51084,is a
+,,bromide,,,,,02_bromide,[2],CHEBI:15858,is a,,,salt,CHEBI:24866,bromide,CHEBI:15858,is a
+,vitamin,,,,,,01_vitamin,[1],CHEBI:33229,is a,,,dietary nutritional component,unspecified CHEBI term,vitamin,CHEBI:33229,is a
+,,water soluble vitamin,,,,,02_water soluble vitamin,[2],CHEBI:27314,is a,,,vitamin,CHEBI:33229,water soluble vitamin,CHEBI:27314,is a
+,,,vitamin B,,,,03_vitamin B,[3],CHEBI:75782,has role,equivalent chebi term,,water soluble vitamin,CHEBI:27314,vitamin B,CHEBI:75782,has role
+,,,,5-formyltetrahydrofolic acid,,,04_5-formyltetrahydrofolic acid,[4],CHEBI:15640,is a,,,vitamin B,CHEBI:75782,5-formyltetrahydrofolic acid,CHEBI:15640,is a
+,,,,"(6R)-5,10-methenyltetrahydrofolate",,,"04_(6R)-5,10-methenyltetrahydrofolate",[4],CHEBI:57455,is a,,,vitamin B,CHEBI:75782,"(6R)-5,10-methenyltetrahydrofolate",CHEBI:57455,is a
+,,,,thiamine (b1),,,04_thiamine (b1),[4],CHEBI:26948,is a,equivalent chebi term,,vitamin B,CHEBI:75782,thiamine (b1),CHEBI:26948,is a
+,,,,riboflavin (b2),,,04_riboflavin (b2),[4],CHEBI:17015,is a,equivalent chebi term,,vitamin B,CHEBI:75782,riboflavin (b2),CHEBI:17015,is a
+,,,,niacin (b3) (nicotinic acid),,,04_niacin (b3) (nicotinic acid),[4],CHEBI:15940,is a,equivalent chebi term,,vitamin B,CHEBI:75782,niacin (b3) (nicotinic acid),CHEBI:15940,is a
+,,,,pantothenic acid (b5),,,04_pantothenic acid (b5),[4],CHEBI:46905,is a,equivalent chebi term,,vitamin B,CHEBI:75782,pantothenic acid (b5),CHEBI:46905,is a
+,,,,pyridoxine (b6),,,04_pyridoxine (b6),[4],CHEBI:16709,is a,equivalent chebi term,,vitamin B,CHEBI:75782,pyridoxine (b6),CHEBI:16709,is a
+,,,,biotin (b7),,,04_biotin (b7),[4],CHEBI:15956,is a,equivalent chebi term,,vitamin B,CHEBI:75782,biotin (b7),CHEBI:15956,is a
+,,,,b9 folate (folic acid),,,04_b9 folate (folic acid),[4],CHEBI:27470,is a,equivalent chebi term,,vitamin B,CHEBI:75782,b9 folate (folic acid),CHEBI:27470,is a
+,,,,cyanocobalamin (b12),,,04_cyanocobalamin (b12),[4],CHEBI:17439,is a,equivalent chebi term,,vitamin B,CHEBI:75782,cyanocobalamin (b12),CHEBI:17439,is a
+,,,vitamin C ,,,,03_vitamin C,[3],CHEBI:21241,has role,,,water soluble vitamin,CHEBI:27314,vitamin C,CHEBI:21241,has role
+,,,,L-ascorbic acid,,,04_L-ascorbic acid,[4],CHEBI:29073,is a,,,vitamin C,CHEBI:21241,L-ascorbic acid,CHEBI:29073,is a
+,,fat soluble vitamin,,,,,02_fat soluble vitamin,[2],CHEBI:24020,is a,,,vitamin,CHEBI:33229,fat soluble vitamin,CHEBI:24020,is a
+,,,vitamin A,,,,03_vitamin A,[3],CHEBI:12777,has role,,,fat soluble vitamin,CHEBI:24020,vitamin A,CHEBI:12777,has role
+,,,,carotenoid,,,04_carotenoid,[4],CHEBI:23044,is a,,,vitamin A,CHEBI:12777,carotenoid,CHEBI:23044,is a
+,,,,,α-carotene,,05_α-carotene,[5],CHEBI:28425,is a,,,carotenoid,CHEBI:23044,α-carotene,CHEBI:28425,is a
+,,,,,β-carotene,,05_β-carotene,[5],CHEBI:17579,is a,,,carotenoid,CHEBI:23044,β-carotene,CHEBI:17579,is a
+,,,,,,trans-beta-carotene,06_trans-beta-carotene,[6],CHEBI:140677,is a,equivalent chebi term,,β-carotene,CHEBI:17579,trans-beta-carotene,CHEBI:140677,is a
+,,,,,,beta-carotene-cis,06_beta-carotene-cis,[6],CHEBI:67188,is a,equivalent chebi term,,β-carotene,CHEBI:17579,beta-carotene-cis,CHEBI:67188,is a
+,,,vitamin D,,,,03_vitamin D,[3],CHEBI:27300,has role,,,fat soluble vitamin,CHEBI:24020,vitamin D,CHEBI:27300,has role
+,,,,calcidiol,,,04_calcidiol,[4],CHEBI:17933,is a,,,vitamin D,CHEBI:27300,calcidiol,CHEBI:17933,is a
+,,,vitamin E,,,,03_vitamin E,[3],CHEBI:33234,has role,,,fat soluble vitamin,CHEBI:24020,vitamin E,CHEBI:33234,has role
+,,,,tocopherol,,,04_tocopherol,[4],CHEBI:27013,is a,,,vitamin E,CHEBI:33234,tocopherol,CHEBI:27013,is a
+,,,,,α-tocopherol,,05_α-tocopherol,[5],CHEBI:22470,is a,,,tocopherol,CHEBI:27013,α-tocopherol,CHEBI:22470,is a
+,,,,,β-tocopherol,,05_β-tocopherol,[5],CHEBI:47771,is a,,,tocopherol,CHEBI:27013,β-tocopherol,CHEBI:47771,is a
+,,,,,γ-tocopherol,,05_γ-tocopherol,[5],CHEBI:18185,is a,,,tocopherol,CHEBI:27013,γ-tocopherol,CHEBI:18185,is a
+,,,,,δ-tocopherol,,05_δ-tocopherol,[5],CHEBI:47772,is a,,,tocopherol,CHEBI:27013,δ-tocopherol,CHEBI:47772,is a
+,,,,tocotrienol,,,04_tocotrienol,[4],CHEBI:33235,is a,,,vitamin E,CHEBI:33234,tocotrienol,CHEBI:33235,is a
+,,,,,α-tocotrienol,,05_α-tocotrienol,[5],CHEBI:33270,is a,,,tocotrienol,CHEBI:33235,α-tocotrienol,CHEBI:33270,is a
+,,,,,β-tocotrienol,,05_β-tocotrienol,[5],CHEBI:33275,is a,,,tocotrienol,CHEBI:33235,β-tocotrienol,CHEBI:33275,is a
+,,,,,γ-tocotrienol,,05_γ-tocotrienol,[5],CHEBI:33277,is a,,,tocotrienol,CHEBI:33235,γ-tocotrienol,CHEBI:33277,is a
+,,,,,δ-tocotrienol,,05_δ-tocotrienol,[5],CHEBI:33276,is a,,,tocotrienol,CHEBI:33235,δ-tocotrienol,CHEBI:33276,is a
+,,,vitamin K,,,,03_vitamin K,[3],CHEBI:28384,has role,,,fat soluble vitamin,CHEBI:24020,vitamin K,CHEBI:28384,has role
+,plant secondary metabolite,,,,,,01_plant secondary metabolite,[1],unspecified chebi term,is a,,,dietary nutritional component,unspecified CHEBI term,plant secondary metabolite,unspecified CHEBI term,is a
+,,alkaloid,,,,,02_alkaloid,[2],CHEBI:22315,is a,,,plant secondary metabolite,unspecified CHEBI term,alkaloid,CHEBI:22315,is a
+,,,caffeine,,,,03_caffeine,[3],CHEBI:27732,is a,,,alkaloid,CHEBI:22315,caffeine,CHEBI:27732,is a
+,,,mescaline,,,,03_mescaline,[3],CHEBI:28346,is a,,,alkaloid,CHEBI:22315,mescaline,CHEBI:28346,is a
+,,,theobromine,,,,03_ theobromine,[3],CHEBI:28946,is a,,,alkaloid,CHEBI:22315,theobromine,CHEBI:28946,is a
+,,phenols,,,,,02_phenols,[2],CHEBI:33853,is a,,,plant secondary metabolite,unspecified CHEBI term,phenols,CHEBI:33853,is a
+,,,polyphenol,,,,03_polyphenol,[3],CHEBI:26195,is a,,,phenols,CHEBI:33853,polyphenol,CHEBI:26195,is a
+,,,,tannin,,,04_tannin,[4],CHEBI:26848,is a,,,polyphenol,CHEBI:26195,tannin,CHEBI:26848,is a
+,,,,,chlorogenic acid,,05_chlorogenic acid,[5],CHEBI:16112,is a,,,tannin,CHEBI:26848,chlorogenic acid,CHEBI:16112,is a
+,,,,,condensed tannin ,,05_condensed tannin ,[5],CHEBI:26267,is a,equivalent chebi term,,tannin,CHEBI:26848,condensed tannin,CHEBI:26267,is a
+,,,,,hydrolysable tannin ,,05_hydrolysable tannin ,[5],CHEBI:78689,is a,,,tannin,CHEBI:26848,hydrolysable tannin,CHEBI:78689,is a
+,,,,,ellagitannin,,05_ellagitannin,[5],CHEBI:23909,is a,,,tannin,CHEBI:26848,ellagitannin,CHEBI:23909,is a
+,,,,,gallotannin,,05_gallotannin,[5],CHEBI:24182,is a,,,tannin,CHEBI:26848,gallotannin,CHEBI:24182,is a
+,,,,,phlorotannin,,05_phlorotannin,[5],CHEBI:71222,is a,,,tannin,CHEBI:26848,phlorotannin,CHEBI:71222,is a
+,,,,,catechol,,05_catechol,[5],CHEBI:18135,is a,,,tannin,CHEBI:26848,catechol,CHEBI:18135,is a
+,,,,,phloroglucinol,,05_phloroglucinol,[5],CHEBI:16204,is a,,,tannin,CHEBI:26848,phloroglucinol,CHEBI:16204,is a
+,,,,(−)-epigallocatechin 3-gallate,,,04_(−)-epigallocatechin 3-gallate,[4],CHEBI:4806,is a,,,polyphenol,CHEBI:26195,(−)-epigallocatechin 3-gallate,CHEBI:4806,is a
+,,phenolic acid c6 --c1,,,,,02_phenolic acid c6 --c1,[2],CHEBI:166890,is a,,,plant secondary metabolite,unspecified CHEBI term,phenolic acid c6--c1,CHEBI:166890,is a
+,,,gallic acid,,,,03_gallic acid,[3],CHEBI:30778,is a,,,phenolic acid c6--c1,CHEBI:166890,gallic acid,CHEBI:30778,is a
+,,,hydroxybenzoic acid,,,,03_hydroxybenzoic acid,[3],CHEBI:24676,is a,,,phenolic acid c6--c1,CHEBI:166890,hydroxybenzoic acid,CHEBI:24676,is a
+,,,,salicylic acid,,,04_salicylic acid,[4],CHEBI:16914,is a,,,hydroxybenzoic acid,CHEBI:24676,salicylic acid,CHEBI:16914,is a
+,,,arbutin,,,,03_arbutin,[3],CHEBI:18305,is a,,,phenolic acid c6--c1,CHEBI:166890,arbutin,CHEBI:18305,is a
+,,,vanillic acid ,,,,03_vanillic acid ,[3],CHEBI:30816,is a,,,phenolic acid c6--c1,CHEBI:166890,vanillic acid,CHEBI:30816,is a
+,,,syringic acid ,,,,03_syringic acid ,[3],CHEBI:68329,is a,,,phenolic acid c6--c1,CHEBI:166890,syringic acid,CHEBI:68329,is a
+,,phenolic ketone c6--c2,,,,,02_phenolic ketone c6--c2,[2],CHEBI:51867,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,phenolic ketone c6--c2,CHEBI:51867,is a
+,,,acetophenone,,,,03_acetophenone,[3],CHEBI:27632,is a,,,phenolic ketone c6--c2,CHEBI:51867,acetophenone,CHEBI:27632,is a
+,,,phenylacetic acid ,,,,03_phenylacetic acid ,[3],CHEBI:30745,is a,,,phenolic ketone c6--c2,CHEBI:51867,phenylacetic acid,CHEBI:30745,is a
+,,hydroxycinnamates (c6--c3),,,,,02_hydroxycinnamates (c6--c3),[2],CHEBI:24689,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,hydroxycinnamates (c6--c3),CHEBI:24689,is a
+,,,caffeic acid,,,,03_caffeic acid,[3],CHEBI:36281,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,caffeic acid,CHEBI:36281,is a
+,,,sinapic acid,,,,03_sinapic acid,[3],CHEBI:77131,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,sinapic acid,CHEBI:77131,is a
+,,,chromones,,,,03_chromones,[3],CHEBI:23238,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,chromones,CHEBI:23238,is a
+,,,chicoric acid,,,,03_chicoric acid,[3],CHEBI:3594,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,chicoric acid,CHEBI:3594,is a
+,,,coumaric acid,,,,03_coumaric acid,[3],CHEBI:23401,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,coumaric acid,CHEBI:23401,is a
+,,,,p-coumaric acid (-4-coumaric acid),,,04_p-coumaric acid (-4-coumaric acid),[4],CHEBI:36090,is a,equivalent chebi term,,coumaric acid,CHEBI:23401,p-coumaric acid (-4-coumaric acid),CHEBI:36090,is a
+,,,,o-coumaric acid (2-coumaric acid),,,04_o-coumaric acid (2-coumaric acid),[4],CHEBI:18176,is a,equivalent chebi term,,coumaric acid,CHEBI:23401,o-coumaric acid (2-coumaric acid),CHEBI:18176,is a
+,,,,m-coumaric (3-coumaric acid),,,04_m-coumaric (3-coumaric acid),[4],CHEBI:47925,is a,equivalent chebi term,,coumaric acid,CHEBI:23401,m-coumaric (3-coumaric acid),CHEBI:47925,is a
+,,,ferulic acid,,,,03_ferulic acid,[3],CHEBI:17620,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,ferulic acid,CHEBI:17620,is a
+,,,scopoletin,,,,03_scopoletin,[3],CHEBI:17488,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,scopoletin,CHEBI:17488,is a
+,,,phenylpropane ,,,,03_phenylpropane ,[3],CHEBI:166891,is a,,,hydroxycinnamates (c6--c3),CHEBI:24689,phenylpropane,CHEBI:166891,is a
+,,napthoquinone c6--c4,,,,,02_napthoquinone c6--c4,[2],CHEBI:25481,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,napthoquinone c6--c4,CHEBI:25481,is a
+,,,"1,2-napthoquinone",,,,"03_1,2-napthoquinone",[3],CHEBI:132141,is a,,,napthoquinone c6--c4,CHEBI:25481,"1,2-napthoquinone",CHEBI:132141,is a
+,,,"1,4-napthoquinone",,,,"03_1,4-napthoquinone",[3],CHEBI:132142,is a,,,napthoquinone c6--c4,CHEBI:25481,"1,4-napthoquinone",CHEBI:132142,is a
+,,,,juglone,,,04_juglone,[4],CHEBI:15794,is a,,,"1,4-napthoquinone",CHEBI:132142,juglone,CHEBI:15794,is a
+,,stilbenoid c6--c2--c6,,,,,02_stilbenoid c6--c2--c6,[2],CHEBI:26776,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,stilbenoid c6--c2--c6,CHEBI:26776,is a
+,,,stilbene,,,,03_stilbene,[3],CHEBI:26775,is a,,,stilbenoid (c6--c2--c6),CHEBI:26776,stilbene,CHEBI:26775,is a
+,,,anthraquinone,,,,03_anthraquinone,[3],CHEBI:22580,is a,,,stilbenoid (c6--c2--c6),CHEBI:26776,anthraquinone,CHEBI:22580,is a
+,,,,aglycone,,,04_aglycone,[4],CHEBI:166892,is a,,,anthraquinone,CHEBI:22580,aglycone,CHEBI:166892,is a
+,,,,emodin ,,,04_emodin ,[4],CHEBI:42223,is a,,,anthraquinone,CHEBI:22580,emodin,CHEBI:42223,is a
+,,xanthones c6--c01--c6 ,,,,,02_xanthones c6--c1--c6 ,[2],CHEBI:51149,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,xanthones c6--c01--c6,CHEBI:51149,is a
+,,,simple oxygenated xanthones,,,,03_simple oxygenated xanthones,[3],CHEBI:166965,is a,,,xanthones c6--c01--c6,CHEBI:51149,simple oxygenated xanthones,CHEBI:166965,is a
+,,,xanthone glycoside,,,,03_xanthone glycoside,[3],CHEBI:83231,is a,,,xanthones c6--c01--c6,CHEBI:51149,xanthone glycoside,CHEBI:83231,is a
+,,,prenylated and related xanthones,,,,03_prenylated and related xanthones,[3],CHEBI:166966,is a,,,xanthones c6--c01--c6,CHEBI:51149,prenylated and related xanthones,CHEBI:166966,is a
+,,,xanthonolignoid,,,,03_xanthonolignoid,[3],CHEBI:166894,is a,,,xanthones c6--c01--c6,CHEBI:51149,xanthonolignoid,CHEBI:166894,is a
+,,,epigallocatechin-3-gallate,,,,03_epigallocatechin-3-gallate,[3],CHEBI:4806,is a,equivalent chebi term,,xanthones c6--c01--c6,CHEBI:51149,epigallocatechin-3-gallate,CHEBI:4806,is a
+,,flavonoid c6--c3--c6,,,,,02_flavonoid c6--c3--c6,[2],CHEBI:72544,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,flavonoid c6--c3--c6,CHEBI:72544,is a
+,,,flavonoid ,,,,03_flavonoid ,[3],CHEBI:47916,is a,,,flavonoid c6--c3--c6,CHEBI:72544,flavonoid,CHEBI:47916,is a
+,,,,malvidin,,,04_malvidin,[4],CHEBI:6674,is a,,,flavonoid,CHEBI:47916,malvidin,CHEBI:6674,is a
+,,,,kaempferol,,,04_kaempferol,[4],CHEBI:28499,is a,,,flavonoid,CHEBI:47916,kaempferol,CHEBI:28499,is a
+,,,,flavan,,,04_flavan,[4],CHEBI:38691,is a,,,flavonoid,CHEBI:47916,flavan,CHEBI:38691,is a
+,,,,flavanone,,,04_flavanone,[4],CHEBI:5070,is a,,,flavonoid,CHEBI:47916,flavanone,CHEBI:5070,is a
+,,,,,6-prenylnaringenin,,05_6-prenylnaringenin,[5],CHEBI:27566,is a,,,flavanone,CHEBI:5070,6-prenylnaringenin,CHEBI:27566,is a
+,,,,,8-prenylnaringenin (sophoraflavanone b),,05_8-prenylnaringenin (sophoraflavanone b),[5],CHEBI:50207,is a,equivalent chebi term,,flavanone,CHEBI:5070,8-prenylnaringenin (sophoraflavanone b),CHEBI:50207,is a
+,,,,,eriocitrin,,05_eriocitrin,[5],CHEBI:28709,is a,,,flavanone,CHEBI:5070,eriocitrin,CHEBI:28709,is a
+,,,,,eriodictyol,,05_eriodictyol,[5],CHEBI:28412,is a,,,flavanone,CHEBI:5070,eriodictyol,CHEBI:28412,is a
+,,,,,hesperetin,,05_hesperetin,[5],CHEBI:28230,is a,,,flavanone,CHEBI:5070,hesperetin,CHEBI:28230,is a
+,,,,,hesperidin,,05_hesperidin,[5],CHEBI:28775,is a,,,flavanone,CHEBI:5070,hesperidin,CHEBI:28775,is a
+,,,,,homoeriodictyol,,05_homoeriodictyol,[5],CHEBI:74960,is a,,,flavanone,CHEBI:5070,homoeriodictyol,CHEBI:74960,is a
+,,,,,isosakuranetin,,05_isosakuranetin,[5],CHEBI:27552,is a,equivalent chebi term,,flavanone,CHEBI:5070,isosakuranetin,CHEBI:27552,is a
+,,,,,naringenin,,05_naringenin,[5],CHEBI:50202,is a,,,flavanone,CHEBI:5070,naringenin,CHEBI:50202,is a
+,,,,,naringin,,05_naringin,[5],CHEBI:28819,is a,,,flavanone,CHEBI:5070,naringin,CHEBI:28819,is a
+,,,,,narirutin,,05_narirutin,[5],CHEBI:28705,is a,,,flavanone,CHEBI:5070,narirutin,CHEBI:28705,is a
+,,,,,neoeriocitrin,,05_neoeriocitrin,[5],CHEBI:7502,is a,,,flavanone,CHEBI:5070,neoeriocitrin,CHEBI:7502,is a
+,,,,,neohesperidin,,05_neohesperidin,[5],CHEBI:59016,is a,,,flavanone,CHEBI:5070,neohesperidin,CHEBI:59016,is a
+,,,,,pinocembrin,,05_pinocembrin,[5],CHEBI:28157,is a,,,flavanone,CHEBI:5070,pinocembrin,CHEBI:28157,is a
+,,,,,poncirin,,05_poncirin,[5],CHEBI:66773,is a,equivalent chebi term,,flavanone,CHEBI:5070,poncirin,CHEBI:66773,is a
+,,,,,sakuranetin,,05_sakuranetin,[5],CHEBI:28927,is a,,,flavanone,CHEBI:5070,sakuranetin,CHEBI:28927,is a
+,,,,flavone,,,04_flavone,[4],CHEBI:42491,is a,,,flavonoid,CHEBI:47916,flavone,CHEBI:42491,is a
+,,,,,6-hydroxyluteolin,,05_6-hydroxyluteolin,[5],CHEBI:2197,is a,,,flavone,CHEBI:42491,6-hydroxyluteolin,CHEBI:2197,is a
+,,,,,6-hydroxyluteolin 7-o-rhamnoside,,05_6-hydroxyluteolin 7-o-rhamnoside,[5],CHEBI:66046,is a,equivalent chebi term,,flavone,CHEBI:42491,6-hydroxyluteolin 7-o-rhamnoside,CHEBI:66046,is a
+,,,,,"4',7-dihydroxyflavone",,"05_4',7-dihydroxyflavone",[5],CHEBI:29503,is a,equivalent chebi term,,flavone,CHEBI:42491,"4',7-dihydroxyflavone",CHEBI:29503,is a
+,,,,,apigenin,,05_apigenin,[5],CHEBI:18388,is a,,,flavone,CHEBI:42491,apigenin,CHEBI:18388,is a
+,,,,,baicalein,,05_baicalein,[5],CHEBI:2979,is a,,,flavone,CHEBI:42491,baicalein,CHEBI:2979,is a
+,,,,,chrysin,,05_chrysin,[5],CHEBI:75095,is a,,,flavone,CHEBI:42491,chrysin,CHEBI:75095,is a
+,,,,,cirsilineol,,05_cirsilineol,[5],CHEBI:3718,is a,,,flavone,CHEBI:42491,cirsilineol,CHEBI:3718,is a
+,,,,,cirsimaritin,,05_cirsimaritin,[5],CHEBI:81337,is a,,,flavone,CHEBI:42491,cirsimaritin,CHEBI:81337,is a
+,,,,,diosmin,,05_diosmin,[5],CHEBI:4631,is a,,,flavone,CHEBI:42491,diosmin,CHEBI:4631,is a
+,,,,,dihydromyricetin,,05_dihydromyricetin,[5],CHEBI:28917,is a,,,flavone,CHEBI:42491,dihydromyricetin,CHEBI:28917,is a
+,,,,,eupatorin,,05_eupatorin,[5],CHEBI:136666,is a,,,flavone,CHEBI:42491,eupatorin,CHEBI:136666,is a
+,,,,,gardenin b,,05_gardenin b,[5],CHEBI:79628,is a,,,flavone,CHEBI:42491,gardenin b,CHEBI:79628,is a
+,,,,,geraldone,,05_geraldone,[5],CHEBI:5326,is a,,,flavone,CHEBI:42491,geraldone,CHEBI:5326,is a
+,,,,,hispidulin,,05_hispidulin,[5],CHEBI:75902,is a,,,flavone,CHEBI:42491,hispidulin,CHEBI:75902,is a
+,,,,,isovitexin,,05_isovitexin,[5],CHEBI:18330,is a,,,flavone,CHEBI:42491,isovitexin,CHEBI:18330,is a
+,,,,,jaceosidin,,05_jaceosidin,[5],CHEBI:66103,is a,,,flavone,CHEBI:42491,jaceosidin,CHEBI:66103,is a
+,,,,,luteolin,,05_luteolin,[5],CHEBI:15864,is a,,,flavone,CHEBI:42491,luteolin,CHEBI:15864,is a
+,,,,,luteolin 7-o-glucoside,,05_luteolin 7-o-glucoside,[5],CHEBI:77791,is a,equivalent chebi term,,flavone,CHEBI:42491,luteolin 7-o-glucoside,CHEBI:77791,is a
+,,,,,myricitrin,,05_myricitrin,[5],CHEBI:70082,is a,,,flavone,CHEBI:42491,myricitrin,CHEBI:70082,is a
+,,,,,nobiletin,,05_nobiletin,[5],CHEBI:7602,is a,,,flavone,CHEBI:42491,nobiletin,CHEBI:7602,is a
+,,,,,quercetin,,05_quercetin,[5],CHEBI:16243,is a,,,flavone,CHEBI:42491,quercetin,CHEBI:16243,is a
+,,,,,rhoifolin (apigenin 7-o-neohesperidoside),,05_rhoifolin (apigenin 7-o-neohesperidoside),[5],CHEBI:31227,is a,equivalent chebi term,,flavone,CHEBI:42491,rhoifolin (apigenin 7-o-neohesperidoside),CHEBI:31227,is a
+,,,,,scutellarein,,05_scutellarein,[5],CHEBI:9062,is a,,,flavone,CHEBI:42491,scutellarein,CHEBI:9062,is a
+,,,,,sinensetin,,05_sinensetin,[5],CHEBI:9159,is a,,,flavone,CHEBI:42491,sinensetin,CHEBI:9159,is a
+,,,,,tangeretin,,05_tangeretin,[5],CHEBI:9400,is a,,,flavone,CHEBI:42491,tangeretin,CHEBI:9400,is a
+,,,,,vitexin,,05_vitexin,[5],CHEBI:16954,is a,,,flavone,CHEBI:42491,vitexin,CHEBI:16954,is a
+,,,,dihydroflavanol,,,04_dihydroflavanol,[4],CHEBI:48039,is a,,,flavonoid,CHEBI:47916,dihydroflavanol,CHEBI:48039,is a
+,,,,flavanols,,,04_flavanols (syn. hydroxyflavan),[4],CHEBI:72010,is a,equivalent chebi term,,flavonoid,CHEBI:47916,flavanols,CHEBI:72010,is a
+,,,,,catechin,,05_catechin,[5],CHEBI:23053,is a,,,flavanols,CHEBI:72010,catechin,CHEBI:23053,is a
+,,,,,(+)-catechin 3-o-gallate,,05_(+)-catechin 3-o-gallate,[5],CHEBI:76132,is a,,,flavanols,CHEBI:72010,(+)-catechin 3-o-gallate,CHEBI:76132,is a
+,,,,,(+)-gallocatechin,,05_(+)-gallocatechin,[5],CHEBI:71225,is a,,,flavanols,CHEBI:72010,(+)-gallocatechin,CHEBI:71225,is a
+,,,,,(-)-epicatechin,,05_(-)-epicatechin,[5],CHEBI:76125,is a,equivalent chebi term,,flavanols,CHEBI:72010,(-)-epicatechin,CHEBI:76125,is a
+,,,,,(-)-epicatechin 3-o-gallate,,05_(-)-epicatechin 3-o-gallate,[5],CHEBI:70255,is a,,,flavanols,CHEBI:72010,(-)-epicatechin 3-o-gallate,CHEBI:70255,is a
+,,,,,(-)-epigallocatechin,,05_(-)-epigallocatechin,[5],CHEBI:42255,is a,,,flavanols,CHEBI:72010,(-)-epigallocatechin,CHEBI:42255,is a
+,,,,,(-)-epigallocatechin 3-o-gallate,,05_(-)-epigallocatechin 3-o-gallate,[5],CHEBI:4806,is a,equivalent chebi term,,flavanols,CHEBI:72010,(-)-epigallocatechin 3-o-gallate,CHEBI:4806,is a
+,,,,,3'-o-methylepicatechin,,05_3'-o-methylepicatechin,[5],CHEBI:70254,is a,,,flavanols,CHEBI:72010,3'-o-methylepicatechin,CHEBI:70254,is a
+,,,,,4'-o-methylepigallocatechin-3-o-gallate,,05_4'-o-methylepigallocatechin-3-o-gallate,[5],CHEBI:70256,is a,,,flavanols,CHEBI:72010,4'-o-methylepigallocatechin-3-o-gallate,CHEBI:70256,is a
+,,,,,4'-o-methylepigallocatechin,,05_4'-o-methylepigallocatechin,[5],CHEBI:70253,is a,,,flavanols,CHEBI:72010,4'-o-methylepigallocatechin,CHEBI:70253,is a
+,,,,proanthocyanidin,,,04_proanthocyanidin,[4],CHEBI:26267,is a,,,flavonoid,CHEBI:47916,proanthocyanidin,CHEBI:26267,is a
+,,,,,cinnamtannin a2,,05_cinnamtannin a2,[5],CHEBI:81227,is a,,,proanthocyanidin,CHEBI:26267,cinnamtannin a2,CHEBI:81227,is a
+,,,,,procyanidins,,05_procyanidins,[5],CHEBI:166895,is a,,,proanthocyanidin,CHEBI:26267,procyanidins,CHEBI:166895,is a
+,,,,,procyanidin dimer b1,,05_procyanidin dimer b1,[5],CHEBI:75633,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin dimer b1,CHEBI:75633,is a
+,,,,,procyanidin dimer b2,,05_procyanidin dimer b2,[5],CHEBI:75632,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin dimer b2,CHEBI:75632,is a
+,,,,,procyanidin dimer b3,,05_procyanidin dimer b3,[5],CHEBI:75630,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin dimer b3,CHEBI:75630,is a
+,,,,,procyanidin dimer b4,,05_procyanidin dimer b4,[5],CHEBI:27589,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin dimer b4,CHEBI:27589,is a
+,,,,,procyanidin dimer b5,,05_procyanidin dimer b5,[5],CHEBI:75621,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin dimer b5,CHEBI:75621,is a
+,,,,,procyanidin dimer b6,,05_procyanidin dimer b6,[5],CHEBI:75619,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin dimer b6,CHEBI:75619,is a
+,,,,,procyanidin trimer c1,,05_procyanidin trimer c1,[5],CHEBI:75643,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin trimer c1,CHEBI:75643,is a
+,,,,,procyanidin trimer c2,,05_procyanidin trimer c2,[5],CHEBI:75644,is a,equivalent chebi term,,proanthocyanidin,CHEBI:26267,procyanidin trimer c2,CHEBI:75644,is a
+,,,,,theaflavin,,05_theaflavin,[5],CHEBI:136609,is a,,,proanthocyanidin,CHEBI:26267,theaflavin,CHEBI:136609,is a
+,,,,peltogynoid,,,04_peltogynoid,[4],CHEBI:166896,is a,,,flavonoid,CHEBI:47916,peltogynoid,CHEBI:166896,is a
+,,,,dihydrochalcone,,,04_dihydrochalcone,[4],CHEBI:71230,is a,,,flavonoid,CHEBI:47916,dihydrochalcone,CHEBI:71230,is a
+,,,,,3-hydroxyphloretin-2'-o-xylosyl-glucoside,,05_03-hydroxyphloretin-2'-o-xylosyl-glucoside,[5],CHEBI:88354,is a,,,dihydrochalcone,CHEBI:71230,3-hydroxyphloretin-2'-o-xylosyl-glucoside,CHEBI:88354,is a
+,,,,,phloretin,,05_phloretin,[5],CHEBI:17276,is a,,,dihydrochalcone,CHEBI:71230,phloretin,CHEBI:17276,is a
+,,,,,phlorizin ,,05_phlorizin ,[5],CHEBI:8113,is a,,,dihydrochalcone,CHEBI:71230,phlorizin,CHEBI:8113,is a
+,,,,chalcone,,,04_chalcone,[4],CHEBI:23086,is a,,,flavonoid,CHEBI:47916,chalcone,CHEBI:23086,is a
+,,,,,butein,,05_butein,[5],CHEBI:3237,is a,,,chalcone,CHEBI:23086,butein,CHEBI:3237,is a
+,,,,,xanthohumol,,05_xanthohumol,[5],CHEBI:66331,is a,,,chalcone,CHEBI:23086,xanthohumol,CHEBI:66331,is a
+,,,,aurone,,,04_aurone,[4],CHEBI:47964,is a,,,flavonoid,CHEBI:47916,aurone,CHEBI:47964,is a
+,,,,anthocyanidin,,,04_anthocyanidin,[4],CHEBI:38695,is a,,,flavonoid,CHEBI:47916,anthocyanidin,CHEBI:38695,is a
+,,,,,4'-o-methylcyanidin 3-o-d-glucoside,,05_4'-o-methylcyanidin 3-o-d-glucoside,[5],CHEBI:74793,is a,3'-O-methylcyanidin 3-O-β-D-glucoside,,anthocyanidin,CHEBI:38695,4'-o-methylcyanidin 3-o-d-glucoside,CHEBI:74793,is a
+,,,,,cyanidin,,05_cyanidin,[5],CHEBI:27843,is a,equivalent chebi term,,anthocyanidin,CHEBI:38695,cyanidin,CHEBI:27843,is a
+,,,,,cyanidin 3-o-galactoside,,05_cyanidin 3-o-galactoside,[5],CHEBI:27475,is a,equivalent chebi term,,anthocyanidin,CHEBI:38695,cyanidin 3-o-galactoside,CHEBI:27475,is a
+,,,,,cyanidin 3-o-rutinoside,,05_cyanidin 3-o-rutinoside,[5],CHEBI:28064,is a,equivalent chebi term,,anthocyanidin,CHEBI:38695,cyanidin 3-o-rutinoside,CHEBI:28064,is a
+,,,,,cyanidin 3-o-sambubioside,,05_cyanidin 3-o-sambubioside,[5],CHEBI:74811,is a,equivalent chebi term,,anthocyanidin,CHEBI:38695,cyanidin 3-o-sambubioside,CHEBI:74811,is a
+,,,,,cyanidin 3-o-sophoroside,,05_cyanidin 3-o-sophoroside,[5],CHEBI:80438,is a,equivalent chebi term,,anthocyanidin,CHEBI:38695,cyanidin 3-o-sophoroside,CHEBI:80438,is a
+,,,,,isopeonidin 3-o-rutinoside,,05_isopeonidin 3-o-rutinoside,[5],CHEBI:142263,is a,equivalent chebi term,,anthocyanidin,CHEBI:38695,isopeonidin 3-o-rutinoside,CHEBI:142263,is a
+,,,,,pelargonidin,,05_pelargonidin,[5],CHEBI:25863,is a,,,anthocyanidin,CHEBI:38695,pelargonidin,CHEBI:25863,is a
+,,,,,pelargonidin 3-o-rutinoside,,05_pelargonidin 3-o-rutinoside,[5],CHEBI:31968,is a,,,anthocyanidin,CHEBI:38695,pelargonidin 3-o-rutinoside,CHEBI:31968,is a
+,,,,anthocyanin,,,04_anthocyanin,[4],CHEBI:38697,is a,,,flavonoid,CHEBI:47916,anthocyanin,CHEBI:38697,is a
+,,,,,anthocyanin chlorides,,05_anthocyanin chlorides,[5],CHEBI:38698,is a,,,anthocyanin,CHEBI:38697,anthocyanin chlorides,CHEBI:38698,is a
+,,,,,,cyanidin 3-o-β-d-galactoside chloride,06_cyanidin 3-o-β-d-galactoside chloride,[6],CHEBI:37664,is a,,,anthocyanin chlorides,CHEBI:38698,cyanidin 3-o-β-d-galactoside chloride,CHEBI:37664,is a
+,,,,,,cyanidin 3-o-rutinoside chloride,06_cyanidin 3-o-rutinoside chloride,[6],CHEBI:16726,is a,,,anthocyanin chlorides,CHEBI:38698,cyanidin 3-o-rutinoside chloride,CHEBI:16726,is a
+,,,,,,cyanin chloride,06_cyanin chloride,[6],CHEBI:38021,is a,,,anthocyanin chlorides,CHEBI:38698,cyanin chloride,CHEBI:38021,is a
+,,,,,,pelargonidin 3-o-β-d-glucoside chloride,06_pelargonidin 3-o-β-d-glucoside chloride,[6],CHEBI:36122,is a,,,anthocyanin chlorides,CHEBI:38698,pelargonidin 3-o-β-d-glucoside chloride,CHEBI:36122,is a
+,,,,,β-d-glucoside,,05_β-d-glucoside,[5],CHEBI:22798,is a,equivalent chebi term,,anthocyanin,CHEBI:38697,β-d-glucoside,CHEBI:22798,is a
+,,,,,,delphinidin 3-o-β-d-glucoside (myrtillin),06_delphinidin 3-o-β-d-glucoside (myrtillin),[6],CHEBI:31463,is a,equivalent chebi term,,β-d-glucoside,CHEBI:22798,delphinidin 3-o-β-d-glucoside (myrtillin),CHEBI:31463,is a
+,,,,,,petunidin 3-o-β-glucoside,06_petunidin 3-o-β-glucoside,[6],CHEBI:31985,is a,equivalent chebi term,,β-d-glucoside,CHEBI:22798,petunidin 3-o-β-glucoside,CHEBI:31985,is a
+,,,,,,malvidin 3-o-β-glucoside,06_malvidin 3-o-β-glucoside,[6],CHEBI:31799,is a,equivalent chebi term,,β-d-glucoside,CHEBI:22798,malvidin 3-o-β-glucoside,CHEBI:31799,is a
+,,,isoflavonoid,,,,03_isoflavonoid,[3],CHEBI:50753,is a,,,flavonoid c6--c3--c6,CHEBI:72544,isoflavonoid,CHEBI:50753,is a
+,,,,isoflavan,,,04_isoflavan,[4],CHEBI:72572,is a,,,isoflavonoid,CHEBI:50753,isoflavan,CHEBI:72572,is a
+,,,,isoflavanone,,,04_isoflavanone,[4],CHEBI:27945,is a,,,isoflavonoid,CHEBI:50753,isoflavanone,CHEBI:27945,is a
+,,,,isoflavone,,,04_isoflavone,[4],CHEBI:38757,is a,,,isoflavonoid,CHEBI:50753,isoflavone,CHEBI:38757,is a
+,,,,hydroxyisoflavone,,,04_hydroxyisoflavone,[4],CHEBI:38755,is a,,,isoflavonoid,CHEBI:50753,hydroxyisoflavone,CHEBI:38755,is a
+,,,,,daidzein,,05_daidzein,[5],CHEBI:28197,is a,equivalent chebi term,,hydroxyisoflavone,CHEBI:38755,daidzein,CHEBI:28197,is a
+,,,,,genistein,,05_genistein,[5],CHEBI:28088,is a,,,hydroxyisoflavone,CHEBI:38755,genistein,CHEBI:28088,is a
+,,,,,glycitein,,05_glycitein,[5],CHEBI:34778,is a,,,hydroxyisoflavone,CHEBI:38755,glycitein,CHEBI:34778,is a
+,,,,glucoside,,,04_glucoside,[4],CHEBI:24278,is a,,,isoflavonoid,CHEBI:50753,glucoside,CHEBI:24278,is a
+,,,,,daidzin,,05_daidzin,[5],CHEBI:42202,is a,,,glucoside,CHEBI:24278,daidzin,CHEBI:42202,is a
+,,,,,genistin,,05_genistin,[5],CHEBI:27514 ,is a,,,glucoside,CHEBI:24278,genistin,CHEBI:27514,is a
+,,,,,glycitin,,05_glycitin,[5],CHEBI:80373,is a,,,glucoside,CHEBI:24278,glycitin,CHEBI:80373,is a
+,,,,glycosyloxyisoflavone,,,04_glycosyloxyisoflavone,[4],CHEBI:74630,is a,,,isoflavonoid,CHEBI:50753,glycosyloxyisoflavone,CHEBI:74630,is a
+,,,,,malonyl daidzin ,,05_malonyl daidzin ,[5],CHEBI:80371,is a,,,glycosyloxyisoflavone,CHEBI:74630,malonyl daidzin,CHEBI:80371,is a
+,,,,,malonyl genistin ,,05_malonyl genistin ,[5],CHEBI:80372,is a,,,glycosyloxyisoflavone,CHEBI:74630,malonyl genistin,CHEBI:80372,is a
+,,,,,malonyl glycitin ,,05_malonyl glycitin ,[5],CHEBI:80374,is a,,,glycosyloxyisoflavone,CHEBI:74630,malonyl glycitin,CHEBI:80374,is a
+,,,,,acetyl glycitin ,,05_acetyl glycitin ,[5],CHEBI:133348 ,is a,,,glycosyloxyisoflavone,CHEBI:74630,acetyl glycitin,CHEBI:133348,is a
+,,,,rotenoid,,,04_rotenoid,[4],CHEBI:71543,is a,,,isoflavonoid,CHEBI:50753,rotenoid,CHEBI:71543,is a
+,,,,coumestans,,,04_coumestans,[4],CHEBI:72577,is a,,,isoflavonoid,CHEBI:50753,coumestans,CHEBI:72577,is a
+,,,,,coumestan,,05_coumestan,[5],CHEBI:72578,is a,,,coumestans,CHEBI:72577,coumestan,CHEBI:72578,is a
+,,,,,coumestrol,,05_coumestrol,[5],CHEBI:3908,is a,,,coumestans,CHEBI:72577,coumestrol,CHEBI:3908,is a
+,,,,3-arylcoumarin,,,04_3-arylcoumarin,[4],CHEBI:166897,is a,,,isoflavonoid,CHEBI:50753,3-arylcoumarin,CHEBI:166897,is a
+,,,,pterocarpans,,,04_pterocarpans,[4],CHEBI:26377,is a,,,isoflavonoid,CHEBI:50753,pterocarpans,CHEBI:26377,is a
+,,,,,pterocarpan,,05_pterocarpan,[5],CHEBI:73033,is a,,,pterocarpans,CHEBI:26377,pterocarpan,CHEBI:73033,is a
+,,,,,(−)-phaseolin,,05_(−)-phaseolin,[5],CHEBI:108,is a,,,pterocarpans,CHEBI:26377,(−)-phaseolin,CHEBI:108,is a
+,,,,,(+)-pisatin,,05_(+)-pisatin,[5],CHEBI:67347,is a,,,pterocarpans,CHEBI:26377,(+)-pisatin,CHEBI:67347,is a
+,,,neoflavonoid,,,,03_neoflavonoid,[3],CHEBI:71971,is a,,,flavonoid c6--c3--c6,CHEBI:72544,neoflavonoid,CHEBI:71971,is a
+,,,biflavonoid,,,,03_biflavonoid,[3],CHEBI:50128,is a,,,flavonoid c6--c3--c6,CHEBI:72544,biflavonoid,CHEBI:50128,is a
+,,phenylpropanoid,,,,,02_phenylpropanoid,[2],CHEBI:26004,is a,,,plant secondary metabolite,unspecified CHEBI term,phenylpropanoid,CHEBI:26004,is a
+,,,lignan,,,,03_lignan,[3],CHEBI:25036,is a,,,phenylpropanoid,CHEBI:26004,lignan,CHEBI:25036,is a
+,,,,silymarin,,,04_silymarin,[4],CHEBI:125451,is a,,,lignan,CHEBI:25036,silymarin,CHEBI:125451,is a
+,,,neolignan,,,,03_neolignan,[3],CHEBI:25497,is a,,,phenylpropanoid,CHEBI:26004,neolignan,CHEBI:25497,is a
+,,,lignin,,,,03_lignin,[3],CHEBI:6457,is a,,,phenylpropanoid,CHEBI:26004,lignin,CHEBI:6457,is a
+,,melanin,,,,,02_melanin,[2],CHEBI:89634,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,melanin,CHEBI:89634,is a
+,,,catechol melanin,,,,03_catechol melanin,[3],CHEBI:23055,is a,,,melanin,CHEBI:89634,catechol melanin,CHEBI:23055,is a
+,,,,allomelanin,,,04_allomelanin ,[4],CHEBI:166898,is a,,,catechol melanin,CHEBI:23055,allomelanin,CHEBI:166898,is a
+,,terpenoid,,,,,02_terpenoid,[2],CHEBI:26873,is a,,,plant secondary metabolite,unspecified CHEBI term,terpenoid,CHEBI:26873,is a
+,,,monoterpenoid,,,,03_monoterpenoid,[3],CHEBI:25409,is a,,,terpenoid,CHEBI:26873,monoterpenoid,CHEBI:25409,is a
+,,,sesquiterpoid,,,,03_sesquiterpoid,[3],CHEBI:26658,is a,,,terpenoid,CHEBI:26873,sesquiterpoid,CHEBI:26658,is a
+,,,diterpenoid,,,,03_diterpenoid,[3],CHEBI:23849,is a,,,terpenoid,CHEBI:26873,diterpenoid,CHEBI:23849,is a
+,,,,carotenoid,,,04_carotenoid,[4],CHEBI:23044,is a,,,diterpenoid,CHEBI:23849,carotenoid,CHEBI:23044,is a
+,,,,,xanthophyll,,05_xanthophyll,[5],CHEBI:27325,is a,,,carotenoid,CHEBI:23044,xanthophyll,CHEBI:27325,is a
+,,,,,,zeaxanthin,06_zeaxanthin,[6],CHEBI:27547,is a,,,xanthophyll,CHEBI:27325,zeaxanthin,CHEBI:27547,is a
+,,,,,,α-cryptoxanthin,06_α-cryptoxanthin,[6],CHEBI:10223,is a,,,xanthophyll,CHEBI:27325,α-cryptoxanthin,CHEBI:10223,is a
+,,,,,,β-cryptoxanthin,06_β-cryptoxanthin,[6],CHEBI:10362,is a,,,xanthophyll,CHEBI:27325,β-cryptoxanthin,CHEBI:10362,is a
+,,,,,,lutein,06_lutein,[6],CHEBI:28838,is a,,,xanthophyll,CHEBI:27325,lutein,CHEBI:28838,is a
+,,,,,,phytoene,06_phytoene,[6],CHEBI:26119,is a,,,xanthophyll,CHEBI:27325,phytoene,CHEBI:26119,is a
+,,,,,,neoxanthin,06_neoxanthin,[6],CHEBI:25501,is a,,,xanthophyll,CHEBI:27325,neoxanthin,CHEBI:25501,is a
+,,,,,,violaxanthin,06_violaxanthin,[6],CHEBI:27295,is a,,,xanthophyll,CHEBI:27325,violaxanthin,CHEBI:27295,is a
+,,,,,lycopene,,05_lycopene,[5],CHEBI:15948,is a,equivalent chebi term,,carotenoid,CHEBI:23044,lycopene,CHEBI:15948,is a
+,,,,,,cis-lycopene,06_cis-lycopene,[6],CHEBI:62466,is a,equivalent chebi term,,lycopene,CHEBI:15948,cis-lycopene,CHEBI:62466,is a
+,,,,retinol,,,04_retinol,[4],CHEBI:50211,is a,,,diterpenoid,CHEBI:23849,retinol,CHEBI:50211,is a
+,,,triterpenoid,,,,03_triterpenoid,[3],CHEBI:36615,is a,,,terpenoid,CHEBI:26873,triterpenoid,CHEBI:36615,is a
+,,organic acid,,,,,02_organic acid,[2],CHEBI:64709,is a,,,plant secondary metabolite,unspecified CHEBI term,organic acid,CHEBI:64709,is a
+,,,acetic acid,,,,03_acetic acid,[3],CHEBI:15366,is a,,,organic acid,CHEBI:64709,acetic acid,CHEBI:15366,is a
+,,,citric acid,,,,03_citric acid,[3],CHEBI:30769,is a,,,organic acid,CHEBI:64709,citric acid,CHEBI:30769,is a
+,,,lactic acid,,,,03_lactic acid,[3],CHEBI:78320,is a,equivalent chebi term,,organic acid,CHEBI:64709,lactic acid,CHEBI:78320,is a
+,,,,D-lactic acid,,,04_D-lactic acid,[4],CHEBI:42111,is a,equivalent chebi term,,lactic acid,CHEBI:78320,D-lactic acid,CHEBI:42111,is a
+,,,,L-lactic acid,,,04_L-lactic acid,[4],CHEBI:422,is a,equivalent chebi term,,lactic acid,CHEBI:78320,L-lactic acid,CHEBI:422,is a
+,,,malic acid,,,,03_malic acid,[3],CHEBI:6650,is a,,,organic acid,CHEBI:64709,malic acid,CHEBI:6650,is a
+,,,malonic acid,,,,03_malonic acid,[3],CHEBI:30794,is a,,,organic acid,CHEBI:64709,malonic acid,CHEBI:30794,is a
+,,,ascorbic acid,,,,03_ascorbic acid,[3],CHEBI:22652,is a,,,organic acid,CHEBI:64709,ascorbic acid,CHEBI:22652,is a
+,,,,L-dehydroascorbic acid,,,04_L-dehydroascorbic acid,[4],CHEBI:27956,is a,,,ascorbic acid,CHEBI:22652,L-dehydroascorbic acid,CHEBI:27956,is a
+,,,,L-ascorbic acid,,,04_L-ascorbic acid,[4],CHEBI:29073,is a,,,ascorbic acid,CHEBI:22652,L-ascorbic acid,CHEBI:29073,is a
+,,,oxalic acid,,,,03_oxalic acid,[3],CHEBI:16995,is a,,,organic acid,CHEBI:64709,oxalic acid,CHEBI:16995,is a
+,,,phytic acid,,,,03_phytic acid,[3],CHEBI:17401,is a,,,organic acid,CHEBI:64709,phytic acid,CHEBI:17401,is a
+,,,salicylic acid,,,,03_salicylic acid,[3],CHEBI:16914,is a,,,organic acid,CHEBI:64709,salicylic acid,CHEBI:16914,is a
+,,,quinic acid,,,,03_quinic acid,[3],CHEBI:26493,is a,,,organic acid,CHEBI:64709,quinic acid,CHEBI:26493,is a
+,,,pyruvic acid,,,,03_pyruvic acid,[3],CHEBI:32816,is a,,,organic acid,CHEBI:64709,pyruvic acid,CHEBI:32816,is a
+,,,shikimic acid,,,,03_shikimic acid,[3],CHEBI:16119,is a,,,organic acid,CHEBI:64709,shikimic acid,CHEBI:16119,is a
+,,,succinic acid,,,,03_succinic acid,[3],CHEBI:15741,is a,,,organic acid,CHEBI:64709,succinic acid,CHEBI:15741,is a
+,,,tartaric acid,,,,03_tartaric acid,[3],CHEBI:26849,is a,,,organic acid,CHEBI:64709,tartaric acid,CHEBI:26849,is a
+,,,isocitric acid,,,,03_isocitric acid,[3],CHEBI:30887,is a,,,organic acid,CHEBI:64709,isocitric acid,CHEBI:30887,is a
+,,,oxaloacetic acid,,,,03_oxaloacetic acid,[3],CHEBI:30744,is a,,,organic acid,CHEBI:64709,oxaloacetic acid,CHEBI:30744,is a
+,,inositol,,,,,02_inositol,[2],CHEBI:24848,is a,equivalent chebi term,,plant secondary metabolite,unspecified CHEBI term,inositol,CHEBI:24848,is a
+,,taurine,,,,,02_taurine,[2],CHEBI:15891,is a,,,plant secondary metabolite,unspecified CHEBI term,taurine,CHEBI:15891,is a
+,,glycine betaine,,,,,02_glycine betaine,[2],CHEBI:17750,is a,,,plant secondary metabolite,unspecified CHEBI term,glycine betaine,CHEBI:17750,is a
+,,polyol,,,,,02_polyol,[2],CHEBI:26191,is a,,,plant secondary metabolite,unspecified CHEBI term,polyol,CHEBI:26191,is a
+,,,mannitol,,,,03_mannitol,[3],CHEBI:29864,is a,,,polyol,CHEBI:26191,mannitol,CHEBI:29864,is a
+,,,xylitol,,,,03_xylitol,[3],CHEBI:17151,is a,,,polyol,CHEBI:26191,xylitol,CHEBI:17151,is a
+,,,glucitol,,,,03_glucitol,[3],CHEBI:30911,is a,,,polyol,CHEBI:26191,glucitol,CHEBI:30911,is a
+,,,glycerol,,,,03_glycerol,[3],CHEBI:17754,derived from,,,polyol,CHEBI:26191,glycerol,CHEBI:17754,derived from
+,,choline,,,,,02_choline,[2],CHEBI:15354,is a,,,plant secondary metabolite,unspecified CHEBI term,choline,CHEBI:15354,is a
