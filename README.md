@@ -42,6 +42,7 @@ of researchers, breeders, farmers, processors and other stakeholders. Further de
 the functional class should assist in understanding how crop plant genetic and environmental
 variation contributes to human diet and health in the farm to fork continuum.
 
+
 A more descriptive guide for the Crop Dietary Nutrition Ontology (CDNO) was published in Crop Science in an article by Andres-Hernandez et al. 2020 [doi:10.1002/csc2.20092](https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/csc2.20092).
 
 More information can be found at http://obofoundry.org/ontology/cdno
