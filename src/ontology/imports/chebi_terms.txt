@@ -23,7 +23,6 @@ CHEBI:77366	#6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid
 CHEBI:15366	#acetic acid
 CHEBI:27632	#acetophenone
 CHEBI:133348	#acetyl glycitin
-CHEBI:15351	#acetyl-CoA
 CHEBI:166892	#aglycone
 CHEBI:16449	#alanine
 CHEBI:166964	#albumin type
@@ -271,6 +270,7 @@ CHEBI:89634	#melanin
 CHEBI:25195	#mercury
 CHEBI:28346	#mescaline
 CHEBI:16811	#methionine
+CHEBI:167164	#mineral nutrient
 CHEBI:28685	#molybdenum
 CHEBI:35381	#monosaccharide
 CHEBI:25409	#monoterpenoid
@@ -311,7 +311,7 @@ CHEBI:25863	#pelargonidin
 CHEBI:36122	#pelargonidin 3-O-beta-D-glucoside chloride
 CHEBI:31968	#pelargonidin 3-O-rutinoside
 CHEBI:166896	#peltogynoid
-CHEBI:15756	#pentadecanoic acid
+CHEBI:42504	#pentadecanoic acid
 CHEBI:31985	#petunidin 3-O-beta-glucoside
 CHEBI:166890	#phenolic acid
 CHEBI:51867	#phenolic ketone
@@ -433,7 +433,7 @@ CHEBI:28586	#verbascose
 CHEBI:27295	#violaxanthin
 CHEBI:33229	#vitamin
 CHEBI:12777	#vitamin A
-CHEBI:75769	#vitamin B
+CHEBI:75769	#B vitamin
 CHEBI:21241	#vitamin C
 CHEBI:27300	#vitamin D
 CHEBI:33234	#vitamin E
