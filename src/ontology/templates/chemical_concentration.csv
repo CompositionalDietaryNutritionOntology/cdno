@@ -1,5 +1,520 @@
-﻿defined_class,defined_class_label,chemical,chemical_label,material,material_label
-CDNO:0200001,,CDNO:0000002,dry matter,PO:0009011,plant structure
-CDNO:0200002,,ENVO:02000090,ash,PO:0009011,plant structure
-CDNO:0200003,,CHEBI:16646,carbohydrate,PO:0009011,plant structure
-CDNO:0200004,,CHEBI:18154,polysaccharide,PO:0009011,plant structure
+defined_class,defined_class_label,chemical,chemical_label,material,material_label
+CDNO:0200001,nutritional component concentration,,,PO:0009011,plant structure
+CDNO:0200002,,CHEBI:15377,water,PO:0009011,plant structure
+CDNO:0200003,,CDNO:0000002,dry plant matter,PO:0009011,plant structure
+CDNO:0200004,,ENVO:02000090,ash,PO:0009011,plant structure
+CDNO:0200005,,CHEBI:16646,carbohydrate,PO:0009011,plant structure
+CDNO:0200006,,CHEBI:18154,polysaccharide,PO:0009011,plant structure
+CDNO:0200007,,CHEBI:28017,starch,PO:0009011,plant structure
+CDNO:0200008,,CHEBI:17309,pectin,PO:0009011,plant structure
+CDNO:0200009,,CHEBI:62967,cellulose,PO:0009011,plant structure
+CDNO:0200010,,CHEBI:61266,hemicellulose,PO:0009011,plant structure
+CDNO:0200011,,CHEBI:15443,inulin,PO:0009011,plant structure
+CDNO:0200012,,CHEBI:35381,monosaccharide,PO:0009011,plant structure
+CDNO:0200013,,CHEBI:17234,glucose,PO:0009011,plant structure
+CDNO:0200014,,CHEBI:28757,fructose,PO:0009011,plant structure
+CDNO:0200015,,CHEBI:26546,rhamnose,PO:0009011,plant structure
+CDNO:0200016,,CHEBI:16689,apiose,PO:0009011,plant structure
+CDNO:0200017,,CHEBI:33830,galacturonic acid,PO:0009011,plant structure
+CDNO:0200018,,CHEBI:33984,fucose,PO:0009011,plant structure
+CDNO:0200019,,CHEBI:18222,xylose,PO:0009011,plant structure
+CDNO:0200020,,CHEBI:22599,arabinose,PO:0009011,plant structure
+CDNO:0200021,,CHEBI:28260,galactose,PO:0009011,plant structure
+CDNO:0200022,,CHEBI:37684,mannose,PO:0009011,plant structure
+CDNO:0200023,,CHEBI:33942,ribose,PO:0009011,plant structure
+CDNO:0200024,,CHEBI:36233,disaccharide,PO:0009011,plant structure
+CDNO:0200025,,CHEBI:17992,sucrose,PO:0009011,plant structure
+CDNO:0200026,,CHEBI:27082,trehalose,PO:0009011,plant structure
+CDNO:0200027,,CHEBI:17306,maltose,PO:0009011,plant structure
+CDNO:0200028,,CHEBI:50699,oligosaccharide,PO:0009011,plant structure
+CDNO:0200029,,CHEBI:74961,raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200030,,CHEBI:16634,raffinose,PO:0009011,plant structure
+CDNO:0200031,,CHEBI:17164,stachyose,PO:0009011,plant structure
+CDNO:0200032,,CHEBI:28586,verbascose,PO:0009011,plant structure
+CDNO:0200033,,CDNO:0000003,available carbohydrate,PO:0009011,plant structure
+CDNO:0200034,,CDNO:0000004,free sugar,PO:0009011,plant structure
+CDNO:0200035,,CDNO:0000005,dietary fibre,PO:0009011,plant structure
+CDNO:0200036,,CDNO:0000006,soluble dietary fibre,PO:0009011,plant structure
+CDNO:0200037,,CDNO:0000007,resistant starch,PO:0009011,plant structure
+CDNO:0200038,,CDNO:0000008,insoluble dietary fibre,PO:0009011,plant structure
+CDNO:0200039,,CHEBI:28796,fructan,PO:0009011,plant structure
+CDNO:0200040,,CHEBI:36080,protein,PO:0009011,plant structure
+CDNO:0200041,,CDNO:0000009,seed storage protein,PO:0009011,plant structure
+CDNO:0200042,,CHEBI:166964,albumin type,PO:0009011,plant structure
+CDNO:0200043,,CHEBI:166899,globulin type,PO:0009011,plant structure
+CDNO:0200044,,CHEBI:166885,prolamin,PO:0009011,plant structure
+CDNO:0200045,,CHEBI:166886,cruciferin,PO:0009011,plant structure
+CDNO:0200046,,CHEBI:166887,glutenin,PO:0009011,plant structure
+CDNO:0200047,,CHEBI:16449,alanine,PO:0009011,plant structure
+CDNO:0200048,,CHEBI:29016,arginine,PO:0009011,plant structure
+CDNO:0200049,,CHEBI:22653,asparagine,PO:0009011,plant structure
+CDNO:0200050,,CHEBI:22660,aspartic acid,PO:0009011,plant structure
+CDNO:0200051,,CHEBI:15356,cysteine,PO:0009011,plant structure
+CDNO:0200052,,CHEBI:18237,glutamic acid,PO:0009011,plant structure
+CDNO:0200053,,CHEBI:28300,glutamine,PO:0009011,plant structure
+CDNO:0200054,,CHEBI:15428,glycine,PO:0009011,plant structure
+CDNO:0200055,,CHEBI:27570,histidine,PO:0009011,plant structure
+CDNO:0200056,,CHEBI:24741,hydroxyproline,PO:0009011,plant structure
+CDNO:0200057,,CHEBI:24898,isoleucine,PO:0009011,plant structure
+CDNO:0200058,,CHEBI:25017,leucine,PO:0009011,plant structure
+CDNO:0200059,,CHEBI:25094,lysine,PO:0009011,plant structure
+CDNO:0200060,,CHEBI:16811,methionine,PO:0009011,plant structure
+CDNO:0200061,,CHEBI:28044,phenylalanine,PO:0009011,plant structure
+CDNO:0200062,,CHEBI:26271,proline,PO:0009011,plant structure
+CDNO:0200063,,CHEBI:17822,serine,PO:0009011,plant structure
+CDNO:0200064,,CHEBI:26986,threonine,PO:0009011,plant structure
+CDNO:0200065,,CHEBI:27897,tryptophan,PO:0009011,plant structure
+CDNO:0200066,,CHEBI:18186,tyrosine,PO:0009011,plant structure
+CDNO:0200067,,CHEBI:27266,valine,PO:0009011,plant structure
+CDNO:0200068,,CHEBI:18059,lipid,PO:0009011,plant structure
+CDNO:0200069,,CHEBI:18035,diglyceride,PO:0009011,plant structure
+CDNO:0200070,,CHEBI:166967,cis-fatty acid,PO:0009011,plant structure
+CDNO:0200071,,CHEBI:28837,octanoic acid,PO:0009011,plant structure
+CDNO:0200072,,CHEBI:42504,pentadecanoic acid,PO:0009011,plant structure
+CDNO:0200073,,CHEBI:28866,tetracosanoic acid,PO:0009011,plant structure
+CDNO:0200074,,CHEBI:30805,lauric acid,PO:0009011,plant structure
+CDNO:0200075,,CHEBI:28875,myristic acid,PO:0009011,plant structure
+CDNO:0200076,,CHEBI:15756,palmitic acid,PO:0009011,plant structure
+CDNO:0200077,,CHEBI:32365,heptadecanoic acid,PO:0009011,plant structure
+CDNO:0200078,,CHEBI:28842,stearic acid,PO:0009011,plant structure
+CDNO:0200079,,CHEBI:28822,arachidic acid,PO:0009011,plant structure
+CDNO:0200080,,CHEBI:28941,behenic acid,PO:0009011,plant structure
+CDNO:0200081,,CHEBI:28866,lignoceric acid,PO:0009011,plant structure
+CDNO:0200082,,CHEBI:30768,propionic acid,PO:0009011,plant structure
+CDNO:0200083,,CHEBI:27781,myristoleic acid,PO:0009011,plant structure
+CDNO:0200084,,CHEBI:28716,palmitoleic acid,PO:0009011,plant structure
+CDNO:0200085,,CHEBI:16196,oleic acid,PO:0009011,plant structure
+CDNO:0200086,,CHEBI:59265,palmitelaidic acid,PO:0009011,plant structure
+CDNO:0200087,,CHEBI:27997,elaidic acid,PO:0009011,plant structure
+CDNO:0200088,,CHEBI:36023,vaccenic acid,PO:0009011,plant structure
+CDNO:0200089,,CHEBI:32425,gondoic acid,PO:0009011,plant structure
+CDNO:0200090,,CHEBI:28792,erucic acid,PO:0009011,plant structure
+CDNO:0200091,,CHEBI:44247,nervonic acid,PO:0009011,plant structure
+CDNO:0200092,,CHEBI:25681,omega-3-fatty acid,PO:0009011,plant structure
+CDNO:0200093,,CHEBI:32389,stearidonic acid,PO:0009011,plant structure
+CDNO:0200094,,CHEBI:53460,eicosatrienoic acid,PO:0009011,plant structure
+CDNO:0200095,,CHEBI:166893,eicosatetraenoic acid,PO:0009011,plant structure
+CDNO:0200096,,CHEBI:77366,"6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid",PO:0009011,plant structure
+CDNO:0200097,,CHEBI:27432,alpha-linolenic acid,PO:0009011,plant structure
+CDNO:0200098,,CHEBI:36006,icosapentaenoic acid,PO:0009011,plant structure
+CDNO:0200099,,CHEBI:61204,docosapentaenoic acid,PO:0009011,plant structure
+CDNO:0200100,,CHEBI:36005,docosahexaenoic acid,PO:0009011,plant structure
+CDNO:0200101,,CHEBI:72785,eicosatetraenoic acid,PO:0009011,plant structure
+CDNO:0200102,,CHEBI:25048,linolenic acid,PO:0009011,plant structure
+CDNO:0200103,,CHEBI:36009,omega-6 fatty acid,PO:0009011,plant structure
+CDNO:0200104,,CHEBI:17351,linoleic acid,PO:0009011,plant structure
+CDNO:0200105,,CHEBI:53486,homo-gamma-linolenic acid,PO:0009011,plant structure
+CDNO:0200106,,CHEBI:28661,gamma-linolenic acid,PO:0009011,plant structure
+CDNO:0200107,,CHEBI:72850,eicosadienoic acid,PO:0009011,plant structure
+CDNO:0200108,,CHEBI:15843,arachidonic acid,PO:0009011,plant structure
+CDNO:0200109,,CHEBI:75115,docosadienoic acid,PO:0009011,plant structure
+CDNO:0200110,,CHEBI:131693,docosatetraenoic acid,PO:0009011,plant structure
+CDNO:0200111,,CHEBI:166968,trans-fatty acid,PO:0009011,plant structure
+CDNO:0200112,,CHEBI:3374,capsaicin,PO:0009011,plant structure
+CDNO:0200113,,CHEBI:16247,phospholipid,PO:0009011,plant structure
+CDNO:0200114,,CHEBI:64482,phosphatidylcholine,PO:0009011,plant structure
+CDNO:0200115,,CHEBI:16038,phosphatidylethanolamine,PO:0009011,plant structure
+CDNO:0200116,,CHEBI:18303,phosphatidyl-L-serine,PO:0009011,plant structure
+CDNO:0200117,,CHEBI:28874,phosphatidylinositol,PO:0009011,plant structure
+CDNO:0200118,,CHEBI:60479,lysophosphatidylcholine,PO:0009011,plant structure
+CDNO:0200119,,CHEBI:33563,glycolipid,PO:0009011,plant structure
+CDNO:0200120,,CHEBI:24385,glycoglycerolipid,PO:0009011,plant structure
+CDNO:0200121,,CHEBI:15889,sterol,PO:0009011,plant structure
+CDNO:0200122,,CHEBI:36799,campestanol,PO:0009011,plant structure
+CDNO:0200123,,CHEBI:16113,cholesterol,PO:0009011,plant structure
+CDNO:0200124,,CHEBI:6570,lupeol,PO:0009011,plant structure
+CDNO:0200125,,CHEBI:26125,phytosterol,PO:0009011,plant structure
+CDNO:0200126,,CHEBI:166888,avenasterol,PO:0009011,plant structure
+CDNO:0200127,,CHEBI:28604,delta5-avenasterol,PO:0009011,plant structure
+CDNO:0200128,,CHEBI:80096,delta7-avenasterol,PO:0009011,plant structure
+CDNO:0200129,,CHEBI:3168,brassicasterol,PO:0009011,plant structure
+CDNO:0200130,,CHEBI:28623,campesterol,PO:0009011,plant structure
+CDNO:0200131,,CHEBI:16933,ergosterol,PO:0009011,plant structure
+CDNO:0200132,,CHEBI:27693,sitosterol,PO:0009011,plant structure
+CDNO:0200133,,CHEBI:89400,stigmastanol,PO:0009011,plant structure
+CDNO:0200134,,CHEBI:28824,stigmasterol,PO:0009011,plant structure
+CDNO:0200135,,CHEBI:166889,delta7-stigmasterol,PO:0009011,plant structure
+CDNO:0200136,,CHEBI:167164,mineral nutrient,PO:0009011,plant structure
+CDNO:0200137,,CDNO:0000011,macro element,PO:0009011,plant structure
+CDNO:0200138,,CHEBI:22984,calcium,PO:0009011,plant structure
+CDNO:0200139,,CHEBI:17996,chloride,PO:0009011,plant structure
+CDNO:0200140,,CHEBI:25107,magnesium,PO:0009011,plant structure
+CDNO:0200141,,CHEBI:25555,nitrogen,PO:0009011,plant structure
+CDNO:0200142,,CHEBI:28659,phosphorus,PO:0009011,plant structure
+CDNO:0200143,,CHEBI:26216,potassium,PO:0009011,plant structure
+CDNO:0200144,,CHEBI:26708,sodium,PO:0009011,plant structure
+CDNO:0200145,,CHEBI:26833,sulfur,PO:0009011,plant structure
+CDNO:0200146,,CDNO:0000012,trace element,PO:0009011,plant structure
+CDNO:0200147,,CHEBI:28984,aluminium,PO:0009011,plant structure
+CDNO:0200148,,CHEBI:30513,antimony,PO:0009011,plant structure
+CDNO:0200149,,CHEBI:27563,arsenic,PO:0009011,plant structure
+CDNO:0200150,,CHEBI:27560,boron,PO:0009011,plant structure
+CDNO:0200151,,CHEBI:22977,cadmium,PO:0009011,plant structure
+CDNO:0200152,,CHEBI:28073,chromium,PO:0009011,plant structure
+CDNO:0200153,,CHEBI:27638,cobalt,PO:0009011,plant structure
+CDNO:0200154,,CHEBI:28694,copper,PO:0009011,plant structure
+CDNO:0200155,,CHEBI:17051,fluoride,PO:0009011,plant structure
+CDNO:0200156,,CHEBI:24859,iodine,PO:0009011,plant structure
+CDNO:0200157,,CHEBI:18248,iron,PO:0009011,plant structure
+CDNO:0200158,,CHEBI:25016,lead,PO:0009011,plant structure
+CDNO:0200159,,CHEBI:30145,lithium,PO:0009011,plant structure
+CDNO:0200160,,CHEBI:18291,manganese,PO:0009011,plant structure
+CDNO:0200161,,CHEBI:25195,mercury,PO:0009011,plant structure
+CDNO:0200162,,CHEBI:28685,molybdenum,PO:0009011,plant structure
+CDNO:0200163,,CHEBI:28112,nickel,PO:0009011,plant structure
+CDNO:0200164,,CHEBI:33322,rubidium,PO:0009011,plant structure
+CDNO:0200165,,CHEBI:27568,selenium,PO:0009011,plant structure
+CDNO:0200166,,CHEBI:33324,strontium,PO:0009011,plant structure
+CDNO:0200167,,CHEBI:27007,tin,PO:0009011,plant structure
+CDNO:0200168,,CHEBI:33341,titanum,PO:0009011,plant structure
+CDNO:0200169,,CHEBI:27698,vanadium,PO:0009011,plant structure
+CDNO:0200170,,CHEBI:27363,zinc,PO:0009011,plant structure
+CDNO:0200171,,CHEBI:32595,barium,PO:0009011,plant structure
+CDNO:0200172,,CHEBI:30514,caesium atom,PO:0009011,plant structure
+CDNO:0200173,,CHEBI:33301,bismuth,PO:0009011,plant structure
+CDNO:0200174,,CHEBI:33336,lanthanum,PO:0009011,plant structure
+CDNO:0200175,,CHEBI:24866,salt,PO:0009011,plant structure
+CDNO:0200176,,CHEBI:26710,sodium chloride,PO:0009011,plant structure
+CDNO:0200177,,CHEBI:51084,inorganic nitrate salt,PO:0009011,plant structure
+CDNO:0200178,,CHEBI:15858,bromide,PO:0009011,plant structure
+CDNO:0200179,,CHEBI:33229,vitamin,PO:0009011,plant structure
+CDNO:0200180,,CHEBI:27314,water soluble vitamin,PO:0009011,plant structure
+CDNO:0200181,,CHEBI:75769,vitamin B,PO:0009011,plant structure
+CDNO:0200182,,CHEBI:15640,5-formyltetrahydrofolic acid,PO:0009011,plant structure
+CDNO:0200183,,CHEBI:57455,"(6R)-5,10-methenyltetrahydrofolate",PO:0009011,plant structure
+CDNO:0200184,,CHEBI:26948,thiamine (b1),PO:0009011,plant structure
+CDNO:0200185,,CHEBI:17015,riboflavin (b2),PO:0009011,plant structure
+CDNO:0200186,,CHEBI:15940,niacin (b3) ,PO:0009011,plant structure
+CDNO:0200187,,CHEBI:46905,pantothenic acid (b5),PO:0009011,plant structure
+CDNO:0200188,,CHEBI:16709,pyridoxine (b6),PO:0009011,plant structure
+CDNO:0200189,,CHEBI:15956,biotin (b7),PO:0009011,plant structure
+CDNO:0200190,,CHEBI:27470,b9 folate ,PO:0009011,plant structure
+CDNO:0200191,,CHEBI:17439,cyanocobalamin (b12),PO:0009011,plant structure
+CDNO:0200192,,CHEBI:21241,vitamin C,PO:0009011,plant structure
+CDNO:0200193,,CHEBI:29073,L-ascorbic acid,PO:0009011,plant structure
+CDNO:0200194,,CHEBI:24020,fat soluble vitamin,PO:0009011,plant structure
+CDNO:0200195,,CHEBI:12777,vitamin A,PO:0009011,plant structure
+CDNO:0200196,,CHEBI:23044,carotenoid,PO:0009011,plant structure
+CDNO:0200197,,CHEBI:28425,alpha-carotene,PO:0009011,plant structure
+CDNO:0200198,,CHEBI:17579,beta-carotene,PO:0009011,plant structure
+CDNO:0200199,,CHEBI:140677,trans-beta-carotene,PO:0009011,plant structure
+CDNO:0200200,,CHEBI:67188,beta-carotene-cis,PO:0009011,plant structure
+CDNO:0200201,,CHEBI:27300,vitamin D,PO:0009011,plant structure
+CDNO:0200202,,CHEBI:17933,calcidiol,PO:0009011,plant structure
+CDNO:0200203,,CHEBI:33234,vitamin E,PO:0009011,plant structure
+CDNO:0200204,,CHEBI:27013,tocopherol,PO:0009011,plant structure
+CDNO:0200205,,CHEBI:22470,alpha-tocopherol,PO:0009011,plant structure
+CDNO:0200206,,CHEBI:47771,beta-tocopherol,PO:0009011,plant structure
+CDNO:0200207,,CHEBI:18185,gamma-tocopherol,PO:0009011,plant structure
+CDNO:0200208,,CHEBI:47772,delta-tocopherol,PO:0009011,plant structure
+CDNO:0200209,,CHEBI:33235,tocotrienol,PO:0009011,plant structure
+CDNO:0200210,,CHEBI:33270,alpha-tocotrienol,PO:0009011,plant structure
+CDNO:0200211,,CHEBI:33275,beta-tocotrienol,PO:0009011,plant structure
+CDNO:0200212,,CHEBI:33277,gamma-tocotrienol,PO:0009011,plant structure
+CDNO:0200213,,CHEBI:33276,delta-tocotrienol,PO:0009011,plant structure
+CDNO:0200214,,CHEBI:28384,vitamin K,PO:0009011,plant structure
+CDNO:0200215,,CDNO:0000013,plant secondary metabolite,PO:0009011,plant structure
+CDNO:0200216,,CHEBI:22315,alkaloid,PO:0009011,plant structure
+CDNO:0200217,,CHEBI:27732,caffeine,PO:0009011,plant structure
+CDNO:0200218,,CHEBI:28346,mescaline,PO:0009011,plant structure
+CDNO:0200219,,CHEBI:28946,theobromine,PO:0009011,plant structure
+CDNO:0200220,,CHEBI:33853,phenols,PO:0009011,plant structure
+CDNO:0200221,,CHEBI:26195,polyphenol,PO:0009011,plant structure
+CDNO:0200222,,CHEBI:26848,tannin,PO:0009011,plant structure
+CDNO:0200223,,CHEBI:16112,chlorogenic acid,PO:0009011,plant structure
+CDNO:0200224,,CHEBI:26267,condensed tannin,PO:0009011,plant structure
+CDNO:0200225,,CHEBI:78689,hydrolysable tannin,PO:0009011,plant structure
+CDNO:0200226,,CHEBI:23909,ellagitannin,PO:0009011,plant structure
+CDNO:0200227,,CHEBI:24182,gallotannin,PO:0009011,plant structure
+CDNO:0200228,,CHEBI:71222,phlorotannin,PO:0009011,plant structure
+CDNO:0200229,,CHEBI:18135,catechol,PO:0009011,plant structure
+CDNO:0200230,,CHEBI:16204,phloroglucinol,PO:0009011,plant structure
+CDNO:0200231,,CHEBI:4806,(−)-epigallocatechin 3-gallate,PO:0009011,plant structure
+CDNO:0200232,,CHEBI:166890,phenolic acid,PO:0009011,plant structure
+CDNO:0200233,,CHEBI:30778,gallic acid,PO:0009011,plant structure
+CDNO:0200234,,CHEBI:24676,hydroxybenzoic acid,PO:0009011,plant structure
+CDNO:0200235,,CHEBI:16914,salicylic acid,PO:0009011,plant structure
+CDNO:0200236,,CHEBI:18305,arbutin,PO:0009011,plant structure
+CDNO:0200237,,CHEBI:30816,vanillic acid,PO:0009011,plant structure
+CDNO:0200238,,CHEBI:68329,syringic acid,PO:0009011,plant structure
+CDNO:0200239,,CHEBI:51867,phenolic ketone,PO:0009011,plant structure
+CDNO:0200240,,CHEBI:27632,acetophenone,PO:0009011,plant structure
+CDNO:0200241,,CHEBI:30745,phenylacetic acid,PO:0009011,plant structure
+CDNO:0200242,,CHEBI:24689,hydroxycinnamates,PO:0009011,plant structure
+CDNO:0200243,,CHEBI:36281,caffeic acid,PO:0009011,plant structure
+CDNO:0200244,,CHEBI:77131,sinapic acid,PO:0009011,plant structure
+CDNO:0200245,,CHEBI:23238,chromones,PO:0009011,plant structure
+CDNO:0200246,,CHEBI:3594,chicoric acid,PO:0009011,plant structure
+CDNO:0200247,,CHEBI:23401,coumaric acid,PO:0009011,plant structure
+CDNO:0200248,,CHEBI:36090,p-coumaric acid,PO:0009011,plant structure
+CDNO:0200249,,CHEBI:18176,o-coumaric acid,PO:0009011,plant structure
+CDNO:0200250,,CHEBI:47925,m-coumaric,PO:0009011,plant structure
+CDNO:0200251,,CHEBI:17620,ferulic acid,PO:0009011,plant structure
+CDNO:0200252,,CHEBI:17488,scopoletin,PO:0009011,plant structure
+CDNO:0200253,,CHEBI:166891,phenylpropane,PO:0009011,plant structure
+CDNO:0200254,,CHEBI:25481,napthoquinone,PO:0009011,plant structure
+CDNO:0200255,,CHEBI:132141,"1,2-napthoquinone",PO:0009011,plant structure
+CDNO:0200256,,CHEBI:132142,"1,4-napthoquinone",PO:0009011,plant structure
+CDNO:0200257,,CHEBI:15794,juglone,PO:0009011,plant structure
+CDNO:0200258,,CHEBI:26776,stilbenoid,PO:0009011,plant structure
+CDNO:0200259,,CHEBI:26775,stilbene,PO:0009011,plant structure
+CDNO:0200260,,CHEBI:22580,anthraquinone,PO:0009011,plant structure
+CDNO:0200261,,CHEBI:166892,aglycone,PO:0009011,plant structure
+CDNO:0200262,,CHEBI:42223,emodin,PO:0009011,plant structure
+CDNO:0200263,,CHEBI:51149,xanthones,PO:0009011,plant structure
+CDNO:0200264,,CHEBI:166965,simple oxygenated xanthones,PO:0009011,plant structure
+CDNO:0200265,,CHEBI:83231,xanthone glycoside,PO:0009011,plant structure
+CDNO:0200266,,CHEBI:166966,prenylated and related xanthones,PO:0009011,plant structure
+CDNO:0200267,,CHEBI:166894,xanthonolignoid,PO:0009011,plant structure
+CDNO:0200268,,CHEBI:72544,flavonoids,PO:0009011,plant structure
+CDNO:0200269,,CHEBI:47916,flavonoid,PO:0009011,plant structure
+CDNO:0200270,,CHEBI:6674,malvidin,PO:0009011,plant structure
+CDNO:0200271,,CHEBI:28499,kaempferol,PO:0009011,plant structure
+CDNO:0200272,,CHEBI:38691,flavan,PO:0009011,plant structure
+CDNO:0200273,,CHEBI:5070,flavanone,PO:0009011,plant structure
+CDNO:0200274,,CHEBI:27566,6-prenylnaringenin,PO:0009011,plant structure
+CDNO:0200275,,CHEBI:50207,sophoraflavanone b,PO:0009011,plant structure
+CDNO:0200276,,CHEBI:28709,eriocitrin,PO:0009011,plant structure
+CDNO:0200277,,CHEBI:28412,eriodictyol,PO:0009011,plant structure
+CDNO:0200278,,CHEBI:28230,hesperetin,PO:0009011,plant structure
+CDNO:0200279,,CHEBI:28775,hesperidin,PO:0009011,plant structure
+CDNO:0200280,,CHEBI:74960,homoeriodictyol,PO:0009011,plant structure
+CDNO:0200281,,CHEBI:27552,isosakuranetin,PO:0009011,plant structure
+CDNO:0200282,,CHEBI:50202,naringenin,PO:0009011,plant structure
+CDNO:0200283,,CHEBI:28819,naringin,PO:0009011,plant structure
+CDNO:0200284,,CHEBI:28705,narirutin,PO:0009011,plant structure
+CDNO:0200285,,CHEBI:7502,neoeriocitrin,PO:0009011,plant structure
+CDNO:0200286,,CHEBI:59016,neohesperidin,PO:0009011,plant structure
+CDNO:0200287,,CHEBI:28157,pinocembrin,PO:0009011,plant structure
+CDNO:0200288,,CHEBI:66773,poncirin,PO:0009011,plant structure
+CDNO:0200289,,CHEBI:28927,sakuranetin,PO:0009011,plant structure
+CDNO:0200290,,CHEBI:42491,flavone,PO:0009011,plant structure
+CDNO:0200291,,CHEBI:2197,6-hydroxyluteolin,PO:0009011,plant structure
+CDNO:0200292,,CHEBI:66046,6-hydroxyluteolin 7-o-rhamnoside,PO:0009011,plant structure
+CDNO:0200293,,CHEBI:29503,"4',7-dihydroxyflavone",PO:0009011,plant structure
+CDNO:0200294,,CHEBI:18388,apigenin,PO:0009011,plant structure
+CDNO:0200295,,CHEBI:2979,baicalein,PO:0009011,plant structure
+CDNO:0200296,,CHEBI:75095,chrysin,PO:0009011,plant structure
+CDNO:0200297,,CHEBI:3718,cirsilineol,PO:0009011,plant structure
+CDNO:0200298,,CHEBI:81337,cirsimaritin,PO:0009011,plant structure
+CDNO:0200299,,CHEBI:4631,diosmin,PO:0009011,plant structure
+CDNO:0200300,,CHEBI:28917,dihydromyricetin,PO:0009011,plant structure
+CDNO:0200301,,CHEBI:136666,eupatorin,PO:0009011,plant structure
+CDNO:0200302,,CHEBI:79628,gardenin b,PO:0009011,plant structure
+CDNO:0200303,,CHEBI:5326,geraldone,PO:0009011,plant structure
+CDNO:0200304,,CHEBI:75902,hispidulin,PO:0009011,plant structure
+CDNO:0200305,,CHEBI:18330,isovitexin,PO:0009011,plant structure
+CDNO:0200306,,CHEBI:66103,jaceosidin,PO:0009011,plant structure
+CDNO:0200307,,CHEBI:15864,luteolin,PO:0009011,plant structure
+CDNO:0200308,,CHEBI:77791,luteolin 7-O-beta-glucoside,PO:0009011,plant structure
+CDNO:0200309,,CHEBI:70082,myricitrin,PO:0009011,plant structure
+CDNO:0200310,,CHEBI:7602,nobiletin,PO:0009011,plant structure
+CDNO:0200311,,CHEBI:16243,quercetin,PO:0009011,plant structure
+CDNO:0200312,,CHEBI:31227,rhoifolin,PO:0009011,plant structure
+CDNO:0200313,,CHEBI:9062,scutellarein,PO:0009011,plant structure
+CDNO:0200314,,CHEBI:9159,sinensetin,PO:0009011,plant structure
+CDNO:0200315,,CHEBI:9400,tangeretin,PO:0009011,plant structure
+CDNO:0200316,,CHEBI:16954,vitexin,PO:0009011,plant structure
+CDNO:0200317,,CHEBI:48039,dihydroflavanol,PO:0009011,plant structure
+CDNO:0200318,,CHEBI:72010,flavanols,PO:0009011,plant structure
+CDNO:0200319,,CHEBI:23053,catechin,PO:0009011,plant structure
+CDNO:0200320,,CHEBI:76132,(+)-catechin 3-O-gallate,PO:0009011,plant structure
+CDNO:0200321,,CHEBI:31018,(+)-gallocatechin,PO:0009011,plant structure
+CDNO:0200322,,CHEBI:90,(-)-epicatechin,PO:0009011,plant structure
+CDNO:0200323,,CHEBI:76125,(+)-epicatechin,PO:0009011,plant structure
+CDNO:0200324,,CHEBI:71225,(-)-gallocatechin,PO:0009011,plant structure
+CDNO:0200325,,CHEBI:70255,(-)-epicatechin-3-O-gallate,PO:0009011,plant structure
+CDNO:0200326,,CHEBI:42255,(-)-epigallocatechin,PO:0009011,plant structure
+CDNO:0200327,,CHEBI:70254,3'-o-methylepicatechin,PO:0009011,plant structure
+CDNO:0200328,,CHEBI:70256,4'-o-methylepigallocatechin-3-O-gallate,PO:0009011,plant structure
+CDNO:0200329,,CHEBI:70253,4'-o-methylepigallocatechin,PO:0009011,plant structure
+CDNO:0200330,,CHEBI:26267,proanthocyanidin,PO:0009011,plant structure
+CDNO:0200331,,CHEBI:81227,cinnamtannin a2,PO:0009011,plant structure
+CDNO:0200332,,CHEBI:166895,procyanidins,PO:0009011,plant structure
+CDNO:0200333,,CHEBI:75633,procyanidin dimer b1,PO:0009011,plant structure
+CDNO:0200334,,CHEBI:75632,procyanidin dimer b2,PO:0009011,plant structure
+CDNO:0200335,,CHEBI:75630,procyanidin dimer b3,PO:0009011,plant structure
+CDNO:0200336,,CHEBI:27589,procyanidin dimer b4,PO:0009011,plant structure
+CDNO:0200337,,CHEBI:75621,procyanidin dimer b5,PO:0009011,plant structure
+CDNO:0200338,,CHEBI:75619,procyanidin dimer b6,PO:0009011,plant structure
+CDNO:0200339,,CHEBI:75643,procyanidin trimer c1,PO:0009011,plant structure
+CDNO:0200340,,CHEBI:75644,procyanidin trimer c2,PO:0009011,plant structure
+CDNO:0200341,,CHEBI:136609,theaflavin,PO:0009011,plant structure
+CDNO:0200342,,CHEBI:166896,peltogynoid,PO:0009011,plant structure
+CDNO:0200343,,CHEBI:71230,dihydrochalcone,PO:0009011,plant structure
+CDNO:0200344,,CHEBI:88354,3-hydroxyphloretin-2'-o-xylosyl-glucoside,PO:0009011,plant structure
+CDNO:0200345,,CHEBI:17276,phloretin,PO:0009011,plant structure
+CDNO:0200346,,CHEBI:8113,phlorizin,PO:0009011,plant structure
+CDNO:0200347,,CHEBI:23086,chalcone,PO:0009011,plant structure
+CDNO:0200348,,CHEBI:3237,butein,PO:0009011,plant structure
+CDNO:0200349,,CHEBI:66331,xanthohumol,PO:0009011,plant structure
+CDNO:0200350,,CHEBI:47964,aurone,PO:0009011,plant structure
+CDNO:0200351,,CHEBI:38695,anthocyanidin,PO:0009011,plant structure
+CDNO:0200352,,CHEBI:27843,cyanidin,PO:0009011,plant structure
+CDNO:0200353,,CHEBI:27475,cyanidin 3-O-galactoside,PO:0009011,plant structure
+CDNO:0200354,,CHEBI:28064,cyanidin 3-O-rutinoside,PO:0009011,plant structure
+CDNO:0200355,,CHEBI:74811,cyanidin 3-O-sambubioside,PO:0009011,plant structure
+CDNO:0200356,,CHEBI:80438,cyanidin 3-O-sophoroside,PO:0009011,plant structure
+CDNO:0200357,,CHEBI:142263,isopeonidin 3-rutinoside,PO:0009011,plant structure
+CDNO:0200358,,CHEBI:25863,pelargonidin,PO:0009011,plant structure
+CDNO:0200359,,CHEBI:31968,pelargonidin 3-O-rutinoside,PO:0009011,plant structure
+CDNO:0200360,,CHEBI:38697,anthocyanin,PO:0009011,plant structure
+CDNO:0200361,,CHEBI:38698,anthocyanin chlorides,PO:0009011,plant structure
+CDNO:0200362,,CHEBI:37664,cyanidin 3-O-beta-D-galactoside chloride,PO:0009011,plant structure
+CDNO:0200363,,CHEBI:16726,cyanidin 3-O-rutinoside chloride,PO:0009011,plant structure
+CDNO:0200364,,CHEBI:38021,cyanin chloride,PO:0009011,plant structure
+CDNO:0200365,,CHEBI:36122,pelargonidin 3-O-beta-D-glucoside chloride,PO:0009011,plant structure
+CDNO:0200366,,CHEBI:22798,beta-d-glucoside,PO:0009011,plant structure
+CDNO:0200367,,CHEBI:31463,delphinidin 3-O-beta-d-glucoside,PO:0009011,plant structure
+CDNO:0200368,,CHEBI:31985,petunidin 3-O-beta-glucoside,PO:0009011,plant structure
+CDNO:0200369,,CHEBI:31799,malvidin 3-O-beta-D-glucoside,PO:0009011,plant structure
+CDNO:0200370,,CHEBI:50753,isoflavonoid,PO:0009011,plant structure
+CDNO:0200371,,CHEBI:72572,isoflavan,PO:0009011,plant structure
+CDNO:0200372,,CHEBI:27945,isoflavanone,PO:0009011,plant structure
+CDNO:0200373,,CHEBI:38757,isoflavone,PO:0009011,plant structure
+CDNO:0200374,,CHEBI:38755,hydroxyisoflavone,PO:0009011,plant structure
+CDNO:0200375,,CHEBI:28197,daidzein,PO:0009011,plant structure
+CDNO:0200376,,CHEBI:28088,genistein,PO:0009011,plant structure
+CDNO:0200377,,CHEBI:34778,glycitein,PO:0009011,plant structure
+CDNO:0200378,,CHEBI:24278,glucoside,PO:0009011,plant structure
+CDNO:0200379,,CHEBI:42202,daidzin,PO:0009011,plant structure
+CDNO:0200380,,CHEBI:27514,genistin,PO:0009011,plant structure
+CDNO:0200381,,CHEBI:80373,glycitin,PO:0009011,plant structure
+CDNO:0200382,,CHEBI:74630,glycosyloxyisoflavone,PO:0009011,plant structure
+CDNO:0200383,,CHEBI:80371,malonyl daidzin,PO:0009011,plant structure
+CDNO:0200384,,CHEBI:80372,malonyl genistin,PO:0009011,plant structure
+CDNO:0200385,,CHEBI:80374,malonyl glycitin,PO:0009011,plant structure
+CDNO:0200386,,CHEBI:133348,acetyl glycitin,PO:0009011,plant structure
+CDNO:0200387,,CHEBI:71543,rotenoid,PO:0009011,plant structure
+CDNO:0200388,,CHEBI:72577,coumestans,PO:0009011,plant structure
+CDNO:0200389,,CHEBI:72578,coumestan,PO:0009011,plant structure
+CDNO:0200390,,CHEBI:3908,coumestrol,PO:0009011,plant structure
+CDNO:0200391,,CHEBI:166897,3-arylcoumarin,PO:0009011,plant structure
+CDNO:0200392,,CHEBI:26377,pterocarpans,PO:0009011,plant structure
+CDNO:0200393,,CHEBI:73033,pterocarpan,PO:0009011,plant structure
+CDNO:0200394,,CHEBI:108,(−)-phaseolin,PO:0009011,plant structure
+CDNO:0200395,,CHEBI:67347,(+)-pisatin,PO:0009011,plant structure
+CDNO:0200396,,CHEBI:71971,neoflavonoid,PO:0009011,plant structure
+CDNO:0200397,,CHEBI:50128,biflavonoid,PO:0009011,plant structure
+CDNO:0200398,,CHEBI:26004,phenylpropanoid,PO:0009011,plant structure
+CDNO:0200399,,CHEBI:25036,lignan,PO:0009011,plant structure
+CDNO:0200400,,CHEBI:125451,silymarin,PO:0009011,plant structure
+CDNO:0200401,,CHEBI:25497,neolignan,PO:0009011,plant structure
+CDNO:0200402,,CHEBI:6457,lignin,PO:0009011,plant structure
+CDNO:0200403,,CHEBI:89634,melanin,PO:0009011,plant structure
+CDNO:0200404,,CHEBI:23055,catechol melanin,PO:0009011,plant structure
+CDNO:0200405,,CHEBI:166898,allomelanin,PO:0009011,plant structure
+CDNO:0200406,,CHEBI:26873,terpenoid,PO:0009011,plant structure
+CDNO:0200407,,CHEBI:25409,monoterpenoid,PO:0009011,plant structure
+CDNO:0200408,,CHEBI:26658,sesquiterpoid,PO:0009011,plant structure
+CDNO:0200409,,CHEBI:23849,diterpenoid,PO:0009011,plant structure
+CDNO:0200410,,CHEBI:27325,xanthophyll,PO:0009011,plant structure
+CDNO:0200411,,CHEBI:27547,zeaxanthin,PO:0009011,plant structure
+CDNO:0200412,,CHEBI:10223,alpha-cryptoxanthin,PO:0009011,plant structure
+CDNO:0200413,,CHEBI:10362,beta-cryptoxanthin,PO:0009011,plant structure
+CDNO:0200414,,CHEBI:28838,lutein,PO:0009011,plant structure
+CDNO:0200415,,CHEBI:26119,phytoene,PO:0009011,plant structure
+CDNO:0200416,,CHEBI:25501,neoxanthin,PO:0009011,plant structure
+CDNO:0200417,,CHEBI:27295,violaxanthin,PO:0009011,plant structure
+CDNO:0200418,,CHEBI:15948,lycopene,PO:0009011,plant structure
+CDNO:0200419,,CHEBI:62466,cis-lycopene,PO:0009011,plant structure
+CDNO:0200420,,CHEBI:50211,retinol,PO:0009011,plant structure
+CDNO:0200421,,CHEBI:36615,triterpenoid,PO:0009011,plant structure
+CDNO:0200422,,CHEBI:64709,organic acid,PO:0009011,plant structure
+CDNO:0200423,,CHEBI:15366,acetic acid,PO:0009011,plant structure
+CDNO:0200424,,CHEBI:30769,citric acid,PO:0009011,plant structure
+CDNO:0200425,,CHEBI:78320,lactic acid,PO:0009011,plant structure
+CDNO:0200426,,CHEBI:42111,D-lactic acid,PO:0009011,plant structure
+CDNO:0200427,,CHEBI:422,L-lactic acid,PO:0009011,plant structure
+CDNO:0200428,,CHEBI:6650,malic acid,PO:0009011,plant structure
+CDNO:0200429,,CHEBI:30794,malonic acid,PO:0009011,plant structure
+CDNO:0200430,,CHEBI:22652,ascorbic acid,PO:0009011,plant structure
+CDNO:0200431,,CHEBI:27956,L-dehydroascorbic acid,PO:0009011,plant structure
+CDNO:0200432,,CHEBI:16995,oxalic acid,PO:0009011,plant structure
+CDNO:0200433,,CHEBI:17401,phytic acid,PO:0009011,plant structure
+CDNO:0200434,,CHEBI:26493,quinic acid,PO:0009011,plant structure
+CDNO:0200435,,CHEBI:32816,pyruvic acid,PO:0009011,plant structure
+CDNO:0200436,,CHEBI:16119,shikimic acid,PO:0009011,plant structure
+CDNO:0200437,,CHEBI:15741,succinic acid,PO:0009011,plant structure
+CDNO:0200438,,CHEBI:26849,tartaric acid,PO:0009011,plant structure
+CDNO:0200439,,CHEBI:30887,isocitric acid,PO:0009011,plant structure
+CDNO:0200440,,CHEBI:30744,oxaloacetic acid,PO:0009011,plant structure
+CDNO:0200441,,CHEBI:24848,inositol,PO:0009011,plant structure
+CDNO:0200442,,CHEBI:15891,taurine,PO:0009011,plant structure
+CDNO:0200443,,CHEBI:17750,glycine betaine,PO:0009011,plant structure
+CDNO:0200444,,CHEBI:26191,polyol,PO:0009011,plant structure
+CDNO:0200445,,CHEBI:29864,mannitol,PO:0009011,plant structure
+CDNO:0200446,,CHEBI:17151,xylitol,PO:0009011,plant structure
+CDNO:0200447,,CHEBI:30911,glucitol,PO:0009011,plant structure
+CDNO:0200448,,CHEBI:15354,choline,PO:0009011,plant structure
+CDNO:0200449,,CHEBI:26208,polyunsaturated fatty acid,PO:0009011,plant structure
+CDNO:0200450,,CHEBI:17020,glucomannan,PO:0009011,plant structure
+CDNO:0200451,,CHEBI:17754,glycerol,PO:0009011,plant structure
+CDNO:0200452,,CHEBI:17855,triglyceride,PO:0009011,plant structure
+CDNO:0200453,,CHEBI:18233,xyloglucan,PO:0009011,plant structure
+CDNO:0200454,,CHEBI:22590,arabinan,PO:0009011,plant structure
+CDNO:0200455,,CHEBI:24174,galacturonan,PO:0009011,plant structure
+CDNO:0200456,,CHEBI:25413,monounsaturated fatty acid,PO:0009011,plant structure
+CDNO:0200457,,CHEBI:26543,rhamnogalacturonan,PO:0009011,plant structure
+CDNO:0200458,,CHEBI:26607,saturated fatty acid,PO:0009011,plant structure
+CDNO:0200459,,CHEBI:27680,galactomannan,PO:0009011,plant structure
+CDNO:0200460,,CHEBI:28057,amylopectin,PO:0009011,plant structure
+CDNO:0200461,,CHEBI:28102,amylose,PO:0009011,plant structure
+CDNO:0200462,,CHEBI:28427,arabinoxylan,PO:0009011,plant structure
+CDNO:0200463,,CHEBI:28808,mannan,PO:0009011,plant structure
+CDNO:0200464,,CHEBI:33709,amino acid,PO:0009011,plant structure
+CDNO:0200465,,CHEBI:35366,fatty acid,PO:0009011,plant structure
+CDNO:0200466,,CHEBI:37165,galactan,PO:0009011,plant structure
+CDNO:0200467,,CHEBI:37166,xylan,PO:0009011,plant structure
+CDNO:0200468,,CHEBI:37163,glucan,PO:0009011,plant structure
+CDNO:0200469,,CDNO:0100001,amylopectin derived from starch,PO:0009011,plant structure
+CDNO:0200470,,CDNO:0100002,amylose derived from starch,PO:0009011,plant structure
+CDNO:0200471,,CDNO:0100003,galacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200472,,CDNO:0100004,rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200473,,CDNO:0100005,mannan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200474,,CDNO:0100006,xylan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200475,,CDNO:0100007,xyloglucan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200476,,CDNO:0100008,glucomannan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200477,,CDNO:0100009,arabinoxylan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200478,,CDNO:0100010,fructan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200479,,CDNO:0100011,arabinan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200480,,CDNO:0100012,galactomannan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200481,,CDNO:0100013,galactan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200482,,CDNO:0100014,glucose derived from amylopectin derived from starch,PO:0009011,plant structure
+CDNO:0200483,,CDNO:0100015,glucose derived from amylose derived from starch,PO:0009011,plant structure
+CDNO:0200484,,CDNO:0100016,glucose derived from sucrose,PO:0009011,plant structure
+CDNO:0200485,,CDNO:0100017,fructose derived from sucrose,PO:0009011,plant structure
+CDNO:0200486,,CDNO:0100018,glucose derived from maltose,PO:0009011,plant structure
+CDNO:0200487,,CDNO:0100019,galacturonic acid derived from galacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200488,,CDNO:0100020,rhamnose derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200489,,CDNO:0100021,apiose derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200490,,CDNO:0100022,galacturonic acid derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200491,,CDNO:0100023,fucose derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200492,,CDNO:0100024,xylose derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200493,,CDNO:0100025,arabinose derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200494,,CDNO:0100026,galactose derived from rhamnogalacturonan derived from pectin,PO:0009011,plant structure
+CDNO:0200495,,CDNO:0100027,raffinose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200496,,CDNO:0100028,galactose derived from raffinose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200497,,CDNO:0100029,glucose derived from raffinose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200498,,CDNO:0100030,fructose derived from raffinose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200499,,CDNO:0100031,stachyose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200500,,CDNO:0100032,galactose derived from stachyose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200501,,CDNO:0100033,glucose derived from stachyose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200502,,CDNO:0100034,fructose derived from stachyose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200503,,CDNO:0100035,verbascose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200504,,CDNO:0100036,galactose derived from verbascose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200505,,CDNO:0100037,glucose derived from verbascose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200506,,CDNO:0100038,fructose derived from verbascose derived from raffinose family of oligosaccharide (rfo),PO:0009011,plant structure
+CDNO:0200507,,CDNO:0100039,glucose derived from cellulose,PO:0009011,plant structure
+CDNO:0200508,,CDNO:0100040,mannose derived from mannan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200509,,CDNO:0100041,glucose derived from xylan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200510,,CDNO:0100042,xylose derived from xylan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200511,,CDNO:0100043,glucose derived from xyloglucan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200512,,CDNO:0100044,xylose derived from xyloglucan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200513,,CDNO:0100045,glucose derived from glucomannan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200514,,CDNO:0100046,mannose derived from glucomannan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200515,,CDNO:0100047,arabinose derived from arabinoxylan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200516,,CDNO:0100048,xylose derived from arabinoxylan derived from hemicellulose,PO:0009011,plant structure
+CDNO:0200517,,CDNO:0100049,inulin derived from fructan,PO:0009011,plant structure
+CDNO:0200518,,CDNO:0100050,fructose derived from inulin derived from fructan,PO:0009011,plant structure
+CDNO:0200519,,CDNO:0100051,amino acid derived from protein,PO:0009011,plant structure
