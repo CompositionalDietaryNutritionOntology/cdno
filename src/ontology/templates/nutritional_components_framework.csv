@@ -135,7 +135,7 @@ CHEBI:27693,sitosterol,CHEBI:26125,,,,,209,
 CHEBI:89400,stigmastanol,CHEBI:26125,,,,,210,
 CHEBI:28824,stigmasterol,CHEBI:26125,,,,,211,
 CHEBI:166889,delta7-stigmasterol,CHEBI:28824,,,,,212,
-CHEBI:167164,mineral nutrient,dietary nutritional component,,,,,213,"essential mineral, element"
+CHEBI:167164,mineral nutrient,dietary nutritional component,A mineral that is an inorganic nutrient which must be ingested and absorbed in adequate amounts to satisfy a wide range of essential metabolic and/or structural functions in the human body,,,,213,"essential mineral, element"
 CDNO:0000011,macro element,mineral nutrient,A mineral nutrient that represents a major proportion of the minerals required in the diet,,,,214,macromineral
 CHEBI:22984,calcium,macro element,,,,,215,
 CHEBI:17996,chloride,macro element,,,,,216,
