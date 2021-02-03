@@ -30,7 +30,7 @@ annotations:
       - chemical
 
 def:
-  text: "The concentration of %s when measured in %s."
+  text: "The concentration of %s when measured in some %s."
   vars:
     - chemical
     - material
