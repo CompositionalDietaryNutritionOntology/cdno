@@ -1,5 +1,5 @@
-defined_class,defined_class_label,chemical,chemical_label,material,material_label
-CDNO:0200001,nutritional component concentration,,,PO:0009011,plant structure
+﻿defined_class,defined_class_label,chemical,chemical_label,material,material_label
+CDNO:0200001,nutritional component concentration,CDNO:0000001,dietary nutritional component,PO:0009011,plant structure
 CDNO:0200002,,CHEBI:15377,water,PO:0009011,plant structure
 CDNO:0200003,,CDNO:0000002,dry plant matter,PO:0009011,plant structure
 CDNO:0200004,,ENVO:02000090,ash,PO:0009011,plant structure
@@ -184,11 +184,11 @@ CDNO:0200182,,CHEBI:15640,5-formyltetrahydrofolic acid,PO:0009011,plant structur
 CDNO:0200183,,CHEBI:57455,"(6R)-5,10-methenyltetrahydrofolate",PO:0009011,plant structure
 CDNO:0200184,,CHEBI:26948,thiamine (b1),PO:0009011,plant structure
 CDNO:0200185,,CHEBI:17015,riboflavin (b2),PO:0009011,plant structure
-CDNO:0200186,,CHEBI:15940,niacin (b3) ,PO:0009011,plant structure
+CDNO:0200186,,CHEBI:15940,niacin (b3),PO:0009011,plant structure
 CDNO:0200187,,CHEBI:46905,pantothenic acid (b5),PO:0009011,plant structure
 CDNO:0200188,,CHEBI:16709,pyridoxine (b6),PO:0009011,plant structure
 CDNO:0200189,,CHEBI:15956,biotin (b7),PO:0009011,plant structure
-CDNO:0200190,,CHEBI:27470,b9 folate ,PO:0009011,plant structure
+CDNO:0200190,,CHEBI:27470,b9 folate,PO:0009011,plant structure
 CDNO:0200191,,CHEBI:17439,cyanocobalamin (b12),PO:0009011,plant structure
 CDNO:0200192,,CHEBI:21241,vitamin C,PO:0009011,plant structure
 CDNO:0200193,,CHEBI:29073,L-ascorbic acid,PO:0009011,plant structure
@@ -229,7 +229,7 @@ CDNO:0200227,,CHEBI:24182,gallotannin,PO:0009011,plant structure
 CDNO:0200228,,CHEBI:71222,phlorotannin,PO:0009011,plant structure
 CDNO:0200229,,CHEBI:18135,catechol,PO:0009011,plant structure
 CDNO:0200230,,CHEBI:16204,phloroglucinol,PO:0009011,plant structure
-CDNO:0200231,,CHEBI:4806,(−)-epigallocatechin 3-gallate,PO:0009011,plant structure
+CDNO:0200231,,CHEBI:4806,(-)-epigallocatechin 3-gallate,PO:0009011,plant structure
 CDNO:0200232,,CHEBI:166890,phenolic acid,PO:0009011,plant structure
 CDNO:0200233,,CHEBI:30778,gallic acid,PO:0009011,plant structure
 CDNO:0200234,,CHEBI:24676,hydroxybenzoic acid,PO:0009011,plant structure
@@ -392,7 +392,7 @@ CDNO:0200390,,CHEBI:3908,coumestrol,PO:0009011,plant structure
 CDNO:0200391,,CHEBI:166897,3-arylcoumarin,PO:0009011,plant structure
 CDNO:0200392,,CHEBI:26377,pterocarpans,PO:0009011,plant structure
 CDNO:0200393,,CHEBI:73033,pterocarpan,PO:0009011,plant structure
-CDNO:0200394,,CHEBI:108,(−)-phaseolin,PO:0009011,plant structure
+CDNO:0200394,,CHEBI:108,(-)-phaseolin,PO:0009011,plant structure
 CDNO:0200395,,CHEBI:67347,(+)-pisatin,PO:0009011,plant structure
 CDNO:0200396,,CHEBI:71971,neoflavonoid,PO:0009011,plant structure
 CDNO:0200397,,CHEBI:50128,biflavonoid,PO:0009011,plant structure
