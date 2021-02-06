@@ -69,6 +69,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CDNO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000002"/>
@@ -438,6 +444,37 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of dietary nutritional component when measured in some plant structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure dietary nutritional component concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of dietary nutritional component in plant structure</rdfs:label>
+    </owl:Class>
     
 
 
@@ -7564,9 +7601,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of (−)-epigallocatechin 3-gallate when measured in some plant structure.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure (−)-epigallocatechin 3-gallate concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of (−)-epigallocatechin 3-gallate in plant structure</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of (-)-epigallocatechin 3-gallate when measured in some plant structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure (-)-epigallocatechin 3-gallate concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of (-)-epigallocatechin 3-gallate in plant structure</rdfs:label>
     </owl:Class>
     
 
@@ -12617,9 +12654,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of (−)-phaseolin when measured in some plant structure.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure (−)-phaseolin concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of (−)-phaseolin in plant structure</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of (-)-phaseolin when measured in some plant structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure (-)-phaseolin concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of (-)-phaseolin in plant structure</rdfs:label>
     </owl:Class>
     
 
