@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/cdno-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2020-07-04/cdno-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2021-02-06/cdno-base.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Crop Dietary Nutrition Ontology</dc:title>
         <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/IAO_8000001</dc:type>
@@ -21,7 +21,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Classes
+    // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -29,11 +29,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CDNO_00000000 -->
+    <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_00000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
-    </owl:Class>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
 </rdf:RDF>
 
 
