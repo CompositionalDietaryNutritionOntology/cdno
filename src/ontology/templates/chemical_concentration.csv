@@ -229,7 +229,7 @@ CDNO:0200227,,CHEBI:24182,gallotannin,PO:0009011,plant structure
 CDNO:0200228,,CHEBI:71222,phlorotannin,PO:0009011,plant structure
 CDNO:0200229,,CHEBI:18135,catechol,PO:0009011,plant structure
 CDNO:0200230,,CHEBI:16204,phloroglucinol,PO:0009011,plant structure
-CDNO:0200231,,CHEBI:4806,(−)-epigallocatechin 3-gallate,PO:0009011,plant structure
+CDNO:0200231,,CHEBI:4806,(-)-epigallocatechin 3-gallat,PO:0009011,plant structure
 CDNO:0200232,,CHEBI:166890,phenolic acid,PO:0009011,plant structure
 CDNO:0200233,,CHEBI:30778,gallic acid,PO:0009011,plant structure
 CDNO:0200234,,CHEBI:24676,hydroxybenzoic acid,PO:0009011,plant structure
@@ -392,7 +392,7 @@ CDNO:0200390,,CHEBI:3908,coumestrol,PO:0009011,plant structure
 CDNO:0200391,,CHEBI:166897,3-arylcoumarin,PO:0009011,plant structure
 CDNO:0200392,,CHEBI:26377,pterocarpans,PO:0009011,plant structure
 CDNO:0200393,,CHEBI:73033,pterocarpan,PO:0009011,plant structure
-CDNO:0200394,,CHEBI:108,(−)-phaseolin,PO:0009011,plant structure
+CDNO:0200394,,CHEBI:108,(-)-phaseolin,PO:0009011,plant structure
 CDNO:0200395,,CHEBI:67347,(+)-pisatin,PO:0009011,plant structure
 CDNO:0200396,,CHEBI:71971,neoflavonoid,PO:0009011,plant structure
 CDNO:0200397,,CHEBI:50128,biflavonoid,PO:0009011,plant structure
