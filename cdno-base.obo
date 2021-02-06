@@ -1,12 +1,8 @@
 format-version: 1.2
-data-version: cdno/releases/2020-07-04/cdno-base.owl
+data-version: cdno/releases/2021-02-06/cdno-base.owl
 ontology: cdno/cdno-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Crop Dietary Nutrition Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
-
-[Term]
-id: CDNO:00000000
-name: root node
 
