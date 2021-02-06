@@ -14,7 +14,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2020-12-10/imports/po_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2021-02-06/imports/po_import.owl"/>
     </owl:Ontology>
     
 
@@ -2607,7 +2607,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009006"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>thallus (related)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:02756ad4-a09c-48d7-8754-903254e557a9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:02756ad4-a09c-48d7-8754-903254e557a9</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2780,7 +2780,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009012"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Arabidopsis growth (related)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>TAIR:0000205</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAIR:0000205</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
