@@ -2,7 +2,7 @@ pattern_name: cdno-p/patterns/chemical_concentration
 
 classes:
   chemical entity: CHEBI:24431
-  plant structure: PO:0009011
+  material entity: BFO:0000040
   concentration of: PATO:0000033
 
 relations:
@@ -11,7 +11,7 @@ relations:
 
 vars:
   chemical: "'chemical entity'"
-  material: "'plant structure'"
+  material: "'material entity'"
 
 name:
   text: "concentration of %s in %s"
