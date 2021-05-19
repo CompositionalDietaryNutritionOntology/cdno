@@ -770,7 +770,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
         <obo:IAO_0000111 xml:lang="en">inheres in</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">this fragility inheres in this vase</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this red color inheres in this apple</obo:IAO_0000112>
@@ -837,7 +836,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116>
@@ -850,7 +848,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
@@ -903,7 +900,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/RO_0002007 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002007">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <obo:IAO_0000115>X outer_layer_of Y iff:
 . X :continuant that bearer_of some PATO:laminar
 . X part_of Y
@@ -1067,7 +1063,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002084 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002084">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
         <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
         <rdfs:comment>Previously had ID  http://purl.obolibrary.org/obo/RO_0002122 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.</rdfs:comment>
@@ -1167,7 +1162,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002163 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002163">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>A is spatially_disjoint_from B if and only if they have no parts in common</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. </obo:IAO_0000116>
@@ -1364,7 +1358,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002219 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002219">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
@@ -1378,8 +1371,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002163"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <obo:IAO_0000112>A caterpillar walking on the surface of a leaf is adjacent_to the leaf, if one of the caterpillar appendages is touching the leaf. In contrast, a butterfly flying close to a flower is not considered adjacent, unless there are any touching parts.</obo:IAO_0000112>
         <obo:IAO_0000112>The epidermis layer of a vertebrate is adjacent to the dermis.</obo:IAO_0000112>
         <obo:IAO_0000112>The plasma membrane of a cell is adjacent to the cytoplasm, and also to the cell lumen which the cytoplasm occupies.</obo:IAO_0000112>
@@ -1418,8 +1409,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002229 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002229">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>inverse of ends with</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
@@ -1451,7 +1440,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002234 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002234">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
@@ -1564,7 +1552,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002295 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002295">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002324"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss).</obo:IAO_0000115>
         <obo:IAO_0000116>This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint.</obo:IAO_0000116>
@@ -1579,8 +1566,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002297 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002297">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002295"/>
         <obo:IAO_0000112>an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">every &quot;endocardial cushion formation&quot; (GO:0003272) results_in_formation_of some &quot;endocardial cushion&quot; (UBERON:0002062)</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -1595,7 +1580,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/RO_0002303 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002303">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
         <obo:IAO_0000112>Hydrozoa (NCBITaxon_6074) SubClassOf &apos;has habitat&apos; some &apos;Hydrozoa habitat&apos;
 where
 &apos;Hydrozoa habitat&apos; SubClassOf overlaps some (&apos;marine environment&apos; (ENVO_00000569) and &apos;freshwater environment&apos; (ENVO_01000306) and &apos;wetland&apos; (ENVO_00000043)) and &apos;has part&apos; some (freshwater (ENVO_00002011) or &apos;sea water&apos; (ENVO_00002149)) -- http://eol.org/pages/1795/overview</obo:IAO_0000112>
@@ -1642,7 +1626,6 @@ where
     <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002314">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002502"/>
         <obo:IAO_0000115>q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.</obo:IAO_0000115>
         <obo:IAO_0000116>Because part_of is transitive, inheres in is a sub-relation of inheres in part of</obo:IAO_0000116>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
@@ -1845,8 +1828,6 @@ where
     <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002328"/>
         <obo:IAO_0000115>inverse of has output</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/RO_0002259"/>
@@ -1859,7 +1840,6 @@ where
     <!-- http://purl.obolibrary.org/obo/RO_0002354 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002354">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <rdfs:label xml:lang="en">formed as result of</rdfs:label>
     </owl:ObjectProperty>
@@ -2267,7 +2247,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/RO_0002473 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <obo:IAO_0000112>&apos;otolith organ&apos; SubClassOf &apos;composed primarily of&apos; some &apos;calcium carbonate&apos;</obo:IAO_0000112>
         <obo:IAO_0000115>x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
@@ -2364,9 +2343,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/RO_0002507 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002507">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002509"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002559"/>
         <obo:IAO_0000112>A coral reef environment is determined by a particular coral reef</obo:IAO_0000112>
         <obo:IAO_0000115>s determined by f if and only if s is a type of system, and f is a material entity that is part of s, such that f exerts a strong causal influence on the functioning of s, and the removal of f would cause the collapse of s.</obo:IAO_0000115>
         <obo:IAO_0000116>The label for this relation is probably too general for its restricted use, where the domain is a system. It may be relabeled in future</obo:IAO_0000116>
@@ -2384,8 +2360,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/RO_0002509 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002509">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002506"/>
         <obo:IAO_0000115>s &apos;determined by part of&apos; w if and only if there exists some f such that (1) s &apos;determined by&apos; f and (2) f part_of w, or f=w.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
@@ -4818,7 +4792,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_15377 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
         <obo:IAO_0000115>An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms.</obo:IAO_0000115>
         <chebi:charge>0</chebi:charge>
@@ -20301,7 +20274,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_24866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24866">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
         <obo:IAO_0000115>A salt is an assembly of cations and anions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>salt</oboInOwl:hasExactSynonym>
@@ -22281,7 +22253,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_26710 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
         <obo:IAO_0000115>An inorganic chloride salt having sodium(1+) as the counterion.</obo:IAO_0000115>
         <chebi:charge>0</chebi:charge>
@@ -51174,7 +51145,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_02000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
         <obo:IAO_0000115>An environmental material that is the non-aqueous, non-gaseous residues that remain after something is burned.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ash</rdfs:label>
@@ -51223,7 +51193,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001569 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001569">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T17:25:21Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Western Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51248,7 +51217,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001572 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001572">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T17:52:41Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym xml:lang="en">Southern central Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51262,7 +51230,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001573 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001573">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T17:54:35Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Eastern central Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51276,7 +51243,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001574 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001574">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T17:56:13Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Western Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51290,7 +51256,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001575 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001575">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T18:10:52Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Western coast of Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51304,7 +51269,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001576 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001576">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T18:12:28Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Central Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51318,7 +51282,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001577 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001577">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T18:15:11Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Western central Australia</oboInOwl:hasBroadSynonym>
@@ -51332,7 +51295,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001578 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001578">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T18:17:15Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Northwestern Australia</oboInOwl:hasBroadSynonym>
@@ -51346,7 +51308,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001579 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001579">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T18:24:06Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Southern Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51360,7 +51321,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001580 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001580">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001571"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-05T18:26:16Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Southern Australia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51385,7 +51345,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001584 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001584">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:02:37Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Southern Africa: Southern Namibia into South Africa</oboInOwl:hasBroadSynonym>
@@ -51399,7 +51358,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001585 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001585">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:07:38Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1321</oboInOwl:hasDbXref>
@@ -51413,7 +51371,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001586 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001586">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:11:38Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1320</oboInOwl:hasDbXref>
@@ -51427,7 +51384,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001587 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001587">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:13:00Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1319</oboInOwl:hasDbXref>
@@ -51441,7 +51397,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001588 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001588">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:15:07Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Islands east of the Horn of Africa and south of Yemen Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51455,7 +51410,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001589 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001589">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:18:55Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1317</oboInOwl:hasDbXref>
@@ -51468,7 +51422,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001590 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001590">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:20:56Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1316</oboInOwl:hasDbXref>
@@ -51481,7 +51434,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001591 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001591">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:24:28Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Africa: Namibia Ecoregion</oboInOwl:hasBroadSynonym>
@@ -51495,7 +51447,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001592 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001592">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:26:15Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1314</oboInOwl:hasDbXref>
@@ -51508,7 +51459,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001593 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001593">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:28:43Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1313</oboInOwl:hasDbXref>
@@ -51521,7 +51471,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001594 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001594">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:30:23Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1312</oboInOwl:hasDbXref>
@@ -51534,7 +51483,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001595 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001595">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:31:29Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1311</oboInOwl:hasDbXref>
@@ -51548,7 +51496,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001596 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001596">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:39:32Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1310</oboInOwl:hasDbXref>
@@ -51562,7 +51509,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001597 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001597">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:42:47Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1309</oboInOwl:hasDbXref>
@@ -51575,7 +51521,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001598 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001598">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:44:54Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1308</oboInOwl:hasDbXref>
@@ -51589,7 +51534,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001599 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001599">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:46:58Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>Eastern Africa: Somalia</oboInOwl:hasBroadSynonym>
@@ -51603,7 +51547,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001600 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001600">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-06T22:54:57Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1306</oboInOwl:hasDbXref>
@@ -51617,7 +51560,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001601 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001601">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:08:06Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1305</oboInOwl:hasDbXref>
@@ -51630,7 +51572,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001602 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001602">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:11:29Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1304</oboInOwl:hasDbXref>
@@ -51643,7 +51584,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001603 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001603">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:13:33Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1303</oboInOwl:hasDbXref>
@@ -51657,7 +51597,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001604 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001604">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:16:12Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1302</oboInOwl:hasDbXref>
@@ -51671,7 +51610,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001605 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001605">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001583"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:18:09Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>WWF:AT1301</oboInOwl:hasDbXref>
@@ -51695,7 +51633,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001627 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001627">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001626"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-26T23:40:13Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/im1304"/>
@@ -51709,7 +51646,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001628 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001628">
-        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001626"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-27T00:12:51Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/im1303"/>
@@ -51761,7 +51697,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/ENVO_01001862 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01001862">
-        <obo:RO_0002608 rdf:resource="https://www.wikidata.org/wiki/Q525"/>
         <obo:IAO_0000115>Stellar radiation emitted from Sol.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T22:27:44Z</dc:date>
@@ -51813,7 +51748,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- https://www.wikidata.org/wiki/Q715269 -->
 
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q715269">
-        <obo:BFO_0000050 rdf:resource="https://www.wikidata.org/wiki/Q2"/>
         <obo:IAO_0000115>Earth&apos;s interconnected water system</obo:IAO_0000115>
         <rdfs:label xml:lang="en">World Ocean</rdfs:label>
     </owl:NamedIndividual>
