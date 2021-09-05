@@ -4250,6 +4250,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166888"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">delta7-avenasterol</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">delta7-avenasterol</rdfs:label>
     </owl:Class>
     

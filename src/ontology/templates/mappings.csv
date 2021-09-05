@@ -506,7 +506,7 @@ CDNO:0200503,verbascose derived from raffinose family oligosaccharide,INFOODs: V
 CDNO:0200504,galactose derived from verbascose derived from raffinose family oligosaccharide,INFOODs: GALS,USDA_NDB: 1075
 CDNO:0200505,glucose derived from verbascose derived from raffinose family oligosaccharide,INFOODs: GLUS,USDA_NDB: 1011
 CDNO:0200506,fructose derived from verbascose derived from raffinose family oligosaccharide,INFOODs: FRUS,USDA_NDB: 1012
-CDNO:0200507,glucose derived from amorphous cellulose,INFOODs: GLUFB,USDA_NDB: 1011
+CDNO:0200507,glucose derived from cellulose,INFOODs: GLUFB,USDA_NDB: 1011
 CDNO:0200508,mannose derived from mannan derived from hemicellulose,INFOODs: MANFB,
 CDNO:0200509,glucose derived from xylan derived from hemicellulose,INFOODs: GLUFB,USDA_NDB: 1011
 CDNO:0200510,xylose derived from xylan derived from hemicellulose,INFOODs: XYLFB,
