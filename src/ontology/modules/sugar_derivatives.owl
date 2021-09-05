@@ -472,8 +472,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Apiose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">apiose derived from rhamnogalacturonan derived from pectin</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">D-apiose which is derived from rhamnogalacturonan derived from pectin.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">D-apiose derived from rhamnogalacturonan derived from pectin</rdfs:label>
     </owl:Class>
     
 
@@ -592,8 +592,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Raffinose which is derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Raffinose which is derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">raffinose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -612,8 +612,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from raffinose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">galactose derived from raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from raffinose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">galactose derived from raffinose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -632,8 +632,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from raffinose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">glucose derived from raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from raffinose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">glucose derived from raffinose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -652,8 +652,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from raffinose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">fructose derived from raffinose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from raffinose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fructose derived from raffinose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -672,8 +672,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Stachyose which is derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Stachyose which is derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">stachyose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -692,8 +692,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from stachyose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">galactose derived from stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from stachyose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">galactose derived from stachyose derived fromraffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -712,8 +712,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from stachyose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">glucose derived from stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from stachyose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">glucose derived from stachyose derived from raffinose family oligosaccharidee</rdfs:label>
     </owl:Class>
     
 
@@ -732,8 +732,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from stachyose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">fructose derived from stachyose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from stachyose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fructose derived from stachyose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -752,8 +752,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Verbascose which is derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Verbascose which is derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">verbascose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -772,8 +772,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from verbascose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">galactose derived from verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Galactose which is derived from verbascose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">galactose derived from verbascose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -792,8 +792,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from verbascose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">glucose derived from verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from verbascose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">glucose derived from verbascose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -812,8 +812,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from verbascose derived from raffinose family of oligosaccharide (rfo).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">fructose derived from verbascose derived from raffinose family of oligosaccharide (rfo)</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Fructose which is derived from verbascose derived from raffinose family oligosaccharide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fructose derived from verbascose derived from raffinose family oligosaccharide</rdfs:label>
     </owl:Class>
     
 

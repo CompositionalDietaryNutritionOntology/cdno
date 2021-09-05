@@ -2321,7 +2321,7 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200293">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:</oboInOwl:hasDbXref>
     </owl:Class>
     
 
