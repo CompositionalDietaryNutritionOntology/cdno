@@ -80,7 +80,6 @@ CDNO:0200077,heptadecanoic acid,,
 CDNO:0200078,octadecanoic acid,,
 CDNO:0200079,icosanoic acid,,
 CDNO:0200080,docosanoic acid,,
-CDNO:0200081,tetracosanoic acid,,
 CDNO:0200082,propionic acid,INFOODs: PROPAC,
 CDNO:0200083,myristoleic acid,,
 CDNO:0200084,palmitoleic acid,,
@@ -178,12 +177,11 @@ CDNO:0200175,salt,INFOODs: NACL,
 CDNO:0200176,sodium chloride,,
 CDNO:0200177,inorganic nitrate salt,INFOODs: NITRA|INFOODs: NITRI,
 CDNO:0200178,bromide,INFOODs: BRD,
-CDNO:0200179,vitamin,,
-CDNO:0200180,water-soluble vitamin,,
+CDNO:0200179,vitamin molecular entity,,
 CDNO:0200181,5-formyltetrahydrofolic acid,,USDA_NDB: 1192
 CDNO:0200182,B vitamin,INFOODs: VITB6-|INFOODs: VITB6A|INFOODs: VITB6C|INFOODs: VITB12,USDA_NDB: 1175|USDA_NDB: 1178|USDA_NDB: 1246
 CDNO:0200183,"(6R)-5,10-methenyltetrahydrofolate",,
-CDNO:0200184,thiamine,INFOODs: THIA-|INFOODs: THIAHCL,USDA_NDB: 1165
+CDNO:0200184,vitamin B1,INFOODs: THIA-|INFOODs: THIAHCL,USDA_NDB: 1165
 CDNO:0200185,riboflavin,INFOODs: RIBF,USDA_NDB: 1166
 CDNO:0200186,nicotinic acid,INFOODs: NIA-,USDA_NDB: 1167
 CDNO:0200187,(R)-pantothenic acid,,USDA_NDB: 1170
@@ -193,7 +191,6 @@ CDNO:0200190,folic acid,INFOODs: FOLAC,USDA_NDB: 1186|USDA_NDB: 1187|USDA_NDB: 1
 CDNO:0200191,cyanocob(III)alamin,INFOODs: VITB12,
 CDNO:0200192,vitamin C,INFOODs: VITC|INFOODs: VITC-,USDA_NDB: 1162
 CDNO:0200193,L-ascorbic acid,INFOODs: ASCL,
-CDNO:0200194,fat-soluble vitamin,,
 CDNO:0200195,vitamin A,INFOODs: VITA|INFOODs: VITA-|INFOODs: VITAA,USDA_NDB: 1104|USDA_NDB: 1106
 CDNO:0200196,carotenoid,INFOODs: CARTOID,
 CDNO:0200197,α-carotene,INFOODs: CARTA,USDA_NDB: 1108
@@ -223,7 +220,7 @@ CDNO:0200220,phenols,,
 CDNO:0200221,polyphenol,INFOODs: POLYPHENT,
 CDNO:0200222,tannin,INFOODs: TAN,
 CDNO:0200223,chlorogenic acid,INFOODs: CHLRAC,
-CDNO:0200224,proanthocyanidin,INFOODs: TAN,
+CDNO:0200224,proanthocyanidin,INFOODs: TAN|INFOODs: PAPOLY,
 CDNO:0200225,hydrolysable tannin,INFOODs: TAN,
 CDNO:0200226,ellagitannin,INFOODs: ELLAC,
 CDNO:0200227,gallotannin,,
@@ -329,7 +326,6 @@ CDNO:0200326,(-)-epigallocatechin,INFOODs: EPICATEGC,
 CDNO:0200327,3'-O-methylepicatechin,,
 CDNO:0200328,4'-O-methylepigallocatechin-3-O-gallate,,
 CDNO:0200329,4'-O-methylepigallocatechin,,
-CDNO:0200330,proanthocyanidin,INFOODs: PAPOLY,
 CDNO:0200331,cinnamtannin A2,,
 CDNO:0200332,procyanidin,INFOODs: PROCYA,
 CDNO:0200333,procyanidin B1,,

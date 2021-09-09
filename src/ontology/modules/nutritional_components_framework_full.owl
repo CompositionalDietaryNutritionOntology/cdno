@@ -3009,6 +3009,17 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">An organic molecule that has a vitamin(role)</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">This term can be assigned to CHEBI or any other ontology that claims it</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_10223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10223">
@@ -3307,7 +3318,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_12777 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_12777">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <obo:IAO_0000115>A group of fat-soluble retinoids produced via metabolism of provitamin A carotenoids. Vitamin A is involved in immune function, vision, reproduction, and cellular communication.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>Wikipedia:Vitamin_A</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
@@ -5649,7 +5660,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_15640 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15640">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75769"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27470"/>
         <obo:IAO_0000115>A formyltetrahydrofolic acid in which the formyl group is located at position 5.</obo:IAO_0000115>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>C20H23N7O7</chebi:formula>
@@ -19350,7 +19361,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <oboInOwl:hasDbXref>PMID:21885436</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Vitamin C</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
@@ -20278,8 +20289,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_23044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_12777"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23849"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
         <obo:IAO_0000115>One of a class of tetraterpenoids (C40), formally derived from the acyclic parent, psi,psi-carotene by hydrogenation, dehydrogenation, cyclization, oxidation, or combination of these processes. This class includes carotenes, xanthophylls and certain compounds that arise from rearrangement of the skeleton of psi,psi-carotene or by loss of part of this structure. Retinoids are excluded.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>CAS:36-88-4</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>carotenoid</oboInOwl:hasExactSynonym>
@@ -20541,34 +20551,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23909"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>ellagitannins</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_24020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <obo:IAO_0000115>Vitamins like A, D, E and K that dissolve in fats and are stored in body tissues. Unlike the water-soluble vitamins, these are stored in the body for long periods of time and generally pose a greater risk for toxicity when consumed in excess.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>fat-soluble vitamins</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>fettloesliche Vitamine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>CHEBI:24020</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
-        <rdfs:label>fat-soluble vitamin</rdfs:label>
-        <rdfs:label xml:lang="en">fat-soluble vitamin</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>fat-soluble vitamins</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>fettloesliche Vitamine</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -23547,7 +23529,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:id>CHEBI:26948</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>thiamine</rdfs:label>
-        <rdfs:label xml:lang="en">thiamine</rdfs:label>
+        <rdfs:label xml:lang="en">vitamin B1</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26948"/>
@@ -23958,7 +23940,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_27300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27300">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <obo:IAO_0000115>Vitamin D is a group of fat-soluble prohormones, which can be obtained from sun exposure, food and supplements. Vitamin D is biologically inactive and converted into the biologically active calcitriol via double hydroxylation in the body.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>D vitamins</oboInOwl:hasRelatedSynonym>
@@ -23971,33 +23953,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27300"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>D vitamins</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27314 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>wasserloesliche Vitamine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>water-soluble vitamins</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>CHEBI:27314</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
-        <rdfs:label>water-soluble vitamin</rdfs:label>
-        <rdfs:label xml:lang="en">water-soluble vitamin</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>wasserloesliche Vitamine</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>water-soluble vitamins</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -29627,7 +29582,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_28384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <obo:IAO_0000115>A fat-soluble vitamin required for the synthesis of prothrombin and certain other blood coagulation factors.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>CHEBI:10009</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>CHEBI:27301</oboInOwl:hasAlternativeId>
@@ -29880,7 +29835,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_28427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37166"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
         <obo:IAO_0000115>A member of the class of arabinoxylans that consists of a polymer chain of beta-(1-&gt;4)-linked D-xylopyranose units, many of which are 2- or 3-substituted, or 2,3-disubstituted by alpha-L-arabinofuranosyl residues.</obo:IAO_0000115>
         <chebi:charge>0</chebi:charge>
@@ -38908,76 +38862,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33229 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
-        <obo:IAO_0000115>A biochemical role played by any micronutrient that is an organic compound. Vitamins are present in foods in small amounts and are essential to normal metabolism and biochemical functions, usually as coenzymes. The term &quot;vitamines&quot; (from vita + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId>CHEBI:10004</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId>CHEBI:27305</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref>Wikipedia:Vitamin</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Vitamin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>vitamina</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>vitaminas</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>vitamine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>vitamines</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>vitamins</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>vitaminum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>CHEBI:33229</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
-        <rdfs:label>vitamin</rdfs:label>
-        <rdfs:label xml:lang="en">vitamin</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Vitamin</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>vitamina</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>vitaminas</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>vitamine</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>vitamines</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>vitamins</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>vitaminum</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_33234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <obo:IAO_0000115>A chromanol that is chroman-6-ol which is substituted at position 2 by a methyl group and (also at position 2) either a saturated or a triply-unsaturated hydrocarbon chain consisting of three isoprenoid units.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>CAS:59-02-9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MetaCyc:Vitamin-E</oboInOwl:hasDbXref>
@@ -49768,7 +49656,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_75769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75769">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <obo:IAO_0000115>A role played by any of the group of eight water-soluble vitamins originally thought to be a single compound (vitamin B). The group comprises of vitamin B1, B2, B3, B5, B6, B7, B9, and B12 (Around 20 other compounds were once thought to be B vitamins but are no longer classified as such). B vitamins play important roles in cell metabolism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>PMID:22743781</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23093174</oboInOwl:hasDbXref>

@@ -177,8 +177,7 @@ CHEBI:24866	#salt
 CHEBI:26710	#sodium
 CHEBI:51084	#inorganic
 CHEBI:15858	#bromide
-CHEBI:33229	#vitamin
-CHEBI:27314	#water
+CDNO:0000014	#vitamin molecular 
 CHEBI:75769	#vitamin
 CHEBI:15640	#5-formyltetrahydrofolic
 CHEBI:57455	#(6R)-5,10-methenyltetrahydrofolate
@@ -192,7 +191,6 @@ CHEBI:27470	#b9
 CHEBI:17439	#cyanocobalamin
 CHEBI:21241	#vitamin
 CHEBI:29073	#L-ascorbic
-CHEBI:24020	#fat
 CHEBI:12777	#vitamin
 CHEBI:23044	#carotenoid
 CHEBI:28425	#alpha-carotene
