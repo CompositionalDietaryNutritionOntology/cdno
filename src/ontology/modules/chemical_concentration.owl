@@ -147,6 +147,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000014"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CDNO_0100001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100001"/>
@@ -2929,37 +2935,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of docosanoic acid when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity docosanoic acid concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of docosanoic acid in material entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200081">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28866"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of tetracosanoic acid when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity tetracosanoic acid concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of tetracosanoic acid in material entity</rdfs:label>
     </owl:Class>
     
 
@@ -5983,7 +5958,7 @@
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000014"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
@@ -5995,40 +5970,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of vitamin when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity vitamin concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of vitamin in material entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200180 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200180">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27314"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of water-soluble vitamin when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity water-soluble vitamin concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of water-soluble vitamin in material entity</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of vitamin molecular entity when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity vitamin molecular entity concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of vitamin molecular entity in material entity</rdfs:label>
     </owl:Class>
     
 
@@ -6150,9 +6094,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of thiamine when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity thiamine concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of thiamine in material entity</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of vitamin B1 when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity vitamin B1 concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of vitamin B1 in material entity</rdfs:label>
     </owl:Class>
     
 
@@ -6432,37 +6376,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of L-ascorbic acid when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity L-ascorbic acid concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of L-ascorbic acid in material entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200194 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200194">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24020"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of fat-soluble vitamin when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity fat-soluble vitamin concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of fat-soluble vitamin in material entity</rdfs:label>
     </owl:Class>
     
 
@@ -10648,37 +10561,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of 4&apos;-O-methylepigallocatechin when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity 4&apos;-O-methylepigallocatechin concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of 4&apos;-O-methylepigallocatechin in material entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200330 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200330">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26267"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of proanthocyanidin when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity proanthocyanidin concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of proanthocyanidin in material entity</rdfs:label>
     </owl:Class>
     
 
@@ -17322,12 +17204,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_24020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24020"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_24174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24174"/>
@@ -17667,12 +17543,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_27300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27300"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27314 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27314"/>
     
 
 
@@ -18303,12 +18173,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_32816 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32816"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33229 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229"/>
     
 
 

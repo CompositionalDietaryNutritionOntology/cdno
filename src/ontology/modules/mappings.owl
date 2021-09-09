@@ -730,12 +730,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200081"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CDNO_0200082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200082">
@@ -1477,12 +1471,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200180 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200180"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CDNO_0200181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200181">
@@ -1599,12 +1587,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200193">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: ASCL</oboInOwl:hasDbXref>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200194 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200194"/>
     
 
 
@@ -1864,6 +1846,7 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200224">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: PAPOLY</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: TAN</oboInOwl:hasDbXref>
     </owl:Class>
     
@@ -2562,14 +2545,6 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200329"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200330 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200330">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: PAPOLY</oboInOwl:hasDbXref>
-    </owl:Class>
     
 
 
