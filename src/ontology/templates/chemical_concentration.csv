@@ -1,516 +1,540 @@
-defined_class,defined_class_label,chemical,chemical_label,,material,material_label
-CDNO:0200001,nutritional component concentration,CDNO:0000001,dietary nutritional component,,BFO:0000040,material entity
-CDNO:0200002,,CHEBI:15377,water,,BFO:0000040,material entity
-CDNO:0200003,,CDNO:0000002,dry plant matter,,BFO:0000040,material entity
-CDNO:0200004,,ENVO:02000090,ash,,BFO:0000040,material entity
-CDNO:0200005,,CHEBI:16646,carbohydrate,,BFO:0000040,material entity
-CDNO:0200006,,CHEBI:18154,polysaccharide,,BFO:0000040,material entity
-CDNO:0200007,,CHEBI:28017,starch,,BFO:0000040,material entity
-CDNO:0200008,,CHEBI:17309,pectin,,BFO:0000040,material entity
-CDNO:0200009,,CHEBI:62967,cellulose,,BFO:0000040,material entity
-CDNO:0200010,,CHEBI:61266,hemicellulose,,BFO:0000040,material entity
-CDNO:0200011,,CHEBI:15443,inulin,,BFO:0000040,material entity
-CDNO:0200012,,CHEBI:35381,monosaccharide,,BFO:0000040,material entity
-CDNO:0200013,,CHEBI:17234,glucose,,BFO:0000040,material entity
-CDNO:0200014,,CHEBI:28757,fructose,,BFO:0000040,material entity
-CDNO:0200015,,CHEBI:26546,rhamnose,,BFO:0000040,material entity
-CDNO:0200016,,CHEBI:16689,D-apiose,,BFO:0000040,material entity
-CDNO:0200017,,CHEBI:33830,galacturonic acid,,BFO:0000040,material entity
-CDNO:0200018,,CHEBI:33984,fucose,,BFO:0000040,material entity
-CDNO:0200019,,CHEBI:18222,xylose,,BFO:0000040,material entity
-CDNO:0200020,,CHEBI:22599,arabinose,,BFO:0000040,material entity
-CDNO:0200021,,CHEBI:28260,galactose,,BFO:0000040,material entity
-CDNO:0200022,,CHEBI:37684,mannose,,BFO:0000040,material entity
-CDNO:0200023,,CHEBI:33942,ribose,,BFO:0000040,material entity
-CDNO:0200024,,CHEBI:36233,disaccharide,,BFO:0000040,material entity
-CDNO:0200025,,CHEBI:17992,sucrose,,BFO:0000040,material entity
-CDNO:0200026,,CHEBI:27082,trehalose,,BFO:0000040,material entity
-CDNO:0200027,,CHEBI:17306,maltose,,BFO:0000040,material entity
-CDNO:0200028,,CHEBI:50699,oligosaccharide,,BFO:0000040,material entity
-CDNO:0200029,,CHEBI:74961,raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200030,,CHEBI:16634,raffinose,,BFO:0000040,material entity
-CDNO:0200031,,CHEBI:17164,stachyose,,BFO:0000040,material entity
-CDNO:0200032,,CHEBI:28586,verbascose,,BFO:0000040,material entity
-CDNO:0200033,,CDNO:0000003,available carbohydrate,,BFO:0000040,material entity
-CDNO:0200034,,CDNO:0000004,free sugar,,BFO:0000040,material entity
-CDNO:0200035,,CDNO:0000005,dietary fibre,,BFO:0000040,material entity
-CDNO:0200036,,CDNO:0000006,soluble dietary fibre,,BFO:0000040,material entity
-CDNO:0200037,,CDNO:0000007,resistant starch,,BFO:0000040,material entity
-CDNO:0200038,,CDNO:0000008,insoluble dietary fibre,,BFO:0000040,material entity
-CDNO:0200039,,CHEBI:28796,fructan,,BFO:0000040,material entity
-CDNO:0200040,,CHEBI:36080,protein,,BFO:0000040,material entity
-CDNO:0200041,,CDNO:0000009,seed storage protein,,BFO:0000040,material entity
-CDNO:0200042,,CHEBI:166964,albumin type,,BFO:0000040,material entity
-CDNO:0200043,,CHEBI:166899,globulin type,,BFO:0000040,material entity
-CDNO:0200044,,CHEBI:166885,prolamin,,BFO:0000040,material entity
-CDNO:0200045,,CHEBI:166886,cruciferin,,BFO:0000040,material entity
-CDNO:0200046,,CHEBI:166887,glutenin,,BFO:0000040,material entity
-CDNO:0200047,,CHEBI:16449,alanine,,BFO:0000040,material entity
-CDNO:0200048,,CHEBI:29016,arginine,,BFO:0000040,material entity
-CDNO:0200049,,CHEBI:22653,asparagine,,BFO:0000040,material entity
-CDNO:0200050,,CHEBI:22660,aspartic acid,,BFO:0000040,material entity
-CDNO:0200051,,CHEBI:15356,cysteine,,BFO:0000040,material entity
-CDNO:0200052,,CHEBI:18237,glutamic acid,,BFO:0000040,material entity
-CDNO:0200053,,CHEBI:28300,glutamine,,BFO:0000040,material entity
-CDNO:0200054,,CHEBI:15428,glycine,,BFO:0000040,material entity
-CDNO:0200055,,CHEBI:27570,histidine,,BFO:0000040,material entity
-CDNO:0200056,,CHEBI:24741,hydroxyproline,,BFO:0000040,material entity
-CDNO:0200057,,CHEBI:24898,isoleucine,,BFO:0000040,material entity
-CDNO:0200058,,CHEBI:25017,leucine,,BFO:0000040,material entity
-CDNO:0200059,,CHEBI:25094,lysine,,BFO:0000040,material entity
-CDNO:0200060,,CHEBI:16811,methionine,,BFO:0000040,material entity
-CDNO:0200061,,CHEBI:28044,phenylalanine,,BFO:0000040,material entity
-CDNO:0200062,,CHEBI:26271,proline,,BFO:0000040,material entity
-CDNO:0200063,,CHEBI:17822,serine,,BFO:0000040,material entity
-CDNO:0200064,,CHEBI:26986,threonine,,BFO:0000040,material entity
-CDNO:0200065,,CHEBI:27897,tryptophan,,BFO:0000040,material entity
-CDNO:0200066,,CHEBI:18186,tyrosine,,BFO:0000040,material entity
-CDNO:0200067,,CHEBI:27266,valine,,BFO:0000040,material entity
-CDNO:0200068,,CHEBI:18059,lipid,,BFO:0000040,material entity
-CDNO:0200069,,CHEBI:18035,diglyceride,,BFO:0000040,material entity
-CDNO:0200070,,CHEBI:166967,cis-fatty acid,,BFO:0000040,material entity
-CDNO:0200071,,CHEBI:28837,octanoic acid,,BFO:0000040,material entity
-CDNO:0200072,,CHEBI:42504,pentadecanoic acid,,BFO:0000040,material entity
-CDNO:0200073,,CHEBI:28866,tetracosanoic acid,,BFO:0000040,material entity
-CDNO:0200074,,CHEBI:30805,dodecanoic acid,,BFO:0000040,material entity
-CDNO:0200075,,CHEBI:28875,tetradecanoic acid,,BFO:0000040,material entity
-CDNO:0200076,,CHEBI:15756,hexadecanoic acid,,BFO:0000040,material entity
-CDNO:0200077,,CHEBI:32365,heptadecanoic acid,,BFO:0000040,material entity
-CDNO:0200078,,CHEBI:28842,octadecanoic acid,,BFO:0000040,material entity
-CDNO:0200079,,CHEBI:28822,icosanoic acid,,BFO:0000040,material entity
-CDNO:0200080,,CHEBI:28941,docosanoic acid,,BFO:0000040,material entity
-CDNO:0200082,,CHEBI:30768,propionic acid,,BFO:0000040,material entity
-CDNO:0200083,,CHEBI:27781,myristoleic acid,,BFO:0000040,material entity
-CDNO:0200084,,CHEBI:28716,palmitoleic acid,,BFO:0000040,material entity
-CDNO:0200085,,CHEBI:16196,oleic acid,,BFO:0000040,material entity
-CDNO:0200086,,CHEBI:59265,palmitelaidic acid,,BFO:0000040,material entity
-CDNO:0200087,,CHEBI:27997,elaidic acid,,BFO:0000040,material entity
-CDNO:0200088,,CHEBI:36023,vaccenic acid,,BFO:0000040,material entity
-CDNO:0200089,,CHEBI:32425,(11Z)-icos-11-enoic acid,,BFO:0000040,material entity
-CDNO:0200090,,CHEBI:28792,erucic acid,,BFO:0000040,material entity
-CDNO:0200091,,CHEBI:44247,(15Z)-tetracosenoic acid,,BFO:0000040,material entity
-CDNO:0200092,,CHEBI:25681,ω−3 fatty acid,,BFO:0000040,material entity
-CDNO:0200093,,CHEBI:32389,"all-cis-octadeca-6,9,12,15-tetraenoic acid",,BFO:0000040,material entity
-CDNO:0200094,,CHEBI:53460,"all-cis-icosa-11,14,17-trienoic acid",,BFO:0000040,material entity
-CDNO:0200095,,CHEBI:166893,eicosatetraenoic acid,,BFO:0000040,material entity
-CDNO:0200096,,CHEBI:77366,"6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid",,BFO:0000040,material entity
-CDNO:0200097,,CHEBI:27432,α-linolenic acid,,BFO:0000040,material entity
-CDNO:0200098,,CHEBI:36006,icosapentaenoic acid,,BFO:0000040,material entity
-CDNO:0200099,,CHEBI:61204,docosapentaenoic acid,,BFO:0000040,material entity
-CDNO:0200100,,CHEBI:36005,docosahexaenoic acid,,BFO:0000040,material entity
-CDNO:0200101,,CHEBI:72785,"9-hydroxy-5E,7Z,11Z,14Z-eicosatetraenoic acid",,BFO:0000040,material entity
-CDNO:0200102,,CHEBI:25048,linolenic acid,,BFO:0000040,material entity
-CDNO:0200103,,CHEBI:36009,ω−6 fatty acid,,BFO:0000040,material entity
-CDNO:0200104,,CHEBI:17351,linoleic acid,,BFO:0000040,material entity
-CDNO:0200105,,CHEBI:53486,"all-cis-icosa-8,11,14-trienoic acid",,BFO:0000040,material entity
-CDNO:0200106,,CHEBI:28661,γ-linolenic acid,,BFO:0000040,material entity
-CDNO:0200107,,CHEBI:72850,icosadienoic acid,,BFO:0000040,material entity
-CDNO:0200108,,CHEBI:15843,arachidonic acid,,BFO:0000040,material entity
-CDNO:0200109,,CHEBI:75115,docosadienoic acid,,BFO:0000040,material entity
-CDNO:0200110,,CHEBI:131693,"7,10,13,16-docosatetraenoic acid",,BFO:0000040,material entity
-CDNO:0200111,,CHEBI:166968,trans-fatty acid,,BFO:0000040,material entity
-CDNO:0200112,,CHEBI:3374,capsaicin,,BFO:0000040,material entity
-CDNO:0200113,,CHEBI:16247,phospholipid,,BFO:0000040,material entity
-CDNO:0200114,,CHEBI:64482,phosphatidylcholine,,BFO:0000040,material entity
-CDNO:0200115,,CHEBI:16038,phosphatidylethanolamine,,BFO:0000040,material entity
-CDNO:0200116,,CHEBI:18303,phosphatidyl-L-serine,,BFO:0000040,material entity
-CDNO:0200117,,CHEBI:28874,phosphatidylinositol,,BFO:0000040,material entity
-CDNO:0200118,,CHEBI:60479,lysophosphatidylcholine,,BFO:0000040,material entity
-CDNO:0200119,,CHEBI:33563,glycolipid,,BFO:0000040,material entity
-CDNO:0200120,,CHEBI:24385,glycoglycerolipid,,BFO:0000040,material entity
-CDNO:0200121,,CHEBI:15889,sterol,,BFO:0000040,material entity
-CDNO:0200122,,CHEBI:36799,campestanol,,BFO:0000040,material entity
-CDNO:0200123,,CHEBI:16113,cholesterol,,BFO:0000040,material entity
-CDNO:0200124,,CHEBI:6570,lupeol,,BFO:0000040,material entity
-CDNO:0200125,,CHEBI:26125,phytosterol,,BFO:0000040,material entity
-CDNO:0200126,,CHEBI:166888,avenasterol,,BFO:0000040,material entity
-CDNO:0200127,,CHEBI:28604,isofucosterol,,BFO:0000040,material entity
-CDNO:0200128,,CHEBI:80096,delta7-avenasterol,,BFO:0000040,material entity
-CDNO:0200129,,CHEBI:3168,brassicasterol,,BFO:0000040,material entity
-CDNO:0200130,,CHEBI:28623,campesterol,,BFO:0000040,material entity
-CDNO:0200131,,CHEBI:16933,ergosterol,,BFO:0000040,material entity
-CDNO:0200132,,CHEBI:27693,sitosterol,,BFO:0000040,material entity
-CDNO:0200133,,CHEBI:89400,stigmastanol,,BFO:0000040,material entity
-CDNO:0200134,,CHEBI:28824,stigmasterol,,BFO:0000040,material entity
-CDNO:0200135,,CHEBI:166889,delta7-stigmasterol,,BFO:0000040,material entity
-CDNO:0200136,,CHEBI:167164,mineral nutrient,,BFO:0000040,material entity
-CDNO:0200137,,CDNO:0000011,macro element,,BFO:0000040,material entity
-CDNO:0200138,,CHEBI:22984,calcium atom,,BFO:0000040,material entity
-CDNO:0200139,,CHEBI:17996,chloride,,BFO:0000040,material entity
-CDNO:0200140,,CHEBI:25107,magnesium atom,,BFO:0000040,material entity
-CDNO:0200141,,CHEBI:25555,nitrogen atom,,BFO:0000040,material entity
-CDNO:0200142,,CHEBI:28659,phosphorus atom,,BFO:0000040,material entity
-CDNO:0200143,,CHEBI:26216,potassium atom,,BFO:0000040,material entity
-CDNO:0200144,,CHEBI:26708,sodium atom,,BFO:0000040,material entity
-CDNO:0200145,,CHEBI:26833,sulfur atom,,BFO:0000040,material entity
-CDNO:0200146,,CDNO:0000012,trace element,,BFO:0000040,material entity
-CDNO:0200147,,CHEBI:28984,aluminium atom,,BFO:0000040,material entity
-CDNO:0200148,,CHEBI:30513,antimony atom,,BFO:0000040,material entity
-CDNO:0200149,,CHEBI:27563,arsenic atom,,BFO:0000040,material entity
-CDNO:0200150,,CHEBI:27560,boron atom,,BFO:0000040,material entity
-CDNO:0200151,,CHEBI:22977,cadmium atom,,BFO:0000040,material entity
-CDNO:0200152,,CHEBI:28073,chromium atom,,BFO:0000040,material entity
-CDNO:0200153,,CHEBI:27638,cobalt atom,,BFO:0000040,material entity
-CDNO:0200154,,CHEBI:28694,copper atom,,BFO:0000040,material entity
-CDNO:0200155,,CHEBI:17051,fluoride,,BFO:0000040,material entity
-CDNO:0200156,,CHEBI:24859,iodine atom,,BFO:0000040,material entity
-CDNO:0200157,,CHEBI:18248,iron atom,,BFO:0000040,material entity
-CDNO:0200158,,CHEBI:25016,lead atom,,BFO:0000040,material entity
-CDNO:0200159,,CHEBI:30145,lithium atom,,BFO:0000040,material entity
-CDNO:0200160,,CHEBI:18291,manganese atom,,BFO:0000040,material entity
-CDNO:0200161,,CHEBI:25195,mercury atom,,BFO:0000040,material entity
-CDNO:0200162,,CHEBI:28685,molybdenum atom,,BFO:0000040,material entity
-CDNO:0200163,,CHEBI:28112,nickel atom,,BFO:0000040,material entity
-CDNO:0200164,,CHEBI:33322,rubidium atom,,BFO:0000040,material entity
-CDNO:0200165,,CHEBI:27568,selenium atom,,BFO:0000040,material entity
-CDNO:0200166,,CHEBI:33324,strontium atom,,BFO:0000040,material entity
-CDNO:0200167,,CHEBI:27007,tin atom,,BFO:0000040,material entity
-CDNO:0200168,,CHEBI:33341,titanium atom,,BFO:0000040,material entity
-CDNO:0200169,,CHEBI:27698,vanadium atom,,BFO:0000040,material entity
-CDNO:0200170,,CHEBI:27363,zinc atom,,BFO:0000040,material entity
-CDNO:0200171,,CHEBI:32595,barium(0),,BFO:0000040,material entity
-CDNO:0200172,,CHEBI:30514,caesium atom,,BFO:0000040,material entity
-CDNO:0200173,,CHEBI:33301,bismuth atom,,BFO:0000040,material entity
-CDNO:0200174,,CHEBI:33336,lanthanum atom,,BFO:0000040,material entity
-CDNO:0200175,,CHEBI:24866,salt,,BFO:0000040,material entity
-CDNO:0200176,,CHEBI:26710,sodium chloride,,BFO:0000040,material entity
-CDNO:0200177,,CHEBI:51084,inorganic nitrate salt,,BFO:0000040,material entity
-CDNO:0200178,,CHEBI:15858,bromide,,BFO:0000040,material entity
-CDNO:0200179,,CDNO:0000014,vitamin molecular entity,,BFO:0000040,material entity
-CDNO:0200181,,CHEBI:15640,5-formyltetrahydrofolic acid,,BFO:0000040,material entity
-CDNO:0200182,,CHEBI:75769,B vitamin,,BFO:0000040,material entity
-CDNO:0200183,,CHEBI:57455,"(6R)-5,10-methenyltetrahydrofolate",,BFO:0000040,material entity
-CDNO:0200184,,CHEBI:26948,vitamin B1,,BFO:0000040,material entity
-CDNO:0200185,,CHEBI:17015,riboflavin,,BFO:0000040,material entity
-CDNO:0200186,,CHEBI:15940,nicotinic acid,,BFO:0000040,material entity
-CDNO:0200187,,CHEBI:46905,(R)-pantothenic acid,,BFO:0000040,material entity
-CDNO:0200188,,CHEBI:16709,pyridoxine,,BFO:0000040,material entity
-CDNO:0200189,,CHEBI:15956,biotin,,BFO:0000040,material entity
-CDNO:0200190,,CHEBI:27470,folic acid,,BFO:0000040,material entity
-CDNO:0200191,,CHEBI:17439,cyanocob(III)alamin,,BFO:0000040,material entity
-CDNO:0200192,,CHEBI:21241,vitamin C,,BFO:0000040,material entity
-CDNO:0200193,,CHEBI:29073,L-ascorbic acid,,BFO:0000040,material entity
-CDNO:0200195,,CHEBI:12777,vitamin A,,BFO:0000040,material entity
-CDNO:0200196,,CHEBI:23044,carotenoid,,BFO:0000040,material entity
-CDNO:0200197,,CHEBI:28425,α-carotene,,BFO:0000040,material entity
-CDNO:0200198,,CHEBI:17579,β-carotene,,BFO:0000040,material entity
-CDNO:0200199,,CHEBI:140677,4-hydroxy-all-trans-β-carotene,,BFO:0000040,material entity
-CDNO:0200200,,CHEBI:67188,9-cis-β-carotene,,BFO:0000040,material entity
-CDNO:0200201,,CHEBI:27300,vitamin D,,BFO:0000040,material entity
-CDNO:0200202,,CHEBI:17933,calcidiol,,BFO:0000040,material entity
-CDNO:0200203,,CHEBI:33234,vitamin E,,BFO:0000040,material entity
-CDNO:0200204,,CHEBI:27013,tocopherol,,BFO:0000040,material entity
-CDNO:0200205,,CHEBI:22470,α-tocopherol,,BFO:0000040,material entity
-CDNO:0200206,,CHEBI:47771,β-tocopherol,,BFO:0000040,material entity
-CDNO:0200207,,CHEBI:18185,γ-tocopherol,,BFO:0000040,material entity
-CDNO:0200208,,CHEBI:47772,δ-tocopherol,,BFO:0000040,material entity
-CDNO:0200209,,CHEBI:33235,tocotrienol,,BFO:0000040,material entity
-CDNO:0200210,,CHEBI:33270,α-tocotrienol,,BFO:0000040,material entity
-CDNO:0200211,,CHEBI:33275,β-tocotrienol,,BFO:0000040,material entity
-CDNO:0200212,,CHEBI:33277,γ-tocotrienol,,BFO:0000040,material entity
-CDNO:0200213,,CHEBI:33276,δ-tocotrienol,,BFO:0000040,material entity
-CDNO:0200214,,CHEBI:28384,vitamin K,,BFO:0000040,material entity
-CDNO:0200215,,CDNO:0000013,plant secondary metabolite,,BFO:0000040,material entity
-CDNO:0200216,,CHEBI:22315,alkaloid,,BFO:0000040,material entity
-CDNO:0200217,,CHEBI:27732,caffeine,,BFO:0000040,material entity
-CDNO:0200218,,CHEBI:28346,mescaline,,BFO:0000040,material entity
-CDNO:0200219,,CHEBI:28946,theobromine,,BFO:0000040,material entity
-CDNO:0200220,,CHEBI:33853,phenols,,BFO:0000040,material entity
-CDNO:0200221,,CHEBI:26195,polyphenol,,BFO:0000040,material entity
-CDNO:0200222,,CHEBI:26848,tannin,,BFO:0000040,material entity
-CDNO:0200223,,CHEBI:16112,chlorogenic acid,,BFO:0000040,material entity
-CDNO:0200224,,CHEBI:26267,proanthocyanidin,,BFO:0000040,material entity
-CDNO:0200225,,CHEBI:78689,hydrolysable tannin,,BFO:0000040,material entity
-CDNO:0200226,,CHEBI:23909,ellagitannin,,BFO:0000040,material entity
-CDNO:0200227,,CHEBI:24182,gallotannin,,BFO:0000040,material entity
-CDNO:0200228,,CHEBI:71222,phlorotannin,,BFO:0000040,material entity
-CDNO:0200229,,CHEBI:18135,catechol,,BFO:0000040,material entity
-CDNO:0200230,,CHEBI:16204,phloroglucinol,,BFO:0000040,material entity
-CDNO:0200231,,CHEBI:4806,(−)-epigallocatechin 3-gallate,,BFO:0000040,material entity
-CDNO:0200232,,CHEBI:166890,phenolic acid,,BFO:0000040,material entity
-CDNO:0200233,,CHEBI:30778,gallic acid,,BFO:0000040,material entity
-CDNO:0200234,,CHEBI:24676,hydroxybenzoic acid,,BFO:0000040,material entity
-CDNO:0200235,,CHEBI:16914,salicylic acid,,BFO:0000040,material entity
-CDNO:0200236,,CHEBI:18305,hydroquinone O-β-D-glucopyranoside,,BFO:0000040,material entity
-CDNO:0200237,,CHEBI:30816,vanillic acid,,BFO:0000040,material entity
-CDNO:0200238,,CHEBI:68329,syringic acid,,BFO:0000040,material entity
-CDNO:0200239,,CHEBI:51867,methyl ketone,,BFO:0000040,material entity
-CDNO:0200240,,CHEBI:27632,acetophenone,,BFO:0000040,material entity
-CDNO:0200241,,CHEBI:30745,phenylacetic acid,,BFO:0000040,material entity
-CDNO:0200242,,CHEBI:24689,hydroxycinnamic acid,,BFO:0000040,material entity
-CDNO:0200243,,CHEBI:36281,caffeic acid,,BFO:0000040,material entity
-CDNO:0200244,,CHEBI:77131,sinapic acid,,BFO:0000040,material entity
-CDNO:0200245,,CHEBI:23238,chromones,,BFO:0000040,material entity
-CDNO:0200246,,CHEBI:3594,Chicoric acid,,BFO:0000040,material entity
-CDNO:0200247,,CHEBI:23401,coumaric acid,,BFO:0000040,material entity
-CDNO:0200248,,CHEBI:36090,4-coumaric acid,,BFO:0000040,material entity
-CDNO:0200249,,CHEBI:18176,2-coumaric acid,,BFO:0000040,material entity
-CDNO:0200250,,CHEBI:47925,3-coumaric acid,,BFO:0000040,material entity
-CDNO:0200251,,CHEBI:17620,ferulic acid,,BFO:0000040,material entity
-CDNO:0200252,,CHEBI:17488,scopoletin,,BFO:0000040,material entity
-CDNO:0200253,,CHEBI:166891,phenylpropane,,BFO:0000040,material entity
-CDNO:0200254,,CHEBI:25481,napthoquinone,,BFO:0000040,material entity
-CDNO:0200255,,CHEBI:132141,"1,2-napthoquinone",,BFO:0000040,material entity
-CDNO:0200256,,CHEBI:132142,"1,4-napthoquinone",,BFO:0000040,material entity
-CDNO:0200257,,CHEBI:15794,juglone,,BFO:0000040,material entity
-CDNO:0200258,,CHEBI:26776,stilbenoid,,BFO:0000040,material entity
-CDNO:0200259,,CHEBI:26775,stilbene,,BFO:0000040,material entity
-CDNO:0200260,,CHEBI:22580,anthraquinone,,BFO:0000040,material entity
-CDNO:0200261,,CHEBI:166892,aglycone,,BFO:0000040,material entity
-CDNO:0200262,,CHEBI:42223,emodin,,BFO:0000040,material entity
-CDNO:0200263,,CHEBI:51149,xanthones,,BFO:0000040,material entity
-CDNO:0200264,,CHEBI:166965,simple oxygenated xanthones,,BFO:0000040,material entity
-CDNO:0200265,,CHEBI:83231,xanthone glycoside,,BFO:0000040,material entity
-CDNO:0200266,,CHEBI:166966,prenylated and related xanthones,,BFO:0000040,material entity
-CDNO:0200267,,CHEBI:166894,xanthonolignoid,,BFO:0000040,material entity
-CDNO:0200268,,CHEBI:72544,flavonoids,,BFO:0000040,material entity
-CDNO:0200269,,CHEBI:47916,flavonoid,,BFO:0000040,material entity
-CDNO:0200270,,CHEBI:6674,malvidin,,BFO:0000040,material entity
-CDNO:0200271,,CHEBI:28499,kaempferol,,BFO:0000040,material entity
-CDNO:0200272,,CHEBI:38691,flavan,,BFO:0000040,material entity
-CDNO:0200273,,CHEBI:5070,flavanone,,BFO:0000040,material entity
-CDNO:0200274,,CHEBI:27566,6-prenylnaringenin,,BFO:0000040,material entity
-CDNO:0200275,,CHEBI:50207,sophoraflavanone B,,BFO:0000040,material entity
-CDNO:0200276,,CHEBI:28709,eriocitrin,,BFO:0000040,material entity
-CDNO:0200277,,CHEBI:28412,eriodictyol,,BFO:0000040,material entity
-CDNO:0200278,,CHEBI:28230,hesperetin,,BFO:0000040,material entity
-CDNO:0200279,,CHEBI:28775,hesperidin,,BFO:0000040,material entity
-CDNO:0200280,,CHEBI:74960,homoeriodictyol,,BFO:0000040,material entity
-CDNO:0200281,,CHEBI:27552,"4'-methoxy-5,7-dihydroxyflavanone",,BFO:0000040,material entity
-CDNO:0200282,,CHEBI:50202,naringenin,,BFO:0000040,material entity
-CDNO:0200283,,CHEBI:28819,naringin,,BFO:0000040,material entity
-CDNO:0200284,,CHEBI:28705,narirutin,,BFO:0000040,material entity
-CDNO:0200285,,CHEBI:7502,neoeriocitrin,,BFO:0000040,material entity
-CDNO:0200286,,CHEBI:59016,neohesperidin,,BFO:0000040,material entity
-CDNO:0200287,,CHEBI:28157,pinocembrin,,BFO:0000040,material entity
-CDNO:0200288,,CHEBI:66773,(2S)-poncirin,,BFO:0000040,material entity
-CDNO:0200289,,CHEBI:28927,sakuranetin,,BFO:0000040,material entity
-CDNO:0200290,,CHEBI:42491,flavone,,BFO:0000040,material entity
-CDNO:0200291,,CHEBI:2197,6-hydroxyluteolin,,BFO:0000040,material entity
-CDNO:0200292,,CHEBI:66046,6-hydroxyluteolin 7-O-laminaribioside,,BFO:0000040,material entity
-CDNO:0200293,,CHEBI:29503,"4',7-dihydroxyflavone",,BFO:0000040,material entity
-CDNO:0200294,,CHEBI:18388,apigenin,,BFO:0000040,material entity
-CDNO:0200295,,CHEBI:2979,baicalein,,BFO:0000040,material entity
-CDNO:0200296,,CHEBI:75095,chrysin,,BFO:0000040,material entity
-CDNO:0200297,,CHEBI:3718,cirsilineol,,BFO:0000040,material entity
-CDNO:0200298,,CHEBI:81337,cirsimaritin,,BFO:0000040,material entity
-CDNO:0200299,,CHEBI:4631,diosmin,,BFO:0000040,material entity
-CDNO:0200300,,CHEBI:28917,dihydromyricetin,,BFO:0000040,material entity
-CDNO:0200301,,CHEBI:136666,eupatorin,,BFO:0000040,material entity
-CDNO:0200302,,CHEBI:79628,gardenin B,,BFO:0000040,material entity
-CDNO:0200303,,CHEBI:5326,geraldone,,BFO:0000040,material entity
-CDNO:0200304,,CHEBI:75902,hispidulin,,BFO:0000040,material entity
-CDNO:0200305,,CHEBI:18330,isovitexin,,BFO:0000040,material entity
-CDNO:0200306,,CHEBI:66103,jaceosidin,,BFO:0000040,material entity
-CDNO:0200307,,CHEBI:15864,luteolin,,BFO:0000040,material entity
-CDNO:0200308,,CHEBI:77791,luteolin 7-O-β-D-glucoside(1−),,BFO:0000040,material entity
-CDNO:0200309,,CHEBI:70082,myricitrin,,BFO:0000040,material entity
-CDNO:0200310,,CHEBI:7602,nobiletin,,BFO:0000040,material entity
-CDNO:0200311,,CHEBI:16243,quercetin,,BFO:0000040,material entity
-CDNO:0200312,,CHEBI:31227,apigenin 7-O-neohesperidoside,,BFO:0000040,material entity
-CDNO:0200313,,CHEBI:9062,scutellarein,,BFO:0000040,material entity
-CDNO:0200314,,CHEBI:9159,sinensetin,,BFO:0000040,material entity
-CDNO:0200315,,CHEBI:9400,tangeretin,,BFO:0000040,material entity
-CDNO:0200316,,CHEBI:16954,vitexin,,BFO:0000040,material entity
-CDNO:0200317,,CHEBI:48039,dihydroflavanol,,BFO:0000040,material entity
-CDNO:0200318,,CHEBI:72010,hydroxyflavan,,BFO:0000040,material entity
-CDNO:0200319,,CHEBI:23053,catechin,,BFO:0000040,material entity
-CDNO:0200320,,CHEBI:76132,(+)-catechin 3-O-gallate,,BFO:0000040,material entity
-CDNO:0200321,,CHEBI:31018,(+)-gallocatechin,,BFO:0000040,material entity
-CDNO:0200322,,CHEBI:90,(-)-epicatechin,,BFO:0000040,material entity
-CDNO:0200323,,CHEBI:76125,(+)-epicatechin,,BFO:0000040,material entity
-CDNO:0200324,,CHEBI:71225,(-)-gallocatechin,,BFO:0000040,material entity
-CDNO:0200325,,CHEBI:70255,(-)-epicatechin-3-O-gallate,,BFO:0000040,material entity
-CDNO:0200326,,CHEBI:42255,(-)-epigallocatechin,,BFO:0000040,material entity
-CDNO:0200327,,CHEBI:70254,3'-O-methylepicatechin,,BFO:0000040,material entity
-CDNO:0200328,,CHEBI:70256,4'-O-methylepigallocatechin-3-O-gallate,,BFO:0000040,material entity
-CDNO:0200329,,CHEBI:70253,4'-O-methylepigallocatechin,,BFO:0000040,material entity
-CDNO:0200331,,CHEBI:81227,cinnamtannin A2,,BFO:0000040,material entity
-CDNO:0200332,,CHEBI:166895,procyanidin,,BFO:0000040,material entity
-CDNO:0200333,,CHEBI:75633,procyanidin B1,,BFO:0000040,material entity
-CDNO:0200334,,CHEBI:75632,procyanidin B2,,BFO:0000040,material entity
-CDNO:0200335,,CHEBI:75630,procyanidin B3,,BFO:0000040,material entity
-CDNO:0200336,,CHEBI:27589,procyanidin B4,,BFO:0000040,material entity
-CDNO:0200337,,CHEBI:75621,procyanidin B5,,BFO:0000040,material entity
-CDNO:0200338,,CHEBI:75619,procyanidin B6,,BFO:0000040,material entity
-CDNO:0200339,,CHEBI:75643,procyanidin C1,,BFO:0000040,material entity
-CDNO:0200340,,CHEBI:75644,procyanidin C2,,BFO:0000040,material entity
-CDNO:0200341,,CHEBI:136609,theaflavin,,BFO:0000040,material entity
-CDNO:0200342,,CHEBI:166896,peltogynoid,,BFO:0000040,material entity
-CDNO:0200343,,CHEBI:71230,dihydrochalcone,,BFO:0000040,material entity
-CDNO:0200344,,CHEBI:88354,3-hydroxyphloretin 2'-O-xylosylglucoside,,BFO:0000040,material entity
-CDNO:0200345,,CHEBI:17276,phloretin,,BFO:0000040,material entity
-CDNO:0200346,,CHEBI:8113,phlorizin,,BFO:0000040,material entity
-CDNO:0200347,,CHEBI:23086,chalcone,,BFO:0000040,material entity
-CDNO:0200348,,CHEBI:3237,butein,,BFO:0000040,material entity
-CDNO:0200349,,CHEBI:66331,xanthohumol,,BFO:0000040,material entity
-CDNO:0200350,,CHEBI:47964,aurone,,BFO:0000040,material entity
-CDNO:0200351,,CHEBI:38695,anthocyanidin,,BFO:0000040,material entity
-CDNO:0200352,,CHEBI:27843,cyanidin cation,,BFO:0000040,material entity
-CDNO:0200353,,CHEBI:27475,cyanidin 3-O-β-D-galactoside,,BFO:0000040,material entity
-CDNO:0200354,,CHEBI:28064,cyanidin 3-O-rutinoside,,BFO:0000040,material entity
-CDNO:0200355,,CHEBI:74811,cyanidin 3-O-β-D-sambubioside,,BFO:0000040,material entity
-CDNO:0200356,,CHEBI:80438,Cyanidin 3-O-sophoroside,,BFO:0000040,material entity
-CDNO:0200357,,CHEBI:142263,isopeonidin 3-rutinoside,,BFO:0000040,material entity
-CDNO:0200358,,CHEBI:25863,pelargonidin,,BFO:0000040,material entity
-CDNO:0200359,,CHEBI:31968,pelargonidin 3-O-rutinoside,,BFO:0000040,material entity
-CDNO:0200360,,CHEBI:38697,anthocyanin,,BFO:0000040,material entity
-CDNO:0200361,,CHEBI:38698,anthocyanin chlorides,,BFO:0000040,material entity
-CDNO:0200362,,CHEBI:37664,cyanidin 3-O-β-D-galactoside chloride,,BFO:0000040,material entity
-CDNO:0200363,,CHEBI:16726,cyanidin 3-O-rutinoside chloride,,BFO:0000040,material entity
-CDNO:0200364,,CHEBI:38021,cyanin chloride,,BFO:0000040,material entity
-CDNO:0200365,,CHEBI:36122,pelargonidin 3-O-β-D-glucoside chloride,,BFO:0000040,material entity
-CDNO:0200366,,CHEBI:22798,β-D-glucoside,,BFO:0000040,material entity
-CDNO:0200367,,CHEBI:31463,delphinidin 3-O-β-D-glucoside,,BFO:0000040,material entity
-CDNO:0200368,,CHEBI:31985,petunidin 3-O-β-D-glucoside,,BFO:0000040,material entity
-CDNO:0200369,,CHEBI:31799,malvidin 3-O-β-D-glucoside,,BFO:0000040,material entity
-CDNO:0200370,,CHEBI:50753,isoflavonoid,,BFO:0000040,material entity
-CDNO:0200371,,CHEBI:72572,isoflavans,,BFO:0000040,material entity
-CDNO:0200372,,CHEBI:27945,isoflavanone,,BFO:0000040,material entity
-CDNO:0200373,,CHEBI:38757,isoflavones,,BFO:0000040,material entity
-CDNO:0200374,,CHEBI:38755,hydroxyisoflavone,,BFO:0000040,material entity
-CDNO:0200375,,CHEBI:28197,daidzein,,BFO:0000040,material entity
-CDNO:0200376,,CHEBI:28088,genistein,,BFO:0000040,material entity
-CDNO:0200377,,CHEBI:34778,glycitein,,BFO:0000040,material entity
-CDNO:0200378,,CHEBI:24278,glucoside,,BFO:0000040,material entity
-CDNO:0200379,,CHEBI:42202,daidzein 7-O-β-D-glucoside,,BFO:0000040,material entity
-CDNO:0200380,,CHEBI:27514,genistein 7-O-β-D-glucoside,,BFO:0000040,material entity
-CDNO:0200381,,CHEBI:80373,glycitin,,BFO:0000040,material entity
-CDNO:0200382,,CHEBI:74630,glycosyloxyisoflavone,,BFO:0000040,material entity
-CDNO:0200383,,CHEBI:80371,malonyldaidzin,,BFO:0000040,material entity
-CDNO:0200384,,CHEBI:80372,malonylgenistin,,BFO:0000040,material entity
-CDNO:0200385,,CHEBI:80374,malonylglycitin,,BFO:0000040,material entity
-CDNO:0200386,,CHEBI:133348,glycitein 7-(6-O-acetyl-β-D-glucoside),,BFO:0000040,material entity
-CDNO:0200387,,CHEBI:71543,rotenoid,,BFO:0000040,material entity
-CDNO:0200388,,CHEBI:72577,coumestans,,BFO:0000040,material entity
-CDNO:0200389,,CHEBI:72578,coumestan,,BFO:0000040,material entity
-CDNO:0200390,,CHEBI:3908,coumestrol,,BFO:0000040,material entity
-CDNO:0200391,,CHEBI:166897,3-arylcoumarin,,BFO:0000040,material entity
-CDNO:0200392,,CHEBI:26377,pterocarpans,,BFO:0000040,material entity
-CDNO:0200393,,CHEBI:73033,pterocarpan,,BFO:0000040,material entity
-CDNO:0200394,,CHEBI:108,(−)-phaseolin,,BFO:0000040,material entity
-CDNO:0200395,,CHEBI:67347,(+)-pisatin,,BFO:0000040,material entity
-CDNO:0200396,,CHEBI:71971,neoflavonoid,,BFO:0000040,material entity
-CDNO:0200397,,CHEBI:50128,biflavonoid,,BFO:0000040,material entity
-CDNO:0200398,,CHEBI:26004,phenylpropanoid,,BFO:0000040,material entity
-CDNO:0200399,,CHEBI:25036,lignan,,BFO:0000040,material entity
-CDNO:0200400,,CHEBI:125451,"3,5,7-trihydroxy-2-[3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-3,4-dihydro-2H-1-benzopyran-4-one",,BFO:0000040,material entity
-CDNO:0200401,,CHEBI:25497,neolignan,,BFO:0000040,material entity
-CDNO:0200402,,CHEBI:6457,lignin,,BFO:0000040,material entity
-CDNO:0200403,,CHEBI:89634,Melanin,,BFO:0000040,material entity
-CDNO:0200404,,CHEBI:23055,catechol melanin,,BFO:0000040,material entity
-CDNO:0200405,,CHEBI:166898,allomelanin,,BFO:0000040,material entity
-CDNO:0200406,,CHEBI:26873,terpenoid,,BFO:0000040,material entity
-CDNO:0200407,,CHEBI:25409,monoterpenoid,,BFO:0000040,material entity
-CDNO:0200408,,CHEBI:26658,sesquiterpoid,,BFO:0000040,material entity
-CDNO:0200409,,CHEBI:23849,diterpenoid,,BFO:0000040,material entity
-CDNO:0200410,,CHEBI:27325,xanthophyll,,BFO:0000040,material entity
-CDNO:0200411,,CHEBI:27547,zeaxanthin,,BFO:0000040,material entity
-CDNO:0200412,,CHEBI:10223,α-cryptoxanthin,,BFO:0000040,material entity
-CDNO:0200413,,CHEBI:10362,β-cryptoxanthin,,BFO:0000040,material entity
-CDNO:0200414,,CHEBI:28838,lutein,,BFO:0000040,material entity
-CDNO:0200415,,CHEBI:26119,phytoene,,BFO:0000040,material entity
-CDNO:0200416,,CHEBI:25501,neoxanthin,,BFO:0000040,material entity
-CDNO:0200417,,CHEBI:27295,violaxanthin,,BFO:0000040,material entity
-CDNO:0200418,,CHEBI:15948,lycopene,,BFO:0000040,material entity
-CDNO:0200419,,CHEBI:62466,"7,7',9,9'-tetra-cis-lycopene",,BFO:0000040,material entity
-CDNO:0200420,,CHEBI:50211,retinol,,BFO:0000040,material entity
-CDNO:0200421,,CHEBI:36615,triterpenoid,,BFO:0000040,material entity
-CDNO:0200422,,CHEBI:64709,organic acid,,BFO:0000040,material entity
-CDNO:0200423,,CHEBI:15366,acetic acid,,BFO:0000040,material entity
-CDNO:0200424,,CHEBI:30769,citric acid,,BFO:0000040,material entity
-CDNO:0200425,,CHEBI:78320,2-hydroxypropanoic acid,,BFO:0000040,material entity
-CDNO:0200426,,CHEBI:42111,(R)-lactic acid,,BFO:0000040,material entity
-CDNO:0200427,,CHEBI:422,(S)-lactic acid,,BFO:0000040,material entity
-CDNO:0200428,,CHEBI:6650,malic acid,,BFO:0000040,material entity
-CDNO:0200429,,CHEBI:30794,malonic acid,,BFO:0000040,material entity
-CDNO:0200430,,CHEBI:22652,ascorbic acid,,BFO:0000040,material entity
-CDNO:0200431,,CHEBI:27956,L-dehydroascorbic acid,,BFO:0000040,material entity
-CDNO:0200432,,CHEBI:16995,oxalic acid,,BFO:0000040,material entity
-CDNO:0200433,,CHEBI:17401,myo-inositol hexakisphosphate,,BFO:0000040,material entity
-CDNO:0200434,,CHEBI:26493,quinic acid,,BFO:0000040,material entity
-CDNO:0200435,,CHEBI:32816,pyruvic acid,,BFO:0000040,material entity
-CDNO:0200436,,CHEBI:16119,shikimic acid,,BFO:0000040,material entity
-CDNO:0200437,,CHEBI:15741,succinic acid,,BFO:0000040,material entity
-CDNO:0200438,,CHEBI:26849,tartaric acid,,BFO:0000040,material entity
-CDNO:0200439,,CHEBI:30887,isocitric acid,,BFO:0000040,material entity
-CDNO:0200440,,CHEBI:30744,oxaloacetic acid,,BFO:0000040,material entity
-CDNO:0200441,,CHEBI:24848,inositol,,BFO:0000040,material entity
-CDNO:0200442,,CHEBI:15891,taurine,,BFO:0000040,material entity
-CDNO:0200443,,CHEBI:17750,glycine betaine,,BFO:0000040,material entity
-CDNO:0200444,,CHEBI:26191,polyol,,BFO:0000040,material entity
-CDNO:0200445,,CHEBI:29864,mannitol,,BFO:0000040,material entity
-CDNO:0200446,,CHEBI:17151,xylitol,,BFO:0000040,material entity
-CDNO:0200447,,CHEBI:30911,glucitol,,BFO:0000040,material entity
-CDNO:0200448,,CHEBI:15354,choline,,BFO:0000040,material entity
-CDNO:0200449,,CHEBI:26208,polyunsaturated fatty acid,,BFO:0000040,material entity
-CDNO:0200450,,CHEBI:17020,glucomannan,,BFO:0000040,material entity
-CDNO:0200451,,CHEBI:17754,glycerol,,BFO:0000040,material entity
-CDNO:0200452,,CHEBI:17855,triglyceride,,BFO:0000040,material entity
-CDNO:0200453,,CHEBI:18233,xyloglucan,,BFO:0000040,material entity
-CDNO:0200454,,CHEBI:22590,arabinan,,BFO:0000040,material entity
-CDNO:0200455,,CHEBI:24174,galacturonan,,BFO:0000040,material entity
-CDNO:0200456,,CHEBI:25413,monounsaturated fatty acid,,BFO:0000040,material entity
-CDNO:0200457,,CHEBI:26543,rhamnogalacturonan,,BFO:0000040,material entity
-CDNO:0200458,,CHEBI:26607,saturated fatty acid,,BFO:0000040,material entity
-CDNO:0200459,,CHEBI:27680,galactomannan,,BFO:0000040,material entity
-CDNO:0200460,,CHEBI:28057,amylopectin,,BFO:0000040,material entity
-CDNO:0200461,,CHEBI:28102,amylose,,BFO:0000040,material entity
-CDNO:0200462,,CHEBI:28427,arabinoxylan,,BFO:0000040,material entity
-CDNO:0200463,,CHEBI:28808,mannan,,BFO:0000040,material entity
-CDNO:0200464,,CHEBI:33709,amino acid,,BFO:0000040,material entity
-CDNO:0200465,,CHEBI:35366,fatty acid,,BFO:0000040,material entity
-CDNO:0200466,,CHEBI:37165,galactan,,BFO:0000040,material entity
-CDNO:0200467,,CHEBI:37166,xylan,,BFO:0000040,material entity
-CDNO:0200468,,CHEBI:37163,glucan,,BFO:0000040,material entity
-CDNO:0200469,,CDNO:0100001,amylopectin derived from starch,,BFO:0000040,material entity
-CDNO:0200470,,CDNO:0100002,amylose derived from starch,,BFO:0000040,material entity
-CDNO:0200471,,CDNO:0100003,galacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200472,,CDNO:0100004,rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200473,,CDNO:0100005,mannan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200474,,CDNO:0100006,xylan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200475,,CDNO:0100007,xyloglucan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200476,,CDNO:0100008,glucomannan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200477,,CDNO:0100009,arabinoxylan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200478,,CDNO:0100010,fructan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200479,,CDNO:0100011,arabinan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200480,,CDNO:0100012,galactomannan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200481,,CDNO:0100013,galactan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200482,,CDNO:0100014,glucose derived from amylopectin derived from starch,,BFO:0000040,material entity
-CDNO:0200483,,CDNO:0100015,glucose derived from amylose derived from starch,,BFO:0000040,material entity
-CDNO:0200484,,CDNO:0100016,glucose derived from sucrose,,BFO:0000040,material entity
-CDNO:0200485,,CDNO:0100017,fructose derived from sucrose,,BFO:0000040,material entity
-CDNO:0200486,,CDNO:0100018,glucose derived from maltose,,BFO:0000040,material entity
-CDNO:0200487,,CDNO:0100019,galacturonic acid derived from galacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200488,,CDNO:0100020,rhamnose derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200489,,CDNO:0100021,D-apiose derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200490,,CDNO:0100022,galacturonic acid derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200491,,CDNO:0100023,fucose derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200492,,CDNO:0100024,xylose derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200493,,CDNO:0100025,arabinose derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200494,,CDNO:0100026,galactose derived from rhamnogalacturonan derived from pectin,,BFO:0000040,material entity
-CDNO:0200495,,CDNO:0100027,raffinose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200496,,CDNO:0100028,galactose derived from raffinose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200497,,CDNO:0100029,glucose derived from raffinose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200498,,CDNO:0100030,fructose derived from raffinose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200499,,CDNO:0100031,stachyose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200500,,CDNO:0100032,galactose derived from stachyose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200501,,CDNO:0100033,glucose derived from stachyose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200502,,CDNO:0100034,fructose derived from stachyose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200503,,CDNO:0100035,verbascose derived from rraffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200504,,CDNO:0100036,galactose derived from verbascose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200505,,CDNO:0100037,glucose derived from verbascose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200506,,CDNO:0100038,fructose derived from verbascose derived from raffinose family oligosaccharide,,BFO:0000040,material entity
-CDNO:0200507,,CDNO:0100039,glucose derived from cellulose,,BFO:0000040,material entity
-CDNO:0200508,,CDNO:0100040,mannose derived from mannan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200509,,CDNO:0100041,glucose derived from xylan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200510,,CDNO:0100042,xylose derived from xylan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200511,,CDNO:0100043,glucose derived from xyloglucan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200512,,CDNO:0100044,xylose derived from xyloglucan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200513,,CDNO:0100045,glucose derived from glucomannan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200514,,CDNO:0100046,mannose derived from glucomannan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200515,,CDNO:0100047,arabinose derived from arabinoxylan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200516,,CDNO:0100048,xylose derived from arabinoxylan derived from hemicellulose,,BFO:0000040,material entity
-CDNO:0200517,,CDNO:0100049,inulin derived from fructan,,BFO:0000040,material entity
-CDNO:0200518,,CDNO:0100050,fructose derived from inulin derived from fructan,,BFO:0000040,material entity
-CDNO:0200519,,CDNO:0100051,amino acid derived from protein,,BFO:0000040,material entity
+defined_class,defined_class_label,chemical,chemical_label,material,material_label
+CDNO:0200001,nutritional component concentration,CDNO:0000001,dietary nutritional component,BFO:0000040,material entity
+CDNO:0200002,,CHEBI:15377,water,BFO:0000040,material entity
+CDNO:0200003,,CDNO:0000002,dry plant matter,BFO:0000040,material entity
+CDNO:0200004,,ENVO:02000090,ash,BFO:0000040,material entity
+CDNO:0200005,,CHEBI:16646,carbohydrate,BFO:0000040,material entity
+CDNO:0200006,,CHEBI:18154,polysaccharide,BFO:0000040,material entity
+CDNO:0200007,,CHEBI:28017,starch,BFO:0000040,material entity
+CDNO:0200008,,CHEBI:17309,pectin,BFO:0000040,material entity
+CDNO:0200009,,CHEBI:62967,cellulose,BFO:0000040,material entity
+CDNO:0200010,,CHEBI:61266,hemicellulose,BFO:0000040,material entity
+CDNO:0200011,,CHEBI:15443,inulin,BFO:0000040,material entity
+CDNO:0200012,,CHEBI:35381,monosaccharide,BFO:0000040,material entity
+CDNO:0200013,,CHEBI:17234,glucose,BFO:0000040,material entity
+CDNO:0200014,,CHEBI:28757,fructose,BFO:0000040,material entity
+CDNO:0200015,,CHEBI:26546,rhamnose,BFO:0000040,material entity
+CDNO:0200016,,CHEBI:16689,D-apiose,BFO:0000040,material entity
+CDNO:0200017,,CHEBI:33830,galacturonic acid,BFO:0000040,material entity
+CDNO:0200018,,CHEBI:33984,fucose,BFO:0000040,material entity
+CDNO:0200019,,CHEBI:18222,xylose,BFO:0000040,material entity
+CDNO:0200020,,CHEBI:22599,arabinose,BFO:0000040,material entity
+CDNO:0200021,,CHEBI:28260,galactose,BFO:0000040,material entity
+CDNO:0200022,,CHEBI:37684,mannose,BFO:0000040,material entity
+CDNO:0200023,,CHEBI:33942,ribose,BFO:0000040,material entity
+CDNO:0200024,,CHEBI:36233,disaccharide,BFO:0000040,material entity
+CDNO:0200025,,CHEBI:17992,sucrose,BFO:0000040,material entity
+CDNO:0200026,,CHEBI:27082,trehalose,BFO:0000040,material entity
+CDNO:0200027,,CHEBI:17306,maltose,BFO:0000040,material entity
+CDNO:0200028,,CHEBI:50699,oligosaccharide,BFO:0000040,material entity
+CDNO:0200029,,CHEBI:74961,raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200030,,CHEBI:16634,raffinose,BFO:0000040,material entity
+CDNO:0200031,,CHEBI:17164,stachyose,BFO:0000040,material entity
+CDNO:0200032,,CHEBI:28586,verbascose,BFO:0000040,material entity
+CDNO:0200033,,CDNO:0000003,available carbohydrate,BFO:0000040,material entity
+CDNO:0200034,,CDNO:0000004,free sugar,BFO:0000040,material entity
+CDNO:0200035,,CDNO:0000005,dietary fibre,BFO:0000040,material entity
+CDNO:0200036,,CDNO:0000006,soluble dietary fibre,BFO:0000040,material entity
+CDNO:0200037,,CDNO:0000007,resistant starch,BFO:0000040,material entity
+CDNO:0200038,,CDNO:0000008,insoluble dietary fibre,BFO:0000040,material entity
+CDNO:0200039,,CHEBI:28796,fructan,BFO:0000040,material entity
+CDNO:0200040,,CHEBI:36080,protein,BFO:0000040,material entity
+CDNO:0200041,,CDNO:0000009,seed storage protein,BFO:0000040,material entity
+CDNO:0200042,,CHEBI:166964,albumin type,BFO:0000040,material entity
+CDNO:0200043,,CHEBI:166899,globulin type,BFO:0000040,material entity
+CDNO:0200044,,CHEBI:166885,prolamin,BFO:0000040,material entity
+CDNO:0200045,,CHEBI:166886,cruciferin,BFO:0000040,material entity
+CDNO:0200046,,CHEBI:166887,glutenin,BFO:0000040,material entity
+CDNO:0200047,,CHEBI:16449,alanine,BFO:0000040,material entity
+CDNO:0200048,,CHEBI:29016,arginine,BFO:0000040,material entity
+CDNO:0200049,,CHEBI:22653,asparagine,BFO:0000040,material entity
+CDNO:0200050,,CHEBI:22660,aspartic acid,BFO:0000040,material entity
+CDNO:0200051,,CHEBI:15356,cysteine,BFO:0000040,material entity
+CDNO:0200052,,CHEBI:18237,glutamic acid,BFO:0000040,material entity
+CDNO:0200053,,CHEBI:28300,glutamine,BFO:0000040,material entity
+CDNO:0200054,,CHEBI:15428,glycine,BFO:0000040,material entity
+CDNO:0200055,,CHEBI:27570,histidine,BFO:0000040,material entity
+CDNO:0200056,,CHEBI:24741,hydroxyproline,BFO:0000040,material entity
+CDNO:0200057,,CHEBI:24898,isoleucine,BFO:0000040,material entity
+CDNO:0200058,,CHEBI:25017,leucine,BFO:0000040,material entity
+CDNO:0200059,,CHEBI:25094,lysine,BFO:0000040,material entity
+CDNO:0200060,,CHEBI:16811,methionine,BFO:0000040,material entity
+CDNO:0200061,,CHEBI:28044,phenylalanine,BFO:0000040,material entity
+CDNO:0200062,,CHEBI:26271,proline,BFO:0000040,material entity
+CDNO:0200063,,CHEBI:17822,serine,BFO:0000040,material entity
+CDNO:0200064,,CHEBI:26986,threonine,BFO:0000040,material entity
+CDNO:0200065,,CHEBI:27897,tryptophan,BFO:0000040,material entity
+CDNO:0200066,,CHEBI:18186,tyrosine,BFO:0000040,material entity
+CDNO:0200067,,CHEBI:27266,valine,BFO:0000040,material entity
+CDNO:0200068,,CHEBI:18059,lipid,BFO:0000040,material entity
+CDNO:0200069,,CHEBI:18035,diglyceride,BFO:0000040,material entity
+CDNO:0200070,,CHEBI:166967,cis-fatty acid,BFO:0000040,material entity
+CDNO:0200071,,CHEBI:28837,octanoic acid,BFO:0000040,material entity
+CDNO:0200072,,CHEBI:42504,pentadecanoic acid,BFO:0000040,material entity
+CDNO:0200073,,CHEBI:28866,tetracosanoic acid,BFO:0000040,material entity
+CDNO:0200074,,CHEBI:30805,dodecanoic acid,BFO:0000040,material entity
+CDNO:0200075,,CHEBI:28875,tetradecanoic acid,BFO:0000040,material entity
+CDNO:0200076,,CHEBI:15756,hexadecanoic acid,BFO:0000040,material entity
+CDNO:0200077,,CHEBI:32365,heptadecanoic acid,BFO:0000040,material entity
+CDNO:0200078,,CHEBI:28842,octadecanoic acid,BFO:0000040,material entity
+CDNO:0200079,,CHEBI:28822,icosanoic acid,BFO:0000040,material entity
+CDNO:0200080,,CHEBI:28941,docosanoic acid,BFO:0000040,material entity
+CDNO:0200082,,CHEBI:30768,propionic acid,BFO:0000040,material entity
+CDNO:0200083,,CHEBI:27781,myristoleic acid,BFO:0000040,material entity
+CDNO:0200084,,CHEBI:28716,palmitoleic acid,BFO:0000040,material entity
+CDNO:0200085,,CHEBI:16196,oleic acid,BFO:0000040,material entity
+CDNO:0200086,,CHEBI:59265,palmitelaidic acid,BFO:0000040,material entity
+CDNO:0200087,,CHEBI:27997,elaidic acid,BFO:0000040,material entity
+CDNO:0200088,,CHEBI:36023,vaccenic acid,BFO:0000040,material entity
+CDNO:0200089,,CHEBI:32425,(11Z)-icos-11-enoic acid,BFO:0000040,material entity
+CDNO:0200090,,CHEBI:28792,erucic acid,BFO:0000040,material entity
+CDNO:0200091,,CHEBI:44247,(15Z)-tetracosenoic acid,BFO:0000040,material entity
+CDNO:0200092,,CHEBI:25681,ω−3 fatty acid,BFO:0000040,material entity
+CDNO:0200093,,CHEBI:32389,"all-cis-octadeca-6,9,12,15-tetraenoic acid",BFO:0000040,material entity
+CDNO:0200094,,CHEBI:53460,"all-cis-icosa-11,14,17-trienoic acid",BFO:0000040,material entity
+CDNO:0200095,,CHEBI:166893,eicosatetraenoic acid,BFO:0000040,material entity
+CDNO:0200096,,CHEBI:77366,"6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid",BFO:0000040,material entity
+CDNO:0200097,,CHEBI:27432,α-linolenic acid,BFO:0000040,material entity
+CDNO:0200098,,CHEBI:36006,icosapentaenoic acid,BFO:0000040,material entity
+CDNO:0200099,,CHEBI:61204,docosapentaenoic acid,BFO:0000040,material entity
+CDNO:0200100,,CHEBI:36005,docosahexaenoic acid,BFO:0000040,material entity
+CDNO:0200101,,CHEBI:72785,"9-hydroxy-5E,7Z,11Z,14Z-eicosatetraenoic acid",BFO:0000040,material entity
+CDNO:0200102,,CHEBI:25048,linolenic acid,BFO:0000040,material entity
+CDNO:0200103,,CHEBI:36009,ω−6 fatty acid,BFO:0000040,material entity
+CDNO:0200104,,CHEBI:17351,linoleic acid,BFO:0000040,material entity
+CDNO:0200105,,CHEBI:53486,"all-cis-icosa-8,11,14-trienoic acid",BFO:0000040,material entity
+CDNO:0200106,,CHEBI:28661,γ-linolenic acid,BFO:0000040,material entity
+CDNO:0200107,,CHEBI:72850,icosadienoic acid,BFO:0000040,material entity
+CDNO:0200108,,CHEBI:15843,arachidonic acid,BFO:0000040,material entity
+CDNO:0200109,,CHEBI:75115,docosadienoic acid,BFO:0000040,material entity
+CDNO:0200110,,CHEBI:131693,"7,10,13,16-docosatetraenoic acid",BFO:0000040,material entity
+CDNO:0200111,,CHEBI:166968,trans-fatty acid,BFO:0000040,material entity
+CDNO:0200112,,CHEBI:3374,capsaicin,BFO:0000040,material entity
+CDNO:0200113,,CHEBI:16247,phospholipid,BFO:0000040,material entity
+CDNO:0200114,,CHEBI:64482,phosphatidylcholine,BFO:0000040,material entity
+CDNO:0200115,,CHEBI:16038,phosphatidylethanolamine,BFO:0000040,material entity
+CDNO:0200116,,CHEBI:18303,phosphatidyl-L-serine,BFO:0000040,material entity
+CDNO:0200117,,CHEBI:28874,phosphatidylinositol,BFO:0000040,material entity
+CDNO:0200118,,CHEBI:60479,lysophosphatidylcholine,BFO:0000040,material entity
+CDNO:0200119,,CHEBI:33563,glycolipid,BFO:0000040,material entity
+CDNO:0200120,,CHEBI:24385,glycoglycerolipid,BFO:0000040,material entity
+CDNO:0200121,,CHEBI:15889,sterol,BFO:0000040,material entity
+CDNO:0200122,,CHEBI:36799,campestanol,BFO:0000040,material entity
+CDNO:0200123,,CHEBI:16113,cholesterol,BFO:0000040,material entity
+CDNO:0200124,,CHEBI:6570,lupeol,BFO:0000040,material entity
+CDNO:0200125,,CHEBI:26125,phytosterol,BFO:0000040,material entity
+CDNO:0200126,,CHEBI:166888,avenasterol,BFO:0000040,material entity
+CDNO:0200127,,CHEBI:28604,isofucosterol,BFO:0000040,material entity
+CDNO:0200128,,CHEBI:80096,delta7-avenasterol,BFO:0000040,material entity
+CDNO:0200129,,CHEBI:3168,brassicasterol,BFO:0000040,material entity
+CDNO:0200130,,CHEBI:28623,campesterol,BFO:0000040,material entity
+CDNO:0200131,,CHEBI:16933,ergosterol,BFO:0000040,material entity
+CDNO:0200132,,CHEBI:27693,sitosterol,BFO:0000040,material entity
+CDNO:0200133,,CHEBI:89400,stigmastanol,BFO:0000040,material entity
+CDNO:0200134,,CHEBI:28824,stigmasterol,BFO:0000040,material entity
+CDNO:0200135,,CHEBI:166889,delta7-stigmasterol,BFO:0000040,material entity
+CDNO:0200520,,CHEBI:24913,isoprenoid,BFO:0000040,material entity
+CDNO:0200521,,CHEBI:35186,terpene,BFO:0000040,material entity
+CDNO:0200522,,CHEBI:35193,tetraterpene,BFO:0000040,material entity
+CDNO:0200523,,CHEBI:23042,carotene,BFO:0000040,material entity
+CDNO:0200524,,CHEBI:26935,tetraterpenoid,BFO:0000040,material entity
+CDNO:0200136,,CHEBI:167164,mineral nutrient,BFO:0000040,material entity
+CDNO:0200137,,CDNO:0000011,macro element,BFO:0000040,material entity
+CDNO:0200138,,CHEBI:22984,calcium atom,BFO:0000040,material entity
+CDNO:0200139,,CHEBI:17996,chloride,BFO:0000040,material entity
+CDNO:0200140,,CHEBI:25107,magnesium atom,BFO:0000040,material entity
+CDNO:0200141,,CHEBI:25555,nitrogen atom,BFO:0000040,material entity
+CDNO:0200142,,CHEBI:28659,phosphorus atom,BFO:0000040,material entity
+CDNO:0200143,,CHEBI:26216,potassium atom,BFO:0000040,material entity
+CDNO:0200144,,CHEBI:26708,sodium atom,BFO:0000040,material entity
+CDNO:0200145,,CHEBI:26833,sulfur atom,BFO:0000040,material entity
+CDNO:0200146,,CDNO:0000012,trace element,BFO:0000040,material entity
+CDNO:0200147,,CHEBI:28984,aluminium atom,BFO:0000040,material entity
+CDNO:0200148,,CHEBI:30513,antimony atom,BFO:0000040,material entity
+CDNO:0200149,,CHEBI:27563,arsenic atom,BFO:0000040,material entity
+CDNO:0200150,,CHEBI:27560,boron atom,BFO:0000040,material entity
+CDNO:0200151,,CHEBI:22977,cadmium atom,BFO:0000040,material entity
+CDNO:0200152,,CHEBI:28073,chromium atom,BFO:0000040,material entity
+CDNO:0200153,,CHEBI:27638,cobalt atom,BFO:0000040,material entity
+CDNO:0200154,,CHEBI:28694,copper atom,BFO:0000040,material entity
+CDNO:0200155,,CHEBI:17051,fluoride,BFO:0000040,material entity
+CDNO:0200156,,CHEBI:24859,iodine atom,BFO:0000040,material entity
+CDNO:0200157,,CHEBI:18248,iron atom,BFO:0000040,material entity
+CDNO:0200158,,CHEBI:25016,lead atom,BFO:0000040,material entity
+CDNO:0200159,,CHEBI:30145,lithium atom,BFO:0000040,material entity
+CDNO:0200160,,CHEBI:18291,manganese atom,BFO:0000040,material entity
+CDNO:0200161,,CHEBI:25195,mercury atom,BFO:0000040,material entity
+CDNO:0200162,,CHEBI:28685,molybdenum atom,BFO:0000040,material entity
+CDNO:0200163,,CHEBI:28112,nickel atom,BFO:0000040,material entity
+CDNO:0200164,,CHEBI:33322,rubidium atom,BFO:0000040,material entity
+CDNO:0200165,,CHEBI:27568,selenium atom,BFO:0000040,material entity
+CDNO:0200166,,CHEBI:33324,strontium atom,BFO:0000040,material entity
+CDNO:0200167,,CHEBI:27007,tin atom,BFO:0000040,material entity
+CDNO:0200168,,CHEBI:33341,titanium atom,BFO:0000040,material entity
+CDNO:0200169,,CHEBI:27698,vanadium atom,BFO:0000040,material entity
+CDNO:0200170,,CHEBI:27363,zinc atom,BFO:0000040,material entity
+CDNO:0200171,,CHEBI:32595,barium(0),BFO:0000040,material entity
+CDNO:0200172,,CHEBI:30514,caesium atom,BFO:0000040,material entity
+CDNO:0200173,,CHEBI:33301,bismuth atom,BFO:0000040,material entity
+CDNO:0200174,,CHEBI:33336,lanthanum atom,BFO:0000040,material entity
+CDNO:0200175,,CHEBI:24866,salt,BFO:0000040,material entity
+CDNO:0200176,,CHEBI:26710,sodium chloride,BFO:0000040,material entity
+CDNO:0200177,,CHEBI:51084,inorganic nitrate salt,BFO:0000040,material entity
+CDNO:0200178,,CHEBI:15858,bromide,BFO:0000040,material entity
+CDNO:0200525,,CHEBI:25322,methylmercury compound,BFO:0000040,material entity
+CDNO:0200179,,CDNO:0000014,vitamin (molecular entity),BFO:0000040,material entity
+CDNO:0200181,,CHEBI:15640,5-formyltetrahydrofolic acid,BFO:0000040,material entity
+CDNO:0200182,,CHEBI:75769,B vitamin,BFO:0000040,material entity
+CDNO:0200183,,CHEBI:57455,"(6R)-5,10-methenyltetrahydrofolate",BFO:0000040,material entity
+CDNO:0200184,,CHEBI:26948,vitamin B1,BFO:0000040,material entity
+CDNO:0200526,,CHEBI:49105,thiamine hydrochloride,BFO:0000040,material entity
+CDNO:0200527,,CHEBI:176838,vitamin B2,BFO:0000040,material entity
+CDNO:0200185,,CHEBI:17015,riboflavin,BFO:0000040,material entity
+CDNO:0200528,,CHEBI:176839,vitamin B3,BFO:0000040,material entity
+CDNO:0200186,,CHEBI:15940,nicotinic acid,BFO:0000040,material entity
+CDNO:0200529,,CHEBI:176840,vitamin B5,BFO:0000040,material entity
+CDNO:0200187,,CHEBI:46905,(R)-pantothenic acid,BFO:0000040,material entity
+CDNO:0200530,,CHEBI:27306,vitamin B6,BFO:0000040,material entity
+CDNO:0200188,,CHEBI:16709,pyridoxine,BFO:0000040,material entity
+CDNO:0200531,,CHEBI:176841,vitamin B7,BFO:0000040,material entity
+CDNO:0200189,,CHEBI:15956,biotin,BFO:0000040,material entity
+CDNO:0200532,,CHEBI:176842,vitamin B9,BFO:0000040,material entity
+CDNO:0200190,,CHEBI:27470,folic acid,BFO:0000040,material entity
+CDNO:0200533,,CHEBI:67016,tetrahydrofolate,BFO:0000040,material entity
+CDNO:0200534,,CHEBI:176843,vitamin B12,BFO:0000040,material entity
+CDNO:0200191,,CHEBI:17439,cyanocob(III)alamin,BFO:0000040,material entity
+CDNO:0200192,,CHEBI:176783,vitamin C,BFO:0000040,material entity
+CDNO:0200193,,CHEBI:29073,L-ascorbic acid,BFO:0000040,material entity
+CDNO:0200195,,CHEBI:12777,vitamin A,BFO:0000040,material entity
+CDNO:0200535,,CHEBI:17336,all-trans-retinol,BFO:0000040,material entity
+CDNO:0200196,,CHEBI:23044,carotenoid,BFO:0000040,material entity
+CDNO:0200197,,CHEBI:28425,α-carotene,BFO:0000040,material entity
+CDNO:0200198,,CHEBI:17579,β-carotene,BFO:0000040,material entity
+CDNO:0200199,,CHEBI:140677,4-hydroxy-all-trans-β-carotene,BFO:0000040,material entity
+CDNO:0200200,,CHEBI:67188,9-cis-β-carotene,BFO:0000040,material entity
+CDNO:0200201,,CHEBI:27300,vitamin D,BFO:0000040,material entity
+CDNO:0200536,,CHEBI:73558,D3 vitamins,BFO:0000040,material entity
+CDNO:0200202,,CHEBI:17933,calcidiol,BFO:0000040,material entity
+CDNO:0200537,,CHEBI:28940,calciol,BFO:0000040,material entity
+CDNO:0200538,,CHEBI:28934,vitamin D2,BFO:0000040,material entity
+CDNO:0200539,,CHEBI:33237,vitamin D4,BFO:0000040,material entity
+CDNO:0200540,,CHEBI:33279,vitamin D5,BFO:0000040,material entity
+CDNO:0200203,,CHEBI:33234,vitamin E,BFO:0000040,material entity
+CDNO:0200204,,CHEBI:27013,tocopherol,BFO:0000040,material entity
+CDNO:0200205,,CHEBI:22470,α-tocopherol,BFO:0000040,material entity
+CDNO:0200206,,CHEBI:47771,β-tocopherol,BFO:0000040,material entity
+CDNO:0200207,,CHEBI:18185,γ-tocopherol,BFO:0000040,material entity
+CDNO:0200208,,CHEBI:47772,δ-tocopherol,BFO:0000040,material entity
+CDNO:0200209,,CHEBI:33235,tocotrienol,BFO:0000040,material entity
+CDNO:0200210,,CHEBI:33270,α-tocotrienol,BFO:0000040,material entity
+CDNO:0200211,,CHEBI:33275,β-tocotrienol,BFO:0000040,material entity
+CDNO:0200212,,CHEBI:33277,γ-tocotrienol,BFO:0000040,material entity
+CDNO:0200213,,CHEBI:33276,δ-tocotrienol,BFO:0000040,material entity
+CDNO:0200214,,CHEBI:28384,vitamin K,BFO:0000040,material entity
+CDNO:0200541,,CHEBI:28869,menadione,BFO:0000040,material entity
+CDNO:0200542,,CHEBI:16374,menaquinone,BFO:0000040,material entity
+CDNO:0200543,,CHEBI:18067,phylloquinone,BFO:0000040,material entity
+CDNO:0200215,,CDNO:0000013,plant secondary metabolite,BFO:0000040,material entity
+CDNO:0200216,,CHEBI:22315,alkaloid,BFO:0000040,material entity
+CDNO:0200217,,CHEBI:27732,caffeine,BFO:0000040,material entity
+CDNO:0200218,,CHEBI:28346,mescaline,BFO:0000040,material entity
+CDNO:0200219,,CHEBI:28946,theobromine,BFO:0000040,material entity
+CDNO:0200220,,CHEBI:33853,phenols,BFO:0000040,material entity
+CDNO:0200221,,CHEBI:26195,polyphenol,BFO:0000040,material entity
+CDNO:0200222,,CHEBI:26848,tannin,BFO:0000040,material entity
+CDNO:0200223,,CHEBI:16112,chlorogenic acid,BFO:0000040,material entity
+CDNO:0200224,,CHEBI:26267,proanthocyanidin,BFO:0000040,material entity
+CDNO:0200225,,CHEBI:78689,hydrolysable tannin,BFO:0000040,material entity
+CDNO:0200226,,CHEBI:23909,ellagitannin,BFO:0000040,material entity
+CDNO:0200227,,CHEBI:24182,gallotannin,BFO:0000040,material entity
+CDNO:0200228,,CHEBI:71222,phlorotannin,BFO:0000040,material entity
+CDNO:0200229,,CHEBI:18135,catechol,BFO:0000040,material entity
+CDNO:0200230,,CHEBI:16204,phloroglucinol,BFO:0000040,material entity
+CDNO:0200231,,CHEBI:4806,(−)-epigallocatechin 3-gallate,BFO:0000040,material entity
+CDNO:0200232,,CHEBI:166890,phenolic acid,BFO:0000040,material entity
+CDNO:0200233,,CHEBI:30778,gallic acid,BFO:0000040,material entity
+CDNO:0200234,,CHEBI:24676,hydroxybenzoic acid,BFO:0000040,material entity
+CDNO:0200235,,CHEBI:16914,salicylic acid,BFO:0000040,material entity
+CDNO:0200236,,CHEBI:18305,hydroquinone O-β-D-glucopyranoside,BFO:0000040,material entity
+CDNO:0200237,,CHEBI:30816,vanillic acid,BFO:0000040,material entity
+CDNO:0200238,,CHEBI:68329,syringic acid,BFO:0000040,material entity
+CDNO:0200239,,CHEBI:51867,methyl ketone,BFO:0000040,material entity
+CDNO:0200240,,CHEBI:27632,acetophenone,BFO:0000040,material entity
+CDNO:0200241,,CHEBI:30745,phenylacetic acid,BFO:0000040,material entity
+CDNO:0200242,,CHEBI:24689,hydroxycinnamic acid,BFO:0000040,material entity
+CDNO:0200243,,CHEBI:36281,caffeic acid,BFO:0000040,material entity
+CDNO:0200244,,CHEBI:77131,sinapic acid,BFO:0000040,material entity
+CDNO:0200245,,CHEBI:23238,chromones,BFO:0000040,material entity
+CDNO:0200246,,CHEBI:3594,Chicoric acid,BFO:0000040,material entity
+CDNO:0200247,,CHEBI:23401,coumaric acid,BFO:0000040,material entity
+CDNO:0200248,,CHEBI:36090,4-coumaric acid,BFO:0000040,material entity
+CDNO:0200249,,CHEBI:18176,2-coumaric acid,BFO:0000040,material entity
+CDNO:0200250,,CHEBI:47925,3-coumaric acid,BFO:0000040,material entity
+CDNO:0200251,,CHEBI:17620,ferulic acid,BFO:0000040,material entity
+CDNO:0200252,,CHEBI:17488,scopoletin,BFO:0000040,material entity
+CDNO:0200253,,CHEBI:166891,phenylpropane,BFO:0000040,material entity
+CDNO:0200254,,CHEBI:25481,napthoquinone,BFO:0000040,material entity
+CDNO:0200255,,CHEBI:132141,"1,2-napthoquinone",BFO:0000040,material entity
+CDNO:0200256,,CHEBI:132142,"1,4-napthoquinone",BFO:0000040,material entity
+CDNO:0200257,,CHEBI:15794,juglone,BFO:0000040,material entity
+CDNO:0200258,,CHEBI:26776,stilbenoid,BFO:0000040,material entity
+CDNO:0200259,,CHEBI:26775,stilbene,BFO:0000040,material entity
+CDNO:0200260,,CHEBI:22580,anthraquinone,BFO:0000040,material entity
+CDNO:0200261,,CHEBI:166892,aglycone,BFO:0000040,material entity
+CDNO:0200262,,CHEBI:42223,emodin,BFO:0000040,material entity
+CDNO:0200263,,CHEBI:51149,xanthones,BFO:0000040,material entity
+CDNO:0200264,,CHEBI:166965,simple oxygenated xanthones,BFO:0000040,material entity
+CDNO:0200265,,CHEBI:83231,xanthone glycoside,BFO:0000040,material entity
+CDNO:0200266,,CHEBI:166966,prenylated and related xanthones,BFO:0000040,material entity
+CDNO:0200267,,CHEBI:166894,xanthonolignoid,BFO:0000040,material entity
+CDNO:0200268,,CHEBI:72544,flavonoids,BFO:0000040,material entity
+CDNO:0200269,,CHEBI:47916,flavonoid,BFO:0000040,material entity
+CDNO:0200270,,CHEBI:6674,malvidin,BFO:0000040,material entity
+CDNO:0200271,,CHEBI:28499,kaempferol,BFO:0000040,material entity
+CDNO:0200272,,CHEBI:38691,flavan,BFO:0000040,material entity
+CDNO:0200273,,CHEBI:5070,flavanone,BFO:0000040,material entity
+CDNO:0200274,,CHEBI:27566,6-prenylnaringenin,BFO:0000040,material entity
+CDNO:0200275,,CHEBI:50207,sophoraflavanone B,BFO:0000040,material entity
+CDNO:0200276,,CHEBI:28709,eriocitrin,BFO:0000040,material entity
+CDNO:0200277,,CHEBI:28412,eriodictyol,BFO:0000040,material entity
+CDNO:0200278,,CHEBI:28230,hesperetin,BFO:0000040,material entity
+CDNO:0200279,,CHEBI:28775,hesperidin,BFO:0000040,material entity
+CDNO:0200280,,CHEBI:74960,homoeriodictyol,BFO:0000040,material entity
+CDNO:0200281,,CHEBI:27552,"4'-methoxy-5,7-dihydroxyflavanone",BFO:0000040,material entity
+CDNO:0200282,,CHEBI:50202,naringenin,BFO:0000040,material entity
+CDNO:0200283,,CHEBI:28819,naringin,BFO:0000040,material entity
+CDNO:0200284,,CHEBI:28705,narirutin,BFO:0000040,material entity
+CDNO:0200285,,CHEBI:7502,neoeriocitrin,BFO:0000040,material entity
+CDNO:0200286,,CHEBI:59016,neohesperidin,BFO:0000040,material entity
+CDNO:0200287,,CHEBI:28157,pinocembrin,BFO:0000040,material entity
+CDNO:0200288,,CHEBI:66773,(2S)-poncirin,BFO:0000040,material entity
+CDNO:0200289,,CHEBI:28927,sakuranetin,BFO:0000040,material entity
+CDNO:0200290,,CHEBI:42491,flavone,BFO:0000040,material entity
+CDNO:0200291,,CHEBI:2197,6-hydroxyluteolin,BFO:0000040,material entity
+CDNO:0200292,,CHEBI:66046,6-hydroxyluteolin 7-O-laminaribioside,BFO:0000040,material entity
+CDNO:0200293,,CHEBI:29503,"4',7-dihydroxyflavone",BFO:0000040,material entity
+CDNO:0200294,,CHEBI:18388,apigenin,BFO:0000040,material entity
+CDNO:0200295,,CHEBI:2979,baicalein,BFO:0000040,material entity
+CDNO:0200296,,CHEBI:75095,chrysin,BFO:0000040,material entity
+CDNO:0200297,,CHEBI:3718,cirsilineol,BFO:0000040,material entity
+CDNO:0200298,,CHEBI:81337,cirsimaritin,BFO:0000040,material entity
+CDNO:0200299,,CHEBI:4631,diosmin,BFO:0000040,material entity
+CDNO:0200300,,CHEBI:28917,dihydromyricetin,BFO:0000040,material entity
+CDNO:0200301,,CHEBI:136666,eupatorin,BFO:0000040,material entity
+CDNO:0200302,,CHEBI:79628,gardenin B,BFO:0000040,material entity
+CDNO:0200303,,CHEBI:5326,geraldone,BFO:0000040,material entity
+CDNO:0200304,,CHEBI:75902,hispidulin,BFO:0000040,material entity
+CDNO:0200305,,CHEBI:18330,isovitexin,BFO:0000040,material entity
+CDNO:0200306,,CHEBI:66103,jaceosidin,BFO:0000040,material entity
+CDNO:0200307,,CHEBI:15864,luteolin,BFO:0000040,material entity
+CDNO:0200308,,CHEBI:77791,luteolin 7-O-β-D-glucoside(1−),BFO:0000040,material entity
+CDNO:0200309,,CHEBI:70082,myricitrin,BFO:0000040,material entity
+CDNO:0200310,,CHEBI:7602,nobiletin,BFO:0000040,material entity
+CDNO:0200311,,CHEBI:16243,quercetin,BFO:0000040,material entity
+CDNO:0200312,,CHEBI:31227,apigenin 7-O-neohesperidoside,BFO:0000040,material entity
+CDNO:0200313,,CHEBI:9062,scutellarein,BFO:0000040,material entity
+CDNO:0200314,,CHEBI:9159,sinensetin,BFO:0000040,material entity
+CDNO:0200315,,CHEBI:9400,tangeretin,BFO:0000040,material entity
+CDNO:0200316,,CHEBI:16954,vitexin,BFO:0000040,material entity
+CDNO:0200317,,CHEBI:48039,dihydroflavanol,BFO:0000040,material entity
+CDNO:0200318,,CHEBI:72010,hydroxyflavan,BFO:0000040,material entity
+CDNO:0200319,,CHEBI:23053,catechin,BFO:0000040,material entity
+CDNO:0200320,,CHEBI:76132,(+)-catechin 3-O-gallate,BFO:0000040,material entity
+CDNO:0200321,,CHEBI:31018,(+)-gallocatechin,BFO:0000040,material entity
+CDNO:0200322,,CHEBI:90,(-)-epicatechin,BFO:0000040,material entity
+CDNO:0200323,,CHEBI:76125,(+)-epicatechin,BFO:0000040,material entity
+CDNO:0200324,,CHEBI:71225,(-)-gallocatechin,BFO:0000040,material entity
+CDNO:0200325,,CHEBI:70255,(-)-epicatechin-3-O-gallate,BFO:0000040,material entity
+CDNO:0200326,,CHEBI:42255,(-)-epigallocatechin,BFO:0000040,material entity
+CDNO:0200327,,CHEBI:70254,3'-O-methylepicatechin,BFO:0000040,material entity
+CDNO:0200328,,CHEBI:70256,4'-O-methylepigallocatechin-3-O-gallate,BFO:0000040,material entity
+CDNO:0200329,,CHEBI:70253,4'-O-methylepigallocatechin,BFO:0000040,material entity
+CDNO:0200331,,CHEBI:81227,cinnamtannin A2,BFO:0000040,material entity
+CDNO:0200332,,CHEBI:166895,procyanidin,BFO:0000040,material entity
+CDNO:0200333,,CHEBI:75633,procyanidin B1,BFO:0000040,material entity
+CDNO:0200334,,CHEBI:75632,procyanidin B2,BFO:0000040,material entity
+CDNO:0200335,,CHEBI:75630,procyanidin B3,BFO:0000040,material entity
+CDNO:0200336,,CHEBI:27589,procyanidin B4,BFO:0000040,material entity
+CDNO:0200337,,CHEBI:75621,procyanidin B5,BFO:0000040,material entity
+CDNO:0200338,,CHEBI:75619,procyanidin B6,BFO:0000040,material entity
+CDNO:0200339,,CHEBI:75643,procyanidin C1,BFO:0000040,material entity
+CDNO:0200340,,CHEBI:75644,procyanidin C2,BFO:0000040,material entity
+CDNO:0200341,,CHEBI:136609,theaflavin,BFO:0000040,material entity
+CDNO:0200342,,CHEBI:166896,peltogynoid,BFO:0000040,material entity
+CDNO:0200343,,CHEBI:71230,dihydrochalcone,BFO:0000040,material entity
+CDNO:0200344,,CHEBI:88354,3-hydroxyphloretin 2'-O-xylosylglucoside,BFO:0000040,material entity
+CDNO:0200345,,CHEBI:17276,phloretin,BFO:0000040,material entity
+CDNO:0200346,,CHEBI:8113,phlorizin,BFO:0000040,material entity
+CDNO:0200347,,CHEBI:23086,chalcone,BFO:0000040,material entity
+CDNO:0200348,,CHEBI:3237,butein,BFO:0000040,material entity
+CDNO:0200349,,CHEBI:66331,xanthohumol,BFO:0000040,material entity
+CDNO:0200350,,CHEBI:47964,aurone,BFO:0000040,material entity
+CDNO:0200351,,CHEBI:38695,anthocyanidin,BFO:0000040,material entity
+CDNO:0200352,,CHEBI:27843,cyanidin cation,BFO:0000040,material entity
+CDNO:0200353,,CHEBI:27475,cyanidin 3-O-β-D-galactoside,BFO:0000040,material entity
+CDNO:0200354,,CHEBI:28064,cyanidin 3-O-rutinoside,BFO:0000040,material entity
+CDNO:0200355,,CHEBI:74811,cyanidin 3-O-β-D-sambubioside,BFO:0000040,material entity
+CDNO:0200356,,CHEBI:80438,Cyanidin 3-O-sophoroside,BFO:0000040,material entity
+CDNO:0200357,,CHEBI:142263,isopeonidin 3-rutinoside,BFO:0000040,material entity
+CDNO:0200358,,CHEBI:25863,pelargonidin,BFO:0000040,material entity
+CDNO:0200359,,CHEBI:31968,pelargonidin 3-O-rutinoside,BFO:0000040,material entity
+CDNO:0200360,,CHEBI:38697,anthocyanin,BFO:0000040,material entity
+CDNO:0200361,,CHEBI:38698,anthocyanin chlorides,BFO:0000040,material entity
+CDNO:0200362,,CHEBI:37664,cyanidin 3-O-β-D-galactoside chloride,BFO:0000040,material entity
+CDNO:0200363,,CHEBI:16726,cyanidin 3-O-rutinoside chloride,BFO:0000040,material entity
+CDNO:0200364,,CHEBI:38021,cyanin chloride,BFO:0000040,material entity
+CDNO:0200365,,CHEBI:36122,pelargonidin 3-O-β-D-glucoside chloride,BFO:0000040,material entity
+CDNO:0200366,,CHEBI:22798,β-D-glucoside,BFO:0000040,material entity
+CDNO:0200367,,CHEBI:31463,delphinidin 3-O-β-D-glucoside,BFO:0000040,material entity
+CDNO:0200368,,CHEBI:31985,petunidin 3-O-β-D-glucoside,BFO:0000040,material entity
+CDNO:0200369,,CHEBI:31799,malvidin 3-O-β-D-glucoside,BFO:0000040,material entity
+CDNO:0200370,,CHEBI:50753,isoflavonoid,BFO:0000040,material entity
+CDNO:0200371,,CHEBI:72572,isoflavans,BFO:0000040,material entity
+CDNO:0200372,,CHEBI:27945,isoflavanone,BFO:0000040,material entity
+CDNO:0200373,,CHEBI:38757,isoflavones,BFO:0000040,material entity
+CDNO:0200374,,CHEBI:38755,hydroxyisoflavone,BFO:0000040,material entity
+CDNO:0200375,,CHEBI:28197,daidzein,BFO:0000040,material entity
+CDNO:0200376,,CHEBI:28088,genistein,BFO:0000040,material entity
+CDNO:0200377,,CHEBI:34778,glycitein,BFO:0000040,material entity
+CDNO:0200378,,CHEBI:24278,glucoside,BFO:0000040,material entity
+CDNO:0200379,,CHEBI:42202,daidzein 7-O-β-D-glucoside,BFO:0000040,material entity
+CDNO:0200380,,CHEBI:27514,genistein 7-O-β-D-glucoside,BFO:0000040,material entity
+CDNO:0200381,,CHEBI:80373,glycitin,BFO:0000040,material entity
+CDNO:0200382,,CHEBI:74630,glycosyloxyisoflavone,BFO:0000040,material entity
+CDNO:0200383,,CHEBI:80371,malonyldaidzin,BFO:0000040,material entity
+CDNO:0200384,,CHEBI:80372,malonylgenistin,BFO:0000040,material entity
+CDNO:0200385,,CHEBI:80374,malonylglycitin,BFO:0000040,material entity
+CDNO:0200386,,CHEBI:133348,glycitein 7-(6-O-acetyl-β-D-glucoside),BFO:0000040,material entity
+CDNO:0200387,,CHEBI:71543,rotenoid,BFO:0000040,material entity
+CDNO:0200388,,CHEBI:72577,coumestans,BFO:0000040,material entity
+CDNO:0200389,,CHEBI:72578,coumestan,BFO:0000040,material entity
+CDNO:0200390,,CHEBI:3908,coumestrol,BFO:0000040,material entity
+CDNO:0200391,,CHEBI:166897,3-arylcoumarin,BFO:0000040,material entity
+CDNO:0200392,,CHEBI:26377,pterocarpans,BFO:0000040,material entity
+CDNO:0200393,,CHEBI:73033,pterocarpan,BFO:0000040,material entity
+CDNO:0200394,,CHEBI:108,(−)-phaseolin,BFO:0000040,material entity
+CDNO:0200395,,CHEBI:67347,(+)-pisatin,BFO:0000040,material entity
+CDNO:0200396,,CHEBI:71971,neoflavonoid,BFO:0000040,material entity
+CDNO:0200397,,CHEBI:50128,biflavonoid,BFO:0000040,material entity
+CDNO:0200398,,CHEBI:26004,phenylpropanoid,BFO:0000040,material entity
+CDNO:0200399,,CHEBI:25036,lignan,BFO:0000040,material entity
+CDNO:0200400,,CHEBI:125451,"3,5,7-trihydroxy-2-[3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-3,4-dihydro-2H-1-benzopyran-4-one",BFO:0000040,material entity
+CDNO:0200401,,CHEBI:25497,neolignan,BFO:0000040,material entity
+CDNO:0200402,,CHEBI:6457,lignin,BFO:0000040,material entity
+CDNO:0200403,,CHEBI:89634,Melanin,BFO:0000040,material entity
+CDNO:0200404,,CHEBI:23055,catechol melanin,BFO:0000040,material entity
+CDNO:0200405,,CHEBI:166898,allomelanin,BFO:0000040,material entity
+CDNO:0200406,,CHEBI:26873,terpenoid,BFO:0000040,material entity
+CDNO:0200407,,CHEBI:25409,monoterpenoid,BFO:0000040,material entity
+CDNO:0200408,,CHEBI:26658,sesquiterpoid,BFO:0000040,material entity
+CDNO:0200409,,CHEBI:23849,diterpenoid,BFO:0000040,material entity
+CDNO:0200410,,CHEBI:27325,xanthophyll,BFO:0000040,material entity
+CDNO:0200411,,CHEBI:27547,zeaxanthin,BFO:0000040,material entity
+CDNO:0200412,,CHEBI:10223,α-cryptoxanthin,BFO:0000040,material entity
+CDNO:0200413,,CHEBI:10362,β-cryptoxanthin,BFO:0000040,material entity
+CDNO:0200414,,CHEBI:28838,lutein,BFO:0000040,material entity
+CDNO:0200415,,CHEBI:26119,phytoene,BFO:0000040,material entity
+CDNO:0200416,,CHEBI:25501,neoxanthin,BFO:0000040,material entity
+CDNO:0200417,,CHEBI:27295,violaxanthin,BFO:0000040,material entity
+CDNO:0200418,,CHEBI:15948,lycopene,BFO:0000040,material entity
+CDNO:0200419,,CHEBI:62466,"7,7',9,9'-tetra-cis-lycopene",BFO:0000040,material entity
+CDNO:0200420,,CHEBI:50211,retinol,BFO:0000040,material entity
+CDNO:0200421,,CHEBI:36615,triterpenoid,BFO:0000040,material entity
+CDNO:0200422,,CHEBI:64709,organic acid,BFO:0000040,material entity
+CDNO:0200423,,CHEBI:15366,acetic acid,BFO:0000040,material entity
+CDNO:0200424,,CHEBI:30769,citric acid,BFO:0000040,material entity
+CDNO:0200425,,CHEBI:78320,2-hydroxypropanoic acid,BFO:0000040,material entity
+CDNO:0200426,,CHEBI:42111,(R)-lactic acid,BFO:0000040,material entity
+CDNO:0200427,,CHEBI:422,(S)-lactic acid,BFO:0000040,material entity
+CDNO:0200428,,CHEBI:6650,malic acid,BFO:0000040,material entity
+CDNO:0200429,,CHEBI:30794,malonic acid,BFO:0000040,material entity
+CDNO:0200430,,CHEBI:22652,ascorbic acid,BFO:0000040,material entity
+CDNO:0200431,,CHEBI:27956,L-dehydroascorbic acid,BFO:0000040,material entity
+CDNO:0200432,,CHEBI:16995,oxalic acid,BFO:0000040,material entity
+CDNO:0200433,,CHEBI:17401,myo-inositol hexakisphosphate,BFO:0000040,material entity
+CDNO:0200434,,CHEBI:26493,quinic acid,BFO:0000040,material entity
+CDNO:0200435,,CHEBI:32816,pyruvic acid,BFO:0000040,material entity
+CDNO:0200436,,CHEBI:16119,shikimic acid,BFO:0000040,material entity
+CDNO:0200437,,CHEBI:15741,succinic acid,BFO:0000040,material entity
+CDNO:0200438,,CHEBI:26849,tartaric acid,BFO:0000040,material entity
+CDNO:0200439,,CHEBI:30887,isocitric acid,BFO:0000040,material entity
+CDNO:0200440,,CHEBI:30744,oxaloacetic acid,BFO:0000040,material entity
+CDNO:0200441,,CHEBI:24848,inositol,BFO:0000040,material entity
+CDNO:0200442,,CHEBI:15891,taurine,BFO:0000040,material entity
+CDNO:0200443,,CHEBI:17750,glycine betaine,BFO:0000040,material entity
+CDNO:0200444,,CHEBI:26191,polyol,BFO:0000040,material entity
+CDNO:0200445,,CHEBI:29864,mannitol,BFO:0000040,material entity
+CDNO:0200446,,CHEBI:17151,xylitol,BFO:0000040,material entity
+CDNO:0200447,,CHEBI:30911,glucitol,BFO:0000040,material entity
+CDNO:0200448,,CHEBI:15354,choline,BFO:0000040,material entity
+CDNO:0200449,,CHEBI:26208,polyunsaturated fatty acid,BFO:0000040,material entity
+CDNO:0200450,,CHEBI:17020,glucomannan,BFO:0000040,material entity
+CDNO:0200451,,CHEBI:17754,glycerol,BFO:0000040,material entity
+CDNO:0200452,,CHEBI:17855,triglyceride,BFO:0000040,material entity
+CDNO:0200453,,CHEBI:18233,xyloglucan,BFO:0000040,material entity
+CDNO:0200454,,CHEBI:22590,arabinan,BFO:0000040,material entity
+CDNO:0200455,,CHEBI:24174,galacturonan,BFO:0000040,material entity
+CDNO:0200456,,CHEBI:25413,monounsaturated fatty acid,BFO:0000040,material entity
+CDNO:0200457,,CHEBI:26543,rhamnogalacturonan,BFO:0000040,material entity
+CDNO:0200458,,CHEBI:26607,saturated fatty acid,BFO:0000040,material entity
+CDNO:0200459,,CHEBI:27680,galactomannan,BFO:0000040,material entity
+CDNO:0200460,,CHEBI:28057,amylopectin,BFO:0000040,material entity
+CDNO:0200461,,CHEBI:28102,amylose,BFO:0000040,material entity
+CDNO:0200462,,CHEBI:28427,arabinoxylan,BFO:0000040,material entity
+CDNO:0200463,,CHEBI:28808,mannan,BFO:0000040,material entity
+CDNO:0200464,,CHEBI:33709,amino acid,BFO:0000040,material entity
+CDNO:0200465,,CHEBI:35366,fatty acid,BFO:0000040,material entity
+CDNO:0200466,,CHEBI:37165,galactan,BFO:0000040,material entity
+CDNO:0200467,,CHEBI:37166,xylan,BFO:0000040,material entity
+CDNO:0200468,,CHEBI:37163,glucan,BFO:0000040,material entity
+CDNO:0200469,,CDNO:0100001,amylopectin derived from starch,BFO:0000040,material entity
+CDNO:0200470,,CDNO:0100002,amylose derived from starch,BFO:0000040,material entity
+CDNO:0200471,,CDNO:0100003,galacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200472,,CDNO:0100004,rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200473,,CDNO:0100005,mannan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200474,,CDNO:0100006,xylan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200475,,CDNO:0100007,xyloglucan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200476,,CDNO:0100008,glucomannan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200477,,CDNO:0100009,arabinoxylan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200478,,CDNO:0100010,fructan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200479,,CDNO:0100011,arabinan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200480,,CDNO:0100012,galactomannan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200481,,CDNO:0100013,galactan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200482,,CDNO:0100014,glucose derived from amylopectin derived from starch,BFO:0000040,material entity
+CDNO:0200483,,CDNO:0100015,glucose derived from amylose derived from starch,BFO:0000040,material entity
+CDNO:0200484,,CDNO:0100016,glucose derived from sucrose,BFO:0000040,material entity
+CDNO:0200485,,CDNO:0100017,fructose derived from sucrose,BFO:0000040,material entity
+CDNO:0200486,,CDNO:0100018,glucose derived from maltose,BFO:0000040,material entity
+CDNO:0200487,,CDNO:0100019,galacturonic acid derived from galacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200488,,CDNO:0100020,rhamnose derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200489,,CDNO:0100021,D-apiose derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200490,,CDNO:0100022,galacturonic acid derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200491,,CDNO:0100023,fucose derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200492,,CDNO:0100024,xylose derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200493,,CDNO:0100025,arabinose derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200494,,CDNO:0100026,galactose derived from rhamnogalacturonan derived from pectin,BFO:0000040,material entity
+CDNO:0200495,,CDNO:0100027,raffinose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200496,,CDNO:0100028,galactose derived from raffinose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200497,,CDNO:0100029,glucose derived from raffinose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200498,,CDNO:0100030,fructose derived from raffinose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200499,,CDNO:0100031,stachyose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200500,,CDNO:0100032,galactose derived from stachyose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200501,,CDNO:0100033,glucose derived from stachyose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200502,,CDNO:0100034,fructose derived from stachyose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200503,,CDNO:0100035,verbascose derived from rraffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200504,,CDNO:0100036,galactose derived from verbascose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200505,,CDNO:0100037,glucose derived from verbascose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200506,,CDNO:0100038,fructose derived from verbascose derived from raffinose family oligosaccharide,BFO:0000040,material entity
+CDNO:0200507,,CDNO:0100039,glucose derived from cellulose,BFO:0000040,material entity
+CDNO:0200508,,CDNO:0100040,mannose derived from mannan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200509,,CDNO:0100041,glucose derived from xylan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200510,,CDNO:0100042,xylose derived from xylan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200511,,CDNO:0100043,glucose derived from xyloglucan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200512,,CDNO:0100044,xylose derived from xyloglucan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200513,,CDNO:0100045,glucose derived from glucomannan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200514,,CDNO:0100046,mannose derived from glucomannan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200515,,CDNO:0100047,arabinose derived from arabinoxylan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200516,,CDNO:0100048,xylose derived from arabinoxylan derived from hemicellulose,BFO:0000040,material entity
+CDNO:0200517,,CDNO:0100049,inulin derived from fructan,BFO:0000040,material entity
+CDNO:0200518,,CDNO:0100050,fructose derived from inulin derived from fructan,BFO:0000040,material entity
+CDNO:0200519,,CDNO:0100051,amino acid derived from protein,BFO:0000040,material entity
