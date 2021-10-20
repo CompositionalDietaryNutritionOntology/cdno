@@ -134,6 +134,11 @@ CHEBI:27693	#sitosterol
 CHEBI:89400	#stigmastanol
 CHEBI:28824	#stigmasterol
 CHEBI:166889	#delta7-stigmasterol
+CHEBI:24913	#isoprenoid
+CHEBI:35186	#terpene
+CHEBI:35193	#tetraterpene
+CHEBI:23042	#carotene
+CHEBI:26935	#tetraterpenoid
 CHEBI:167164	#mineral
 CDNO:0000011	#macro
 CHEBI:22984	#calcium
@@ -177,28 +182,44 @@ CHEBI:24866	#salt
 CHEBI:26710	#sodium
 CHEBI:51084	#inorganic
 CHEBI:15858	#bromide
+CHEBI:25322	#methylmercury compound
 CDNO:0000014	#vitamin molecular 
 CHEBI:75769	#vitamin
 CHEBI:15640	#5-formyltetrahydrofolic
 CHEBI:57455	#(6R)-5,10-methenyltetrahydrofolate
 CHEBI:26948	#thiamine
+CHEBI:49105	#thiamine hydrochloride
+CHEBI:176838	#vitamin B2
 CHEBI:17015	#riboflavin
+CHEBI:176839	#vitamin B3
 CHEBI:15940	#niacin
+CHEBI:176840	#vitamin B5
 CHEBI:46905	#pantothenic
+CHEBI:27306	#vitamin B6
 CHEBI:16709	#pyridoxine
+CHEBI:176841	#vitamin B7
 CHEBI:15956	#biotin
-CHEBI:27470	#b9
+CHEBI:176842	#vitamin B9
+CHEBI:27470	#folic
+CHEBI:67016	#tetrahydrofolate
+CHEBI:176843	#vitamin B12
 CHEBI:17439	#cyanocobalamin
-CHEBI:21241	#vitamin
+CHEBI:176783	#vitamin
 CHEBI:29073	#L-ascorbic
 CHEBI:12777	#vitamin
+CHEBI:17336	#all-trans-retinol
 CHEBI:23044	#carotenoid
 CHEBI:28425	#alpha-carotene
 CHEBI:17579	#beta-carotene
 CHEBI:140677	#trans-beta-carotene
 CHEBI:67188	#beta-carotene-cis
 CHEBI:27300	#vitamin
+CHEBI:73558	#D3 vitamins
 CHEBI:17933	#calcidiol
+CHEBI:28940	#calciol
+CHEBI:28934	#vitamin D2
+CHEBI:33237	#vitamin D4
+CHEBI:33279	#vitamin D5
 CHEBI:33234	#vitamin
 CHEBI:27013	#tocopherol
 CHEBI:22470	#alpha-tocopherol
@@ -211,6 +232,9 @@ CHEBI:33275	#beta-tocotrienol
 CHEBI:33277	#gamma-tocotrienol
 CHEBI:33276	#delta-tocotrienol
 CHEBI:28384	#vitamin
+CHEBI:28869	#menadione
+CHEBI:16374	#menaquinone
+CHEBI:18067	#phylloquinone
 CDNO:0000013	#plant
 CHEBI:22315	#alkaloid
 CHEBI:27732	#caffeine
