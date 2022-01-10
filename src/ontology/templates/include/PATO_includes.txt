@@ -1,1 +1,3 @@
+PATO:0000001  #quality
 PATO:0000033  #concentration of
+PATO:0001018  #physical quality
