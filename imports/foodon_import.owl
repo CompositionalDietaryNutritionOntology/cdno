@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/foodon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2021-10-20/imports/foodon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-01-10/imports/foodon_import.owl"/>
     </owl:Ontology>
     
 
@@ -273,6 +273,12 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
@@ -455,7 +461,12 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
         <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label xml:lang="en">participates in</rdfs:label>
         <rdfs:label>participates_in</rdfs:label>
@@ -467,8 +478,15 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
         <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigation has participant this investigator</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this process has participant this input material (or this output material)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</dc:source>
         <rdfs:label xml:lang="en">has participant</rdfs:label>
         <rdfs:label>has_participant</rdfs:label>
     </owl:ObjectProperty>
@@ -758,7 +776,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:IAO_0000600 xml:lang="en">An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies_temporal_region or occupies_spatiotemporal_region. (axiom label in BFO2 Reference: [077-002])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">Every occurrent occupies_spatiotemporal_region some spatiotemporal region. (axiom label in BFO2 Reference: [108-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">b is an occurrent entity iff b is an entity that has temporal parts. (axiom label in BFO2 Reference: [079-001])</obo:IAO_0000601>
@@ -991,6 +1008,7 @@
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -1002,7 +1020,10 @@
         <obo:IAO_0000602>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </obo:IAO_0000602>
+        <oboInOwl:hasOBONamespace>bfo</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>BFO:0000040</oboInOwl:id>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label>material entity</rdfs:label>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1159,7 +1180,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A food product made of meat, the skeletal muscle and associated fat, and other edible tissues such as organs, livers, skin, brains, bone marrow, kidneys, or lungs, of mammals.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Meat</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Meat</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1323,17 +1344,6 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00001139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001139">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002275"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411305"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002275"/>
         <oboInOwl:hasExactSynonym xml:lang="en">coffee and coffee products</oboInOwl:hasExactSynonym>
@@ -1812,6 +1822,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001635"/>
         <obo:IAO_0000115 xml:lang="en">A product of the dry seeds of Cicer arietinum.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Legume</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">garbanzo bean food product</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">Bengal gram</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">Egyptian pea</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">gram</oboInOwl:hasNarrowSynonym>
@@ -2052,18 +2063,13 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00001628 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001628">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001057"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89151"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">banana food product</rdfs:label>
     </owl:Class>
     
@@ -2530,48 +2536,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001896 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001896">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001897"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002774"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001897"/>
-        <rdfs:label xml:lang="en">garbanzo bean substance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001897 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001897">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001199"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002774"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001199"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">garbanzo bean (vegetable) food product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001947 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001947">
@@ -2983,7 +2947,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001628"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89151"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003784"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3428,11 +3392,9 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A pome fruit of an apple tree (Malus domestica).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym xml:lang="en">apple</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">A whole apple may include a stem.</rdfs:comment>
         <rdfs:label xml:lang="en">apple (whole)</rdfs:label>
-        <rdfs:seeAlso rdf:resource="https://www-atlasobscura-com.cdn.ampproject.org/c/s/www.atlasobscura.com/articles/heritage-appalachian-apples.amp"/>
         <rdfs:seeAlso>https://www-atlasobscura-com.cdn.ampproject.org/c/s/www.atlasobscura.com/articles/heritage-appalachian-apples.amp</rdfs:seeAlso>
     </owl:Class>
     
@@ -3529,7 +3491,6 @@
         <obo:IAO_0000116 xml:lang="en">Damion Dooley&apos;s note.  This could be enhanced to explicitly state the anatomical parts of a seed - seed coat, cotyledons, embryo etc.  Currently the Plant Ontology is not explicit about this yet.</obo:IAO_0000116>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T07:28:59</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">bean</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">bean (whole)</rdfs:label>
@@ -3564,35 +3525,6 @@
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-08T23:32:17Z</dc:date>
         <rdfs:label xml:lang="en">bean pod</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002774 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002774">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002753"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3827"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001897"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002753"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03306811"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A seed of a garbanzo bean varietal.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Chickpea</obo:IAO_0000119>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-09T17:26:45</dc:date>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-09T17:26:45Z</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">garbanzo bean</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">garbanzo bean (whole)</rdfs:label>
     </owl:Class>
     
 
@@ -3889,7 +3821,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a macadamia nut tree (Macadamia integrifolia).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-13T05:53:56</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">Hawaii nut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Queensland nut</oboInOwl:hasExactSynonym>
@@ -4108,7 +4039,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a peanut plant (Arachis hypogaea).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym xml:lang="en">peanut</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">peanut (whole)</rdfs:label>
     </owl:Class>
@@ -4135,7 +4065,6 @@
         <obo:IAO_0000115 xml:lang="en">A hesperidium fruit of a citrus plant (Citrus).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T06:54:39</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">citrus fruit</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">citrus fruit (whole)</rdfs:label>
@@ -4200,7 +4129,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a barley plant (Hordeum vulgare subsp. vulgare).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-06T15:28:35</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">barley seed</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">barley seed (whole)</rdfs:label>
@@ -4227,7 +4155,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A drupe fruit of the arabica coffee plant (Coffea arabica).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-07T16:25:15</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">arabica bean</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">arabica coffee bean</oboInOwl:hasExactSynonym>
@@ -4255,7 +4182,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a common bean plant (Phaseolus vulgaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-08T18:42:03</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">common bean</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">common bean (whole)</rdfs:label>
@@ -4266,23 +4192,17 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00003404 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003404">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030100"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3885"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001757"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3885"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A legume fruit of a common bean plant (Phaseolus vulgaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-08T18:42:15</dc:date>
         <rdfs:label xml:lang="en">common bean pod</rdfs:label>
     </owl:Class>
@@ -4308,7 +4228,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A raceme inflorescence of a broccoli plant(Brassica oleracea var. italica).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:15:35</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">broccoli</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">broccoli floret (whole)</rdfs:label>
@@ -4335,7 +4254,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a rapseed plant (Brassica napus var. napus).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:24:31</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">rapeseed</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">rapeseed (whole)</rdfs:label>
@@ -4362,7 +4280,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A primary root of a carrot plant (Daucus carota).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:27:10</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">carrot</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">carrot root (whole)</rdfs:label>
@@ -4389,7 +4306,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A tuberous root tuber of a cassava plant (Manihot esculenta).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:33:05</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cassava</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cassava (whole)</rdfs:label>
@@ -4416,7 +4332,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A raceme inflorescence of a cauliflower plant (Brassica oleracea var. botrytis).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:39:07</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cauliflower</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cauliflower (whole)</rdfs:label>
@@ -4443,7 +4358,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A petiole of a celery plant (Apium graveolens Dulce Group).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:43:45</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">celery stalk</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">celery stalk (whole)</rdfs:label>
@@ -4470,7 +4384,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A primary root of a sugar beet plant (Beta vulgaris subsp. vulgaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:45:46</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">sugar beet</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">sugar beet (whole)</rdfs:label>
@@ -4498,7 +4411,6 @@
         <obo:IAO_0000115 xml:lang="en">A drupe fruit of a sweet cherry plant (Prunus avium).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:48:03</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-12T12:43:23</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">sweet cherry</oboInOwl:hasExactSynonym>
@@ -4526,7 +4438,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a cowpea plant (Vigna unguiculata).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T14:09:09</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cowpea</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cowpea (whole)</rdfs:label>
@@ -4553,7 +4464,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A pepo fruit of a cucumber plant (Cucumis sativus).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T14:18:28</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cucumber</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cucumber (whole)</rdfs:label>
@@ -4580,7 +4490,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a durum wheat plant (Triticum turgidum subsp. durum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T14:22:09</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">durum wheat</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">durum wheat kernel</rdfs:label>
@@ -4607,8 +4516,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A berry fruit of a grape plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T14:38:33</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">de-stemmed grape</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">grape</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">grape (whole)</rdfs:label>
     </owl:Class>
@@ -4634,7 +4543,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A nut fruit of a common hazelnut tree (Corylus avellana)</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T14:47:29</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">common hazelnut</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">common hazelnut (whole)</rdfs:label>
@@ -4689,7 +4597,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of an indian mustard plant (Brassica juncea subsp. integrifolia).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T15:16:24</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">indian mustard seed</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">indian mustard seed (whole)</rdfs:label>
@@ -4716,7 +4623,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A stem of a kohlrabi plant (Brassica oleracea var. gongylodes).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T15:32:09</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">kohlrabi stem</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">kohlrabi stem (whole)</rdfs:label>
@@ -4743,7 +4649,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a maize plant  (Zea mays subsp. mays).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T22:30:15</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">corn kernel</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">maize kernel</rdfs:label>
@@ -4770,7 +4675,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An ear infructescence of a maize plant (Zea mays subsp. mays).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T22:30:40</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">corn cob</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">maize cob</oboInOwl:hasExactSynonym>
@@ -4798,7 +4702,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of an oat plant (Avena sativa).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T22:33:32</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">oats</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">whole oats</rdfs:label>
@@ -4825,7 +4728,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a perl millet plant (Cenchrus americanus).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T02:58:48</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">perl millet</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">perl millet kernel</rdfs:label>
@@ -4852,7 +4754,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A root of a radish plant (Raphanus sativus).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T03:13:06</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">radish</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">radish (whole)</rdfs:label>
@@ -4879,7 +4780,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A petiole of a rhubarb plant (Rheum rhabarbarum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T03:17:01</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">rhubart stalk</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">rhubarb stalk (whole)</rdfs:label>
@@ -4906,7 +4806,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An aggregate fruit of a raspberry plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T03:24:33</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">raspberry</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">raspberry (whole)</rdfs:label>
@@ -4933,7 +4832,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a rice plant (Oryza sativa).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T03:37:39</dc:date>
         <rdfs:label xml:lang="en">whole grain rice</rdfs:label>
     </owl:Class>
@@ -4983,7 +4881,6 @@
         <obo:IAO_0000115 xml:lang="en">A hypocotyl of a rutabaga plant (Brassica napus subsp. rapifera).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T04:30:20</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T04:30:20Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">rutabaga</oboInOwl:hasExactSynonym>
@@ -5040,7 +4937,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A leaf of a siberian kale plant (Brassica napus var. pabularia).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T04:47:48</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">siberian kale leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">siberian kale leaf (whole)</rdfs:label>
@@ -5067,7 +4963,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An aggregate fruit of strawberry plant  (Fragaria x ananassa).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T04:57:07</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">strawberry</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">strawberry (whole)</rdfs:label>
@@ -5094,7 +4989,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A stem of a sugar cane plant (Saccharum officinarum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:06:55</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:06:55Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">sugar cane</oboInOwl:hasExactSynonym>
@@ -5122,7 +5016,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A tuberous root tuber of a sweet potato plant (Ipomoea batatas).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:12:34</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:12:34Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">sweet potato</oboInOwl:hasExactSynonym>
@@ -5150,7 +5043,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A hypocotyl of a turnip plant (Brassica rapa subsp. rapa).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:38:38</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:38:38Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">turnip</oboInOwl:hasExactSynonym>
@@ -5178,7 +5070,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A shoot axis tuber of a yam plant (Dioscorea).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:45:46</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:45:46Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">yam</oboInOwl:hasExactSynonym>
@@ -5206,7 +5097,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A drupe fruit of a coconut palm tree (Cocos nucifera).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T05:53:54</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">coconut</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">coconut (whole)</rdfs:label>
@@ -5250,7 +5140,6 @@
         <obo:IAO_0000115 xml:lang="en">An edible drupe fruit of a cherry plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-13T05:48:32</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cherry</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cherry (whole)</rdfs:label>
@@ -5278,7 +5167,6 @@
         <obo:IAO_0000115 xml:lang="en">A rosette leaf of a mustard plant (Brassica juncea)</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-29T19:18:51Z</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T11:02:45</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">mustard leaf</oboInOwl:hasExactSynonym>
@@ -5310,7 +5198,6 @@
         <obo:IAO_0000115 xml:lang="en">A rosette leaf of a kale plant</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T11:02:45</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">kale leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">kale leaf (whole)</rdfs:label>
@@ -5365,7 +5252,6 @@
         <obo:IAO_0000115 xml:lang="en">A rosette leaf of a turnip greens plant (Brassica rapa subsp. rapa).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-21T11:06:27</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">turnip leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">turnip leaf (whole)</rdfs:label>
@@ -5396,33 +5282,6 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-19T12:01:19</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">tropical fruit</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">tropical fruit (whole)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00003579 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003579">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2711"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315106"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030109"/>
-        <obo:IAO_0000115 xml:lang="en">A hesperidium fruit of a navel orange plant (Citrus sinensis)</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-30T13:15:00</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">navel orange</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">navel orange (whole)</rdfs:label>
     </owl:Class>
     
 
@@ -5488,7 +5347,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
         <obo:IAO_0000115 xml:lang="en">A leaf of a bean plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T01:48:48</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">bean leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">bean leaf (whole)</rdfs:label>
@@ -5514,7 +5372,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
         <obo:IAO_0000115 xml:lang="en">A leaf of a beet plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T01:59:10</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">beet leaf</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">beetroot leaf</oboInOwl:hasExactSynonym>
@@ -5541,7 +5398,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000014"/>
         <obo:IAO_0000115 xml:lang="en">A rosette leaf of a cauliflower plant (Brassica oleracea var. botrytis)</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T02:00:16</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cauliflower leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cauliflower leaf (whole)</rdfs:label>
@@ -5593,7 +5449,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
         <obo:IAO_0000115 xml:lang="en">A leaf of a grape plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T02:02:32</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">grape leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">grape leaf (whole)</rdfs:label>
@@ -5619,7 +5474,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
         <obo:IAO_0000115 xml:lang="en">A leaf of a radish plant (Raphanus sativus)</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T02:21:48</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">radish leaf</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">radish leaf (whole)</rdfs:label>
@@ -5645,9 +5499,35 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
         <obo:IAO_0000115 xml:lang="en">A leaf of a vegetable-producing plant.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T02:40:22</dc:date>
         <rdfs:label xml:lang="en">vegetable leaf (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003784">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030108"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89151"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002159"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
+        <obo:IAO_0000115 xml:lang="en">A berry fruit of a plantain plant (Musa ABB Group)</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Cooking_banana</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T23:45:01</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">cooking banana</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">plantain</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">plantain (whole)</rdfs:label>
     </owl:Class>
     
 
@@ -5671,7 +5551,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a broad bean plant (Vicia faba).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F1227</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Windsor bean</oboInOwl:hasExactSynonym>
@@ -5739,7 +5618,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a mung bean plant (Vigna radiata var. radiata).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F1275</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">mung bean</oboInOwl:hasExactSynonym>
@@ -5854,7 +5732,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a soyabean plant (Glycine max).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F1415</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">soy bean</oboInOwl:hasExactSynonym>
@@ -5946,7 +5823,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A berry fruit of a tomato plant (Solanum lycopersicum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F1453</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">tomato</oboInOwl:hasExactSynonym>
@@ -6148,17 +6024,6 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03301717 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301717">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0025476"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4120"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003445"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6545,11 +6410,14 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a chickpea plant (Cicer arietinum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Chickpea</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F6811</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">chick pea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chickpea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">garbanzo</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">garbanzo bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">garbanzo bean (whole)</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">chickpea (whole)</rdfs:label>
     </owl:Class>
@@ -6804,42 +6672,11 @@ SIREN DB annotation:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a sorghum species plant (Sorghum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F9978</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">sorghum</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">sorghum kernel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310226 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310226">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001142"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310791"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310791"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Hominy is a food produced from dried maize (corn) kernels that have been treated with an alkali, in a process called nixtamalization (nextamalli is the Nahuatl word for &quot;hominy&quot;).</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Hominy</obo:IAO_0000119>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F10226</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="hop">paatsami</oboInOwl:hasSynonym>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;whole, natural shape&apos; (http://purl.obolibrary.org/obo/FOODON_03430150)
-* derives from &apos;seed, skin removed, germ removed (endosperm)&apos; (http://purl.obolibrary.org/obo/FOODON_03420208)
-* formed as a result of &apos;food alkalization process&apos; (http://purl.obolibrary.org/obo/FOODON_03460206)
-        </rdfs:comment>
-        <rdfs:label xml:lang="en">hominy</rdfs:label>
-        <rdfs:seeAlso xml:lang="hop">http://m.grandcanyonnews.com/news/2009/feb/17/hopi-recipes-promote-healthy-eating-habits/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6863,7 +6700,6 @@ SIREN DB annotation:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a lentil plant (Lens culinaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10641</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">lentil</oboInOwl:hasExactSynonym>
@@ -6899,7 +6735,6 @@ SIREN DB annotation:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a legume plant in the family Fabaceae.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-21T09:28:28</dc:date>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10646</oboInOwl:hasDbXref>
@@ -6925,30 +6760,6 @@ SIREN DB annotation:
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10788</oboInOwl:hasDbXref>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">apple (whole or parts)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310791 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310791">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001765"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400152"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F10791</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;whole, natural shape&apos; (http://purl.obolibrary.org/obo/FOODON_03430150)
-* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)
-* derives from &apos;seed, skin present, germ present&apos; (http://purl.obolibrary.org/obo/FOODON_03420133)
-        </rdfs:comment>
-        <rdfs:label xml:lang="en">corn (on-the-cob, kernel or parts)</rdfs:label>
     </owl:Class>
     
 
@@ -7006,7 +6817,6 @@ SIREN DB annotation:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An axillary bud of the brussels sprout plant (Brassica oleracea var. gemmifera).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F11885</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">brussels sprouts</oboInOwl:hasExactSynonym>
@@ -7111,7 +6921,6 @@ This is a duplicate quality and so is being deprecated:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A shoot axis tuber of a potato plant (Solanum tuberosum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F15354</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">potato</oboInOwl:hasExactSynonym>
@@ -7208,7 +7017,6 @@ This is a duplicate quality and so is being deprecated:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A berry fruit of a banana tree (Musa acuminata AAA Group).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F16257</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">banana</oboInOwl:hasExactSynonym>
@@ -7304,7 +7112,6 @@ This is a duplicate quality and so is being deprecated:
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A primary root of a commonbeet plant (Beta vulgaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_0000119>FoodOn</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F17254</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">beet</oboInOwl:hasExactSynonym>
@@ -8342,27 +8149,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1297</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: For a unicellular animal, use *ALGAE OR FUNGUS USED AS FOOD SOURCE*.</rdfs:comment>
         <rdfs:label xml:lang="en">vertebrate animal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411305 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411305">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412126"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4442"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A plant species of Coffea.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Coffea_arabica"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>GRIN:300141</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MANSFELD:2900</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1305</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">mountain coffee</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>Coffea arabica L.</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">coffea arabica</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">arabica coffee plant</rdfs:label>
     </owl:Class>
     
 

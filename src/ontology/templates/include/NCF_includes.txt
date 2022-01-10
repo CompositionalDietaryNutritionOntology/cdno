@@ -489,3 +489,11 @@ CHEBI:35366	#fatty
 CHEBI:37165	#galactan
 CHEBI:37166	#xylan
 CHEBI:37163	#glucan
+
+
+
+
+
+CDNO:0400001	#dietary material physical attribute
+CDNO:0300001	#nutritional functional attribute
+CDNO:0500001	#human dietary role
