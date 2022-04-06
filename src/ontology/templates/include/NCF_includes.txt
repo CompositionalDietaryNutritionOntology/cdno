@@ -141,43 +141,11 @@ CHEBI:23042	#carotene
 CHEBI:26935	#tetraterpenoid
 CHEBI:167164	#mineral
 CDNO:0000011	#macro
-CHEBI:22984	#calcium
 CHEBI:17996	#chloride
-CHEBI:25107	#magnesium
 CHEBI:25555	#nitrogen
-CHEBI:28659	#phosphorus
-CHEBI:26216	#potassium
-CHEBI:26708	#sodium
-CHEBI:26833	#sulfur
 CDNO:0000012	#trace
-CHEBI:28984	#aluminium
-CHEBI:30513	#antimony
-CHEBI:27563	#arsenic
-CHEBI:27560	#boron
-CHEBI:22977	#cadmium
-CHEBI:28073	#chromium
-CHEBI:27638	#cobalt
-CHEBI:28694	#copper
 CHEBI:17051	#fluoride
-CHEBI:24859	#iodine
-CHEBI:18248	#iron
-CHEBI:25016	#lead
-CHEBI:30145	#lithium
 CHEBI:18291	#manganese
-CHEBI:25195	#mercury
-CHEBI:28685	#molybdenum
-CHEBI:28112	#nickel
-CHEBI:33322	#rubidium
-CHEBI:27568	#selenium
-CHEBI:33324	#strontium
-CHEBI:27007	#tin
-CHEBI:33341	#titanum
-CHEBI:27698	#vanadium
-CHEBI:27363	#zinc
-CHEBI:32595	#barium
-CHEBI:30514	#caesium
-CHEBI:33301	#bismuth
-CHEBI:33336	#lanthanum
 CHEBI:24866	#salt
 CHEBI:26710	#sodium
 CHEBI:51084	#inorganic
@@ -489,9 +457,187 @@ CHEBI:35366	#fatty
 CHEBI:37165	#galactan
 CHEBI:37166	#xylan
 CHEBI:37163	#glucan
-
-
-
+CDNO:0000015	#dietary calcium
+CHEBI:29108	#calcium(2+)
+CHEBI:190295	#inorganic calcium salt
+CHEBI:3312	#calcium dichloride
+CHEBI:3311	#calcium carbonate
+CHEBI:35437	#calcium difluoride
+CHEBI:31346	#calcium sulfate
+CHEBI:77635	#calcium phosphate
+CHEBI:35150	#calcium hydroxide
+CHEBI:31342	#calcium hypochlorite
+CHEBI:190294	#calcium silicate
+CHEBI:51031	#organic calcium salt
+CHEBI:190513	#calcium citrate
+CHEBI:31336	#calcium glycerophosphate
+CHEBI:190296	#calcium stearate
+CHEBI:190515	#organic calcium compound
+CDNO:0000016	#dietary chlorine
+CHEBI:36093	#inorganic chloride
+CHEBI:26710	#sodium chloride
+CHEBI:3312	#calcium dichloride
+CHEBI:6636	#magnesium dichloride
+CHEBI:32588	#potassium chloride
+CHEBI:48607	#lithium chloride
+CHEBI:36094	#organic chloride salt
+CHEBI:36683	#organochlorine compound
+CHEBI:17883	#hydrogen chloride
+CHEBI:29222	#hypochlorite
+CDNO:0000017	#dietary magnesium
+CHEBI:18420	#magnesium(2+)
+CHEBI:190297	#inorganic magnesium salt
+CHEBI:6636	#magnesium dichloride
+CHEBI:190298	#magnesium phosphate
+CHEBI:35149	#magnesium hydroxide
+CHEBI:190299	#organic magnesium salt
+CHEBI:9254	#magnesium distearate
+CHEBI:31793	#magnesium carbonate
+CHEBI:32599	#magnesium sulfate
+CDNO:0000018	#dietary phosphorus
+CHEBI:33468	#phosphide
+CHEBI:26078	#phosphoric acid
+CHEBI:190300	#inorganic phosphate salt
+CHEBI:37586	#sodium phosphate
+CHEBI:190301	#potassium phosphate
+CHEBI:77635	#calcium phosphate
+CHEBI:190298	#magnesium phosphate
+CHEBI:131371	#iron(3+) phosphate
+CHEBI:190302	#organic phosphate salt
+CHEBI:190516	#organic phosphate compound
+CHEBI:60479	#lysophosphatidylcholine
+CHEBI:64482	#phosphatidylcholine
+CHEBI:16038	#phosphatidylethanolamine
+CHEBI:28874	#phosphatidylinositol
+CHEBI:11750	#3-sn-phosphatidyl-L-serine
+CHEBI:17401	#myo-inositol hexakisphosphate
+CDNO:0000019	#dietary potassium
+CHEBI:29103	#potassium(1+)
+CHEBI:190303	#inorganic potassium salt
+CHEBI:32588	#potassium chloride
+CHEBI:190301	#potassium phosphate
+CHEBI:32036	#potassium sulfate
+CHEBI:50394	#organic potassium salt
+CHEBI:63316	#potassium formate
+CHEBI:32034	#potassium bitartrate
+CDNO:0000020	#dietary sodium
+CHEBI:29101	#sodium(1+)
+CHEBI:38702	#inorganic sodium salt
+CHEBI:26710	#sodium chloride
+CHEBI:32139	#sodium hydrogencarbonate
+CHEBI:32149	#sodium sulfate
+CHEBI:37586	#sodium phosphate
+CHEBI:26709	#sodium hydrogensulfite
+CHEBI:50985	#sodium borohydride
+CHEBI:75229	#sodium bromate
+CHEBI:65242	#sodium chlorate
+CHEBI:33192	#sodium cyanide
+CHEBI:28741	#sodium fluoride
+CHEBI:32145	#sodium hydroxide
+CHEBI:81708	#Sodium iodate
+CHEBI:63005	#sodium nitrate
+CHEBI:38700	#organic sodium salt
+CHEBI:132764	#sodium oxalate
+CHEBI:63017	#sodium L-tartrate
+CHEBI:62965	#sodium formate
+CHEBI:52476	#sodium phenolate
+CHEBI:53258	#sodium citrate
+CDNO:0000021	#dietary sulfur
+CHEBI:15138	#sulfide(2−)
+CHEBI:17359	#sulfite
+CHEBI:24840	#inorganic sulfate salt
+CHEBI:31346	#calcium sulfate
+CHEBI:32599	#magnesium sulfate
+CHEBI:75832	#iron sulfate
+CHEBI:32149	#sodium sulfate
+CHEBI:26709	#sodium hydrogensulfite
+CHEBI:32036	#potassium sulfate
+CHEBI:23414	#copper(II) sulfate
+CHEBI:25704	#organic sulfate salt
+CHEBI:33261	#organosulfur compound
+CHEBI:29256	#thiol
+CHEBI:16856	#glutathione
+CHEBI:9349	#sulfonyldimethane
+CHEBI:28262	#dimethyl sulfoxide
+CHEBI:15356	#cysteine
+CHEBI:16811	#methionine
+CHEBI:24401	#glucosinolate
+CHEBI:79317	#sinigrin
+CHEBI:52221	#isothiocyanate
+CHEBI:73224	#allyl isothiocyanate
+CHEBI:18422	#sulfur dioxide
+CHEBI:49470	#aluminium(3+)
+CHEBI:49867	#antimony(3+)
+CHEBI:35828	#arsenic(3+)
+CHEBI:30168	#boron(3+)
+CHEBI:48775	#cadmium(2+)
+CDNO:0000022	#dietary chromium
+CHEBI:33006	#chromium(2+)
+CHEBI:190412	#inorganic chromium salt
+CHEBI:190413	#organic chromium salt
+CHEBI:48828	#cobalt(2+)
+CDNO:0000023	#dietary copper
+CHEBI:29036	#copper(2+)
+CHEBI:190414	#inorganic copper salt
+CHEBI:23414	#copper(II) sulfate
+CHEBI:190415	#organic copper salt
+CDNO:0000024	#dietary fluorine
+CHEBI:17051	#fluoride
+CHEBI:190416	#inorganic fluoride salt
+CHEBI:190417	#organic fluoride salt
+CDNO:0000025	#dietary iodine
+CHEBI:16382	#iodine
+CHEBI:190418	#inorganic iodine salt
+CHEBI:190419	#organic iodine salt
+CDNO:0000026	#dietary iron
+CHEBI:29033	#iron(2+)
+CHEBI:131371	#iron(3+) phosphate
+CHEBI:190420	#inorganic iron salt
+CHEBI:75832	#iron(2+) sulfate (anhydrous)
+CHEBI:190421	#organic iron salt
+CHEBI:190517	#organic iron compound
+CHEBI:31604	#ferric ammonium citrate
+CHEBI:49807	#lead(2+)
+CHEBI:49713	#lithium(1+)
+CDNO:0000027	#dietary manganese
+CHEBI:18291	#manganese(2+)
+CHEBI:29041	#manganese(3+)
+CHEBI:190422	#inorganic manganese salt
+CHEBI:190423	#organic manganese salt
+CHEBI:16793	#mercury(2+)
+CDNO:0000028	#dietary molybdenum 
+CHEBI:49414	#molybdenum(4+)
+CHEBI:49446	#molybdenum(6+)
+CHEBI:190424	#inorganic molybdenum salt
+CHEBI:190425	#organic molybdenum salt
+CHEBI:49786	#nickel(2+)
+CHEBI:49847	#rubidium(1+)
+CDNO:0000029	#dietary selenium
+CHEBI:60871	#selenium(2+)
+CHEBI:190426	#selenium(4+)
+CHEBI:190427	#selenium(6+)
+CHEBI:190428	#inorganic selenium salt
+CHEBI:190429	#organic selenium salt
+CHEBI:35104	#strontium(2+)
+CHEBI:30475	#tin(2+)
+CHEBI:190496	#titanium(3+)
+CHEBI:33004	#vanadium(2+)
+CDNO:0000030	#dietary zinc
+CHEBI:29105	#zinc(2+)
+CHEBI:190430	#inorganic zinc salt
+CHEBI:190431	#organic zinc salt
+CHEBI:37136	#barium(2+)
+CHEBI:49547	#caesium(1+)
+CHEBI:85545	#bismuth(3+)
+CHEBI:37317	#lanthanum(2+)
+CHEBI:3815	#collagen
+CHEBI:4767	#elastin
+CHEBI:5054	#fibrin
+CHEBI:35143	#hemoglobin
+CHEBI:7044	#myoglobin
+CHEBI:190519	#beta-lactoglobulin
+CHEBI:190521	#napin
+CHEBI:190522	#gliadin
 
 
 CDNO:0400001	#dietary material physical attribute

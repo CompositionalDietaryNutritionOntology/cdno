@@ -45,6 +45,14 @@ CDNO:0200043,,CHEBI:166899,globulin type,BFO:0000040,material entity
 CDNO:0200044,,CHEBI:166885,prolamin,BFO:0000040,material entity
 CDNO:0200045,,CHEBI:166886,cruciferin,BFO:0000040,material entity
 CDNO:0200046,,CHEBI:166887,glutenin,BFO:0000040,material entity
+CDNO:0200673,,CHEBI:3815,collagen,BFO:0000040,material entity
+CDNO:0200674,,CHEBI:4767,elastin,BFO:0000040,material entity
+CDNO:0200675,,CHEBI:5054,fibrin,BFO:0000040,material entity
+CDNO:0200676,,CHEBI:35143,hemoglobin,BFO:0000040,material entity
+CDNO:0200677,,CHEBI:7044,myoglobin,BFO:0000040,material entity
+CDNO:0200678,,CHEBI:190519,beta-lactoglobulin,BFO:0000040,material entity
+CDNO:0200679,,CHEBI:190521,napin,BFO:0000040,material entity
+CDNO:0200680,,CHEBI:190522,gliadin,BFO:0000040,material entity
 CDNO:0200047,,CHEBI:16449,alanine,BFO:0000040,material entity
 CDNO:0200048,,CHEBI:29016,arginine,BFO:0000040,material entity
 CDNO:0200049,,CHEBI:22653,asparagine,BFO:0000040,material entity
@@ -140,43 +148,172 @@ CDNO:0200523,,CHEBI:23042,carotene,BFO:0000040,material entity
 CDNO:0200524,,CHEBI:26935,tetraterpenoid,BFO:0000040,material entity
 CDNO:0200136,,CHEBI:167164,mineral nutrient,BFO:0000040,material entity
 CDNO:0200137,,CDNO:0000011,macro element,BFO:0000040,material entity
-CDNO:0200138,,CHEBI:22984,calcium atom,BFO:0000040,material entity
+CDNO:0200544,,CDNO:0000015,dietary calcium,BFO:0000040,material entity
+CDNO:0200138,,CHEBI:29108,calcium(2+),BFO:0000040,material entity
+CDNO:0200545,,CHEBI:190295,inorganic calcium salt,BFO:0000040,material entity
+CDNO:0200546,,CHEBI:3312,calcium dichloride,BFO:0000040,material entity
+CDNO:0200547,,CHEBI:3311,calcium carbonate,BFO:0000040,material entity
+CDNO:0200548,,CHEBI:35437,calcium difluoride,BFO:0000040,material entity
+CDNO:0200549,,CHEBI:31346,calcium sulfate,BFO:0000040,material entity
+CDNO:0200550,,CHEBI:77635,calcium phosphate,BFO:0000040,material entity
+CDNO:0200551,,CHEBI:35150,calcium hydroxide,BFO:0000040,material entity
+CDNO:0200552,,CHEBI:31342,calcium hypochlorite,BFO:0000040,material entity
+CDNO:0200553,,CHEBI:190294,calcium silicate,BFO:0000040,material entity
+CDNO:0200554,,CHEBI:51031,organic calcium salt,BFO:0000040,material entity
+CDNO:0200555,,CHEBI:190513,calcium citrate,BFO:0000040,material entity
+CDNO:0200556,,CHEBI:31336,calcium glycerophosphate,BFO:0000040,material entity
+CDNO:0200557,,CHEBI:190296,calcium stearate,BFO:0000040,material entity
+CDNO:0200558,,CHEBI:190515,organic calcium compound,BFO:0000040,material entity
+CDNO:0200559,,CDNO:0000016,dietary chlorine,BFO:0000040,material entity
 CDNO:0200139,,CHEBI:17996,chloride,BFO:0000040,material entity
-CDNO:0200140,,CHEBI:25107,magnesium atom,BFO:0000040,material entity
+CDNO:0200560,,CHEBI:36093,inorganic chloride,BFO:0000040,material entity
+CDNO:0200561,,CHEBI:26710,sodium chloride,BFO:0000040,material entity
+CDNO:0200562,,CHEBI:3312,calcium dichloride,BFO:0000040,material entity
+CDNO:0200563,,CHEBI:6636,magnesium dichloride,BFO:0000040,material entity
+CDNO:0200564,,CHEBI:32588,potassium chloride,BFO:0000040,material entity
+CDNO:0200565,,CHEBI:48607,lithium chloride,BFO:0000040,material entity
+CDNO:0200566,,CHEBI:36094,organic chloride salt,BFO:0000040,material entity
+CDNO:0200567,,CHEBI:36683,organochlorine compound,BFO:0000040,material entity
+CDNO:0200568,,CHEBI:17883,hydrogen chloride,BFO:0000040,material entity
+CDNO:0200569,,CHEBI:29222,hypochlorite,BFO:0000040,material entity
+CDNO:0200570,,CDNO:0000017,dietary magnesium,BFO:0000040,material entity
+CDNO:0200140,,CHEBI:18420,magnesium(2+),BFO:0000040,material entity
+CDNO:0200571,,CHEBI:190297,inorganic magnesium salt,BFO:0000040,material entity
+CDNO:0200572,,CHEBI:6636,magnesium dichloride,BFO:0000040,material entity
+CDNO:0200573,,CHEBI:190298,magnesium phosphate,BFO:0000040,material entity
+CDNO:0200574,,CHEBI:35149,magnesium hydroxide,BFO:0000040,material entity
+CDNO:0200575,,CHEBI:190299,organic magnesium salt,BFO:0000040,material entity
+CDNO:0200576,,CHEBI:9254,magnesium distearate,BFO:0000040,material entity
+CDNO:0200577,,CHEBI:31793,magnesium carbonate,BFO:0000040,material entity
 CDNO:0200141,,CHEBI:25555,nitrogen atom,BFO:0000040,material entity
-CDNO:0200142,,CHEBI:28659,phosphorus atom,BFO:0000040,material entity
-CDNO:0200143,,CHEBI:26216,potassium atom,BFO:0000040,material entity
-CDNO:0200144,,CHEBI:26708,sodium atom,BFO:0000040,material entity
-CDNO:0200145,,CHEBI:26833,sulfur atom,BFO:0000040,material entity
+CDNO:0200578,,CDNO:0000018,dietary phosphorus,BFO:0000040,material entity
+CDNO:0200142,,CHEBI:33468,phosphide,BFO:0000040,material entity
+CDNO:0200579,,CHEBI:26078,phosphoric acid,BFO:0000040,material entity
+CDNO:0200580,,CHEBI:190300,inorganic phosphate salt,BFO:0000040,material entity
+CDNO:0200581,,CHEBI:37586,sodium phosphate,BFO:0000040,material entity
+CDNO:0200582,,CHEBI:190301,potassium phosphate,BFO:0000040,material entity
+CDNO:0200583,,CHEBI:131371,iron(3+) phosphate,BFO:0000040,material entity
+CDNO:0200584,,CHEBI:190302,organic phosphate salt,BFO:0000040,material entity
+CDNO:0200585,,CHEBI:190516,organic phosphate compound,BFO:0000040,material entity
+CDNO:0200586,,CHEBI:60479,lysophosphatidylcholine,BFO:0000040,material entity
+CDNO:0200587,,CHEBI:64482,phosphatidylcholine,BFO:0000040,material entity
+CDNO:0200588,,CHEBI:16038,phosphatidylethanolamine,BFO:0000040,material entity
+CDNO:0200589,,CHEBI:28874,phosphatidylinositol,BFO:0000040,material entity
+CDNO:0200590,,CHEBI:11750,3-sn-phosphatidyl-L-serine,BFO:0000040,material entity
+CDNO:0200591,,CHEBI:17401,myo-inositol hexakisphosphate,BFO:0000040,material entity
+CDNO:0200592,,CDNO:0000019,dietary potassium,BFO:0000040,material entity
+CDNO:0200143,,CHEBI:29103,potassium(1+),BFO:0000040,material entity
+CDNO:0200593,,CHEBI:190303,inorganic potassium salt,BFO:0000040,material entity
+CDNO:0200594,,CHEBI:32588,potassium chloride,BFO:0000040,material entity
+CDNO:0200595,,CHEBI:32036,potassium sulfate,BFO:0000040,material entity
+CDNO:0200596,,CHEBI:50394,organic potassium salt,BFO:0000040,material entity
+CDNO:0200597,,CHEBI:63316,potassium formate,BFO:0000040,material entity
+CDNO:0200598,,CHEBI:32034,potassium bitartrate,BFO:0000040,material entity
+CDNO:0200599,,CDNO:0000020,dietary sodium,BFO:0000040,material entity
+CDNO:0200144,,CHEBI:29101,sodium(1+),BFO:0000040,material entity
+CDNO:0200600,,CHEBI:38702,inorganic sodium salt,BFO:0000040,material entity
+CDNO:0200601,,CHEBI:26710,sodium chloride,BFO:0000040,material entity
+CDNO:0200602,,CHEBI:32139,sodium hydrogencarbonate,BFO:0000040,material entity
+CDNO:0200603,,CHEBI:32149,sodium sulfate,BFO:0000040,material entity
+CDNO:0200604,,CHEBI:26709,sodium hydrogensulfite,BFO:0000040,material entity
+CDNO:0200605,,CHEBI:50985,sodium borohydride,BFO:0000040,material entity
+CDNO:0200606,,CHEBI:75229,sodium bromate,BFO:0000040,material entity
+CDNO:0200607,,CHEBI:65242,sodium chlorate,BFO:0000040,material entity
+CDNO:0200608,,CHEBI:33192,sodium cyanide,BFO:0000040,material entity
+CDNO:0200609,,CHEBI:28741,sodium fluoride,BFO:0000040,material entity
+CDNO:0200610,,CHEBI:32145,sodium hydroxide,BFO:0000040,material entity
+CDNO:0200611,,CHEBI:81708,Sodium iodate,BFO:0000040,material entity
+CDNO:0200612,,CHEBI:63005,sodium nitrate,BFO:0000040,material entity
+CDNO:0200613,,CHEBI:38700,organic sodium salt,BFO:0000040,material entity
+CDNO:0200614,,CHEBI:132764,sodium oxalate,BFO:0000040,material entity
+CDNO:0200615,,CHEBI:63017,sodium L-tartrate,BFO:0000040,material entity
+CDNO:0200616,,CHEBI:62965,sodium formate,BFO:0000040,material entity
+CDNO:0200617,,CHEBI:52476,sodium phenolate,BFO:0000040,material entity
+CDNO:0200618,,CHEBI:53258,sodium citrate,BFO:0000040,material entity
+CDNO:0200619,,CDNO:0000021,dietary sulfur,BFO:0000040,material entity
+CDNO:0200145,,CHEBI:15138,sulfide(2_),BFO:0000040,material entity
+CDNO:0200620,,CHEBI:17359,sulfite,BFO:0000040,material entity
+CDNO:0200621,,CHEBI:24840,inorganic sulfate salt,BFO:0000040,material entity
+CDNO:0200622,,CHEBI:32599,magnesium sulfate,BFO:0000040,material entity
+CDNO:0200623,,CHEBI:75832,iron sulfate,BFO:0000040,material entity
+CDNO:0200624,,CHEBI:26709,sodium hydrogensulfite,BFO:0000040,material entity
+CDNO:0200625,,CHEBI:23414,copper(II) sulfate,BFO:0000040,material entity
+CDNO:0200626,,CHEBI:25704,organic sulfate salt,BFO:0000040,material entity
+CDNO:0200627,,CHEBI:33261,organosulfur compound,BFO:0000040,material entity
+CDNO:0200628,,CHEBI:29256,thiol,BFO:0000040,material entity
+CDNO:0200629,,CHEBI:16856,glutathione,BFO:0000040,material entity
+CDNO:0200630,,CHEBI:9349,sulfonyldimethane,BFO:0000040,material entity
+CDNO:0200631,,CHEBI:28262,dimethyl sulfoxide,BFO:0000040,material entity
+CDNO:0200632,,CHEBI:15356,cysteine,BFO:0000040,material entity
+CDNO:0200633,,CHEBI:16811,methionine,BFO:0000040,material entity
+CDNO:0200634,,CHEBI:24401,glucosinolate,BFO:0000040,material entity
+CDNO:0200635,,CHEBI:79317,sinigrin,BFO:0000040,material entity
+CDNO:0200636,,CHEBI:52221,isothiocyanate,BFO:0000040,material entity
+CDNO:0200637,,CHEBI:73224,allyl isothiocyanate,BFO:0000040,material entity
+CDNO:0200638,,CHEBI:18422,sulfur dioxide,BFO:0000040,material entity
 CDNO:0200146,,CDNO:0000012,trace element,BFO:0000040,material entity
-CDNO:0200147,,CHEBI:28984,aluminium atom,BFO:0000040,material entity
-CDNO:0200148,,CHEBI:30513,antimony atom,BFO:0000040,material entity
-CDNO:0200149,,CHEBI:27563,arsenic atom,BFO:0000040,material entity
-CDNO:0200150,,CHEBI:27560,boron atom,BFO:0000040,material entity
-CDNO:0200151,,CHEBI:22977,cadmium atom,BFO:0000040,material entity
-CDNO:0200152,,CHEBI:28073,chromium atom,BFO:0000040,material entity
-CDNO:0200153,,CHEBI:27638,cobalt atom,BFO:0000040,material entity
-CDNO:0200154,,CHEBI:28694,copper atom,BFO:0000040,material entity
+CDNO:0200147,,CHEBI:49470,aluminium(3+),BFO:0000040,material entity
+CDNO:0200148,,CHEBI:49867,antimony(3+),BFO:0000040,material entity
+CDNO:0200149,,CHEBI:35828,arsenic(3+),BFO:0000040,material entity
+CDNO:0200150,,CHEBI:30168,boron(3+),BFO:0000040,material entity
+CDNO:0200151,,CHEBI:48775,cadmium(2+),BFO:0000040,material entity
+CDNO:0200639,,CDNO:0000022,dietary chromium,BFO:0000040,material entity
+CDNO:0200152,,CHEBI:33006,chromium(2+),BFO:0000040,material entity
+CDNO:0200640,,CHEBI:190412,inorganic chromium salt,BFO:0000040,material entity
+CDNO:0200641,,CHEBI:190413,organic chromium salt,BFO:0000040,material entity
+CDNO:0200153,,CHEBI:48828,cobalt(2+),BFO:0000040,material entity
+CDNO:0200642,,CDNO:0000023,dietary copper,BFO:0000040,material entity
+CDNO:0200154,,CHEBI:29036,copper(2+),BFO:0000040,material entity
+CDNO:0200643,,CHEBI:190414,inorganic copper salt,BFO:0000040,material entity
+CDNO:0200644,,CHEBI:190415,organic copper salt,BFO:0000040,material entity
+CDNO:0200645,,CDNO:0000024,dietary fluorine,BFO:0000040,material entity
 CDNO:0200155,,CHEBI:17051,fluoride,BFO:0000040,material entity
-CDNO:0200156,,CHEBI:24859,iodine atom,BFO:0000040,material entity
-CDNO:0200157,,CHEBI:18248,iron atom,BFO:0000040,material entity
-CDNO:0200158,,CHEBI:25016,lead atom,BFO:0000040,material entity
-CDNO:0200159,,CHEBI:30145,lithium atom,BFO:0000040,material entity
-CDNO:0200160,,CHEBI:18291,manganese atom,BFO:0000040,material entity
-CDNO:0200161,,CHEBI:25195,mercury atom,BFO:0000040,material entity
-CDNO:0200162,,CHEBI:28685,molybdenum atom,BFO:0000040,material entity
-CDNO:0200163,,CHEBI:28112,nickel atom,BFO:0000040,material entity
-CDNO:0200164,,CHEBI:33322,rubidium atom,BFO:0000040,material entity
-CDNO:0200165,,CHEBI:27568,selenium atom,BFO:0000040,material entity
-CDNO:0200166,,CHEBI:33324,strontium atom,BFO:0000040,material entity
-CDNO:0200167,,CHEBI:27007,tin atom,BFO:0000040,material entity
-CDNO:0200168,,CHEBI:33341,titanium atom,BFO:0000040,material entity
-CDNO:0200169,,CHEBI:27698,vanadium atom,BFO:0000040,material entity
-CDNO:0200170,,CHEBI:27363,zinc atom,BFO:0000040,material entity
-CDNO:0200171,,CHEBI:32595,barium(0),BFO:0000040,material entity
-CDNO:0200172,,CHEBI:30514,caesium atom,BFO:0000040,material entity
-CDNO:0200173,,CHEBI:33301,bismuth atom,BFO:0000040,material entity
-CDNO:0200174,,CHEBI:33336,lanthanum atom,BFO:0000040,material entity
+CDNO:0200646,,CHEBI:190416,inorganic fluoride salt,BFO:0000040,material entity
+CDNO:0200647,,CHEBI:190417,organic fluoride salt,BFO:0000040,material entity
+CDNO:0200648,,CDNO:0000025,dietary iodine,BFO:0000040,material entity
+CDNO:0200156,,CHEBI:16382,iodine,BFO:0000040,material entity
+CDNO:0200649,,CHEBI:190418,inorganic iodine salt,BFO:0000040,material entity
+CDNO:0200650,,CHEBI:190419,organic iodine salt,BFO:0000040,material entity
+CDNO:0200651,,CDNO:0000026,dietary iron,BFO:0000040,material entity
+CDNO:0200157,,CHEBI:29033,iron(2+),BFO:0000040,material entity
+CDNO:0200652,,CHEBI:190420,inorganic iron salt,BFO:0000040,material entity
+CDNO:0200653,,CHEBI:75832,iron(2+) sulfate (anhydrous),BFO:0000040,material entity
+CDNO:0200654,,CHEBI:190421,organic iron salt,BFO:0000040,material entity
+CDNO:0200655,,CHEBI:190517,organic iron compound,BFO:0000040,material entity
+CDNO:0200656,,CHEBI:31604,ferric ammonium citrate,BFO:0000040,material entity
+CDNO:0200158,,CHEBI:49807,lead(2+),BFO:0000040,material entity
+CDNO:0200159,,CHEBI:49713,lithium(1+),BFO:0000040,material entity
+CDNO:0200657,,CDNO:0000027,dietary manganese,BFO:0000040,material entity
+CDNO:0200160,,CHEBI:18291,manganese(2+),BFO:0000040,material entity
+CDNO:0200658,,CHEBI:29041,manganese(3+),BFO:0000040,material entity
+CDNO:0200659,,CHEBI:190422,inorganic manganese salt,BFO:0000040,material entity
+CDNO:0200660,,CHEBI:190423,organic manganese salt,BFO:0000040,material entity
+CDNO:0200161,,CHEBI:16793,mercury(2+),BFO:0000040,material entity
+CDNO:0200661,,CDNO:0000028,dietary molybdenum ,BFO:0000040,material entity
+CDNO:0200162,,CHEBI:49414,molybdenum(4+),BFO:0000040,material entity
+CDNO:0200662,,CHEBI:49446,molybdenum(6+),BFO:0000040,material entity
+CDNO:0200663,,CHEBI:190424,inorganic molybdenum salt,BFO:0000040,material entity
+CDNO:0200664,,CHEBI:190425,organic molybdenum salt,BFO:0000040,material entity
+CDNO:0200163,,CHEBI:49786,nickel(2+),BFO:0000040,material entity
+CDNO:0200164,,CHEBI:49847,rubidium(1+),BFO:0000040,material entity
+CDNO:0200665,,CDNO:0000029,dietary selenium,BFO:0000040,material entity
+CDNO:0200165,,CHEBI:60871,selenium(2+),BFO:0000040,material entity
+CDNO:0200666,,CHEBI:190426,selenium(4+),BFO:0000040,material entity
+CDNO:0200667,,CHEBI:190427,selenium(6+),BFO:0000040,material entity
+CDNO:0200668,,CHEBI:190428,inorganic selenium salt,BFO:0000040,material entity
+CDNO:0200669,,CHEBI:190429,organic selenium salt,BFO:0000040,material entity
+CDNO:0200166,,CHEBI:35104,strontium(2+),BFO:0000040,material entity
+CDNO:0200167,,CHEBI:30475,tin(2+),BFO:0000040,material entity
+CDNO:0200168,,CHEBI:190496,titanium(3+),BFO:0000040,material entity
+CDNO:0200169,,CHEBI:33004,vanadium(2+),BFO:0000040,material entity
+CDNO:0200670,,CDNO:0000030,dietary zinc,BFO:0000040,material entity
+CDNO:0200170,,CHEBI:29105,zinc(2+),BFO:0000040,material entity
+CDNO:0200671,,CHEBI:190430,inorganic zinc salt,BFO:0000040,material entity
+CDNO:0200672,,CHEBI:190431,organic zinc salt,BFO:0000040,material entity
+CDNO:0200171,,CHEBI:37136,barium(2+),BFO:0000040,material entity
+CDNO:0200172,,CHEBI:49547,caesium(1+),BFO:0000040,material entity
+CDNO:0200173,,CHEBI:85545,bismuth(3+),BFO:0000040,material entity
+CDNO:0200174,,CHEBI:37317,lanthanum(2+),BFO:0000040,material entity
 CDNO:0200175,,CHEBI:24866,salt,BFO:0000040,material entity
 CDNO:0200176,,CHEBI:26710,sodium chloride,BFO:0000040,material entity
 CDNO:0200177,,CHEBI:51084,inorganic nitrate salt,BFO:0000040,material entity

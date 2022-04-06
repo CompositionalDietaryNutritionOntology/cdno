@@ -247,6 +247,238 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary calcium</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1080/07315724.2000.10718083"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary chlorine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1161/01.HYP.17.1_Suppl.I158"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary magnesium</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/jn/133.9.2879"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary phosphorus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1681/ASN.2008101106"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A potassium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary potassium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A sodium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary sodium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary sulfur</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1186/1743-7075-4-24, https://doi.org/10.1016/j.nut.2010.01.014"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary chromium</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/0048-9697(89)90196-4, https://doi.org/10.1007/BF02784595"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary copper</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/ajcn/49.5.870"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary fluorine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/ajcn/12.6.455"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">An iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary iodine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1079/PHN2003554"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">An iron ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary manganese</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1096/fj.201902396R"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary molybdenum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/j.jnutbio.2003.10.003"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary selenium</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.3390/nu7031494"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A zinc ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary zinc</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_10223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10223">
@@ -276,6 +508,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_11750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_11750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190516"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">phosphatidylserine</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">3-sn-phosphatidyl-L-serine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_125451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_125451">
@@ -291,6 +533,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_12777">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000014"/>
         <rdfs:label xml:lang="en">vitamin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_131371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_131371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190300"/>
+        <rdfs:label xml:lang="en">iron(3+) phosphate</rdfs:label>
     </owl:Class>
     
 
@@ -319,6 +571,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25481"/>
         <rdfs:label xml:lang="en">1,4-napthoquinone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+        <rdfs:label xml:lang="en">sodium oxalate</rdfs:label>
     </owl:Class>
     
 
@@ -370,6 +631,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
+        <rdfs:label xml:lang="en">sulfide(2_)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_15354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15354">
@@ -382,6 +652,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_15356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">cysteine</rdfs:label>
     </owl:Class>
@@ -538,6 +809,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190516"/>
         <rdfs:label xml:lang="en">phosphatidylethanolamine</rdfs:label>
     </owl:Class>
     
@@ -611,6 +883,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28384"/>
         <rdfs:label xml:lang="en">menaquinone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000025"/>
+        <rdfs:label xml:lang="en">iodine</rdfs:label>
     </owl:Class>
     
 
@@ -861,11 +1142,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">mercury(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16811 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">methionine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16856">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">glutathione</rdfs:label>
     </owl:Class>
     
 
@@ -928,7 +1228,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
         <rdfs:label xml:lang="en">fluoride</rdfs:label>
     </owl:Class>
     
@@ -1010,10 +1310,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
+        <rdfs:label xml:lang="en">sulfite</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17401 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190516"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">phytate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">phytic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">myo-inositol hexakisphosphate</rdfs:label>
     </owl:Class>
@@ -1157,6 +1468,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17883">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+        <rdfs:label xml:lang="en">hydrogen chloride</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17933">
@@ -1179,7 +1499,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17996 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000016"/>
         <rdfs:label xml:lang="en">chloride</rdfs:label>
     </owl:Class>
     
@@ -1287,20 +1607,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_18248 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">iron atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_18291 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18291">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">manganese atom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000027"/>
+        <rdfs:label xml:lang="en">manganese(2+)</rdfs:label>
     </owl:Class>
     
 
@@ -1338,6 +1649,371 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
         <rdfs:label xml:lang="en">apigenin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000017"/>
+        <rdfs:label xml:lang="en">magnesium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">sulfur dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:label xml:lang="en">calcium silicate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000015"/>
+        <rdfs:label xml:lang="en">inorganic calcium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51031"/>
+        <rdfs:label xml:lang="en">calcium stearate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000017"/>
+        <rdfs:label xml:lang="en">inorganic magnesium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190297"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190300"/>
+        <rdfs:label xml:lang="en">magnesium phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000017"/>
+        <rdfs:label xml:lang="en">organic magnesium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
+        <rdfs:label xml:lang="en">inorganic phosphate salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190300"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190303"/>
+        <rdfs:label xml:lang="en">potassium phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
+        <rdfs:label xml:lang="en">organic phosphate salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000019"/>
+        <rdfs:label xml:lang="en">inorganic potassium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000022"/>
+        <rdfs:label xml:lang="en">inorganic chromium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000022"/>
+        <rdfs:label xml:lang="en">organic chromium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000023"/>
+        <rdfs:label xml:lang="en">inorganic copper salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000023"/>
+        <rdfs:label xml:lang="en">organic copper salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
+        <rdfs:label xml:lang="en">inorganic fluoride salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
+        <rdfs:label xml:lang="en">organic fluoride salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000025"/>
+        <rdfs:label xml:lang="en">inorganic iodine salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000025"/>
+        <rdfs:label xml:lang="en">organic iodine salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000026"/>
+        <rdfs:label xml:lang="en">inorganic iron salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190421">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000026"/>
+        <rdfs:label xml:lang="en">organic iron salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000027"/>
+        <rdfs:label xml:lang="en">inorganic manganese salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190423">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000027"/>
+        <rdfs:label xml:lang="en">organic manganese salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190424">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000028"/>
+        <rdfs:label xml:lang="en">inorganic molybdenum salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000028"/>
+        <rdfs:label xml:lang="en">organic molybdenum salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000029"/>
+        <rdfs:label xml:lang="en">selenium(4+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000029"/>
+        <rdfs:label xml:lang="en">selenium(6+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000029"/>
+        <rdfs:label xml:lang="en">inorganic selenium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190429">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000029"/>
+        <rdfs:label xml:lang="en">organic selenium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000030"/>
+        <rdfs:label xml:lang="en">inorganic zinc salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000030"/>
+        <rdfs:label xml:lang="en">organic zinc salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">titanium(3+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51031"/>
+        <rdfs:label xml:lang="en">calcium citrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000015"/>
+        <rdfs:label xml:lang="en">organic calcium compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
+        <rdfs:label xml:lang="en">organic phosphate compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000026"/>
+        <rdfs:label xml:lang="en">organic iron compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">beta-lactoglobulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">napin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">gliadin</rdfs:label>
     </owl:Class>
     
 
@@ -1434,24 +2110,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_22977 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22977">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">cadmium atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_22984 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22984">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <rdfs:label xml:lang="en">calcium atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_23042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23042">
@@ -1515,6 +2173,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190414"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+        <rdfs:label xml:lang="en">copper(II) sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23849 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23849">
@@ -1569,6 +2237,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">glucosinolate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24676">
@@ -1597,20 +2274,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24840">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
+        <rdfs:label xml:lang="en">inorganic sulfate salt</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24848 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24848">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
         <rdfs:label xml:lang="en">inositol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_24859 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24859">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">iodine atom</rdfs:label>
     </owl:Class>
     
 
@@ -1638,15 +2315,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:label xml:lang="en">isoprenoid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">lead atom</rdfs:label>
     </owl:Class>
     
 
@@ -1683,24 +2351,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">lysine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <rdfs:label xml:lang="en">magnesium atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">mercury atom</rdfs:label>
     </owl:Class>
     
 
@@ -1778,6 +2428,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
+        <rdfs:label xml:lang="en">organic sulfate salt</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25863 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25863">
@@ -1792,6 +2451,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
         <rdfs:label xml:lang="en">phenylpropanoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
+        <rdfs:label xml:lang="en">phosphoric acid</rdfs:label>
     </owl:Class>
     
 
@@ -1837,15 +2505,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
         <rdfs:label xml:lang="en">polyunsaturated fatty acid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_26216 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <rdfs:label xml:lang="en">potassium atom</rdfs:label>
     </owl:Class>
     
 
@@ -1924,11 +2583,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_26708 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26709 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <rdfs:label xml:lang="en">sodium atom</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32149"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">sodium bisulfate</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">sodium hydrogensulfite</rdfs:label>
     </owl:Class>
     
 
@@ -1937,6 +2598,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26710">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
         <rdfs:label xml:lang="en">sodium chloride</rdfs:label>
     </owl:Class>
     
@@ -1956,15 +2619,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26776">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
         <rdfs:label xml:lang="en">stilbenoid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_26833 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26833">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <rdfs:label xml:lang="en">sulfur atom</rdfs:label>
     </owl:Class>
     
 
@@ -2020,15 +2674,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26986">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">threonine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">tin atom</rdfs:label>
     </owl:Class>
     
 
@@ -2096,15 +2741,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27363 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">zinc atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_27432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27432">
@@ -2163,38 +2799,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27560 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27560">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">boron atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27563 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">arsenic atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_27566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27566">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
         <rdfs:label xml:lang="en">6-prenylnaringenin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27568 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27568">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">selenium atom</rdfs:label>
     </owl:Class>
     
 
@@ -2226,15 +2835,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27638 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27638">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">cobalt atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_27680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27680">
@@ -2249,15 +2849,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27693">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
         <rdfs:label xml:lang="en">sitosterol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27698 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27698">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">vanadium atom</rdfs:label>
     </owl:Class>
     
 
@@ -2363,15 +2954,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">chromium atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_28088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28088">
@@ -2386,15 +2968,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
         <rdfs:label xml:lang="en">amylose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28112 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">nickel atom</rdfs:label>
     </owl:Class>
     
 
@@ -2431,6 +3004,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
         <rdfs:label xml:lang="en">galactose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">dimethyl sulfoxide</rdfs:label>
     </owl:Class>
     
 
@@ -2528,39 +3110,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28659 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28659">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <rdfs:label xml:lang="en">phosphorus atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_28661 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28661">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36009"/>
         <oboInOwl:hasExactSynonym xml:lang="en">gamma-linolenic acid</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">γ-linolenic acid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28685 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28685">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">molybdenum atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28694 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">copper atom</rdfs:label>
     </owl:Class>
     
 
@@ -2588,6 +3143,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28716">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
         <rdfs:label xml:lang="en">palmitoleic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium fluoride</rdfs:label>
     </owl:Class>
     
 
@@ -2718,6 +3282,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28874">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190516"/>
         <rdfs:label xml:lang="en">phosphatidylinositol</rdfs:label>
     </owl:Class>
     
@@ -2788,20 +3353,38 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28984 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28984">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">aluminium atom</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_29016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">arginine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000026"/>
+        <rdfs:label xml:lang="en">iron(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000023"/>
+        <rdfs:label xml:lang="en">copper(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000027"/>
+        <rdfs:label xml:lang="en">manganese(3+)</rdfs:label>
     </owl:Class>
     
 
@@ -2812,6 +3395,60 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_176783"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22652"/>
         <rdfs:label xml:lang="en">L-ascorbic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000020"/>
+        <rdfs:label xml:lang="en">sodium(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000019"/>
+        <rdfs:label xml:lang="en">potassium(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000030"/>
+        <rdfs:label xml:lang="en">zinc(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000015"/>
+        <rdfs:label xml:lang="en">calcium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+        <rdfs:label xml:lang="en">hypochlorite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">thiol</rdfs:label>
     </owl:Class>
     
 
@@ -2843,29 +3480,20 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_30145 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30168 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30145">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">lithium atom</rdfs:label>
+        <rdfs:label xml:lang="en">boron(3+)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_30513 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30475 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30513">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30475">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">antimony atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_30514 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30514">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">caesium atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin(2+)</rdfs:label>
     </owl:Class>
     
 
@@ -2981,6 +3609,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51031"/>
+        <rdfs:label xml:lang="en">calcium glycerophosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:label xml:lang="en">calcium hypochlorite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+        <rdfs:label xml:lang="en">calcium sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_31463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31463">
@@ -2991,11 +3647,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190517"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">iron ammonium citrate</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ferric ammonium citrate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_3168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
         <rdfs:label xml:lang="en">brassicasterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190299"/>
+        <rdfs:label xml:lang="en">magnesium carbonate</rdfs:label>
     </owl:Class>
     
 
@@ -3025,6 +3700,54 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">petunidin 3-O-beta-D-glucoside</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">petunidin 3-O-β-D-glucoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50394"/>
+        <rdfs:label xml:lang="en">potassium bitartrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+        <rdfs:label xml:lang="en">potassium sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">sodium bicarbonate</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">sodium hydrogencarbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium sulfate</rdfs:label>
     </owl:Class>
     
 
@@ -3067,11 +3790,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_32595 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32588 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32595">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">barium(0)</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+        <rdfs:label xml:lang="en">potassium chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+        <rdfs:label xml:lang="en">magnesium sulfate</rdfs:label>
     </owl:Class>
     
 
@@ -3081,6 +3814,52 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32816">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
         <rdfs:label xml:lang="en">pyruvic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">vanadium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000022"/>
+        <rdfs:label xml:lang="en">chromium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:label xml:lang="en">calcium carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+        <rdfs:label xml:lang="en">calcium dichloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium cyanide</rdfs:label>
     </owl:Class>
     
 
@@ -3108,6 +3887,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27300"/>
         <rdfs:label xml:lang="en">vitamin D4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
+        <rdfs:label xml:lang="en">organosulfur compound</rdfs:label>
     </owl:Class>
     
 
@@ -3161,47 +3949,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33301 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33468 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33301">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">bismuth atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33322 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33322">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">rubidium atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33324 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33324">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">strontium atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33336 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33336">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">lanthanum atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33341 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <rdfs:label xml:lang="en">titanium atom</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
+        <rdfs:label xml:lang="en">phosphide</rdfs:label>
     </owl:Class>
     
 
@@ -3278,6 +4030,43 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">strontium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">hemoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190297"/>
+        <rdfs:label xml:lang="en">magnesium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:label xml:lang="en">calcium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35186">
@@ -3310,6 +4099,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <rdfs:label xml:lang="en">monosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35437">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:label xml:lang="en">calcium difluoride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">arsenic(3+)</rdfs:label>
     </owl:Class>
     
 
@@ -3379,6 +4186,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+        <rdfs:label xml:lang="en">inorganic chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+        <rdfs:label xml:lang="en">organic chloride salt</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_36122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36122">
@@ -3415,11 +4240,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17996"/>
+        <rdfs:label xml:lang="en">organochlorine compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_36799 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36799">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15889"/>
         <rdfs:label xml:lang="en">campestanol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">barium(2+)</rdfs:label>
     </owl:Class>
     
 
@@ -3472,6 +4315,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">lanthanum(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190300"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37664 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37664">
@@ -3495,6 +4357,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
         <rdfs:label xml:lang="en">cyanin chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">collagen</rdfs:label>
     </owl:Class>
     
 
@@ -3531,6 +4403,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38698">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38697"/>
         <rdfs:label xml:lang="en">anthocyanin chlorides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000020"/>
+        <rdfs:label xml:lang="en">organic sodium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000020"/>
+        <rdfs:label xml:lang="en">inorganic sodium salt</rdfs:label>
     </owl:Class>
     
 
@@ -3657,6 +4547,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4767">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">elastin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_47771 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47771">
@@ -3725,11 +4625,119 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+        <rdfs:label xml:lang="en">lithium chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">cadmium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">cobalt(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_49105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26948"/>
         <rdfs:label xml:lang="en">thiamine hydrochloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000028"/>
+        <rdfs:label xml:lang="en">molybdenum(4+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000028"/>
+        <rdfs:label xml:lang="en">molybdenum(6+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">aluminium(3+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">caesium(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">lithium(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49786">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">nickel(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">lead(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">rubidium(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49867">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">antimony(3+)</rdfs:label>
     </owl:Class>
     
 
@@ -3770,6 +4778,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000019"/>
+        <rdfs:label xml:lang="en">organic potassium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">fibrin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50699">
@@ -3793,6 +4820,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50753">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72544"/>
         <rdfs:label xml:lang="en">isoflavonoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50985">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium borohydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000015"/>
+        <rdfs:label xml:lang="en">organic calcium salt</rdfs:label>
     </owl:Class>
     
 
@@ -3821,6 +4866,33 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">phenolic ketone</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">methyl ketone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">isothiocyanate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52476">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+        <rdfs:label xml:lang="en">sodium phenolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+        <rdfs:label xml:lang="en">sodium citrate</rdfs:label>
     </owl:Class>
     
 
@@ -3885,7 +4957,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60479">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190516"/>
         <rdfs:label xml:lang="en">lysophosphatidylcholine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">selenium(2+)</rdfs:label>
     </owl:Class>
     
 
@@ -3919,6 +5001,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+        <rdfs:label xml:lang="en">sodium formate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_62967 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62967">
@@ -3929,10 +5020,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium nitrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+        <rdfs:label xml:lang="en">sodium L-tartrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50394"/>
+        <rdfs:label xml:lang="en">potassium formate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_64482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64482">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190516"/>
         <rdfs:label xml:lang="en">phosphatidylcholine</rdfs:label>
     </owl:Class>
     
@@ -3952,6 +5071,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64709">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
         <rdfs:label xml:lang="en">organic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_65242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium chlorate</rdfs:label>
     </owl:Class>
     
 
@@ -3988,6 +5116,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_66331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23086"/>
         <rdfs:label xml:lang="en">xanthohumol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190297"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+        <rdfs:label xml:lang="en">magnesium dichloride</rdfs:label>
     </owl:Class>
     
 
@@ -4098,6 +5236,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23053"/>
         <rdfs:label xml:lang="en">4&apos;-O-methylepigallocatechin-3-O-gallate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:comment xml:lang="en">Further classification will be integrated for this class</rdfs:comment>
+        <rdfs:label xml:lang="en">myoglobin</rdfs:label>
     </owl:Class>
     
 
@@ -4222,6 +5370,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_73224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52221"/>
+        <rdfs:label xml:lang="en">allyl isothiocyanate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_73558 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73558">
@@ -4291,6 +5448,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36009"/>
         <rdfs:label xml:lang="en">docosadienoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">sodium bromate</rdfs:label>
     </owl:Class>
     
 
@@ -4367,6 +5533,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190420"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">ferrous sulfate</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">iron sulfate</rdfs:label>
+        <rdfs:label xml:lang="en">iron(2+) sulfate (anhydrous)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_75902 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75902">
@@ -4421,6 +5599,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_77635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190295"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190300"/>
+        <rdfs:label xml:lang="en">calcium phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_77791 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77791">
@@ -4445,6 +5633,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78689">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
         <rdfs:label xml:lang="en">hydrolysable tannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_79317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_79317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24401"/>
+        <rdfs:label xml:lang="en">sinigrin</rdfs:label>
     </owl:Class>
     
 
@@ -4540,11 +5737,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_81708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
+        <rdfs:label xml:lang="en">Sodium iodate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_83231 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
         <rdfs:label xml:lang="en">xanthone glycoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_85545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_85545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
+        <rdfs:label xml:lang="en">bismuth(3+)</rdfs:label>
     </owl:Class>
     
 
@@ -4599,6 +5814,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
         <rdfs:label xml:lang="en">sinensetin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190299"/>
+        <rdfs:label xml:lang="en">magnesium distearate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:label xml:lang="en">sulfonyldimethane</rdfs:label>
     </owl:Class>
     
 
