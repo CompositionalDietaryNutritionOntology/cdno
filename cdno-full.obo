@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: cdno/releases/2022-01-10/cdno-full.owl
+data-version: cdno/releases/2022-04-06/cdno-full.owl
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -128,6 +128,102 @@ name: vitamin (molecular entity)
 def: "An organic molecule that has a vitamin(role)" []
 comment: This term can be assigned to CHEBI or any other ontology that claims it
 is_a: CDNO:0000001 ! dietary nutritional component
+
+[Term]
+id: CDNO:0000015
+name: dietary calcium
+def: "A calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1080/07315724.2000.10718083]
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000016
+name: dietary chlorine
+def: "A chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1161/01.HYP.17.1_Suppl.I158]
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000017
+name: dietary magnesium
+def: "A magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1093/jn/133.9.2879]
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000018
+name: dietary phosphorus
+def: "A phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1681/ASN.2008101106]
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000019
+name: dietary potassium
+def: "A potassium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" []
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000020
+name: dietary sodium
+def: "A sodium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" []
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000021
+name: dietary sulfur
+def: "A sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1186/1743-7075-4-24\,%20https\://doi.org/10.1016/j.nut.2010.01.014]
+is_a: CDNO:0000011 ! macro element
+
+[Term]
+id: CDNO:0000022
+name: dietary chromium
+def: "A chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1016/0048-9697(89)90196-4\,%20https\://doi.org/10.1007/BF02784595]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000023
+name: dietary copper
+def: "A copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1093/ajcn/49.5.870]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000024
+name: dietary fluorine
+def: "A fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1093/ajcn/12.6.455]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000025
+name: dietary iodine
+def: "An iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1079/PHN2003554]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000026
+name: dietary iron
+def: "An iron ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" []
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000027
+name: dietary manganese
+def: "A manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1096/fj.201902396R]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000028
+name: dietary molybdenum
+def: "A molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1016/j.jnutbio.2003.10.003]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000029
+name: dietary selenium
+def: "A selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.3390/nu7031494]
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CDNO:0000030
+name: dietary zinc
+def: "A zinc ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" []
+is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CDNO:0100001
@@ -1060,6 +1156,7 @@ synonym: "material entity cysteine concentration" EXACT []
 xref: INFOODs: CYSTE
 xref: USDA_NDB: 1232
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
 
 [Term]
 id: CDNO:0200052
@@ -1141,6 +1238,7 @@ synonym: "material entity methionine concentration" EXACT []
 xref: INFOODs: MET
 xref: USDA_NDB: 1215
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
 
 [Term]
 id: CDNO:0200061
@@ -1536,6 +1634,7 @@ def: "The concentration of phosphatidylcholine when measured in some material en
 synonym: "material entity phosphatidylcholine concentration" EXACT []
 xref: INFOODs: CHLNP
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
 [Term]
 id: CDNO:0200115
@@ -1544,6 +1643,7 @@ def: "The concentration of phosphatidylethanolamine when measured in some materi
 synonym: "material entity phosphatidylethanolamine concentration" EXACT []
 xref: INFOODs: PHOETHN
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
 [Term]
 id: CDNO:0200116
@@ -1560,6 +1660,7 @@ def: "The concentration of phosphatidylinositol when measured in some material e
 synonym: "material entity phosphatidylinositol concentration" EXACT []
 xref: INFOODs: PHOINOTL
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
 [Term]
 id: CDNO:0200118
@@ -1567,6 +1668,7 @@ name: concentration of lysophosphatidylcholine in material entity
 def: "The concentration of lysophosphatidylcholine when measured in some material entity." []
 synonym: "material entity lysophosphatidylcholine concentration" EXACT []
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
 [Term]
 id: CDNO:0200119
@@ -1725,12 +1827,12 @@ is_a: CDNO:0200136 ! concentration of mineral nutrient in material entity
 
 [Term]
 id: CDNO:0200138
-name: concentration of calcium atom in material entity
-def: "The concentration of calcium atom when measured in some material entity." []
-synonym: "material entity calcium atom concentration" EXACT []
+name: concentration of calcium(2+) in material entity
+def: "The concentration of calcium(2+) when measured in some material entity." []
+synonym: "material entity calcium(2+) concentration" EXACT []
 xref: INFOODs: CA
 xref: USDA_NDB: 1087
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+is_a: CDNO:0200544 ! concentration of dietary calcium in material entity
 
 [Term]
 id: CDNO:0200139
@@ -1738,16 +1840,14 @@ name: concentration of chloride in material entity
 def: "The concentration of chloride when measured in some material entity." []
 synonym: "material entity chloride concentration" EXACT []
 xref: INFOODs: CLD
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+is_a: CDNO:0200559 ! concentration of dietary chlorine in material entity
 
 [Term]
 id: CDNO:0200140
-name: concentration of magnesium atom in material entity
-def: "The concentration of magnesium atom when measured in some material entity." []
-synonym: "material entity magnesium atom concentration" EXACT []
-xref: INFOODs: MG
-xref: USDA_NDB: 1090
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+name: concentration of magnesium(2+) in material entity
+def: "The concentration of magnesium(2+) when measured in some material entity." []
+synonym: "material entity magnesium(2+) concentration" EXACT []
+is_a: CDNO:0200570 ! concentration of dietary magnesium in material entity
 
 [Term]
 id: CDNO:0200141
@@ -1761,39 +1861,37 @@ is_a: CDNO:0200137 ! concentration of macro element in material entity
 
 [Term]
 id: CDNO:0200142
-name: concentration of phosphorus atom in material entity
-def: "The concentration of phosphorus atom when measured in some material entity." []
-synonym: "material entity phosphorus atom concentration" EXACT []
-xref: INFOODs: P
-xref: USDA_NDB: 1091
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+name: concentration of phosphide in material entity
+def: "The concentration of phosphide when measured in some material entity." []
+synonym: "material entity phosphide concentration" EXACT []
+is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
 
 [Term]
 id: CDNO:0200143
-name: concentration of potassium atom in material entity
-def: "The concentration of potassium atom when measured in some material entity." []
-synonym: "material entity potassium atom concentration" EXACT []
+name: concentration of potassium(1+) in material entity
+def: "The concentration of potassium(1+) when measured in some material entity." []
+synonym: "material entity potassium(1+) concentration" EXACT []
 xref: INFOODs: K
 xref: USDA_NDB: 1092
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+is_a: CDNO:0200592 ! concentration of dietary potassium in material entity
 
 [Term]
 id: CDNO:0200144
-name: concentration of sodium atom in material entity
-def: "The concentration of sodium atom when measured in some material entity." []
-synonym: "material entity sodium atom concentration" EXACT []
+name: concentration of sodium(1+) in material entity
+def: "The concentration of sodium(1+) when measured in some material entity." []
+synonym: "material entity sodium(1+) concentration" EXACT []
 xref: INFOODs: NA
 xref: USDA_NDB: 1093
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+is_a: CDNO:0200599 ! concentration of dietary sodium in material entity
 
 [Term]
 id: CDNO:0200145
-name: concentration of sulfur atom in material entity
-def: "The concentration of sulfur atom when measured in some material entity." []
-synonym: "material entity sulfur atom concentration" EXACT []
+name: concentration of sulfide(2_) in material entity
+def: "The concentration of sulfide(2_) when measured in some material entity." []
+synonym: "material entity sulfide(2_) concentration" EXACT []
 xref: INFOODs: S
 xref: USDA_NDB: 1094
-is_a: CDNO:0200137 ! concentration of macro element in material entity
+is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
 
 [Term]
 id: CDNO:0200146
@@ -1804,71 +1902,71 @@ is_a: CDNO:0200136 ! concentration of mineral nutrient in material entity
 
 [Term]
 id: CDNO:0200147
-name: concentration of aluminium atom in material entity
-def: "The concentration of aluminium atom when measured in some material entity." []
-synonym: "material entity aluminium atom concentration" EXACT []
+name: concentration of aluminium(3+) in material entity
+def: "The concentration of aluminium(3+) when measured in some material entity." []
+synonym: "material entity aluminium(3+) concentration" EXACT []
 xref: INFOODs: AL
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200148
-name: concentration of antimony atom in material entity
-def: "The concentration of antimony atom when measured in some material entity." []
-synonym: "material entity antimony atom concentration" EXACT []
+name: concentration of antimony(3+) in material entity
+def: "The concentration of antimony(3+) when measured in some material entity." []
+synonym: "material entity antimony(3+) concentration" EXACT []
 xref: INFOODs: SB
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200149
-name: concentration of arsenic atom in material entity
-def: "The concentration of arsenic atom when measured in some material entity." []
-synonym: "material entity arsenic atom concentration" EXACT []
+name: concentration of arsenic(3+) in material entity
+def: "The concentration of arsenic(3+) when measured in some material entity." []
+synonym: "material entity arsenic(3+) concentration" EXACT []
 xref: INFOODs: AS
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200150
-name: concentration of boron atom in material entity
-def: "The concentration of boron atom when measured in some material entity." []
-synonym: "material entity boron atom concentration" EXACT []
+name: concentration of boron(3+) in material entity
+def: "The concentration of boron(3+) when measured in some material entity." []
+synonym: "material entity boron(3+) concentration" EXACT []
 xref: INFOODs: B
 xref: USDA_NDB: 1137
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200151
-name: concentration of cadmium atom in material entity
-def: "The concentration of cadmium atom when measured in some material entity." []
-synonym: "material entity cadmium atom concentration" EXACT []
+name: concentration of cadmium(2+) in material entity
+def: "The concentration of cadmium(2+) when measured in some material entity." []
+synonym: "material entity cadmium(2+) concentration" EXACT []
 xref: INFOODs: CD
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200152
-name: concentration of chromium atom in material entity
-def: "The concentration of chromium atom when measured in some material entity." []
-synonym: "material entity chromium atom concentration" EXACT []
+name: concentration of chromium(2+) in material entity
+def: "The concentration of chromium(2+) when measured in some material entity." []
+synonym: "material entity chromium(2+) concentration" EXACT []
 xref: INFOODs: CR
 xref: USDA_NDB: 1096
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200639 ! concentration of dietary chromium in material entity
 
 [Term]
 id: CDNO:0200153
-name: concentration of cobalt atom in material entity
-def: "The concentration of cobalt atom when measured in some material entity." []
-synonym: "material entity cobalt atom concentration" EXACT []
+name: concentration of cobalt(2+) in material entity
+def: "The concentration of cobalt(2+) when measured in some material entity." []
+synonym: "material entity cobalt(2+) concentration" EXACT []
 xref: INFOODs: CO
 xref: USDA_NDB: 1097
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200154
-name: concentration of copper atom in material entity
-def: "The concentration of copper atom when measured in some material entity." []
-synonym: "material entity copper atom concentration" EXACT []
+name: concentration of copper(2+) in material entity
+def: "The concentration of copper(2+) when measured in some material entity." []
+synonym: "material entity copper(2+) concentration" EXACT []
 xref: INFOODs: CU
 xref: USDA_NDB: 1098
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200642 ! concentration of dietary copper in material entity
 
 [Term]
 id: CDNO:0200155
@@ -1877,164 +1975,164 @@ def: "The concentration of fluoride when measured in some material entity." []
 synonym: "material entity fluoride concentration" EXACT []
 xref: INFOODs: FD
 xref: USDA_NDB: 1099
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200645 ! concentration of dietary fluorine in material entity
 
 [Term]
 id: CDNO:0200156
-name: concentration of iodine atom in material entity
-def: "The concentration of iodine atom when measured in some material entity." []
-synonym: "material entity iodine atom concentration" EXACT []
+name: concentration of iodine in material entity
+def: "The concentration of iodine when measured in some material entity." []
+synonym: "material entity iodine concentration" EXACT []
 xref: INFOODs: ID
 xref: USDA_NDB: 1100
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200648 ! concentration of dietary iodine in material entity
 
 [Term]
 id: CDNO:0200157
-name: concentration of iron atom in material entity
-def: "The concentration of iron atom when measured in some material entity." []
-synonym: "material entity iron atom concentration" EXACT []
+name: concentration of iron(2+) in material entity
+def: "The concentration of iron(2+) when measured in some material entity." []
+synonym: "material entity iron(2+) concentration" EXACT []
 xref: INFOODs: FE
 xref: USDA_NDB: 1089
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200651 ! concentration of dietary iron in material entity
 
 [Term]
 id: CDNO:0200158
-name: concentration of lead atom in material entity
-def: "The concentration of lead atom when measured in some material entity." []
-synonym: "material entity lead atom concentration" EXACT []
+name: concentration of lead(2+) in material entity
+def: "The concentration of lead(2+) when measured in some material entity." []
+synonym: "material entity lead(2+) concentration" EXACT []
 xref: INFOODs: PB
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200159
-name: concentration of lithium atom in material entity
-def: "The concentration of lithium atom when measured in some material entity." []
-synonym: "material entity lithium atom concentration" EXACT []
+name: concentration of lithium(1+) in material entity
+def: "The concentration of lithium(1+) when measured in some material entity." []
+synonym: "material entity lithium(1+) concentration" EXACT []
 xref: INFOODs: LI
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200160
-name: concentration of manganese atom in material entity
-def: "The concentration of manganese atom when measured in some material entity." []
-synonym: "material entity manganese atom concentration" EXACT []
+name: concentration of manganese(2+) in material entity
+def: "The concentration of manganese(2+) when measured in some material entity." []
+synonym: "material entity manganese(2+) concentration" EXACT []
 xref: INFOODs: MN
 xref: USDA_NDB: 1101
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200657 ! concentration of dietary manganese in material entity
 
 [Term]
 id: CDNO:0200161
-name: concentration of mercury atom in material entity
-def: "The concentration of mercury atom when measured in some material entity." []
-synonym: "material entity mercury atom concentration" EXACT []
+name: concentration of mercury(2+) in material entity
+def: "The concentration of mercury(2+) when measured in some material entity." []
+synonym: "material entity mercury(2+) concentration" EXACT []
 xref: INFOODs: HG
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200162
-name: concentration of molybdenum atom in material entity
-def: "The concentration of molybdenum atom when measured in some material entity." []
-synonym: "material entity molybdenum atom concentration" EXACT []
+name: concentration of molybdenum(4+) in material entity
+def: "The concentration of molybdenum(4+) when measured in some material entity." []
+synonym: "material entity molybdenum(4+) concentration" EXACT []
 xref: INFOODs: MO
 xref: USDA_NDB: 1102
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200661 ! concentration of dietary molybdenum in material entity
 
 [Term]
 id: CDNO:0200163
-name: concentration of nickel atom in material entity
-def: "The concentration of nickel atom when measured in some material entity." []
-synonym: "material entity nickel atom concentration" EXACT []
+name: concentration of nickel(2+) in material entity
+def: "The concentration of nickel(2+) when measured in some material entity." []
+synonym: "material entity nickel(2+) concentration" EXACT []
 xref: INFOODs: NI
 xref: USDA_NDB: 1146
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200164
-name: concentration of rubidium atom in material entity
-def: "The concentration of rubidium atom when measured in some material entity." []
-synonym: "material entity rubidium atom concentration" EXACT []
+name: concentration of rubidium(1+) in material entity
+def: "The concentration of rubidium(1+) when measured in some material entity." []
+synonym: "material entity rubidium(1+) concentration" EXACT []
 xref: INFOODs: RB
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200165
-name: concentration of selenium atom in material entity
-def: "The concentration of selenium atom when measured in some material entity." []
-synonym: "material entity selenium atom concentration" EXACT []
+name: concentration of selenium(2+) in material entity
+def: "The concentration of selenium(2+) when measured in some material entity." []
+synonym: "material entity selenium(2+) concentration" EXACT []
 xref: INFOODs: SE
 xref: USDA_NDB: 1103
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200166
-name: concentration of strontium atom in material entity
-def: "The concentration of strontium atom when measured in some material entity." []
-synonym: "material entity strontium atom concentration" EXACT []
+name: concentration of strontium(2+) in material entity
+def: "The concentration of strontium(2+) when measured in some material entity." []
+synonym: "material entity strontium(2+) concentration" EXACT []
 xref: INFOODs: SR
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200167
-name: concentration of tin atom in material entity
-def: "The concentration of tin atom when measured in some material entity." []
-synonym: "material entity tin atom concentration" EXACT []
+name: concentration of tin(2+) in material entity
+def: "The concentration of tin(2+) when measured in some material entity." []
+synonym: "material entity tin(2+) concentration" EXACT []
 xref: INFOODs: SN
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200168
-name: concentration of titanium atom in material entity
-def: "The concentration of titanium atom when measured in some material entity." []
-synonym: "material entity titanium atom concentration" EXACT []
+name: concentration of titanium(3+) in material entity
+def: "The concentration of titanium(3+) when measured in some material entity." []
+synonym: "material entity titanium(3+) concentration" EXACT []
 xref: INFOODs: TI
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200169
-name: concentration of vanadium atom in material entity
-def: "The concentration of vanadium atom when measured in some material entity." []
-synonym: "material entity vanadium atom concentration" EXACT []
+name: concentration of vanadium(2+) in material entity
+def: "The concentration of vanadium(2+) when measured in some material entity." []
+synonym: "material entity vanadium(2+) concentration" EXACT []
 xref: INFOODs: V
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200170
-name: concentration of zinc atom in material entity
-def: "The concentration of zinc atom when measured in some material entity." []
-synonym: "material entity zinc atom concentration" EXACT []
+name: concentration of zinc(2+) in material entity
+def: "The concentration of zinc(2+) when measured in some material entity." []
+synonym: "material entity zinc(2+) concentration" EXACT []
 xref: INFOODs: ZN
 xref: USDA_NDB: 1095
-is_a: CDNO:0200146 ! concentration of trace element in material entity
+is_a: CDNO:0200670 ! concentration of dietary zinc in material entity
 
 [Term]
 id: CDNO:0200171
-name: concentration of barium(0) in material entity
-def: "The concentration of barium(0) when measured in some material entity." []
-synonym: "material entity barium(0) concentration" EXACT []
+name: concentration of barium(2+) in material entity
+def: "The concentration of barium(2+) when measured in some material entity." []
+synonym: "material entity barium(2+) concentration" EXACT []
 xref: INFOODs: BA
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200172
-name: concentration of caesium atom in material entity
-def: "The concentration of caesium atom when measured in some material entity." []
-synonym: "material entity caesium atom concentration" EXACT []
+name: concentration of caesium(1+) in material entity
+def: "The concentration of caesium(1+) when measured in some material entity." []
+synonym: "material entity caesium(1+) concentration" EXACT []
 xref: INFOODs: CS
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200173
-name: concentration of bismuth atom in material entity
-def: "The concentration of bismuth atom when measured in some material entity." []
-synonym: "material entity bismuth atom concentration" EXACT []
+name: concentration of bismuth(3+) in material entity
+def: "The concentration of bismuth(3+) when measured in some material entity." []
+synonym: "material entity bismuth(3+) concentration" EXACT []
 xref: INFOODs: BI
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200174
-name: concentration of lanthanum atom in material entity
-def: "The concentration of lanthanum atom when measured in some material entity." []
-synonym: "material entity lanthanum atom concentration" EXACT []
+name: concentration of lanthanum(2+) in material entity
+def: "The concentration of lanthanum(2+) when measured in some material entity." []
+synonym: "material entity lanthanum(2+) concentration" EXACT []
 xref: INFOODs: LA
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
@@ -2052,6 +2150,8 @@ name: concentration of sodium chloride in material entity
 def: "The concentration of sodium chloride when measured in some material entity." []
 synonym: "material entity sodium chloride concentration" EXACT []
 is_a: CDNO:0200175 ! concentration of salt in material entity
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
 
 [Term]
 id: CDNO:0200177
@@ -3987,6 +4087,7 @@ def: "The concentration of myo-inositol hexakisphosphate when measured in some m
 synonym: "material entity myo-inositol hexakisphosphate concentration" EXACT []
 xref: INFOODs: IP6
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
 [Term]
 id: CDNO:0200434
@@ -4878,6 +4979,993 @@ xref: USDA_NDB: 1185
 is_a: CDNO:0200214 ! concentration of vitamin K in material entity
 
 [Term]
+id: CDNO:0200544
+name: concentration of dietary calcium in material entity
+def: "The concentration of dietary calcium when measured in some material entity." []
+synonym: "material entity dietary calcium concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200545
+name: concentration of inorganic calcium salt in material entity
+def: "The concentration of inorganic calcium salt when measured in some material entity." []
+synonym: "material entity inorganic calcium salt concentration" EXACT []
+is_a: CDNO:0200544 ! concentration of dietary calcium in material entity
+
+[Term]
+id: CDNO:0200546
+name: concentration of calcium dichloride in material entity
+def: "The concentration of calcium dichloride when measured in some material entity." []
+synonym: "material entity calcium dichloride concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+
+[Term]
+id: CDNO:0200547
+name: concentration of calcium carbonate in material entity
+def: "The concentration of calcium carbonate when measured in some material entity." []
+synonym: "material entity calcium carbonate concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+
+[Term]
+id: CDNO:0200548
+name: concentration of calcium difluoride in material entity
+def: "The concentration of calcium difluoride when measured in some material entity." []
+synonym: "material entity calcium difluoride concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+
+[Term]
+id: CDNO:0200549
+name: concentration of calcium sulfate in material entity
+def: "The concentration of calcium sulfate when measured in some material entity." []
+synonym: "material entity calcium sulfate concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+
+[Term]
+id: CDNO:0200550
+name: concentration of calcium phosphate in material entity
+def: "The concentration of calcium phosphate when measured in some material entity." []
+synonym: "material entity calcium phosphate concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+is_a: CDNO:0200580 ! concentration of inorganic phosphate salt in material entity
+
+[Term]
+id: CDNO:0200551
+name: concentration of calcium hydroxide in material entity
+def: "The concentration of calcium hydroxide when measured in some material entity." []
+synonym: "material entity calcium hydroxide concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+
+[Term]
+id: CDNO:0200552
+name: concentration of calcium hypochlorite in material entity
+def: "The concentration of calcium hypochlorite when measured in some material entity." []
+synonym: "material entity calcium hypochlorite concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+
+[Term]
+id: CDNO:0200553
+name: concentration of calcium silicate in material entity
+def: "The concentration of calcium silicate when measured in some material entity." []
+synonym: "material entity calcium silicate concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+
+[Term]
+id: CDNO:0200554
+name: concentration of organic calcium salt in material entity
+def: "The concentration of organic calcium salt when measured in some material entity." []
+synonym: "material entity organic calcium salt concentration" EXACT []
+is_a: CDNO:0200544 ! concentration of dietary calcium in material entity
+
+[Term]
+id: CDNO:0200555
+name: concentration of calcium citrate in material entity
+def: "The concentration of calcium citrate when measured in some material entity." []
+synonym: "material entity calcium citrate concentration" EXACT []
+is_a: CDNO:0200554 ! concentration of organic calcium salt in material entity
+
+[Term]
+id: CDNO:0200556
+name: concentration of calcium glycerophosphate in material entity
+def: "The concentration of calcium glycerophosphate when measured in some material entity." []
+synonym: "material entity calcium glycerophosphate concentration" EXACT []
+is_a: CDNO:0200554 ! concentration of organic calcium salt in material entity
+
+[Term]
+id: CDNO:0200557
+name: concentration of calcium stearate in material entity
+def: "The concentration of calcium stearate when measured in some material entity." []
+synonym: "material entity calcium stearate concentration" EXACT []
+is_a: CDNO:0200554 ! concentration of organic calcium salt in material entity
+
+[Term]
+id: CDNO:0200558
+name: concentration of organic calcium compound in material entity
+def: "The concentration of organic calcium compound when measured in some material entity." []
+synonym: "material entity organic calcium compound concentration" EXACT []
+is_a: CDNO:0200544 ! concentration of dietary calcium in material entity
+
+[Term]
+id: CDNO:0200559
+name: concentration of dietary chlorine in material entity
+def: "The concentration of dietary chlorine when measured in some material entity." []
+synonym: "material entity dietary chlorine concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200560
+name: concentration of inorganic chloride in material entity
+def: "The concentration of inorganic chloride when measured in some material entity." []
+synonym: "material entity inorganic chloride concentration" EXACT []
+is_a: CDNO:0200139 ! concentration of chloride in material entity
+
+[Term]
+id: CDNO:0200561
+name: concentration of sodium chloride in material entity
+def: "The concentration of sodium chloride when measured in some material entity." []
+synonym: "material entity sodium chloride concentration" EXACT []
+is_a: CDNO:0200175 ! concentration of salt in material entity
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200562
+name: concentration of calcium dichloride in material entity
+def: "The concentration of calcium dichloride when measured in some material entity." []
+synonym: "material entity calcium dichloride concentration" EXACT []
+is_a: CDNO:0200545 ! concentration of inorganic calcium salt in material entity
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+
+[Term]
+id: CDNO:0200563
+name: concentration of magnesium dichloride in material entity
+def: "The concentration of magnesium dichloride when measured in some material entity." []
+synonym: "material entity magnesium dichloride concentration" EXACT []
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200571 ! concentration of inorganic magnesium salt in material entity
+
+[Term]
+id: CDNO:0200564
+name: concentration of potassium chloride in material entity
+def: "The concentration of potassium chloride when measured in some material entity." []
+synonym: "material entity potassium chloride concentration" EXACT []
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200593 ! concentration of inorganic potassium salt in material entity
+
+[Term]
+id: CDNO:0200565
+name: concentration of lithium chloride in material entity
+def: "The concentration of lithium chloride when measured in some material entity." []
+synonym: "material entity lithium chloride concentration" EXACT []
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+
+[Term]
+id: CDNO:0200566
+name: concentration of organic chloride salt in material entity
+def: "The concentration of organic chloride salt when measured in some material entity." []
+synonym: "material entity organic chloride salt concentration" EXACT []
+is_a: CDNO:0200139 ! concentration of chloride in material entity
+
+[Term]
+id: CDNO:0200567
+name: concentration of organochlorine compound in material entity
+def: "The concentration of organochlorine compound when measured in some material entity." []
+synonym: "material entity organochlorine compound concentration" EXACT []
+is_a: CDNO:0200139 ! concentration of chloride in material entity
+
+[Term]
+id: CDNO:0200568
+name: concentration of hydrogen chloride in material entity
+def: "The concentration of hydrogen chloride when measured in some material entity." []
+synonym: "material entity hydrogen chloride concentration" EXACT []
+is_a: CDNO:0200139 ! concentration of chloride in material entity
+
+[Term]
+id: CDNO:0200569
+name: concentration of hypochlorite in material entity
+def: "The concentration of hypochlorite when measured in some material entity." []
+synonym: "material entity hypochlorite concentration" EXACT []
+is_a: CDNO:0200139 ! concentration of chloride in material entity
+
+[Term]
+id: CDNO:0200570
+name: concentration of dietary magnesium in material entity
+def: "The concentration of dietary magnesium when measured in some material entity." []
+synonym: "material entity dietary magnesium concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200571
+name: concentration of inorganic magnesium salt in material entity
+def: "The concentration of inorganic magnesium salt when measured in some material entity." []
+synonym: "material entity inorganic magnesium salt concentration" EXACT []
+is_a: CDNO:0200570 ! concentration of dietary magnesium in material entity
+
+[Term]
+id: CDNO:0200572
+name: concentration of magnesium dichloride in material entity
+def: "The concentration of magnesium dichloride when measured in some material entity." []
+synonym: "material entity magnesium dichloride concentration" EXACT []
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200571 ! concentration of inorganic magnesium salt in material entity
+
+[Term]
+id: CDNO:0200573
+name: concentration of magnesium phosphate in material entity
+def: "The concentration of magnesium phosphate when measured in some material entity." []
+synonym: "material entity magnesium phosphate concentration" EXACT []
+is_a: CDNO:0200571 ! concentration of inorganic magnesium salt in material entity
+is_a: CDNO:0200580 ! concentration of inorganic phosphate salt in material entity
+
+[Term]
+id: CDNO:0200574
+name: concentration of magnesium hydroxide in material entity
+def: "The concentration of magnesium hydroxide when measured in some material entity." []
+synonym: "material entity magnesium hydroxide concentration" EXACT []
+is_a: CDNO:0200571 ! concentration of inorganic magnesium salt in material entity
+
+[Term]
+id: CDNO:0200575
+name: concentration of organic magnesium salt in material entity
+def: "The concentration of organic magnesium salt when measured in some material entity." []
+synonym: "material entity organic magnesium salt concentration" EXACT []
+is_a: CDNO:0200570 ! concentration of dietary magnesium in material entity
+
+[Term]
+id: CDNO:0200576
+name: concentration of magnesium distearate in material entity
+def: "The concentration of magnesium distearate when measured in some material entity." []
+synonym: "material entity magnesium distearate concentration" EXACT []
+is_a: CDNO:0200575 ! concentration of organic magnesium salt in material entity
+
+[Term]
+id: CDNO:0200577
+name: concentration of magnesium carbonate in material entity
+def: "The concentration of magnesium carbonate when measured in some material entity." []
+synonym: "material entity magnesium carbonate concentration" EXACT []
+is_a: CDNO:0200575 ! concentration of organic magnesium salt in material entity
+
+[Term]
+id: CDNO:0200578
+name: concentration of dietary phosphorus in material entity
+def: "The concentration of dietary phosphorus when measured in some material entity." []
+synonym: "material entity dietary phosphorus concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200579
+name: concentration of phosphoric acid in material entity
+def: "The concentration of phosphoric acid when measured in some material entity." []
+synonym: "material entity phosphoric acid concentration" EXACT []
+is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
+
+[Term]
+id: CDNO:0200580
+name: concentration of inorganic phosphate salt in material entity
+def: "The concentration of inorganic phosphate salt when measured in some material entity." []
+synonym: "material entity inorganic phosphate salt concentration" EXACT []
+is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
+
+[Term]
+id: CDNO:0200581
+name: concentration of sodium phosphate in material entity
+def: "The concentration of sodium phosphate when measured in some material entity." []
+synonym: "material entity sodium phosphate concentration" EXACT []
+is_a: CDNO:0200580 ! concentration of inorganic phosphate salt in material entity
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200582
+name: concentration of potassium phosphate in material entity
+def: "The concentration of potassium phosphate when measured in some material entity." []
+synonym: "material entity potassium phosphate concentration" EXACT []
+is_a: CDNO:0200580 ! concentration of inorganic phosphate salt in material entity
+is_a: CDNO:0200593 ! concentration of inorganic potassium salt in material entity
+
+[Term]
+id: CDNO:0200583
+name: concentration of iron(3+) phosphate in material entity
+def: "The concentration of iron(3+) phosphate when measured in some material entity." []
+synonym: "material entity iron(3+) phosphate concentration" EXACT []
+is_a: CDNO:0200580 ! concentration of inorganic phosphate salt in material entity
+is_a: CDNO:0200651 ! concentration of dietary iron in material entity
+
+[Term]
+id: CDNO:0200584
+name: concentration of organic phosphate salt in material entity
+def: "The concentration of organic phosphate salt when measured in some material entity." []
+synonym: "material entity organic phosphate salt concentration" EXACT []
+is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
+
+[Term]
+id: CDNO:0200585
+name: concentration of organic phosphate compound in material entity
+def: "The concentration of organic phosphate compound when measured in some material entity." []
+synonym: "material entity organic phosphate compound concentration" EXACT []
+is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
+
+[Term]
+id: CDNO:0200586
+name: concentration of lysophosphatidylcholine in material entity
+def: "The concentration of lysophosphatidylcholine when measured in some material entity." []
+synonym: "material entity lysophosphatidylcholine concentration" EXACT []
+is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
+
+[Term]
+id: CDNO:0200587
+name: concentration of phosphatidylcholine in material entity
+def: "The concentration of phosphatidylcholine when measured in some material entity." []
+synonym: "material entity phosphatidylcholine concentration" EXACT []
+is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
+
+[Term]
+id: CDNO:0200588
+name: concentration of phosphatidylethanolamine in material entity
+def: "The concentration of phosphatidylethanolamine when measured in some material entity." []
+synonym: "material entity phosphatidylethanolamine concentration" EXACT []
+is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
+
+[Term]
+id: CDNO:0200589
+name: concentration of phosphatidylinositol in material entity
+def: "The concentration of phosphatidylinositol when measured in some material entity." []
+synonym: "material entity phosphatidylinositol concentration" EXACT []
+is_a: CDNO:0200113 ! concentration of phospholipid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
+
+[Term]
+id: CDNO:0200590
+name: concentration of 3-sn-phosphatidyl-L-serine in material entity
+def: "The concentration of 3-sn-phosphatidyl-L-serine when measured in some material entity." []
+synonym: "material entity 3-sn-phosphatidyl-L-serine concentration" EXACT []
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
+
+[Term]
+id: CDNO:0200591
+name: concentration of myo-inositol hexakisphosphate in material entity
+def: "The concentration of myo-inositol hexakisphosphate when measured in some material entity." []
+synonym: "material entity myo-inositol hexakisphosphate concentration" EXACT []
+is_a: CDNO:0200422 ! concentration of organic acid in material entity
+is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
+
+[Term]
+id: CDNO:0200592
+name: concentration of dietary potassium in material entity
+def: "The concentration of dietary potassium when measured in some material entity." []
+synonym: "material entity dietary potassium concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200593
+name: concentration of inorganic potassium salt in material entity
+def: "The concentration of inorganic potassium salt when measured in some material entity." []
+synonym: "material entity inorganic potassium salt concentration" EXACT []
+is_a: CDNO:0200592 ! concentration of dietary potassium in material entity
+
+[Term]
+id: CDNO:0200594
+name: concentration of potassium chloride in material entity
+def: "The concentration of potassium chloride when measured in some material entity." []
+synonym: "material entity potassium chloride concentration" EXACT []
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200593 ! concentration of inorganic potassium salt in material entity
+
+[Term]
+id: CDNO:0200595
+name: concentration of potassium sulfate in material entity
+def: "The concentration of potassium sulfate when measured in some material entity." []
+synonym: "material entity potassium sulfate concentration" EXACT []
+is_a: CDNO:0200593 ! concentration of inorganic potassium salt in material entity
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+
+[Term]
+id: CDNO:0200596
+name: concentration of organic potassium salt in material entity
+def: "The concentration of organic potassium salt when measured in some material entity." []
+synonym: "material entity organic potassium salt concentration" EXACT []
+is_a: CDNO:0200592 ! concentration of dietary potassium in material entity
+
+[Term]
+id: CDNO:0200597
+name: concentration of potassium formate in material entity
+def: "The concentration of potassium formate when measured in some material entity." []
+synonym: "material entity potassium formate concentration" EXACT []
+is_a: CDNO:0200596 ! concentration of organic potassium salt in material entity
+
+[Term]
+id: CDNO:0200598
+name: concentration of potassium bitartrate in material entity
+def: "The concentration of potassium bitartrate when measured in some material entity." []
+synonym: "material entity potassium bitartrate concentration" EXACT []
+is_a: CDNO:0200596 ! concentration of organic potassium salt in material entity
+
+[Term]
+id: CDNO:0200599
+name: concentration of dietary sodium in material entity
+def: "The concentration of dietary sodium when measured in some material entity." []
+synonym: "material entity dietary sodium concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200600
+name: concentration of inorganic sodium salt in material entity
+def: "The concentration of inorganic sodium salt when measured in some material entity." []
+synonym: "material entity inorganic sodium salt concentration" EXACT []
+is_a: CDNO:0200599 ! concentration of dietary sodium in material entity
+
+[Term]
+id: CDNO:0200601
+name: concentration of sodium chloride in material entity
+def: "The concentration of sodium chloride when measured in some material entity." []
+synonym: "material entity sodium chloride concentration" EXACT []
+is_a: CDNO:0200175 ! concentration of salt in material entity
+is_a: CDNO:0200560 ! concentration of inorganic chloride in material entity
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200602
+name: concentration of sodium hydrogencarbonate in material entity
+def: "The concentration of sodium hydrogencarbonate when measured in some material entity." []
+synonym: "material entity sodium hydrogencarbonate concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200603
+name: concentration of sodium sulfate in material entity
+def: "The concentration of sodium sulfate when measured in some material entity." []
+synonym: "material entity sodium sulfate concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+
+[Term]
+id: CDNO:0200604
+name: concentration of sodium hydrogensulfite in material entity
+def: "The concentration of sodium hydrogensulfite when measured in some material entity." []
+synonym: "material entity sodium hydrogensulfite concentration" EXACT []
+is_a: CDNO:0200603 ! concentration of sodium sulfate in material entity
+
+[Term]
+id: CDNO:0200605
+name: concentration of sodium borohydride in material entity
+def: "The concentration of sodium borohydride when measured in some material entity." []
+synonym: "material entity sodium borohydride concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200606
+name: concentration of sodium bromate in material entity
+def: "The concentration of sodium bromate when measured in some material entity." []
+synonym: "material entity sodium bromate concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200607
+name: concentration of sodium chlorate in material entity
+def: "The concentration of sodium chlorate when measured in some material entity." []
+synonym: "material entity sodium chlorate concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200608
+name: concentration of sodium cyanide in material entity
+def: "The concentration of sodium cyanide when measured in some material entity." []
+synonym: "material entity sodium cyanide concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200609
+name: concentration of sodium fluoride in material entity
+def: "The concentration of sodium fluoride when measured in some material entity." []
+synonym: "material entity sodium fluoride concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200610
+name: concentration of sodium hydroxide in material entity
+def: "The concentration of sodium hydroxide when measured in some material entity." []
+synonym: "material entity sodium hydroxide concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200611
+name: concentration of Sodium iodate in material entity
+def: "The concentration of Sodium iodate when measured in some material entity." []
+synonym: "material entity Sodium iodate concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200612
+name: concentration of sodium nitrate in material entity
+def: "The concentration of sodium nitrate when measured in some material entity." []
+synonym: "material entity sodium nitrate concentration" EXACT []
+is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
+
+[Term]
+id: CDNO:0200613
+name: concentration of organic sodium salt in material entity
+def: "The concentration of organic sodium salt when measured in some material entity." []
+synonym: "material entity organic sodium salt concentration" EXACT []
+is_a: CDNO:0200599 ! concentration of dietary sodium in material entity
+
+[Term]
+id: CDNO:0200614
+name: concentration of sodium oxalate in material entity
+def: "The concentration of sodium oxalate when measured in some material entity." []
+synonym: "material entity sodium oxalate concentration" EXACT []
+is_a: CDNO:0200613 ! concentration of organic sodium salt in material entity
+
+[Term]
+id: CDNO:0200615
+name: concentration of sodium L-tartrate in material entity
+def: "The concentration of sodium L-tartrate when measured in some material entity." []
+synonym: "material entity sodium L-tartrate concentration" EXACT []
+is_a: CDNO:0200613 ! concentration of organic sodium salt in material entity
+
+[Term]
+id: CDNO:0200616
+name: concentration of sodium formate in material entity
+def: "The concentration of sodium formate when measured in some material entity." []
+synonym: "material entity sodium formate concentration" EXACT []
+is_a: CDNO:0200613 ! concentration of organic sodium salt in material entity
+
+[Term]
+id: CDNO:0200617
+name: concentration of sodium phenolate in material entity
+def: "The concentration of sodium phenolate when measured in some material entity." []
+synonym: "material entity sodium phenolate concentration" EXACT []
+is_a: CDNO:0200613 ! concentration of organic sodium salt in material entity
+
+[Term]
+id: CDNO:0200618
+name: concentration of sodium citrate in material entity
+def: "The concentration of sodium citrate when measured in some material entity." []
+synonym: "material entity sodium citrate concentration" EXACT []
+is_a: CDNO:0200613 ! concentration of organic sodium salt in material entity
+
+[Term]
+id: CDNO:0200619
+name: concentration of dietary sulfur in material entity
+def: "The concentration of dietary sulfur when measured in some material entity." []
+synonym: "material entity dietary sulfur concentration" EXACT []
+is_a: CDNO:0200137 ! concentration of macro element in material entity
+
+[Term]
+id: CDNO:0200620
+name: concentration of sulfite in material entity
+def: "The concentration of sulfite when measured in some material entity." []
+synonym: "material entity sulfite concentration" EXACT []
+is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
+
+[Term]
+id: CDNO:0200621
+name: concentration of inorganic sulfate salt in material entity
+def: "The concentration of inorganic sulfate salt when measured in some material entity." []
+synonym: "material entity inorganic sulfate salt concentration" EXACT []
+is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
+
+[Term]
+id: CDNO:0200622
+name: concentration of magnesium sulfate in material entity
+def: "The concentration of magnesium sulfate when measured in some material entity." []
+synonym: "material entity magnesium sulfate concentration" EXACT []
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+
+[Term]
+id: CDNO:0200623
+name: concentration of iron sulfate in material entity
+def: "The concentration of iron sulfate when measured in some material entity." []
+synonym: "material entity iron sulfate concentration" EXACT []
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+is_a: CDNO:0200652 ! concentration of inorganic iron salt in material entity
+
+[Term]
+id: CDNO:0200624
+name: concentration of sodium hydrogensulfite in material entity
+def: "The concentration of sodium hydrogensulfite when measured in some material entity." []
+synonym: "material entity sodium hydrogensulfite concentration" EXACT []
+is_a: CDNO:0200603 ! concentration of sodium sulfate in material entity
+
+[Term]
+id: CDNO:0200625
+name: concentration of copper(II) sulfate in material entity
+def: "The concentration of copper(II) sulfate when measured in some material entity." []
+synonym: "material entity copper(II) sulfate concentration" EXACT []
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+is_a: CDNO:0200643 ! concentration of inorganic copper salt in material entity
+
+[Term]
+id: CDNO:0200626
+name: concentration of organic sulfate salt in material entity
+def: "The concentration of organic sulfate salt when measured in some material entity." []
+synonym: "material entity organic sulfate salt concentration" EXACT []
+is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
+
+[Term]
+id: CDNO:0200627
+name: concentration of organosulfur compound in material entity
+def: "The concentration of organosulfur compound when measured in some material entity." []
+synonym: "material entity organosulfur compound concentration" EXACT []
+is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
+
+[Term]
+id: CDNO:0200628
+name: concentration of thiol in material entity
+def: "The concentration of thiol when measured in some material entity." []
+synonym: "material entity thiol concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200629
+name: concentration of glutathione in material entity
+def: "The concentration of glutathione when measured in some material entity." []
+synonym: "material entity glutathione concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200630
+name: concentration of sulfonyldimethane in material entity
+def: "The concentration of sulfonyldimethane when measured in some material entity." []
+synonym: "material entity sulfonyldimethane concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200631
+name: concentration of dimethyl sulfoxide in material entity
+def: "The concentration of dimethyl sulfoxide when measured in some material entity." []
+synonym: "material entity dimethyl sulfoxide concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200632
+name: concentration of cysteine in material entity
+def: "The concentration of cysteine when measured in some material entity." []
+synonym: "material entity cysteine concentration" EXACT []
+is_a: CDNO:0200464 ! concentration of amino acid in material entity
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200633
+name: concentration of methionine in material entity
+def: "The concentration of methionine when measured in some material entity." []
+synonym: "material entity methionine concentration" EXACT []
+is_a: CDNO:0200464 ! concentration of amino acid in material entity
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200634
+name: concentration of glucosinolate in material entity
+def: "The concentration of glucosinolate when measured in some material entity." []
+synonym: "material entity glucosinolate concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200635
+name: concentration of sinigrin in material entity
+def: "The concentration of sinigrin when measured in some material entity." []
+synonym: "material entity sinigrin concentration" EXACT []
+is_a: CDNO:0200634 ! concentration of glucosinolate in material entity
+
+[Term]
+id: CDNO:0200636
+name: concentration of isothiocyanate in material entity
+def: "The concentration of isothiocyanate when measured in some material entity." []
+synonym: "material entity isothiocyanate concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200637
+name: concentration of allyl isothiocyanate in material entity
+def: "The concentration of allyl isothiocyanate when measured in some material entity." []
+synonym: "material entity allyl isothiocyanate concentration" EXACT []
+is_a: CDNO:0200636 ! concentration of isothiocyanate in material entity
+
+[Term]
+id: CDNO:0200638
+name: concentration of sulfur dioxide in material entity
+def: "The concentration of sulfur dioxide when measured in some material entity." []
+synonym: "material entity sulfur dioxide concentration" EXACT []
+is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
+
+[Term]
+id: CDNO:0200639
+name: concentration of dietary chromium in material entity
+def: "The concentration of dietary chromium when measured in some material entity." []
+synonym: "material entity dietary chromium concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200640
+name: concentration of inorganic chromium salt in material entity
+def: "The concentration of inorganic chromium salt when measured in some material entity." []
+synonym: "material entity inorganic chromium salt concentration" EXACT []
+is_a: CDNO:0200639 ! concentration of dietary chromium in material entity
+
+[Term]
+id: CDNO:0200641
+name: concentration of organic chromium salt in material entity
+def: "The concentration of organic chromium salt when measured in some material entity." []
+synonym: "material entity organic chromium salt concentration" EXACT []
+is_a: CDNO:0200639 ! concentration of dietary chromium in material entity
+
+[Term]
+id: CDNO:0200642
+name: concentration of dietary copper in material entity
+def: "The concentration of dietary copper when measured in some material entity." []
+synonym: "material entity dietary copper concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200643
+name: concentration of inorganic copper salt in material entity
+def: "The concentration of inorganic copper salt when measured in some material entity." []
+synonym: "material entity inorganic copper salt concentration" EXACT []
+is_a: CDNO:0200642 ! concentration of dietary copper in material entity
+
+[Term]
+id: CDNO:0200644
+name: concentration of organic copper salt in material entity
+def: "The concentration of organic copper salt when measured in some material entity." []
+synonym: "material entity organic copper salt concentration" EXACT []
+is_a: CDNO:0200642 ! concentration of dietary copper in material entity
+
+[Term]
+id: CDNO:0200645
+name: concentration of dietary fluorine in material entity
+def: "The concentration of dietary fluorine when measured in some material entity." []
+synonym: "material entity dietary fluorine concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200646
+name: concentration of inorganic fluoride salt in material entity
+def: "The concentration of inorganic fluoride salt when measured in some material entity." []
+synonym: "material entity inorganic fluoride salt concentration" EXACT []
+is_a: CDNO:0200645 ! concentration of dietary fluorine in material entity
+
+[Term]
+id: CDNO:0200647
+name: concentration of organic fluoride salt in material entity
+def: "The concentration of organic fluoride salt when measured in some material entity." []
+synonym: "material entity organic fluoride salt concentration" EXACT []
+is_a: CDNO:0200645 ! concentration of dietary fluorine in material entity
+
+[Term]
+id: CDNO:0200648
+name: concentration of dietary iodine in material entity
+def: "The concentration of dietary iodine when measured in some material entity." []
+synonym: "material entity dietary iodine concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200649
+name: concentration of inorganic iodine salt in material entity
+def: "The concentration of inorganic iodine salt when measured in some material entity." []
+synonym: "material entity inorganic iodine salt concentration" EXACT []
+is_a: CDNO:0200648 ! concentration of dietary iodine in material entity
+
+[Term]
+id: CDNO:0200650
+name: concentration of organic iodine salt in material entity
+def: "The concentration of organic iodine salt when measured in some material entity." []
+synonym: "material entity organic iodine salt concentration" EXACT []
+is_a: CDNO:0200648 ! concentration of dietary iodine in material entity
+
+[Term]
+id: CDNO:0200651
+name: concentration of dietary iron in material entity
+def: "The concentration of dietary iron when measured in some material entity." []
+synonym: "material entity dietary iron concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200652
+name: concentration of inorganic iron salt in material entity
+def: "The concentration of inorganic iron salt when measured in some material entity." []
+synonym: "material entity inorganic iron salt concentration" EXACT []
+is_a: CDNO:0200651 ! concentration of dietary iron in material entity
+
+[Term]
+id: CDNO:0200653
+name: concentration of iron(2+) sulfate (anhydrous) in material entity
+def: "The concentration of iron(2+) sulfate (anhydrous) when measured in some material entity." []
+synonym: "material entity iron(2+) sulfate (anhydrous) concentration" EXACT []
+is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
+is_a: CDNO:0200652 ! concentration of inorganic iron salt in material entity
+
+[Term]
+id: CDNO:0200654
+name: concentration of organic iron salt in material entity
+def: "The concentration of organic iron salt when measured in some material entity." []
+synonym: "material entity organic iron salt concentration" EXACT []
+is_a: CDNO:0200651 ! concentration of dietary iron in material entity
+
+[Term]
+id: CDNO:0200655
+name: concentration of organic iron compound in material entity
+def: "The concentration of organic iron compound when measured in some material entity." []
+synonym: "material entity organic iron compound concentration" EXACT []
+is_a: CDNO:0200651 ! concentration of dietary iron in material entity
+
+[Term]
+id: CDNO:0200656
+name: concentration of ferric ammonium citrate in material entity
+def: "The concentration of ferric ammonium citrate when measured in some material entity." []
+synonym: "material entity ferric ammonium citrate concentration" EXACT []
+is_a: CDNO:0200655 ! concentration of organic iron compound in material entity
+
+[Term]
+id: CDNO:0200657
+name: concentration of dietary manganese in material entity
+def: "The concentration of dietary manganese when measured in some material entity." []
+synonym: "material entity dietary manganese concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200658
+name: concentration of manganese(3+) in material entity
+def: "The concentration of manganese(3+) when measured in some material entity." []
+synonym: "material entity manganese(3+) concentration" EXACT []
+is_a: CDNO:0200657 ! concentration of dietary manganese in material entity
+
+[Term]
+id: CDNO:0200659
+name: concentration of inorganic manganese salt in material entity
+def: "The concentration of inorganic manganese salt when measured in some material entity." []
+synonym: "material entity inorganic manganese salt concentration" EXACT []
+is_a: CDNO:0200657 ! concentration of dietary manganese in material entity
+
+[Term]
+id: CDNO:0200660
+name: concentration of organic manganese salt in material entity
+def: "The concentration of organic manganese salt when measured in some material entity." []
+synonym: "material entity organic manganese salt concentration" EXACT []
+is_a: CDNO:0200657 ! concentration of dietary manganese in material entity
+
+[Term]
+id: CDNO:0200661
+name: concentration of dietary molybdenum in material entity
+def: "The concentration of dietary molybdenum when measured in some material entity." []
+synonym: "material entity dietary molybdenum concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200662
+name: concentration of molybdenum(6+) in material entity
+def: "The concentration of molybdenum(6+) when measured in some material entity." []
+synonym: "material entity molybdenum(6+) concentration" EXACT []
+is_a: CDNO:0200661 ! concentration of dietary molybdenum in material entity
+
+[Term]
+id: CDNO:0200663
+name: concentration of inorganic molybdenum salt in material entity
+def: "The concentration of inorganic molybdenum salt when measured in some material entity." []
+synonym: "material entity inorganic molybdenum salt concentration" EXACT []
+is_a: CDNO:0200661 ! concentration of dietary molybdenum in material entity
+
+[Term]
+id: CDNO:0200664
+name: concentration of organic molybdenum salt in material entity
+def: "The concentration of organic molybdenum salt when measured in some material entity." []
+synonym: "material entity organic molybdenum salt concentration" EXACT []
+is_a: CDNO:0200661 ! concentration of dietary molybdenum in material entity
+
+[Term]
+id: CDNO:0200665
+name: concentration of dietary selenium in material entity
+def: "The concentration of dietary selenium when measured in some material entity." []
+synonym: "material entity dietary selenium concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200666
+name: concentration of selenium(4+) in material entity
+def: "The concentration of selenium(4+) when measured in some material entity." []
+synonym: "material entity selenium(4+) concentration" EXACT []
+is_a: CDNO:0200665 ! concentration of dietary selenium in material entity
+
+[Term]
+id: CDNO:0200667
+name: concentration of selenium(6+) in material entity
+def: "The concentration of selenium(6+) when measured in some material entity." []
+synonym: "material entity selenium(6+) concentration" EXACT []
+is_a: CDNO:0200665 ! concentration of dietary selenium in material entity
+
+[Term]
+id: CDNO:0200668
+name: concentration of inorganic selenium salt in material entity
+def: "The concentration of inorganic selenium salt when measured in some material entity." []
+synonym: "material entity inorganic selenium salt concentration" EXACT []
+is_a: CDNO:0200665 ! concentration of dietary selenium in material entity
+
+[Term]
+id: CDNO:0200669
+name: concentration of organic selenium salt in material entity
+def: "The concentration of organic selenium salt when measured in some material entity." []
+synonym: "material entity organic selenium salt concentration" EXACT []
+is_a: CDNO:0200665 ! concentration of dietary selenium in material entity
+
+[Term]
+id: CDNO:0200670
+name: concentration of dietary zinc in material entity
+def: "The concentration of dietary zinc when measured in some material entity." []
+synonym: "material entity dietary zinc concentration" EXACT []
+is_a: CDNO:0200146 ! concentration of trace element in material entity
+
+[Term]
+id: CDNO:0200671
+name: concentration of inorganic zinc salt in material entity
+def: "The concentration of inorganic zinc salt when measured in some material entity." []
+synonym: "material entity inorganic zinc salt concentration" EXACT []
+is_a: CDNO:0200670 ! concentration of dietary zinc in material entity
+
+[Term]
+id: CDNO:0200672
+name: concentration of organic zinc salt in material entity
+def: "The concentration of organic zinc salt when measured in some material entity." []
+synonym: "material entity organic zinc salt concentration" EXACT []
+is_a: CDNO:0200670 ! concentration of dietary zinc in material entity
+
+[Term]
+id: CDNO:0200673
+name: concentration of collagen in material entity
+def: "The concentration of collagen when measured in some material entity." []
+synonym: "material entity collagen concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200674
+name: concentration of elastin in material entity
+def: "The concentration of elastin when measured in some material entity." []
+synonym: "material entity elastin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200675
+name: concentration of fibrin in material entity
+def: "The concentration of fibrin when measured in some material entity." []
+synonym: "material entity fibrin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200676
+name: concentration of hemoglobin in material entity
+def: "The concentration of hemoglobin when measured in some material entity." []
+synonym: "material entity hemoglobin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200677
+name: concentration of myoglobin in material entity
+def: "The concentration of myoglobin when measured in some material entity." []
+synonym: "material entity myoglobin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200678
+name: concentration of beta-lactoglobulin in material entity
+def: "The concentration of beta-lactoglobulin when measured in some material entity." []
+synonym: "material entity beta-lactoglobulin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200679
+name: concentration of napin in material entity
+def: "The concentration of napin when measured in some material entity." []
+synonym: "material entity napin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
+id: CDNO:0200680
+name: concentration of gliadin in material entity
+def: "The concentration of gliadin when measured in some material entity." []
+synonym: "material entity gliadin concentration" EXACT []
+is_a: CDNO:0200040 ! concentration of protein in material entity
+
+[Term]
 id: CDNO:0300001
 name: nutritional functional attribute
 def: "A functional attribute that inheres in one or more dietary nutritional component (or food material) and may contribute to a dietary role." []
@@ -4985,6 +6073,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "324.13616
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C12=C3C(=CC=C2OC(CC1)(C)C)[C@]4([C@@](O3)(C=5C=CC(O)=CC5OC4)[H])[H]" xsd:string
 
 [Term]
+id: CHEBI:11750
+name: 3-sn-phosphatidyl-L-serine
+synonym: "phosphatidylserine" EXACT []
+is_a: CHEBI:190516 ! organic phosphate compound
+
+[Term]
 id: CHEBI:125451
 name: 3,5,7-trihydroxy-2-[3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-3,4-dihydro-2H-1-benzopyran-4-one
 namespace: chebi_ontology
@@ -5014,6 +6108,12 @@ synonym: "vitamins A" RELATED [ChEBI]
 xref: MetaCyc:Vitamin-A
 xref: Wikipedia:Vitamin_A
 is_a: CDNO:0000014 ! vitamin (molecular entity)
+
+[Term]
+id: CHEBI:131371
+name: iron(3+) phosphate
+is_a: CDNO:0000026 ! dietary iron
+is_a: CHEBI:190300 ! inorganic phosphate salt
 
 [Term]
 id: CHEBI:131693
@@ -5051,6 +6151,11 @@ namespace: chebi_ontology
 def: "A naphthoquinone in which the oxo groups of the quinone moiety are at positions 1 and 4 of the parent naphthalene ring." []
 subset: 3_STAR
 is_a: CHEBI:25481 ! naphthoquinone
+
+[Term]
+id: CHEBI:132764
+name: sodium oxalate
+is_a: CHEBI:38700 ! organic sodium salt
 
 [Term]
 id: CHEBI:133348
@@ -5225,6 +6330,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "609.18140
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "O(C1=CC=2C(O)=CC(O)=CC2[O+]=C1C3=CC=C(C(=C3)O)OC)[C@@H]4O[C@H](CO[C@@H]5O[C@@H](C)[C@@H]([C@H]([C@H]5O)O)O)[C@H]([C@@H]([C@H]4O)O)O" xsd:string
 
 [Term]
+id: CHEBI:15138
+name: sulfide(2_)
+is_a: CDNO:0000021 ! dietary sulfur
+
+[Term]
 id: CHEBI:15354
 name: choline
 namespace: chebi_ontology
@@ -5324,6 +6434,7 @@ xref: PMID:17439666 {source="Europe PMC"}
 xref: PMID:25181601 {source="Europe PMC"}
 xref: Reaxys:1721406 {source="Reaxys"}
 xref: Wikipedia:Cysteine
+is_a: CHEBI:33261 ! organosulfur compound
 is_a: CHEBI:33709 ! amino acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C3H7NO2S" xsd:string
@@ -6404,6 +7515,7 @@ xref: PMID:3196084 {source="Europe PMC"}
 xref: PMID:7980848 {source="Europe PMC"}
 xref: Wikipedia:Phosphatidylethanolamine
 is_a: CHEBI:16247 ! phospholipid
+is_a: CHEBI:190516 ! organic phosphate compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C7H12NO8PR2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "269.146" xsd:string
@@ -6742,6 +7854,11 @@ xref: Wikipedia:Vitamin_K2
 is_a: CHEBI:28384 ! vitamin K
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "(C5H8)nC11H8O2" xsd:string
+
+[Term]
+id: CHEBI:16382
+name: iodine
+is_a: CDNO:0000025 ! dietary iodine
 
 [Term]
 id: CHEBI:16449
@@ -7267,6 +8384,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "630.13515
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cl-].C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc4c(O)cc(O)cc4[o+]c3-c3ccc(O)c(O)c3)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" xsd:string
 
 [Term]
+id: CHEBI:16793
+name: mercury(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
 id: CHEBI:16811
 name: methionine
 namespace: chebi_ontology
@@ -7302,6 +8424,7 @@ xref: PMID:2543976 {source="Europe PMC"}
 xref: Reaxys:636185 {source="Reaxys"}
 xref: UM-BBD_compID:c0094 {source="UM-BBD"}
 xref: Wikipedia:Methionine
+is_a: CHEBI:33261 ! organosulfur compound
 is_a: CHEBI:33709 ! amino acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H11NO2S" xsd:string
@@ -7310,6 +8433,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "FFEARJCKVFRZRR-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "149.21238" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "149.05105" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CSCCC(N)C(O)=O" xsd:string
+
+[Term]
+id: CHEBI:16856
+name: glutathione
+is_a: CHEBI:33261 ! organosulfur compound
 
 [Term]
 id: CHEBI:16914
@@ -7645,7 +8773,7 @@ xref: CAS:16984-48-8 {source="ChemIDplus"}
 xref: Gmelin:14905 {source="Gmelin"}
 xref: KEGG:C00742
 xref: PDBeChem:F
-is_a: CDNO:0000012 ! trace element
+is_a: CDNO:0000024 ! dietary fluorine
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "F" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/FH/h1H/p-1" xsd:string
@@ -8100,6 +9228,36 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "280.24023
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCC\\C=C/C\\C=C/CCCCCCCC(O)=O" xsd:string
 
 [Term]
+id: CHEBI:17359
+name: sulfite
+namespace: chebi_ontology
+alt_id: CHEBI:15139
+alt_id: CHEBI:45548
+def: "A sulfur oxoanion that is the conjugate base of hydrogen sulfite (H2SO3)." []
+subset: 3_STAR
+synonym: "[SO3](2-)" RELATED [IUPAC]
+synonym: "SO3" RELATED [ChEBI]
+synonym: "SO3(2-)" RELATED [IUPAC]
+synonym: "sulfite" EXACT IUPAC_NAME [IUPAC]
+synonym: "sulfite" EXACT [UniProt]
+synonym: "SULFITE ION" RELATED [PDBeChem]
+synonym: "sulphite" RELATED [ChEBI]
+synonym: "trioxidosulfate(2-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "trioxosulfate(2-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "trioxosulfate(IV)" EXACT IUPAC_NAME [IUPAC]
+xref: CAS:14265-45-3 {source="ChemIDplus"}
+xref: Gmelin:1449 {source="Gmelin"}
+xref: PDBeChem:SO3
+is_a: CDNO:0000021 ! dietary sulfur
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "O3S" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2O3S/c1-4(2)3/h(H2,1,2,3)/p-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LSNNMFCWUKXFEE-UHFFFAOYSA-L" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "80.06420" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "79.95791" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]S([O-])=O" xsd:string
+
+[Term]
 id: CHEBI:17401
 name: myo-inositol hexakisphosphate
 namespace: chebi_ontology
@@ -8121,6 +9279,7 @@ synonym: "myo-inositol 1,2,3,4,5,6-hexakisphosphate" RELATED [ChEBI]
 synonym: "myo-inositol hexakis(dihydrogen phosphate)" EXACT IUPAC_NAME [IUPAC]
 synonym: "myo-Inositol hexakisphosphate" EXACT [KEGG_COMPOUND]
 synonym: "Phytate" RELATED [KEGG_COMPOUND]
+synonym: "phytate" EXACT []
 synonym: "Phytic acid" RELATED [KEGG_COMPOUND]
 synonym: "phytic acid" RELATED []
 synonym: "Phytine" RELATED [ChemIDplus]
@@ -8150,6 +9309,7 @@ xref: PMID:22023391 {source="Europe PMC"}
 xref: PMID:6095072 {source="Europe PMC"}
 xref: Reaxys:2201952 {source="Reaxys"}
 xref: Wikipedia:Phytic_acid
+is_a: CHEBI:190516 ! organic phosphate compound
 is_a: CHEBI:64709 ! organic acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C6H18O24P6" xsd:string
@@ -8703,6 +9863,53 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "173.00861
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*]C(=O)OCC(COC([*])=O)OC([*])=O" xsd:string
 
 [Term]
+id: CHEBI:17883
+name: hydrogen chloride
+namespace: chebi_ontology
+alt_id: CHEBI:13364
+alt_id: CHEBI:24635
+alt_id: CHEBI:5590
+def: "A mononuclear parent hydride consisting of covalently bonded hydrogen and chlorine atoms." []
+subset: 3_STAR
+synonym: "[HCl]" RELATED [IUPAC]
+synonym: "chlorane" EXACT IUPAC_NAME [IUPAC]
+synonym: "chloridohydrogen" EXACT IUPAC_NAME [IUPAC]
+synonym: "chlorure d'hydrogene" RELATED [ChEBI]
+synonym: "Chlorwasserstoff" RELATED [ChEBI]
+synonym: "cloruro de hidrogeno" RELATED [ChEBI]
+synonym: "HCl" RELATED [KEGG_COMPOUND]
+synonym: "hydrochloric acid" RELATED [ChemIDplus]
+synonym: "Hydrochloride" RELATED [KEGG_COMPOUND]
+synonym: "Hydrogen chloride" EXACT [KEGG_COMPOUND]
+synonym: "hydrogen chloride" EXACT IUPAC_NAME [IUPAC]
+synonym: "Hydrogenchlorid" RELATED [ChEBI]
+synonym: "Wasserstoffchlorid" RELATED [ChEBI]
+xref: CAS:7647-01-0 {source="ChemIDplus"}
+xref: CAS:7647-01-0 {source="NIST Chemistry WebBook"}
+xref: CAS:7647-01-0 {source="KEGG COMPOUND"}
+xref: Drug_Central:4568 {source="DrugCentral"}
+xref: Gmelin:322 {source="Gmelin"}
+xref: HMDB:HMDB0002306
+xref: KEGG:C01327
+xref: KEGG:D02057
+xref: MetaCyc:HCL
+xref: PMID:15823700 {source="Europe PMC"}
+xref: PMID:17492841 {source="Europe PMC"}
+xref: PMID:22804993 {source="Europe PMC"}
+xref: Reaxys:1098214 {source="Reaxys"}
+xref: Wikipedia:HCl
+xref: Wikipedia:Hydrochloric_acid
+is_a: CHEBI:17996 ! chloride
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "ClH" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "HCl" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/ClH/h1H" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "VEXZGXHMUGYJMC-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "36.46064" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "35.97668" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "Cl[H]" xsd:string
+
+[Term]
 id: CHEBI:17933
 name: calcidiol
 namespace: chebi_ontology
@@ -8864,7 +10071,7 @@ xref: KEGG:C00115
 xref: KEGG:C00698
 xref: PDBeChem:CL
 xref: UM-BBD_compID:c0884 {source="UM-BBD"}
-is_a: CDNO:0000011 ! macro element
+is_a: CDNO:0000016 ! dietary chlorine
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "Cl" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/ClH/h1H/p-1" xsd:string
@@ -9315,43 +10522,9 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "147.05316
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(CCC(O)=O)C(O)=O" xsd:string
 
 [Term]
-id: CHEBI:18248
-name: iron atom
-namespace: chebi_ontology
-alt_id: CHEBI:13322
-alt_id: CHEBI:24872
-alt_id: CHEBI:5974
-def: "An iron group element atom that has atomic number 26." []
-subset: 3_STAR
-synonym: "26Fe" RELATED [IUPAC]
-synonym: "Eisen" RELATED [ChEBI]
-synonym: "Fe" RELATED [IUPAC]
-synonym: "fer" RELATED [ChEBI]
-synonym: "ferrum" RELATED [IUPAC]
-synonym: "hierro" RELATED [ChEBI]
-synonym: "Iron" RELATED [KEGG_COMPOUND]
-synonym: "iron" EXACT IUPAC_NAME [IUPAC]
-synonym: "iron" RELATED [ChEBI]
-xref: CAS:7439-89-6 {source="ChemIDplus"}
-xref: CAS:7439-89-6 {source="NIST Chemistry WebBook"}
-xref: CAS:7439-89-6 {source="KEGG COMPOUND"}
-xref: DrugBank:DB01592
-xref: HMDB:HMDB0015531
-xref: KEGG:C00023
-xref: Reaxys:4122945 {source="Reaxys"}
-xref: WebElements:Fe
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Fe" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Fe" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XEEYBQQBJWHFJM-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "55.84500" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "55.93494" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Fe]" xsd:string
-
-[Term]
 id: CHEBI:18291
 name: manganese atom
+name: manganese(2+)
 namespace: chebi_ontology
 alt_id: CHEBI:13382
 alt_id: CHEBI:25153
@@ -9369,7 +10542,7 @@ xref: CAS:7439-96-5 {source="KEGG COMPOUND"}
 xref: CAS:7439-96-5 {source="ChemIDplus"}
 xref: KEGG:C00034
 xref: WebElements:Mn
-is_a: CDNO:0000012 ! trace element
+is_a: CDNO:0000027 ! dietary manganese
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "Mn" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Mn" xsd:string
@@ -9540,6 +10713,211 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "KZNIFHPLKGYRTM-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "270.23690" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "270.05282" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc(cc1)-c1cc(=O)c2c(O)cc(O)cc2o1" xsd:string
+
+[Term]
+id: CHEBI:18420
+name: magnesium(2+)
+is_a: CDNO:0000017 ! dietary magnesium
+
+[Term]
+id: CHEBI:18422
+name: sulfur dioxide
+is_a: CHEBI:33261 ! organosulfur compound
+
+[Term]
+id: CHEBI:190294
+name: calcium silicate
+is_a: CHEBI:190295 ! inorganic calcium salt
+
+[Term]
+id: CHEBI:190295
+name: inorganic calcium salt
+is_a: CDNO:0000015 ! dietary calcium
+
+[Term]
+id: CHEBI:190296
+name: calcium stearate
+is_a: CHEBI:51031 ! organic calcium salt
+
+[Term]
+id: CHEBI:190297
+name: inorganic magnesium salt
+is_a: CDNO:0000017 ! dietary magnesium
+
+[Term]
+id: CHEBI:190298
+name: magnesium phosphate
+is_a: CHEBI:190297 ! inorganic magnesium salt
+is_a: CHEBI:190300 ! inorganic phosphate salt
+
+[Term]
+id: CHEBI:190299
+name: organic magnesium salt
+is_a: CDNO:0000017 ! dietary magnesium
+
+[Term]
+id: CHEBI:190300
+name: inorganic phosphate salt
+is_a: CDNO:0000018 ! dietary phosphorus
+
+[Term]
+id: CHEBI:190301
+name: potassium phosphate
+is_a: CHEBI:190300 ! inorganic phosphate salt
+is_a: CHEBI:190303 ! inorganic potassium salt
+
+[Term]
+id: CHEBI:190302
+name: organic phosphate salt
+is_a: CDNO:0000018 ! dietary phosphorus
+
+[Term]
+id: CHEBI:190303
+name: inorganic potassium salt
+is_a: CDNO:0000019 ! dietary potassium
+
+[Term]
+id: CHEBI:190412
+name: inorganic chromium salt
+is_a: CDNO:0000022 ! dietary chromium
+
+[Term]
+id: CHEBI:190413
+name: organic chromium salt
+is_a: CDNO:0000022 ! dietary chromium
+
+[Term]
+id: CHEBI:190414
+name: inorganic copper salt
+is_a: CDNO:0000023 ! dietary copper
+
+[Term]
+id: CHEBI:190415
+name: organic copper salt
+is_a: CDNO:0000023 ! dietary copper
+
+[Term]
+id: CHEBI:190416
+name: inorganic fluoride salt
+is_a: CDNO:0000024 ! dietary fluorine
+
+[Term]
+id: CHEBI:190417
+name: organic fluoride salt
+is_a: CDNO:0000024 ! dietary fluorine
+
+[Term]
+id: CHEBI:190418
+name: inorganic iodine salt
+is_a: CDNO:0000025 ! dietary iodine
+
+[Term]
+id: CHEBI:190419
+name: organic iodine salt
+is_a: CDNO:0000025 ! dietary iodine
+
+[Term]
+id: CHEBI:190420
+name: inorganic iron salt
+is_a: CDNO:0000026 ! dietary iron
+
+[Term]
+id: CHEBI:190421
+name: organic iron salt
+is_a: CDNO:0000026 ! dietary iron
+
+[Term]
+id: CHEBI:190422
+name: inorganic manganese salt
+is_a: CDNO:0000027 ! dietary manganese
+
+[Term]
+id: CHEBI:190423
+name: organic manganese salt
+is_a: CDNO:0000027 ! dietary manganese
+
+[Term]
+id: CHEBI:190424
+name: inorganic molybdenum salt
+is_a: CDNO:0000028 ! dietary molybdenum
+
+[Term]
+id: CHEBI:190425
+name: organic molybdenum salt
+is_a: CDNO:0000028 ! dietary molybdenum
+
+[Term]
+id: CHEBI:190426
+name: selenium(4+)
+is_a: CDNO:0000029 ! dietary selenium
+
+[Term]
+id: CHEBI:190427
+name: selenium(6+)
+is_a: CDNO:0000029 ! dietary selenium
+
+[Term]
+id: CHEBI:190428
+name: inorganic selenium salt
+is_a: CDNO:0000029 ! dietary selenium
+
+[Term]
+id: CHEBI:190429
+name: organic selenium salt
+is_a: CDNO:0000029 ! dietary selenium
+
+[Term]
+id: CHEBI:190430
+name: inorganic zinc salt
+is_a: CDNO:0000030 ! dietary zinc
+
+[Term]
+id: CHEBI:190431
+name: organic zinc salt
+is_a: CDNO:0000030 ! dietary zinc
+
+[Term]
+id: CHEBI:190496
+name: titanium(3+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:190513
+name: calcium citrate
+is_a: CHEBI:51031 ! organic calcium salt
+
+[Term]
+id: CHEBI:190515
+name: organic calcium compound
+is_a: CDNO:0000015 ! dietary calcium
+
+[Term]
+id: CHEBI:190516
+name: organic phosphate compound
+is_a: CDNO:0000018 ! dietary phosphorus
+
+[Term]
+id: CHEBI:190517
+name: organic iron compound
+is_a: CDNO:0000026 ! dietary iron
+
+[Term]
+id: CHEBI:190519
+name: beta-lactoglobulin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
+
+[Term]
+id: CHEBI:190521
+name: napin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
+
+[Term]
+id: CHEBI:190522
+name: gliadin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
 
 [Term]
 id: CHEBI:2197
@@ -9750,56 +11128,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "179.05556
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@H]1(O[C@H]([C@H](O)[C@H]([C@@H]1O)O)O*)CO" xsd:string
 
 [Term]
-id: CHEBI:22977
-name: cadmium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "48Cd" RELATED [IUPAC]
-synonym: "cadmio" RELATED [ChEBI]
-synonym: "cadmium" EXACT IUPAC_NAME [IUPAC]
-synonym: "cadmium" RELATED [ChEBI]
-synonym: "Cd" RELATED [IUPAC]
-synonym: "Kadmium" RELATED [NIST_Chemistry_WebBook]
-xref: CAS:7440-43-9 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-43-9 {source="ChemIDplus"}
-xref: CAS:7440-43-9 {source="KEGG COMPOUND"}
-xref: KEGG:C01413
-xref: WebElements:Cd
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Cd" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Cd" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BDOSMKKIYDKNTQ-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "112.41100" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "113.90336" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cd]" xsd:string
-
-[Term]
-id: CHEBI:22984
-name: calcium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "20Ca" RELATED [IUPAC]
-synonym: "Ca" RELATED [IUPAC]
-synonym: "calcio" RELATED [ChEBI]
-synonym: "Calcium" RELATED [KEGG_COMPOUND]
-synonym: "calcium" EXACT IUPAC_NAME [IUPAC]
-synonym: "calcium" RELATED [ChEBI]
-synonym: "Kalzium" RELATED [ChEBI]
-xref: CAS:7440-70-2 {source="ChemIDplus"}
-xref: DrugBank:DB01373
-xref: KEGG:C00076
-xref: WebElements:Ca
-is_a: CDNO:0000011 ! macro element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Ca" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Ca" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "OYPRJOBELJOOCE-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "40.07800" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "39.96259" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ca]" xsd:string
-
-[Term]
 id: CHEBI:23042
 name: carotene
 namespace: chebi_ontology
@@ -9888,6 +11216,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/mass "164.158" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "164.04734" xsd:string
 
 [Term]
+id: CHEBI:23414
+name: copper(II) sulfate
+is_a: CHEBI:190414 ! inorganic copper salt
+is_a: CHEBI:24840 ! inorganic sulfate salt
+
+[Term]
 id: CHEBI:23849
 name: diterpenoid
 namespace: chebi_ontology
@@ -9948,6 +11282,11 @@ synonym: "glycoglycerolipids" RELATED [ChEBI]
 is_a: CHEBI:33563 ! glycolipid
 
 [Term]
+id: CHEBI:24401
+name: glucosinolate
+is_a: CHEBI:33261 ! organosulfur compound
+
+[Term]
 id: CHEBI:24676
 name: hydroxybenzoic acid
 namespace: chebi_ontology
@@ -9981,6 +11320,11 @@ subset: 3_STAR
 is_a: CHEBI:33709 ! amino acid
 
 [Term]
+id: CHEBI:24840
+name: inorganic sulfate salt
+is_a: CDNO:0000021 ! dietary sulfur
+
+[Term]
 id: CHEBI:24848
 name: inositol
 namespace: chebi_ontology
@@ -9998,32 +11342,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CDAISMWEOUEBRE-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "180.15588" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "180.06339" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1C(O)C(O)C(O)C(O)C1O" xsd:string
-
-[Term]
-id: CHEBI:24859
-name: iodine atom
-namespace: chebi_ontology
-def: "Chemical element with atomic number 53." []
-subset: 3_STAR
-synonym: "53I" RELATED [IUPAC]
-synonym: "I" RELATED [ChEBI]
-synonym: "Iod" RELATED [ChEBI]
-synonym: "iode" RELATED [ChEBI]
-synonym: "iodine" EXACT IUPAC_NAME [IUPAC]
-synonym: "iodine" RELATED [ChEBI]
-synonym: "iodium" RELATED [ChEBI]
-synonym: "J" RELATED [ChEBI]
-synonym: "Jod" RELATED [ChEBI]
-synonym: "yodo" RELATED [ChEBI]
-xref: WebElements:I
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "I" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/I" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZCYVEMRRCGMTRW-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "126.90447" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "126.90447" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[I]" xsd:string
 
 [Term]
 id: CHEBI:24866
@@ -10076,30 +11394,6 @@ xref: LIPID_MAPS_class:LMPR01 {source="LIPID MAPS"}
 xref: PMID:12769708 {source="Europe PMC"}
 xref: PMID:19219049 {source="Europe PMC"}
 is_a: CHEBI:18059 ! lipid
-
-[Term]
-id: CHEBI:25016
-name: lead atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "82Pb" RELATED [IUPAC]
-synonym: "Blei" RELATED [ChEBI]
-synonym: "lead" EXACT IUPAC_NAME [IUPAC]
-synonym: "lead" RELATED [ChEBI]
-synonym: "Pb" RELATED [IUPAC]
-synonym: "plomb" RELATED [ChEBI]
-synonym: "plomo" RELATED [ChEBI]
-synonym: "plumbum" RELATED [IUPAC]
-xref: KEGG:C06696
-xref: WebElements:Pb
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Pb" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Pb" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "WABPQHHGFIMREM-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "207.20000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "207.97665" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Pb]" xsd:string
 
 [Term]
 id: CHEBI:25017
@@ -10186,58 +11480,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "KDXKERNSBIXSRK-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "146.18764" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "146.10553" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "NCCCCC(N)C(O)=O" xsd:string
-
-[Term]
-id: CHEBI:25107
-name: magnesium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "12Mg" RELATED [IUPAC]
-synonym: "magnesio" RELATED [ChEBI]
-synonym: "Magnesium" RELATED [ChEBI]
-synonym: "magnesium" EXACT IUPAC_NAME [IUPAC]
-synonym: "magnesium" RELATED [ChEBI]
-synonym: "Mg" RELATED [IUPAC]
-xref: CAS:7439-95-4 {source="ChemIDplus"}
-xref: DrugBank:DB01378
-xref: Gmelin:16207 {source="Gmelin"}
-xref: KEGG:C00305
-xref: WebElements:Mg
-is_a: CDNO:0000011 ! macro element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Mg" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Mg" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "FYYHWMGAXLPEAU-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "24.30500" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "23.98504" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Mg]" xsd:string
-
-[Term]
-id: CHEBI:25195
-name: mercury atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "80Hg" RELATED [IUPAC]
-synonym: "azogue" RELATED [ChEBI]
-synonym: "Hg" RELATED [IUPAC]
-synonym: "hydrargyrum" RELATED [IUPAC]
-synonym: "liquid silver" RELATED [ChemIDplus]
-synonym: "mercure" RELATED [ChemIDplus]
-synonym: "mercurio" RELATED [ChEBI]
-synonym: "mercury" EXACT IUPAC_NAME [IUPAC]
-synonym: "mercury" RELATED [ChEBI]
-synonym: "Quecksilber" RELATED [ChemIDplus]
-synonym: "quicksilver" RELATED [ChemIDplus]
-xref: CAS:7439-97-6 {source="ChemIDplus"}
-xref: WebElements:Hg
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Hg" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Hg" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QSHDDOUJBYECFT-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "200.59000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "201.97064" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Hg]" xsd:string
 
 [Term]
 id: CHEBI:25322
@@ -10363,6 +11605,11 @@ xref: Wikipedia:Omega-3_fatty_acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
 
 [Term]
+id: CHEBI:25704
+name: organic sulfate salt
+is_a: CDNO:0000021 ! dietary sulfur
+
+[Term]
 id: CHEBI:25863
 name: pelargonidin
 namespace: chebi_ontology
@@ -10399,6 +11646,55 @@ subset: 3_STAR
 synonym: "phenylpropanoids" RELATED [ChEBI]
 xref: Wikipedia:Phenylpropanoid
 is_a: CDNO:0000013 ! plant secondary metabolite
+
+[Term]
+id: CHEBI:26078
+name: phosphoric acid
+namespace: chebi_ontology
+def: "A phosphorus oxoacid that consists of one oxo and three hydroxy groups joined covalently to a central phosphorus atom." []
+subset: 3_STAR
+synonym: "[PO(OH)3]" RELATED [IUPAC]
+synonym: "acide phosphorique" RELATED [ChEBI]
+synonym: "acidum phosphoricum" RELATED [ChEBI]
+synonym: "H3PO4" RELATED [IUPAC]
+synonym: "Orthophosphoric acid" RELATED [KEGG_COMPOUND]
+synonym: "orthophosphoric acid" RELATED [NIST_Chemistry_WebBook]
+synonym: "Phosphate" RELATED [KEGG_COMPOUND]
+synonym: "Phosphoric acid" EXACT [KEGG_COMPOUND]
+synonym: "phosphoric acid" EXACT [IUPAC]
+synonym: "Phosphorsaeure" RELATED [ChEBI]
+synonym: "Phosphorsaeureloesungen" RELATED [ChEBI]
+synonym: "tetraoxophosphoric acid" EXACT IUPAC_NAME [IUPAC]
+synonym: "trihydrogen tetraoxophosphate(3-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "trihydroxidooxidophosphorus" EXACT IUPAC_NAME [IUPAC]
+xref: Beilstein:1921286 {source="Beilstein"}
+xref: CAS:7664-38-2 {source="NIST Chemistry WebBook"}
+xref: CAS:7664-38-2 {source="KEGG COMPOUND"}
+xref: CAS:7664-38-2 {source="ChemIDplus"}
+xref: Drug_Central:4478 {source="DrugCentral"}
+xref: Gmelin:2000 {source="Gmelin"}
+xref: HMDB:HMDB0002142
+xref: KEGG:C00009
+xref: KEGG:D05467
+xref: KNApSAcK:C00007408
+xref: PMID:11455380 {source="Europe PMC"}
+xref: PMID:15630224 {source="Europe PMC"}
+xref: PMID:17439666 {source="Europe PMC"}
+xref: PMID:17518491 {source="Europe PMC"}
+xref: PMID:22282755 {source="Europe PMC"}
+xref: PMID:22333268 {source="Europe PMC"}
+xref: PMID:22381614 {source="Europe PMC"}
+xref: PMID:22401268 {source="Europe PMC"}
+xref: Reaxys:1921286 {source="Reaxys"}
+xref: Wikipedia:Phosphoric_Acid
+is_a: CDNO:0000018 ! dietary phosphorus
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "H3O4P" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "NBIIXXVUZAFLBC-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "97.99520" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "97.97690" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]OP(=O)(O[H])O[H]" xsd:string
 
 [Term]
 id: CHEBI:26119
@@ -10457,31 +11753,6 @@ xref: PMID:14977874 {source="Europe PMC"}
 xref: PMID:16380690 {source="Europe PMC"}
 xref: PMID:17891522 {source="Europe PMC"}
 is_a: CHEBI:35366 ! fatty acid
-
-[Term]
-id: CHEBI:26216
-name: potassium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "19K" RELATED [IUPAC]
-synonym: "K" RELATED [IUPAC]
-synonym: "Kalium" RELATED [ChemIDplus]
-synonym: "kalium" RELATED [IUPAC]
-synonym: "potasio" RELATED [ChEBI]
-synonym: "potassium" EXACT IUPAC_NAME [IUPAC]
-synonym: "potassium" RELATED [ChEBI]
-xref: CAS:7440-09-7 {source="ChemIDplus"}
-xref: DrugBank:DB01345
-xref: KEGG:C00238
-xref: WebElements:K
-is_a: CDNO:0000011 ! macro element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "K" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/K" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZLMJMSJWJFRBEC-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "39.09830" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "38.96371" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[K]" xsd:string
 
 [Term]
 id: CHEBI:26267
@@ -10612,29 +11883,10 @@ xref: LIPID_MAPS_class:LMPR0103 {source="LIPID MAPS"}
 is_a: CHEBI:26873 ! terpenoid
 
 [Term]
-id: CHEBI:26708
-name: sodium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "11Na" RELATED [IUPAC]
-synonym: "Na" RELATED [IUPAC]
-synonym: "Natrium" RELATED [ChemIDplus]
-synonym: "natrium" RELATED [IUPAC]
-synonym: "sodio" RELATED [ChemIDplus]
-synonym: "sodium" EXACT IUPAC_NAME [IUPAC]
-synonym: "sodium" RELATED [ChEBI]
-xref: CAS:7440-23-5 {source="ChemIDplus"}
-xref: Gmelin:16221 {source="Gmelin"}
-xref: KEGG:C01330
-xref: WebElements:Na
-is_a: CDNO:0000011 ! macro element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Na" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Na" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "KEAYESYHFKHZAL-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "22.98977" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "22.98977" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na]" xsd:string
+id: CHEBI:26709
+name: sodium hydrogensulfite
+synonym: "sodium bisulfate" EXACT []
+is_a: CHEBI:32149 ! sodium sulfate
 
 [Term]
 id: CHEBI:26710
@@ -10667,6 +11919,8 @@ xref: PPDB:595
 xref: Reaxys:3534976 {source="Reaxys"}
 xref: Wikipedia:Sodium_Chloride
 is_a: CHEBI:24866 ! salt
+is_a: CHEBI:36093 ! inorganic chloride
+is_a: CHEBI:38702 ! inorganic sodium salt
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "ClNa" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/ClH.Na/h1H;/q;+1/p-1" xsd:string
@@ -10711,38 +11965,6 @@ subset: 3_STAR
 synonym: "stilbenes" RELATED [ChEBI]
 synonym: "stilbenoids" RELATED [ChEBI]
 is_a: CDNO:0000013 ! plant secondary metabolite
-
-[Term]
-id: CHEBI:26833
-name: sulfur atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "16S" RELATED [IUPAC]
-synonym: "azufre" RELATED [ChEBI]
-synonym: "Elemental sulfur" RELATED [KEGG_COMPOUND]
-synonym: "S" RELATED [KEGG_COMPOUND]
-synonym: "S" RELATED [IUPAC]
-synonym: "Schwefel" RELATED [ChEBI]
-synonym: "soufre" RELATED [ChEBI]
-synonym: "sulfur" EXACT IUPAC_NAME [IUPAC]
-synonym: "sulfur" RELATED [ChEBI]
-synonym: "sulfur" RELATED [UniProt]
-synonym: "sulphur" RELATED [ChEBI]
-synonym: "theion" RELATED [IUPAC]
-xref: CAS:7704-34-9 {source="ChemIDplus"}
-xref: CAS:7704-34-9 {source="NIST Chemistry WebBook"}
-xref: KEGG:C00087
-xref: KEGG:D06527
-xref: PPDB:605
-xref: WebElements:S
-is_a: CDNO:0000011 ! macro element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "S" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/S" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "NINIDFKCEFEMDL-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "32.06600" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.97207" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[S]" xsd:string
 
 [Term]
 id: CHEBI:26848
@@ -10854,31 +12076,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C4H9NO3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "119.119" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "119.05824" xsd:string
-
-[Term]
-id: CHEBI:27007
-name: tin atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "50Sn" RELATED [IUPAC]
-synonym: "estano" RELATED [ChEBI]
-synonym: "etain" RELATED [ChEBI]
-synonym: "Sn" RELATED [IUPAC]
-synonym: "stannum" RELATED [IUPAC]
-synonym: "tin" EXACT IUPAC_NAME [IUPAC]
-synonym: "tin" RELATED [ChEBI]
-synonym: "Zinn" RELATED [ChemIDplus]
-xref: CAS:7440-31-5 {source="ChemIDplus"}
-xref: UM-BBD_compID:c0585 {source="UM-BBD"}
-xref: WebElements:Sn
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Sn" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Sn" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ATJFFYVFTNAWJD-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "118.71000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "119.90220" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Sn]" xsd:string
 
 [Term]
 id: CHEBI:27013
@@ -10995,35 +12192,6 @@ synonym: "xanthophylls" EXACT IUPAC_NAME [IUPAC]
 synonym: "xanthophylls" RELATED [ChEBI]
 xref: DrugBank:DB00137
 is_a: CHEBI:23044 ! carotenoid
-
-[Term]
-id: CHEBI:27363
-name: zinc atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "30Zn" RELATED [IUPAC]
-synonym: "cinc" RELATED [ChEBI]
-synonym: "zinc" EXACT IUPAC_NAME [IUPAC]
-synonym: "zinc" RELATED [ChEBI]
-synonym: "zincum" RELATED [ChEBI]
-synonym: "Zink" RELATED [ChEBI]
-synonym: "Zn" RELATED [IUPAC]
-synonym: "Zn(II)" RELATED [KEGG_COMPOUND]
-synonym: "Zn2+" RELATED [KEGG_COMPOUND]
-xref: CAS:7440-66-6 {source="ChemIDplus"}
-xref: CAS:7440-66-6 {source="KEGG COMPOUND"}
-xref: Gmelin:16321 {source="Gmelin"}
-xref: KEGG:C00038
-xref: PDBeChem:ZN
-xref: WebElements:Zn
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Zn" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Zn" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "HCHKCACWOHOZIP-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "65.39000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "63.92914" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Zn]" xsd:string
 
 [Term]
 id: CHEBI:27432
@@ -11304,63 +12472,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "286.08412
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1)[C@@H]1CC(=O)c2c(O)cc(O)cc2O1" xsd:string
 
 [Term]
-id: CHEBI:27560
-name: boron atom
-namespace: chebi_ontology
-alt_id: CHEBI:22915
-alt_id: CHEBI:3152
-subset: 3_STAR
-synonym: "5B" RELATED [IUPAC]
-synonym: "B" RELATED [KEGG_COMPOUND]
-synonym: "Bor" RELATED [ChEBI]
-synonym: "boracium" RELATED [ChEBI]
-synonym: "bore" RELATED [ChEBI]
-synonym: "boro" RELATED [ChEBI]
-synonym: "Boron" RELATED [KEGG_COMPOUND]
-synonym: "boron" EXACT IUPAC_NAME [IUPAC]
-synonym: "boron" RELATED [ChEBI]
-xref: CAS:7440-42-8 {source="ChemIDplus"}
-xref: CAS:7440-42-8 {source="KEGG COMPOUND"}
-xref: KEGG:C06266
-xref: WebElements:B
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "B" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/B" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZOXJGFHDIHLPTG-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "10.81100" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "11.00930" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[B]" xsd:string
-
-[Term]
-id: CHEBI:27563
-name: arsenic atom
-namespace: chebi_ontology
-alt_id: CHEBI:22630
-alt_id: CHEBI:2845
-subset: 3_STAR
-synonym: "33As" RELATED [IUPAC]
-synonym: "Arsen" RELATED [ChemIDplus]
-synonym: "Arsenic" RELATED [KEGG_COMPOUND]
-synonym: "arsenic" EXACT IUPAC_NAME [IUPAC]
-synonym: "arsenic" RELATED [ChEBI]
-synonym: "arsenico" RELATED [ChEBI]
-synonym: "arsenicum" RELATED [ChEBI]
-synonym: "As" RELATED [KEGG_COMPOUND]
-xref: CAS:7440-38-2 {source="ChemIDplus"}
-xref: CAS:7440-38-2 {source="KEGG COMPOUND"}
-xref: KEGG:C06269
-xref: WebElements:As
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "As" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/As" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "RQNWIZPPADIBDY-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "74.92160" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "74.92159" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[As]" xsd:string
-
-[Term]
 id: CHEBI:27566
 name: 6-prenylnaringenin
 namespace: chebi_ontology
@@ -11381,37 +12492,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "YHWNASRGLKJRJJ-KR
 property_value: http://purl.obolibrary.org/obo/chebi/mass "340.36980" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "340.13107" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)=CCc1c(O)cc2O[C@@H](CC(=O)c2c1O)c1ccc(O)cc1" xsd:string
-
-[Term]
-id: CHEBI:27568
-name: selenium atom
-namespace: chebi_ontology
-alt_id: CHEBI:26627
-alt_id: CHEBI:9091
-subset: 3_STAR
-synonym: "34Se" RELATED [IUPAC]
-synonym: "Se" RELATED [IUPAC]
-synonym: "Selen" RELATED [ChemIDplus]
-synonym: "selenio" RELATED [ChEBI]
-synonym: "Selenium" RELATED [KEGG_COMPOUND]
-synonym: "selenium" EXACT IUPAC_NAME [IUPAC]
-synonym: "selenium" RELATED [ChEBI]
-xref: CAS:7782-49-2 {source="ChemIDplus"}
-xref: CAS:7782-49-2 {source="NIST Chemistry WebBook"}
-xref: DrugBank:DB11135
-xref: FooDB:FDB013400
-xref: HMDB:HMDB0001349
-xref: KEGG:C01529
-xref: WebElements:Se
-xref: Wikipedia:Selenium
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Se" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Se" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BUGBHKTXTAQXES-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "78.96000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "79.91652" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Se]" xsd:string
 
 [Term]
 id: CHEBI:27570
@@ -11522,38 +12602,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "120.05751
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=O)c1ccccc1" xsd:string
 
 [Term]
-id: CHEBI:27638
-name: cobalt atom
-namespace: chebi_ontology
-alt_id: CHEBI:23335
-alt_id: CHEBI:3788
-def: "A cobalt group element atom that has atomic number 27." []
-subset: 3_STAR
-synonym: "27Co" RELATED [IUPAC]
-synonym: "Co" RELATED [IUPAC]
-synonym: "Cobalt" RELATED [KEGG_COMPOUND]
-synonym: "cobalt" EXACT IUPAC_NAME [IUPAC]
-synonym: "cobalt" RELATED [ChEBI]
-synonym: "cobalto" RELATED [ChEBI]
-synonym: "cobaltum" RELATED [ChEBI]
-synonym: "Kobalt" RELATED [NIST_Chemistry_WebBook]
-xref: CAS:7440-48-4 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-48-4 {source="ChemIDplus"}
-xref: CAS:7440-48-4 {source="KEGG COMPOUND"}
-xref: KEGG:C00175
-xref: KEGG:C19171
-xref: PDBeChem:3CO
-xref: WebElements:Co
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Co" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Co" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "GUTLYIVDDKVIGB-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "58.93320" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "58.93319" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Co]" xsd:string
-
-[Term]
 id: CHEBI:27680
 name: galactomannan
 namespace: chebi_ontology
@@ -11613,34 +12661,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "KZJWDPNRJALLNS-VJ
 property_value: http://purl.obolibrary.org/obo/chebi/mass "414.70670" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "414.38617" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CC[C@@H](CC)C(C)C" xsd:string
-
-[Term]
-id: CHEBI:27698
-name: vanadium atom
-namespace: chebi_ontology
-alt_id: CHEBI:27274
-alt_id: CHEBI:9930
-subset: 3_STAR
-synonym: "23V" RELATED [IUPAC]
-synonym: "V" RELATED [KEGG_COMPOUND]
-synonym: "V" RELATED [IUPAC]
-synonym: "vanadio" RELATED [ChEBI]
-synonym: "Vanadium" RELATED [KEGG_COMPOUND]
-synonym: "vanadium" EXACT IUPAC_NAME [IUPAC]
-synonym: "vanadium" RELATED [ChEBI]
-xref: CAS:7440-62-2 {source="KEGG COMPOUND"}
-xref: CAS:7440-62-2 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-62-2 {source="ChemIDplus"}
-xref: KEGG:C06267
-xref: WebElements:V
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "V" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/V" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LEONUFNNVUYDNQ-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "50.94150" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "50.94396" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[V]" xsd:string
 
 [Term]
 id: CHEBI:27732
@@ -12090,36 +13110,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "595.16575
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc4c(O)cc(O)cc4[o+]c3-c3ccc(O)c(O)c3)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" xsd:string
 
 [Term]
-id: CHEBI:28073
-name: chromium atom
-namespace: chebi_ontology
-alt_id: CHEBI:23235
-alt_id: CHEBI:3678
-def: "A chromium group element atom that has atomic number 24." []
-subset: 3_STAR
-synonym: "24Cr" RELATED [IUPAC]
-synonym: "Chrom" RELATED [ChemIDplus]
-synonym: "chrome" RELATED [ChEBI]
-synonym: "Chromium" RELATED [KEGG_COMPOUND]
-synonym: "chromium" EXACT IUPAC_NAME [IUPAC]
-synonym: "chromium" RELATED [ChEBI]
-synonym: "Cr" RELATED [KEGG_COMPOUND]
-synonym: "Cr" RELATED [IUPAC]
-synonym: "cromo" RELATED [ChEBI]
-xref: CAS:7440-47-3 {source="KEGG COMPOUND"}
-xref: CAS:7440-47-3 {source="ChemIDplus"}
-xref: KEGG:C06268
-xref: WebElements:Cr
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Cr" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Cr" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "VYZAMTAEIAYCRO-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "51.99610" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "51.94051" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cr]" xsd:string
-
-[Term]
 id: CHEBI:28088
 name: genistein
 namespace: chebi_ontology
@@ -12199,57 +13189,6 @@ xref: Wikipedia:Amylose
 is_a: CHEBI:18154 ! polysaccharide
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "(C6H10O5)nH2O" xsd:string
-
-[Term]
-id: CHEBI:28112
-name: nickel atom
-namespace: chebi_ontology
-alt_id: CHEBI:25515
-alt_id: CHEBI:7552
-def: "Chemical element (nickel group element atom) with atomic number 28." []
-subset: 3_STAR
-synonym: "28Ni" RELATED [IUPAC]
-synonym: "Ni" RELATED [IUPAC]
-synonym: "niccolum" RELATED [ChEBI]
-synonym: "Nickel" RELATED [ChEBI]
-synonym: "nickel" EXACT IUPAC_NAME [IUPAC]
-synonym: "nickel" RELATED [ChEBI]
-synonym: "niquel" RELATED [ChEBI]
-synonym: "Raney alloy" RELATED [ChemIDplus]
-xref: CAS:7440-02-0 {source="ChemIDplus"}
-xref: CAS:7440-02-0 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-02-0 {source="KEGG COMPOUND"}
-xref: Gmelin:16229 {source="Gmelin"}
-xref: KEGG:C00291
-xref: PMID:12756270 {source="Europe PMC"}
-xref: PMID:14634084 {source="Europe PMC"}
-xref: PMID:14734778 {source="Europe PMC"}
-xref: PMID:15165199 {source="Europe PMC"}
-xref: PMID:19828094 {source="Europe PMC"}
-xref: PMID:20477134 {source="Europe PMC"}
-xref: PMID:22762130 {source="Europe PMC"}
-xref: PMID:23142754 {source="Europe PMC"}
-xref: PMID:23317102 {source="Europe PMC"}
-xref: PMID:23692032 {source="Europe PMC"}
-xref: PMID:23692035 {source="Europe PMC"}
-xref: PMID:23723488 {source="Europe PMC"}
-xref: PMID:23834453 {source="Europe PMC"}
-xref: PMID:23857010 {source="Europe PMC"}
-xref: PMID:23895079 {source="Europe PMC"}
-xref: PMID:23909687 {source="Europe PMC"}
-xref: PMID:9060994 {source="Europe PMC"}
-xref: PMID:9886425 {source="Europe PMC"}
-xref: Reaxys:4122946 {source="Reaxys"}
-xref: WebElements:Ni
-xref: Wikipedia:Nickel
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Ni" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Ni" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "PXHVJJICTQNCMI-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "58.69340" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "57.93534" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ni]" xsd:string
 
 [Term]
 id: CHEBI:28157
@@ -12408,6 +13347,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C6H12O6" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "180.156" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "180.06339" xsd:string
+
+[Term]
+id: CHEBI:28262
+name: dimethyl sulfoxide
+is_a: CHEBI:33261 ! organosulfur compound
 
 [Term]
 id: CHEBI:28300
@@ -12750,36 +13694,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "400.37052
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CC[C@@H](C)C(C)C" xsd:string
 
 [Term]
-id: CHEBI:28659
-name: phosphorus atom
-namespace: chebi_ontology
-alt_id: CHEBI:26080
-alt_id: CHEBI:8168
-subset: 3_STAR
-synonym: "15P" RELATED [IUPAC]
-synonym: "fosforo" RELATED [ChEBI]
-synonym: "P" RELATED [IUPAC]
-synonym: "P" RELATED [KEGG_COMPOUND]
-synonym: "Phosphor" RELATED [ChEBI]
-synonym: "phosphore" RELATED [ChEBI]
-synonym: "Phosphorus" RELATED [KEGG_COMPOUND]
-synonym: "phosphorus" EXACT IUPAC_NAME [IUPAC]
-synonym: "phosphorus" RELATED [ChEBI]
-xref: CAS:7723-14-0 {source="ChemIDplus"}
-xref: CAS:7723-14-0 {source="KEGG COMPOUND"}
-xref: Gmelin:16235 {source="Gmelin"}
-xref: KEGG:C06262
-xref: WebElements:P
-is_a: CDNO:0000011 ! macro element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "P" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/P" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "OAICVXFJPJFONN-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "30.97376" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "30.97376" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[P]" xsd:string
-
-[Term]
 id: CHEBI:28661
 name: gamma-linolenic acid
 name: γ-linolenic acid
@@ -12830,68 +13744,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "VZCCETWTMQHEPK-QN
 property_value: http://purl.obolibrary.org/obo/chebi/mass "278.42960" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "278.22458" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCC\\C=C/C\\C=C/C\\C=C/CCCCC(O)=O" xsd:string
-
-[Term]
-id: CHEBI:28685
-name: molybdenum atom
-namespace: chebi_ontology
-alt_id: CHEBI:25369
-alt_id: CHEBI:49750
-alt_id: CHEBI:6968
-subset: 3_STAR
-synonym: "42Mo" RELATED [IUPAC]
-synonym: "Mo" RELATED [IUPAC]
-synonym: "molibdeno" RELATED [ChEBI]
-synonym: "Molybdaen" RELATED [ChEBI]
-synonym: "molybdene" RELATED [ChEBI]
-synonym: "Molybdenum" RELATED [KEGG_COMPOUND]
-synonym: "molybdenum" EXACT IUPAC_NAME [IUPAC]
-synonym: "molybdenum" RELATED [ChEBI]
-xref: CAS:7439-98-7 {source="ChemIDplus"}
-xref: CAS:7439-98-7 {source="NIST Chemistry WebBook"}
-xref: CAS:7439-98-7 {source="KEGG COMPOUND"}
-xref: Gmelin:16205 {source="Gmelin"}
-xref: KEGG:C00150
-xref: WebElements:Mo
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Mo" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Mo" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZOKXTWBITQBERF-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "95.94000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "97.90541" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Mo]" xsd:string
-
-[Term]
-id: CHEBI:28694
-name: copper atom
-namespace: chebi_ontology
-alt_id: CHEBI:23376
-alt_id: CHEBI:3874
-subset: 3_STAR
-synonym: "29Cu" RELATED [IUPAC]
-synonym: "cobre" RELATED [ChEBI]
-synonym: "Copper" RELATED [KEGG_COMPOUND]
-synonym: "copper" EXACT IUPAC_NAME [IUPAC]
-synonym: "copper" RELATED [ChEBI]
-synonym: "Cu" RELATED [ChEBI]
-synonym: "Cu" RELATED [IUPAC]
-synonym: "cuivre" RELATED [ChEBI]
-synonym: "cuprum" RELATED [IUPAC]
-synonym: "Kupfer" RELATED [ChEBI]
-xref: CAS:7440-50-8 {source="ChemIDplus"}
-xref: CAS:7440-50-8 {source="KEGG COMPOUND"}
-xref: Gmelin:16269 {source="Gmelin"}
-xref: KEGG:C00070
-xref: WebElements:Cu
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Cu" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Cu" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "RYGMFSIKBFXOCR-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "63.54600" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.92960" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cu]" xsd:string
 
 [Term]
 id: CHEBI:28705
@@ -13009,6 +13861,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SECPZKHBENQXJG-FP
 property_value: http://purl.obolibrary.org/obo/chebi/mass "254.409" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "254.22458" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(CCCCCCC/C=C\\CCCCCC)(=O)O" xsd:string
+
+[Term]
+id: CHEBI:28741
+name: sodium fluoride
+is_a: CHEBI:38702 ! inorganic sodium salt
 
 [Term]
 id: CHEBI:28757
@@ -13603,6 +14460,7 @@ xref: PMID:23015060 {source="Europe PMC"}
 xref: PMID:23118092 {source="Europe PMC"}
 xref: Wikipedia:Phosphatidylinositol
 is_a: CHEBI:16247 ! phospholipid
+is_a: CHEBI:190516 ! organic phosphate compound
 
 [Term]
 id: CHEBI:28875
@@ -13979,37 +14837,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "180.06473
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "Cn1cnc2n(C)c(=O)[nH]c(=O)c12" xsd:string
 
 [Term]
-id: CHEBI:28984
-name: aluminium atom
-namespace: chebi_ontology
-alt_id: CHEBI:22471
-alt_id: CHEBI:2616
-subset: 3_STAR
-synonym: "13Al" RELATED [IUPAC]
-synonym: "Al" RELATED [KEGG_COMPOUND]
-synonym: "Al" RELATED [IUPAC]
-synonym: "aluminio" RELATED [ChEBI]
-synonym: "Aluminium" RELATED [ChEBI]
-synonym: "Aluminium" RELATED [KEGG_COMPOUND]
-synonym: "aluminium" EXACT IUPAC_NAME [IUPAC]
-synonym: "aluminium" RELATED [ChEBI]
-synonym: "aluminum" RELATED [NIST_Chemistry_WebBook]
-xref: CAS:7429-90-5 {source="KEGG COMPOUND"}
-xref: CAS:7429-90-5 {source="ChemIDplus"}
-xref: DrugBank:DB01370
-xref: Gmelin:16248 {source="Gmelin"}
-xref: KEGG:C06264
-xref: WebElements:Al
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Al" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Al" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XAGFODPZIPBFFR-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "26.98154" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "26.98154" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Al]" xsd:string
-
-[Term]
 id: CHEBI:29016
 name: arginine
 namespace: chebi_ontology
@@ -14038,6 +14865,21 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ODKSFYDXXFIFQN-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "174.20112" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "174.11168" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(CCCNC(N)=N)C(O)=O" xsd:string
+
+[Term]
+id: CHEBI:29033
+name: iron(2+)
+is_a: CDNO:0000026 ! dietary iron
+
+[Term]
+id: CHEBI:29036
+name: copper(2+)
+is_a: CDNO:0000023 ! dietary copper
+
+[Term]
+id: CHEBI:29041
+name: manganese(3+)
+is_a: CDNO:0000027 ! dietary manganese
 
 [Term]
 id: CHEBI:29073
@@ -14117,6 +14959,62 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CIWBSHSKHKDKBQ-JL
 property_value: http://purl.obolibrary.org/obo/chebi/mass "176.12410" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "176.03209" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(OC(=O)C(O)=C1O)[C@@H](O)CO" xsd:string
+
+[Term]
+id: CHEBI:29101
+name: sodium(1+)
+namespace: chebi_ontology
+alt_id: CHEBI:26717
+alt_id: CHEBI:49766
+alt_id: CHEBI:9175
+def: "A monoatomic monocation obtained from sodium." []
+subset: 3_STAR
+synonym: "Na(+)" RELATED [UniProt]
+synonym: "Na(+)" RELATED [IUPAC]
+synonym: "Na+" RELATED [KEGG_COMPOUND]
+synonym: "sodium cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "SODIUM ION" RELATED [PDBeChem]
+synonym: "sodium(1+)" EXACT IUPAC_NAME [IUPAC]
+synonym: "sodium(1+) ion" EXACT IUPAC_NAME [IUPAC]
+synonym: "sodium(I) cation" EXACT IUPAC_NAME [IUPAC]
+xref: CAS:17341-25-2 {source="ChemIDplus"}
+xref: CAS:17341-25-2 {source="NIST Chemistry WebBook"}
+xref: Gmelin:15196 {source="Gmelin"}
+xref: KEGG:C01330
+xref: PDBeChem:NA
+is_a: CDNO:0000020 ! dietary sodium
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "Na" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Na/q+1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "FKNQFGJONOIPTF-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "22.98977" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "22.98922" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na+]" xsd:string
+
+[Term]
+id: CHEBI:29103
+name: potassium(1+)
+is_a: CDNO:0000019 ! dietary potassium
+
+[Term]
+id: CHEBI:29105
+name: zinc(2+)
+is_a: CDNO:0000030 ! dietary zinc
+
+[Term]
+id: CHEBI:29108
+name: calcium(2+)
+is_a: CDNO:0000015 ! dietary calcium
+
+[Term]
+id: CHEBI:29222
+name: hypochlorite
+is_a: CHEBI:17996 ! chloride
+
+[Term]
+id: CHEBI:29256
+name: thiol
+is_a: CHEBI:33261 ! organosulfur compound
 
 [Term]
 id: CHEBI:29503
@@ -14237,73 +15135,14 @@ property_value: http://purl.obolibrary.org/obo/chebi/mass "182.172" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "182.07904" xsd:string
 
 [Term]
-id: CHEBI:30145
-name: lithium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "3Li" RELATED [IUPAC]
-synonym: "Li" RELATED [IUPAC]
-synonym: "Lithium" RELATED [ChEBI]
-synonym: "lithium" EXACT IUPAC_NAME [IUPAC]
-synonym: "lithium" RELATED [ChEBI]
-synonym: "litio" RELATED [ChEBI]
-xref: CAS:7439-93-2 {source="NIST Chemistry WebBook"}
-xref: WebElements:Li
+id: CHEBI:30168
+name: boron(3+)
 is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Li" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Li" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "WHXSMMKQMYFTQS-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "6.94100" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "7.01600" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Li]" xsd:string
 
 [Term]
-id: CHEBI:30513
-name: antimony atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "51Sb" RELATED [IUPAC]
-synonym: "antimoine" RELATED [ChEBI]
-synonym: "Antimon" RELATED [ChEBI]
-synonym: "antimonio" RELATED [ChEBI]
-synonym: "antimony" EXACT IUPAC_NAME [IUPAC]
-synonym: "antimony" RELATED [ChEBI]
-synonym: "Sb" RELATED [IUPAC]
-synonym: "stibium" RELATED [IUPAC]
-xref: WebElements:Sb
+id: CHEBI:30475
+name: tin(2+)
 is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Sb" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Sb" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "WATWJIUSRGPENY-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "121.76000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "120.90381" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Sb]" xsd:string
-
-[Term]
-id: CHEBI:30514
-name: caesium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "55Cs" RELATED [IUPAC]
-synonym: "Caesium" RELATED [ChEBI]
-synonym: "caesium" EXACT IUPAC_NAME [IUPAC]
-synonym: "caesium" RELATED [ChEBI]
-synonym: "cesio" RELATED [ChEBI]
-synonym: "cesium" RELATED [IUPAC]
-synonym: "cesium" RELATED [ChEBI]
-synonym: "Cs" RELATED [IUPAC]
-synonym: "Zaesium" RELATED [ChEBI]
-xref: WebElements:Cs
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Cs" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Cs" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "TVFDJXOCXUVLDH-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "132.90545" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "132.90545" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cs]" xsd:string
 
 [Term]
 id: CHEBI:30744
@@ -14829,6 +15668,22 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "578.16356
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](O[C@H]2[C@@H](O[C@H](CO)[C@@H](O)[C@@H]2O)Oc2cc(O)c3c(c2)oc(cc3=O)-c2ccc(O)cc2)[C@H](O)[C@H](O)[C@H]1O" xsd:string
 
 [Term]
+id: CHEBI:31336
+name: calcium glycerophosphate
+is_a: CHEBI:51031 ! organic calcium salt
+
+[Term]
+id: CHEBI:31342
+name: calcium hypochlorite
+is_a: CHEBI:190295 ! inorganic calcium salt
+
+[Term]
+id: CHEBI:31346
+name: calcium sulfate
+is_a: CHEBI:190295 ! inorganic calcium salt
+is_a: CHEBI:24840 ! inorganic sulfate salt
+
+[Term]
 id: CHEBI:31463
 name: delphinidin 3-O-beta-D-glucoside
 name: delphinidin 3-O-β-D-glucoside
@@ -14858,6 +15713,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XENHPQQLDPAYIJ-PE
 property_value: http://purl.obolibrary.org/obo/chebi/mass "465.38420" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "465.10275" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](Oc2cc3c(O)cc(O)cc3[o+]c2-c2cc(O)c(O)c(O)c2)[C@H](O)[C@@H](O)[C@@H]1O" xsd:string
+
+[Term]
+id: CHEBI:31604
+name: ferric ammonium citrate
+synonym: "iron ammonium citrate" EXACT []
+is_a: CHEBI:190517 ! organic iron compound
 
 [Term]
 id: CHEBI:3168
@@ -14903,6 +15764,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "OILXMJHPFNGGTO-ZA
 property_value: http://purl.obolibrary.org/obo/chebi/mass "398.675" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "398.35487" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@]12([C@]3([C@@]([C@@]4(C(C[C@@H](O)CC4)=CC3)C)(CC[C@@]1([C@@]([C@@H](/C=C/[C@@H](C(C)C)C)C)(CC2)[H])C)[H])[H])[H]" xsd:string
+
+[Term]
+id: CHEBI:31793
+name: magnesium carbonate
+is_a: CHEBI:190299 ! organic magnesium salt
 
 [Term]
 id: CHEBI:31799
@@ -14977,6 +15843,34 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CCQDWIRWKWIUKK-QK
 property_value: http://purl.obolibrary.org/obo/chebi/mass "479.41080" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "479.11840" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(cc(O)c1O)-c1[o+]c2cc(O)cc(O)c2cc1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" xsd:string
+
+[Term]
+id: CHEBI:32034
+name: potassium bitartrate
+is_a: CHEBI:50394 ! organic potassium salt
+
+[Term]
+id: CHEBI:32036
+name: potassium sulfate
+is_a: CHEBI:190303 ! inorganic potassium salt
+is_a: CHEBI:24840 ! inorganic sulfate salt
+
+[Term]
+id: CHEBI:32139
+name: sodium hydrogencarbonate
+synonym: "sodium bicarbonate" EXACT []
+is_a: CHEBI:38702 ! inorganic sodium salt
+
+[Term]
+id: CHEBI:32145
+name: sodium hydroxide
+is_a: CHEBI:38702 ! inorganic sodium salt
+
+[Term]
+id: CHEBI:32149
+name: sodium sulfate
+is_a: CHEBI:24840 ! inorganic sulfate salt
+is_a: CHEBI:38702 ! inorganic sodium salt
 
 [Term]
 id: CHEBI:32365
@@ -15139,24 +16033,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "310.28718
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(=O)(CCCCCCCCC/C=C\\CCCCCCCC)O" xsd:string
 
 [Term]
-id: CHEBI:32595
-name: barium(0)
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "Ba(0)" RELATED [ChEBI]
-synonym: "Ban" RELATED [IUPAC]
-synonym: "barium" EXACT IUPAC_NAME [IUPAC]
-synonym: "barium(0)" EXACT [IUPAC]
-xref: CAS:7440-39-3 {source="ChemIDplus"}
-xref: CAS:7440-39-3 {source="NIST Chemistry WebBook"}
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Ba" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Ba" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "DSAJWYNOEDNPEQ-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "137.32700" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "137.90525" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ba]" xsd:string
+id: CHEBI:32588
+name: potassium chloride
+is_a: CHEBI:190303 ! inorganic potassium salt
+is_a: CHEBI:36093 ! inorganic chloride
+
+[Term]
+id: CHEBI:32599
+name: magnesium sulfate
+is_a: CHEBI:24840 ! inorganic sulfate salt
 
 [Term]
 id: CHEBI:32816
@@ -15214,6 +16099,32 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LCTONWCANYUPML-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "88.06206" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "88.01604" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=O)C(O)=O" xsd:string
+
+[Term]
+id: CHEBI:33004
+name: vanadium(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:33006
+name: chromium(2+)
+is_a: CDNO:0000022 ! dietary chromium
+
+[Term]
+id: CHEBI:3311
+name: calcium carbonate
+is_a: CHEBI:190295 ! inorganic calcium salt
+
+[Term]
+id: CHEBI:3312
+name: calcium dichloride
+is_a: CHEBI:190295 ! inorganic calcium salt
+is_a: CHEBI:36093 ! inorganic chloride
+
+[Term]
+id: CHEBI:33192
+name: sodium cyanide
+is_a: CHEBI:38702 ! inorganic sodium salt
 
 [Term]
 id: CHEBI:33234
@@ -15291,6 +16202,19 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "DIPPFEXMRDPFBK-JP
 property_value: http://purl.obolibrary.org/obo/chebi/mass "398.66424" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "398.35487" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@]2([H])[C@]1(C)CCC\\C2=C/C=C1/C[C@@H](O)CCC1=C)[C@H](C)CC[C@H](C)C(C)C" xsd:string
+
+[Term]
+id: CHEBI:33261
+name: organosulfur compound
+namespace: chebi_ontology
+alt_id: CHEBI:23010
+alt_id: CHEBI:25714
+def: "An organosulfur compound is a compound containing at least one carbon-sulfur bond." []
+subset: 3_STAR
+synonym: "organosulfur compound" EXACT [ChEBI]
+synonym: "organosulfur compounds" RELATED [ChEBI]
+xref: Wikipedia:Organosulfur_compounds
+is_a: CDNO:0000021 ! dietary sulfur
 
 [Term]
 id: CHEBI:33270
@@ -15562,122 +16486,9 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "412.37052
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@]2([H])[C@]1(C)CCC\\C2=C/C=C1/C[C@@H](O)CCC1=C)[C@H](C)CC[C@@H](CC)C(C)C" xsd:string
 
 [Term]
-id: CHEBI:33301
-name: bismuth atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "83Bi" RELATED [IUPAC]
-synonym: "Bi" RELATED [IUPAC]
-synonym: "Bismut" RELATED [ChEBI]
-synonym: "bismuth" EXACT IUPAC_NAME [IUPAC]
-synonym: "bismuth" RELATED [ChEBI]
-synonym: "bismuto" RELATED [ChEBI]
-synonym: "Wismut" RELATED [ChEBI]
-xref: CAS:7440-69-9 {source="ChemIDplus"}
-xref: WebElements:Bi
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Bi" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Bi" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "JCXGWMGPZLAOME-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "208.98038" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "208.98040" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Bi]" xsd:string
-
-[Term]
-id: CHEBI:33322
-name: rubidium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "37Rb" RELATED [IUPAC]
-synonym: "Rb" RELATED [IUPAC]
-synonym: "rubidio" RELATED [ChEBI]
-synonym: "rubidium" EXACT IUPAC_NAME [IUPAC]
-synonym: "rubidium" RELATED [ChEBI]
-xref: CAS:7440-17-7 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-17-7 {source="ChemIDplus"}
-xref: DrugBank:DB06749
-xref: Gmelin:16244 {source="Gmelin"}
-xref: WebElements:Rb
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Rb" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Rb" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "IGLNJRXAVVLDKE-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "85.46780" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "84.91179" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Rb]" xsd:string
-
-[Term]
-id: CHEBI:33324
-name: strontium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "38Sr" RELATED [IUPAC]
-synonym: "estroncio" RELATED [ChEBI]
-synonym: "Sr" RELATED [IUPAC]
-synonym: "strontium" EXACT IUPAC_NAME [IUPAC]
-synonym: "strontium" RELATED [ChEBI]
-xref: CAS:7440-24-6 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-24-6 {source="ChemIDplus"}
-xref: WebElements:Sr
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Sr" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Sr" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CIOAGBVUUVVLOB-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "87.62000" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "87.90561" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Sr]" xsd:string
-
-[Term]
-id: CHEBI:33336
-name: lanthanum atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "57La" RELATED [IUPAC]
-synonym: "La" RELATED [ChEBI]
-synonym: "lantano" RELATED [ChEBI]
-synonym: "Lanthan" RELATED [ChEBI]
-synonym: "lanthane" RELATED [ChEBI]
-synonym: "lanthanum" EXACT IUPAC_NAME [IUPAC]
-synonym: "lanthanum" RELATED [ChEBI]
-xref: CAS:7439-91-0 {source="NIST Chemistry WebBook"}
-xref: CAS:7439-91-0 {source="ChemIDplus"}
-xref: Gmelin:16203 {source="Gmelin"}
-xref: WebElements:La
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "La" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/La" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "FZLIPJUXYLNCLC-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "138.90550" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "138.90636" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[La]" xsd:string
-
-[Term]
-id: CHEBI:33341
-name: titanium atom
-namespace: chebi_ontology
-subset: 3_STAR
-synonym: "22Ti" RELATED [IUPAC]
-synonym: "Ti" RELATED [IUPAC]
-synonym: "Titan" RELATED [ChEBI]
-synonym: "titane" RELATED [ChEBI]
-synonym: "titanio" RELATED [ChEBI]
-synonym: "titanium" EXACT IUPAC_NAME [IUPAC]
-synonym: "titanium" RELATED [ChEBI]
-xref: CAS:7440-32-6 {source="NIST Chemistry WebBook"}
-xref: CAS:7440-32-6 {source="ChemIDplus"}
-xref: WebElements:Ti
-is_a: CDNO:0000012 ! trace element
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Ti" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Ti" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/inchikey "RTAQQCXQSZGOHL-UHFFFAOYSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "47.86700" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "47.94794" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ti]" xsd:string
+id: CHEBI:33468
+name: phosphide
+is_a: CDNO:0000018 ! dietary phosphorus
 
 [Term]
 id: CHEBI:33563
@@ -15846,6 +16657,27 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "284.06847
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc2c(cc1O)occ(-c1ccc(O)cc1)c2=O" xsd:string
 
 [Term]
+id: CHEBI:35104
+name: strontium(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:35143
+name: hemoglobin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
+
+[Term]
+id: CHEBI:35149
+name: magnesium hydroxide
+is_a: CHEBI:190297 ! inorganic magnesium salt
+
+[Term]
+id: CHEBI:35150
+name: calcium hydroxide
+is_a: CHEBI:190295 ! inorganic calcium salt
+
+[Term]
 id: CHEBI:35186
 name: terpene
 namespace: chebi_ontology
@@ -15917,6 +16749,16 @@ synonym: "monosaccharides" EXACT IUPAC_NAME [IUPAC]
 synonym: "Monosacharid" RELATED [ChEBI]
 xref: KEGG:C06698
 is_a: CHEBI:16646 ! carbohydrate
+
+[Term]
+id: CHEBI:35437
+name: calcium difluoride
+is_a: CHEBI:190295 ! inorganic calcium salt
+
+[Term]
+id: CHEBI:35828
+name: arsenic(3+)
+is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CHEBI:3594
@@ -16072,6 +16914,24 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "164.04734
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]C(=Cc1ccc(O)cc1)C(O)=O" xsd:string
 
 [Term]
+id: CHEBI:36093
+name: inorganic chloride
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "inorganic chloride salt" RELATED [ChEBI]
+synonym: "inorganic chloride salts" RELATED [ChEBI]
+synonym: "inorganic chlorides" RELATED [ChEBI]
+is_a: CHEBI:17996 ! chloride
+
+[Term]
+id: CHEBI:36094
+name: organic chloride salt
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "organic chloride salts" RELATED [ChEBI]
+is_a: CHEBI:17996 ! chloride
+
+[Term]
 id: CHEBI:36122
 name: pelargonidin 3-O-beta-D-glucoside chloride
 name: pelargonidin 3-O-β-D-glucoside chloride
@@ -16151,6 +17011,11 @@ xref: KEGG:C06085
 is_a: CHEBI:26873 ! terpenoid
 
 [Term]
+id: CHEBI:36683
+name: organochlorine compound
+is_a: CHEBI:17996 ! chloride
+
+[Term]
 id: CHEBI:36799
 name: campestanol
 namespace: chebi_ontology
@@ -16174,6 +17039,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ARYTXMNEANMLMU-AT
 property_value: http://purl.obolibrary.org/obo/chebi/mass "402.69600" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "402.38617" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CC[C@]3([H])[C@]([H])(CC[C@]4(C)[C@]([H])(CC[C@@]34[H])[C@H](C)CC[C@@H](C)C(C)C)[C@@]1(C)CC[C@H](O)C2" xsd:string
+
+[Term]
+id: CHEBI:37136
+name: barium(2+)
+is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CHEBI:37163
@@ -16254,6 +17124,17 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "344.08960
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(ccc1O)-c1cc(=O)c2c(O)c(OC)c(OC)cc2o1" xsd:string
 
 [Term]
+id: CHEBI:37317
+name: lanthanum(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:37586
+name: sodium phosphate
+is_a: CHEBI:190300 ! inorganic phosphate salt
+is_a: CHEBI:38702 ! inorganic sodium salt
+
+[Term]
 id: CHEBI:37664
 name: cyanidin 3-O-beta-D-galactoside chloride
 name: cyanidin 3-O-β-D-galactoside chloride
@@ -16310,6 +17191,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QDVZZZBBPRFPDG-DH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "646.97814" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "646.13006" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cl-].OC[C@H]1O[C@@H](Oc2cc3c(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)cc(O)cc3[o+]c2-c2ccc(O)c(O)c2)[C@H](O)[C@@H](O)[C@@H]1O" xsd:string
+
+[Term]
+id: CHEBI:3815
+name: collagen
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
 
 [Term]
 id: CHEBI:38691
@@ -16373,6 +17260,19 @@ namespace: chebi_ontology
 def: "An organic chloride salt of any anthocyanin." []
 subset: 3_STAR
 is_a: CHEBI:38697 ! anthocyanin
+
+[Term]
+id: CHEBI:38700
+name: organic sodium salt
+is_a: CDNO:0000020 ! dietary sodium
+
+[Term]
+id: CHEBI:38702
+name: inorganic sodium salt
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "inorganic sodium salts" RELATED [ChEBI]
+is_a: CDNO:0000020 ! dietary sodium
 
 [Term]
 id: CHEBI:38755
@@ -16899,6 +17799,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "219.11067
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)(CO)[C@@H](O)C(=O)NCCC(O)=O" xsd:string
 
 [Term]
+id: CHEBI:4767
+name: elastin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
+
+[Term]
 id: CHEBI:47771
 name: beta-tocopherol
 name: β-tocopherol
@@ -17165,6 +18071,21 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "458.08491
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc(O)c2C[C@@H](OC(=O)c3cc(O)c(O)c(O)c3)[C@H](Oc2c1)c1cc(O)c(O)c(O)c1" xsd:string
 
 [Term]
+id: CHEBI:48607
+name: lithium chloride
+is_a: CHEBI:36093 ! inorganic chloride
+
+[Term]
+id: CHEBI:48775
+name: cadmium(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:48828
+name: cobalt(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
 id: CHEBI:49105
 name: thiamine hydrochloride
 namespace: chebi_ontology
@@ -17217,6 +18138,51 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "DPJRMOMPQZCRJU-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "337.270" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "336.05784" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C([N+]=1C(=C(SC1)CCO)C)C=2C(=NC(C)=NC2)N.[Cl-].Cl" xsd:string
+
+[Term]
+id: CHEBI:49414
+name: molybdenum(4+)
+is_a: CDNO:0000028 ! dietary molybdenum
+
+[Term]
+id: CHEBI:49446
+name: molybdenum(6+)
+is_a: CDNO:0000028 ! dietary molybdenum
+
+[Term]
+id: CHEBI:49470
+name: aluminium(3+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:49547
+name: caesium(1+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:49713
+name: lithium(1+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:49786
+name: nickel(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:49807
+name: lead(2+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:49847
+name: rubidium(1+)
+is_a: CDNO:0000012 ! trace element
+
+[Term]
+id: CHEBI:49867
+name: antimony(3+)
+is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CHEBI:50128
@@ -17302,6 +18268,17 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "286.22967
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C=CC=C(C)C=CC1=C(C)CCCC1(C)C)=CCO" xsd:string
 
 [Term]
+id: CHEBI:50394
+name: organic potassium salt
+is_a: CDNO:0000019 ! dietary potassium
+
+[Term]
+id: CHEBI:5054
+name: fibrin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
+
+[Term]
 id: CHEBI:50699
 name: oligosaccharide
 namespace: chebi_ontology
@@ -17364,6 +18341,16 @@ xref: Wikipedia:Isoflavonoid
 is_a: CHEBI:72544 ! flavonoids
 
 [Term]
+id: CHEBI:50985
+name: sodium borohydride
+is_a: CHEBI:38702 ! inorganic sodium salt
+
+[Term]
+id: CHEBI:51031
+name: organic calcium salt
+is_a: CDNO:0000015 ! dietary calcium
+
+[Term]
 id: CHEBI:51084
 name: inorganic nitrate salt
 namespace: chebi_ontology
@@ -17389,6 +18376,21 @@ subset: 3_STAR
 synonym: "methyl ketones" RELATED [ChEBI]
 synonym: "phenolic ketone" RELATED []
 is_a: CDNO:0000013 ! plant secondary metabolite
+
+[Term]
+id: CHEBI:52221
+name: isothiocyanate
+is_a: CHEBI:33261 ! organosulfur compound
+
+[Term]
+id: CHEBI:52476
+name: sodium phenolate
+is_a: CHEBI:38700 ! organic sodium salt
+
+[Term]
+id: CHEBI:53258
+name: sodium citrate
+is_a: CHEBI:38700 ! organic sodium salt
 
 [Term]
 id: CHEBI:5326
@@ -17596,11 +18598,17 @@ subset: 3_STAR
 synonym: "lysophosphatidylcholines" RELATED [ChEBI]
 synonym: "monoacylglycero-3-phosphocholine" RELATED [UniProt]
 is_a: CHEBI:16247 ! phospholipid
+is_a: CHEBI:190516 ! organic phosphate compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C9H19NO7PR" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "255.206" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "255.08717" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@](CO*)(O*)([H])COP(OCC[N+](C)(C)C)(=O)[O-]" xsd:string
+
+[Term]
+id: CHEBI:60871
+name: selenium(2+)
+is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CHEBI:61204
@@ -17656,6 +18664,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "536.43820
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)=CCC\\C(C)=C\\C=C/C(C)=C\\C=C\\C(C)=C\\C=C\\C=C(C)\\C=C\\C=C(C)/C=C\\C=C(/C)CCC=C(C)C" xsd:string
 
 [Term]
+id: CHEBI:62965
+name: sodium formate
+is_a: CHEBI:38700 ! organic sodium salt
+
+[Term]
 id: CHEBI:62967
 name: amorphous cellulose
 name: cellulose
@@ -17665,6 +18678,21 @@ subset: 3_STAR
 xref: Wikipedia:Cellulose
 is_a: CDNO:0000008 ! insoluble dietary fibre
 is_a: CHEBI:18154 ! polysaccharide
+
+[Term]
+id: CHEBI:63005
+name: sodium nitrate
+is_a: CHEBI:38702 ! inorganic sodium salt
+
+[Term]
+id: CHEBI:63017
+name: sodium L-tartrate
+is_a: CHEBI:38700 ! organic sodium salt
+
+[Term]
+id: CHEBI:63316
+name: potassium formate
+is_a: CHEBI:50394 ! organic potassium salt
 
 [Term]
 id: CHEBI:64482
@@ -17677,6 +18705,7 @@ synonym: "2,3-bis(acyloxy)propyl 2-(trimethylammonio)ethyl phosphate" EXACT IUPA
 synonym: "a phosphatidylcholine (0)" RELATED [ChEBI]
 xref: PMID:2474544 {source="Europe PMC"}
 is_a: CHEBI:16247 ! phospholipid
+is_a: CHEBI:190516 ! organic phosphate compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H18NO8PR2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "311.226" xsd:string
@@ -17701,6 +18730,11 @@ def: "Any organic molecular entity that is acidic and contains carbon in covalen
 subset: 3_STAR
 synonym: "organic acids" RELATED [ChEBI]
 is_a: CDNO:0000013 ! plant secondary metabolite
+
+[Term]
+id: CHEBI:65242
+name: sodium chlorate
+is_a: CHEBI:38702 ! inorganic sodium salt
 
 [Term]
 id: CHEBI:6570
@@ -17819,6 +18853,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ORXQGKIUCDPEAJ-YR
 property_value: http://purl.obolibrary.org/obo/chebi/mass "354.39640" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "354.14672" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(O)c(CC=C(C)C)c(O)c1C(=O)\\C=C\\c1ccc(O)cc1" xsd:string
+
+[Term]
+id: CHEBI:6636
+name: magnesium dichloride
+is_a: CHEBI:190297 ! inorganic magnesium salt
+is_a: CHEBI:36093 ! inorganic chloride
 
 [Term]
 id: CHEBI:6650
@@ -18151,6 +19191,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "472.10056
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1c(O)cc(cc1O)[C@H]1Oc2cc(O)cc(O)c2C[C@H]1OC(=O)c1cc(O)c(O)c(O)c1" xsd:string
 
 [Term]
+id: CHEBI:7044
+name: myoglobin
+comment: Further classification will be integrated for this class
+is_a: CHEBI:36080 ! protein
+
+[Term]
 id: CHEBI:71222
 name: phlorotannin
 namespace: chebi_ontology
@@ -18314,8 +19360,8 @@ def: "A 20-carbon, polyunsaturated fatty acid having two double bonds at unspeci
 subset: 3_STAR
 synonym: "20:2" RELATED [ChEBI]
 synonym: "C20:2" RELATED [ChEBI]
-synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acid" RELATED []
+synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acids" RELATED [ChEBI]
 synonym: "icosadienoic acids" RELATED [ChEBI]
 xref: PMID:23475189 {source="Europe PMC"}
@@ -18342,6 +19388,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LZEPVVDVBJUKSG-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "224.25460" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "224.08373" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C1Oc2ccccc2C2Oc3ccccc3C12" xsd:string
+
+[Term]
+id: CHEBI:73224
+name: allyl isothiocyanate
+is_a: CHEBI:52221 ! isothiocyanate
 
 [Term]
 id: CHEBI:73558
@@ -18526,6 +19577,11 @@ synonym: "22:2" RELATED [ChEBI]
 synonym: "C22:2" RELATED [ChEBI]
 synonym: "docosadienoic acids" RELATED [ChEBI]
 is_a: CHEBI:36009 ! ω−6 fatty acid
+
+[Term]
+id: CHEBI:75229
+name: sodium bromate
+is_a: CHEBI:38702 ! inorganic sodium salt
 
 [Term]
 id: CHEBI:75619
@@ -18781,6 +19837,14 @@ xref: Wikipedia:B_vitamin
 is_a: CDNO:0000014 ! vitamin (molecular entity)
 
 [Term]
+id: CHEBI:75832
+name: iron sulfate
+name: iron(2+) sulfate (anhydrous)
+synonym: "ferrous sulfate" EXACT []
+is_a: CHEBI:190420 ! inorganic iron salt
+is_a: CHEBI:24840 ! inorganic sulfate salt
+
+[Term]
 id: CHEBI:75902
 name: hispidulin
 namespace: chebi_ontology
@@ -18954,6 +20018,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "356.27153
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC\\C=C/C\\C=C/C\\C=C/C\\C=C/C\\C=C/C\\C=C/CCCCC(O)=O" xsd:string
 
 [Term]
+id: CHEBI:77635
+name: calcium phosphate
+is_a: CHEBI:190295 ! inorganic calcium salt
+is_a: CHEBI:190300 ! inorganic phosphate salt
+
+[Term]
 id: CHEBI:77791
 name: luteolin 7-O-beta-D-glucoside(1-)
 name: luteolin 7-O-β-D-glucoside(1−)
@@ -19015,6 +20085,11 @@ xref: PMID:23798544 {source="Europe PMC"}
 xref: PMID:7765613 {source="Europe PMC"}
 xref: Wikipedia:Hydrolysable_tannin
 is_a: CHEBI:26848 ! tannin
+
+[Term]
+id: CHEBI:79317
+name: sinigrin
+is_a: CHEBI:24401 ! glucosinolate
 
 [Term]
 id: CHEBI:79628
@@ -19241,6 +20316,11 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "314.07904
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc2oc(cc(=O)c2c(O)c1OC)-c1ccc(O)cc1" xsd:string
 
 [Term]
+id: CHEBI:81708
+name: Sodium iodate
+is_a: CHEBI:38702 ! inorganic sodium salt
+
+[Term]
 id: CHEBI:83231
 name: xanthone glycoside
 namespace: chebi_ontology
@@ -19248,6 +20328,11 @@ def: "Any member of the class of  xanthones having one or more glycosyl residues
 subset: 3_STAR
 synonym: "xanthone glycosides" RELATED [ChEBI]
 is_a: CHEBI:51149 ! xanthones
+
+[Term]
+id: CHEBI:85545
+name: bismuth(3+)
+is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CHEBI:88354
@@ -19408,6 +20493,16 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "372.12090
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1OC)-c1cc(=O)c2c(OC)c(OC)c(OC)cc2o1" xsd:string
 
 [Term]
+id: CHEBI:9254
+name: magnesium distearate
+is_a: CHEBI:190299 ! organic magnesium salt
+
+[Term]
+id: CHEBI:9349
+name: sulfonyldimethane
+is_a: CHEBI:33261 ! organosulfur compound
+
+[Term]
 id: CHEBI:9400
 name: tangeretin
 namespace: chebi_ontology
@@ -19458,6 +20553,7 @@ name: quality
 namespace: quality
 alt_id: PATO:0000072
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
+property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Term]
 id: PATO:0000033
@@ -19926,7 +21022,6 @@ property_value: IAO:0000118 "has" xsd:string
 property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
-property_value: IAO:0000232 "This relation is currently used experimentally by the Gene Ontology Consortium. It may not be stable and may be obsoleted at some future time." xsd:string
 is_a: capable_of ! capable of
 inverse_of: RO:0002333 ! enabled by
 transitive_over: has_part ! has_part
@@ -19941,7 +21036,7 @@ property_value: IAO:0000118 "actively involved in" xsd:string
 property_value: IAO:0000118 "enables part of" xsd:string
 property_value: seeAlso Involved:in
 holds_over_chain: RO:0002327 part_of
-is_a: participates_in ! participates_in
+is_a: participates_in ! participates in
 is_a: RO:0002431 ! involved in or involved in regulation of
 transitive_over: part_of ! part_of
 
@@ -20408,11 +21503,37 @@ name: utilizes
 def: "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
 property_value: IAO:0000117 "Asiyah Lin" xsd:string
-property_value: IAO:0000117 "Bill Duncan (https://orcid.org/0000-0001-9625-1899)" xsd:string
+property_value: IAO:0000117 "https://orcid.org/0000-0001-9625-1899 Bill Duncan" xsd:string
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: capable_of has_input
 creation_date: 2021-11-08
+
+[Typedef]
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+range: PATO:0000001 ! quality
+holds_over_chain: regulates RO:0019000
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: positively_regulates RO:0019001
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: negatively_regulates RO:0019001
+holds_over_chain: positively_regulates RO:0019002
+is_a: RO:0019000 ! regulates characteristic
 
 [Typedef]
 id: bearer_of
@@ -20760,7 +21881,7 @@ subset: RO:0002259
 xref: RO:0002352
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: functionally_related_to ! functionally related to
-is_a: participates_in ! participates_in
+is_a: participates_in ! participates in
 
 [Typedef]
 id: is_conjugate_acid_of
