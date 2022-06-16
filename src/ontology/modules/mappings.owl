@@ -4887,6 +4887,264 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200680"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200681"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200682"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200683"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200684"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200685">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: LACS</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200686"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200687"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200688"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200689">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: DEXTN</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200690">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: MALTDEX</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200691"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200692"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200693"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200694">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: GUMS</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200695"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200696"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200697"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200698"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200699"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200700"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200701"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200702"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200703"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200704"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200705">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: POLYL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200706">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: MALTL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200707">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: MANTL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200708">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: GLYRL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200710">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: XYLTL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200711">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: LACTL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200712">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: ISOMALT</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200713">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs: ERYTHL</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200714"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200715"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200716"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200717"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200718"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200719"/>
 </rdf:RDF>
 
 

@@ -71,7 +71,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that is ingested and contributes to survival, growth and development</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">dietary nutritional component</rdfs:label>
+        <rdfs:label xml:lang="en">dietary chemical component</rdfs:label>
     </owl:Class>
     
 
@@ -479,12 +479,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <obo:IAO_0000115 xml:lang="en">A complex carbohydrate with various rheological properties that result in viscoelastic behavior</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">gum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A complex carbohydrate with various rheological properties that result in viscoelastic behavior</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.4013/4964"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_10223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
         <oboInOwl:hasExactSynonym xml:lang="en">alpha-cryptoxanthin</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">α-cryptoxanthin</rdfs:label>
+        <rdfs:label xml:lang="en">Œ±-cryptoxanthin</rdfs:label>
     </owl:Class>
     
 
@@ -494,7 +510,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-cryptoxanthin</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">β-cryptoxanthin</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≤-cryptoxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_10583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3435"/>
+        <rdfs:label xml:lang="en">κ-carrageenan</rdfs:label>
     </owl:Class>
     
 
@@ -503,7 +528,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26377"/>
-        <rdfs:label xml:lang="en">(−)-phaseolin</rdfs:label>
+        <rdfs:label xml:lang="en">(‚àí)-phaseolin</rdfs:label>
     </owl:Class>
     
 
@@ -589,7 +614,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_133348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74630"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">acetyl glycitin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">glycitein 7-(6-O-acetyl-β-D-glucoside)</rdfs:label>
+        <rdfs:label xml:lang="en">glycitein 7-(6-O-acetyl-Œ≤-D-glucoside)</rdfs:label>
     </owl:Class>
     
 
@@ -617,7 +642,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140677">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23042"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">trans-beta-carotene</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">4-hydroxy-all-trans-β-carotene</rdfs:label>
+        <rdfs:label xml:lang="en">4-hydroxy-all-trans-Œ≤-carotene</rdfs:label>
     </owl:Class>
     
 
@@ -627,6 +652,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_142263">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
         <rdfs:label xml:lang="en">isopeonidin 3-rutinoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_150326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_150326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">isomalt</rdfs:label>
     </owl:Class>
     
 
@@ -805,6 +839,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37684"/>
+        <rdfs:label xml:lang="en">D-mannose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16038">
@@ -874,6 +917,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:label xml:lang="en">phospholipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">chitosan</rdfs:label>
     </owl:Class>
     
 
@@ -1198,6 +1250,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <rdfs:label xml:lang="en">heteroglycan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16995">
@@ -1230,6 +1291,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
         <rdfs:label xml:lang="en">fluoride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">erythritol</rdfs:label>
     </owl:Class>
     
 
@@ -1350,12 +1420,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">alditol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+        <rdfs:label xml:lang="en">L-arabinopyranose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16966"/>
+        <rdfs:label xml:lang="en">alginic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-carotene</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">β-carotene</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≤-carotene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">maltooligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -1428,6 +1534,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_176843">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75769"/>
         <rdfs:label xml:lang="en">vitamin B12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <rdfs:label xml:lang="en">lactose</rdfs:label>
     </owl:Class>
     
 
@@ -1505,6 +1621,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33830"/>
+        <rdfs:label xml:lang="en">D-galacturonic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18035">
@@ -1565,7 +1690,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
         <oboInOwl:hasExactSynonym xml:lang="en">gamma-tocopherol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">γ-tocopherol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≥-tocopherol</rdfs:label>
     </owl:Class>
     
 
@@ -1575,6 +1700,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">tyrosine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_181906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_181906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">Polydextrose</rdfs:label>
     </owl:Class>
     
 
@@ -1607,6 +1741,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33984"/>
+        <rdfs:label xml:lang="en">L-fucose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18291 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18291">
@@ -1630,7 +1773,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">arbutin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">hydroquinone O-β-D-glucopyranoside</rdfs:label>
+        <rdfs:label xml:lang="en">hydroquinone O-Œ≤-D-glucopyranoside</rdfs:label>
     </owl:Class>
     
 
@@ -1653,6 +1796,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">isomaltulose</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">6-O-α-D-glucopyranosyl-D-fructofuranose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18420">
@@ -1667,6 +1820,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18422">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
         <rdfs:label xml:lang="en">sulfur dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_189560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_189560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <rdfs:label xml:lang="en">xanthan</rdfs:label>
     </owl:Class>
     
 
@@ -2018,6 +2180,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">fructooligosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_2197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2197">
@@ -2041,7 +2212,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
         <oboInOwl:hasExactSynonym xml:lang="en">alpha-tocopherol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">α-tocopherol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ±-tocopherol</rdfs:label>
     </owl:Class>
     
 
@@ -2105,7 +2276,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22798">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38697"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">beta-d-glucoside</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">β-D-glucoside</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≤-D-glucoside</rdfs:label>
     </owl:Class>
     
 
@@ -2183,6 +2354,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25140"/>
+        <rdfs:label xml:lang="en">cyclodextrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
+        <rdfs:label xml:lang="en">dextrins</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23849 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23849">
@@ -2197,6 +2386,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23909">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
         <rdfs:label xml:lang="en">ellagitannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">galactooligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -2319,6 +2517,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24973">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24978"/>
+        <rdfs:label xml:lang="en">ketohexose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24978">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <rdfs:label xml:lang="en">ketose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25017">
@@ -2351,6 +2567,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">lysine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:label xml:lang="en">maltodextrin</rdfs:label>
     </owl:Class>
     
 
@@ -2423,7 +2648,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25681">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
         <oboInOwl:hasExactSynonym xml:lang="en">omega-3-fatty acid</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">ω−3 fatty acid</rdfs:label>
+        <rdfs:label xml:lang="en">œâ‚àí3 fatty acid</rdfs:label>
     </owl:Class>
     
 
@@ -2486,6 +2711,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <rdfs:label xml:lang="en">polyol</rdfs:label>
     </owl:Class>
     
@@ -2579,6 +2805,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26658">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
         <rdfs:label xml:lang="en">sesquiterpoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">sialic acid</rdfs:label>
     </owl:Class>
     
 
@@ -2746,7 +2981,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27432">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25681"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">alpha-linolenic acid</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">α-linolenic acid</rdfs:label>
+        <rdfs:label xml:lang="en">Œ±-linolenic acid</rdfs:label>
     </owl:Class>
     
 
@@ -2765,7 +3000,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27475">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
-        <rdfs:label xml:lang="en">cyanidin 3-O-β-D-galactoside</rdfs:label>
+        <rdfs:label xml:lang="en">cyanidin 3-O-Œ≤-D-galactoside</rdfs:label>
     </owl:Class>
     
 
@@ -2775,7 +3010,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27514">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24278"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">genistin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">genistein 7-O-β-D-glucoside</rdfs:label>
+        <rdfs:label xml:lang="en">genistein 7-O-Œ≤-D-glucoside</rdfs:label>
     </owl:Class>
     
 
@@ -3002,6 +3237,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_28260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
         <rdfs:label xml:lang="en">galactose</rdfs:label>
     </owl:Class>
@@ -3058,7 +3294,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28425">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
         <oboInOwl:hasExactSynonym xml:lang="en">alpha-carotene</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">α-carotene</rdfs:label>
+        <rdfs:label xml:lang="en">Œ±-carotene</rdfs:label>
     </owl:Class>
     
 
@@ -3115,7 +3351,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28661">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36009"/>
         <oboInOwl:hasExactSynonym xml:lang="en">gamma-linolenic acid</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">γ-linolenic acid</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≥-linolenic acid</rdfs:label>
     </owl:Class>
     
 
@@ -3489,6 +3725,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Lacto-N-tetraose</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">_-D-Gal-(1_3)-_-D-GlcNAc-(1_3)-_-D-Gal-(1_4)-D-Glc</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_30475 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30475">
@@ -3548,7 +3794,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30794">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
-        <rdfs:label xml:lang="en">malonic acid</rdfs:label>
+        <rdfs:label xml:lang="en">malonic¬†acid</rdfs:label>
     </owl:Class>
     
 
@@ -3585,6 +3831,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">sorbitol</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">glucitol</rdfs:label>
     </owl:Class>
     
@@ -3642,7 +3889,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31463">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">delphinidin 3-O-beta-D-glucoside</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">delphinidin 3-O-β-D-glucoside</rdfs:label>
+        <rdfs:label xml:lang="en">delphinidin 3-O-Œ≤-D-glucoside</rdfs:label>
     </owl:Class>
     
 
@@ -3680,7 +3927,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31799">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">malvidin 3-O-beta-D-glucoside</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">malvidin 3-O-β-D-glucoside</rdfs:label>
+        <rdfs:label xml:lang="en">malvidin 3-O-Œ≤-D-glucoside</rdfs:label>
     </owl:Class>
     
 
@@ -3699,7 +3946,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31985">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22798"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">petunidin 3-O-beta-D-glucoside</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">petunidin 3-O-β-D-glucoside</rdfs:label>
+        <rdfs:label xml:lang="en">petunidin 3-O-Œ≤-D-glucoside</rdfs:label>
     </owl:Class>
     
 
@@ -3905,7 +4152,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
         <oboInOwl:hasExactSynonym xml:lang="en">alpha-tocotrienol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">α-tocotrienol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ±-tocotrienol</rdfs:label>
     </owl:Class>
     
 
@@ -3915,7 +4162,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-tocotrienol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">β-tocotrienol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≤-tocotrienol</rdfs:label>
     </owl:Class>
     
 
@@ -3925,7 +4172,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
         <oboInOwl:hasExactSynonym xml:lang="en">delta-tocotrienol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">δ-tocotrienol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ¥-tocotrienol</rdfs:label>
     </owl:Class>
     
 
@@ -3935,7 +4182,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33235"/>
         <oboInOwl:hasExactSynonym xml:lang="en">gamma-tocotrienol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">γ-tocotrienol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≥-tocotrienol</rdfs:label>
     </owl:Class>
     
 
@@ -4012,11 +4259,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33951">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24973"/>
+        <rdfs:label xml:lang="en">psicose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33984 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33984">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
         <rdfs:label xml:lang="en">fucose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <rdfs:label xml:lang="en">carrageenan</rdfs:label>
     </owl:Class>
     
 
@@ -4081,6 +4346,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35186"/>
         <rdfs:label xml:lang="en">tetraterpene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:label xml:lang="en">cellodextrin</rdfs:label>
     </owl:Class>
     
 
@@ -4153,7 +4427,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
         <oboInOwl:hasExactSynonym xml:lang="en">omega-6 fatty acid</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">ω−6 fatty acid</rdfs:label>
+        <rdfs:label xml:lang="en">œâ‚àí6 fatty acid</rdfs:label>
     </owl:Class>
     
 
@@ -4208,7 +4482,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
-        <rdfs:label xml:lang="en">pelargonidin 3-O-β-D-glucoside chloride</rdfs:label>
+        <rdfs:label xml:lang="en">pelargonidin 3-O-Œ≤-D-glucoside chloride</rdfs:label>
     </owl:Class>
     
 
@@ -4306,6 +4580,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3435"/>
+        <rdfs:label xml:lang="en">λ-carrageenan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3435"/>
+        <rdfs:label xml:lang="en">ι-carrageenan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_3718 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3718">
@@ -4338,7 +4630,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37664">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38698"/>
-        <rdfs:label xml:lang="en">cyanidin 3-O-β-D-galactoside chloride</rdfs:label>
+        <rdfs:label xml:lang="en">cyanidin 3-O-Œ≤-D-galactoside chloride</rdfs:label>
     </owl:Class>
     
 
@@ -4477,7 +4769,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24278"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">daidzin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">daidzein 7-O-β-D-glucoside</rdfs:label>
+        <rdfs:label xml:lang="en">daidzein 7-O-Œ≤-D-glucoside</rdfs:label>
     </owl:Class>
     
 
@@ -4562,7 +4854,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47771">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-tocopherol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">β-tocopherol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ≤-tocopherol</rdfs:label>
     </owl:Class>
     
 
@@ -4572,7 +4864,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47772">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
         <oboInOwl:hasExactSynonym xml:lang="en">delta-tocopherol</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">δ-tocopherol</rdfs:label>
+        <rdfs:label xml:lang="en">Œ¥-tocopherol</rdfs:label>
     </owl:Class>
     
 
@@ -4620,7 +4912,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23053"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
-        <rdfs:label xml:lang="en">(−)-epigallocatechin 3-gallate</rdfs:label>
+        <rdfs:label xml:lang="en">(‚àí)-epigallocatechin 3-gallate</rdfs:label>
     </owl:Class>
     
 
@@ -4991,12 +5283,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+        <rdfs:label xml:lang="en">L-arabinofuranose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_62466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62466">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15948"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">cis-lycopene</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">7,7&apos;,9,9&apos;-tetra-cis-lycopene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">xylooligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -5047,6 +5357,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <rdfs:label xml:lang="en">lactulose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_64482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64482">
@@ -5080,6 +5399,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
         <rdfs:label xml:lang="en">sodium chlorate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_65327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+        <rdfs:label xml:lang="en">D-xylose</rdfs:label>
     </owl:Class>
     
 
@@ -5172,7 +5500,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-carotene-cis</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">9-cis-β-carotene</rdfs:label>
+        <rdfs:label xml:lang="en">9-cis-Œ≤-carotene</rdfs:label>
     </owl:Class>
     
 
@@ -5191,6 +5519,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
         <rdfs:label xml:lang="en">syringic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_68428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">maltitol</rdfs:label>
     </owl:Class>
     
 
@@ -5401,7 +5738,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74811">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38695"/>
-        <rdfs:label xml:lang="en">cyanidin 3-O-β-D-sambubioside</rdfs:label>
+        <rdfs:label xml:lang="en">cyanidin 3-O-Œ≤-D-sambubioside</rdfs:label>
     </owl:Class>
     
 
@@ -5457,6 +5794,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
         <rdfs:label xml:lang="en">sodium bromate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">lactitol</rdfs:label>
     </owl:Class>
     
 
@@ -5613,7 +5959,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77791">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
-        <rdfs:label xml:lang="en">luteolin 7-O-β-D-glucoside(1−)</rdfs:label>
+        <rdfs:label xml:lang="en">luteolin 7-O-Œ≤-D-glucoside(1‚àí)</rdfs:label>
     </owl:Class>
     
 
@@ -5751,6 +6097,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
         <rdfs:label xml:lang="en">xanthone glycoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_84395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_84395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:label xml:lang="en">amylodextrin</rdfs:label>
     </owl:Class>
     
 
