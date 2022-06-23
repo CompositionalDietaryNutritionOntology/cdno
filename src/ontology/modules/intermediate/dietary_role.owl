@@ -51,7 +51,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0500001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A biological role that may be assigned to a dietary chemical component based on evidence that supports a function defined at the levels of molecular interaction, cellular process or physiological role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A biological role that may be assigned to a dietary chemical component based on evidence that supports a role defined at the levels of molecular interaction, cellular process or physiological role.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary role</rdfs:label>
     </owl:Class>
 </rdf:RDF>
