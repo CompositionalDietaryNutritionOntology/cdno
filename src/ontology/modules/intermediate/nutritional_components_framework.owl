@@ -71,7 +71,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that is ingested and contributes to survival, growth and development</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">dietary nutritional component</rdfs:label>
+        <rdfs:label xml:lang="en">dietary chemical component</rdfs:label>
     </owl:Class>
     
 
@@ -218,7 +218,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167164"/>
-        <obo:IAO_0000115 xml:lang="en">A mineral nutrient that is present in a very low concentration within the diet</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mineral nutrient that is present in a very low concentration within the diet</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">micromineral</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">trace element</rdfs:label>
     </owl:Class>
@@ -251,13 +251,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary calcium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1080/07315724.2000.10718083"/>
     </owl:Axiom>
     
@@ -267,13 +267,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary chlorine</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1161/01.HYP.17.1_Suppl.I158"/>
     </owl:Axiom>
     
@@ -283,13 +283,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary magnesium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/jn/133.9.2879"/>
     </owl:Axiom>
     
@@ -299,13 +299,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary phosphorus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000018"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1681/ASN.2008101106"/>
     </owl:Axiom>
     
@@ -315,7 +315,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A potassium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Potassium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary potassium</rdfs:label>
     </owl:Class>
     
@@ -325,7 +325,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A sodium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Sodium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary sodium</rdfs:label>
     </owl:Class>
     
@@ -335,13 +335,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary sulfur</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1186/1743-7075-4-24, https://doi.org/10.1016/j.nut.2010.01.014"/>
     </owl:Axiom>
     
@@ -351,13 +351,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary chromium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000022"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Chromium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/0048-9697(89)90196-4, https://doi.org/10.1007/BF02784595"/>
     </owl:Axiom>
     
@@ -367,13 +367,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary copper</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000023"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Copper ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/ajcn/49.5.870"/>
     </owl:Axiom>
     
@@ -383,13 +383,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary fluorine</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Fluorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/ajcn/12.6.455"/>
     </owl:Axiom>
     
@@ -399,13 +399,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">An iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary iodine</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000025"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">An iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Iodine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1079/PHN2003554"/>
     </owl:Axiom>
     
@@ -415,7 +415,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">An iron ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Iron ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary iron</rdfs:label>
     </owl:Class>
     
@@ -425,13 +425,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary manganese</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000027"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Manganese ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1096/fj.201902396R"/>
     </owl:Axiom>
     
@@ -441,13 +441,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary molybdenum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000028"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/j.jnutbio.2003.10.003"/>
     </owl:Axiom>
     
@@ -457,13 +457,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary selenium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000029"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Selenium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.3390/nu7031494"/>
     </owl:Axiom>
     
@@ -473,9 +473,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A zinc ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Zinc ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary zinc</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <obo:IAO_0000115 xml:lang="en">A complex carbohydrate with various rheological properties that result in viscoelastic behavior</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">gum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A complex carbohydrate with various rheological properties that result in viscoelastic behavior</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.4013/4964"/>
+    </owl:Axiom>
     
 
 
@@ -495,6 +511,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-cryptoxanthin</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">β-cryptoxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_10583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3435"/>
+        <rdfs:label xml:lang="en">κ-carrageenan</rdfs:label>
     </owl:Class>
     
 
@@ -631,11 +656,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_150326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_150326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">isomalt</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_15138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
-        <rdfs:label xml:lang="en">sulfide(2_)</rdfs:label>
+        <rdfs:label xml:lang="en">sulfide(2−)</rdfs:label>
     </owl:Class>
     
 
@@ -805,6 +839,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37684"/>
+        <rdfs:label xml:lang="en">D-mannose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16038">
@@ -874,6 +917,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:label xml:lang="en">phospholipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">chitosan</rdfs:label>
     </owl:Class>
     
 
@@ -1198,6 +1250,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <rdfs:label xml:lang="en">heteroglycan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16995">
@@ -1230,6 +1291,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000024"/>
         <rdfs:label xml:lang="en">fluoride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">erythritol</rdfs:label>
     </owl:Class>
     
 
@@ -1350,12 +1420,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">alditol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+        <rdfs:label xml:lang="en">L-arabinopyranose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16966"/>
+        <rdfs:label xml:lang="en">alginic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
         <oboInOwl:hasExactSynonym xml:lang="en">beta-carotene</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">β-carotene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">maltooligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -1432,6 +1538,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <rdfs:label xml:lang="en">lactose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17750 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17750">
@@ -1501,6 +1617,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000016"/>
         <rdfs:label xml:lang="en">chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33830"/>
+        <rdfs:label xml:lang="en">D-galacturonic acid</rdfs:label>
     </owl:Class>
     
 
@@ -1579,6 +1704,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_181906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_181906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">Polydextrose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18222">
@@ -1603,6 +1737,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">glutamic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33984"/>
+        <rdfs:label xml:lang="en">L-fucose</rdfs:label>
     </owl:Class>
     
 
@@ -1653,6 +1796,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">isomaltulose</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">6-O-α-D-glucopyranosyl-D-fructofuranose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18420">
@@ -1667,6 +1820,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18422">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
         <rdfs:label xml:lang="en">sulfur dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_189560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_189560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <rdfs:label xml:lang="en">xanthan</rdfs:label>
     </owl:Class>
     
 
@@ -2018,6 +2180,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_190523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">fructooligosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_2197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2197">
@@ -2183,6 +2354,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25140"/>
+        <rdfs:label xml:lang="en">cyclodextrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
+        <rdfs:label xml:lang="en">dextrins</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23849 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23849">
@@ -2197,6 +2386,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23909">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26848"/>
         <rdfs:label xml:lang="en">ellagitannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">galactooligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -2319,6 +2517,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24973">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24978"/>
+        <rdfs:label xml:lang="en">ketohexose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24978">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+        <rdfs:label xml:lang="en">ketose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25017">
@@ -2351,6 +2567,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:label xml:lang="en">lysine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:label xml:lang="en">maltodextrin</rdfs:label>
     </owl:Class>
     
 
@@ -2486,6 +2711,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <rdfs:label xml:lang="en">polyol</rdfs:label>
     </owl:Class>
     
@@ -2579,6 +2805,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26658">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
         <rdfs:label xml:lang="en">sesquiterpoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label xml:lang="en">sialic acid</rdfs:label>
     </owl:Class>
     
 
@@ -3002,6 +3237,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_28260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
         <rdfs:label xml:lang="en">galactose</rdfs:label>
     </owl:Class>
@@ -3489,6 +3725,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Lacto-N-tetraose</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">β-D-Gal-(1→3)-β-D-GlcNAc-(1→3)-β-D-Gal-(1→4)-D-Glc</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_30475 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30475">
@@ -3548,7 +3794,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30794">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
-        <rdfs:label xml:lang="en">malonic acid</rdfs:label>
+        <rdfs:label xml:lang="en">malonic acid</rdfs:label>
     </owl:Class>
     
 
@@ -3585,6 +3831,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">sorbitol</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">glucitol</rdfs:label>
     </owl:Class>
     
@@ -4012,11 +4259,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33951">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24973"/>
+        <rdfs:label xml:lang="en">psicose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33984 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33984">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
         <rdfs:label xml:lang="en">fucose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000031"/>
+        <rdfs:label xml:lang="en">carrageenan</rdfs:label>
     </owl:Class>
     
 
@@ -4081,6 +4346,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35186"/>
         <rdfs:label xml:lang="en">tetraterpene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:label xml:lang="en">cellodextrin</rdfs:label>
     </owl:Class>
     
 
@@ -4303,6 +4577,24 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_371663 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_371663"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3435"/>
+        <rdfs:label xml:lang="en">λ-carrageenan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3435"/>
+        <rdfs:label xml:lang="en">ι-carrageenan</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4991,12 +5283,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22599"/>
+        <rdfs:label xml:lang="en">L-arabinofuranose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_62466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62466">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15948"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">cis-lycopene</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">7,7&apos;,9,9&apos;-tetra-cis-lycopene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <rdfs:label xml:lang="en">xylooligosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -5047,6 +5357,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
+        <rdfs:label xml:lang="en">lactulose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_64482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64482">
@@ -5080,6 +5399,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
         <rdfs:label xml:lang="en">sodium chlorate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_65327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18222"/>
+        <rdfs:label xml:lang="en">D-xylose</rdfs:label>
     </owl:Class>
     
 
@@ -5191,6 +5519,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166890"/>
         <rdfs:label xml:lang="en">syringic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_68428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">maltitol</rdfs:label>
     </owl:Class>
     
 
@@ -5457,6 +5794,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
         <rdfs:label xml:lang="en">sodium bromate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
+        <rdfs:label xml:lang="en">lactitol</rdfs:label>
     </owl:Class>
     
 
@@ -5751,6 +6097,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51149"/>
         <rdfs:label xml:lang="en">xanthone glycoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_84395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_84395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:label xml:lang="en">amylodextrin</rdfs:label>
     </owl:Class>
     
 

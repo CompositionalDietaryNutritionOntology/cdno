@@ -638,8 +638,47 @@ CHEBI:7044	#myoglobin
 CHEBI:190519	#beta-lactoglobulin
 CHEBI:190521	#napin
 CHEBI:190522	#gliadin
+CHEBI:23652	#dextrins
+CHEBI:25140	#maltodextrin
+CHEBI:23456	#cyclodextrin
+CHEBI:84395	#amylodextrin
+CHEBI:3523	#cellodextrin
+CDNO:0000031	#gum
+CHEBI:16966	#heteroglycan
+CHEBI:17548	#alginic acid
+CHEBI:3435	#carrageenan
+CHEBI:37168	#ι-carrageenan
+CHEBI:10583	#κ-carrageenan
+CHEBI:37167	#λ-carrageenan
+CHEBI:189560	#xanthan
+CHEBI:24978	#ketose
+CHEBI:24973	#ketohexose
+CHEBI:33951	#psicose
+CHEBI:26191	#polyol
+CHEBI:68428	#maltitol
+CHEBI:29864	#mannitol
+CHEBI:17754	#glycerol
+CHEBI:30911	#glucitol
+CHEBI:17151	#xylitol
+CHEBI:75323	#lactitol
+CHEBI:150326	#isomalt
+CHEBI:17113	#erythritol
+CHEBI:17522	#alditol
+CHEBI:18287	#L-fucose
+CHEBI:65327	#D-xylose
+CHEBI:6178	#L-arabinofuranose
+CHEBI:17535	#L-arabinopyranose
+CHEBI:6359	#lactulose
+CHEBI:17716	#lactose
+CHEBI:16024	#D-mannose
+CHEBI:30248	#β-D-Gal-(1→3)-β-D-GlcNAc-(1→3)-β-D-Gal-(1→4)-D-Glc
+CHEBI:18024	#D-galacturonic acid
+CHEBI:18394	#6-O-α-D-glucopyranosyl-D-fructofuranose
+CHEBI:26667	#sialic acid
+CHEBI:181906	#Polydextrose
+CHEBI:16261	#chitosan
 
 
 CDNO:0400001	#dietary material physical attribute
 CDNO:0300001	#nutritional functional attribute
-CDNO:0500001	#human dietary role
+CDNO:0500001	#dietary role
