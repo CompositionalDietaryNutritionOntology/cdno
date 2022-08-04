@@ -17,7 +17,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/agro_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-06-23/imports/agro_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-08-02/imports/agro_import.owl"/>
     </owl:Ontology>
     
 
@@ -11184,7 +11184,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Soil or rock and included ice or organic material at or below the freezing point of water (0 degrees Celsius or 32 degrees Fahrenheit) for two or more years.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000134"/>
@@ -12035,7 +12035,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002982"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A group of hydrous aluminium phyllosilicate (phyllosilicates being a subgroup of silicate minerals) minerals (see clay minerals), that are typically less than 2 micrometres in diameter. Clay consists of a variety of phyllosilicate minerals rich in silicon and aluminium oxides and hydroxides which include variable amounts of structural water.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Clay</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Clay</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12957,7 +12957,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000280"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Ecozones delineate large areas of a planetary surface within which organisms have been evolving in relative isolation over long periods of time, separated from one another by geographic features, such as oceans, broad deserts, or high mountain ranges, that constitute barriers to migration.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/ecozone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/ecozone</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12979,7 +12979,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000281"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A layer is a quantity of some material which is spatially continuous, has comparable thickness, and usually covers some surface.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiktionary:layer</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wiktionary:layer</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13355,7 +13355,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000320"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A marine environment and enviroment which is determined by a marine water body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM:nm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NM:nm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -24909,26 +24909,26 @@ class labels for these objects. The resulting predictor can be used to attach cl
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>prothalli (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:4b610104-1bb0-4c6b-9bb9-e3cc61d11ac0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:4b610104-1bb0-4c6b-9bb9-e3cc61d11ac0</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Plural"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>prothallus (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:f8f31520-e4bc-4430-9274-8dd3cee7ffd8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:f8f31520-e4bc-4430-9274-8dd3cee7ffd8</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>suffrutex (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:99508f62-7116-4e2b-90c0-19ff55ebd967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:99508f62-7116-4e2b-90c0-19ff55ebd967</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>suffrutices (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Plural"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -36805,20 +36805,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000958"/>
     </owl:NamedIndividual>
-    
 
-
-    <!-- https://www.wikidata.org/wiki/Q2306597 -->
-
-    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2306597">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000216"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000248"/>
-            </owl:Restriction>
-        </rdf:type>
-    </owl:NamedIndividual>
     
 
 

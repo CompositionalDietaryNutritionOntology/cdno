@@ -392,6 +392,7 @@ CHEBI:89400	#stigmastanol
 CHEBI:28824	#stigmasterol
 CHEBI:26775	#stilbene
 CHEBI:26776	#stilbenoid
+CHEBI:36027	#stilbenol
 CHEBI:15741	#succinic acid
 CHEBI:17992	#sucrose
 CHEBI:26833	#sulfur

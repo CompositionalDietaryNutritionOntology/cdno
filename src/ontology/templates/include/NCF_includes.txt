@@ -209,6 +209,7 @@ CHEBI:27732	#caffeine
 CHEBI:28346	#mescaline
 CHEBI:28946	#theobromine
 CHEBI:33853	#phenols
+CHEBI:36027	#stilbenol
 CHEBI:26195	#polyphenol
 CHEBI:26848	#tannin
 CHEBI:16112	#chlorogenic

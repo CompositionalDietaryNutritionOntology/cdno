@@ -211,14 +211,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/go#goslim_aspergillus -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#goslim_aspergillus">
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/go#goslim_candida -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#goslim_candida">
@@ -307,6 +299,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/go#prokaryote_subset -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#prokaryote_subset">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pato#attribute_slim -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#attribute_slim">
@@ -390,6 +390,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
@@ -1926,13 +1932,14 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0017001">
         <obo:IAO_0000112>A diagnostic testing device utilizes a specimen.</obo:IAO_0000112>
-        <obo:IAO_0000115>X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y.</obo:IAO_0000115>
-        <obo:IAO_0000117>Asiyah Lin</obo:IAO_0000117>
-        <obo:IAO_0000117>https://orcid.org/0000-0001-9625-1899 Bill Duncan</obo:IAO_0000117>
+        <obo:IAO_0000115>X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9625-1899</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0003-2620-0345</obo:IAO_0000117>
         <obo:IAO_0000232>A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input.</obo:IAO_0000232>
         <obo:IAO_0000232>See github ticket https://github.com/oborel/obo-relations/issues/497</obo:IAO_0000232>
         <oboInOwl:creation_date>2021-11-08T12:00:00Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">utilizes</rdfs:label>
+        <oboInOwl:hasBroadSynonym>utilizes</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">device utilizes material</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2106,7 +2113,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasExactSynonym>molecular function</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0003674</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
@@ -2136,6 +2142,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_agr"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
@@ -2174,7 +2181,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasRelatedSynonym>single organism process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>single-organism process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0008150</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
@@ -2243,7 +2249,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasDbXref>Reactome:R-HSA-8868783</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0016740</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
@@ -2253,6 +2258,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#prokaryote_subset"/>
         <rdfs:label>transferase activity</rdfs:label>
     </owl:Class>
     <owl:Axiom>

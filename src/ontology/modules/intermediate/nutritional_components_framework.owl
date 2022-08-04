@@ -4441,6 +4441,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <rdfs:label xml:lang="en">stilbenol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080">

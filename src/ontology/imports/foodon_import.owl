@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/foodon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-06-23/imports/foodon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-08-02/imports/foodon_import.owl"/>
     </owl:Ontology>
     
 

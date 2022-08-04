@@ -5145,6 +5145,12 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200719 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200719"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200720"/>
 </rdf:RDF>
 
 
