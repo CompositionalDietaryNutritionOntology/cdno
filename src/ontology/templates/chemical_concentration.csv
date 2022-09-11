@@ -177,8 +177,6 @@ CDNO:0200558,,CHEBI:190515,organic calcium compound,BFO:0000040,material entity
 CDNO:0200559,,CDNO:0000016,dietary chlorine,BFO:0000040,material entity
 CDNO:0200139,,CHEBI:17996,chloride,BFO:0000040,material entity
 CDNO:0200560,,CHEBI:36093,inorganic chloride,BFO:0000040,material entity
-CDNO:0200561,,CHEBI:26710,sodium chloride,BFO:0000040,material entity
-CDNO:0200562,,CHEBI:3312,calcium dichloride,BFO:0000040,material entity
 CDNO:0200563,,CHEBI:6636,magnesium dichloride,BFO:0000040,material entity
 CDNO:0200564,,CHEBI:32588,potassium chloride,BFO:0000040,material entity
 CDNO:0200565,,CHEBI:48607,lithium chloride,BFO:0000040,material entity
@@ -189,7 +187,6 @@ CDNO:0200569,,CHEBI:29222,hypochlorite,BFO:0000040,material entity
 CDNO:0200570,,CDNO:0000017,dietary magnesium,BFO:0000040,material entity
 CDNO:0200140,,CHEBI:18420,magnesium(2+),BFO:0000040,material entity
 CDNO:0200571,,CHEBI:190297,inorganic magnesium salt,BFO:0000040,material entity
-CDNO:0200572,,CHEBI:6636,magnesium dichloride,BFO:0000040,material entity
 CDNO:0200573,,CHEBI:190298,magnesium phosphate,BFO:0000040,material entity
 CDNO:0200574,,CHEBI:35149,magnesium hydroxide,BFO:0000040,material entity
 CDNO:0200575,,CHEBI:190299,organic magnesium salt,BFO:0000040,material entity
@@ -205,16 +202,10 @@ CDNO:0200582,,CHEBI:190301,potassium phosphate,BFO:0000040,material entity
 CDNO:0200583,,CHEBI:131371,iron(3+) phosphate,BFO:0000040,material entity
 CDNO:0200584,,CHEBI:190302,organic phosphate salt,BFO:0000040,material entity
 CDNO:0200585,,CHEBI:190516,organic phosphate compound,BFO:0000040,material entity
-CDNO:0200586,,CHEBI:60479,lysophosphatidylcholine,BFO:0000040,material entity
-CDNO:0200587,,CHEBI:64482,phosphatidylcholine,BFO:0000040,material entity
-CDNO:0200588,,CHEBI:16038,phosphatidylethanolamine,BFO:0000040,material entity
-CDNO:0200589,,CHEBI:28874,phosphatidylinositol,BFO:0000040,material entity
 CDNO:0200590,,CHEBI:11750,3-sn-phosphatidyl-L-serine,BFO:0000040,material entity
-CDNO:0200591,,CHEBI:17401,myo-inositol hexakisphosphate,BFO:0000040,material entity
 CDNO:0200592,,CDNO:0000019,dietary potassium,BFO:0000040,material entity
 CDNO:0200143,,CHEBI:29103,potassium(1+),BFO:0000040,material entity
 CDNO:0200593,,CHEBI:190303,inorganic potassium salt,BFO:0000040,material entity
-CDNO:0200594,,CHEBI:32588,potassium chloride,BFO:0000040,material entity
 CDNO:0200595,,CHEBI:32036,potassium sulfate,BFO:0000040,material entity
 CDNO:0200596,,CHEBI:50394,organic potassium salt,BFO:0000040,material entity
 CDNO:0200597,,CHEBI:63316,potassium formate,BFO:0000040,material entity
@@ -222,7 +213,6 @@ CDNO:0200598,,CHEBI:32034,potassium bitartrate,BFO:0000040,material entity
 CDNO:0200599,,CDNO:0000020,dietary sodium,BFO:0000040,material entity
 CDNO:0200144,,CHEBI:29101,sodium(1+),BFO:0000040,material entity
 CDNO:0200600,,CHEBI:38702,inorganic sodium salt,BFO:0000040,material entity
-CDNO:0200601,,CHEBI:26710,sodium chloride,BFO:0000040,material entity
 CDNO:0200602,,CHEBI:32139,sodium hydrogencarbonate,BFO:0000040,material entity
 CDNO:0200603,,CHEBI:32149,sodium sulfate,BFO:0000040,material entity
 CDNO:0200604,,CHEBI:26709,sodium hydrogensulfite,BFO:0000040,material entity
@@ -246,7 +236,6 @@ CDNO:0200620,,CHEBI:17359,sulfite,BFO:0000040,material entity
 CDNO:0200621,,CHEBI:24840,inorganic sulfate salt,BFO:0000040,material entity
 CDNO:0200622,,CHEBI:32599,magnesium sulfate,BFO:0000040,material entity
 CDNO:0200623,,CHEBI:75832,iron sulfate,BFO:0000040,material entity
-CDNO:0200624,,CHEBI:26709,sodium hydrogensulfite,BFO:0000040,material entity
 CDNO:0200625,,CHEBI:23414,copper(II) sulfate,BFO:0000040,material entity
 CDNO:0200626,,CHEBI:25704,organic sulfate salt,BFO:0000040,material entity
 CDNO:0200627,,CHEBI:33261,organosulfur compound,BFO:0000040,material entity
@@ -254,8 +243,6 @@ CDNO:0200628,,CHEBI:29256,thiol,BFO:0000040,material entity
 CDNO:0200629,,CHEBI:16856,glutathione,BFO:0000040,material entity
 CDNO:0200630,,CHEBI:9349,sulfonyldimethane,BFO:0000040,material entity
 CDNO:0200631,,CHEBI:28262,dimethyl sulfoxide,BFO:0000040,material entity
-CDNO:0200632,,CHEBI:15356,cysteine,BFO:0000040,material entity
-CDNO:0200633,,CHEBI:16811,methionine,BFO:0000040,material entity
 CDNO:0200634,,CHEBI:24401,glucosinolate,BFO:0000040,material entity
 CDNO:0200635,,CHEBI:79317,sinigrin,BFO:0000040,material entity
 CDNO:0200636,,CHEBI:52221,isothiocyanate,BFO:0000040,material entity
@@ -701,12 +688,7 @@ CDNO:0200701,,CHEBI:189560,xanthan,BFO:0000040,material entity
 CDNO:0200702,,CHEBI:24978,ketose,BFO:0000040,material entity
 CDNO:0200703,,CHEBI:24973,ketohexose,BFO:0000040,material entity
 CDNO:0200704,,CHEBI:33951,psicose,BFO:0000040,material entity
-CDNO:0200705,,CHEBI:26191,polyol,BFO:0000040,material entity
 CDNO:0200706,,CHEBI:68428,maltitol,BFO:0000040,material entity
-CDNO:0200707,,CHEBI:29864,mannitol,BFO:0000040,material entity
-CDNO:0200708,,CHEBI:17754,glycerol,BFO:0000040,material entity
-CDNO:0200709,,CHEBI:30911,glucitol,BFO:0000040,material entity
-CDNO:0200710,,CHEBI:17151,xylitol,BFO:0000040,material entity
 CDNO:0200711,,CHEBI:75323,lactitol,BFO:0000040,material entity
 CDNO:0200712,,CHEBI:150326,isomalt,BFO:0000040,material entity
 CDNO:0200713,,CHEBI:17113,erythritol,BFO:0000040,material entity
