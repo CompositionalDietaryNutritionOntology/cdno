@@ -11776,15 +11776,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-<<<<<<< HEAD
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of _-D-glucoside when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity _-D-glucoside concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of _-D-glucoside in material entity</rdfs:label>
-=======
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of β-D-glucoside when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity β-D-glucoside concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of β-D-glucoside in material entity</rdfs:label>
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     </owl:Class>
     
 
@@ -12650,15 +12644,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-<<<<<<< HEAD
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of (_)-phaseolin when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity (_)-phaseolin concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of (_)-phaseolin in material entity</rdfs:label>
-=======
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of (−)-phaseolin when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity (−)-phaseolin concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of (−)-phaseolin in material entity</rdfs:label>
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     </owl:Class>
     
 
@@ -17809,7 +17797,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200561">
@@ -17830,8 +17817,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200563">
@@ -18111,7 +18096,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200572">
@@ -18122,8 +18106,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200573">
@@ -18527,7 +18509,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200586">
@@ -18568,8 +18549,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200590">
@@ -18601,7 +18580,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200591">
@@ -18612,8 +18590,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200592">
@@ -18676,19 +18652,6 @@
     
 
 
-<<<<<<< HEAD
-    <!-- http://purl.obolibrary.org/obo/CDNO_0200594 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200594">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of potassium chloride when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity potassium chloride concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of potassium chloride in material entity</rdfs:label>
-    </owl:Class>
-    
-
-
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200595">
@@ -18846,12 +18809,6 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200600 -->
 
-<<<<<<< HEAD
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200601">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of sodium chloride when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity sodium chloride concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of sodium chloride in material entity</rdfs:label>
-=======
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200600">
         <owl:equivalentClass>
             <owl:Class>
@@ -18877,7 +18834,16 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of inorganic sodium salt when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity inorganic sodium salt concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of inorganic sodium salt in material entity</rdfs:label>
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0200601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200601">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of sodium chloride when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity sodium chloride concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of sodium chloride in material entity</rdfs:label>
     </owl:Class>
     
 
@@ -19564,7 +19530,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200624">
@@ -19575,8 +19540,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200625">
@@ -19794,7 +19757,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200632">
@@ -19815,8 +19777,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200634 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200634">
@@ -19841,15 +19801,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-<<<<<<< HEAD
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of glycosinolate when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity glycosinolate concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of glycosinolate in material entity</rdfs:label>
-=======
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of glucosinolate when measured in some material entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity glucosinolate concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of glucosinolate in material entity</rdfs:label>
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     </owl:Class>
     
 
@@ -22003,7 +21957,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200705 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200705">
@@ -22014,8 +21967,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200706 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200706">
@@ -22047,7 +21998,6 @@
     
 
 
-<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/CDNO_0200707 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200707">
@@ -22088,8 +22038,6 @@
     
 
 
-=======
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
     <!-- http://purl.obolibrary.org/obo/CDNO_0200711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200711">
