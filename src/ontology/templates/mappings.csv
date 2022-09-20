@@ -244,13 +244,9 @@ CDNO:0200628,thiol,,
 CDNO:0200629,glutathione,,
 CDNO:0200630,sulfonyldimethane,,
 CDNO:0200631,dimethyl sulfoxide,,
-<<<<<<< HEAD
 CDNO:0200632,cysteine,,
 CDNO:0200633,methionine,,
 CDNO:0200634,glycosinolate,,
-=======
-CDNO:0200634,glucosinolate,,
->>>>>>> 306ec44f19043309f4c80e1e0c9ebbc1e819f660
 CDNO:0200635,sinigrin,,
 CDNO:0200636,isothiocyanate,,
 CDNO:0200637,allyl isothiocyanate,,

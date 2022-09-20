@@ -88,8 +88,8 @@
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200586">
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200118"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200587">
@@ -134,13 +134,13 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200633">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200060"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200653">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200451"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200705">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
