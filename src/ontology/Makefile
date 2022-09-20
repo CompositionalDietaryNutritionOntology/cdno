@@ -111,7 +111,7 @@ all_modules_owl: $(ALL_MODS_OWL)
 
 # Targets for DOSDP modules #this will work when it's only the DOSDP but it'll will maybe apply this same pattern to all owl files in modules/ or at least those called from all_modules
 modules/%.owl: templates/%.csv patterns/%.yaml curie_map.yaml
-	dosdp-tools generate --table-format=csv --template=patterns/$*.yaml --outfile=modules/$*.tmp.owl --obo-prefixes=true --infile=templates/$*.csv
+	if [ true = true ]; then dosdp-tools generate --table-format=csv --template=patterns/$*.yaml --outfile=modules/$*.tmp.owl --obo-prefixes=true --infile=templates/$*.csv; fi
 	$(ROBOT) annotate --input modules/$*.tmp.owl -O http://purl.obolibrary.org/obo/cdno/modules/$*.owl --output modules/$*.owl && rm modules/$*.tmp.owl
 
 

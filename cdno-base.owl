@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/cdno/cdno-base.owl#"
      xml:base="http://purl.obolibrary.org/obo/cdno/cdno-base.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/cdno-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-06-23/cdno-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-09-20/cdno-base.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Compositional Dietary Nutrition Ontology</dc:title>
         <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/IAO_8000001</dc:type>
@@ -26,6 +27,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -55,6 +68,101 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200561">
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200176"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200562">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200546"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200572">
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200563"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200586">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200118"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200587">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200114"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200588">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200115"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200589">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200117"/>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200591">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200433"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200594">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200564"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200601">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200176"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200624">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200604"/>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200632">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200051"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200633">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200060"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200653">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200451"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200705">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200444"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200707">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200445"/>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200708">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200451"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200709">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200447"/>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200710">
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200446"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label xml:lang="en">definition</rdfs:label>
     </rdf:Description>
