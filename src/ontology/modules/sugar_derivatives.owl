@@ -832,8 +832,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from cellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">glucose derived from cellulose</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Glucose which is derived from amorphous cellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">glucose derived from amorphous cellulose</rdfs:label>
     </owl:Class>
     
 
