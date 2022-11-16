@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2022-09-22
+data-version: releases/2022-11-16
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -573,8 +573,8 @@ relationship: RO:0001000 CDNO:0100035 ! derives from verbascose derived from raf
 
 [Term]
 id: CDNO:0100039
-name: glucose derived from cellulose
-def: "Glucose which is derived from cellulose." []
+name: glucose derived from amorphous cellulose
+def: "Glucose which is derived from amorphous cellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
 intersection_of: RO:0001000 CHEBI:62967 ! derives from amorphous cellulose
@@ -700,8 +700,8 @@ id: CDNO:0200002
 name: concentration of water in material entity
 def: "The concentration of water when measured in some material entity." []
 synonym: "material entity water concentration" EXACT []
-xref: INFOODs: WATER
-xref: USDA_NDB: 1051
+xref: INFOODs:WATER
+xref: USDA_NDB:1051
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -709,9 +709,9 @@ id: CDNO:0200003
 name: concentration of dry plant matter in material entity
 def: "The concentration of dry plant matter when measured in some material entity." []
 synonym: "material entity dry plant matter concentration" EXACT []
-xref: INFOODs: DM
-xref: INFOODs: SOLID
-xref: INFOODs: SOLO
+xref: INFOODs:DM
+xref: INFOODs:SOLID
+xref: INFOODs:SOLO
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -719,8 +719,8 @@ id: CDNO:0200004
 name: concentration of ash in material entity
 def: "The concentration of ash when measured in some material entity." []
 synonym: "material entity ash concentration" EXACT []
-xref: INFOODs: ASH
-xref: USDA_NDB: 1007
+xref: INFOODs:ASH
+xref: USDA_NDB:1007
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -728,9 +728,9 @@ id: CDNO:0200005
 name: concentration of carbohydrate in material entity
 def: "The concentration of carbohydrate when measured in some material entity." []
 synonym: "material entity carbohydrate concentration" EXACT []
-xref: USDA_NDB: 1005
-xref: USDA_NDB: 1050
-xref: USDA_NDB: 1072
+xref: USDA_NDB:1005
+xref: USDA_NDB:1050
+xref: USDA_NDB:1072
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -738,7 +738,7 @@ id: CDNO:0200006
 name: concentration of polysaccharide in material entity
 def: "The concentration of polysaccharide when measured in some material entity." []
 synonym: "material entity polysaccharide concentration" EXACT []
-xref: INFOODs: POLYSAC
+xref: INFOODs:POLYSAC
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 
 [Term]
@@ -746,10 +746,10 @@ id: CDNO:0200007
 name: concentration of starch in material entity
 def: "The concentration of starch when measured in some material entity." []
 synonym: "material entity starch concentration" EXACT []
-xref: INFOODs: STARCH
-xref: INFOODs: STARCH-
-xref: INFOODs: STARCHM
-xref: USDA_NDB: 1009
+xref: INFOODs:STARCH
+xref: INFOODs:STARCH-
+xref: INFOODs:STARCHM
+xref: USDA_NDB:1009
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 is_a: CDNO:0200033 ! concentration of available carbohydrate in material entity
 
@@ -758,16 +758,16 @@ id: CDNO:0200008
 name: concentration of pectin in material entity
 def: "The concentration of pectin when measured in some material entity." []
 synonym: "material entity pectin concentration" EXACT []
-xref: INFOODs: PECT
+xref: INFOODs:PECT
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 is_a: CDNO:0200036 ! concentration of soluble dietary fibre in material entity
 
 [Term]
 id: CDNO:0200009
-name: concentration of cellulose in material entity
-def: "The concentration of cellulose when measured in some material entity." []
-synonym: "material entity cellulose concentration" EXACT []
-xref: INFOODs: CELLU
+name: concentration of amorphous cellulose in material entity
+def: "The concentration of amorphous cellulose when measured in some material entity." []
+synonym: "material entity amorphous cellulose concentration" EXACT []
+xref: INFOODs:CELLU
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 is_a: CDNO:0200038 ! concentration of insoluble dietary fibre in material entity
 
@@ -776,7 +776,7 @@ id: CDNO:0200010
 name: concentration of hemicellulose in material entity
 def: "The concentration of hemicellulose when measured in some material entity." []
 synonym: "material entity hemicellulose concentration" EXACT []
-xref: INFOODs: HEMCEL
+xref: INFOODs:HEMCEL
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 is_a: CDNO:0200038 ! concentration of insoluble dietary fibre in material entity
 
@@ -785,8 +785,8 @@ id: CDNO:0200011
 name: concentration of inulin in material entity
 def: "The concentration of inulin when measured in some material entity." []
 synonym: "material entity inulin concentration" EXACT []
-xref: INFOODs: INULN
-xref: USDA_NDB: 1403
+xref: INFOODs:INULN
+xref: USDA_NDB:1403
 is_a: CDNO:0200039 ! concentration of fructan in material entity
 
 [Term]
@@ -794,7 +794,7 @@ id: CDNO:0200012
 name: concentration of monosaccharide in material entity
 def: "The concentration of monosaccharide when measured in some material entity." []
 synonym: "material entity monosaccharide concentration" EXACT []
-xref: INFOODs: MNSAC
+xref: INFOODs:MNSAC
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 
 [Term]
@@ -802,9 +802,9 @@ id: CDNO:0200013
 name: concentration of glucose in material entity
 def: "The concentration of glucose when measured in some material entity." []
 synonym: "material entity glucose concentration" EXACT []
-xref: INFOODs: GLUFB
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUFB
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 is_a: CDNO:0200034 ! concentration of free sugar in material entity
 
@@ -813,9 +813,9 @@ id: CDNO:0200014
 name: concentration of fructose in material entity
 def: "The concentration of fructose when measured in some material entity." []
 synonym: "material entity fructose concentration" EXACT []
-xref: INFOODs: FRUFB
-xref: INFOODs: FRUS
-xref: USDA_NDB: 1012
+xref: INFOODs:FRUFB
+xref: INFOODs:FRUS
+xref: USDA_NDB:1012
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 is_a: CDNO:0200034 ! concentration of free sugar in material entity
 
@@ -824,8 +824,8 @@ id: CDNO:0200015
 name: concentration of rhamnose in material entity
 def: "The concentration of rhamnose when measured in some material entity." []
 synonym: "material entity rhamnose concentration" EXACT []
-xref: INFOODs: RHAFB
-xref: INFOODs: RHAS
+xref: INFOODs:RHAFB
+xref: INFOODs:RHAS
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -840,7 +840,7 @@ id: CDNO:0200017
 name: concentration of galacturonic acid in material entity
 def: "The concentration of galacturonic acid when measured in some material entity." []
 synonym: "material entity galacturonic acid concentration" EXACT []
-xref: INFOODs: GALAAC
+xref: INFOODs:GALAAC
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -848,7 +848,7 @@ id: CDNO:0200018
 name: concentration of fucose in material entity
 def: "The concentration of fucose when measured in some material entity." []
 synonym: "material entity fucose concentration" EXACT []
-xref: INFOODs: FUCOS
+xref: INFOODs:FUCOS
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -856,7 +856,7 @@ id: CDNO:0200019
 name: concentration of xylose in material entity
 def: "The concentration of xylose when measured in some material entity." []
 synonym: "material entity xylose concentration" EXACT []
-xref: INFOODs: XYLFB
+xref: INFOODs:XYLFB
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -864,8 +864,8 @@ id: CDNO:0200020
 name: concentration of arabinose in material entity
 def: "The concentration of arabinose when measured in some material entity." []
 synonym: "material entity arabinose concentration" EXACT []
-xref: INFOODs: ARAFB
-xref: INFOODs: ARAS
+xref: INFOODs:ARAFB
+xref: INFOODs:ARAS
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -873,8 +873,8 @@ id: CDNO:0200021
 name: concentration of galactose in material entity
 def: "The concentration of galactose when measured in some material entity." []
 synonym: "material entity galactose concentration" EXACT []
-xref: INFOODs: GALS
-xref: USDA_NDB: 1075
+xref: INFOODs:GALS
+xref: USDA_NDB:1075
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 is_a: CDNO:0200034 ! concentration of free sugar in material entity
 
@@ -883,8 +883,8 @@ id: CDNO:0200022
 name: concentration of mannose in material entity
 def: "The concentration of mannose when measured in some material entity." []
 synonym: "material entity mannose concentration" EXACT []
-xref: INFOODs: MANFB
-xref: INFOODs: MANS
+xref: INFOODs:MANFB
+xref: INFOODs:MANS
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -892,8 +892,8 @@ id: CDNO:0200023
 name: concentration of ribose in material entity
 def: "The concentration of ribose when measured in some material entity." []
 synonym: "material entity ribose concentration" EXACT []
-xref: INFOODs: RIBS
-xref: USDA_NDB: 1081
+xref: INFOODs:RIBS
+xref: USDA_NDB:1081
 is_a: CDNO:0200012 ! concentration of monosaccharide in material entity
 
 [Term]
@@ -901,7 +901,7 @@ id: CDNO:0200024
 name: concentration of disaccharide in material entity
 def: "The concentration of disaccharide when measured in some material entity." []
 synonym: "material entity disaccharide concentration" EXACT []
-xref: INFOODs: DISAC
+xref: INFOODs:DISAC
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 
 [Term]
@@ -909,8 +909,8 @@ id: CDNO:0200025
 name: concentration of sucrose in material entity
 def: "The concentration of sucrose when measured in some material entity." []
 synonym: "material entity sucrose concentration" EXACT []
-xref: INFOODs: SUCS
-xref: USDA_NDB: 1010
+xref: INFOODs:SUCS
+xref: USDA_NDB:1010
 is_a: CDNO:0200024 ! concentration of disaccharide in material entity
 is_a: CDNO:0200034 ! concentration of free sugar in material entity
 
@@ -919,7 +919,7 @@ id: CDNO:0200026
 name: concentration of trehalose in material entity
 def: "The concentration of trehalose when measured in some material entity." []
 synonym: "material entity trehalose concentration" EXACT []
-xref: INFOODs: TRES
+xref: INFOODs:TRES
 is_a: CDNO:0200024 ! concentration of disaccharide in material entity
 
 [Term]
@@ -927,8 +927,8 @@ id: CDNO:0200027
 name: concentration of maltose in material entity
 def: "The concentration of maltose when measured in some material entity." []
 synonym: "material entity maltose concentration" EXACT []
-xref: INFOODs: MALS
-xref: USDA_NDB: 1014
+xref: INFOODs:MALS
+xref: USDA_NDB:1014
 is_a: CDNO:0200024 ! concentration of disaccharide in material entity
 is_a: CDNO:0200028 ! concentration of oligosaccharide in material entity
 is_a: CDNO:0200034 ! concentration of free sugar in material entity
@@ -938,8 +938,8 @@ id: CDNO:0200028
 name: concentration of oligosaccharide in material entity
 def: "The concentration of oligosaccharide when measured in some material entity." []
 synonym: "material entity oligosaccharide concentration" EXACT []
-xref: INFOODs: OLSAC
-xref: INFOODs: OLSACM
+xref: INFOODs:OLSAC
+xref: INFOODs:OLSACM
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 
 [Term]
@@ -947,7 +947,7 @@ id: CDNO:0200029
 name: concentration of raffinose family oligosaccharide in material entity
 def: "The concentration of raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: RAFS
+xref: INFOODs:RAFS
 is_a: CDNO:0200028 ! concentration of oligosaccharide in material entity
 is_a: CDNO:0200036 ! concentration of soluble dietary fibre in material entity
 
@@ -956,7 +956,7 @@ id: CDNO:0200030
 name: concentration of raffinose in material entity
 def: "The concentration of raffinose when measured in some material entity." []
 synonym: "material entity raffinose concentration" EXACT []
-xref: INFOODs: RAFS
+xref: INFOODs:RAFS
 is_a: CDNO:0200029 ! concentration of raffinose family oligosaccharide in material entity
 
 [Term]
@@ -964,8 +964,8 @@ id: CDNO:0200031
 name: concentration of stachyose in material entity
 def: "The concentration of stachyose when measured in some material entity." []
 synonym: "material entity stachyose concentration" EXACT []
-xref: INFOODs: STAS
-xref: INFOODs: STASM
+xref: INFOODs:STAS
+xref: INFOODs:STASM
 is_a: CDNO:0200029 ! concentration of raffinose family oligosaccharide in material entity
 
 [Term]
@@ -973,8 +973,8 @@ id: CDNO:0200032
 name: concentration of verbascose in material entity
 def: "The concentration of verbascose when measured in some material entity." []
 synonym: "material entity verbascose concentration" EXACT []
-xref: INFOODs: VERS
-xref: INFOODs: VERSM
+xref: INFOODs:VERS
+xref: INFOODs:VERSM
 is_a: CDNO:0200029 ! concentration of raffinose family oligosaccharide in material entity
 
 [Term]
@@ -982,12 +982,12 @@ id: CDNO:0200033
 name: concentration of available carbohydrate in material entity
 def: "The concentration of available carbohydrate when measured in some material entity." []
 synonym: "material entity available carbohydrate concentration" EXACT []
-xref: INFOODs: CHOAVL
-xref: INFOODs: CHOAVL-
-xref: INFOODs: CHOAVLDF
-xref: INFOODs: CHOAVLM
-xref: INFOODs: CHOAVLO
-xref: USDA_NDB: 1005
+xref: INFOODs:CHOAVL
+xref: INFOODs:CHOAVL-
+xref: INFOODs:CHOAVLDF
+xref: INFOODs:CHOAVLM
+xref: INFOODs:CHOAVLO
+xref: USDA_NDB:1005
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 
 [Term]
@@ -995,12 +995,12 @@ id: CDNO:0200034
 name: concentration of free sugar in material entity
 def: "The concentration of free sugar when measured in some material entity." []
 synonym: "material entity free sugar concentration" EXACT []
-xref: INFOODs: SUGAR
-xref: INFOODs: SUGAR-
-xref: INFOODs: SUGARM
-xref: USDA_NDB: 1063
-xref: USDA_NDB: 1235
-xref: USDA_NDB: 2000
+xref: INFOODs:SUGAR
+xref: INFOODs:SUGAR-
+xref: INFOODs:SUGARM
+xref: USDA_NDB:1063
+xref: USDA_NDB:1235
+xref: USDA_NDB:2000
 is_a: CDNO:0200033 ! concentration of available carbohydrate in material entity
 
 [Term]
@@ -1008,11 +1008,11 @@ id: CDNO:0200035
 name: concentration of dietary fibre in material entity
 def: "The concentration of dietary fibre when measured in some material entity." []
 synonym: "material entity dietary fibre concentration" EXACT []
-xref: INFOODs: FIB-
-xref: INFOODs: FIBC
-xref: INFOODs: FIBDF
-xref: INFOODs: FIBTGLC
-xref: USDA_NDB: 2033
+xref: INFOODs:FIB-
+xref: INFOODs:FIBC
+xref: INFOODs:FIBDF
+xref: INFOODs:FIBTGLC
+xref: USDA_NDB:2033
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 
 [Term]
@@ -1020,9 +1020,9 @@ id: CDNO:0200036
 name: concentration of soluble dietary fibre in material entity
 def: "The concentration of soluble dietary fibre when measured in some material entity." []
 synonym: "material entity soluble dietary fibre concentration" EXACT []
-xref: INFOODs: FIBGLCSSOL
-xref: INFOODs: PSACNSS
-xref: USDA_NDB: 1082
+xref: INFOODs:FIBGLCSSOL
+xref: INFOODs:PSACNSS
+xref: USDA_NDB:1082
 is_a: CDNO:0200035 ! concentration of dietary fibre in material entity
 
 [Term]
@@ -1030,12 +1030,12 @@ id: CDNO:0200037
 name: concentration of resistant starch in material entity
 def: "The concentration of resistant starch when measured in some material entity." []
 synonym: "material entity resistant starch concentration" EXACT []
-xref: INFOODs: STARES
-xref: INFOODs: STARES1
-xref: INFOODs: STARES2
-xref: INFOODs: STARES3
-xref: INFOODs: STARES4
-xref: USDA_NDB: 1009
+xref: INFOODs:STARES
+xref: INFOODs:STARES1
+xref: INFOODs:STARES2
+xref: INFOODs:STARES3
+xref: INFOODs:STARES4
+xref: USDA_NDB:1009
 is_a: CDNO:0200036 ! concentration of soluble dietary fibre in material entity
 
 [Term]
@@ -1043,12 +1043,12 @@ id: CDNO:0200038
 name: concentration of insoluble dietary fibre in material entity
 def: "The concentration of insoluble dietary fibre when measured in some material entity." []
 synonym: "material entity insoluble dietary fibre concentration" EXACT []
-xref: INFOODs: FIBGLCSINS
-xref: INFOODs: FIBGLCSINSOL
-xref: INFOODs: FIBINS
-xref: INFOODs: FIBTGLCS
 xref: INFOODs:FIBC
-xref: USDA_NDB: 1084
+xref: INFOODs:FIBGLCSINS
+xref: INFOODs:FIBGLCSINSOL
+xref: INFOODs:FIBINS
+xref: INFOODs:FIBTGLCS
+xref: USDA_NDB:1084
 is_a: CDNO:0200035 ! concentration of dietary fibre in material entity
 
 [Term]
@@ -1056,8 +1056,8 @@ id: CDNO:0200039
 name: concentration of fructan in material entity
 def: "The concentration of fructan when measured in some material entity." []
 synonym: "material entity fructan concentration" EXACT []
-xref: INFOODs: FRUTN
-xref: INFOODs: FRUTNM
+xref: INFOODs:FRUTN
+xref: INFOODs:FRUTNM
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 is_a: CDNO:0200038 ! concentration of insoluble dietary fibre in material entity
 
@@ -1066,8 +1066,8 @@ id: CDNO:0200040
 name: concentration of protein in material entity
 def: "The concentration of protein when measured in some material entity." []
 synonym: "material entity protein concentration" EXACT []
-xref: INFOODs: PROT-
-xref: USDA_NDB: 1003
+xref: INFOODs:PROT-
+xref: USDA_NDB:1003
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -1075,9 +1075,9 @@ id: CDNO:0200041
 name: concentration of seed storage protein in material entity
 def: "The concentration of seed storage protein when measured in some material entity." []
 synonym: "material entity seed storage protein concentration" EXACT []
-xref: INFOODs: PROTA
-xref: INFOODs: PROTPL
-xref: USDA_NDB: 1003
+xref: INFOODs:PROTA
+xref: INFOODs:PROTPL
+xref: USDA_NDB:1003
 is_a: CDNO:0200040 ! concentration of protein in material entity
 
 [Term]
@@ -1085,7 +1085,7 @@ id: CDNO:0200042
 name: concentration of albumin type in material entity
 def: "The concentration of albumin type when measured in some material entity." []
 synonym: "material entity albumin type concentration" EXACT []
-xref: INFOODs: ALBU
+xref: INFOODs:ALBU
 is_a: CDNO:0200041 ! concentration of seed storage protein in material entity
 
 [Term]
@@ -1093,7 +1093,7 @@ id: CDNO:0200043
 name: concentration of globulin type in material entity
 def: "The concentration of globulin type when measured in some material entity." []
 synonym: "material entity globulin type concentration" EXACT []
-xref: INFOODs: GLOB
+xref: INFOODs:GLOB
 is_a: CDNO:0200041 ! concentration of seed storage protein in material entity
 
 [Term]
@@ -1115,7 +1115,7 @@ id: CDNO:0200046
 name: concentration of glutenin in material entity
 def: "The concentration of glutenin when measured in some material entity." []
 synonym: "material entity glutenin concentration" EXACT []
-xref: INFOODs: GLUTN
+xref: INFOODs:GLUTN
 is_a: CDNO:0200043 ! concentration of globulin type in material entity
 
 [Term]
@@ -1123,8 +1123,8 @@ id: CDNO:0200047
 name: concentration of alanine in material entity
 def: "The concentration of alanine when measured in some material entity." []
 synonym: "material entity alanine concentration" EXACT []
-xref: INFOODs: ALA
-xref: USDA_NDB: 1222
+xref: INFOODs:ALA
+xref: USDA_NDB:1222
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1132,8 +1132,8 @@ id: CDNO:0200048
 name: concentration of arginine in material entity
 def: "The concentration of arginine when measured in some material entity." []
 synonym: "material entity arginine concentration" EXACT []
-xref: INFOODs: ARG
-xref: USDA_NDB: 1220
+xref: INFOODs:ARG
+xref: USDA_NDB:1220
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1141,7 +1141,7 @@ id: CDNO:0200049
 name: concentration of asparagine in material entity
 def: "The concentration of asparagine when measured in some material entity." []
 synonym: "material entity asparagine concentration" EXACT []
-xref: INFOODs: ASN
+xref: INFOODs:ASN
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1149,8 +1149,8 @@ id: CDNO:0200050
 name: concentration of aspartic acid in material entity
 def: "The concentration of aspartic acid when measured in some material entity." []
 synonym: "material entity aspartic acid concentration" EXACT []
-xref: INFOODs: ASP
-xref: USDA_NDB: 1223
+xref: INFOODs:ASP
+xref: USDA_NDB:1223
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1158,8 +1158,8 @@ id: CDNO:0200051
 name: concentration of cysteine in material entity
 def: "The concentration of cysteine when measured in some material entity." []
 synonym: "material entity cysteine concentration" EXACT []
-xref: INFOODs: CYSTE
-xref: USDA_NDB: 1232
+xref: INFOODs:CYSTE
+xref: USDA_NDB:1232
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
 
@@ -1168,8 +1168,8 @@ id: CDNO:0200052
 name: concentration of glutamic acid in material entity
 def: "The concentration of glutamic acid when measured in some material entity." []
 synonym: "material entity glutamic acid concentration" EXACT []
-xref: INFOODs: GLU
-xref: USDA_NDB: 1224
+xref: INFOODs:GLU
+xref: USDA_NDB:1224
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1177,8 +1177,8 @@ id: CDNO:0200053
 name: concentration of glutamine in material entity
 def: "The concentration of glutamine when measured in some material entity." []
 synonym: "material entity glutamine concentration" EXACT []
-xref: INFOODs: GLN
-xref: USDA_NDB: 1233
+xref: INFOODs:GLN
+xref: USDA_NDB:1233
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1186,8 +1186,8 @@ id: CDNO:0200054
 name: concentration of glycine in material entity
 def: "The concentration of glycine when measured in some material entity." []
 synonym: "material entity glycine concentration" EXACT []
-xref: INFOODs: GLY
-xref: USDA_NDB: 1225
+xref: INFOODs:GLY
+xref: USDA_NDB:1225
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1195,8 +1195,8 @@ id: CDNO:0200055
 name: concentration of histidine in material entity
 def: "The concentration of histidine when measured in some material entity." []
 synonym: "material entity histidine concentration" EXACT []
-xref: INFOODs: HIS
-xref: USDA_NDB: 1221
+xref: INFOODs:HIS
+xref: USDA_NDB:1221
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1204,8 +1204,8 @@ id: CDNO:0200056
 name: concentration of hydroxyproline in material entity
 def: "The concentration of hydroxyproline when measured in some material entity." []
 synonym: "material entity hydroxyproline concentration" EXACT []
-xref: INFOODs: HYP
-xref: USDA_NDB: 1228
+xref: INFOODs:HYP
+xref: USDA_NDB:1228
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1213,8 +1213,8 @@ id: CDNO:0200057
 name: concentration of isoleucine in material entity
 def: "The concentration of isoleucine when measured in some material entity." []
 synonym: "material entity isoleucine concentration" EXACT []
-xref: INFOODs: ILE
-xref: USDA_NDB: 1212
+xref: INFOODs:ILE
+xref: USDA_NDB:1212
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1222,8 +1222,8 @@ id: CDNO:0200058
 name: concentration of leucine in material entity
 def: "The concentration of leucine when measured in some material entity." []
 synonym: "material entity leucine concentration" EXACT []
-xref: INFOODs: LEU
-xref: USDA_NDB: 1213
+xref: INFOODs:LEU
+xref: USDA_NDB:1213
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1231,8 +1231,8 @@ id: CDNO:0200059
 name: concentration of lysine in material entity
 def: "The concentration of lysine when measured in some material entity." []
 synonym: "material entity lysine concentration" EXACT []
-xref: INFOODs: LYS
-xref: USDA_NDB: 1214
+xref: INFOODs:LYS
+xref: USDA_NDB:1214
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1240,8 +1240,8 @@ id: CDNO:0200060
 name: concentration of methionine in material entity
 def: "The concentration of methionine when measured in some material entity." []
 synonym: "material entity methionine concentration" EXACT []
-xref: INFOODs: MET
-xref: USDA_NDB: 1215
+xref: INFOODs:MET
+xref: USDA_NDB:1215
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
 
@@ -1250,8 +1250,8 @@ id: CDNO:0200061
 name: concentration of phenylalanine in material entity
 def: "The concentration of phenylalanine when measured in some material entity." []
 synonym: "material entity phenylalanine concentration" EXACT []
-xref: INFOODs: PHE
-xref: USDA_NDB: 1217
+xref: INFOODs:PHE
+xref: USDA_NDB:1217
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1259,8 +1259,8 @@ id: CDNO:0200062
 name: concentration of proline in material entity
 def: "The concentration of proline when measured in some material entity." []
 synonym: "material entity proline concentration" EXACT []
-xref: INFOODs: PRO
-xref: USDA_NDB: 1226
+xref: INFOODs:PRO
+xref: USDA_NDB:1226
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1268,8 +1268,8 @@ id: CDNO:0200063
 name: concentration of serine in material entity
 def: "The concentration of serine when measured in some material entity." []
 synonym: "material entity serine concentration" EXACT []
-xref: INFOODs: SER
-xref: USDA_NDB: 1227
+xref: INFOODs:SER
+xref: USDA_NDB:1227
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1277,8 +1277,8 @@ id: CDNO:0200064
 name: concentration of threonine in material entity
 def: "The concentration of threonine when measured in some material entity." []
 synonym: "material entity threonine concentration" EXACT []
-xref: INFOODs: THR
-xref: USDA_NDB: 1211
+xref: INFOODs:THR
+xref: USDA_NDB:1211
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1286,8 +1286,8 @@ id: CDNO:0200065
 name: concentration of tryptophan in material entity
 def: "The concentration of tryptophan when measured in some material entity." []
 synonym: "material entity tryptophan concentration" EXACT []
-xref: INFOODs: TRP
-xref: USDA_NDB: 1210
+xref: INFOODs:TRP
+xref: USDA_NDB:1210
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1295,8 +1295,8 @@ id: CDNO:0200066
 name: concentration of tyrosine in material entity
 def: "The concentration of tyrosine when measured in some material entity." []
 synonym: "material entity tyrosine concentration" EXACT []
-xref: INFOODs: TYR
-xref: USDA_NDB: 1218
+xref: INFOODs:TYR
+xref: USDA_NDB:1218
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1304,8 +1304,8 @@ id: CDNO:0200067
 name: concentration of valine in material entity
 def: "The concentration of valine when measured in some material entity." []
 synonym: "material entity valine concentration" EXACT []
-xref: INFOODs: VAL
-xref: USDA_NDB: 1219
+xref: INFOODs:VAL
+xref: USDA_NDB:1219
 is_a: CDNO:0200464 ! concentration of amino acid in material entity
 
 [Term]
@@ -1313,8 +1313,8 @@ id: CDNO:0200068
 name: concentration of lipid in material entity
 def: "The concentration of lipid when measured in some material entity." []
 synonym: "material entity lipid concentration" EXACT []
-xref: INFOODs: FATPL
-xref: USDA_NDB: 1004
+xref: INFOODs:FATPL
+xref: USDA_NDB:1004
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -1322,7 +1322,7 @@ id: CDNO:0200069
 name: concentration of diglyceride in material entity
 def: "The concentration of diglyceride when measured in some material entity." []
 synonym: "material entity diglyceride concentration" EXACT []
-xref: INFOODs: DGLY
+xref: INFOODs:DGLY
 is_a: CDNO:0200068 ! concentration of lipid in material entity
 
 [Term]
@@ -1330,7 +1330,7 @@ id: CDNO:0200070
 name: concentration of cis-fatty acid in material entity
 def: "The concentration of cis-fatty acid when measured in some material entity." []
 synonym: "material entity cis-fatty acid concentration" EXACT []
-xref: INFOODs: FACIS
+xref: INFOODs:FACIS
 is_a: CDNO:0200465 ! concentration of fatty acid in material entity
 
 [Term]
@@ -1408,7 +1408,7 @@ id: CDNO:0200082
 name: concentration of propionic acid in material entity
 def: "The concentration of propionic acid when measured in some material entity." []
 synonym: "material entity propionic acid concentration" EXACT []
-xref: INFOODs: PROPAC
+xref: INFOODs:PROPAC
 is_a: CDNO:0200458 ! concentration of saturated fatty acid in material entity
 
 [Term]
@@ -1612,8 +1612,8 @@ id: CDNO:0200111
 name: concentration of trans-fatty acid in material entity
 def: "The concentration of trans-fatty acid when measured in some material entity." []
 synonym: "material entity trans-fatty acid concentration" EXACT []
-xref: INFOODs: FATRN
-xref: USDA_NDB: 1257
+xref: INFOODs:FATRN
+xref: USDA_NDB:1257
 is_a: CDNO:0200465 ! concentration of fatty acid in material entity
 
 [Term]
@@ -1621,7 +1621,7 @@ id: CDNO:0200112
 name: concentration of capsaicin in material entity
 def: "The concentration of capsaicin when measured in some material entity." []
 synonym: "material entity capsaicin concentration" EXACT []
-xref: INFOODs: CAPSA
+xref: INFOODs:CAPSA
 is_a: CDNO:0200068 ! concentration of lipid in material entity
 is_a: CDNO:0200216 ! concentration of alkaloid in material entity
 
@@ -1630,7 +1630,7 @@ id: CDNO:0200113
 name: concentration of phospholipid in material entity
 def: "The concentration of phospholipid when measured in some material entity." []
 synonym: "material entity phospholipid concentration" EXACT []
-xref: INFOODs: PHOLIP
+xref: INFOODs:PHOLIP
 is_a: CDNO:0200068 ! concentration of lipid in material entity
 
 [Term]
@@ -1638,7 +1638,7 @@ id: CDNO:0200114
 name: concentration of phosphatidylcholine in material entity
 def: "The concentration of phosphatidylcholine when measured in some material entity." []
 synonym: "material entity phosphatidylcholine concentration" EXACT []
-xref: INFOODs: CHLNP
+xref: INFOODs:CHLNP
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
 is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
@@ -1647,7 +1647,7 @@ id: CDNO:0200115
 name: concentration of phosphatidylethanolamine in material entity
 def: "The concentration of phosphatidylethanolamine when measured in some material entity." []
 synonym: "material entity phosphatidylethanolamine concentration" EXACT []
-xref: INFOODs: PHOETHN
+xref: INFOODs:PHOETHN
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
 is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
@@ -1656,7 +1656,7 @@ id: CDNO:0200116
 name: concentration of phosphatidyl-L-serine in material entity
 def: "The concentration of phosphatidyl-L-serine when measured in some material entity." []
 synonym: "material entity phosphatidyl-L-serine concentration" EXACT []
-xref: INFOODs: PHOSER
+xref: INFOODs:PHOSER
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
 
 [Term]
@@ -1664,7 +1664,7 @@ id: CDNO:0200117
 name: concentration of phosphatidylinositol in material entity
 def: "The concentration of phosphatidylinositol when measured in some material entity." []
 synonym: "material entity phosphatidylinositol concentration" EXACT []
-xref: INFOODs: PHOINOTL
+xref: INFOODs:PHOINOTL
 is_a: CDNO:0200113 ! concentration of phospholipid in material entity
 is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
 
@@ -1681,7 +1681,7 @@ id: CDNO:0200119
 name: concentration of glycolipid in material entity
 def: "The concentration of glycolipid when measured in some material entity." []
 synonym: "material entity glycolipid concentration" EXACT []
-xref: INFOODs: GLYLIP
+xref: INFOODs:GLYLIP
 is_a: CDNO:0200068 ! concentration of lipid in material entity
 
 [Term]
@@ -1696,9 +1696,9 @@ id: CDNO:0200121
 name: concentration of sterol in material entity
 def: "The concentration of sterol when measured in some material entity." []
 synonym: "material entity sterol concentration" EXACT []
-xref: INFOODs: STEOTH
-xref: INFOODs: STERFRE
-xref: INFOODs: STERT
+xref: INFOODs:STEOTH
+xref: INFOODs:STERFRE
+xref: INFOODs:STERT
 is_a: CDNO:0200068 ! concentration of lipid in material entity
 
 [Term]
@@ -1706,7 +1706,7 @@ id: CDNO:0200122
 name: concentration of campestanol in material entity
 def: "The concentration of campestanol when measured in some material entity." []
 synonym: "material entity campestanol concentration" EXACT []
-xref: USDA_NDB: 1289
+xref: USDA_NDB:1289
 is_a: CDNO:0200121 ! concentration of sterol in material entity
 
 [Term]
@@ -1714,8 +1714,8 @@ id: CDNO:0200123
 name: concentration of cholesterol in material entity
 def: "The concentration of cholesterol when measured in some material entity." []
 synonym: "material entity cholesterol concentration" EXACT []
-xref: INFOODs: CHOLEST
-xref: USDA_NDB: 1253
+xref: INFOODs:CHOLEST
+xref: USDA_NDB:1253
 is_a: CDNO:0200121 ! concentration of sterol in material entity
 
 [Term]
@@ -1727,11 +1727,11 @@ is_a: CDNO:0200121 ! concentration of sterol in material entity
 
 [Term]
 id: CDNO:0200125
-name: concentration of phytosterol in material entity
-def: "The concentration of phytosterol when measured in some material entity." []
-synonym: "material entity phytosterol concentration" EXACT []
-xref: INFOODs: PHYSTR
-xref: USDA_NDB: 1283
+name: concentration of phytosterols in material entity
+def: "The concentration of phytosterols when measured in some material entity." []
+synonym: "material entity phytosterols concentration" EXACT []
+xref: INFOODs:PHYSTR
+xref: USDA_NDB:1283
 is_a: CDNO:0200121 ! concentration of sterol in material entity
 
 [Term]
@@ -1739,16 +1739,16 @@ id: CDNO:0200126
 name: concentration of avenasterol in material entity
 def: "The concentration of avenasterol when measured in some material entity." []
 synonym: "material entity avenasterol concentration" EXACT []
-xref: INFOODs: AVEDT
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+xref: INFOODs:AVEDT
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200127
 name: concentration of isofucosterol in material entity
 def: "The concentration of isofucosterol when measured in some material entity." []
 synonym: "material entity isofucosterol concentration" EXACT []
-xref: INFOODs: AVED5
-xref: USDA_NDB: 1296
+xref: INFOODs:AVED5
+xref: USDA_NDB:1296
 is_a: CDNO:0200126 ! concentration of avenasterol in material entity
 
 [Term]
@@ -1756,7 +1756,7 @@ id: CDNO:0200128
 name: concentration of delta7-avenasterol in material entity
 def: "The concentration of delta7-avenasterol when measured in some material entity." []
 synonym: "material entity delta7-avenasterol concentration" EXACT []
-xref: INFOODs: AVED7
+xref: INFOODs:AVED7
 is_a: CDNO:0200126 ! concentration of avenasterol in material entity
 
 [Term]
@@ -1764,57 +1764,57 @@ id: CDNO:0200129
 name: concentration of brassicasterol in material entity
 def: "The concentration of brassicasterol when measured in some material entity." []
 synonym: "material entity brassicasterol concentration" EXACT []
-xref: INFOODs: BRASTR
-xref: USDA_NDB: 1287
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+xref: INFOODs:BRASTR
+xref: USDA_NDB:1287
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200130
 name: concentration of campesterol in material entity
 def: "The concentration of campesterol when measured in some material entity." []
 synonym: "material entity campesterol concentration" EXACT []
-xref: INFOODs: CAMT
-xref: USDA_NDB: 1286
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+xref: INFOODs:CAMT
+xref: USDA_NDB:1286
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200131
 name: concentration of ergosterol in material entity
 def: "The concentration of ergosterol when measured in some material entity." []
 synonym: "material entity ergosterol concentration" EXACT []
-xref: INFOODs: ERGSTR
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+xref: INFOODs:ERGSTR
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200132
 name: concentration of sitosterol in material entity
 def: "The concentration of sitosterol when measured in some material entity." []
 synonym: "material entity sitosterol concentration" EXACT []
-xref: INFOODs: SITSTR
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+xref: INFOODs:SITSTR
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200133
 name: concentration of stigmastanol in material entity
 def: "The concentration of stigmastanol when measured in some material entity." []
 synonym: "material entity stigmastanol concentration" EXACT []
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200134
 name: concentration of stigmasterol in material entity
 def: "The concentration of stigmasterol when measured in some material entity." []
 synonym: "material entity stigmasterol concentration" EXACT []
-xref: INFOODs: STGSTR
-xref: USDA_NDB: 1285
-is_a: CDNO:0200125 ! concentration of phytosterol in material entity
+xref: INFOODs:STGSTR
+xref: USDA_NDB:1285
+is_a: CDNO:0200125 ! concentration of phytosterols in material entity
 
 [Term]
 id: CDNO:0200135
 name: concentration of delta7-stigmasterol in material entity
 def: "The concentration of delta7-stigmasterol when measured in some material entity." []
 synonym: "material entity delta7-stigmasterol concentration" EXACT []
-xref: INFOODs: STID7
+xref: INFOODs:STID7
 is_a: CDNO:0200134 ! concentration of stigmasterol in material entity
 
 [Term]
@@ -1836,8 +1836,8 @@ id: CDNO:0200138
 name: concentration of calcium(2+) in material entity
 def: "The concentration of calcium(2+) when measured in some material entity." []
 synonym: "material entity calcium(2+) concentration" EXACT []
-xref: INFOODs: CA
-xref: USDA_NDB: 1087
+xref: INFOODs:CA
+xref: USDA_NDB:1087
 is_a: CDNO:0200544 ! concentration of dietary calcium in material entity
 
 [Term]
@@ -1845,7 +1845,7 @@ id: CDNO:0200139
 name: concentration of chloride in material entity
 def: "The concentration of chloride when measured in some material entity." []
 synonym: "material entity chloride concentration" EXACT []
-xref: INFOODs: CLD
+xref: INFOODs:CLD
 is_a: CDNO:0200559 ! concentration of dietary chlorine in material entity
 
 [Term]
@@ -1860,16 +1860,16 @@ id: CDNO:0200141
 name: concentration of nitrogen atom in material entity
 def: "The concentration of nitrogen atom when measured in some material entity." []
 synonym: "material entity nitrogen atom concentration" EXACT []
-xref: INFOODs: NAM
-xref: INFOODs: NT
-xref: USDA_NDB: 1002
+xref: INFOODs:NAM
+xref: INFOODs:NT
+xref: USDA_NDB:1002
 is_a: CDNO:0200137 ! concentration of macro element in material entity
 
 [Term]
 id: CDNO:0200142
-name: concentration of phosphide in material entity
-def: "The concentration of phosphide when measured in some material entity." []
-synonym: "material entity phosphide concentration" EXACT []
+name: concentration of phosphide(3−) in material entity
+def: "The concentration of phosphide(3−) when measured in some material entity." []
+synonym: "material entity phosphide(3−) concentration" EXACT []
 is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
 
 [Term]
@@ -1877,8 +1877,8 @@ id: CDNO:0200143
 name: concentration of potassium(1+) in material entity
 def: "The concentration of potassium(1+) when measured in some material entity." []
 synonym: "material entity potassium(1+) concentration" EXACT []
-xref: INFOODs: K
-xref: USDA_NDB: 1092
+xref: INFOODs:K
+xref: USDA_NDB:1092
 is_a: CDNO:0200592 ! concentration of dietary potassium in material entity
 
 [Term]
@@ -1886,8 +1886,8 @@ id: CDNO:0200144
 name: concentration of sodium(1+) in material entity
 def: "The concentration of sodium(1+) when measured in some material entity." []
 synonym: "material entity sodium(1+) concentration" EXACT []
-xref: INFOODs: NA
-xref: USDA_NDB: 1093
+xref: INFOODs:NA
+xref: USDA_NDB:1093
 is_a: CDNO:0200599 ! concentration of dietary sodium in material entity
 
 [Term]
@@ -1895,8 +1895,8 @@ id: CDNO:0200145
 name: concentration of sulfide(2−) in material entity
 def: "The concentration of sulfide(2−) when measured in some material entity." []
 synonym: "material entity sulfide(2−) concentration" EXACT []
-xref: INFOODs: S
-xref: USDA_NDB: 1094
+xref: INFOODs:S
+xref: USDA_NDB:1094
 is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
 
 [Term]
@@ -1911,7 +1911,7 @@ id: CDNO:0200147
 name: concentration of aluminium(3+) in material entity
 def: "The concentration of aluminium(3+) when measured in some material entity." []
 synonym: "material entity aluminium(3+) concentration" EXACT []
-xref: INFOODs: AL
+xref: INFOODs:AL
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -1919,7 +1919,7 @@ id: CDNO:0200148
 name: concentration of antimony(3+) in material entity
 def: "The concentration of antimony(3+) when measured in some material entity." []
 synonym: "material entity antimony(3+) concentration" EXACT []
-xref: INFOODs: SB
+xref: INFOODs:SB
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -1927,7 +1927,7 @@ id: CDNO:0200149
 name: concentration of arsenic(3+) in material entity
 def: "The concentration of arsenic(3+) when measured in some material entity." []
 synonym: "material entity arsenic(3+) concentration" EXACT []
-xref: INFOODs: AS
+xref: INFOODs:AS
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -1935,8 +1935,8 @@ id: CDNO:0200150
 name: concentration of boron(3+) in material entity
 def: "The concentration of boron(3+) when measured in some material entity." []
 synonym: "material entity boron(3+) concentration" EXACT []
-xref: INFOODs: B
-xref: USDA_NDB: 1137
+xref: INFOODs:B
+xref: USDA_NDB:1137
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -1944,7 +1944,7 @@ id: CDNO:0200151
 name: concentration of cadmium(2+) in material entity
 def: "The concentration of cadmium(2+) when measured in some material entity." []
 synonym: "material entity cadmium(2+) concentration" EXACT []
-xref: INFOODs: CD
+xref: INFOODs:CD
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -1952,8 +1952,8 @@ id: CDNO:0200152
 name: concentration of chromium(2+) in material entity
 def: "The concentration of chromium(2+) when measured in some material entity." []
 synonym: "material entity chromium(2+) concentration" EXACT []
-xref: INFOODs: CR
-xref: USDA_NDB: 1096
+xref: INFOODs:CR
+xref: USDA_NDB:1096
 is_a: CDNO:0200639 ! concentration of dietary chromium in material entity
 
 [Term]
@@ -1961,8 +1961,8 @@ id: CDNO:0200153
 name: concentration of cobalt(2+) in material entity
 def: "The concentration of cobalt(2+) when measured in some material entity." []
 synonym: "material entity cobalt(2+) concentration" EXACT []
-xref: INFOODs: CO
-xref: USDA_NDB: 1097
+xref: INFOODs:CO
+xref: USDA_NDB:1097
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -1970,8 +1970,8 @@ id: CDNO:0200154
 name: concentration of copper(2+) in material entity
 def: "The concentration of copper(2+) when measured in some material entity." []
 synonym: "material entity copper(2+) concentration" EXACT []
-xref: INFOODs: CU
-xref: USDA_NDB: 1098
+xref: INFOODs:CU
+xref: USDA_NDB:1098
 is_a: CDNO:0200642 ! concentration of dietary copper in material entity
 
 [Term]
@@ -1979,17 +1979,17 @@ id: CDNO:0200155
 name: concentration of fluoride in material entity
 def: "The concentration of fluoride when measured in some material entity." []
 synonym: "material entity fluoride concentration" EXACT []
-xref: INFOODs: FD
-xref: USDA_NDB: 1099
+xref: INFOODs:FD
+xref: USDA_NDB:1099
 is_a: CDNO:0200645 ! concentration of dietary fluorine in material entity
 
 [Term]
 id: CDNO:0200156
-name: concentration of iodine in material entity
-def: "The concentration of iodine when measured in some material entity." []
-synonym: "material entity iodine concentration" EXACT []
-xref: INFOODs: ID
-xref: USDA_NDB: 1100
+name: concentration of iodide in material entity
+def: "The concentration of iodide when measured in some material entity." []
+synonym: "material entity iodide concentration" EXACT []
+xref: INFOODs:ID
+xref: USDA_NDB:1100
 is_a: CDNO:0200648 ! concentration of dietary iodine in material entity
 
 [Term]
@@ -1997,8 +1997,8 @@ id: CDNO:0200157
 name: concentration of iron(2+) in material entity
 def: "The concentration of iron(2+) when measured in some material entity." []
 synonym: "material entity iron(2+) concentration" EXACT []
-xref: INFOODs: FE
-xref: USDA_NDB: 1089
+xref: INFOODs:FE
+xref: USDA_NDB:1089
 is_a: CDNO:0200651 ! concentration of dietary iron in material entity
 
 [Term]
@@ -2006,7 +2006,7 @@ id: CDNO:0200158
 name: concentration of lead(2+) in material entity
 def: "The concentration of lead(2+) when measured in some material entity." []
 synonym: "material entity lead(2+) concentration" EXACT []
-xref: INFOODs: PB
+xref: INFOODs:PB
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2014,16 +2014,16 @@ id: CDNO:0200159
 name: concentration of lithium(1+) in material entity
 def: "The concentration of lithium(1+) when measured in some material entity." []
 synonym: "material entity lithium(1+) concentration" EXACT []
-xref: INFOODs: LI
+xref: INFOODs:LI
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
 id: CDNO:0200160
-name: concentration of manganese(2+) in material entity
-def: "The concentration of manganese(2+) when measured in some material entity." []
-synonym: "material entity manganese(2+) concentration" EXACT []
-xref: INFOODs: MN
-xref: USDA_NDB: 1101
+name: concentration of manganese atom in material entity
+def: "The concentration of manganese atom when measured in some material entity." []
+synonym: "material entity manganese atom concentration" EXACT []
+xref: INFOODs:MN
+xref: USDA_NDB:1101
 is_a: CDNO:0200657 ! concentration of dietary manganese in material entity
 
 [Term]
@@ -2031,7 +2031,7 @@ id: CDNO:0200161
 name: concentration of mercury(2+) in material entity
 def: "The concentration of mercury(2+) when measured in some material entity." []
 synonym: "material entity mercury(2+) concentration" EXACT []
-xref: INFOODs: HG
+xref: INFOODs:HG
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2039,8 +2039,8 @@ id: CDNO:0200162
 name: concentration of molybdenum(4+) in material entity
 def: "The concentration of molybdenum(4+) when measured in some material entity." []
 synonym: "material entity molybdenum(4+) concentration" EXACT []
-xref: INFOODs: MO
-xref: USDA_NDB: 1102
+xref: INFOODs:MO
+xref: USDA_NDB:1102
 is_a: CDNO:0200661 ! concentration of dietary molybdenum in material entity
 
 [Term]
@@ -2048,8 +2048,8 @@ id: CDNO:0200163
 name: concentration of nickel(2+) in material entity
 def: "The concentration of nickel(2+) when measured in some material entity." []
 synonym: "material entity nickel(2+) concentration" EXACT []
-xref: INFOODs: NI
-xref: USDA_NDB: 1146
+xref: INFOODs:NI
+xref: USDA_NDB:1146
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2057,7 +2057,7 @@ id: CDNO:0200164
 name: concentration of rubidium(1+) in material entity
 def: "The concentration of rubidium(1+) when measured in some material entity." []
 synonym: "material entity rubidium(1+) concentration" EXACT []
-xref: INFOODs: RB
+xref: INFOODs:RB
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2065,8 +2065,8 @@ id: CDNO:0200165
 name: concentration of selenium(2+) in material entity
 def: "The concentration of selenium(2+) when measured in some material entity." []
 synonym: "material entity selenium(2+) concentration" EXACT []
-xref: INFOODs: SE
-xref: USDA_NDB: 1103
+xref: INFOODs:SE
+xref: USDA_NDB:1103
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2074,7 +2074,7 @@ id: CDNO:0200166
 name: concentration of strontium(2+) in material entity
 def: "The concentration of strontium(2+) when measured in some material entity." []
 synonym: "material entity strontium(2+) concentration" EXACT []
-xref: INFOODs: SR
+xref: INFOODs:SR
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2082,7 +2082,7 @@ id: CDNO:0200167
 name: concentration of tin(2+) in material entity
 def: "The concentration of tin(2+) when measured in some material entity." []
 synonym: "material entity tin(2+) concentration" EXACT []
-xref: INFOODs: SN
+xref: INFOODs:SN
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2090,7 +2090,7 @@ id: CDNO:0200168
 name: concentration of titanium(3+) in material entity
 def: "The concentration of titanium(3+) when measured in some material entity." []
 synonym: "material entity titanium(3+) concentration" EXACT []
-xref: INFOODs: TI
+xref: INFOODs:TI
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2098,7 +2098,7 @@ id: CDNO:0200169
 name: concentration of vanadium(2+) in material entity
 def: "The concentration of vanadium(2+) when measured in some material entity." []
 synonym: "material entity vanadium(2+) concentration" EXACT []
-xref: INFOODs: V
+xref: INFOODs:V
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2106,8 +2106,8 @@ id: CDNO:0200170
 name: concentration of zinc(2+) in material entity
 def: "The concentration of zinc(2+) when measured in some material entity." []
 synonym: "material entity zinc(2+) concentration" EXACT []
-xref: INFOODs: ZN
-xref: USDA_NDB: 1095
+xref: INFOODs:ZN
+xref: USDA_NDB:1095
 is_a: CDNO:0200670 ! concentration of dietary zinc in material entity
 
 [Term]
@@ -2115,7 +2115,7 @@ id: CDNO:0200171
 name: concentration of barium(2+) in material entity
 def: "The concentration of barium(2+) when measured in some material entity." []
 synonym: "material entity barium(2+) concentration" EXACT []
-xref: INFOODs: BA
+xref: INFOODs:BA
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2123,7 +2123,7 @@ id: CDNO:0200172
 name: concentration of caesium(1+) in material entity
 def: "The concentration of caesium(1+) when measured in some material entity." []
 synonym: "material entity caesium(1+) concentration" EXACT []
-xref: INFOODs: CS
+xref: INFOODs:CS
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2131,7 +2131,7 @@ id: CDNO:0200173
 name: concentration of bismuth(3+) in material entity
 def: "The concentration of bismuth(3+) when measured in some material entity." []
 synonym: "material entity bismuth(3+) concentration" EXACT []
-xref: INFOODs: BI
+xref: INFOODs:BI
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2139,7 +2139,7 @@ id: CDNO:0200174
 name: concentration of lanthanum(2+) in material entity
 def: "The concentration of lanthanum(2+) when measured in some material entity." []
 synonym: "material entity lanthanum(2+) concentration" EXACT []
-xref: INFOODs: LA
+xref: INFOODs:LA
 is_a: CDNO:0200146 ! concentration of trace element in material entity
 
 [Term]
@@ -2147,7 +2147,7 @@ id: CDNO:0200175
 name: concentration of salt in material entity
 def: "The concentration of salt when measured in some material entity." []
 synonym: "material entity salt concentration" EXACT []
-xref: INFOODs: NACL
+xref: INFOODs:NACL
 is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
@@ -2164,8 +2164,8 @@ id: CDNO:0200177
 name: concentration of inorganic nitrate salt in material entity
 def: "The concentration of inorganic nitrate salt when measured in some material entity." []
 synonym: "material entity inorganic nitrate salt concentration" EXACT []
-xref: INFOODs: NITRA
-xref: INFOODs: NITRI
+xref: INFOODs:NITRA
+xref: INFOODs:NITRI
 is_a: CDNO:0200175 ! concentration of salt in material entity
 
 [Term]
@@ -2173,7 +2173,7 @@ id: CDNO:0200178
 name: concentration of bromide in material entity
 def: "The concentration of bromide when measured in some material entity." []
 synonym: "material entity bromide concentration" EXACT []
-xref: INFOODs: BRD
+xref: INFOODs:BRD
 is_a: CDNO:0200175 ! concentration of salt in material entity
 
 [Term]
@@ -2188,7 +2188,7 @@ id: CDNO:0200181
 name: concentration of 5-formyltetrahydrofolic acid in material entity
 def: "The concentration of 5-formyltetrahydrofolic acid when measured in some material entity." []
 synonym: "material entity 5-formyltetrahydrofolic acid concentration" EXACT []
-xref: USDA_NDB: 1192
+xref: USDA_NDB:1192
 is_a: CDNO:0200190 ! concentration of folic acid in material entity
 
 [Term]
@@ -2210,8 +2210,8 @@ id: CDNO:0200184
 name: concentration of vitamin B1 in material entity
 def: "The concentration of vitamin B1 when measured in some material entity." []
 synonym: "material entity vitamin B1 concentration" EXACT []
-xref: INFOODs: THIA-
-xref: USDA_NDB: 1165
+xref: INFOODs:THIA-
+xref: USDA_NDB:1165
 is_a: CDNO:0200182 ! concentration of B vitamin in material entity
 
 [Term]
@@ -2219,8 +2219,8 @@ id: CDNO:0200185
 name: concentration of riboflavin in material entity
 def: "The concentration of riboflavin when measured in some material entity." []
 synonym: "material entity riboflavin concentration" EXACT []
-xref: INFOODs: RIBF
-xref: USDA_NDB: 1166
+xref: INFOODs:RIBF
+xref: USDA_NDB:1166
 is_a: CDNO:0200527 ! concentration of vitamin B2 in material entity
 
 [Term]
@@ -2228,8 +2228,8 @@ id: CDNO:0200186
 name: concentration of nicotinic acid in material entity
 def: "The concentration of nicotinic acid when measured in some material entity." []
 synonym: "material entity nicotinic acid concentration" EXACT []
-xref: INFOODs: NIA-
-xref: USDA_NDB: 1167
+xref: INFOODs:NIA-
+xref: USDA_NDB:1167
 is_a: CDNO:0200528 ! concentration of vitamin B3 in material entity
 
 [Term]
@@ -2237,8 +2237,8 @@ id: CDNO:0200187
 name: concentration of (R)-pantothenic acid in material entity
 def: "The concentration of (R)-pantothenic acid when measured in some material entity." []
 synonym: "material entity (R)-pantothenic acid concentration" EXACT []
-xref: INFOODs: PANTAC
-xref: USDA_NDB: 1170
+xref: INFOODs:PANTAC
+xref: USDA_NDB:1170
 is_a: CDNO:0200529 ! concentration of vitamin B5 in material entity
 
 [Term]
@@ -2246,7 +2246,7 @@ id: CDNO:0200188
 name: concentration of pyridoxine in material entity
 def: "The concentration of pyridoxine when measured in some material entity." []
 synonym: "material entity pyridoxine concentration" EXACT []
-xref: INFOODs: PYRXN
+xref: INFOODs:PYRXN
 is_a: CDNO:0200530 ! concentration of vitamin B6 in material entity
 
 [Term]
@@ -2254,8 +2254,8 @@ id: CDNO:0200189
 name: concentration of biotin in material entity
 def: "The concentration of biotin when measured in some material entity." []
 synonym: "material entity biotin concentration" EXACT []
-xref: INFOODs: BIOT
-xref: USDA_NDB: 1176
+xref: INFOODs:BIOT
+xref: USDA_NDB:1176
 is_a: CDNO:0200531 ! concentration of vitamin B7 in material entity
 
 [Term]
@@ -2263,8 +2263,8 @@ id: CDNO:0200190
 name: concentration of folic acid in material entity
 def: "The concentration of folic acid when measured in some material entity." []
 synonym: "material entity folic acid concentration" EXACT []
-xref: INFOODs: FOLAC
-xref: USDA_NDB: 1186
+xref: INFOODs:FOLAC
+xref: USDA_NDB:1186
 is_a: CDNO:0200532 ! concentration of vitamin B9 in material entity
 
 [Term]
@@ -2279,9 +2279,9 @@ id: CDNO:0200192
 name: concentration of vitamin C in material entity
 def: "The concentration of vitamin C when measured in some material entity." []
 synonym: "material entity vitamin C concentration" EXACT []
-xref: INFOODs: VITC
-xref: INFOODs: VITC-
-xref: USDA_NDB: 1162
+xref: INFOODs:VITC
+xref: INFOODs:VITC-
+xref: USDA_NDB:1162
 is_a: CDNO:0200179 ! concentration of vitamin (molecular entity) in material entity
 
 [Term]
@@ -2289,7 +2289,7 @@ id: CDNO:0200193
 name: concentration of L-ascorbic acid in material entity
 def: "The concentration of L-ascorbic acid when measured in some material entity." []
 synonym: "material entity L-ascorbic acid concentration" EXACT []
-xref: INFOODs: ASCL
+xref: INFOODs:ASCL
 is_a: CDNO:0200192 ! concentration of vitamin C in material entity
 is_a: CDNO:0200430 ! concentration of ascorbic acid in material entity
 
@@ -2298,11 +2298,11 @@ id: CDNO:0200195
 name: concentration of vitamin A in material entity
 def: "The concentration of vitamin A when measured in some material entity." []
 synonym: "material entity vitamin A concentration" EXACT []
-xref: INFOODs: VITA
-xref: INFOODs: VITA-
-xref: INFOODs: VITAA
-xref: USDA_NDB: 1104
-xref: USDA_NDB: 1106
+xref: INFOODs:VITA
+xref: INFOODs:VITA-
+xref: INFOODs:VITAA
+xref: USDA_NDB:1104
+xref: USDA_NDB:1106
 is_a: CDNO:0200179 ! concentration of vitamin (molecular entity) in material entity
 
 [Term]
@@ -2310,7 +2310,7 @@ id: CDNO:0200196
 name: concentration of carotenoid in material entity
 def: "The concentration of carotenoid when measured in some material entity." []
 synonym: "material entity carotenoid concentration" EXACT []
-xref: INFOODs: CARTOID
+xref: INFOODs:CARTOID
 is_a: CDNO:0200524 ! concentration of tetraterpenoid in material entity
 
 [Term]
@@ -2318,8 +2318,8 @@ id: CDNO:0200197
 name: concentration of α-carotene in material entity
 def: "The concentration of α-carotene when measured in some material entity." []
 synonym: "material entity α-carotene concentration" EXACT []
-xref: INFOODs: CARTA
-xref: USDA_NDB: 1108
+xref: INFOODs:CARTA
+xref: USDA_NDB:1108
 is_a: CDNO:0200523 ! concentration of carotene in material entity
 
 [Term]
@@ -2327,8 +2327,8 @@ id: CDNO:0200198
 name: concentration of β-carotene in material entity
 def: "The concentration of β-carotene when measured in some material entity." []
 synonym: "material entity β-carotene concentration" EXACT []
-xref: INFOODs: CARTB
-xref: USDA_NDB: 1107
+xref: INFOODs:CARTB
+xref: USDA_NDB:1107
 is_a: CDNO:0200523 ! concentration of carotene in material entity
 
 [Term]
@@ -2336,8 +2336,8 @@ id: CDNO:0200199
 name: concentration of 4-hydroxy-all-trans-β-carotene in material entity
 def: "The concentration of 4-hydroxy-all-trans-β-carotene when measured in some material entity." []
 synonym: "material entity 4-hydroxy-all-trans-β-carotene concentration" EXACT []
-xref: INFOODs: CARTB
-xref: USDA_NDB: 2028
+xref: INFOODs:CARTB
+xref: USDA_NDB:2028
 is_a: CDNO:0200198 ! concentration of β-carotene in material entity
 
 [Term]
@@ -2345,8 +2345,8 @@ id: CDNO:0200200
 name: concentration of 9-cis-β-carotene in material entity
 def: "The concentration of 9-cis-β-carotene when measured in some material entity." []
 synonym: "material entity 9-cis-β-carotene concentration" EXACT []
-xref: INFOODs: CARTBCIS
-xref: USDA_NDB: 1159
+xref: INFOODs:CARTBCIS
+xref: USDA_NDB:1159
 is_a: CDNO:0200198 ! concentration of β-carotene in material entity
 
 [Term]
@@ -2354,9 +2354,9 @@ id: CDNO:0200201
 name: concentration of vitamin D in material entity
 def: "The concentration of vitamin D when measured in some material entity." []
 synonym: "material entity vitamin D concentration" EXACT []
-xref: INFOODs: VITD
-xref: INFOODs: VITD-
-xref: USDA_NDB: 1110
+xref: INFOODs:VITD
+xref: INFOODs:VITD-
+xref: USDA_NDB:1110
 is_a: CDNO:0200179 ! concentration of vitamin (molecular entity) in material entity
 
 [Term]
@@ -2371,12 +2371,12 @@ id: CDNO:0200203
 name: concentration of vitamin E in material entity
 def: "The concentration of vitamin E when measured in some material entity." []
 synonym: "material entity vitamin E concentration" EXACT []
-xref: INFOODs: VITE
-xref: INFOODs: VITE-
-xref: INFOODs: VITEA
-xref: USDA_NDB: 1124
-xref: USDA_NDB: 1158
-xref: USDA_NDB: 1242
+xref: INFOODs:VITE
+xref: INFOODs:VITE-
+xref: INFOODs:VITEA
+xref: USDA_NDB:1124
+xref: USDA_NDB:1158
+xref: USDA_NDB:1242
 is_a: CDNO:0200179 ! concentration of vitamin (molecular entity) in material entity
 
 [Term]
@@ -2384,7 +2384,7 @@ id: CDNO:0200204
 name: concentration of tocopherol in material entity
 def: "The concentration of tocopherol when measured in some material entity." []
 synonym: "material entity tocopherol concentration" EXACT []
-xref: INFOODs: TOCPHT
+xref: INFOODs:TOCPHT
 is_a: CDNO:0200203 ! concentration of vitamin E in material entity
 
 [Term]
@@ -2392,8 +2392,8 @@ id: CDNO:0200205
 name: concentration of α-tocopherol in material entity
 def: "The concentration of α-tocopherol when measured in some material entity." []
 synonym: "material entity α-tocopherol concentration" EXACT []
-xref: INFOODs: TOCPHA
-xref: USDA_NDB: 1109
+xref: INFOODs:TOCPHA
+xref: USDA_NDB:1109
 is_a: CDNO:0200204 ! concentration of tocopherol in material entity
 
 [Term]
@@ -2401,8 +2401,8 @@ id: CDNO:0200206
 name: concentration of β-tocopherol in material entity
 def: "The concentration of β-tocopherol when measured in some material entity." []
 synonym: "material entity β-tocopherol concentration" EXACT []
-xref: INFOODs: TOCPHB
-xref: USDA_NDB: 1125
+xref: INFOODs:TOCPHB
+xref: USDA_NDB:1125
 is_a: CDNO:0200204 ! concentration of tocopherol in material entity
 
 [Term]
@@ -2410,8 +2410,8 @@ id: CDNO:0200207
 name: concentration of γ-tocopherol in material entity
 def: "The concentration of γ-tocopherol when measured in some material entity." []
 synonym: "material entity γ-tocopherol concentration" EXACT []
-xref: INFOODs: TOCPHG
-xref: USDA_NDB: 1126
+xref: INFOODs:TOCPHG
+xref: USDA_NDB:1126
 is_a: CDNO:0200204 ! concentration of tocopherol in material entity
 
 [Term]
@@ -2419,8 +2419,8 @@ id: CDNO:0200208
 name: concentration of δ-tocopherol in material entity
 def: "The concentration of δ-tocopherol when measured in some material entity." []
 synonym: "material entity δ-tocopherol concentration" EXACT []
-xref: INFOODs: TOCPHD
-xref: USDA_NDB: 1127
+xref: INFOODs:TOCPHD
+xref: USDA_NDB:1127
 is_a: CDNO:0200204 ! concentration of tocopherol in material entity
 
 [Term]
@@ -2428,7 +2428,7 @@ id: CDNO:0200209
 name: concentration of tocotrienol in material entity
 def: "The concentration of tocotrienol when measured in some material entity." []
 synonym: "material entity tocotrienol concentration" EXACT []
-xref: INFOODs: TOCTRT
+xref: INFOODs:TOCTRT
 is_a: CDNO:0200203 ! concentration of vitamin E in material entity
 
 [Term]
@@ -2436,8 +2436,8 @@ id: CDNO:0200210
 name: concentration of α-tocotrienol in material entity
 def: "The concentration of α-tocotrienol when measured in some material entity." []
 synonym: "material entity α-tocotrienol concentration" EXACT []
-xref: INFOODs: TOCTRA
-xref: USDA_NDB: 1128
+xref: INFOODs:TOCTRA
+xref: USDA_NDB:1128
 is_a: CDNO:0200209 ! concentration of tocotrienol in material entity
 
 [Term]
@@ -2445,8 +2445,8 @@ id: CDNO:0200211
 name: concentration of β-tocotrienol in material entity
 def: "The concentration of β-tocotrienol when measured in some material entity." []
 synonym: "material entity β-tocotrienol concentration" EXACT []
-xref: INFOODs: TOCTRB
-xref: USDA_NDB: 1129
+xref: INFOODs:TOCTRB
+xref: USDA_NDB:1129
 is_a: CDNO:0200209 ! concentration of tocotrienol in material entity
 
 [Term]
@@ -2454,8 +2454,8 @@ id: CDNO:0200212
 name: concentration of γ-tocotrienol in material entity
 def: "The concentration of γ-tocotrienol when measured in some material entity." []
 synonym: "material entity γ-tocotrienol concentration" EXACT []
-xref: INFOODs: TOCTRG
-xref: USDA_NDB: 1130
+xref: INFOODs:TOCTRG
+xref: USDA_NDB:1130
 is_a: CDNO:0200209 ! concentration of tocotrienol in material entity
 
 [Term]
@@ -2463,8 +2463,8 @@ id: CDNO:0200213
 name: concentration of δ-tocotrienol in material entity
 def: "The concentration of δ-tocotrienol when measured in some material entity." []
 synonym: "material entity δ-tocotrienol concentration" EXACT []
-xref: INFOODs: TOCTRD
-xref: USDA_NDB: 1131
+xref: INFOODs:TOCTRD
+xref: USDA_NDB:1131
 is_a: CDNO:0200209 ! concentration of tocotrienol in material entity
 
 [Term]
@@ -2472,7 +2472,7 @@ id: CDNO:0200214
 name: concentration of vitamin K in material entity
 def: "The concentration of vitamin K when measured in some material entity." []
 synonym: "material entity vitamin K concentration" EXACT []
-xref: INFOODs: VITK
+xref: INFOODs:VITK
 is_a: CDNO:0200179 ! concentration of vitamin (molecular entity) in material entity
 
 [Term]
@@ -2494,8 +2494,8 @@ id: CDNO:0200217
 name: concentration of caffeine in material entity
 def: "The concentration of caffeine when measured in some material entity." []
 synonym: "material entity caffeine concentration" EXACT []
-xref: INFOODs: CAFFN
-xref: USDA_NDB: 1057
+xref: INFOODs:CAFFN
+xref: USDA_NDB:1057
 is_a: CDNO:0200216 ! concentration of alkaloid in material entity
 
 [Term]
@@ -2510,8 +2510,8 @@ id: CDNO:0200219
 name: concentration of theobromine in material entity
 def: "The concentration of theobromine when measured in some material entity." []
 synonym: "material entity theobromine concentration" EXACT []
-xref: INFOODs: THEBRN
-xref: USDA_NDB: 1058
+xref: INFOODs:THEBRN
+xref: USDA_NDB:1058
 is_a: CDNO:0200216 ! concentration of alkaloid in material entity
 
 [Term]
@@ -2526,7 +2526,7 @@ id: CDNO:0200221
 name: concentration of polyphenol in material entity
 def: "The concentration of polyphenol when measured in some material entity." []
 synonym: "material entity polyphenol concentration" EXACT []
-xref: INFOODs: POLYPHENT
+xref: INFOODs:POLYPHENT
 is_a: CDNO:0200220 ! concentration of phenols in material entity
 
 [Term]
@@ -2534,7 +2534,7 @@ id: CDNO:0200222
 name: concentration of tannin in material entity
 def: "The concentration of tannin when measured in some material entity." []
 synonym: "material entity tannin concentration" EXACT []
-xref: INFOODs: TAN
+xref: INFOODs:TAN
 is_a: CDNO:0200221 ! concentration of polyphenol in material entity
 
 [Term]
@@ -2542,7 +2542,7 @@ id: CDNO:0200223
 name: concentration of chlorogenic acid in material entity
 def: "The concentration of chlorogenic acid when measured in some material entity." []
 synonym: "material entity chlorogenic acid concentration" EXACT []
-xref: INFOODs: CHLRAC
+xref: INFOODs:CHLRAC
 is_a: CDNO:0200243 ! concentration of caffeic acid in material entity
 
 [Term]
@@ -2550,8 +2550,8 @@ id: CDNO:0200224
 name: concentration of proanthocyanidin in material entity
 def: "The concentration of proanthocyanidin when measured in some material entity." []
 synonym: "material entity proanthocyanidin concentration" EXACT []
-xref: INFOODs: PAPOLY
-xref: INFOODs: TAN
+xref: INFOODs:PAPOLY
+xref: INFOODs:TAN
 is_a: CDNO:0200225 ! concentration of hydrolysable tannin in material entity
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
@@ -2560,7 +2560,7 @@ id: CDNO:0200225
 name: concentration of hydrolysable tannin in material entity
 def: "The concentration of hydrolysable tannin when measured in some material entity." []
 synonym: "material entity hydrolysable tannin concentration" EXACT []
-xref: INFOODs: TAN
+xref: INFOODs:TAN
 is_a: CDNO:0200222 ! concentration of tannin in material entity
 
 [Term]
@@ -2568,7 +2568,7 @@ id: CDNO:0200226
 name: concentration of ellagitannin in material entity
 def: "The concentration of ellagitannin when measured in some material entity." []
 synonym: "material entity ellagitannin concentration" EXACT []
-xref: INFOODs: ELLAC
+xref: INFOODs:ELLAC
 is_a: CDNO:0200225 ! concentration of hydrolysable tannin in material entity
 
 [Term]
@@ -2604,8 +2604,8 @@ id: CDNO:0200231
 name: concentration of (−)-epigallocatechin 3-gallate in material entity
 def: "The concentration of (−)-epigallocatechin 3-gallate when measured in some material entity." []
 synonym: "material entity (−)-epigallocatechin 3-gallate concentration" EXACT []
-xref: INFOODs: EPICATEGC
-xref: USDA_NDB: 1368
+xref: INFOODs:EPICATEGC
+xref: USDA_NDB:1368
 is_a: CDNO:0200221 ! concentration of polyphenol in material entity
 is_a: CDNO:0200263 ! concentration of xanthones in material entity
 is_a: CDNO:0200319 ! concentration of catechin in material entity
@@ -2622,7 +2622,7 @@ id: CDNO:0200233
 name: concentration of gallic acid in material entity
 def: "The concentration of gallic acid when measured in some material entity." []
 synonym: "material entity gallic acid concentration" EXACT []
-xref: INFOODs: GALLAC
+xref: INFOODs:GALLAC
 is_a: CDNO:0200234 ! concentration of hydroxybenzoic acid in material entity
 
 [Term]
@@ -2637,7 +2637,7 @@ id: CDNO:0200235
 name: concentration of salicylic acid in material entity
 def: "The concentration of salicylic acid when measured in some material entity." []
 synonym: "material entity salicylic acid concentration" EXACT []
-xref: INFOODs: SALAC
+xref: INFOODs:SALAC
 is_a: CDNO:0200234 ! concentration of hydroxybenzoic acid in material entity
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
@@ -2653,7 +2653,7 @@ id: CDNO:0200237
 name: concentration of vanillic acid in material entity
 def: "The concentration of vanillic acid when measured in some material entity." []
 synonym: "material entity vanillic acid concentration" EXACT []
-xref: INFOODs: VANAC
+xref: INFOODs:VANAC
 is_a: CDNO:0200234 ! concentration of hydroxybenzoic acid in material entity
 
 [Term]
@@ -2661,7 +2661,7 @@ id: CDNO:0200238
 name: concentration of syringic acid in material entity
 def: "The concentration of syringic acid when measured in some material entity." []
 synonym: "material entity syringic acid concentration" EXACT []
-xref: INFOODs: SYRAC
+xref: INFOODs:SYRAC
 is_a: CDNO:0200234 ! concentration of hydroxybenzoic acid in material entity
 
 [Term]
@@ -2697,7 +2697,7 @@ id: CDNO:0200243
 name: concentration of caffeic acid in material entity
 def: "The concentration of caffeic acid when measured in some material entity." []
 synonym: "material entity caffeic acid concentration" EXACT []
-xref: INFOODs: CAFFAC
+xref: INFOODs:CAFFAC
 is_a: CDNO:0200242 ! concentration of hydroxycinnamic acid in material entity
 
 [Term]
@@ -2705,7 +2705,7 @@ id: CDNO:0200244
 name: concentration of sinapic acid in material entity
 def: "The concentration of sinapic acid when measured in some material entity." []
 synonym: "material entity sinapic acid concentration" EXACT []
-xref: INFOODs: SINPAC
+xref: INFOODs:SINPAC
 is_a: CDNO:0200242 ! concentration of hydroxycinnamic acid in material entity
 
 [Term]
@@ -2734,7 +2734,7 @@ id: CDNO:0200248
 name: concentration of 4-coumaric acid in material entity
 def: "The concentration of 4-coumaric acid when measured in some material entity." []
 synonym: "material entity 4-coumaric acid concentration" EXACT []
-xref: INFOODs: PCHOUAC
+xref: INFOODs:PCHOUAC
 is_a: CDNO:0200247 ! concentration of coumaric acid in material entity
 
 [Term]
@@ -2756,7 +2756,7 @@ id: CDNO:0200251
 name: concentration of ferulic acid in material entity
 def: "The concentration of ferulic acid when measured in some material entity." []
 synonym: "material entity ferulic acid concentration" EXACT []
-xref: INFOODs: FERAC
+xref: INFOODs:FERAC
 is_a: CDNO:0200242 ! concentration of hydroxycinnamic acid in material entity
 
 [Term]
@@ -2775,9 +2775,9 @@ is_a: CDNO:0200242 ! concentration of hydroxycinnamic acid in material entity
 
 [Term]
 id: CDNO:0200254
-name: concentration of napthoquinone in material entity
-def: "The concentration of napthoquinone when measured in some material entity." []
-synonym: "material entity napthoquinone concentration" EXACT []
+name: concentration of naphthoquinone in material entity
+def: "The concentration of naphthoquinone when measured in some material entity." []
+synonym: "material entity naphthoquinone concentration" EXACT []
 is_a: CDNO:0200268 ! concentration of flavonoids in material entity
 
 [Term]
@@ -2785,14 +2785,14 @@ id: CDNO:0200255
 name: concentration of 1,2-napthoquinone in material entity
 def: "The concentration of 1,2-napthoquinone when measured in some material entity." []
 synonym: "material entity 1,2-napthoquinone concentration" EXACT []
-is_a: CDNO:0200254 ! concentration of napthoquinone in material entity
+is_a: CDNO:0200254 ! concentration of naphthoquinone in material entity
 
 [Term]
 id: CDNO:0200256
 name: concentration of 1,4-napthoquinone in material entity
 def: "The concentration of 1,4-napthoquinone when measured in some material entity." []
 synonym: "material entity 1,4-napthoquinone concentration" EXACT []
-is_a: CDNO:0200254 ! concentration of napthoquinone in material entity
+is_a: CDNO:0200254 ! concentration of naphthoquinone in material entity
 
 [Term]
 id: CDNO:0200257
@@ -2876,7 +2876,7 @@ id: CDNO:0200268
 name: concentration of flavonoids in material entity
 def: "The concentration of flavonoids when measured in some material entity." []
 synonym: "material entity flavonoids concentration" EXACT []
-xref: INFOODs: FLAVD
+xref: INFOODs:FLAVD
 is_a: CDNO:0200215 ! concentration of plant secondary metabolite in material entity
 
 [Term]
@@ -2884,7 +2884,7 @@ id: CDNO:0200269
 name: concentration of flavonoid in material entity
 def: "The concentration of flavonoid when measured in some material entity." []
 synonym: "material entity flavonoid concentration" EXACT []
-xref: INFOODs: FLAVD
+xref: INFOODs:FLAVD
 is_a: CDNO:0200268 ! concentration of flavonoids in material entity
 
 [Term]
@@ -2892,7 +2892,7 @@ id: CDNO:0200270
 name: concentration of malvidin in material entity
 def: "The concentration of malvidin when measured in some material entity." []
 synonym: "material entity malvidin concentration" EXACT []
-xref: INFOODs: MALVIDIN
+xref: INFOODs:MALVIDIN
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
@@ -2900,7 +2900,7 @@ id: CDNO:0200271
 name: concentration of kaempferol in material entity
 def: "The concentration of kaempferol when measured in some material entity." []
 synonym: "material entity kaempferol concentration" EXACT []
-xref: INFOODs: KAEMF
+xref: INFOODs:KAEMF
 is_a: CDNO:0200826 ! concentration of flavonols in material entity
 
 [Term]
@@ -2950,7 +2950,7 @@ id: CDNO:0200278
 name: concentration of hesperetin in material entity
 def: "The concentration of hesperetin when measured in some material entity." []
 synonym: "material entity hesperetin concentration" EXACT []
-xref: INFOODs: HESPT
+xref: INFOODs:HESPT
 is_a: CDNO:0200273 ! concentration of flavanone in material entity
 
 [Term]
@@ -2958,7 +2958,7 @@ id: CDNO:0200279
 name: concentration of hesperidin in material entity
 def: "The concentration of hesperidin when measured in some material entity." []
 synonym: "material entity hesperidin concentration" EXACT []
-xref: INFOODs: HESPD
+xref: INFOODs:HESPD
 is_a: CDNO:0200278 ! concentration of hesperetin in material entity
 
 [Term]
@@ -2980,7 +2980,7 @@ id: CDNO:0200282
 name: concentration of naringenin in material entity
 def: "The concentration of naringenin when measured in some material entity." []
 synonym: "material entity naringenin concentration" EXACT []
-xref: INFOODs: NARING
+xref: INFOODs:NARING
 is_a: CDNO:0200847 ! concentration of hydroxyflavanone in material entity
 
 [Term]
@@ -2988,7 +2988,7 @@ id: CDNO:0200283
 name: concentration of naringin in material entity
 def: "The concentration of naringin when measured in some material entity." []
 synonym: "material entity naringin concentration" EXACT []
-xref: INFOODs: NARIN
+xref: INFOODs:NARIN
 is_a: CDNO:0200273 ! concentration of flavanone in material entity
 
 [Term]
@@ -2996,7 +2996,7 @@ id: CDNO:0200284
 name: concentration of narirutin in material entity
 def: "The concentration of narirutin when measured in some material entity." []
 synonym: "material entity narirutin concentration" EXACT []
-xref: INFOODs: NARIR
+xref: INFOODs:NARIR
 is_a: CDNO:0200273 ! concentration of flavanone in material entity
 
 [Term]
@@ -3067,7 +3067,7 @@ id: CDNO:0200294
 name: concentration of apigenin in material entity
 def: "The concentration of apigenin when measured in some material entity." []
 synonym: "material entity apigenin concentration" EXACT []
-xref: INFOODs: APIGEN
+xref: INFOODs:APIGEN
 is_a: CDNO:0200290 ! concentration of flavone in material entity
 
 [Term]
@@ -3159,7 +3159,7 @@ id: CDNO:0200307
 name: concentration of luteolin in material entity
 def: "The concentration of luteolin when measured in some material entity." []
 synonym: "material entity luteolin concentration" EXACT []
-xref: INFOODs: LUTEOL
+xref: INFOODs:LUTEOL
 is_a: CDNO:0200290 ! concentration of flavone in material entity
 
 [Term]
@@ -3188,7 +3188,7 @@ id: CDNO:0200311
 name: concentration of quercetin in material entity
 def: "The concentration of quercetin when measured in some material entity." []
 synonym: "material entity quercetin concentration" EXACT []
-xref: INFOODs: QUERCE
+xref: INFOODs:QUERCE
 is_a: CDNO:0200826 ! concentration of flavonols in material entity
 
 [Term]
@@ -3217,7 +3217,7 @@ id: CDNO:0200315
 name: concentration of tangeretin in material entity
 def: "The concentration of tangeretin when measured in some material entity." []
 synonym: "material entity tangeretin concentration" EXACT []
-xref: INFOODs: TANGER
+xref: INFOODs:TANGER
 is_a: CDNO:0200290 ! concentration of flavone in material entity
 
 [Term]
@@ -3229,9 +3229,9 @@ is_a: CDNO:0200294 ! concentration of apigenin in material entity
 
 [Term]
 id: CDNO:0200317
-name: concentration of dihydroflavanol in material entity
-def: "The concentration of dihydroflavanol when measured in some material entity." []
-synonym: "material entity dihydroflavanol concentration" EXACT []
+name: concentration of dihydroflavonols in material entity
+def: "The concentration of dihydroflavonols when measured in some material entity." []
+synonym: "material entity dihydroflavonols concentration" EXACT []
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
@@ -3246,8 +3246,8 @@ id: CDNO:0200319
 name: concentration of catechin in material entity
 def: "The concentration of catechin when measured in some material entity." []
 synonym: "material entity catechin concentration" EXACT []
-xref: INFOODs: CATEC
-xref: INFOODs: CATECT
+xref: INFOODs:CATEC
+xref: INFOODs:CATECT
 is_a: CDNO:0200318 ! concentration of hydroxyflavan in material entity
 
 [Term]
@@ -3262,7 +3262,7 @@ id: CDNO:0200321
 name: concentration of (+)-gallocatechin in material entity
 def: "The concentration of (+)-gallocatechin when measured in some material entity." []
 synonym: "material entity (+)-gallocatechin concentration" EXACT []
-xref: INFOODs: GALCATEGC
+xref: INFOODs:GALCATEGC
 is_a: CDNO:0200319 ! concentration of catechin in material entity
 
 [Term]
@@ -3270,7 +3270,7 @@ id: CDNO:0200322
 name: concentration of (-)-epicatechin in material entity
 def: "The concentration of (-)-epicatechin when measured in some material entity." []
 synonym: "material entity (-)-epicatechin concentration" EXACT []
-xref: INFOODs: EPICATEC
+xref: INFOODs:EPICATEC
 is_a: CDNO:0200319 ! concentration of catechin in material entity
 
 [Term]
@@ -3278,7 +3278,7 @@ id: CDNO:0200323
 name: concentration of (+)-epicatechin in material entity
 def: "The concentration of (+)-epicatechin when measured in some material entity." []
 synonym: "material entity (+)-epicatechin concentration" EXACT []
-xref: INFOODs: EPICATEC
+xref: INFOODs:EPICATEC
 is_a: CDNO:0200319 ! concentration of catechin in material entity
 
 [Term]
@@ -3286,7 +3286,7 @@ id: CDNO:0200324
 name: concentration of (-)-gallocatechin in material entity
 def: "The concentration of (-)-gallocatechin when measured in some material entity." []
 synonym: "material entity (-)-gallocatechin concentration" EXACT []
-xref: INFOODs: GALCATEGC
+xref: INFOODs:GALCATEGC
 is_a: CDNO:0200319 ! concentration of catechin in material entity
 
 [Term]
@@ -3294,7 +3294,7 @@ id: CDNO:0200325
 name: concentration of (-)-epicatechin-3-O-gallate in material entity
 def: "The concentration of (-)-epicatechin-3-O-gallate when measured in some material entity." []
 synonym: "material entity (-)-epicatechin-3-O-gallate concentration" EXACT []
-xref: INFOODs: EPICATECG3
+xref: INFOODs:EPICATECG3
 is_a: CDNO:0200319 ! concentration of catechin in material entity
 
 [Term]
@@ -3302,7 +3302,7 @@ id: CDNO:0200326
 name: concentration of (-)-epigallocatechin in material entity
 def: "The concentration of (-)-epigallocatechin when measured in some material entity." []
 synonym: "material entity (-)-epigallocatechin concentration" EXACT []
-xref: INFOODs: EPICATEGC
+xref: INFOODs:EPICATEGC
 is_a: CDNO:0200319 ! concentration of catechin in material entity
 
 [Term]
@@ -3338,7 +3338,7 @@ id: CDNO:0200332
 name: concentration of procyanidin in material entity
 def: "The concentration of procyanidin when measured in some material entity." []
 synonym: "material entity procyanidin concentration" EXACT []
-xref: INFOODs: PROCYA
+xref: INFOODs:PROCYA
 is_a: CDNO:0200224 ! concentration of proanthocyanidin in material entity
 
 [Term]
@@ -3413,9 +3413,9 @@ is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
 id: CDNO:0200343
-name: concentration of dihydrochalcone in material entity
-def: "The concentration of dihydrochalcone when measured in some material entity." []
-synonym: "material entity dihydrochalcone concentration" EXACT []
+name: concentration of dihydrochalcones in material entity
+def: "The concentration of dihydrochalcones when measured in some material entity." []
+synonym: "material entity dihydrochalcones concentration" EXACT []
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
@@ -3423,27 +3423,27 @@ id: CDNO:0200344
 name: concentration of 3-hydroxyphloretin 2'-O-xylosylglucoside in material entity
 def: "The concentration of 3-hydroxyphloretin 2'-O-xylosylglucoside when measured in some material entity." []
 synonym: "material entity 3-hydroxyphloretin 2'-O-xylosylglucoside concentration" EXACT []
-is_a: CDNO:0200343 ! concentration of dihydrochalcone in material entity
+is_a: CDNO:0200343 ! concentration of dihydrochalcones in material entity
 
 [Term]
 id: CDNO:0200345
 name: concentration of phloretin in material entity
 def: "The concentration of phloretin when measured in some material entity." []
 synonym: "material entity phloretin concentration" EXACT []
-is_a: CDNO:0200343 ! concentration of dihydrochalcone in material entity
+is_a: CDNO:0200343 ! concentration of dihydrochalcones in material entity
 
 [Term]
 id: CDNO:0200346
 name: concentration of phlorizin in material entity
 def: "The concentration of phlorizin when measured in some material entity." []
 synonym: "material entity phlorizin concentration" EXACT []
-is_a: CDNO:0200343 ! concentration of dihydrochalcone in material entity
+is_a: CDNO:0200343 ! concentration of dihydrochalcones in material entity
 
 [Term]
 id: CDNO:0200347
-name: concentration of chalcone in material entity
-def: "The concentration of chalcone when measured in some material entity." []
-synonym: "material entity chalcone concentration" EXACT []
+name: concentration of chalcones in material entity
+def: "The concentration of chalcones when measured in some material entity." []
+synonym: "material entity chalcones concentration" EXACT []
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
@@ -3451,14 +3451,14 @@ id: CDNO:0200348
 name: concentration of butein in material entity
 def: "The concentration of butein when measured in some material entity." []
 synonym: "material entity butein concentration" EXACT []
-is_a: CDNO:0200347 ! concentration of chalcone in material entity
+is_a: CDNO:0200347 ! concentration of chalcones in material entity
 
 [Term]
 id: CDNO:0200349
 name: concentration of xanthohumol in material entity
 def: "The concentration of xanthohumol when measured in some material entity." []
 synonym: "material entity xanthohumol concentration" EXACT []
-is_a: CDNO:0200347 ! concentration of chalcone in material entity
+is_a: CDNO:0200347 ! concentration of chalcones in material entity
 
 [Term]
 id: CDNO:0200350
@@ -3472,7 +3472,7 @@ id: CDNO:0200351
 name: concentration of anthocyanidin in material entity
 def: "The concentration of anthocyanidin when measured in some material entity." []
 synonym: "material entity anthocyanidin concentration" EXACT []
-xref: INFOODs: ANTCYAN
+xref: INFOODs:ANTCYAN
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
@@ -3480,7 +3480,7 @@ id: CDNO:0200352
 name: concentration of cyanidin cation in material entity
 def: "The concentration of cyanidin cation when measured in some material entity." []
 synonym: "material entity cyanidin cation concentration" EXACT []
-xref: INFOODs: CYAD
+xref: INFOODs:CYAD
 is_a: CDNO:0200269 ! concentration of flavonoid in material entity
 
 [Term]
@@ -3579,9 +3579,9 @@ is_a: CDNO:0200361 ! concentration of anthocyanin chlorides in material entity
 
 [Term]
 id: CDNO:0200366
-name: concentration of _-D-glucoside in material entity
-def: "The concentration of _-D-glucoside when measured in some material entity." []
-synonym: "material entity _-D-glucoside concentration" EXACT []
+name: concentration of β-D-glucoside in material entity
+def: "The concentration of β-D-glucoside when measured in some material entity." []
+synonym: "material entity β-D-glucoside concentration" EXACT []
 is_a: CDNO:0200360 ! concentration of anthocyanin in material entity
 
 [Term]
@@ -3610,7 +3610,7 @@ id: CDNO:0200370
 name: concentration of isoflavonoid in material entity
 def: "The concentration of isoflavonoid when measured in some material entity." []
 synonym: "material entity isoflavonoid concentration" EXACT []
-xref: INFOODs: ISOFLVND
+xref: INFOODs:ISOFLVND
 is_a: CDNO:0200268 ! concentration of flavonoids in material entity
 
 [Term]
@@ -3654,7 +3654,7 @@ id: CDNO:0200376
 name: concentration of genistein in material entity
 def: "The concentration of genistein when measured in some material entity." []
 synonym: "material entity genistein concentration" EXACT []
-xref: INFOODs: GNSTEIN
+xref: INFOODs:GNSTEIN
 is_a: CDNO:0200374 ! concentration of hydroxyisoflavone in material entity
 
 [Term]
@@ -3662,7 +3662,7 @@ id: CDNO:0200377
 name: concentration of glycitein in material entity
 def: "The concentration of glycitein when measured in some material entity." []
 synonym: "material entity glycitein concentration" EXACT []
-xref: INFOODs: GLYCTEIN
+xref: INFOODs:GLYCTEIN
 is_a: CDNO:0200374 ! concentration of hydroxyisoflavone in material entity
 
 [Term]
@@ -3684,7 +3684,7 @@ id: CDNO:0200380
 name: concentration of genistein 7-O-β-D-glucoside in material entity
 def: "The concentration of genistein 7-O-β-D-glucoside when measured in some material entity." []
 synonym: "material entity genistein 7-O-β-D-glucoside concentration" EXACT []
-xref: INFOODs: GNSTIN
+xref: INFOODs:GNSTIN
 is_a: CDNO:0200376 ! concentration of genistein in material entity
 
 [Term]
@@ -3692,7 +3692,7 @@ id: CDNO:0200381
 name: concentration of glycitin in material entity
 def: "The concentration of glycitin when measured in some material entity." []
 synonym: "material entity glycitin concentration" EXACT []
-xref: INFOODs: GLYCTN
+xref: INFOODs:GLYCTN
 is_a: CDNO:0200377 ! concentration of glycitein in material entity
 
 [Term]
@@ -3707,7 +3707,7 @@ id: CDNO:0200383
 name: concentration of malonyldaidzin in material entity
 def: "The concentration of malonyldaidzin when measured in some material entity." []
 synonym: "material entity malonyldaidzin concentration" EXACT []
-xref: INFOODs: DAIDZNM
+xref: INFOODs:DAIDZNM
 is_a: CDNO:0200375 ! concentration of daidzein in material entity
 
 [Term]
@@ -3715,7 +3715,7 @@ id: CDNO:0200384
 name: concentration of malonylgenistin in material entity
 def: "The concentration of malonylgenistin when measured in some material entity." []
 synonym: "material entity malonylgenistin concentration" EXACT []
-xref: INFOODs: GNSTINM
+xref: INFOODs:GNSTINM
 is_a: CDNO:0200376 ! concentration of genistein in material entity
 
 [Term]
@@ -3723,7 +3723,7 @@ id: CDNO:0200385
 name: concentration of malonylglycitin in material entity
 def: "The concentration of malonylglycitin when measured in some material entity." []
 synonym: "material entity malonylglycitin concentration" EXACT []
-xref: INFOODs: GLYCTNM
+xref: INFOODs:GLYCTNM
 is_a: CDNO:0200377 ! concentration of glycitein in material entity
 
 [Term]
@@ -3731,7 +3731,7 @@ id: CDNO:0200386
 name: concentration of glycitein 7-(6-O-acetyl-β-D-glucoside) in material entity
 def: "The concentration of glycitein 7-(6-O-acetyl-β-D-glucoside) when measured in some material entity." []
 synonym: "material entity glycitein 7-(6-O-acetyl-β-D-glucoside) concentration" EXACT []
-xref: INFOODs: GLYCTNA
+xref: INFOODs:GLYCTNA
 is_a: CDNO:0200377 ! concentration of glycitein in material entity
 
 [Term]
@@ -3760,7 +3760,7 @@ id: CDNO:0200390
 name: concentration of coumestrol in material entity
 def: "The concentration of coumestrol when measured in some material entity." []
 synonym: "material entity coumestrol concentration" EXACT []
-xref: INFOODs: COUMEST
+xref: INFOODs:COUMEST
 is_a: CDNO:0200388 ! concentration of coumestans in material entity
 
 [Term]
@@ -3824,7 +3824,7 @@ id: CDNO:0200399
 name: concentration of lignan in material entity
 def: "The concentration of lignan when measured in some material entity." []
 synonym: "material entity lignan concentration" EXACT []
-xref: INFOODs: LIGNANS
+xref: INFOODs:LIGNANS
 is_a: CDNO:0200398 ! concentration of phenylpropanoid in material entity
 
 [Term]
@@ -3846,7 +3846,7 @@ id: CDNO:0200402
 name: concentration of lignin in material entity
 def: "The concentration of lignin when measured in some material entity." []
 synonym: "material entity lignin concentration" EXACT []
-xref: INFOODs: LIGN
+xref: INFOODs:LIGN
 is_a: CDNO:0200398 ! concentration of phenylpropanoid in material entity
 
 [Term]
@@ -3911,8 +3911,8 @@ id: CDNO:0200411
 name: concentration of zeaxanthin in material entity
 def: "The concentration of zeaxanthin when measured in some material entity." []
 synonym: "material entity zeaxanthin concentration" EXACT []
-xref: INFOODs: ZEA
-xref: USDA_NDB: 1119
+xref: INFOODs:ZEA
+xref: USDA_NDB:1119
 is_a: CDNO:0200410 ! concentration of xanthophyll in material entity
 
 [Term]
@@ -3920,8 +3920,8 @@ id: CDNO:0200412
 name: concentration of α-cryptoxanthin in material entity
 def: "The concentration of α-cryptoxanthin when measured in some material entity." []
 synonym: "material entity α-cryptoxanthin concentration" EXACT []
-xref: INFOODs: CRYPXA
-xref: USDA_NDB: 2032
+xref: INFOODs:CRYPXA
+xref: USDA_NDB:2032
 is_a: CDNO:0200410 ! concentration of xanthophyll in material entity
 
 [Term]
@@ -3929,7 +3929,7 @@ id: CDNO:0200413
 name: concentration of β-cryptoxanthin in material entity
 def: "The concentration of β-cryptoxanthin when measured in some material entity." []
 synonym: "material entity β-cryptoxanthin concentration" EXACT []
-xref: USDA_NDB: 1120
+xref: USDA_NDB:1120
 is_a: CDNO:0200410 ! concentration of xanthophyll in material entity
 
 [Term]
@@ -3937,8 +3937,8 @@ id: CDNO:0200414
 name: concentration of lutein in material entity
 def: "The concentration of lutein when measured in some material entity." []
 synonym: "material entity lutein concentration" EXACT []
-xref: INFOODs: LUTN
-xref: USDA_NDB: 1121
+xref: INFOODs:LUTN
+xref: USDA_NDB:1121
 is_a: CDNO:0200410 ! concentration of xanthophyll in material entity
 
 [Term]
@@ -3946,7 +3946,7 @@ id: CDNO:0200415
 name: concentration of phytoene in material entity
 def: "The concentration of phytoene when measured in some material entity." []
 synonym: "material entity phytoene concentration" EXACT []
-xref: USDA_NDB: 1116
+xref: USDA_NDB:1116
 is_a: CDNO:0200523 ! concentration of carotene in material entity
 
 [Term]
@@ -3954,7 +3954,7 @@ id: CDNO:0200416
 name: concentration of neoxanthin in material entity
 def: "The concentration of neoxanthin when measured in some material entity." []
 synonym: "material entity neoxanthin concentration" EXACT []
-xref: INFOODs: NEOX
+xref: INFOODs:NEOX
 is_a: CDNO:0200410 ! concentration of xanthophyll in material entity
 
 [Term]
@@ -3962,7 +3962,7 @@ id: CDNO:0200417
 name: concentration of violaxanthin in material entity
 def: "The concentration of violaxanthin when measured in some material entity." []
 synonym: "material entity violaxanthin concentration" EXACT []
-xref: INFOODs: VIOLX
+xref: INFOODs:VIOLX
 is_a: CDNO:0200410 ! concentration of xanthophyll in material entity
 
 [Term]
@@ -3970,8 +3970,8 @@ id: CDNO:0200418
 name: concentration of lycopene in material entity
 def: "The concentration of lycopene when measured in some material entity." []
 synonym: "material entity lycopene concentration" EXACT []
-xref: INFOODs: LYCPN
-xref: USDA_NDB: 1122
+xref: INFOODs:LYCPN
+xref: USDA_NDB:1122
 is_a: CDNO:0200523 ! concentration of carotene in material entity
 
 [Term]
@@ -3979,7 +3979,7 @@ id: CDNO:0200419
 name: concentration of 7,7',9,9'-tetra-cis-lycopene in material entity
 def: "The concentration of 7,7',9,9'-tetra-cis-lycopene when measured in some material entity." []
 synonym: "material entity 7,7',9,9'-tetra-cis-lycopene concentration" EXACT []
-xref: USDA_NDB: 1160
+xref: USDA_NDB:1160
 is_a: CDNO:0200418 ! concentration of lycopene in material entity
 
 [Term]
@@ -3987,8 +3987,8 @@ id: CDNO:0200420
 name: concentration of retinol in material entity
 def: "The concentration of retinol when measured in some material entity." []
 synonym: "material entity retinol concentration" EXACT []
-xref: INFOODs: RETOL
-xref: USDA_NDB: 1105
+xref: INFOODs:RETOL
+xref: USDA_NDB:1105
 is_a: CDNO:0200409 ! concentration of diterpenoid in material entity
 
 [Term]
@@ -4003,7 +4003,7 @@ id: CDNO:0200422
 name: concentration of organic acid in material entity
 def: "The concentration of organic acid when measured in some material entity." []
 synonym: "material entity organic acid concentration" EXACT []
-xref: INFOODs: OA
+xref: INFOODs:OA
 is_a: CDNO:0200268 ! concentration of flavonoids in material entity
 
 [Term]
@@ -4011,8 +4011,8 @@ id: CDNO:0200423
 name: concentration of acetic acid in material entity
 def: "The concentration of acetic acid when measured in some material entity." []
 synonym: "material entity acetic acid concentration" EXACT []
-xref: INFOODs: ACEAC
-xref: USDA_NDB: 1026
+xref: INFOODs:ACEAC
+xref: USDA_NDB:1026
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4020,8 +4020,8 @@ id: CDNO:0200424
 name: concentration of citric acid in material entity
 def: "The concentration of citric acid when measured in some material entity." []
 synonym: "material entity citric acid concentration" EXACT []
-xref: INFOODs: CITAC
-xref: USDA_NDB: 1032
+xref: INFOODs:CITAC
+xref: USDA_NDB:1032
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4029,8 +4029,8 @@ id: CDNO:0200425
 name: concentration of 2-hydroxypropanoic acid in material entity
 def: "The concentration of 2-hydroxypropanoic acid when measured in some material entity." []
 synonym: "material entity 2-hydroxypropanoic acid concentration" EXACT []
-xref: INFOODs: LACAC
-xref: USDA_NDB: 1038
+xref: INFOODs:LACAC
+xref: USDA_NDB:1038
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4038,8 +4038,8 @@ id: CDNO:0200426
 name: concentration of (R)-lactic acid in material entity
 def: "The concentration of (R)-lactic acid when measured in some material entity." []
 synonym: "material entity (R)-lactic acid concentration" EXACT []
-xref: INFOODs: LACACD
-xref: USDA_NDB: 1038
+xref: INFOODs:LACACD
+xref: USDA_NDB:1038
 is_a: CDNO:0200425 ! concentration of 2-hydroxypropanoic acid in material entity
 
 [Term]
@@ -4047,8 +4047,8 @@ id: CDNO:0200427
 name: concentration of (S)-lactic acid in material entity
 def: "The concentration of (S)-lactic acid when measured in some material entity." []
 synonym: "material entity (S)-lactic acid concentration" EXACT []
-xref: INFOODs: LACACL
-xref: USDA_NDB: 1038
+xref: INFOODs:LACACL
+xref: USDA_NDB:1038
 is_a: CDNO:0200425 ! concentration of 2-hydroxypropanoic acid in material entity
 
 [Term]
@@ -4056,8 +4056,8 @@ id: CDNO:0200428
 name: concentration of malic acid in material entity
 def: "The concentration of malic acid when measured in some material entity." []
 synonym: "material entity malic acid concentration" EXACT []
-xref: INFOODs: MALAC
-xref: USDA_NDB: 1039
+xref: INFOODs:MALAC
+xref: USDA_NDB:1039
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4086,7 +4086,7 @@ id: CDNO:0200432
 name: concentration of oxalic acid in material entity
 def: "The concentration of oxalic acid when measured in some material entity." []
 synonym: "material entity oxalic acid concentration" EXACT []
-xref: INFOODs: OXALAC
+xref: INFOODs:OXALAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4094,7 +4094,7 @@ id: CDNO:0200433
 name: concentration of myo-inositol hexakisphosphate in material entity
 def: "The concentration of myo-inositol hexakisphosphate when measured in some material entity." []
 synonym: "material entity myo-inositol hexakisphosphate concentration" EXACT []
-xref: INFOODs: IP6
+xref: INFOODs:IP6
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 is_a: CDNO:0200441 ! concentration of inositol in material entity
 is_a: CDNO:0200585 ! concentration of organic phosphate compound in material entity
@@ -4104,7 +4104,7 @@ id: CDNO:0200434
 name: concentration of quinic acid in material entity
 def: "The concentration of quinic acid when measured in some material entity." []
 synonym: "material entity quinic acid concentration" EXACT []
-xref: INFOODs: QUINAC
+xref: INFOODs:QUINAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4112,7 +4112,7 @@ id: CDNO:0200435
 name: concentration of pyruvic acid in material entity
 def: "The concentration of pyruvic acid when measured in some material entity." []
 synonym: "material entity pyruvic acid concentration" EXACT []
-xref: INFOODs: PYRAC
+xref: INFOODs:PYRAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4120,7 +4120,7 @@ id: CDNO:0200436
 name: concentration of shikimic acid in material entity
 def: "The concentration of shikimic acid when measured in some material entity." []
 synonym: "material entity shikimic acid concentration" EXACT []
-xref: INFOODs: SHIKAC
+xref: INFOODs:SHIKAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4128,7 +4128,7 @@ id: CDNO:0200437
 name: concentration of succinic acid in material entity
 def: "The concentration of succinic acid when measured in some material entity." []
 synonym: "material entity succinic acid concentration" EXACT []
-xref: INFOODs: SUCAC
+xref: INFOODs:SUCAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4136,7 +4136,7 @@ id: CDNO:0200438
 name: concentration of tartaric acid in material entity
 def: "The concentration of tartaric acid when measured in some material entity." []
 synonym: "material entity tartaric acid concentration" EXACT []
-xref: INFOODs: TARAC
+xref: INFOODs:TARAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4144,7 +4144,7 @@ id: CDNO:0200439
 name: concentration of isocitric acid in material entity
 def: "The concentration of isocitric acid when measured in some material entity." []
 synonym: "material entity isocitric acid concentration" EXACT []
-xref: INFOODs: ISOCAC
+xref: INFOODs:ISOCAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4152,7 +4152,7 @@ id: CDNO:0200440
 name: concentration of oxaloacetic acid in material entity
 def: "The concentration of oxaloacetic acid when measured in some material entity." []
 synonym: "material entity oxaloacetic acid concentration" EXACT []
-xref: INFOODs: OXACAC
+xref: INFOODs:OXACAC
 is_a: CDNO:0200422 ! concentration of organic acid in material entity
 
 [Term]
@@ -4160,8 +4160,8 @@ id: CDNO:0200441
 name: concentration of inositol in material entity
 def: "The concentration of inositol when measured in some material entity." []
 synonym: "material entity inositol concentration" EXACT []
-xref: INFOODs: INOTL
-xref: USDA_NDB: 1181
+xref: INFOODs:INOTL
+xref: USDA_NDB:1181
 is_a: CDNO:0200215 ! concentration of plant secondary metabolite in material entity
 
 [Term]
@@ -4169,7 +4169,7 @@ id: CDNO:0200442
 name: concentration of taurine in material entity
 def: "The concentration of taurine when measured in some material entity." []
 synonym: "material entity taurine concentration" EXACT []
-xref: USDA_NDB: 1234
+xref: USDA_NDB:1234
 is_a: CDNO:0200268 ! concentration of flavonoids in material entity
 
 [Term]
@@ -4177,7 +4177,7 @@ id: CDNO:0200443
 name: concentration of glycine betaine in material entity
 def: "The concentration of glycine betaine when measured in some material entity." []
 synonym: "material entity glycine betaine concentration" EXACT []
-xref: INFOODs: BETN
+xref: INFOODs:BETN
 is_a: CDNO:0200054 ! concentration of glycine in material entity
 
 [Term]
@@ -4185,7 +4185,7 @@ id: CDNO:0200444
 name: concentration of polyol in material entity
 def: "The concentration of polyol when measured in some material entity." []
 synonym: "material entity polyol concentration" EXACT []
-xref: INFOODs: POLYL
+xref: INFOODs:POLYL
 is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 is_a: CDNO:0200215 ! concentration of plant secondary metabolite in material entity
 
@@ -4194,7 +4194,7 @@ id: CDNO:0200445
 name: concentration of mannitol in material entity
 def: "The concentration of mannitol when measured in some material entity." []
 synonym: "material entity mannitol concentration" EXACT []
-xref: INFOODs: MANTL
+xref: INFOODs:MANTL
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -4202,8 +4202,8 @@ id: CDNO:0200446
 name: concentration of xylitol in material entity
 def: "The concentration of xylitol when measured in some material entity." []
 synonym: "material entity xylitol concentration" EXACT []
-xref: INFOODs: XYLTL
-xref: USDA_NDB: 1078
+xref: INFOODs:XYLTL
+xref: USDA_NDB:1078
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -4218,10 +4218,10 @@ id: CDNO:0200448
 name: concentration of choline in material entity
 def: "The concentration of choline when measured in some material entity." []
 synonym: "material entity choline concentration" EXACT []
-xref: INFOODs: CHOLN
-xref: INFOODs: CHOLNF
-xref: USDA_NDB: 1180
-xref: USDA_NDB: 1194
+xref: INFOODs:CHOLN
+xref: INFOODs:CHOLNF
+xref: USDA_NDB:1180
+xref: USDA_NDB:1194
 is_a: CDNO:0200268 ! concentration of flavonoids in material entity
 
 [Term]
@@ -4229,9 +4229,9 @@ id: CDNO:0200449
 name: concentration of polyunsaturated fatty acid in material entity
 def: "The concentration of polyunsaturated fatty acid when measured in some material entity." []
 synonym: "material entity polyunsaturated fatty acid concentration" EXACT []
-xref: INFOODs: FAPU
-xref: INFOODs: FAPULC
-xref: USDA_NDB: 1293
+xref: INFOODs:FAPU
+xref: INFOODs:FAPULC
+xref: USDA_NDB:1293
 is_a: CDNO:0200465 ! concentration of fatty acid in material entity
 
 [Term]
@@ -4239,8 +4239,8 @@ id: CDNO:0200450
 name: concentration of glucomannan in material entity
 def: "The concentration of glucomannan when measured in some material entity." []
 synonym: "material entity glucomannan concentration" EXACT []
-xref: INFOODs: GLUMN
-xref: INFOODs: GLUMNM
+xref: INFOODs:GLUMN
+xref: INFOODs:GLUMNM
 is_a: CDNO:0200010 ! concentration of hemicellulose in material entity
 
 [Term]
@@ -4248,7 +4248,7 @@ id: CDNO:0200451
 name: concentration of glycerol in material entity
 def: "The concentration of glycerol when measured in some material entity." []
 synonym: "material entity glycerol concentration" EXACT []
-xref: INFOODs: GLYRL
+xref: INFOODs:GLYRL
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -4270,7 +4270,7 @@ id: CDNO:0200454
 name: concentration of arabinan in material entity
 def: "The concentration of arabinan when measured in some material entity." []
 synonym: "material entity arabinan concentration" EXACT []
-xref: INFOODs: ARAN
+xref: INFOODs:ARAN
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 
 [Term]
@@ -4285,7 +4285,7 @@ id: CDNO:0200456
 name: concentration of monounsaturated fatty acid in material entity
 def: "The concentration of monounsaturated fatty acid when measured in some material entity." []
 synonym: "material entity monounsaturated fatty acid concentration" EXACT []
-xref: USDA_NDB: 1292
+xref: USDA_NDB:1292
 is_a: CDNO:0200465 ! concentration of fatty acid in material entity
 
 [Term]
@@ -4300,8 +4300,8 @@ id: CDNO:0200458
 name: concentration of saturated fatty acid in material entity
 def: "The concentration of saturated fatty acid when measured in some material entity." []
 synonym: "material entity saturated fatty acid concentration" EXACT []
-xref: INFOODs: FASAT
-xref: USDA_NDB: 1258
+xref: INFOODs:FASAT
+xref: USDA_NDB:1258
 is_a: CDNO:0200465 ! concentration of fatty acid in material entity
 
 [Term]
@@ -4309,8 +4309,8 @@ id: CDNO:0200459
 name: concentration of galactomannan in material entity
 def: "The concentration of galactomannan when measured in some material entity." []
 synonym: "material entity galactomannan concentration" EXACT []
-xref: INFOODs: GALMN
-xref: INFOODs: GALMNM
+xref: INFOODs:GALMN
+xref: INFOODs:GALMNM
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 
 [Term]
@@ -4318,7 +4318,7 @@ id: CDNO:0200460
 name: concentration of amylopectin in material entity
 def: "The concentration of amylopectin when measured in some material entity." []
 synonym: "material entity amylopectin concentration" EXACT []
-xref: INFOODs: AMYP
+xref: INFOODs:AMYP
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 
 [Term]
@@ -4326,7 +4326,7 @@ id: CDNO:0200461
 name: concentration of amylose in material entity
 def: "The concentration of amylose when measured in some material entity." []
 synonym: "material entity amylose concentration" EXACT []
-xref: INFOODs: AMYS
+xref: INFOODs:AMYS
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 
 [Term]
@@ -4341,7 +4341,7 @@ id: CDNO:0200463
 name: concentration of mannan in material entity
 def: "The concentration of mannan when measured in some material entity." []
 synonym: "material entity mannan concentration" EXACT []
-xref: INFOODs: MANN
+xref: INFOODs:MANN
 is_a: CDNO:0200010 ! concentration of hemicellulose in material entity
 
 [Term]
@@ -4363,7 +4363,7 @@ id: CDNO:0200466
 name: concentration of galactan in material entity
 def: "The concentration of galactan when measured in some material entity." []
 synonym: "material entity galactan concentration" EXACT []
-xref: INFOODs: GALTN
+xref: INFOODs:GALTN
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 
 [Term]
@@ -4371,7 +4371,7 @@ id: CDNO:0200467
 name: concentration of xylan in material entity
 def: "The concentration of xylan when measured in some material entity." []
 synonym: "material entity xylan concentration" EXACT []
-xref: INFOODs: XYLN
+xref: INFOODs:XYLN
 is_a: CDNO:0200010 ! concentration of hemicellulose in material entity
 
 [Term]
@@ -4386,7 +4386,7 @@ id: CDNO:0200469
 name: concentration of amylopectin derived from starch in material entity
 def: "The concentration of amylopectin derived from starch when measured in some material entity." []
 synonym: "material entity amylopectin derived from starch concentration" EXACT []
-xref: INFOODs: AMYP
+xref: INFOODs:AMYP
 is_a: CDNO:0200460 ! concentration of amylopectin in material entity
 
 [Term]
@@ -4394,7 +4394,7 @@ id: CDNO:0200470
 name: concentration of amylose derived from starch in material entity
 def: "The concentration of amylose derived from starch when measured in some material entity." []
 synonym: "material entity amylose derived from starch concentration" EXACT []
-xref: INFOODs: AMYS
+xref: INFOODs:AMYS
 is_a: CDNO:0200461 ! concentration of amylose in material entity
 
 [Term]
@@ -4417,7 +4417,7 @@ id: CDNO:0200473
 name: concentration of mannan derived from hemicellulose in material entity
 def: "The concentration of mannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity mannan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: MANN
+xref: INFOODs:MANN
 is_a: CDNO:0200463 ! concentration of mannan in material entity
 
 [Term]
@@ -4425,7 +4425,7 @@ id: CDNO:0200474
 name: concentration of xylan derived from hemicellulose in material entity
 def: "The concentration of xylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xylan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: XYLN
+xref: INFOODs:XYLN
 is_a: CDNO:0200467 ! concentration of xylan in material entity
 
 [Term]
@@ -4440,7 +4440,7 @@ id: CDNO:0200476
 name: concentration of glucomannan derived from hemicellulose in material entity
 def: "The concentration of glucomannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity glucomannan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: GLUMNM
+xref: INFOODs:GLUMNM
 is_a: CDNO:0200450 ! concentration of glucomannan in material entity
 
 [Term]
@@ -4455,7 +4455,7 @@ id: CDNO:0200478
 name: concentration of fructan derived from hemicellulose in material entity
 def: "The concentration of fructan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity fructan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: FRUTN
+xref: INFOODs:FRUTN
 is_a: CDNO:0200039 ! concentration of fructan in material entity
 
 [Term]
@@ -4463,7 +4463,7 @@ id: CDNO:0200479
 name: concentration of arabinan derived from hemicellulose in material entity
 def: "The concentration of arabinan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity arabinan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: ARAN
+xref: INFOODs:ARAN
 is_a: CDNO:0200454 ! concentration of arabinan in material entity
 
 [Term]
@@ -4471,7 +4471,7 @@ id: CDNO:0200480
 name: concentration of galactomannan derived from hemicellulose in material entity
 def: "The concentration of galactomannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity galactomannan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: GALMN
+xref: INFOODs:GALMN
 is_a: CDNO:0200459 ! concentration of galactomannan in material entity
 
 [Term]
@@ -4479,7 +4479,7 @@ id: CDNO:0200481
 name: concentration of galactan derived from hemicellulose in material entity
 def: "The concentration of galactan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity galactan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: GALTN
+xref: INFOODs:GALTN
 is_a: CDNO:0200466 ! concentration of galactan in material entity
 
 [Term]
@@ -4487,8 +4487,8 @@ id: CDNO:0200482
 name: concentration of glucose derived from amylopectin derived from starch in material entity
 def: "The concentration of glucose derived from amylopectin derived from starch when measured in some material entity." []
 synonym: "material entity glucose derived from amylopectin derived from starch concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4496,8 +4496,8 @@ id: CDNO:0200483
 name: concentration of glucose derived from amylose derived from starch in material entity
 def: "The concentration of glucose derived from amylose derived from starch when measured in some material entity." []
 synonym: "material entity glucose derived from amylose derived from starch concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4505,8 +4505,8 @@ id: CDNO:0200484
 name: concentration of glucose derived from sucrose in material entity
 def: "The concentration of glucose derived from sucrose when measured in some material entity." []
 synonym: "material entity glucose derived from sucrose concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4514,8 +4514,8 @@ id: CDNO:0200485
 name: concentration of fructose derived from sucrose in material entity
 def: "The concentration of fructose derived from sucrose when measured in some material entity." []
 synonym: "material entity fructose derived from sucrose concentration" EXACT []
-xref: INFOODs: FRUS
-xref: USDA_NDB: 1012
+xref: INFOODs:FRUS
+xref: USDA_NDB:1012
 is_a: CDNO:0200014 ! concentration of fructose in material entity
 
 [Term]
@@ -4523,8 +4523,8 @@ id: CDNO:0200486
 name: concentration of glucose derived from maltose in material entity
 def: "The concentration of glucose derived from maltose when measured in some material entity." []
 synonym: "material entity glucose derived from maltose concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4532,7 +4532,7 @@ id: CDNO:0200487
 name: concentration of galacturonic acid derived from galacturonan derived from pectin in material entity
 def: "The concentration of galacturonic acid derived from galacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity galacturonic acid derived from galacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: GALAAC
+xref: INFOODs:GALAAC
 is_a: CDNO:0200017 ! concentration of galacturonic acid in material entity
 
 [Term]
@@ -4540,7 +4540,7 @@ id: CDNO:0200488
 name: concentration of rhamnose derived from rhamnogalacturonan derived from pectin in material entity
 def: "The concentration of rhamnose derived from rhamnogalacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity rhamnose derived from rhamnogalacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: RHAS
+xref: INFOODs:RHAS
 is_a: CDNO:0200015 ! concentration of rhamnose in material entity
 
 [Term]
@@ -4555,7 +4555,7 @@ id: CDNO:0200490
 name: concentration of galacturonic acid derived from rhamnogalacturonan derived from pectin in material entity
 def: "The concentration of galacturonic acid derived from rhamnogalacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity galacturonic acid derived from rhamnogalacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: GALAAC
+xref: INFOODs:GALAAC
 is_a: CDNO:0200487 ! concentration of galacturonic acid derived from galacturonan derived from pectin in material entity
 
 [Term]
@@ -4563,7 +4563,7 @@ id: CDNO:0200491
 name: concentration of fucose derived from rhamnogalacturonan derived from pectin in material entity
 def: "The concentration of fucose derived from rhamnogalacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity fucose derived from rhamnogalacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: FUCOS
+xref: INFOODs:FUCOS
 is_a: CDNO:0200018 ! concentration of fucose in material entity
 
 [Term]
@@ -4571,7 +4571,7 @@ id: CDNO:0200492
 name: concentration of xylose derived from rhamnogalacturonan derived from pectin in material entity
 def: "The concentration of xylose derived from rhamnogalacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity xylose derived from rhamnogalacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: XYLFB
+xref: INFOODs:XYLFB
 is_a: CDNO:0200019 ! concentration of xylose in material entity
 
 [Term]
@@ -4579,7 +4579,7 @@ id: CDNO:0200493
 name: concentration of arabinose derived from rhamnogalacturonan derived from pectin in material entity
 def: "The concentration of arabinose derived from rhamnogalacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity arabinose derived from rhamnogalacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: ARAS
+xref: INFOODs:ARAS
 is_a: CDNO:0200020 ! concentration of arabinose in material entity
 
 [Term]
@@ -4587,8 +4587,8 @@ id: CDNO:0200494
 name: concentration of galactose derived from rhamnogalacturonan derived from pectin in material entity
 def: "The concentration of galactose derived from rhamnogalacturonan derived from pectin when measured in some material entity." []
 synonym: "material entity galactose derived from rhamnogalacturonan derived from pectin concentration" EXACT []
-xref: INFOODs: GALS
-xref: USDA_NDB: 1075
+xref: INFOODs:GALS
+xref: USDA_NDB:1075
 is_a: CDNO:0200021 ! concentration of galactose in material entity
 
 [Term]
@@ -4596,7 +4596,7 @@ id: CDNO:0200495
 name: concentration of raffinose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of raffinose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity raffinose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: RAFS
+xref: INFOODs:RAFS
 is_a: CDNO:0200030 ! concentration of raffinose in material entity
 
 [Term]
@@ -4604,8 +4604,8 @@ id: CDNO:0200496
 name: concentration of galactose derived from raffinose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of galactose derived from raffinose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity galactose derived from raffinose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: GALS
-xref: USDA_NDB: 1075
+xref: INFOODs:GALS
+xref: USDA_NDB:1075
 is_a: CDNO:0200021 ! concentration of galactose in material entity
 
 [Term]
@@ -4613,8 +4613,8 @@ id: CDNO:0200497
 name: concentration of glucose derived from raffinose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of glucose derived from raffinose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity glucose derived from raffinose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4622,8 +4622,8 @@ id: CDNO:0200498
 name: concentration of fructose derived from raffinose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of fructose derived from raffinose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity fructose derived from raffinose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: FRUS
-xref: USDA_NDB: 1012
+xref: INFOODs:FRUS
+xref: USDA_NDB:1012
 is_a: CDNO:0200014 ! concentration of fructose in material entity
 
 [Term]
@@ -4631,7 +4631,7 @@ id: CDNO:0200499
 name: concentration of stachyose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of stachyose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity stachyose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: STAS
+xref: INFOODs:STAS
 is_a: CDNO:0200031 ! concentration of stachyose in material entity
 
 [Term]
@@ -4639,8 +4639,8 @@ id: CDNO:0200500
 name: concentration of galactose derived from stachyose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of galactose derived from stachyose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity galactose derived from stachyose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: GALS
-xref: USDA_NDB: 1075
+xref: INFOODs:GALS
+xref: USDA_NDB:1075
 is_a: CDNO:0200021 ! concentration of galactose in material entity
 
 [Term]
@@ -4648,8 +4648,8 @@ id: CDNO:0200501
 name: concentration of glucose derived from stachyose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of glucose derived from stachyose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity glucose derived from stachyose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4657,8 +4657,8 @@ id: CDNO:0200502
 name: concentration of fructose derived from stachyose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of fructose derived from stachyose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity fructose derived from stachyose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: FRUS
-xref: USDA_NDB: 1012
+xref: INFOODs:FRUS
+xref: USDA_NDB:1012
 is_a: CDNO:0200014 ! concentration of fructose in material entity
 
 [Term]
@@ -4666,7 +4666,7 @@ id: CDNO:0200503
 name: concentration of verbascose derived from rraffinose family oligosaccharide in material entity
 def: "The concentration of verbascose derived from rraffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity verbascose derived from rraffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: VERS
+xref: INFOODs:VERS
 is_a: CDNO:0200032 ! concentration of verbascose in material entity
 
 [Term]
@@ -4674,8 +4674,8 @@ id: CDNO:0200504
 name: concentration of galactose derived from verbascose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of galactose derived from verbascose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity galactose derived from verbascose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: GALS
-xref: USDA_NDB: 1075
+xref: INFOODs:GALS
+xref: USDA_NDB:1075
 is_a: CDNO:0200021 ! concentration of galactose in material entity
 
 [Term]
@@ -4683,8 +4683,8 @@ id: CDNO:0200505
 name: concentration of glucose derived from verbascose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of glucose derived from verbascose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity glucose derived from verbascose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: GLUS
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUS
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4692,8 +4692,8 @@ id: CDNO:0200506
 name: concentration of fructose derived from verbascose derived from raffinose family oligosaccharide in material entity
 def: "The concentration of fructose derived from verbascose derived from raffinose family oligosaccharide when measured in some material entity." []
 synonym: "material entity fructose derived from verbascose derived from raffinose family oligosaccharide concentration" EXACT []
-xref: INFOODs: FRUS
-xref: USDA_NDB: 1012
+xref: INFOODs:FRUS
+xref: USDA_NDB:1012
 is_a: CDNO:0200014 ! concentration of fructose in material entity
 
 [Term]
@@ -4701,8 +4701,8 @@ id: CDNO:0200507
 name: concentration of glucose derived from cellulose in material entity
 def: "The concentration of glucose derived from cellulose when measured in some material entity." []
 synonym: "material entity glucose derived from cellulose concentration" EXACT []
-xref: INFOODs: GLUFB
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUFB
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4710,7 +4710,7 @@ id: CDNO:0200508
 name: concentration of mannose derived from mannan derived from hemicellulose in material entity
 def: "The concentration of mannose derived from mannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity mannose derived from mannan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: MANFB
+xref: INFOODs:MANFB
 is_a: CDNO:0200022 ! concentration of mannose in material entity
 
 [Term]
@@ -4718,8 +4718,8 @@ id: CDNO:0200509
 name: concentration of glucose derived from xylan derived from hemicellulose in material entity
 def: "The concentration of glucose derived from xylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity glucose derived from xylan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: GLUFB
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUFB
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4727,7 +4727,7 @@ id: CDNO:0200510
 name: concentration of xylose derived from xylan derived from hemicellulose in material entity
 def: "The concentration of xylose derived from xylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xylose derived from xylan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: XYLFB
+xref: INFOODs:XYLFB
 is_a: CDNO:0200019 ! concentration of xylose in material entity
 
 [Term]
@@ -4735,8 +4735,8 @@ id: CDNO:0200511
 name: concentration of glucose derived from xyloglucan derived from hemicellulose in material entity
 def: "The concentration of glucose derived from xyloglucan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity glucose derived from xyloglucan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: GLUFB
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUFB
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4744,7 +4744,7 @@ id: CDNO:0200512
 name: concentration of xylose derived from xyloglucan derived from hemicellulose in material entity
 def: "The concentration of xylose derived from xyloglucan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xylose derived from xyloglucan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: XYLFB
+xref: INFOODs:XYLFB
 is_a: CDNO:0200019 ! concentration of xylose in material entity
 
 [Term]
@@ -4752,8 +4752,8 @@ id: CDNO:0200513
 name: concentration of glucose derived from glucomannan derived from hemicellulose in material entity
 def: "The concentration of glucose derived from glucomannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity glucose derived from glucomannan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: GLUFB
-xref: USDA_NDB: 1011
+xref: INFOODs:GLUFB
+xref: USDA_NDB:1011
 is_a: CDNO:0200013 ! concentration of glucose in material entity
 
 [Term]
@@ -4761,7 +4761,7 @@ id: CDNO:0200514
 name: concentration of mannose derived from glucomannan derived from hemicellulose in material entity
 def: "The concentration of mannose derived from glucomannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity mannose derived from glucomannan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: MANFB
+xref: INFOODs:MANFB
 is_a: CDNO:0200022 ! concentration of mannose in material entity
 
 [Term]
@@ -4769,7 +4769,7 @@ id: CDNO:0200515
 name: concentration of arabinose derived from arabinoxylan derived from hemicellulose in material entity
 def: "The concentration of arabinose derived from arabinoxylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity arabinose derived from arabinoxylan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: ARAFB
+xref: INFOODs:ARAFB
 is_a: CDNO:0200020 ! concentration of arabinose in material entity
 
 [Term]
@@ -4777,7 +4777,7 @@ id: CDNO:0200516
 name: concentration of xylose derived from arabinoxylan derived from hemicellulose in material entity
 def: "The concentration of xylose derived from arabinoxylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xylose derived from arabinoxylan derived from hemicellulose concentration" EXACT []
-xref: INFOODs: XYLFB
+xref: INFOODs:XYLFB
 is_a: CDNO:0200019 ! concentration of xylose in material entity
 
 [Term]
@@ -4785,8 +4785,8 @@ id: CDNO:0200517
 name: concentration of inulin derived from fructan in material entity
 def: "The concentration of inulin derived from fructan when measured in some material entity." []
 synonym: "material entity inulin derived from fructan concentration" EXACT []
-xref: INFOODs: INULN
-xref: USDA_NDB: 1403
+xref: INFOODs:INULN
+xref: USDA_NDB:1403
 is_a: CDNO:0200011 ! concentration of inulin in material entity
 
 [Term]
@@ -4794,8 +4794,8 @@ id: CDNO:0200518
 name: concentration of fructose derived from inulin derived from fructan in material entity
 def: "The concentration of fructose derived from inulin derived from fructan when measured in some material entity." []
 synonym: "material entity fructose derived from inulin derived from fructan concentration" EXACT []
-xref: INFOODs: FRUS
-xref: USDA_NDB: 1012
+xref: INFOODs:FRUS
+xref: USDA_NDB:1012
 is_a: CDNO:0200014 ! concentration of fructose in material entity
 
 [Term]
@@ -4853,7 +4853,7 @@ id: CDNO:0200526
 name: concentration of thiamine hydrochloride in material entity
 def: "The concentration of thiamine hydrochloride when measured in some material entity." []
 synonym: "material entity thiamine hydrochloride concentration" EXACT []
-xref: INFOODs: THIAHCL
+xref: INFOODs:THIAHCL
 is_a: CDNO:0200184 ! concentration of vitamin B1 in material entity
 
 [Term]
@@ -4882,8 +4882,8 @@ id: CDNO:0200530
 name: concentration of vitamin B6 in material entity
 def: "The concentration of vitamin B6 when measured in some material entity." []
 synonym: "material entity vitamin B6 concentration" EXACT []
-xref: INFOODs: VITB6-
-xref: USDA_NDB: 1175
+xref: INFOODs:VITB6-
+xref: USDA_NDB:1175
 is_a: CDNO:0200182 ! concentration of B vitamin in material entity
 
 [Term]
@@ -4905,7 +4905,7 @@ id: CDNO:0200533
 name: concentration of tetrahydrofolate in material entity
 def: "The concentration of tetrahydrofolate when measured in some material entity." []
 synonym: "material entity tetrahydrofolate concentration" EXACT []
-xref: INFOODs: FOLH4
+xref: INFOODs:FOLH4
 is_a: CDNO:0200532 ! concentration of vitamin B9 in material entity
 
 [Term]
@@ -4913,8 +4913,8 @@ id: CDNO:0200534
 name: concentration of vitamin B12 in material entity
 def: "The concentration of vitamin B12 when measured in some material entity." []
 synonym: "material entity vitamin B12 concentration" EXACT []
-xref: INFOODs: VITB12
-xref: USDA_NDB: 1178
+xref: INFOODs:VITB12
+xref: USDA_NDB:1178
 is_a: CDNO:0200182 ! concentration of B vitamin in material entity
 
 [Term]
@@ -4929,7 +4929,7 @@ id: CDNO:0200536
 name: concentration of D3 vitamins in material entity
 def: "The concentration of D3 vitamins when measured in some material entity." []
 synonym: "material entity D3 vitamins concentration" EXACT []
-xref: USDA_NDB: 1112
+xref: USDA_NDB:1112
 is_a: CDNO:0200201 ! concentration of vitamin D in material entity
 
 [Term]
@@ -4951,7 +4951,7 @@ id: CDNO:0200539
 name: concentration of vitamin D4 in material entity
 def: "The concentration of vitamin D4 when measured in some material entity." []
 synonym: "material entity vitamin D4 concentration" EXACT []
-xref: USDA_NDB: 1111
+xref: USDA_NDB:1111
 is_a: CDNO:0200201 ! concentration of vitamin D in material entity
 
 [Term]
@@ -4973,13 +4973,13 @@ id: CDNO:0200542
 name: concentration of menaquinone in material entity
 def: "The concentration of menaquinone when measured in some material entity." []
 synonym: "material entity menaquinone concentration" EXACT []
-xref: INFOODs: MK4
-xref: INFOODs: MK5
-xref: INFOODs: MK6
-xref: INFOODs: MK7
-xref: INFOODs: MK8
-xref: INFOODs: MK9
-xref: USDA_NDB: 1183
+xref: INFOODs:MK4
+xref: INFOODs:MK5
+xref: INFOODs:MK6
+xref: INFOODs:MK7
+xref: INFOODs:MK8
+xref: INFOODs:MK9
+xref: USDA_NDB:1183
 is_a: CDNO:0200214 ! concentration of vitamin K in material entity
 
 [Term]
@@ -4987,7 +4987,7 @@ id: CDNO:0200543
 name: concentration of phylloquinone in material entity
 def: "The concentration of phylloquinone when measured in some material entity." []
 synonym: "material entity phylloquinone concentration" EXACT []
-xref: USDA_NDB: 1185
+xref: USDA_NDB:1185
 is_a: CDNO:0200214 ! concentration of vitamin K in material entity
 
 [Term]
@@ -5271,9 +5271,9 @@ is_a: CDNO:0200600 ! concentration of inorganic sodium salt in material entity
 
 [Term]
 id: CDNO:0200582
-name: concentration of potassium phosphate in material entity
-def: "The concentration of potassium phosphate when measured in some material entity." []
-synonym: "material entity potassium phosphate concentration" EXACT []
+name: concentration of tripotassium phosphate in material entity
+def: "The concentration of tripotassium phosphate when measured in some material entity." []
+synonym: "material entity tripotassium phosphate concentration" EXACT []
 is_a: CDNO:0200580 ! concentration of inorganic phosphate salt in material entity
 is_a: CDNO:0200593 ! concentration of inorganic potassium salt in material entity
 
@@ -5567,9 +5567,9 @@ is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
 
 [Term]
 id: CDNO:0200623
-name: concentration of iron sulfate in material entity
-def: "The concentration of iron sulfate when measured in some material entity." []
-synonym: "material entity iron sulfate concentration" EXACT []
+name: concentration of iron(2+) sulfate (anhydrous) in material entity
+def: "The concentration of iron(2+) sulfate (anhydrous) when measured in some material entity." []
+synonym: "material entity iron(2+) sulfate (anhydrous) concentration" EXACT []
 is_a: CDNO:0200621 ! concentration of inorganic sulfate salt in material entity
 is_a: CDNO:0200652 ! concentration of inorganic iron salt in material entity
 
@@ -5592,9 +5592,9 @@ is_a: CDNO:0200643 ! concentration of inorganic copper salt in material entity
 
 [Term]
 id: CDNO:0200626
-name: concentration of organic sulfate salt in material entity
-def: "The concentration of organic sulfate salt when measured in some material entity." []
-synonym: "material entity organic sulfate salt concentration" EXACT []
+name: concentration of organic sulfate in material entity
+def: "The concentration of organic sulfate when measured in some material entity." []
+synonym: "material entity organic sulfate concentration" EXACT []
 is_a: CDNO:0200619 ! concentration of dietary sulfur in material entity
 
 [Term]
@@ -6014,7 +6014,7 @@ id: CDNO:0200685
 name: concentration of lactose in material entity
 def: "The concentration of lactose when measured in some material entity." []
 synonym: "material entity lactose concentration" EXACT []
-xref: INFOODs: LACS
+xref: INFOODs:LACS
 is_a: CDNO:0200024 ! concentration of disaccharide in material entity
 is_a: CDNO:0200034 ! concentration of free sugar in material entity
 
@@ -6044,7 +6044,7 @@ id: CDNO:0200689
 name: concentration of dextrins in material entity
 def: "The concentration of dextrins when measured in some material entity." []
 synonym: "material entity dextrins concentration" EXACT []
-xref: INFOODs: DEXTN
+xref: INFOODs:DEXTN
 is_a: CDNO:0200468 ! concentration of glucan in material entity
 
 [Term]
@@ -6052,7 +6052,7 @@ id: CDNO:0200690
 name: concentration of maltodextrin in material entity
 def: "The concentration of maltodextrin when measured in some material entity." []
 synonym: "material entity maltodextrin concentration" EXACT []
-xref: INFOODs: MALTDEX
+xref: INFOODs:MALTDEX
 is_a: CDNO:0200689 ! concentration of dextrins in material entity
 
 [Term]
@@ -6081,7 +6081,7 @@ id: CDNO:0200694
 name: concentration of gum in material entity
 def: "The concentration of gum when measured in some material entity." []
 synonym: "material entity gum concentration" EXACT []
-xref: INFOODs: GUMS
+xref: INFOODs:GUMS
 is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
 
 [Term]
@@ -6168,7 +6168,7 @@ id: CDNO:0200706
 name: concentration of maltitol in material entity
 def: "The concentration of maltitol when measured in some material entity." []
 synonym: "material entity maltitol concentration" EXACT []
-xref: INFOODs: MALTL
+xref: INFOODs:MALTL
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -6212,7 +6212,7 @@ id: CDNO:0200711
 name: concentration of lactitol in material entity
 def: "The concentration of lactitol when measured in some material entity." []
 synonym: "material entity lactitol concentration" EXACT []
-xref: INFOODs: LACTL
+xref: INFOODs:LACTL
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -6220,7 +6220,7 @@ id: CDNO:0200712
 name: concentration of isomalt in material entity
 def: "The concentration of isomalt when measured in some material entity." []
 synonym: "material entity isomalt concentration" EXACT []
-xref: INFOODs: ISOMALT
+xref: INFOODs:ISOMALT
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -6228,7 +6228,7 @@ id: CDNO:0200713
 name: concentration of erythritol in material entity
 def: "The concentration of erythritol when measured in some material entity." []
 synonym: "material entity erythritol concentration" EXACT []
-xref: INFOODs: ERYTHL
+xref: INFOODs:ERYTHL
 is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
@@ -6935,9 +6935,9 @@ is_a: CDNO:0200797 ! concentration of hydroxyflavone in material entity
 
 [Term]
 id: CDNO:0200814
-name: concentration of kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucosyl-(1→2)-β-D-glucoside in material entity
-def: "The concentration of kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucosyl-(1→2)-β-D-glucoside when measured in some material entity." []
-synonym: "material entity kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucosyl-(1→2)-β-D-glucoside concentration" EXACT []
+name: concentration of kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucoside in material entity
+def: "The concentration of kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucoside when measured in some material entity." []
+synonym: "material entity kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucoside concentration" EXACT []
 is_a: CDNO:0200797 ! concentration of hydroxyflavone in material entity
 
 [Term]
@@ -7334,9 +7334,9 @@ is_a: CDNO:0200374 ! concentration of hydroxyisoflavone in material entity
 
 [Term]
 id: CDNO:0200871
-name: concentration of genistein (1-) in material entity
-def: "The concentration of genistein (1-) when measured in some material entity." []
-synonym: "material entity genistein (1-) concentration" EXACT []
+name: concentration of genistein(1−) in material entity
+def: "The concentration of genistein(1−) when measured in some material entity." []
+synonym: "material entity genistein(1−) concentration" EXACT []
 is_a: CDNO:0200376 ! concentration of genistein in material entity
 
 [Term]
@@ -8160,9 +8160,9 @@ is_a: CDNO:0200406 ! concentration of terpenoid in material entity
 
 [Term]
 id: CDNO:0200989
-name: concentration of rebaudioside B (1-) in material entity
-def: "The concentration of rebaudioside B (1-) when measured in some material entity." []
-synonym: "material entity rebaudioside B (1-) concentration" EXACT []
+name: concentration of rebaudioside B(1−) in material entity
+def: "The concentration of rebaudioside B(1−) when measured in some material entity." []
+synonym: "material entity rebaudioside B(1−) concentration" EXACT []
 is_a: CDNO:0200406 ! concentration of terpenoid in material entity
 
 [Term]
@@ -8929,7 +8929,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)CCCCCC=CCC=CC
 [Term]
 id: CHEBI:132141
 name: 1,2-naphthoquinones
-name: 1,2-napthoquinone
 namespace: chebi_ontology
 def: "Any napthoquinone in which the oxo groups of the quinone moiety are at the 1 and 2 positions of the naphthalene ring." []
 subset: 3_STAR
@@ -8938,7 +8937,6 @@ is_a: CHEBI:25481 ! naphthoquinone
 [Term]
 id: CHEBI:132142
 name: 1,4-naphthoquinones
-name: 1,4-napthoquinone
 namespace: chebi_ontology
 def: "A naphthoquinone in which the oxo groups of the quinone moiety are at positions 1 and 4 of the parent naphthalene ring." []
 subset: 3_STAR
@@ -9290,7 +9288,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C1(=C(C(CCC1(C)C)O)
 [Term]
 id: CHEBI:141540
 name: Myricanone
-name: myricanone
 namespace: chebi_ontology
 def: "A cyclic ketone isolated from the bark of Morella species and has been shown to exhibit cytotoxic activity against cancer cells." []
 subset: 3_STAR
@@ -9409,8 +9406,8 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@]123[C@]([C@]4([
 
 [Term]
 id: CHEBI:145013
-name: rebaudioside B (1-)
 name: rebaudioside B(1-)
+name: rebaudioside B(1−)
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "rebaudioside B" RELATED [UniProt]
@@ -11830,7 +11827,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "(C5H8)nC11H8O2" xs
 [Term]
 id: CHEBI:16382
 name: iodide
-name: iodine
 namespace: chebi_ontology
 alt_id: CHEBI:14460
 alt_id: CHEBI:49698
@@ -12240,7 +12236,7 @@ xref: PMID:31373097 {source="Europe PMC"}
 xref: PMID:32468588 {source="Europe PMC"}
 xref: PMID:32549600 {source="Europe PMC"}
 xref: Wikipedia:Avenasterol
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C29H48O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C29H48O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h7,11,19-20,22-23,25-27,30H,8-10,12-18H2,1-6H3/b21-7-/t20-,22+,23+,25-,26+,27+,28+,29-/m1/s1" xsd:string
@@ -12584,7 +12580,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cl-].C[C@@H]1O[C@@
 [Term]
 id: CHEBI:167695
 name: Punicalagin
-name: punicalagin
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "6,7,8,11,12,23,24,27,28,29,37,43,44,45,48,49,50-heptadecahydroxy-2,14,21,33,36,39,54-heptaoxaundecacyclo[33.20.0.04,9.010,19.013,18.016,25.017,22.026,31.038,55.041,46.047,52]pentapentaconta-4,6,8,10,12,16,18,22,24,26,28,30,41,43,45,47,49,51-octadecaene-3,15,20,32,40,53-hexone" EXACT IUPAC_NAME [SUBMITTER]
@@ -12940,7 +12935,7 @@ xref: KNApSAcK:C00023755
 xref: LIPID_MAPS_instance:LMST01030093 {source="LIPID MAPS"}
 xref: PDBeChem:ERG
 xref: Reaxys:2338604 {source="Reaxys"}
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C28H44O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C28H44O/c1-18(2)19(3)7-8-20(4)24-11-12-25-23-10-9-21-17-22(29)13-15-27(21,5)26(23)14-16-28(24,25)6/h7-10,18-20,22,24-26,29H,11-17H2,1-6H3/b8-7+/t19-,20+,22-,24+,25-,26-,27-,28+/m0/s1" xsd:string
@@ -16552,7 +16547,7 @@ xref: PMID:21129371 {source="Europe PMC"}
 xref: PMID:21482070 {source="Europe PMC"}
 xref: Reaxys:1725417 {source="Reaxys"}
 xref: Wikipedia:Citrulline
-is_a: CHEBI:83820 ! amino acid derived from non-proteinacious
+is_a: CHEBI:83820 ! non-proteinogenic amino acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C6H13N3O3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)" xsd:string
@@ -16771,7 +16766,7 @@ xref: PMID:15449570 {source="Europe PMC"}
 xref: PMID:17190852 {source="Europe PMC"}
 xref: PMID:22264337 {source="Europe PMC"}
 xref: Reaxys:1722296 {source="Reaxys"}
-is_a: CHEBI:83820 ! amino acid derived from non-proteinacious
+is_a: CHEBI:83820 ! non-proteinogenic amino acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H12N2O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C5H12N2O2/c6-3-1-2-4(7)5(8)9/h4H,1-3,6-7H2,(H,8,9)" xsd:string
@@ -16806,7 +16801,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "164.06847
 [Term]
 id: CHEBI:18291
 name: manganese atom
-name: manganese(2+)
 namespace: chebi_ontology
 alt_id: CHEBI:13382
 alt_id: CHEBI:25153
@@ -17471,7 +17465,6 @@ is_a: CDNO:0000018 ! dietary phosphorus
 
 [Term]
 id: CHEBI:190301
-name: potassium phosphate
 name: tripotassium phosphate
 namespace: chebi_ontology
 def: "An inorganic potassium salt that is the tripotassium salt of phosphoric acid." []
@@ -18265,7 +18258,6 @@ is_a: CHEBI:89634 ! Melanin
 
 [Term]
 id: CHEBI:23086
-name: chalcone
 name: chalcones
 namespace: chebi_ontology
 def: "A ketone that is 1,3-diphenylpropenone (benzylideneacetophenone), ArCH=CH(=O)Ar, and its derivatives formed by substitution." []
@@ -18826,7 +18818,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C12CC(C1(C)C)CC=C2C
 [Term]
 id: CHEBI:25481
 name: naphthoquinone
-name: napthoquinone
 namespace: chebi_ontology
 def: "A polycyclic aromatic ketone metabolite of naphthalene." []
 subset: 3_STAR
@@ -18917,7 +18908,6 @@ is_a: CHEBI:26208 ! polyunsaturated fatty acid
 [Term]
 id: CHEBI:25704
 name: organic sulfate
-name: organic sulfate salt
 namespace: chebi_ontology
 def: "Compounds of the general formula SO3HOR where R is an organyl group" []
 subset: 3_STAR
@@ -19028,7 +19018,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]C(=CC=C(C)CCC=C(
 
 [Term]
 id: CHEBI:26125
-name: phytosterol
 name: phytosterols
 namespace: chebi_ontology
 def: "Sterols similar to cholesterol which occur in plants and vary only in carbon side chains and/or presence or absence of a double bond." []
@@ -19189,7 +19178,6 @@ is_a: CHEBI:35366 ! fatty acid
 [Term]
 id: CHEBI:26658
 name: sesquiterpenoid
-name: sesquiterpoid
 namespace: chebi_ontology
 def: "Any terpenoid derived from a sesquiterpene. The term includes compounds in which the C15 skeleton of the parent sesquiterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups)." []
 subset: 3_STAR
@@ -20193,7 +20181,7 @@ xref: PMID:23250922 {source="Europe PMC"}
 xref: PMID:23266618 {source="Europe PMC"}
 xref: PMID:23516045 {source="Europe PMC"}
 xref: PMID:23624268 {source="Europe PMC"}
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C29H50O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C29H50O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h10,19-21,23-27,30H,7-9,11-18H2,1-6H3/t20-,21-,23+,24+,25-,26+,27+,28+,29-/m1/s1" xsd:string
@@ -22058,7 +22046,7 @@ xref: CAS:474-62-4 {source="KEGG COMPOUND"}
 xref: KEGG:C01789
 xref: KNApSAcK:C00003647
 xref: LIPID_MAPS_instance:LMST01030097 {source="LIPID MAPS"}
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C28H48O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C28H48O/c1-18(2)19(3)7-8-20(4)24-11-12-25-23-10-9-21-17-22(29)13-15-27(21,5)26(23)14-16-28(24,25)6/h9,18-20,22-26,29H,7-8,10-17H2,1-6H3/t19-,20-,22+,23+,24-,25+,26+,27+,28-/m1/s1" xsd:string
@@ -22883,7 +22871,7 @@ xref: PMID:13318319 {source="Europe PMC"}
 xref: PMID:13547565 {source="Europe PMC"}
 xref: Reaxys:2568182 {source="Reaxys"}
 xref: Wikipedia:Stigmasterol
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C29H48O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C29H48O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h8-10,19-21,23-27,30H,7,11-18H2,1-6H3/b9-8+/t20-,21-,23+,24+,25-,26+,27+,28+,29-/m1/s1" xsd:string
@@ -25083,7 +25071,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ca++].OCC(CO)OP([O
 [Term]
 id: CHEBI:31342
 name: Calcium hypochlorite
-name: calcium hypochlorite
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "bleaching powder" RELATED [ChEBI]
@@ -25242,7 +25229,7 @@ xref: PMID:30857717 {source="Europe PMC"}
 xref: PMID:31255261 {source="Europe PMC"}
 xref: PMID:31374906 {source="Europe PMC"}
 xref: Wikipedia:Brassicasterol
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C28H46O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C28H46O/c1-18(2)19(3)7-8-20(4)24-11-12-25-23-10-9-21-17-22(29)13-15-27(21,5)26(23)14-16-28(24,25)6/h7-9,18-20,22-26,29H,10-17H2,1-6H3/b8-7+/t19-,20+,22-,23-,24+,25-,26-,27-,28+/m0/s1" xsd:string
@@ -25288,7 +25275,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](Oc2
 [Term]
 id: CHEBI:31743
 name: kaempferol 3-O-beta-D-glucosyl-(1->2)-beta-D-glucoside
-name: kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucosyl-(1→2)-β-D-glucoside
+name: kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucoside
 namespace: chebi_ontology
 def: "A sophoroside that is kaempferol attached to a beta-D-sophorosyl residue at position 3 via a glycosidic linkage." []
 subset: 3_STAR
@@ -25824,7 +25811,7 @@ xref: PMID:34271434 {source="Europe PMC"}
 xref: PMID:34481015 {source="Europe PMC"}
 xref: Reaxys:2056928 {source="Reaxys"}
 xref: Wikipedia:Butein
-is_a: CHEBI:23086 ! chalcone
+is_a: CHEBI:23086 ! chalcones
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C15H12O5" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C15H12O5/c16-10-3-4-11(14(19)8-10)12(17)5-1-9-2-6-13(18)15(20)7-9/h1-8,16,18-20H/b5-1+" xsd:string
@@ -26685,8 +26672,8 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@]2([
 
 [Term]
 id: CHEBI:33468
-name: phosphide
 name: phosphide(3-)
+name: phosphide(3−)
 namespace: chebi_ontology
 subset: 3_STAR
 synonym: "P(-)" RELATED [IUPAC]
@@ -28012,7 +27999,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cl-].OC[C@H]1O[C@@
 [Term]
 id: CHEBI:3815
 name: Collagen
-name: collagen
 namespace: chebi_ontology
 comment: Further classification will be integrated for this class
 subset: 2_STAR
@@ -29356,7 +29342,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(\\C=C\\C=C(C)\\C
 [Term]
 id: CHEBI:4767
 name: Elastin
-name: elastin
 namespace: chebi_ontology
 comment: Further classification will be integrated for this class
 subset: 2_STAR
@@ -29559,7 +29544,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=C1c2ccccc2O\\C1=C
 
 [Term]
 id: CHEBI:48039
-name: dihydroflavanol
 name: dihydroflavonols
 namespace: chebi_ontology
 alt_id: CHEBI:24035
@@ -30403,7 +30387,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1=CC=C2C(OC=C(C2=
 [Term]
 id: CHEBI:5054
 name: Fibrin
-name: fibrin
 namespace: chebi_ontology
 comment: Further classification will be integrated for this class
 subset: 2_STAR
@@ -31725,7 +31708,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na+].[H]C([O-])=O"
 [Term]
 id: CHEBI:62967
 name: amorphous cellulose
-name: cellulose
 namespace: chebi_ontology
 def: "A (1->4)-beta-D-glucan (cellulose) in amorphous form with a structure consisting of several hundred to over ten thousand D-glucose residues joined by beta(1->4) glycosidic linkages." []
 subset: 3_STAR
@@ -32369,7 +32351,7 @@ xref: PMID:19634869 {source="Europe PMC"}
 xref: PMID:22111577 {source="Europe PMC"}
 xref: Reaxys:2226282 {source="Reaxys"}
 xref: Wikipedia:Xanthohumol
-is_a: CHEBI:23086 ! chalcone
+is_a: CHEBI:23086 ! chalcones
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C21H22O5" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C21H22O5/c1-13(2)4-10-16-18(24)12-19(26-3)20(21(16)25)17(23)11-7-14-5-8-15(22)9-6-14/h4-9,11-12,22,24-25H,10H2,1-3H3/b11-7+" xsd:string
@@ -33363,7 +33345,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@@H]1Cc2c(O)cc(O
 
 [Term]
 id: CHEBI:71230
-name: dihydrochalcone
 name: dihydrochalcones
 namespace: chebi_ontology
 def: "Any ketone that is 1,3-diphenylpropanone and its derivatives obtained by substitution." []
@@ -33492,8 +33473,8 @@ def: "A 20-carbon, polyunsaturated fatty acid having two double bonds at unspeci
 subset: 3_STAR
 synonym: "20:2" RELATED [ChEBI]
 synonym: "C20:2" RELATED [ChEBI]
-synonym: "eicosadienoic acid" RELATED []
 synonym: "eicosadienoic acid" RELATED [ChEBI]
+synonym: "eicosadienoic acid" RELATED []
 synonym: "eicosadienoic acids" RELATED [ChEBI]
 synonym: "icosadienoic acids" RELATED [ChEBI]
 xref: PMID:23475189 {source="Europe PMC"}
@@ -33587,8 +33568,8 @@ is_a: CHEBI:27300 ! vitamin D
 
 [Term]
 id: CHEBI:74224
-name: genistein (1-)
 name: genistein(1-)
+name: genistein(1−)
 namespace: chebi_ontology
 def: "An organic anion that is the conjugate base of genistein, obtained by selective deprotonation of the 7-hydroxy group." []
 subset: 3_STAR
@@ -34283,7 +34264,6 @@ is_a: CDNO:0000014 ! vitamin (molecular entity)
 
 [Term]
 id: CHEBI:75832
-name: iron sulfate
 name: iron(2+) sulfate (anhydrous)
 namespace: chebi_ontology
 def: "A compound of iron and sulfate in which the ratio of iron(2+) to sulfate ions is 1:1. Various hydrates occur naturally - most commonly the heptahydrate, which loses water to form the tetrahydrate at 57degreeC and the monohydrate at 65degreeC." []
@@ -34470,7 +34450,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@H]1Cc2c(O)cc(O)
 
 [Term]
 id: CHEBI:76132
-name: (+)-catechin 3-O-gallate
 name: (+)-catechin-3-O-gallate
 namespace: chebi_ontology
 def: "A gallate ester obtained by formal condensation of the carboxy group of gallic acid with the (3S)-hydroxy group of (+)-catechin." []
@@ -34687,7 +34666,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)=CCC[C@](C)(O[
 [Term]
 id: CHEBI:77366
 name: (6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoic acid
-name: 6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid
 namespace: chebi_ontology
 def: "A very long-chain polyunsaturated fatty acid that is tetracosanoic acid having six double bonds located at positions 6, 9, 12, 15, 18 and 21 (the (6Z,9Z,12Z,15Z,18Z,21Z-isomer)." []
 subset: 3_STAR
@@ -35274,7 +35252,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@@H]1[C@@H](COS(
 
 [Term]
 id: CHEBI:83820
-name: amino acid derived from non-proteinacious
 name: non-proteinogenic amino acid
 namespace: chebi_ontology
 def: "Any amino-acid that is not naturally encoded in the genetic code of any organism." []
@@ -35718,7 +35695,7 @@ xref: PMID:16331855 {source="Europe PMC"}
 xref: PMID:16487675 {source="Europe PMC"}
 xref: PMID:1730022 {source="Europe PMC"}
 xref: Wikipedia:Stigmastanol
-is_a: CHEBI:26125 ! phytosterol
+is_a: CHEBI:26125 ! phytosterols
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C29H52O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C29H52O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h19-27,30H,7-18H2,1-6H3/t20-,21-,22+,23+,24+,25-,26+,27+,28+,29-/m1/s1" xsd:string

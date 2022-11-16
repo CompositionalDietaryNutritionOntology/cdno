@@ -1,61 +1,61 @@
-﻿ontology ID,label,INFOODs,USDA
+﻿ontology ID,genistein(1−),INFOODs,USDA
 ID,,A oboInOwl:hasDbXref SPLIT=|,A oboInOwl:hasDbXref SPLIT=|
 CDNO:0200001,chemical component concentration,,
-CDNO:0200002,water,INFOODs: WATER,USDA_NDB: 1051
-CDNO:0200003,dry plant matter,INFOODs: DM|INFOODs: SOLID|INFOODs: SOLO,
-CDNO:0200004,ash,INFOODs: ASH,USDA_NDB: 1007
-CDNO:0200005,carbohydrate,,USDA_NDB: 1005|USDA_NDB: 1050|USDA_NDB: 1072
-CDNO:0200006,polysaccharide,INFOODs: POLYSAC,
-CDNO:0200007,starch,INFOODs: STARCH|INFOODs: STARCH-|INFOODs: STARCHM,USDA_NDB: 1009
-CDNO:0200008,pectin,INFOODs: PECT,
-CDNO:0200009,cellulose,INFOODs: CELLU,
-CDNO:0200010,hemicellulose,INFOODs: HEMCEL,
-CDNO:0200011,inulin,INFOODs: INULN,USDA_NDB: 1403
-CDNO:0200012,monosaccharide,INFOODs: MNSAC,
-CDNO:0200013,glucose,INFOODs: GLUS|INFOODs: GLUFB,USDA_NDB: 1011
-CDNO:0200014,fructose,INFOODs: FRUS|INFOODs: FRUFB,USDA_NDB: 1012
-CDNO:0200015,rhamnose,INFOODs: RHAS|INFOODs: RHAFB,
+CDNO:0200002,water,INFOODs:WATER,USDA_NDB:1051
+CDNO:0200003,dry plant matter,INFOODs:DM|INFOODs:SOLID|INFOODs:SOLO,
+CDNO:0200004,ash,INFOODs:ASH,USDA_NDB:1007
+CDNO:0200005,carbohydrate,,USDA_NDB:1005|USDA_NDB:1050|USDA_NDB:1072
+CDNO:0200006,polysaccharide,INFOODs:POLYSAC,
+CDNO:0200007,starch,INFOODs:STARCH|INFOODs:STARCH-|INFOODs:STARCHM,USDA_NDB:1009
+CDNO:0200008,pectin,INFOODs:PECT,
+CDNO:0200009,amorphous cellulose,INFOODs:CELLU,
+CDNO:0200010,hemicellulose,INFOODs:HEMCEL,
+CDNO:0200011,inulin,INFOODs:INULN,USDA_NDB:1403
+CDNO:0200012,monosaccharide,INFOODs:MNSAC,
+CDNO:0200013,glucose,INFOODs:GLUS|INFOODs:GLUFB,USDA_NDB:1011
+CDNO:0200014,fructose,INFOODs:FRUS|INFOODs:FRUFB,USDA_NDB:1012
+CDNO:0200015,rhamnose,INFOODs:RHAS|INFOODs:RHAFB,
 CDNO:0200016,D-apiose,,
-CDNO:0200017,galacturonic acid,INFOODs: GALAAC,
+CDNO:0200017,galacturonic acid,INFOODs:GALAAC,
 CDNO:0200715,D-galacturonic acid,,
-CDNO:0200018,fucose,INFOODs: FUCOS,
+CDNO:0200018,fucose,INFOODs:FUCOS,
 CDNO:0200681,L-fucose,,
-CDNO:0200019,xylose,INFOODs: XYLFB,
+CDNO:0200019,xylose,INFOODs:XYLFB,
 CDNO:0200682,D-xylose,,
-CDNO:0200020,arabinose,INFOODs: ARAS|INFOODs: ARAFB,
+CDNO:0200020,arabinose,INFOODs:ARAS|INFOODs:ARAFB,
 CDNO:0200683,L-arabinofuranose,,
 CDNO:0200684,L-arabinopyranose,,
-CDNO:0200021,galactose,INFOODs: GALS,USDA_NDB: 1075
-CDNO:0200685,lactose,INFOODs: LACS,
+CDNO:0200021,galactose,INFOODs:GALS,USDA_NDB:1075
+CDNO:0200685,lactose,INFOODs:LACS,
 CDNO:0200686,lactulose,,
 CDNO:0200716,6-O-α-D-glucopyranosyl-D-fructofuranose,,
-CDNO:0200022,mannose,INFOODs: MANS|INFOODs: MANFB,
+CDNO:0200022,mannose,INFOODs:MANS|INFOODs:MANFB,
 CDNO:0200687,D-mannose,,
-CDNO:0200023,ribose,INFOODs: RIBS,USDA_NDB: 1081
-CDNO:0200024,disaccharide,INFOODs: DISAC,
-CDNO:0200025,sucrose,INFOODs: SUCS,USDA_NDB: 1010
-CDNO:0200026,trehalose,INFOODs: TRES,
-CDNO:0200027,maltose,INFOODs: MALS,USDA_NDB: 1014
-CDNO:0200028,oligosaccharide,INFOODs: OLSAC|INFOODs: OLSACM,
-CDNO:0200029,raffinose family oligosaccharide,INFOODs: RAFS,
-CDNO:0200030,raffinose,INFOODs: RAFS,
-CDNO:0200031,stachyose,INFOODs: STAS|INFOODs: STASM,
-CDNO:0200032,verbascose,INFOODs: VERS|INFOODs: VERSM,
+CDNO:0200023,ribose,INFOODs:RIBS,USDA_NDB:1081
+CDNO:0200024,disaccharide,INFOODs:DISAC,
+CDNO:0200025,sucrose,INFOODs:SUCS,USDA_NDB:1010
+CDNO:0200026,trehalose,INFOODs:TRES,
+CDNO:0200027,maltose,INFOODs:MALS,USDA_NDB:1014
+CDNO:0200028,oligosaccharide,INFOODs:OLSAC|INFOODs:OLSACM,
+CDNO:0200029,raffinose family oligosaccharide,INFOODs:RAFS,
+CDNO:0200030,raffinose,INFOODs:RAFS,
+CDNO:0200031,stachyose,INFOODs:STAS|INFOODs:STASM,
+CDNO:0200032,verbascose,INFOODs:VERS|INFOODs:VERSM,
 CDNO:0200688,β-D-Gal-(1→3)-β-D-GlcNAc-(1→3)-β-D-Gal-(1→4)-D-Glc,,
-CDNO:0200033,available carbohydrate,INFOODs: CHOAVL|INFOODs: CHOAVL-|INFOODs: CHOAVLDF|INFOODs: CHOAVLM|INFOODs: CHOAVLO,USDA_NDB: 1005
-CDNO:0200034,free sugar,INFOODs: SUGAR|INFOODs: SUGAR-|INFOODs: SUGARM,USDA_NDB: 1063|USDA_NDB: 1235|USDA_NDB: 2000
-CDNO:0200035,dietary fibre,INFOODs: FIB-|INFOODs: FIBC|INFOODs: FIBTGLC|INFOODs: FIBDF,USDA_NDB: 2033
-CDNO:0200036,soluble dietary fibre,INFOODs: FIBGLCSSOL|INFOODs: PSACNSS,USDA_NDB: 1082
-CDNO:0200037,resistant starch,INFOODs: STARES|INFOODs: STARES1|INFOODs: STARES2|INFOODs: STARES3|INFOODs: STARES4,USDA_NDB: 1009
-CDNO:0200038,insoluble dietary fibre,INFOODs: FIBGLCSINS|INFOODs:FIBC|INFOODs: FIBTGLCS|INFOODs: FIBGLCSINSOL|INFOODs: FIBINS,USDA_NDB: 1084
-CDNO:0200039,fructan,INFOODs: FRUTN|INFOODs: FRUTNM,
-CDNO:0200040,protein,INFOODs: PROT-,USDA_NDB: 1003
-CDNO:0200041,seed storage protein,INFOODs: PROTA|INFOODs: PROTPL,USDA_NDB: 1003
-CDNO:0200042,albumin type,INFOODs: ALBU,
-CDNO:0200043,globulin type,INFOODs: GLOB,
+CDNO:0200033,available carbohydrate,INFOODs:CHOAVL|INFOODs:CHOAVL-|INFOODs:CHOAVLDF|INFOODs:CHOAVLM|INFOODs:CHOAVLO,USDA_NDB:1005
+CDNO:0200034,free sugar,INFOODs:SUGAR|INFOODs:SUGAR-|INFOODs:SUGARM,USDA_NDB:1063|USDA_NDB:1235|USDA_NDB:2000
+CDNO:0200035,dietary fibre,INFOODs:FIB-|INFOODs:FIBC|INFOODs:FIBTGLC|INFOODs:FIBDF,USDA_NDB:2033
+CDNO:0200036,soluble dietary fibre,INFOODs:FIBGLCSSOL|INFOODs:PSACNSS,USDA_NDB:1082
+CDNO:0200037,resistant starch,INFOODs:STARES|INFOODs:STARES1|INFOODs:STARES2|INFOODs:STARES3|INFOODs:STARES4,USDA_NDB:1009
+CDNO:0200038,insoluble dietary fibre,INFOODs:FIBGLCSINS|INFOODs:FIBC|INFOODs:FIBTGLCS|INFOODs:FIBGLCSINSOL|INFOODs:FIBINS,USDA_NDB:1084
+CDNO:0200039,fructan,INFOODs:FRUTN|INFOODs:FRUTNM,
+CDNO:0200040,protein,INFOODs:PROT-,USDA_NDB:1003
+CDNO:0200041,seed storage protein,INFOODs:PROTA|INFOODs:PROTPL,USDA_NDB:1003
+CDNO:0200042,albumin type,INFOODs:ALBU,
+CDNO:0200043,globulin type,INFOODs:GLOB,
 CDNO:0200044,prolamin,,
 CDNO:0200045,cruciferin,,
-CDNO:0200046,glutenin,INFOODs: GLUTN,
+CDNO:0200046,glutenin,INFOODs:GLUTN,
 CDNO:0200673,collagen,,
 CDNO:0200674,elastin,,
 CDNO:0200675,fibrin,,
@@ -64,30 +64,30 @@ CDNO:0200677,myoglobin,,
 CDNO:0200678,beta-lactoglobulin,,
 CDNO:0200679,napin,,
 CDNO:0200680,gliadin,,
-CDNO:0200047,alanine,INFOODs: ALA,USDA_NDB: 1222
-CDNO:0200048,arginine,INFOODs: ARG,USDA_NDB: 1220
-CDNO:0200049,asparagine,INFOODs: ASN,
-CDNO:0200050,aspartic acid,INFOODs: ASP,USDA_NDB: 1223
-CDNO:0200051,cysteine,INFOODs: CYSTE,USDA_NDB: 1232
-CDNO:0200052,glutamic acid,INFOODs: GLU,USDA_NDB: 1224
-CDNO:0200053,glutamine,INFOODs: GLN,USDA_NDB: 1233
-CDNO:0200054,glycine,INFOODs: GLY,USDA_NDB: 1225
-CDNO:0200055,histidine,INFOODs: HIS,USDA_NDB: 1221
-CDNO:0200056,hydroxyproline,INFOODs: HYP,USDA_NDB: 1228
-CDNO:0200057,isoleucine,INFOODs: ILE,USDA_NDB: 1212
-CDNO:0200058,leucine,INFOODs: LEU,USDA_NDB: 1213
-CDNO:0200059,lysine,INFOODs: LYS,USDA_NDB: 1214
-CDNO:0200060,methionine,INFOODs: MET,USDA_NDB: 1215
-CDNO:0200061,phenylalanine,INFOODs: PHE,USDA_NDB: 1217
-CDNO:0200062,proline,INFOODs: PRO,USDA_NDB: 1226
-CDNO:0200063,serine,INFOODs: SER,USDA_NDB: 1227
-CDNO:0200064,threonine,INFOODs: THR,USDA_NDB: 1211
-CDNO:0200065,tryptophan,INFOODs: TRP,USDA_NDB: 1210
-CDNO:0200066,tyrosine,INFOODs: TYR,USDA_NDB: 1218
-CDNO:0200067,valine,INFOODs: VAL,USDA_NDB: 1219
-CDNO:0200068,lipid,INFOODs: FATPL,USDA_NDB: 1004
-CDNO:0200069,diglyceride,INFOODs: DGLY,
-CDNO:0200070,cis-fatty acid,INFOODs: FACIS,
+CDNO:0200047,alanine,INFOODs:ALA,USDA_NDB:1222
+CDNO:0200048,arginine,INFOODs:ARG,USDA_NDB:1220
+CDNO:0200049,asparagine,INFOODs:ASN,
+CDNO:0200050,aspartic acid,INFOODs:ASP,USDA_NDB:1223
+CDNO:0200051,cysteine,INFOODs:CYSTE,USDA_NDB:1232
+CDNO:0200052,glutamic acid,INFOODs:GLU,USDA_NDB:1224
+CDNO:0200053,glutamine,INFOODs:GLN,USDA_NDB:1233
+CDNO:0200054,glycine,INFOODs:GLY,USDA_NDB:1225
+CDNO:0200055,histidine,INFOODs:HIS,USDA_NDB:1221
+CDNO:0200056,hydroxyproline,INFOODs:HYP,USDA_NDB:1228
+CDNO:0200057,isoleucine,INFOODs:ILE,USDA_NDB:1212
+CDNO:0200058,leucine,INFOODs:LEU,USDA_NDB:1213
+CDNO:0200059,lysine,INFOODs:LYS,USDA_NDB:1214
+CDNO:0200060,methionine,INFOODs:MET,USDA_NDB:1215
+CDNO:0200061,phenylalanine,INFOODs:PHE,USDA_NDB:1217
+CDNO:0200062,proline,INFOODs:PRO,USDA_NDB:1226
+CDNO:0200063,serine,INFOODs:SER,USDA_NDB:1227
+CDNO:0200064,threonine,INFOODs:THR,USDA_NDB:1211
+CDNO:0200065,tryptophan,INFOODs:TRP,USDA_NDB:1210
+CDNO:0200066,tyrosine,INFOODs:TYR,USDA_NDB:1218
+CDNO:0200067,valine,INFOODs:VAL,USDA_NDB:1219
+CDNO:0200068,lipid,INFOODs:FATPL,USDA_NDB:1004
+CDNO:0200069,diglyceride,INFOODs:DGLY,
+CDNO:0200070,cis-fatty acid,INFOODs:FACIS,
 CDNO:0200071,octanoic acid,,
 CDNO:0200072,pentadecanoic acid,,
 CDNO:0200073,tetracosanoic acid,,
@@ -98,7 +98,7 @@ CDNO:0200077,heptadecanoic acid,,
 CDNO:0200078,octadecanoic acid,,
 CDNO:0200079,icosanoic acid,,
 CDNO:0200080,docosanoic acid,,
-CDNO:0200082,propionic acid,INFOODs: PROPAC,
+CDNO:0200082,propionic acid,INFOODs:PROPAC,
 CDNO:0200083,myristoleic acid,,
 CDNO:0200084,palmitoleic acid,,
 CDNO:0200085,oleic acid,,
@@ -127,31 +127,31 @@ CDNO:0200107,icosadienoic acid,,
 CDNO:0200108,arachidonic acid,,
 CDNO:0200109,docosadienoic acid,,
 CDNO:0200110,"7,10,13,16-docosatetraenoic acid",,
-CDNO:0200111,trans-fatty acid,INFOODs: FATRN,USDA_NDB: 1257
-CDNO:0200112,capsaicin,INFOODs: CAPSA,
-CDNO:0200113,phospholipid,INFOODs: PHOLIP,
-CDNO:0200114,phosphatidylcholine,INFOODs: CHLNP,
-CDNO:0200115,phosphatidylethanolamine,INFOODs: PHOETHN,
-CDNO:0200116,phosphatidyl-L-serine,INFOODs: PHOSER,
-CDNO:0200117,phosphatidylinositol,INFOODs: PHOINOTL,
+CDNO:0200111,trans-fatty acid,INFOODs:FATRN,USDA_NDB:1257
+CDNO:0200112,capsaicin,INFOODs:CAPSA,
+CDNO:0200113,phospholipid,INFOODs:PHOLIP,
+CDNO:0200114,phosphatidylcholine,INFOODs:CHLNP,
+CDNO:0200115,phosphatidylethanolamine,INFOODs:PHOETHN,
+CDNO:0200116,phosphatidyl-L-serine,INFOODs:PHOSER,
+CDNO:0200117,phosphatidylinositol,INFOODs:PHOINOTL,
 CDNO:0200118,lysophosphatidylcholine,,
-CDNO:0200119,glycolipid,INFOODs: GLYLIP,
+CDNO:0200119,glycolipid,INFOODs:GLYLIP,
 CDNO:0200120,glycoglycerolipid,,
-CDNO:0200121,sterol,INFOODs: STEOTH|INFOODs: STERFRE|INFOODs: STERT,
-CDNO:0200122,campestanol,,USDA_NDB: 1289
-CDNO:0200123,cholesterol,INFOODs: CHOLEST,USDA_NDB: 1253
+CDNO:0200121,sterol,INFOODs:STEOTH|INFOODs:STERFRE|INFOODs:STERT,
+CDNO:0200122,campestanol,,USDA_NDB:1289
+CDNO:0200123,cholesterol,INFOODs:CHOLEST,USDA_NDB:1253
 CDNO:0200124,lupeol,,
-CDNO:0200125,phytosterol,INFOODs: PHYSTR,USDA_NDB: 1283
-CDNO:0200126,avenasterol,INFOODs: AVEDT,
-CDNO:0200127,isofucosterol,INFOODs: AVED5,USDA_NDB: 1296
-CDNO:0200128,delta7-avenasterol,INFOODs: AVED7,
-CDNO:0200129,brassicasterol,INFOODs: BRASTR,USDA_NDB: 1287
-CDNO:0200130,campesterol,INFOODs: CAMT,USDA_NDB: 1286
-CDNO:0200131,ergosterol,INFOODs: ERGSTR,
-CDNO:0200132,sitosterol,INFOODs: SITSTR,
+CDNO:0200125,phytosterols,INFOODs:PHYSTR,USDA_NDB:1283
+CDNO:0200126,avenasterol,INFOODs:AVEDT,
+CDNO:0200127,isofucosterol,INFOODs:AVED5,USDA_NDB:1296
+CDNO:0200128,delta7-avenasterol,INFOODs:AVED7,
+CDNO:0200129,brassicasterol,INFOODs:BRASTR,USDA_NDB:1287
+CDNO:0200130,campesterol,INFOODs:CAMT,USDA_NDB:1286
+CDNO:0200131,ergosterol,INFOODs:ERGSTR,
+CDNO:0200132,sitosterol,INFOODs:SITSTR,
 CDNO:0200133,stigmastanol,,
-CDNO:0200134,stigmasterol,INFOODs: STGSTR,USDA_NDB: 1285
-CDNO:0200135,delta7-stigmasterol,INFOODs: STID7,
+CDNO:0200134,stigmasterol,INFOODs:STGSTR,USDA_NDB:1285
+CDNO:0200135,delta7-stigmasterol,INFOODs:STID7,
 CDNO:0200520,isoprenoid,,
 CDNO:0200521,terpene,,
 CDNO:0200522,tetraterpene,,
@@ -160,7 +160,7 @@ CDNO:0200524,tetraterpenoid,,
 CDNO:0200136,mineral nutrient,,
 CDNO:0200137,macro element,,
 CDNO:0200544,dietary calcium,,
-CDNO:0200138,calcium(2+),INFOODs: CA,USDA_NDB: 1087
+CDNO:0200138,calcium(2+),INFOODs:CA,USDA_NDB:1087
 CDNO:0200545,inorganic calcium salt,,
 CDNO:0200546,calcium dichloride,,
 CDNO:0200547,calcium carbonate,,
@@ -176,7 +176,7 @@ CDNO:0200556,calcium glycerophosphate,,
 CDNO:0200557,calcium stearate,,
 CDNO:0200558,organic calcium compound,,
 CDNO:0200559,dietary chlorine,,
-CDNO:0200139,chloride,INFOODs: CLD,
+CDNO:0200139,chloride,INFOODs:CLD,
 CDNO:0200560,inorganic chloride,,
 CDNO:0200563,magnesium dichloride,,
 CDNO:0200564,potassium chloride,,
@@ -193,26 +193,26 @@ CDNO:0200574,magnesium hydroxide,,
 CDNO:0200575,organic magnesium salt,,
 CDNO:0200576,magnesium distearate,,
 CDNO:0200577,magnesium carbonate,,
-CDNO:0200141,nitrogen atom,INFOODs: NAM|INFOODs: NT,USDA_NDB: 1002
+CDNO:0200141,nitrogen atom,INFOODs:NAM|INFOODs:NT,USDA_NDB:1002
 CDNO:0200578,dietary phosphorus,,
-CDNO:0200142,phosphide,,
+CDNO:0200142,phosphide(3−),,
 CDNO:0200579,phosphoric acid,,
 CDNO:0200580,inorganic phosphate salt,,
 CDNO:0200581,sodium phosphate,,
-CDNO:0200582,potassium phosphate,,
+CDNO:0200582,tripotassium phosphate,,
 CDNO:0200583,iron(3+) phosphate,,
 CDNO:0200584,organic phosphate salt,,
 CDNO:0200585,organic phosphate compound,,
 CDNO:0200590,3-sn-phosphatidyl-L-serine,,
 CDNO:0200592,dietary potassium,,
-CDNO:0200143,potassium(1+),INFOODs: K,USDA_NDB: 1092
+CDNO:0200143,potassium(1+),INFOODs:K,USDA_NDB:1092
 CDNO:0200593,inorganic potassium salt,,
 CDNO:0200595,potassium sulfate,,
 CDNO:0200596,organic potassium salt,,
 CDNO:0200597,potassium formate,,
 CDNO:0200598,potassium bitartrate,,
 CDNO:0200599,dietary sodium,,
-CDNO:0200144,sodium(1+),INFOODs: NA,USDA_NDB: 1093
+CDNO:0200144,sodium(1+),INFOODs:NA,USDA_NDB:1093
 CDNO:0200600,inorganic sodium salt,,
 CDNO:0200602,sodium hydrogencarbonate,,
 CDNO:0200603,sodium sulfate,,
@@ -232,13 +232,13 @@ CDNO:0200616,sodium formate,,
 CDNO:0200617,sodium phenolate,,
 CDNO:0200618,sodium citrate,,
 CDNO:0200619,dietary sulfur,,
-CDNO:0200145,sulfide(2−),INFOODs: S,USDA_NDB: 1094
+CDNO:0200145,sulfide(2−),INFOODs:S,USDA_NDB:1094
 CDNO:0200620,sulfite,,
 CDNO:0200621,inorganic sulfate salt,,
 CDNO:0200622,magnesium sulfate,,
-CDNO:0200623,iron sulfate,,
+CDNO:0200623,iron(2+) sulfate (anhydrous),,
 CDNO:0200625,copper(II) sulfate,,
-CDNO:0200626,organic sulfate salt,,
+CDNO:0200626,organic sulfate,,
 CDNO:0200627,organosulfur compound,,
 CDNO:0200628,thiol,,
 CDNO:0200629,glutathione,,
@@ -252,130 +252,130 @@ CDNO:0200636,isothiocyanate,,
 CDNO:0200637,allyl isothiocyanate,,
 CDNO:0200638,sulfur dioxide,,
 CDNO:0200146,trace element,,
-CDNO:0200147,aluminium(3+),INFOODs: AL,
-CDNO:0200148,antimony(3+),INFOODs: SB,
-CDNO:0200149,arsenic(3+),INFOODs: AS,
-CDNO:0200150,boron(3+),INFOODs: B,USDA_NDB: 1137
-CDNO:0200151,cadmium(2+),INFOODs: CD,
+CDNO:0200147,aluminium(3+),INFOODs:AL,
+CDNO:0200148,antimony(3+),INFOODs:SB,
+CDNO:0200149,arsenic(3+),INFOODs:AS,
+CDNO:0200150,boron(3+),INFOODs:B,USDA_NDB:1137
+CDNO:0200151,cadmium(2+),INFOODs:CD,
 CDNO:0200639,dietary chromium,,
-CDNO:0200152,chromium(2+),INFOODs: CR,USDA_NDB: 1096
+CDNO:0200152,chromium(2+),INFOODs:CR,USDA_NDB:1096
 CDNO:0200640,inorganic chromium salt,,
 CDNO:0200641,organic chromium salt,,
-CDNO:0200153,cobalt(2+),INFOODs: CO,USDA_NDB: 1097
+CDNO:0200153,cobalt(2+),INFOODs:CO,USDA_NDB:1097
 CDNO:0200642,dietary copper,,
-CDNO:0200154,copper(2+),INFOODs: CU,USDA_NDB: 1098
+CDNO:0200154,copper(2+),INFOODs:CU,USDA_NDB:1098
 CDNO:0200643,inorganic copper salt,,
 CDNO:0200644,organic copper salt,,
 CDNO:0200645,dietary fluorine,,
-CDNO:0200155,fluoride,INFOODs: FD,USDA_NDB: 1099
+CDNO:0200155,fluoride,INFOODs:FD,USDA_NDB:1099
 CDNO:0200646,inorganic fluoride salt,,
 CDNO:0200647,organic fluoride salt,,
 CDNO:0200648,dietary iodine,,
-CDNO:0200156,iodine,INFOODs: ID,USDA_NDB: 1100
+CDNO:0200156,iodide,INFOODs:ID,USDA_NDB:1100
 CDNO:0200649,inorganic iodine salt,,
 CDNO:0200650,organic iodine salt,,
 CDNO:0200651,dietary iron,,
-CDNO:0200157,iron(2+),INFOODs: FE,USDA_NDB: 1089
+CDNO:0200157,iron(2+),INFOODs:FE,USDA_NDB:1089
 CDNO:0200652,inorganic iron salt,,
 CDNO:0200653,iron(2+) sulfate (anhydrous),,
 CDNO:0200654,organic iron salt,,
 CDNO:0200655,organic iron compound,,
 CDNO:0200656,ferric ammonium citrate,,
-CDNO:0200158,lead(2+),INFOODs: PB,
-CDNO:0200159,lithium(1+),INFOODs: LI,
+CDNO:0200158,lead(2+),INFOODs:PB,
+CDNO:0200159,lithium(1+),INFOODs:LI,
 CDNO:0200657,dietary manganese,,
-CDNO:0200160,manganese(2+),INFOODs: MN,USDA_NDB: 1101
+CDNO:0200160,manganese atom,INFOODs:MN,USDA_NDB:1101
 CDNO:0200658,manganese(3+),,
 CDNO:0200659,inorganic manganese salt,,
 CDNO:0200660,organic manganese salt,,
-CDNO:0200161,mercury(2+),INFOODs: HG,
+CDNO:0200161,mercury(2+),INFOODs:HG,
 CDNO:0200661,dietary molybdenum ,,
-CDNO:0200162,molybdenum(4+),INFOODs: MO,USDA_NDB: 1102
+CDNO:0200162,molybdenum(4+),INFOODs:MO,USDA_NDB:1102
 CDNO:0200662,molybdenum(6+),,
 CDNO:0200663,inorganic molybdenum salt,,
 CDNO:0200664,organic molybdenum salt,,
-CDNO:0200163,nickel(2+),INFOODs: NI,USDA_NDB: 1146
-CDNO:0200164,rubidium(1+),INFOODs: RB,
+CDNO:0200163,nickel(2+),INFOODs:NI,USDA_NDB:1146
+CDNO:0200164,rubidium(1+),INFOODs:RB,
 CDNO:0200665,dietary selenium,,
-CDNO:0200165,selenium(2+),INFOODs: SE,USDA_NDB: 1103
+CDNO:0200165,selenium(2+),INFOODs:SE,USDA_NDB:1103
 CDNO:0200666,selenium(4+),,
 CDNO:0200667,selenium(6+),,
 CDNO:0200668,inorganic selenium salt,,
 CDNO:0200669,organic selenium salt,,
-CDNO:0200166,strontium(2+),INFOODs: SR,
-CDNO:0200167,tin(2+),INFOODs: SN,
-CDNO:0200168,titanium(3+),INFOODs: TI,
-CDNO:0200169,vanadium(2+),INFOODs: V,
+CDNO:0200166,strontium(2+),INFOODs:SR,
+CDNO:0200167,tin(2+),INFOODs:SN,
+CDNO:0200168,titanium(3+),INFOODs:TI,
+CDNO:0200169,vanadium(2+),INFOODs:V,
 CDNO:0200670,dietary zinc,,
-CDNO:0200170,zinc(2+),INFOODs: ZN,USDA_NDB: 1095
+CDNO:0200170,zinc(2+),INFOODs:ZN,USDA_NDB:1095
 CDNO:0200671,inorganic zinc salt,,
 CDNO:0200672,organic zinc salt,,
-CDNO:0200171,barium(2+),INFOODs: BA,
-CDNO:0200172,caesium(1+),INFOODs: CS,
-CDNO:0200173,bismuth(3+),INFOODs: BI,
-CDNO:0200174,lanthanum(2+),INFOODs: LA,
-CDNO:0200175,salt,INFOODs: NACL,
+CDNO:0200171,barium(2+),INFOODs:BA,
+CDNO:0200172,caesium(1+),INFOODs:CS,
+CDNO:0200173,bismuth(3+),INFOODs:BI,
+CDNO:0200174,lanthanum(2+),INFOODs:LA,
+CDNO:0200175,salt,INFOODs:NACL,
 CDNO:0200176,sodium chloride,,
-CDNO:0200177,inorganic nitrate salt,INFOODs: NITRA|INFOODs: NITRI,
-CDNO:0200178,bromide,INFOODs: BRD,
+CDNO:0200177,inorganic nitrate salt,INFOODs:NITRA|INFOODs:NITRI,
+CDNO:0200178,bromide,INFOODs:BRD,
 CDNO:0200525,methylmercury compound,,
 CDNO:0200179,vitamin (molecular entity),,
-CDNO:0200181,5-formyltetrahydrofolic acid,,USDA_NDB: 1192
+CDNO:0200181,5-formyltetrahydrofolic acid,,USDA_NDB:1192
 CDNO:0200182,B vitamin,,
 CDNO:0200183,"(6R)-5,10-methenyltetrahydrofolate",,
-CDNO:0200184,vitamin B1,INFOODs: THIA-,USDA_NDB: 1165
-CDNO:0200526,thiamine hydrochloride,INFOODs: THIAHCL,
+CDNO:0200184,vitamin B1,INFOODs:THIA-,USDA_NDB:1165
+CDNO:0200526,thiamine hydrochloride,INFOODs:THIAHCL,
 CDNO:0200527,vitamin B2,,
-CDNO:0200185,riboflavin,INFOODs: RIBF,USDA_NDB: 1166
+CDNO:0200185,riboflavin,INFOODs:RIBF,USDA_NDB:1166
 CDNO:0200528,vitamin B3,,
-CDNO:0200186,nicotinic acid,INFOODs: NIA-,USDA_NDB: 1167
+CDNO:0200186,nicotinic acid,INFOODs:NIA-,USDA_NDB:1167
 CDNO:0200529,vitamin B5,,
-CDNO:0200187,(R)-pantothenic acid,INFOODs: PANTAC,USDA_NDB: 1170
-CDNO:0200530,vitamin B6,INFOODs: VITB6-,USDA_NDB: 1175
-CDNO:0200188,pyridoxine,INFOODs: PYRXN,
+CDNO:0200187,(R)-pantothenic acid,INFOODs:PANTAC,USDA_NDB:1170
+CDNO:0200530,vitamin B6,INFOODs:VITB6-,USDA_NDB:1175
+CDNO:0200188,pyridoxine,INFOODs:PYRXN,
 CDNO:0200531,vitamin B7,,
-CDNO:0200189,biotin,INFOODs: BIOT,USDA_NDB: 1176
+CDNO:0200189,biotin,INFOODs:BIOT,USDA_NDB:1176
 CDNO:0200532,vitamin B9,,
-CDNO:0200190,folic acid,INFOODs: FOLAC,USDA_NDB: 1186
-CDNO:0200533,tetrahydrofolate,INFOODs: FOLH4,
-CDNO:0200534,vitamin B12,INFOODs: VITB12,USDA_NDB: 1178
+CDNO:0200190,folic acid,INFOODs:FOLAC,USDA_NDB:1186
+CDNO:0200533,tetrahydrofolate,INFOODs:FOLH4,
+CDNO:0200534,vitamin B12,INFOODs:VITB12,USDA_NDB:1178
 CDNO:0200191,cyanocob(III)alamin,,
-CDNO:0200192,vitamin C,INFOODs: VITC|INFOODs: VITC-,USDA_NDB: 1162
-CDNO:0200193,L-ascorbic acid,INFOODs: ASCL,
-CDNO:0200195,vitamin A,INFOODs: VITA|INFOODs: VITA-|INFOODs: VITAA,USDA_NDB: 1104|USDA_NDB: 1106
+CDNO:0200192,vitamin C,INFOODs:VITC|INFOODs:VITC-,USDA_NDB:1162
+CDNO:0200193,L-ascorbic acid,INFOODs:ASCL,
+CDNO:0200195,vitamin A,INFOODs:VITA|INFOODs:VITA-|INFOODs:VITAA,USDA_NDB:1104|USDA_NDB:1106
 CDNO:0200535,all-trans-retinol,,
-CDNO:0200196,carotenoid,INFOODs: CARTOID,
-CDNO:0200197,α-carotene,INFOODs: CARTA,USDA_NDB: 1108
-CDNO:0200198,β-carotene,INFOODs: CARTB,USDA_NDB: 1107
-CDNO:0200199,4-hydroxy-all-trans-β-carotene,INFOODs: CARTB,USDA_NDB: 2028
-CDNO:0200200,9-cis-β-carotene,INFOODs: CARTBCIS,USDA_NDB: 1159
-CDNO:0200201,vitamin D,INFOODs: VITD|INFOODs: VITD-,USDA_NDB: 1110
-CDNO:0200536,D3 vitamins,,USDA_NDB: 1112
+CDNO:0200196,carotenoid,INFOODs:CARTOID,
+CDNO:0200197,α-carotene,INFOODs:CARTA,USDA_NDB:1108
+CDNO:0200198,β-carotene,INFOODs:CARTB,USDA_NDB:1107
+CDNO:0200199,4-hydroxy-all-trans-β-carotene,INFOODs:CARTB,USDA_NDB:2028
+CDNO:0200200,9-cis-β-carotene,INFOODs:CARTBCIS,USDA_NDB:1159
+CDNO:0200201,vitamin D,INFOODs:VITD|INFOODs:VITD-,USDA_NDB:1110
+CDNO:0200536,D3 vitamins,,USDA_NDB:1112
 CDNO:0200202,calcidiol,,
 CDNO:0200537,calciol,,
-CDNO:0200539,vitamin D2,,USDA_NDB: 1111
+CDNO:0200539,vitamin D2,,USDA_NDB:1111
 CDNO:0200540,vitamin D4,,
 CDNO:0200541,vitamin D5,,
-CDNO:0200203,vitamin E,INFOODs: VITE|INFOODs: VITE-|INFOODs: VITEA,USDA_NDB: 1124|USDA_NDB: 1158|USDA_NDB: 1242
-CDNO:0200204,tocopherol,INFOODs: TOCPHT,
-CDNO:0200205,α-tocopherol,INFOODs: TOCPHA,USDA_NDB: 1109
-CDNO:0200206,β-tocopherol,INFOODs: TOCPHB,USDA_NDB: 1125
-CDNO:0200207,γ-tocopherol,INFOODs: TOCPHG,USDA_NDB: 1126
-CDNO:0200208,δ-tocopherol,INFOODs: TOCPHD,USDA_NDB: 1127
-CDNO:0200209,tocotrienol,INFOODs: TOCTRT,
-CDNO:0200210,α-tocotrienol,INFOODs: TOCTRA,USDA_NDB: 1128
-CDNO:0200211,β-tocotrienol,INFOODs: TOCTRB,USDA_NDB: 1129
-CDNO:0200212,γ-tocotrienol,INFOODs: TOCTRG,USDA_NDB: 1130
-CDNO:0200213,δ-tocotrienol,INFOODs: TOCTRD,USDA_NDB: 1131
-CDNO:0200214,vitamin K,INFOODs: VITK,
+CDNO:0200203,vitamin E,INFOODs:VITE|INFOODs:VITE-|INFOODs:VITEA,USDA_NDB:1124|USDA_NDB:1158|USDA_NDB:1242
+CDNO:0200204,tocopherol,INFOODs:TOCPHT,
+CDNO:0200205,α-tocopherol,INFOODs:TOCPHA,USDA_NDB:1109
+CDNO:0200206,β-tocopherol,INFOODs:TOCPHB,USDA_NDB:1125
+CDNO:0200207,γ-tocopherol,INFOODs:TOCPHG,USDA_NDB:1126
+CDNO:0200208,δ-tocopherol,INFOODs:TOCPHD,USDA_NDB:1127
+CDNO:0200209,tocotrienol,INFOODs:TOCTRT,
+CDNO:0200210,α-tocotrienol,INFOODs:TOCTRA,USDA_NDB:1128
+CDNO:0200211,β-tocotrienol,INFOODs:TOCTRB,USDA_NDB:1129
+CDNO:0200212,γ-tocotrienol,INFOODs:TOCTRG,USDA_NDB:1130
+CDNO:0200213,δ-tocotrienol,INFOODs:TOCTRD,USDA_NDB:1131
+CDNO:0200214,vitamin K,INFOODs:VITK,
 CDNO:0200541,menadione,,
-CDNO:0200542,menaquinone,INFOODs: MK4|INFOODs: MK5|INFOODs: MK6|INFOODs: MK7|INFOODs: MK8|INFOODs: MK9,USDA_NDB: 1183
-CDNO:0200543,phylloquinone,,USDA_NDB: 1185
+CDNO:0200542,menaquinone,INFOODs:MK4|INFOODs:MK5|INFOODs:MK6|INFOODs:MK7|INFOODs:MK8|INFOODs:MK9,USDA_NDB:1183
+CDNO:0200543,phylloquinone,,USDA_NDB:1185
 CDNO:0200215,plant secondary metabolite,,
 CDNO:0200216,alkaloid,,
-CDNO:0200217,caffeine,INFOODs: CAFFN,USDA_NDB: 1057
+CDNO:0200217,caffeine,INFOODs:CAFFN,USDA_NDB:1057
 CDNO:0200218,mescaline,,
-CDNO:0200219,theobromine,INFOODs: THEBRN,USDA_NDB: 1058
+CDNO:0200219,theobromine,INFOODs:THEBRN,USDA_NDB:1058
 CDNO:0200220,phenols,,
 CDNO:0200735,stilbenol ,,
 CDNO:0200736,pinosylvin,,
@@ -423,7 +423,7 @@ CDNO:0200777,3-(2-hydroxyphenyl)propanoic acid,,
 CDNO:0200778,kievitone,,
 CDNO:0200779,vanillyl alcohol,,
 CDNO:0200780,vanillylmandelic acid,,
-CDNO:0200221,polyphenol,INFOODs: POLYPHENT,
+CDNO:0200221,polyphenol,INFOODs:POLYPHENT,
 CDNO:0200720,"8,5'-diferulic acid",,
 CDNO:0200721,piceatannol,,
 CDNO:0200722,acteoside,,
@@ -439,39 +439,39 @@ CDNO:0200731,curcumin,,
 CDNO:0200732,"(2-cis,6-cis)-farnesol",,
 CDNO:0200733,(E)-trans-miyabenol C,,
 CDNO:0200734,trans-rhaponticin,,
-CDNO:0200222,tannin,INFOODs: TAN,
-CDNO:0200223,chlorogenic acid,INFOODs: CHLRAC,
-CDNO:0200224,proanthocyanidin,INFOODs: TAN|INFOODs: PAPOLY,
-CDNO:0200225,hydrolysable tannin,INFOODs: TAN,
-CDNO:0200226,ellagitannin,INFOODs: ELLAC,
+CDNO:0200222,tannin,INFOODs:TAN,
+CDNO:0200223,chlorogenic acid,INFOODs:CHLRAC,
+CDNO:0200224,proanthocyanidin,INFOODs:TAN|INFOODs:PAPOLY,
+CDNO:0200225,hydrolysable tannin,INFOODs:TAN,
+CDNO:0200226,ellagitannin,INFOODs:ELLAC,
 CDNO:0200227,gallotannin,,
 CDNO:0200228,phlorotannin,,
 CDNO:0200229,catechol,,
 CDNO:0200230,phloroglucinol,,
-CDNO:0200231,(−)-epigallocatechin 3-gallate,INFOODs: EPICATEGC,USDA_NDB: 1368
+CDNO:0200231,(−)-epigallocatechin 3-gallate,INFOODs:EPICATEGC,USDA_NDB:1368
 CDNO:0200232,phenolic acid,,
-CDNO:0200233,gallic acid,INFOODs: GALLAC,
+CDNO:0200233,gallic acid,INFOODs:GALLAC,
 CDNO:0200234,hydroxybenzoic acid,,
-CDNO:0200235,salicylic acid,INFOODs: SALAC,
+CDNO:0200235,salicylic acid,INFOODs:SALAC,
 CDNO:0200236,hydroquinone O-β-D-glucopyranoside,,
-CDNO:0200237,vanillic acid,INFOODs: VANAC,
-CDNO:0200238,syringic acid,INFOODs: SYRAC,
+CDNO:0200237,vanillic acid,INFOODs:VANAC,
+CDNO:0200238,syringic acid,INFOODs:SYRAC,
 CDNO:0200239,methyl ketone,,
 CDNO:0200240,acetophenone,,
 CDNO:0200241,phenylacetic acid,,
 CDNO:0200242,hydroxycinnamic acid,,
-CDNO:0200243,caffeic acid,INFOODs: CAFFAC,
-CDNO:0200244,sinapic acid,INFOODs: SINPAC,
+CDNO:0200243,caffeic acid,INFOODs:CAFFAC,
+CDNO:0200244,sinapic acid,INFOODs:SINPAC,
 CDNO:0200245,chromones,,
 CDNO:0200246,Chicoric acid,,
 CDNO:0200247,coumaric acid,,
-CDNO:0200248,4-coumaric acid,INFOODs: PCHOUAC,
+CDNO:0200248,4-coumaric acid,INFOODs:PCHOUAC,
 CDNO:0200249,2-coumaric acid,,
 CDNO:0200250,3-coumaric acid,,
-CDNO:0200251,ferulic acid,INFOODs: FERAC,
+CDNO:0200251,ferulic acid,INFOODs:FERAC,
 CDNO:0200252,scopoletin,,
 CDNO:0200253,phenylpropane,,
-CDNO:0200254,napthoquinone,,
+CDNO:0200254,naphthoquinone,,
 CDNO:0200255,"1,2-napthoquinone",,
 CDNO:0200256,"1,4-napthoquinone",,
 CDNO:0200257,juglone,,
@@ -485,23 +485,23 @@ CDNO:0200264,simple oxygenated xanthones,,
 CDNO:0200265,xanthone glycoside,,
 CDNO:0200266,prenylated and related xanthones,,
 CDNO:0200267,xanthonolignoid,,
-CDNO:0200268,flavonoids,INFOODs: FLAVD,
-CDNO:0200269,flavonoid,INFOODs: FLAVD,
-CDNO:0200270,malvidin,INFOODs: MALVIDIN,
-CDNO:0200271,kaempferol,INFOODs: KAEMF,
+CDNO:0200268,flavonoids,INFOODs:FLAVD,
+CDNO:0200269,flavonoid,INFOODs:FLAVD,
+CDNO:0200270,malvidin,INFOODs:MALVIDIN,
+CDNO:0200271,kaempferol,INFOODs:KAEMF,
 CDNO:0200272,flavan,,
 CDNO:0200273,flavanone,,
 CDNO:0200274,6-prenylnaringenin,,
 CDNO:0200275,sophoraflavanone B,,
 CDNO:0200276,eriocitrin,,
 CDNO:0200277,eriodictyol,,
-CDNO:0200278,hesperetin,INFOODs: HESPT,
-CDNO:0200279,hesperidin,INFOODs: HESPD,
+CDNO:0200278,hesperetin,INFOODs:HESPT,
+CDNO:0200279,hesperidin,INFOODs:HESPD,
 CDNO:0200280,homoeriodictyol,,
 CDNO:0200281,"4'-methoxy-5,7-dihydroxyflavanone",,
-CDNO:0200282,naringenin,INFOODs: NARING,
-CDNO:0200283,naringin,INFOODs: NARIN,
-CDNO:0200284,narirutin,INFOODs: NARIR,
+CDNO:0200282,naringenin,INFOODs:NARING,
+CDNO:0200283,naringin,INFOODs:NARIN,
+CDNO:0200284,narirutin,INFOODs:NARIR,
 CDNO:0200285,neoeriocitrin,,
 CDNO:0200286,neohesperidin,,
 CDNO:0200287,pinocembrin,,
@@ -511,7 +511,7 @@ CDNO:0200290,flavone,,
 CDNO:0200291,6-hydroxyluteolin,,
 CDNO:0200292,6-hydroxyluteolin 7-O-laminaribioside,,
 CDNO:0200293,"4',7-dihydroxyflavone",,
-CDNO:0200294,apigenin,INFOODs: APIGEN,
+CDNO:0200294,apigenin,INFOODs:APIGEN,
 CDNO:0200295,baicalein,,
 CDNO:0200296,chrysin,,
 CDNO:0200297,cirsilineol,,
@@ -524,31 +524,31 @@ CDNO:0200303,geraldone,,
 CDNO:0200304,hispidulin,,
 CDNO:0200305,isovitexin,,
 CDNO:0200306,jaceosidin,,
-CDNO:0200307,luteolin,INFOODs: LUTEOL,
+CDNO:0200307,luteolin,INFOODs:LUTEOL,
 CDNO:0200308,luteolin 7-O-β-D-glucoside(1−),,
 CDNO:0200309,myricitrin,,
 CDNO:0200310,nobiletin,,
-CDNO:0200311,quercetin,INFOODs: QUERCE,
+CDNO:0200311,quercetin,INFOODs:QUERCE,
 CDNO:0200312,apigenin 7-O-neohesperidoside,,
 CDNO:0200313,scutellarein,,
 CDNO:0200314,sinensetin,,
-CDNO:0200315,tangeretin,INFOODs: TANGER,
+CDNO:0200315,tangeretin,INFOODs:TANGER,
 CDNO:0200316,vitexin,,
-CDNO:0200317,dihydroflavanol,,
+CDNO:0200317,dihydroflavonols,,
 CDNO:0200318,hydroxyflavan,,
-CDNO:0200319,catechin,INFOODs: CATEC|INFOODs: CATECT,
+CDNO:0200319,catechin,INFOODs:CATEC|INFOODs:CATECT,
 CDNO:0200320,(+)-catechin 3-O-gallate,,
-CDNO:0200321,(+)-gallocatechin,INFOODs: GALCATEGC,
-CDNO:0200322,(-)-epicatechin,INFOODs: EPICATEC,
-CDNO:0200323,(+)-epicatechin,INFOODs: EPICATEC,
-CDNO:0200324,(-)-gallocatechin,INFOODs: GALCATEGC,
-CDNO:0200325,(-)-epicatechin-3-O-gallate,INFOODs: EPICATECG3,
-CDNO:0200326,(-)-epigallocatechin,INFOODs: EPICATEGC,
+CDNO:0200321,(+)-gallocatechin,INFOODs:GALCATEGC,
+CDNO:0200322,(-)-epicatechin,INFOODs:EPICATEC,
+CDNO:0200323,(+)-epicatechin,INFOODs:EPICATEC,
+CDNO:0200324,(-)-gallocatechin,INFOODs:GALCATEGC,
+CDNO:0200325,(-)-epicatechin-3-O-gallate,INFOODs:EPICATECG3,
+CDNO:0200326,(-)-epigallocatechin,INFOODs:EPICATEGC,
 CDNO:0200327,3'-O-methylepicatechin,,
 CDNO:0200328,4'-O-methylepigallocatechin-3-O-gallate,,
 CDNO:0200329,4'-O-methylepigallocatechin,,
 CDNO:0200331,cinnamtannin A2,,
-CDNO:0200332,procyanidin,INFOODs: PROCYA,
+CDNO:0200332,procyanidin,INFOODs:PROCYA,
 CDNO:0200333,procyanidin B1,,
 CDNO:0200334,procyanidin B2,,
 CDNO:0200335,procyanidin B3,,
@@ -559,17 +559,17 @@ CDNO:0200339,procyanidin C1,,
 CDNO:0200340,procyanidin C2,,
 CDNO:0200341,theaflavin,,
 CDNO:0200342,peltogynoid,,
-CDNO:0200343,dihydrochalcone,,
+CDNO:0200343,dihydrochalcones,,
 CDNO:0200344,3-hydroxyphloretin 2'-O-xylosylglucoside,,
 CDNO:0200345,phloretin,,
 CDNO:0200346,phlorizin,,
-CDNO:0200347,chalcone,,
+CDNO:0200347,chalcones,,
 CDNO:0200348,butein,,
 CDNO:0200349,xanthohumol,,
 CDNO:0200350,aurone,,
-CDNO:0200351,anthocyanidin,INFOODs: ANTCYAN,
-CDNO:0200352,cyanidin cation,INFOODs: CYAD,
-CDNO:0200353,cyanidin 3-O-β-D-galactoside,,
+CDNO:0200351,anthocyanidin,INFOODs:ANTCYAN,
+CDNO:0200352,cyanidin cation,INFOODs:CYAD,
+CDNO:0200353,cyanidin 3-O-β-D-galactoside chloride,,
 CDNO:0200354,cyanidin 3-O-rutinoside,,
 CDNO:0200355,cyanidin 3-O-β-D-sambubioside,,
 CDNO:0200356,Cyanidin 3-O-sophoroside,,
@@ -586,27 +586,27 @@ CDNO:0200366,β-D-glucoside,,
 CDNO:0200367,delphinidin 3-O-β-D-glucoside,,
 CDNO:0200368,petunidin 3-O-β-D-glucoside,,
 CDNO:0200369,malvidin 3-O-β-D-glucoside,,
-CDNO:0200370,isoflavonoid,INFOODs: ISOFLVND,
+CDNO:0200370,isoflavonoid,INFOODs:ISOFLVND,
 CDNO:0200371,isoflavans,,
 CDNO:0200372,isoflavanone,,
 CDNO:0200373,isoflavones,,
 CDNO:0200374,hydroxyisoflavone,,
 CDNO:0200375,daidzein,INFOODs:DDZEIN,
-CDNO:0200376,genistein,INFOODs: GNSTEIN,
-CDNO:0200377,glycitein,INFOODs: GLYCTEIN,
+CDNO:0200376,genistein,INFOODs:GNSTEIN,
+CDNO:0200377,glycitein,INFOODs:GLYCTEIN,
 CDNO:0200378,glucoside,,
 CDNO:0200379,daidzein 7-O-β-D-glucoside,,
-CDNO:0200380,genistein 7-O-β-D-glucoside,INFOODs: GNSTIN,
-CDNO:0200381,glycitin,INFOODs: GLYCTN,
+CDNO:0200380,genistein 7-O-β-D-glucoside,INFOODs:GNSTIN,
+CDNO:0200381,glycitin,INFOODs:GLYCTN,
 CDNO:0200382,glycosyloxyisoflavone,,
-CDNO:0200383,malonyldaidzin,INFOODs: DAIDZNM,
-CDNO:0200384,malonylgenistin,INFOODs: GNSTINM,
-CDNO:0200385,malonylglycitin,INFOODs: GLYCTNM,
-CDNO:0200386,glycitein 7-(6-O-acetyl-β-D-glucoside),INFOODs: GLYCTNA,
+CDNO:0200383,malonyldaidzin,INFOODs:DAIDZNM,
+CDNO:0200384,malonylgenistin,INFOODs:GNSTINM,
+CDNO:0200385,malonylglycitin,INFOODs:GLYCTNM,
+CDNO:0200386,glycitein 7-(6-O-acetyl-β-D-glucoside),INFOODs:GLYCTNA,
 CDNO:0200387,rotenoid,,
 CDNO:0200388,coumestans,,
 CDNO:0200389,coumestan,,
-CDNO:0200390,coumestrol,INFOODs: COUMEST,
+CDNO:0200390,coumestrol,INFOODs:COUMEST,
 CDNO:0200391,3-arylcoumarin,,
 CDNO:0200392,pterocarpans,,
 CDNO:0200393,pterocarpan,,
@@ -615,133 +615,133 @@ CDNO:0200395,(+)-pisatin,,
 CDNO:0200396,neoflavonoid,,
 CDNO:0200397,biflavonoid,,
 CDNO:0200398,phenylpropanoid,,
-CDNO:0200399,lignan,INFOODs: LIGNANS,
+CDNO:0200399,lignan,INFOODs:LIGNANS,
 CDNO:0200400,"3,5,7-trihydroxy-2-[3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-3,4-dihydro-2H-1-benzopyran-4-one",,
 CDNO:0200401,neolignan,,
-CDNO:0200402,lignin,INFOODs: LIGN,
+CDNO:0200402,lignin,INFOODs:LIGN,
 CDNO:0200403,Melanin,,
 CDNO:0200404,catechol melanin,,
 CDNO:0200405,allomelanin,,
 CDNO:0200406,terpenoid,,
 CDNO:0200407,monoterpenoid,,
-CDNO:0200408,sesquiterpenoid ,,
+CDNO:0200408,sesquiterpenoid,,
 CDNO:0200409,diterpenoid,,
 CDNO:0200410,xanthophyll,,
-CDNO:0200411,zeaxanthin,INFOODs: ZEA,USDA_NDB: 1119
-CDNO:0200412,α-cryptoxanthin,INFOODs: CRYPXA,USDA_NDB: 2032
-CDNO:0200413,β-cryptoxanthin,,USDA_NDB: 1120
-CDNO:0200414,lutein,INFOODs: LUTN,USDA_NDB: 1121
-CDNO:0200415,phytoene,,USDA_NDB: 1116
-CDNO:0200416,neoxanthin,INFOODs: NEOX,
-CDNO:0200417,violaxanthin,INFOODs: VIOLX,
-CDNO:0200418,lycopene,INFOODs: LYCPN,USDA_NDB: 1122
-CDNO:0200419,"7,7',9,9'-tetra-cis-lycopene",,USDA_NDB: 1160
-CDNO:0200420,retinol,INFOODs: RETOL,USDA_NDB: 1105
+CDNO:0200411,zeaxanthin,INFOODs:ZEA,USDA_NDB:1119
+CDNO:0200412,α-cryptoxanthin,INFOODs:CRYPXA,USDA_NDB:2032
+CDNO:0200413,β-cryptoxanthin,,USDA_NDB:1120
+CDNO:0200414,lutein,INFOODs:LUTN,USDA_NDB:1121
+CDNO:0200415,phytoene,,USDA_NDB:1116
+CDNO:0200416,neoxanthin,INFOODs:NEOX,
+CDNO:0200417,violaxanthin,INFOODs:VIOLX,
+CDNO:0200418,lycopene,INFOODs:LYCPN,USDA_NDB:1122
+CDNO:0200419,"7,7',9,9'-tetra-cis-lycopene",,USDA_NDB:1160
+CDNO:0200420,retinol,INFOODs:RETOL,USDA_NDB:1105
 CDNO:0200421,triterpenoid,,
-CDNO:0200422,organic acid,INFOODs: OA,
-CDNO:0200423,acetic acid,INFOODs: ACEAC,USDA_NDB: 1026
-CDNO:0200424,citric acid,INFOODs: CITAC,USDA_NDB: 1032
-CDNO:0200425,2-hydroxypropanoic acid,INFOODs: LACAC,USDA_NDB: 1038
-CDNO:0200426,(R)-lactic acid,INFOODs: LACACD,USDA_NDB: 1038
-CDNO:0200427,(S)-lactic acid,INFOODs: LACACL,USDA_NDB: 1038
-CDNO:0200428,malic acid,INFOODs: MALAC,USDA_NDB: 1039
+CDNO:0200422,organic acid,INFOODs:OA,
+CDNO:0200423,acetic acid,INFOODs:ACEAC,USDA_NDB:1026
+CDNO:0200424,citric acid,INFOODs:CITAC,USDA_NDB:1032
+CDNO:0200425,2-hydroxypropanoic acid,INFOODs:LACAC,USDA_NDB:1038
+CDNO:0200426,(R)-lactic acid,INFOODs:LACACD,USDA_NDB:1038
+CDNO:0200427,(S)-lactic acid,INFOODs:LACACL,USDA_NDB:1038
+CDNO:0200428,malic acid,INFOODs:MALAC,USDA_NDB:1039
 CDNO:0200429,malonic¬†acid,,
 CDNO:0200430,ascorbic acid,,
 CDNO:0200431,L-dehydroascorbic acid,,
-CDNO:0200432,oxalic acid,INFOODs: OXALAC,
-CDNO:0200433,myo-inositol hexakisphosphate,INFOODs: IP6,
-CDNO:0200434,quinic acid,INFOODs: QUINAC,
-CDNO:0200435,pyruvic acid,INFOODs: PYRAC,
-CDNO:0200436,shikimic acid,INFOODs: SHIKAC,
-CDNO:0200437,succinic acid,INFOODs: SUCAC,
-CDNO:0200438,tartaric acid,INFOODs: TARAC,
-CDNO:0200439,isocitric acid,INFOODs: ISOCAC,
-CDNO:0200440,oxaloacetic acid,INFOODs: OXACAC,
-CDNO:0200441,inositol,INFOODs: INOTL,USDA_NDB: 1181
-CDNO:0200442,taurine,,USDA_NDB: 1234
-CDNO:0200443,glycine betaine,INFOODs: BETN,
-CDNO:0200444,polyol,INFOODs: POLYL,
-CDNO:0200445,mannitol,INFOODs: MANTL,
-CDNO:0200446,xylitol,INFOODs: XYLTL,USDA_NDB: 1078
+CDNO:0200432,oxalic acid,INFOODs:OXALAC,
+CDNO:0200433,myo-inositol hexakisphosphate,INFOODs:IP6,
+CDNO:0200434,quinic acid,INFOODs:QUINAC,
+CDNO:0200435,pyruvic acid,INFOODs:PYRAC,
+CDNO:0200436,shikimic acid,INFOODs:SHIKAC,
+CDNO:0200437,succinic acid,INFOODs:SUCAC,
+CDNO:0200438,tartaric acid,INFOODs:TARAC,
+CDNO:0200439,isocitric acid,INFOODs:ISOCAC,
+CDNO:0200440,oxaloacetic acid,INFOODs:OXACAC,
+CDNO:0200441,inositol,INFOODs:INOTL,USDA_NDB:1181
+CDNO:0200442,taurine,,USDA_NDB:1234
+CDNO:0200443,glycine betaine,INFOODs:BETN,
+CDNO:0200444,polyol,INFOODs:POLYL,
+CDNO:0200445,mannitol,INFOODs:MANTL,
+CDNO:0200446,xylitol,INFOODs:XYLTL,USDA_NDB:1078
 CDNO:0200447,glucitol,,
-CDNO:0200448,choline,INFOODs: CHOLN|INFOODs: CHOLNF,USDA_NDB: 1180|USDA_NDB: 1194
-CDNO:0200449,polyunsaturated fatty acid,INFOODs: FAPU|INFOODs: FAPULC,USDA_NDB: 1293
-CDNO:0200450,glucomannan,INFOODs: GLUMN|INFOODs: GLUMNM,
-CDNO:0200451,glycerol,INFOODs: GLYRL,
+CDNO:0200448,choline,INFOODs:CHOLN|INFOODs:CHOLNF,USDA_NDB:1180|USDA_NDB:1194
+CDNO:0200449,polyunsaturated fatty acid,INFOODs:FAPU|INFOODs:FAPULC,USDA_NDB:1293
+CDNO:0200450,glucomannan,INFOODs:GLUMN|INFOODs:GLUMNM,
+CDNO:0200451,glycerol,INFOODs:GLYRL,
 CDNO:0200452,triglyceride,,
 CDNO:0200453,xyloglucan,,
-CDNO:0200454,arabinan,INFOODs: ARAN,
+CDNO:0200454,arabinan,INFOODs:ARAN,
 CDNO:0200455,galacturonan,,
-CDNO:0200456,monounsaturated fatty acid,,USDA_NDB: 1292
+CDNO:0200456,monounsaturated fatty acid,,USDA_NDB:1292
 CDNO:0200457,rhamnogalacturonan,,
-CDNO:0200458,saturated fatty acid,INFOODs: FASAT,USDA_NDB: 1258
-CDNO:0200459,galactomannan,INFOODs: GALMN|INFOODs: GALMNM,
-CDNO:0200460,amylopectin,INFOODs: AMYP,
-CDNO:0200461,amylose,INFOODs: AMYS,
+CDNO:0200458,saturated fatty acid,INFOODs:FASAT,USDA_NDB:1258
+CDNO:0200459,galactomannan,INFOODs:GALMN|INFOODs:GALMNM,
+CDNO:0200460,amylopectin,INFOODs:AMYP,
+CDNO:0200461,amylose,INFOODs:AMYS,
 CDNO:0200462,arabinoxylan,,
-CDNO:0200463,mannan,INFOODs: MANN,
+CDNO:0200463,mannan,INFOODs:MANN,
 CDNO:0200464,amino acid,,
 CDNO:0200465,fatty acid,,
-CDNO:0200466,galactan,INFOODs: GALTN,
-CDNO:0200467,xylan,INFOODs: XYLN,
+CDNO:0200466,galactan,INFOODs:GALTN,
+CDNO:0200467,xylan,INFOODs:XYLN,
 CDNO:0200468,glucan,,
-CDNO:0200469,amylopectin derived from starch,INFOODs: AMYP,
-CDNO:0200470,amylose derived from starch,INFOODs: AMYS,
+CDNO:0200469,amylopectin derived from starch,INFOODs:AMYP,
+CDNO:0200470,amylose derived from starch,INFOODs:AMYS,
 CDNO:0200471,galacturonan derived from pectin,,
 CDNO:0200472,rhamnogalacturonan derived from pectin,,
-CDNO:0200473,mannan derived from hemicellulose,INFOODs: MANN,
-CDNO:0200474,xylan derived from hemicellulose,INFOODs: XYLN,
+CDNO:0200473,mannan derived from hemicellulose,INFOODs:MANN,
+CDNO:0200474,xylan derived from hemicellulose,INFOODs:XYLN,
 CDNO:0200475,xyloglucan derived from hemicellulose,,
-CDNO:0200476,glucomannan derived from hemicellulose,INFOODs: GLUMNM,
+CDNO:0200476,glucomannan derived from hemicellulose,INFOODs:GLUMNM,
 CDNO:0200477,arabinoxylan derived from hemicellulose,,
-CDNO:0200478,fructan derived from hemicellulose,INFOODs: FRUTN,
-CDNO:0200479,arabinan derived from hemicellulose,INFOODs: ARAN,
-CDNO:0200480,galactomannan derived from hemicellulose,INFOODs: GALMN,
-CDNO:0200481,galactan derived from hemicellulose,INFOODs: GALTN,
-CDNO:0200482,glucose derived from amylopectin derived from starch,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200483,glucose derived from amylose derived from starch,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200484,glucose derived from sucrose,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200485,fructose derived from sucrose,INFOODs: FRUS,USDA_NDB: 1012
-CDNO:0200486,glucose derived from maltose,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200487,galacturonic acid derived from galacturonan derived from pectin,INFOODs: GALAAC,
-CDNO:0200488,rhamnose derived from rhamnogalacturonan derived from pectin,INFOODs: RHAS,
+CDNO:0200478,fructan derived from hemicellulose,INFOODs:FRUTN,
+CDNO:0200479,arabinan derived from hemicellulose,INFOODs:ARAN,
+CDNO:0200480,galactomannan derived from hemicellulose,INFOODs:GALMN,
+CDNO:0200481,galactan derived from hemicellulose,INFOODs:GALTN,
+CDNO:0200482,glucose derived from amylopectin derived from starch,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200483,glucose derived from amylose derived from starch,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200484,glucose derived from sucrose,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200485,fructose derived from sucrose,INFOODs:FRUS,USDA_NDB:1012
+CDNO:0200486,glucose derived from maltose,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200487,galacturonic acid derived from galacturonan derived from pectin,INFOODs:GALAAC,
+CDNO:0200488,rhamnose derived from rhamnogalacturonan derived from pectin,INFOODs:RHAS,
 CDNO:0200489,D-apiose derived from rhamnogalacturonan derived from pectin,,
-CDNO:0200490,galacturonic acid derived from rhamnogalacturonan derived from pectin,INFOODs: GALAAC,
-CDNO:0200491,fucose derived from rhamnogalacturonan derived from pectin,INFOODs: FUCOS,
-CDNO:0200492,xylose derived from rhamnogalacturonan derived from pectin,INFOODs: XYLFB,
-CDNO:0200493,arabinose derived from rhamnogalacturonan derived from pectin,INFOODs: ARAS,
-CDNO:0200494,galactose derived from rhamnogalacturonan derived from pectin,INFOODs: GALS,USDA_NDB: 1075
-CDNO:0200495,raffinose derived from raffinose family oligosaccharide,INFOODs: RAFS,
-CDNO:0200496,galactose derived from raffinose derived from raffinose family oligosaccharide,INFOODs: GALS,USDA_NDB: 1075
-CDNO:0200497,glucose derived from raffinose derived from raffinose family oligosaccharide,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200498,fructose derived from raffinose derived from raffinose family oligosaccharide,INFOODs: FRUS,USDA_NDB: 1012
-CDNO:0200499,stachyose derived from raffinose family oligosaccharide,INFOODs: STAS,
-CDNO:0200500,galactose derived from stachyose derived from raffinose family oligosaccharide,INFOODs: GALS,USDA_NDB: 1075
-CDNO:0200501,glucose derived from stachyose derived from raffinose family oligosaccharide,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200502,fructose derived from stachyose derived from raffinose family oligosaccharide,INFOODs: FRUS,USDA_NDB: 1012
-CDNO:0200503,verbascose derived from rraffinose family oligosaccharide,INFOODs: VERS,
-CDNO:0200504,galactose derived from verbascose derived from raffinose family oligosaccharide,INFOODs: GALS,USDA_NDB: 1075
-CDNO:0200505,glucose derived from verbascose derived from raffinose family oligosaccharide,INFOODs: GLUS,USDA_NDB: 1011
-CDNO:0200506,fructose derived from verbascose derived from raffinose family oligosaccharide,INFOODs: FRUS,USDA_NDB: 1012
-CDNO:0200507,glucose derived from cellulose,INFOODs: GLUFB,USDA_NDB: 1011
-CDNO:0200508,mannose derived from mannan derived from hemicellulose,INFOODs: MANFB,
-CDNO:0200509,glucose derived from xylan derived from hemicellulose,INFOODs: GLUFB,USDA_NDB: 1011
-CDNO:0200510,xylose derived from xylan derived from hemicellulose,INFOODs: XYLFB,
-CDNO:0200511,glucose derived from xyloglucan derived from hemicellulose,INFOODs: GLUFB,USDA_NDB: 1011
-CDNO:0200512,xylose derived from xyloglucan derived from hemicellulose,INFOODs: XYLFB,
-CDNO:0200513,glucose derived from glucomannan derived from hemicellulose,INFOODs: GLUFB,USDA_NDB: 1011
-CDNO:0200514,mannose derived from glucomannan derived from hemicellulose,INFOODs: MANFB,
-CDNO:0200515,arabinose derived from arabinoxylan derived from hemicellulose,INFOODs: ARAFB,
-CDNO:0200516,xylose derived from arabinoxylan derived from hemicellulose,INFOODs: XYLFB,
-CDNO:0200517,inulin derived from fructan,INFOODs: INULN,USDA_NDB: 1403
-CDNO:0200518,fructose derived from inulin derived from fructan,INFOODs: FRUS,USDA_NDB: 1012
+CDNO:0200490,galacturonic acid derived from rhamnogalacturonan derived from pectin,INFOODs:GALAAC,
+CDNO:0200491,fucose derived from rhamnogalacturonan derived from pectin,INFOODs:FUCOS,
+CDNO:0200492,xylose derived from rhamnogalacturonan derived from pectin,INFOODs:XYLFB,
+CDNO:0200493,arabinose derived from rhamnogalacturonan derived from pectin,INFOODs:ARAS,
+CDNO:0200494,galactose derived from rhamnogalacturonan derived from pectin,INFOODs:GALS,USDA_NDB:1075
+CDNO:0200495,raffinose derived from raffinose family oligosaccharide,INFOODs:RAFS,
+CDNO:0200496,galactose derived from raffinose derived from raffinose family oligosaccharide,INFOODs:GALS,USDA_NDB:1075
+CDNO:0200497,glucose derived from raffinose derived from raffinose family oligosaccharide,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200498,fructose derived from raffinose derived from raffinose family oligosaccharide,INFOODs:FRUS,USDA_NDB:1012
+CDNO:0200499,stachyose derived from raffinose family oligosaccharide,INFOODs:STAS,
+CDNO:0200500,galactose derived from stachyose derived from raffinose family oligosaccharide,INFOODs:GALS,USDA_NDB:1075
+CDNO:0200501,glucose derived from stachyose derived from raffinose family oligosaccharide,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200502,fructose derived from stachyose derived from raffinose family oligosaccharide,INFOODs:FRUS,USDA_NDB:1012
+CDNO:0200503,verbascose derived from rraffinose family oligosaccharide,INFOODs:VERS,
+CDNO:0200504,galactose derived from verbascose derived from raffinose family oligosaccharide,INFOODs:GALS,USDA_NDB:1075
+CDNO:0200505,glucose derived from verbascose derived from raffinose family oligosaccharide,INFOODs:GLUS,USDA_NDB:1011
+CDNO:0200506,fructose derived from verbascose derived from raffinose family oligosaccharide,INFOODs:FRUS,USDA_NDB:1012
+CDNO:0200507,glucose derived from cellulose,INFOODs:GLUFB,USDA_NDB:1011
+CDNO:0200508,mannose derived from mannan derived from hemicellulose,INFOODs:MANFB,
+CDNO:0200509,glucose derived from xylan derived from hemicellulose,INFOODs:GLUFB,USDA_NDB:1011
+CDNO:0200510,xylose derived from xylan derived from hemicellulose,INFOODs:XYLFB,
+CDNO:0200511,glucose derived from xyloglucan derived from hemicellulose,INFOODs:GLUFB,USDA_NDB:1011
+CDNO:0200512,xylose derived from xyloglucan derived from hemicellulose,INFOODs:XYLFB,
+CDNO:0200513,glucose derived from glucomannan derived from hemicellulose,INFOODs:GLUFB,USDA_NDB:1011
+CDNO:0200514,mannose derived from glucomannan derived from hemicellulose,INFOODs:MANFB,
+CDNO:0200515,arabinose derived from arabinoxylan derived from hemicellulose,INFOODs:ARAFB,
+CDNO:0200516,xylose derived from arabinoxylan derived from hemicellulose,INFOODs:XYLFB,
+CDNO:0200517,inulin derived from fructan,INFOODs:INULN,USDA_NDB:1403
+CDNO:0200518,fructose derived from inulin derived from fructan,INFOODs:FRUS,USDA_NDB:1012
 CDNO:0200519,amino acid derived from protein,,
-CDNO:0200689,dextrins,INFOODs: DEXTN,
-CDNO:0200690,maltodextrin,INFOODs: MALTDEX,
+CDNO:0200689,dextrins,INFOODs:DEXTN,
+CDNO:0200690,maltodextrin,INFOODs:MALTDEX,
 CDNO:0200691,cyclodextrin,,
 CDNO:0200692,amylodextrin,,
 CDNO:0200693,cellodextrin,,
-CDNO:0200694,gum,INFOODs: GUMS,
+CDNO:0200694,gum,INFOODs:GUMS,
 CDNO:0200695,heteroglycan,,
 CDNO:0200696,alginic acid,,
 CDNO:0200697,carrageenan,,
@@ -752,10 +752,10 @@ CDNO:0200701,xanthan,,
 CDNO:0200702,ketose,,
 CDNO:0200703,ketohexose,,
 CDNO:0200704,psicose,,
-CDNO:0200706,maltitol,INFOODs: MALTL,
-CDNO:0200711,lactitol,INFOODs: LACTL,
-CDNO:0200712,isomalt,INFOODs: ISOMALT,
-CDNO:0200713,erythritol,INFOODs: ERYTHL,
+CDNO:0200706,maltitol,INFOODs:MALTL,
+CDNO:0200711,lactitol,INFOODs:LACTL,
+CDNO:0200712,isomalt,INFOODs:ISOMALT,
+CDNO:0200713,erythritol,INFOODs:ERYTHL,
 CDNO:0200714,alditol,,
 CDNO:0200717,sialic acid,,
 CDNO:0200718,Polydextrose,,
@@ -791,9 +791,9 @@ CDNO:0200808,(S)-naringenin ,,
 CDNO:0200809,galangin ,,
 CDNO:0200810,kaempferide ,,
 CDNO:0200811,luteolin 7-O-(6-O-malonyl-β-D-glucoside) ,,
-CDNO:0200812,"quercetin 3,4'-di-O-β-D-glucoside ",,
+CDNO:0200812,"quercetin 3,4'-di-O-β-D-glucoside",,
 CDNO:0200813,"quercetin 7,4'-di-O-β-D-glucoside ",,
-CDNO:0200814,kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucosyl-(1→2)-β-D-glucoside ,,
+CDNO:0200814,kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucoside,,
 CDNO:0200815,quercetin 3-O-β-D-glucosyl-(1→2)-β-D-glucoside,,
 CDNO:0200816,isorhamnetin ,,
 CDNO:0200817,quercetin 3-O-β-D-galactopyranoside ,,
@@ -850,7 +850,7 @@ CDNO:0200867,"3',4',7-trihydroxyisoflavone ",,
 CDNO:0200868,prunetin ,,
 CDNO:0200869,2'-hydroxydaidzein ,,
 CDNO:0200870,licoisoflavone A ,,
-CDNO:0200871,genistein (1-) ,,
+CDNO:0200871,genistein(1−),,
 CDNO:0200872,sanguiin H6 ,,
 CDNO:0200873,lambertianin C ,,
 CDNO:0200874,punicalagin ,,
@@ -968,7 +968,7 @@ CDNO:0200985,rubixanthin ,,
 CDNO:0200986,paeoniflorin ,,
 CDNO:0200987,Yamogenin ,,
 CDNO:0200988,rebaudioside A,,
-CDNO:0200989,rebaudioside B (1-),,
+CDNO:0200989,rebaudioside B(1−),,
 CDNO:0200990,rebaudioside E ,,
 CDNO:0200991,rebaudioside D ,,
 CDNO:0200992,retinal ,,
@@ -1014,7 +1014,7 @@ CDNO:0201031,gluconasturtiin(1-),,
 CDNO:0201032,glucoputranjivin(1-) ,,
 CDNO:0201033,glucoraphenin(1-) ,,
 CDNO:0201034,glucobrassicin(1-) ,,
-CDNO:0201035,progoitrin(1−) ,,
+CDNO:0201035,progoitrin(1−),,
 CDNO:0201036,Sinalbin ,,
 CDNO:0201037,sinigrin(1-) ,,
 CDNO:0201038,diarylheptanoid ,,
