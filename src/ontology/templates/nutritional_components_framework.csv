@@ -1,5 +1,5 @@
 ﻿Ontology ID,label,parent class,definition,definition cross reference,comment,has role,has quality,original index,Related syn.,English syn.
-ID,AL rdfs:label@en,SC % SPLIT=|,AL IAO:0000115@en,>AI oboInOwl:hasDbXref SPLIT=|,AL rdfs:comment@en,C 'has role' some % SPLIT=|,C 'has quality' some % SPLIT=|,,AL oboInOwl:hasRelatedSynonym@en SPLIT=|,AL oboInOwl:hasExactSynonym@en SPLIT=|
+ID,AT rdfs:label^^xml:string,SC % SPLIT=|,AL IAO:0000115@en,>AI oboInOwl:hasDbXref SPLIT=|,AL rdfs:comment@en,C 'has role' some % SPLIT=|,C 'has quality' some % SPLIT=|,,AL oboInOwl:hasRelatedSynonym@en SPLIT=|,AL oboInOwl:hasExactSynonym@en SPLIT=|
 CDNO:0000001,dietary chemical component,BFO:0000040,"A material entity that is ingested and contributes to survival, growth and development",,,,,2,,
 CHEBI:15377,water,dietary chemical component,,,,,,3,,
 CDNO:0000002,dry plant matter,dietary chemical component,Material which remains after the removal of water from plant matter.,,,,,4,,dry matter

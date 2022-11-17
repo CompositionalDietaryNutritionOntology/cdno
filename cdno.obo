@@ -1,10 +1,13 @@
 format-version: 1.2
-data-version: releases/2022-11-16
+data-version: releases/2022-11-17
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
 subsetdef: attribute_slim ""
+subsetdef: cell_quality ""
 subsetdef: EnvO-Lite-GSC ""
+subsetdef: gocheck_do_not_annotate ""
+subsetdef: gocheck_do_not_manually_annotate ""
 subsetdef: goslim_agr ""
 subsetdef: goslim_candida ""
 subsetdef: goslim_chembl ""
@@ -21,6 +24,7 @@ subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+subsetdef: mpath_slim ""
 subsetdef: prokaryote_subset ""
 subsetdef: reference ""
 subsetdef: relational_slim ""
@@ -28,6 +32,8 @@ subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 subsetdef: scalar_slim ""
 subsetdef: TraitNet ""
+subsetdef: ubprop:upper_level ""
+subsetdef: value_slim ""
 ontology: cdno
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Compositional Dietary Nutrition Ontology" xsd:string
@@ -207,7 +213,7 @@ is_a: CDNO:0000012 ! trace element
 
 [Term]
 id: CDNO:0000028
-name: dietary molybdenum
+name: dietary molybdenum 
 def: "Molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts" [https://doi.org/10.1016/j.jnutbio.2003.10.003]
 is_a: CDNO:0000012 ! trace element
 
@@ -8537,6 +8543,7 @@ is_a: BFO:0000023 ! role
 [Term]
 id: CHEBI:10086
 name: Yamogenin
+name: Yamogenin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Yamogenin" EXACT [KEGG_COMPOUND]
@@ -8555,6 +8562,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@H]1[C@H]2[C@H](
 [Term]
 id: CHEBI:10136
 name: gingerol
+name: gingerol 
 namespace: chebi_ontology
 def: "A beta-hydroxy ketone that is 5-hydroxydecan-3-one substituted by a 4-hydroxy-3-methoxyphenyl moiety at position 1; believed to inhibit adipogenesis. It is a constituent of fresh ginger." []
 subset: 3_STAR
@@ -8667,6 +8675,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "(C12H17O12S)n" xsd
 [Term]
 id: CHEBI:10607
 name: n-propyl gallate
+name: n-propyl gallate 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "n-Propyl gallate" EXACT [KEGG_COMPOUND]
@@ -8771,6 +8780,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "N[C@@H](COP(O)(=O)O
 [Term]
 id: CHEBI:123
 name: (-)-Variabilin
+name: (-)-Variabilin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "(-)-Variabilin" EXACT [KEGG_COMPOUND]
@@ -8881,7 +8891,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C1=CC(=C(C=C1C2=C(C
 [Term]
 id: CHEBI:131499
 name: quercetin 7,4'-di-O-beta-D-glucoside
-name: quercetin 7,4'-di-O-β-D-glucoside
+name: quercetin 7,4'-di-O-β-D-glucoside 
 namespace: chebi_ontology
 def: "A quercetin O-glucoside that is quercetin with two beta-D-glucosyl residues attached at positions 7 and 4'." []
 subset: 3_STAR
@@ -8917,7 +8927,7 @@ synonym: "docosa-7,10,13,16-tetraenoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "docosatetraenoic acid" RELATED []
 xref: Chemspider:1955
 xref: Reaxys:1914610 {source="Reaxys"}
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C22H36O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C22H36O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h6-7,9-10,12-13,15-16H,2-5,8,11,14,17-21H2,1H3,(H,23,24)" xsd:string
@@ -9219,6 +9229,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O1C=2C(=C(O)C(OC)=C
 [Term]
 id: CHEBI:1387
 name: 3,4-dihydroxyphenylethyleneglycol
+name: 3,4-dihydroxyphenylethyleneglycol 
 namespace: chebi_ontology
 def: "A tetrol composed of ethyleneglycol having a 3,4-dihydroxyphenyl group at the 1-position." []
 subset: 3_STAR
@@ -9426,6 +9437,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C([C@]1([C@@]2(
 [Term]
 id: CHEBI:145018
 name: rebaudioside E
+name: rebaudioside E 
 namespace: chebi_ontology
 def: "A rebaudioside that is stevioside in which the hydroxy group at position 2 of the glucosyl ester moiety has been converted into the corresponding beta-D-glucoside." []
 subset: 3_STAR
@@ -9452,6 +9464,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O([C@@H]1O[C@@H]([C
 [Term]
 id: CHEBI:145022
 name: rebaudioside D
+name: rebaudioside D 
 namespace: chebi_ontology
 def: "A rebaudioside that is rebaudioside A in which the hydroxy group at position 2 of the beta-D-glucosyl ester moiety has been converted to the corresponding beta-D-glucoside. Found in minute quantities in the leaves of Stevia rebaudiana." []
 subset: 3_STAR
@@ -9489,6 +9502,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@]123[C@]([C@]4([
 [Term]
 id: CHEBI:145027
 name: steviol glycoside
+name: steviol glycoside 
 namespace: chebi_ontology
 def: "A diterpene glycoside derived from steviol by formal esterification of the carboxy group with glucose (or a glucose derivative) and glycosylation of the tertiary hydroxy group with combinations of glucose and rhamnose to give the corresponding glycosides." []
 subset: 3_STAR
@@ -9509,6 +9523,7 @@ is_a: CHEBI:23849 ! diterpenoid
 [Term]
 id: CHEBI:145829
 name: trilobatin
+name: trilobatin 
 namespace: chebi_ontology
 def: "An aryl beta-D-glucoside that is phloretin attached to a beta-D-glucopyranosyl residue at position 4' via a glycosidic linkage. It is isolated from the leaves of the Chinese sweet tea Lithocarpus polystachyus and exhibits significant anti-hyperglycemic, anti-oxidative and anti-inflammatory properties." []
 subset: 3_STAR
@@ -9699,6 +9714,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "344.13186
 [Term]
 id: CHEBI:15035
 name: retinal
+name: retinal 
 namespace: chebi_ontology
 def: "An enal that consists of 3,7-dimethyl-9-nona-2,4,6,8-tetraenal (double bond geometry unspecified) carrying a 2,6,6-trimethylcyclohex-1-en-1-yl group at the 9-position." []
 subset: 3_STAR
@@ -9969,6 +9985,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]O[H]" xsd:string
 [Term]
 id: CHEBI:15396
 name: (R)-camphor
+name: (R)-camphor 
 namespace: chebi_ontology
 alt_id: CHEBI:10758
 alt_id: CHEBI:16
@@ -10086,6 +10103,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=C)[C@H]1CC=C(C)
 [Term]
 id: CHEBI:15420
 name: perillyl alcohol
+name: perillyl alcohol 
 namespace: chebi_ontology
 alt_id: CHEBI:14772
 alt_id: CHEBI:18496
@@ -10696,7 +10714,7 @@ xref: PMID:25584012 {source="Europe PMC"}
 xref: PMID:2820055 {source="Europe PMC"}
 xref: Reaxys:1913991 {source="Reaxys"}
 xref: Wikipedia:Arachidonic_acid
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C20H32O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C20H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h6-7,9-10,12-13,15-16H,2-5,8,11,14,17-19H2,1H3,(H,21,22)/b7-6-,10-9-,13-12-,16-15-" xsd:string
@@ -11661,6 +11679,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc(O)cc(O)c1" xs
 [Term]
 id: CHEBI:16226
 name: limonin
+name: limonin 
 namespace: chebi_ontology
 alt_id: CHEBI:14509
 alt_id: CHEBI:14511
@@ -11887,6 +11906,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(C(O)=O)c1ccc(O)c
 [Term]
 id: CHEBI:16433
 name: trans-caffeic acid
+name: trans-caffeic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:11691
 alt_id: CHEBI:11692
@@ -11999,6 +12019,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC1(C)[C@@H]2CC[C@@
 [Term]
 id: CHEBI:16514
 name: 4',5,7-trihydroxy-3'-methoxyflavone
+name: 4',5,7-trihydroxy-3'-methoxyflavone 
 namespace: chebi_ontology
 alt_id: CHEBI:12083
 alt_id: CHEBI:2006
@@ -12039,6 +12060,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(ccc1O)-c1cc(
 [Term]
 id: CHEBI:165217
 name: 2,4,6-Trihydroxybenzoic acid
+name: 2,4,6-Trihydroxybenzoic acid 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "2,4,6-trihydroxybenzoic acid" EXACT IUPAC_NAME [SUBMITTER]
@@ -12057,6 +12079,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1=C(C(O)=CC(O)=C1
 [Term]
 id: CHEBI:16547
 name: coniferyl aldehyde
+name: coniferyl aldehyde 
 namespace: chebi_ontology
 alt_id: CHEBI:14018
 alt_id: CHEBI:23372
@@ -12596,6 +12619,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=C1O[C@H]2[C@@H]3O
 [Term]
 id: CHEBI:167696
 name: Punicalin
+name: Punicalin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "3,4,5,11,12,13,21,22,23,26,27,38,39-tridecahydroxy-9,14,17,29,36-pentaoxaoctacyclo[29.8.0.02,7.010,15.019,24.025,34.028,33.032,37]nonatriaconta-1(39),2,4,6,19,21,23,25,27,31,33,37-dodecaene-8,18,30,35-tetrone" EXACT IUPAC_NAME [SUBMITTER]
@@ -12612,6 +12636,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=C1O[C@H]2[C@H](O)
 [Term]
 id: CHEBI:16778
 name: apigenin 7-O-beta-D-glucoside
+name: apigenin 7-O-beta-D-glucoside 
 namespace: chebi_ontology
 alt_id: CHEBI:12252
 alt_id: CHEBI:20780
@@ -13040,6 +13065,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)C(O)=O" xsd:s
 [Term]
 id: CHEBI:16997
 name: propane-1,2-diol
+name: propane-1,2-diol 
 namespace: chebi_ontology
 alt_id: CHEBI:14899
 alt_id: CHEBI:8469
@@ -13495,6 +13521,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@H](OC[C
 [Term]
 id: CHEBI:17189
 name: 2,5-dihydroxybenzoic acid
+name: 2,5-dihydroxybenzoic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:11451
 alt_id: CHEBI:19381
@@ -13537,6 +13564,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)c1cc(O)ccc1O"
 [Term]
 id: CHEBI:17219
 name: limonene-1,2-diol
+name: limonene-1,2-diol 
 namespace: chebi_ontology
 alt_id: CHEBI:14507
 alt_id: CHEBI:6464
@@ -13566,6 +13594,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=C)C1CCC(C)(O)C(
 [Term]
 id: CHEBI:17226
 name: rosmarinic acid
+name: rosmarinic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:15055
 alt_id: CHEBI:26582
@@ -13630,6 +13659,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "180.06339
 [Term]
 id: CHEBI:17254
 name: 4-methylcatechol
+name: 4-methylcatechol 
 namespace: chebi_ontology
 alt_id: CHEBI:12025
 alt_id: CHEBI:1897
@@ -13901,6 +13931,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H2O(C6H8O6)n" xsd:
 [Term]
 id: CHEBI:17327
 name: phytol
+name: phytol 
 namespace: chebi_ontology
 alt_id: CHEBI:14836
 alt_id: CHEBI:26121
@@ -14081,7 +14112,7 @@ xref: PMID:24081493 {source="Europe PMC"}
 xref: PMID:6205897 {source="Europe PMC"}
 xref: Reaxys:1727101 {source="Reaxys"}
 xref: Wikipedia:Linoleic_acid
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C18H32O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/b7-6-,10-9-" xsd:string
@@ -14123,6 +14154,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]S([O-])=O" xsd:
 [Term]
 id: CHEBI:17395
 name: cis-caffeic acid
+name: cis-caffeic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:13929
 alt_id: CHEBI:19880
@@ -14223,6 +14255,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OP(O)(=O)O[C@@H]1[C
 [Term]
 id: CHEBI:17407
 name: 2-trans,6-trans-farnesyl diphosphate
+name: 2-trans,6-trans-farnesyl diphosphate 
 namespace: chebi_ontology
 alt_id: CHEBI:10700
 alt_id: CHEBI:11488
@@ -14356,6 +14389,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)Cc1cccc(O)c1"
 [Term]
 id: CHEBI:17447
 name: geraniol
+name: geraniol 
 namespace: chebi_ontology
 alt_id: CHEBI:14297
 alt_id: CHEBI:24219
@@ -14587,6 +14621,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "(C6H8O6)n.H2O" xsd
 [Term]
 id: CHEBI:17556
 name: phaseollidin
+name: phaseollidin 
 namespace: chebi_ontology
 alt_id: CHEBI:14774
 alt_id: CHEBI:25948
@@ -14621,6 +14656,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12COc3cc(O)
 [Term]
 id: CHEBI:17558
 name: quercitrin
+name: quercitrin 
 namespace: chebi_ontology
 alt_id: CHEBI:132834
 alt_id: CHEBI:14996
@@ -14676,6 +14712,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](Oc2
 [Term]
 id: CHEBI:17574
 name: biochanin A
+name: biochanin A 
 namespace: chebi_ontology
 alt_id: CHEBI:13903
 alt_id: CHEBI:22876
@@ -14975,6 +15012,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(\\C=C\\C(O)=
 [Term]
 id: CHEBI:17678
 name: 2'-hydroxyformononetin
+name: 2'-hydroxyformononetin 
 namespace: chebi_ontology
 alt_id: CHEBI:11401
 alt_id: CHEBI:19268
@@ -15344,6 +15382,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OCC(O)CO" xsd:strin
 [Term]
 id: CHEBI:17793
 name: calycosin
+name: calycosin 
 namespace: chebi_ontology
 alt_id: CHEBI:13938
 alt_id: CHEBI:22989
@@ -15416,6 +15455,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(CO)C(O)=O" xsd:s
 [Term]
 id: CHEBI:17846
 name: (S)-naringenin
+name: (S)-naringenin 
 namespace: chebi_ontology
 alt_id: CHEBI:14640
 alt_id: CHEBI:25484
@@ -15538,6 +15578,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Cl[H]" xsd:string
 [Term]
 id: CHEBI:17898
 name: all-trans-retinal
+name: all-trans-retinal 
 namespace: chebi_ontology
 alt_id: CHEBI:12776
 alt_id: CHEBI:22348
@@ -15669,6 +15710,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@]2([
 [Term]
 id: CHEBI:17948
 name: (+)-taxifolin
+name: (+)-taxifolin 
 namespace: chebi_ontology
 alt_id: CHEBI:15206
 alt_id: CHEBI:23764
@@ -15707,6 +15749,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@@H]1[C@H](Oc2cc
 [Term]
 id: CHEBI:17965
 name: isoorientin
+name: isoorientin 
 namespace: chebi_ontology
 alt_id: CHEBI:14471
 alt_id: CHEBI:24905
@@ -15880,6 +15923,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "194.04265
 [Term]
 id: CHEBI:18026
 name: 2,3-dihydroxybenzoic acid
+name: 2,3-dihydroxybenzoic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:19320
 alt_id: CHEBI:41901
@@ -16048,6 +16092,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)CCC[C@@H](C)CC
 [Term]
 id: CHEBI:18088
 name: formononetin
+name: formononetin 
 namespace: chebi_ontology
 alt_id: CHEBI:14279
 alt_id: CHEBI:18194
@@ -16179,6 +16224,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)\\C=C\\c1cccc
 [Term]
 id: CHEBI:18128
 name: luteolin 7-O-beta-D-glucosiduronic acid
+name: luteolin 7-O-beta-D-glucosiduronic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:14538
 alt_id: CHEBI:14540
@@ -16507,6 +16553,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O1C(OCC2OC(O)C(O)C(
 [Term]
 id: CHEBI:18211
 name: citrulline
+name: citrulline 
 namespace: chebi_ontology
 alt_id: CHEBI:14002
 alt_id: CHEBI:3730
@@ -16583,6 +16630,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "150.05282
 [Term]
 id: CHEBI:18224
 name: isoeugenol
+name: isoeugenol 
 namespace: chebi_ontology
 alt_id: CHEBI:14466
 alt_id: CHEBI:6007
@@ -16746,6 +16794,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "NCCc1ccc(O)c(O)c1" 
 [Term]
 id: CHEBI:18257
 name: ornithine
+name: ornithine 
 namespace: chebi_ontology
 alt_id: CHEBI:7784
 def: "An alpha-amino acid that is pentanoic acid bearing two amino substituents at positions 2 and 5." []
@@ -17134,6 +17183,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@H](OC[C
 [Term]
 id: CHEBI:18404
 name: 3-methylcatechol
+name: 3-methylcatechol 
 namespace: chebi_ontology
 alt_id: CHEBI:11857
 alt_id: CHEBI:20127
@@ -17899,7 +17949,7 @@ is_a: CHEBI:36080 ! protein
 
 [Term]
 id: CHEBI:192499
-name: anthoxanthin
+name: anthoxanthin 
 is_a: CHEBI:47916 ! flavonoid
 
 [Term]
@@ -17909,17 +17959,17 @@ is_a: CHEBI:38672 ! flavans
 
 [Term]
 id: CHEBI:192501
-name: sanguiin H6
+name: sanguiin H6 
 is_a: CHEBI:23909 ! ellagitannin
 
 [Term]
 id: CHEBI:192502
-name: lambertianin C
+name: lambertianin C 
 is_a: CHEBI:23909 ! ellagitannin
 
 [Term]
 id: CHEBI:192503
-name: arecatannin a2
+name: arecatannin a2 
 is_a: CHEBI:166895 ! procyanidin
 
 [Term]
@@ -18208,6 +18258,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@H]1(O[C@H]([C@H
 [Term]
 id: CHEBI:23042
 name: carotene
+name: carotene 
 namespace: chebi_ontology
 def: "Hydrocarbon carotenoids." []
 subset: 3_STAR
@@ -18354,6 +18405,7 @@ is_a: CHEBI:37163 ! glucan
 [Term]
 id: CHEBI:2366
 name: absinthin
+name: absinthin 
 namespace: chebi_ontology
 def: "A dimeric sesquiterpene lactone that is produced by the plant Artemisia absinthium (Wormwood). The bitter tasting constituent of Absinthe." []
 subset: 3_STAR
@@ -18457,6 +18509,7 @@ is_a: CHEBI:50753 ! isoflavonoid
 [Term]
 id: CHEBI:24279
 name: glucosinolate
+name: glucosinolate 
 namespace: chebi_ontology
 def: "Water-soluble anionic substituted thioglucosides. Glucosinolates have a central C atom which is bonded via an S atom to a glycone group and via an N atom to a sulfonated oxime group, and which also carries a side-group. The side-chain and sulfate group have an anti stereochemical configuration across the C=N double bond." []
 subset: 3_STAR
@@ -18534,6 +18587,7 @@ is_a: CHEBI:26004 ! phenylpropanoid
 [Term]
 id: CHEBI:24697
 name: hydroxyflavanone
+name: hydroxyflavanone 
 namespace: chebi_ontology
 def: "A member of the class of flavanones that consists of flavanone with one or more hydroxy substituents." []
 subset: 3_STAR
@@ -18544,6 +18598,7 @@ is_a: CHEBI:5070 ! flavanone
 [Term]
 id: CHEBI:24698
 name: hydroxyflavone
+name: hydroxyflavone 
 namespace: chebi_ontology
 def: "Any flavone in which one or more ring hydrogens are replaced by hydroxy groups." []
 subset: 3_STAR
@@ -18789,6 +18844,7 @@ is_a: CHEBI:35366 ! fatty acid
 [Term]
 id: CHEBI:25459
 name: myrtenic acid
+name: myrtenic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:29635
 def: "A monoterpenoid that is 6,6-dimethylbicyclo[3.1.1]hept-2-ene substituted by a carboxy group at position 2." []
@@ -19189,6 +19245,7 @@ is_a: CHEBI:26873 ! terpenoid
 [Term]
 id: CHEBI:26660
 name: sesterterpenoid
+name: sesterterpenoid 
 namespace: chebi_ontology
 alt_id: CHEBI:53180
 def: "Any terpenoid derived from a sesterterpene. The term includes compounds in which the C25 skeleton of the parent sesterterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups). Sometimes sesterterpenoids are erroneously referred to as sesterpenoids." []
@@ -19554,6 +19611,7 @@ is_a: CHEBI:23044 ! carotenoid
 [Term]
 id: CHEBI:27408
 name: avenacin A-1
+name: avenacin A-1 
 namespace: chebi_ontology
 alt_id: CHEBI:22677
 alt_id: CHEBI:2935
@@ -19787,6 +19845,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](Oc2
 [Term]
 id: CHEBI:27479
 name: 2'-hydroxydaidzein
+name: 2'-hydroxydaidzein 
 namespace: chebi_ontology
 alt_id: CHEBI:11399
 alt_id: CHEBI:19266
@@ -19821,6 +19880,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc(c(O)c1)-c1co
 [Term]
 id: CHEBI:27510
 name: umbelliferone
+name: umbelliferone 
 namespace: chebi_ontology
 alt_id: CHEBI:27187
 alt_id: CHEBI:27188
@@ -20009,6 +20069,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(Cc1c[nH]cn1)C(O)
 [Term]
 id: CHEBI:27587
 name: garbanzol
+name: garbanzol 
 namespace: chebi_ontology
 alt_id: CHEBI:24200
 alt_id: CHEBI:5275
@@ -20107,6 +20168,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=O)c1ccccc1" xsd
 [Term]
 id: CHEBI:27679
 name: betagarin
+name: betagarin 
 namespace: chebi_ontology
 alt_id: CHEBI:22857
 alt_id: CHEBI:3072
@@ -20316,6 +20378,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Cn1cnc2n(C)c(=O)n(C
 [Term]
 id: CHEBI:27774
 name: lubimin
+name: lubimin 
 namespace: chebi_ontology
 alt_id: CHEBI:25077
 alt_id: CHEBI:6551
@@ -20467,6 +20530,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc(O)c2cc(O)c([o
 [Term]
 id: CHEBI:27867
 name: antheraxanthin
+name: antheraxanthin 
 namespace: chebi_ontology
 alt_id: CHEBI:22566
 alt_id: CHEBI:2749
@@ -20501,6 +20565,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(\\C=C\\C=C(C)\\C
 [Term]
 id: CHEBI:27881
 name: resveratrol
+name: resveratrol 
 namespace: chebi_ontology
 alt_id: CHEBI:11685
 alt_id: CHEBI:1366
@@ -20671,6 +20736,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(OC(=O)C(=
 [Term]
 id: CHEBI:27961
 name: 1,8-cineole
+name: 1,8-cineole 
 namespace: chebi_ontology
 alt_id: CHEBI:18956
 alt_id: CHEBI:23242
@@ -20713,6 +20779,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@]12CC[C@@H](CC
 [Term]
 id: CHEBI:27994
 name: luteolin 7-O-beta-D-glucoside
+name: luteolin 7-O-beta-D-glucoside 
 namespace: chebi_ontology
 alt_id: CHEBI:12251
 alt_id: CHEBI:20779
@@ -20985,6 +21052,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1=CC=C(C=C1)C1=CO
 [Term]
 id: CHEBI:28093
 name: borneol
+name: borneol 
 namespace: chebi_ontology
 alt_id: CHEBI:22913
 alt_id: CHEBI:3150
@@ -21099,6 +21167,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc(O)c2C(=O)C[C@
 [Term]
 id: CHEBI:28177
 name: theophylline
+name: theophylline 
 namespace: chebi_ontology
 alt_id: CHEBI:26940
 alt_id: CHEBI:45950
@@ -21207,6 +21276,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Cn1c2nc[nH]c2c(=O)n
 [Term]
 id: CHEBI:28184
 name: 7-ethoxycoumarin
+name: 7-ethoxycoumarin 
 namespace: chebi_ontology
 alt_id: CHEBI:20789
 alt_id: CHEBI:2263
@@ -21429,12 +21499,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CS(C)=O" xsd:string
 
 [Term]
 id: CHEBI:28283)
-name: capsidiol
+name: capsidiol 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:28299
 name: quercetin 3-O-beta-D-glucofuranoside
+name: quercetin 3-O-beta-D-glucofuranoside 
 namespace: chebi_ontology
 alt_id: CHEBI:26478
 alt_id: CHEBI:8702
@@ -21798,6 +21869,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc(cc1)-c1oc2cc
 [Term]
 id: CHEBI:28510
 name: pelargonidin chloride
+name: pelargonidin chloride 
 namespace: chebi_ontology
 alt_id: CHEBI:7950
 def: "An anthocyanidin chloride that has pelargonidin as the cationic counterpart." []
@@ -21829,6 +21901,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Cl-].Oc1ccc(cc1)-c
 [Term]
 id: CHEBI:28527
 name: rutin
+name: rutin 
 namespace: chebi_ontology
 alt_id: CHEBI:26585
 alt_id: CHEBI:45398
@@ -21948,7 +22021,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccccc1O" xsd:st
 
 [Term]
 id: CHEBI:28600)
-name: farnesol
+name: farnesol 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
@@ -22003,6 +22076,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@@]2(
 [Term]
 id: CHEBI:28620
 name: licoisoflavone A
+name: licoisoflavone A 
 namespace: chebi_ontology
 alt_id: CHEBI:25034
 alt_id: CHEBI:6455
@@ -22058,6 +22132,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(CC[C@@]2(
 [Term]
 id: CHEBI:28631
 name: 3-phenylpropionic acid
+name: 3-phenylpropionic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:26002
 alt_id: CHEBI:26005
@@ -22109,6 +22184,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)CCc1ccccc1" x
 [Term]
 id: CHEBI:28647
 name: 3-O-methylgallic acid
+name: 3-O-methylgallic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:1615
 def: "A member of the class of benzoic acids that is gallic acid in which the phenolic hydroxy group at position 3 is converted into the corresponding methyl ether." []
@@ -22173,7 +22249,7 @@ xref: PMID:24435467 {source="Europe PMC"}
 xref: PMID:9732298 {source="Europe PMC"}
 xref: Reaxys:1712253 {source="Reaxys"}
 xref: Wikipedia:Gamma-Linolenic_acid
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C18H30O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10,12-13H,2-5,8,11,14-17H2,1H3,(H,19,20)/b7-6-,10-9-,13-12-" xsd:string
@@ -22388,6 +22464,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1O)[C@@H]
 [Term]
 id: CHEBI:28777
 name: liquiritigenin
+name: liquiritigenin 
 namespace: chebi_ontology
 alt_id: CHEBI:25065
 alt_id: CHEBI:42001
@@ -22516,6 +22593,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCCCCC\\C=C/CCCCC
 [Term]
 id: CHEBI:28794
 name: coumarin
+name: coumarin 
 namespace: chebi_ontology
 alt_id: CHEBI:101256
 alt_id: CHEBI:23402
@@ -22607,6 +22685,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "(C6H10O5)n" xsd:st
 [Term]
 id: CHEBI:28802
 name: flavonols
+name: flavonols 
 namespace: chebi_ontology
 alt_id: CHEBI:13639
 alt_id: CHEBI:24052
@@ -22753,6 +22832,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](O[C
 [Term]
 id: CHEBI:28821
 name: piperine
+name: piperine 
 namespace: chebi_ontology
 alt_id: CHEBI:12539
 alt_id: CHEBI:21491
@@ -23040,6 +23120,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(CCCCCCCCCC)CCCCCC
 [Term]
 id: CHEBI:28853
 name: isopimpinellin
+name: isopimpinellin 
 namespace: chebi_ontology
 alt_id: CHEBI:23815
 alt_id: CHEBI:6040
@@ -24041,6 +24122,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc(cc1)-c1cc(=O
 [Term]
 id: CHEBI:2961
 name: Azukisaponin III
+name: Azukisaponin III 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Azukisaponin III" EXACT [KEGG_COMPOUND]
@@ -24173,6 +24255,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[B+3]" xsd:string
 [Term]
 id: CHEBI:30200
 name: kaempferol 3-O-beta-D-glucoside
+name: kaempferol 3-O-beta-D-glucoside 
 namespace: chebi_ontology
 alt_id: CHEBI:132836
 alt_id: CHEBI:31745
@@ -24395,6 +24478,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)Cc1ccccc1" xs
 [Term]
 id: CHEBI:30763
 name: 4-hydroxybenzoic acid
+name: 4-hydroxybenzoic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:1858
 alt_id: CHEBI:20398
@@ -24437,6 +24521,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)c1ccc(O)cc1" 
 [Term]
 id: CHEBI:30764
 name: 3-hydroxybenzoic acid
+name: 3-hydroxybenzoic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:1538
 alt_id: CHEBI:20064
@@ -24793,6 +24878,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(ccc1O)C(O)=O
 [Term]
 id: CHEBI:30853
 name: glycyrrhetinic acid
+name: glycyrrhetinic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:24417
 alt_id: CHEBI:5507
@@ -24829,6 +24915,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12C[C@](C)(
 [Term]
 id: CHEBI:3087
 name: betulinic acid
+name: betulinic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:65491
 def: "A pentacyclic triterpenoid that is lupane having a double bond at position 20(29) as well as 3beta-hydroxy and 28-carboxy substituents. It is found in the bark and other plant parts of several species of plants including Syzygium claviflorum. It exhibits anti-HIV, antimalarial, antineoplastic and anti-inflammatory properties." []
@@ -24956,6 +25043,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@H]1Cc2c(O)cc(O)
 [Term]
 id: CHEBI:310312
 name: isoliquiritigenin
+name: isoliquiritigenin 
 namespace: chebi_ontology
 alt_id: CHEBI:43173
 alt_id: CHEBI:6022
@@ -25241,7 +25329,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@]12([C@]3([C@@]
 [Term]
 id: CHEBI:31742
 name: kaempferol 3-O-beta-D-galactoside
-name: kaempferol 3-O-β-D-galactoside
+name: kaempferol 3-O-β-D-galactoside 
 namespace: chebi_ontology
 def: "A beta-D-galactoside compound with a 4',5,7-trihydroxychromen-3-yl group at the anomeric position." []
 subset: 3_STAR
@@ -25306,6 +25394,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](O[C
 [Term]
 id: CHEBI:31788
 name: luteolin 7-O-neohesperidoside
+name: luteolin 7-O-neohesperidoside 
 namespace: chebi_ontology
 def: "A disaccharide derivative that is luteolin  substituted by a 2-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage." []
 subset: 3_STAR
@@ -25823,6 +25912,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1=CC(O)=C(C=C1)C(
 [Term]
 id: CHEBI:32374
 name: trans-4-coumaric acid
+name: trans-4-coumaric acid 
 namespace: chebi_ontology
 alt_id: CHEBI:1812
 alt_id: CHEBI:27061
@@ -25946,6 +26036,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(=O)(CCCCCCCCC/C=C
 [Term]
 id: CHEBI:32446
 name: all-trans-neoxanthin
+name: all-trans-neoxanthin 
 namespace: chebi_ontology
 alt_id: CHEBI:22344
 alt_id: CHEBI:44249
@@ -26717,6 +26808,7 @@ is_a: CHEBI:33853 ! phenols
 [Term]
 id: CHEBI:3362
 name: canthaxanthin
+name: canthaxanthin 
 namespace: chebi_ontology
 def: "A carotenone that consists of beta,beta-carotene bearing two oxo substituents at positions 4 and 4'." []
 subset: 3_STAR
@@ -26803,6 +26895,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(CNC(=O)CCCC\
 [Term]
 id: CHEBI:3375
 name: capsanthin
+name: capsanthin 
 namespace: chebi_ontology
 subset: 3_STAR
 synonym: "(3R,3'S,5'R)-3,3'-dihydroxy-beta,kappa-caroten-6'-one" EXACT IUPAC_NAME [IUPAC]
@@ -26832,6 +26925,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(\\C=C\\C=C(C)\\C
 [Term]
 id: CHEBI:3378
 name: capsorubin
+name: capsorubin 
 namespace: chebi_ontology
 subset: 3_STAR
 synonym: "(3S,3'S,5R,5'R)-3,3'-dihydroxy-kappa,kappa-carotene-6,6'-dione" EXACT IUPAC_NAME [IUPAC]
@@ -26949,6 +27043,7 @@ is_a: CHEBI:35381 ! monosaccharide
 [Term]
 id: CHEBI:3429
 name: Carnosol
+name: Carnosol 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Carnosol" EXACT [KEGG_COMPOUND]
@@ -26989,6 +27084,7 @@ is_a: CDNO:0000031 ! gum
 [Term]
 id: CHEBI:3461
 name: Casuarictin
+name: Casuarictin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Casuarictin" EXACT [KEGG_COMPOUND]
@@ -27007,6 +27103,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc(cc(O)c1O)C(=O
 [Term]
 id: CHEBI:3462
 name: Casuarinin
+name: Casuarinin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Casuarinin" EXACT [KEGG_COMPOUND]
@@ -27025,6 +27122,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@@H]1[C@@H]2OC(=
 [Term]
 id: CHEBI:34741
 name: equol
+name: equol 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "(-)-(S)-Equol" RELATED [HMDB]
@@ -27197,6 +27295,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "(C6H10O5)n.C12H22O
 [Term]
 id: CHEBI:35288
 name: all-trans-violaxanthin
+name: all-trans-violaxanthin 
 namespace: chebi_ontology
 alt_id: CHEBI:22351
 alt_id: CHEBI:46568
@@ -27326,6 +27425,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[As+3]" xsd:string
 [Term]
 id: CHEBI:3584
 name: Chebulinic acid
+name: Chebulinic acid 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Chebulinic acid" EXACT [KEGG_COMPOUND]
@@ -27469,6 +27569,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]C(CCCCCC)=C([H])
 [Term]
 id: CHEBI:36027
 name: stilbenol
+name: stilbenol 
 namespace: chebi_ontology
 def: "Any  stilbenoid with at least one phenolic group." []
 subset: 3_STAR
@@ -27478,6 +27579,7 @@ is_a: CHEBI:33853 ! phenols
 [Term]
 id: CHEBI:36062
 name: 3,4-dihydroxybenzoic acid
+name: 3,4-dihydroxybenzoic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:1380
 alt_id: CHEBI:16798
@@ -28011,6 +28113,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C4H6N2O3R2(C7H9N2O
 [Term]
 id: CHEBI:38200
 name: astilbin
+name: astilbin 
 namespace: chebi_ontology
 def: "A flavanone glycoside that is (+)-taxifolin substituted by a alpha-L-rhamnosyl moiety at position 3 via a glycosidic linkage." []
 subset: 3_STAR
@@ -28039,6 +28142,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](O[C
 [Term]
 id: CHEBI:38672
 name: flavans
+name: flavans 
 namespace: chebi_ontology
 def: "Any flavonoid with a 3,4-dihydro-2-aryl-2H-1-benzopyran skeleton and its substituted derivatives." []
 subset: 3_STAR
@@ -28124,6 +28228,7 @@ is_a: CDNO:0000020 ! dietary sodium
 [Term]
 id: CHEBI:38701
 name: delphinidin chloride
+name: delphinidin chloride 
 namespace: chebi_ontology
 def: "An anthocyanidin chloride that has delphinidin as the cationic counterpart." []
 subset: 3_STAR
@@ -28172,6 +28277,7 @@ is_a: CHEBI:38757 ! isoflavones
 [Term]
 id: CHEBI:38756
 name: methoxyisoflavone
+name: methoxyisoflavone 
 namespace: chebi_ontology
 def: "Members of the class of isoflavones with at least one methoxy substituent." []
 subset: 3_STAR
@@ -28234,6 +28340,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc2c(c1)oc1c3cc
 [Term]
 id: CHEBI:3918
 name: crocetin
+name: crocetin 
 namespace: chebi_ontology
 def: "A 20-carbon dicarboxylic acid which is a diterpenoid and natural carotenoid. Found in the crocus flower, it has been administered as an anti-fatigue dietary supplement." []
 subset: 3_STAR
@@ -28277,6 +28384,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(\\C=C\\C=C(/C)C(
 [Term]
 id: CHEBI:3942
 name: Cucurbitacin C
+name: Cucurbitacin C 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Cucurbitacin C" EXACT [KEGG_COMPOUND]
@@ -28374,6 +28482,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COC1=C(O)C=CC(\\C=C
 [Term]
 id: CHEBI:3978
 name: cyanin
+name: cyanin 
 namespace: chebi_ontology
 def: "An anthocyanin cation that is cyanidin(1+) carrying two beta-D-glucosyl residues at positions 3 and 5." []
 subset: 3_STAR
@@ -28458,6 +28567,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CO[C@H](c3
 [Term]
 id: CHEBI:4019
 name: Cyclokievitone
+name: Cyclokievitone 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Cyclokievitone" EXACT [KEGG_COMPOUND]
@@ -28476,12 +28586,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC1(C)Oc2cc(O)c3C(=
 
 [Term]
 id: CHEBI:4038)
-name: Cynaropicrin
+name: Cynaropicrin 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:40968
 name: astaxanthin
+name: astaxanthin 
 namespace: chebi_ontology
 alt_id: CHEBI:2895
 alt_id: CHEBI:40963
@@ -28535,6 +28646,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(\\C=C\\C=C(C)\\C
 [Term]
 id: CHEBI:41941
 name: (3,4-dihydroxyphenyl)acetic acid
+name: (3,4-dihydroxyphenyl)acetic acid 
 namespace: chebi_ontology
 alt_id: CHEBI:1386
 alt_id: CHEBI:41936
@@ -28944,6 +29056,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCCCCCCCCCCCC(O)=
 [Term]
 id: CHEBI:42567
 name: fisetin
+name: fisetin 
 namespace: chebi_ontology
 alt_id: CHEBI:42562
 alt_id: CHEBI:5064
@@ -29015,6 +29128,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)=CCC\\C(C)=C/C
 [Term]
 id: CHEBI:4308
 name: Dalbergin
+name: Dalbergin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Dalbergin" EXACT [KEGG_COMPOUND]
@@ -29306,6 +29420,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)(CO)[C@@H](O)C
 [Term]
 id: CHEBI:4746
 name: echinenone
+name: echinenone 
 namespace: chebi_ontology
 def: "A  carotenone that is beta-carotene in which the 4 position has undergone formal oxidation to afford the corresponding ketone. Isolated as orange-red crystals, it is widely distributed in marine invertebrates." []
 subset: 3_STAR
@@ -29639,6 +29754,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1=CC(O)=C2C[C@@H]
 [Term]
 id: CHEBI:4853
 name: esculin
+name: esculin 
 namespace: chebi_ontology
 def: "A hydroxycoumarin that is the 6-O-beta-D-glucoside of esculetin." []
 subset: 3_STAR
@@ -29909,6 +30025,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COC1=CC(CC=C)=CC=C1
 [Term]
 id: CHEBI:4932
 name: eupatilin
+name: eupatilin 
 namespace: chebi_ontology
 alt_id: CHEBI:65882
 def: "A trimethoxyflavone that is flavone substituted by hydroxy groups at C-5 and C-7 and methoxy groups at C-6, C-3' and C-4' respectively. Isolated from Citrus reticulata and Salvia tomentosa, it exhibits anti-inflammatory, anti-ulcer and antineoplastic activities." []
@@ -30301,6 +30418,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C=CC=C(C)C=CC1=C
 [Term]
 id: CHEBI:50371
 name: (R)-rosmarinic acid
+name: (R)-rosmarinic acid 
 namespace: chebi_ontology
 def: "A stereoisomer of rosmarinic acid having (R)-configuration." []
 subset: 3_STAR
@@ -30350,6 +30468,7 @@ is_a: CDNO:0000019 ! dietary potassium
 [Term]
 id: CHEBI:50399
 name: 3',4',7-trihydroxyisoflavone
+name: 3',4',7-trihydroxyisoflavone 
 namespace: chebi_ontology
 alt_id: CHEBI:33177
 alt_id: CHEBI:34315
@@ -30467,6 +30586,7 @@ is_a: CHEBI:72544 ! flavonoids
 [Term]
 id: CHEBI:5087
 name: Flavoxanthin
+name: Flavoxanthin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Flavoxanthin" EXACT [KEGG_COMPOUND]
@@ -30533,6 +30653,7 @@ is_a: CHEBI:72544 ! flavonoids
 [Term]
 id: CHEBI:5180
 name: Fucofuroeckol B
+name: Fucofuroeckol B 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Fucofuroeckol B" EXACT [KEGG_COMPOUND]
@@ -30550,6 +30671,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc(O)cc(Oc2c(O)c
 [Term]
 id: CHEBI:5186
 name: fucoxanthin
+name: fucoxanthin 
 namespace: chebi_ontology
 alt_id: CHEBI:67925
 def: "An epoxycarotenol that is found in brown seaweed and which exhibits anti-cancer, anti-diabetic, anti-oxidative and neuroprotective properties." []
@@ -30656,6 +30778,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na+].[O-]c1ccccc1"
 [Term]
 id: CHEBI:5262
 name: galangin
+name: galangin 
 namespace: chebi_ontology
 def: "A 7-hydroxyflavonol with additional hydroxy groups at positions 3 and 5 respectively; a growth inhibitor of breast tumor cells." []
 subset: 3_STAR
@@ -30800,6 +30923,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(ccc1O)-c1cc(
 [Term]
 id: CHEBI:5328
 name: Geraniin
+name: Geraniin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Geraniin" EXACT [KEGG_COMPOUND]
@@ -30900,7 +31024,7 @@ xref: PDBeChem:LAX
 xref: PMID:3781468 {source="Europe PMC"}
 xref: PMID:9668087 {source="Europe PMC"}
 xref: Reaxys:1913514 {source="Reaxys"}
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C20H34O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C20H34O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h6-7,9-10,12-13H,2-5,8,11,14-19H2,1H3,(H,21,22)/b7-6-,10-9-,13-12-" xsd:string
@@ -30912,6 +31036,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCC\\C=C/C\\C=C/C
 [Term]
 id: CHEBI:5396
 name: glucoberteroin(1-)
+name: glucoberteroin(1-) 
 namespace: chebi_ontology
 def: "A thia-alkylglucosinolate that has a 5-(methylsulfanyl)pentyl side chain attached to the sulfonated oxime group." []
 subset: 3_STAR
@@ -30932,6 +31057,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:5399
 name: glucocapparin(1-)
+name: glucocapparin(1-) 
 namespace: chebi_ontology
 def: "An alkylglucosinolate that is the conjugate base of glucocapparin." []
 subset: 3_STAR
@@ -30951,6 +31077,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:5402
 name: glucocochlearin(1-)
+name: glucocochlearin(1-) 
 namespace: chebi_ontology
 def: "An alkylglucosinolate that is the conjugate base of glucocochlearin." []
 subset: 3_STAR
@@ -31025,6 +31152,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:5411
 name: gluconapin(1-)
+name: gluconapin(1-) 
 namespace: chebi_ontology
 def: "An alkenylglucosinolate that is the conjugate base of gluconapin." []
 subset: 3_STAR
@@ -31091,6 +31219,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:5414
 name: glucoputranjivin(1-)
+name: glucoputranjivin(1-) 
 namespace: chebi_ontology
 def: "A alkylglucosinolate that is the conjugate base of glucoputranjivin." []
 subset: 3_STAR
@@ -31114,6 +31243,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:5416
 name: glucoraphenin(1-)
+name: glucoraphenin(1-) 
 namespace: chebi_ontology
 def: "A glucosinolate resulting from the removal of the proton from the oxime hydrogen sulfate group of glucoraphenin." []
 subset: 3_STAR
@@ -31137,6 +31267,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:5623
 name: harman
+name: harman 
 namespace: chebi_ontology
 def: "An indole alkaloid fundamental parent with a structure of 9H-beta-carboline carrying a methyl substituent at C-1. It has been isolated from the bark of Sickingia rubra, Symplocus racemosa, Passiflora incarnata, Peganum harmala, Banisteriopsis caapi and Tribulus terrestris, as well as from tobacco smoke. It is a specific, reversible inhibitor of monoamine oxidase A." []
 subset: 3_STAR
@@ -31200,6 +31331,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CNc3nc(N)[
 [Term]
 id: CHEBI:5764
 name: hordenine
+name: hordenine 
 namespace: chebi_ontology
 subset: 3_STAR
 synonym: "4-[2-(Dimethylamino)ethyl]phenol" RELATED [KEGG_COMPOUND]
@@ -31226,6 +31358,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CN(C)CCc1ccc(O)cc1"
 [Term]
 id: CHEBI:5769
 name: humulone
+name: humulone 
 namespace: chebi_ontology
 def: "An optically active cyclic ketone consisting of 3,5,6-trihydroxycyclohexa-2,4-dien-1-one bearing two 3-methylbut-2-en-1-yl substituents at positions 4 and 6 as well as a 3-methylbutanoyl group at the 2-position." []
 subset: 3_STAR
@@ -31265,6 +31398,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)CC(=O)C1=C(O)C
 [Term]
 id: CHEBI:581177
 name: agrimoniin
+name: agrimoniin 
 namespace: chebi_ontology
 alt_id: CHEBI:2517
 alt_id: CHEBI:583079
@@ -31321,6 +31455,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1O)[C@@H]
 [Term]
 id: CHEBI:5920
 name: Ineketone
+name: Ineketone 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Ineketone" EXACT [KEGG_COMPOUND]
@@ -31368,6 +31503,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCCC\\C=C\\CCCCCC
 [Term]
 id: CHEBI:5970
 name: irilone
+name: irilone 
 namespace: chebi_ontology
 def: "A hydroxyisoflavone that is 6,7-methylenedioxyisoflavone substituted by hydroxy groups at positions 5 and 4'." []
 subset: 3_STAR
@@ -31400,6 +31536,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc(cc1)-c1coc2c
 [Term]
 id: CHEBI:5972
 name: Irisolidone
+name: Irisolidone 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Irisolidone" EXACT [KEGG_COMPOUND]
@@ -31419,6 +31556,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1)-c1coc2
 [Term]
 id: CHEBI:5985
 name: Isobetanin
+name: Isobetanin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Isobetanin" EXACT [KEGG_COMPOUND]
@@ -31436,12 +31574,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](Oc2
 
 [Term]
 id: CHEBI:5993)
-name: Isocaryophyllene
+name: Isocaryophyllene 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:59979
 name: 3',5'-di-O-methyltricetin
+name: 3',5'-di-O-methyltricetin 
 namespace: chebi_ontology
 alt_id: CHEBI:9694
 def: "The 3',5'-di-O-methyl ether of tricetin.  Known commonly as tricin, it is a constituent of rice bran and has been found to potently inhibit colon cancer cell growth." []
@@ -31486,6 +31625,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@](CO*)(O*)([H])C
 [Term]
 id: CHEBI:6052
 name: isorhamnetin
+name: isorhamnetin 
 namespace: chebi_ontology
 def: "A monomethoxyflavone that is quercetin in which the hydroxy group at position 3' is replaced by a methoxy group." []
 subset: 3_STAR
@@ -31541,6 +31681,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Se++]" xsd:string
 [Term]
 id: CHEBI:6099
 name: kaempferide
+name: kaempferide 
 namespace: chebi_ontology
 def: "A monomethoxyflavone that is the 4'-O-methyl derivative of kaempferol." []
 subset: 3_STAR
@@ -31808,6 +31949,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[K+].[H]C([O-])=O" 
 [Term]
 id: CHEBI:6357
 name: lactucaxanthin
+name: lactucaxanthin 
 namespace: chebi_ontology
 def: "A tunaxanthin that consists of epsilon,epsilon-carotene bearing hydroxy substituents at positions 3 and 3' (the 3S,3'S,6S,6'S-diastereomer)." []
 subset: 3_STAR
@@ -31877,12 +32019,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](O[C
 
 [Term]
 id: CHEBI:6360)
-name: Lactupicrin
+name: Lactupicrin 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:63798
 name: 3-hydroxy-4-methoxybenzoic acid
+name: 3-hydroxy-4-methoxybenzoic acid 
 namespace: chebi_ontology
 def: "A methoxybenzoic acid that is 4-methoxybenzoic acid bearing a hydroxy substituent at position 3." []
 subset: 3_STAR
@@ -31948,6 +32091,7 @@ is_a: CHEBI:72544 ! flavonoids
 [Term]
 id: CHEBI:64962
 name: glucobrassicin(1-)
+name: glucobrassicin(1-) 
 namespace: chebi_ontology
 def: "An indolylmethylglucosinolate that is the conjugate base of glucobrassicin, obtained by deprotonation of the sulfo group." []
 subset: 3_STAR
@@ -32031,6 +32175,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na+].[O-]Cl(=O)=O"
 [Term]
 id: CHEBI:65244
 name: zeinoxanthin
+name: zeinoxanthin 
 namespace: chebi_ontology
 def: "A carotenol, the structure of which is (6'R)-beta,epsilon-carotene hydroxy-substituted at C-3 with R-stereochemistry." []
 subset: 3_STAR
@@ -32079,6 +32224,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "150.05282
 [Term]
 id: CHEBI:6553
 name: lucenin-2
+name: lucenin-2 
 namespace: chebi_ontology
 def: "A C-glycosyl compound that is luteolin substituted by beta-D-glucopyranosyl moieties at positions 6 and 8 respectively." []
 subset: 3_STAR
@@ -32251,6 +32397,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@@H]1[C@@H](COC(
 [Term]
 id: CHEBI:6602
 name: lycoxanthin
+name: lycoxanthin 
 namespace: chebi_ontology
 def: "A carotenol that is  carotenol psi,psi-carotene substituted by a hydroxy group." []
 subset: 3_STAR
@@ -32392,6 +32539,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Mg++].[Cl-].[Cl-]"
 [Term]
 id: CHEBI:66395
 name: miquelianin
+name: miquelianin 
 namespace: chebi_ontology
 def: "A quercetin O-glycoside that consists of quercetin attached to a beta-D-glucuronopyranosyl moiety at position 3 via a glycosidic linkage. Isolated from Salvia and Phaseolus vulgaris, it exhibits antioxidant and antidepressant activities." []
 subset: 3_STAR
@@ -32568,7 +32716,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COC1=CC(C[C@H]2COC(
 
 [Term]
 id: CHEBI:6699)
-name: Matricin
+name: Matricin 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
@@ -32748,6 +32896,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](Oc2
 [Term]
 id: CHEBI:67939
 name: erythrodiol
+name: erythrodiol 
 namespace: chebi_ontology
 def: "A pentacyclic triterpenoid that is beta-amyrin in which one of the hydrogens of the methyl group at position 28 has been replaced by a hydroxy group. It is a plant metabolite found in olive oil as well as in Rhododendron ferrugineum and other Rhododendron species." []
 subset: 3_STAR
@@ -32856,7 +33005,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(cc(OC)c1O)C(
 [Term]
 id: CHEBI:68352
 name: quercetin 3-O-beta-D-glucopyranoside
-name: quercetin 3-O-β-D-glucopyranoside
+name: quercetin 3-O-β-D-glucopyranoside 
 namespace: chebi_ontology
 def: "A quercetin O-glucoside that is quercetin with a beta-D-glucosyl residue attached at position 3. Isolated from Lepisorus contortus, it exhibits antineoplastic activityand has been found to decrease the rate of polymerization and sickling of red blood cells" []
 subset: 3_STAR
@@ -32949,6 +33098,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H](O)[C@@H](O)
 [Term]
 id: CHEBI:68465
 name: 2,6-dihydroxybenzoic acid
+name: 2,6-dihydroxybenzoic acid 
 namespace: chebi_ontology
 def: "A dihydroxybenzoic acid having the two hydroxy groups at the C-2 and C-6 positions." []
 subset: 3_STAR
@@ -32974,6 +33124,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(=O)c1c(O)cccc1O"
 [Term]
 id: CHEBI:69304
 name: cinnamtannin B-1
+name: cinnamtannin B-1 
 namespace: chebi_ontology
 def: "A  proanthocyanidin found in Cinnamomum cassia and Cinnamomum zeylanicum." []
 subset: 3_STAR
@@ -32993,6 +33144,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@@H]1Cc2c(O)cc(O
 [Term]
 id: CHEBI:69437
 name: orobol
+name: orobol 
 namespace: chebi_ontology
 alt_id: CHEBI:7786
 def: "A member of the class of  7-hydroxyisoflavones which consists of isoflavone substituted by hydroxy groups at positions 5, 7, 3' and 4'. It has been isolated from the mycelia of Cordyceps sinensis." []
@@ -33171,6 +33323,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1c(O)cc(cc1O)[C@
 [Term]
 id: CHEBI:7037
 name: Mutatochrome
+name: Mutatochrome 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Citroxanthin" RELATED [KEGG_COMPOUND]
@@ -33473,12 +33626,12 @@ def: "A 20-carbon, polyunsaturated fatty acid having two double bonds at unspeci
 subset: 3_STAR
 synonym: "20:2" RELATED [ChEBI]
 synonym: "C20:2" RELATED [ChEBI]
-synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acid" RELATED []
+synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acids" RELATED [ChEBI]
 synonym: "icosadienoic acids" RELATED [ChEBI]
 xref: PMID:23475189 {source="Europe PMC"}
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C20H36O2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "308.49864" xsd:string
@@ -33853,7 +34006,7 @@ subset: 3_STAR
 synonym: "22:2" RELATED [ChEBI]
 synonym: "C22:2" RELATED [ChEBI]
 synonym: "docosadienoic acids" RELATED [ChEBI]
-is_a: CHEBI:36009 ! ω−6 fatty acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 
 [Term]
 id: CHEBI:75229
@@ -33893,6 +34046,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na+].[O-]Br(=O)=O"
 [Term]
 id: CHEBI:75314
 name: peonidin
+name: peonidin 
 namespace: chebi_ontology
 def: "An anthocyanidin cation that is flavylium bearing four hydroxy substituents at positions 3, 4', 5 and 7 as well as a methoxy substituent at position 3'." []
 subset: 3_STAR
@@ -33923,6 +34077,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(ccc1O)-c1[o+
 [Term]
 id: CHEBI:75318
 name: petunidin
+name: petunidin 
 namespace: chebi_ontology
 def: "An anthocyanidin cation that is flavylium bearing five hydroxy substituents at positions 3, 3', 4', 5 and 7 as well as a methoxy substituent at position 5'." []
 subset: 3_STAR
@@ -34224,6 +34379,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[C@H]1Cc2c(O)cc(O)
 [Term]
 id: CHEBI:75721
 name: kaempferol 3-O-glucuronide
+name: kaempferol 3-O-glucuronide 
 namespace: chebi_ontology
 def: "A kaempferol O-glucuronide that is kaempferol with a beta-D-glucosiduronic acid residue attached at the 3-position." []
 subset: 3_STAR
@@ -34298,7 +34454,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Fe++].[O-]S([O-])(
 [Term]
 id: CHEBI:75839
 name: quercetin 4'-O-beta-D-glucopyranoside
-name: quercetin 4ʼ-O-β-D-glucopyranoside
+name: quercetin 4ʼ-O-β-D-glucopyranoside 
 namespace: chebi_ontology
 def: "A quercetin O-glucoside that is quercetin with a beta-D-glucosyl residue attached at position 4'." []
 subset: 3_STAR
@@ -34402,12 +34558,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1OC)-c1cc
 
 [Term]
 id: CHEBI:7603)
-name: Nobilin
+name: Nobilin 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:7609
 name: nomilin
+name: nomilin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Nomilin" EXACT [KEGG_COMPOUND]
@@ -34503,6 +34660,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc(\\C=C\\c2cc(
 [Term]
 id: CHEBI:7623
 name: Norbixin
+name: Norbixin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Norbixin" EXACT [KEGG_COMPOUND]
@@ -34521,6 +34679,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(\\C=C\\C=C(C)\\C
 [Term]
 id: CHEBI:7713
 name: Obacunone
+name: Obacunone 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Obacunone" EXACT [KEGG_COMPOUND]
@@ -34563,6 +34722,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(C=CC(O)=O)cc
 [Term]
 id: CHEBI:77151
 name: ginsenoside Rg2
+name: ginsenoside Rg2 
 namespace: chebi_ontology
 def: "A ginsenoside found in Panax species that is dammarane which is substituted by hydroxy groups at the 3beta, 6alpha, 12beta and 20 pro-S positions, in which the hydroxy group at position 6 has been converted to the corresponding alpha-L-rhamnopyranosyl-(1->2)-beta-D-glucopyranoside, and in which a double bond has been introduced at the 24-25 position." []
 subset: 3_STAR
@@ -34600,6 +34760,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](O[C
 [Term]
 id: CHEBI:77152
 name: ginsenoside Rb2
+name: ginsenoside Rb2 
 namespace: chebi_ontology
 def: "A ginsenoside found in Panax ginseng that is dammarane which is substituted by hydroxy groups at the 3beta, 12beta and 20 pro-S positions, in which the hydroxy groups at positions 3 and 20 have been converted to the corresponding beta-D-glucopyranosyl-(1->2)-beta-D-glucopyranoside and alpha-L-arabinopyranosyl-(1->6)-beta-D-glucopyranoside respectively, and in which a double bond has been introduced at the 24-25 position." []
 subset: 3_STAR
@@ -34770,6 +34931,7 @@ is_a: CHEBI:26848 ! tannin
 [Term]
 id: CHEBI:78802
 name: diarylheptanoid
+name: diarylheptanoid 
 namespace: chebi_ontology
 def: "A family of plant metabolites with a common 1,7-diphenylheptane structural skeleton, carrying various substituents. They are mainly distributed in the roots, rhizomes and bark of Alpinia, Zingiber, Curcuma and Alnus species." []
 subset: 3_STAR
@@ -34781,6 +34943,7 @@ is_a: CHEBI:72544 ! flavonoids
 [Term]
 id: CHEBI:7889
 name: paeoniflorin
+name: paeoniflorin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Paeoniflorin" EXACT [KEGG_COMPOUND]
@@ -34826,6 +34989,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:7948
 name: Pedunculagin
+name: Pedunculagin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Pedunculagin" EXACT [KEGG_COMPOUND]
@@ -34985,6 +35149,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC[C@H]1O[C@@H](O[C
 [Term]
 id: CHEBI:80441
 name: Tulipanin
+name: Tulipanin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Delphinidin 3-O-rutinoside" RELATED [KEGG_COMPOUND]
@@ -35003,6 +35168,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1O[C@@H](OC[
 [Term]
 id: CHEBI:8046
 name: Phaseoloside D
+name: Phaseoloside D 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Phaseoloside D" EXACT [KEGG_COMPOUND]
@@ -35104,6 +35270,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc2oc(cc(=O)c2c
 [Term]
 id: CHEBI:81377
 name: (+)-nootkatone
+name: (+)-nootkatone 
 namespace: chebi_ontology
 def: "A sesquiterpenoid that is 4,4a,5,6,7,8-hexahydronaphthalen-2(3H)-one which is substituted by methyl groups at positions 4 and 4a, and by an isopropenyl group at position 6 (the 4R,4aS,6R stereoisomer)." []
 subset: 3_STAR
@@ -35160,6 +35327,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Na+].[O-]I(=O)=O" 
 [Term]
 id: CHEBI:8183
 name: Physalien
+name: Physalien 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Physalien" EXACT [KEGG_COMPOUND]
@@ -35179,6 +35347,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCCCCCCCCCCCCC(=O
 [Term]
 id: CHEBI:8186
 name: Physoperuvine
+name: Physoperuvine 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Physoperuvine" EXACT [KEGG_COMPOUND]
@@ -35197,6 +35366,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CN1C2CCC1(O)CCC2" x
 [Term]
 id: CHEBI:8191
 name: all-trans-phytoene
+name: all-trans-phytoene 
 namespace: chebi_ontology
 def: "The all-trans-isomer of phytoene." []
 subset: 3_STAR
@@ -35235,6 +35405,7 @@ is_a: CHEBI:51149 ! xanthones
 [Term]
 id: CHEBI:8367
 name: Prebetanin
+name: Prebetanin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Prebetanin" EXACT [KEGG_COMPOUND]
@@ -35378,6 +35549,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Bi+3]" xsd:string
 [Term]
 id: CHEBI:8600
 name: prunetin
+name: prunetin 
 namespace: chebi_ontology
 def: "A hydroxyisoflavone that is  genistein  in which the hydroxy group at position 7 is replaced by a methoxy group." []
 subset: 3_STAR
@@ -35421,6 +35593,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(O)c2c(c1)occ
 [Term]
 id: CHEBI:8630
 name: pterostilbene
+name: pterostilbene 
 namespace: chebi_ontology
 def: "A stilbenol that consists of trans-stilbene bearing a hydroxy group at position 4 as well as two methoxy substituents at positions 3' and 5'." []
 subset: 3_STAR
@@ -35619,6 +35792,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "O(C=1C(O)=C(/C(=C\\
 [Term]
 id: CHEBI:8870
 name: Rishitin
+name: Rishitin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Rishitin" EXACT [KEGG_COMPOUND]
@@ -35637,6 +35811,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1[C@@H](O)[C
 [Term]
 id: CHEBI:8907
 name: rubixanthin
+name: rubixanthin 
 namespace: chebi_ontology
 def: "A carotenol that is a natural xanthophyll pigment. It was formerly used as a food colourant (E161d), but approval for this purpose has been withdrawn throughout the European Union." []
 subset: 3_STAR
@@ -35750,6 +35925,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(Oc2cc(O)c
 [Term]
 id: CHEBI:90236
 name: (2E,6E)-farnesyl monophosphate
+name: (2E,6E)-farnesyl monophosphate 
 namespace: chebi_ontology
 def: "A member of the class of farnesyl phosphates that is the monophosphatr derivative of (2E,6E)-farnesol" []
 subset: 3_STAR
@@ -35781,12 +35957,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(\\C)(/CCC=C(C)C)=
 
 [Term]
 id: CHEBI:90275)
-name: lactucopicrin
+name: lactucopicrin 
 is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:9045
 name: Sayanedine
+name: Sayanedine 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Sayanedine" EXACT [KEGG_COMPOUND]
@@ -35806,6 +35983,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc2c(c1)occ(-c
 [Term]
 id: CHEBI:9048
 name: Schisantherin A
+name: Schisantherin A 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Schisantherin A" EXACT [KEGG_COMPOUND]
@@ -35824,6 +36002,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc2[C@H](OC(=O)
 [Term]
 id: CHEBI:9055
 name: scoparone
+name: scoparone 
 namespace: chebi_ontology
 def: "A member of the class of coumarins that is esculetin in which the two hydroxy groups at positions 6 and 7 are replaced by methoxy groups. It is a major constituent of the Chinese herbal medicine Yin Chen Hao, and exhibits a variety of pharmacological activities such as anti-inflammatory, anti-allergic, and anti-tumor activities." []
 subset: 3_STAR
@@ -35945,6 +36124,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1cc(O[C@H]2OC[C@
 [Term]
 id: CHEBI:9151
 name: Sinalbin
+name: Sinalbin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "p-Hydroxybenzyl glucosinolate" RELATED [KEGG_COMPOUND]
@@ -35993,6 +36173,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1OC)-c1cc
 [Term]
 id: CHEBI:9162
 name: sinigrin(1-)
+name: sinigrin(1-) 
 namespace: chebi_ontology
 def: "An alkenylglucosinolate that is the conjugate base of sinigrin." []
 subset: 3_STAR
@@ -36018,6 +36199,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@H]1(O[C@@H]([C@@
 [Term]
 id: CHEBI:9188
 name: solanine
+name: solanine 
 namespace: chebi_ontology
 def: "A glycoalkaloid poison found in species of the nightshade family (Solanaceae), such as the potato (Solanum tuberosum). It is a trisccharide derivative of solanidine [(22beta)-solanid-5-en-3beta-ol]." []
 subset: 3_STAR
@@ -36056,6 +36238,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[C@@H]1[C@H]2CC[C@
 [Term]
 id: CHEBI:9209
 name: soyasapogenol B
+name: soyasapogenol B 
 namespace: chebi_ontology
 def: "A pentacyclic triterpenoid that is oleanane containing a double bond between positions 12 and 13 and substituted by hydroxy groups at the 3beta, 22beta and 24-positions." []
 subset: 3_STAR
@@ -36103,6 +36286,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC1(C)C[C@H]2C3=CC[
 [Term]
 id: CHEBI:9211
 name: soyasaponin I
+name: soyasaponin I 
 namespace: chebi_ontology
 def: "A triterpenoid saponin that is composed of soyasapogenol B having an alpha-L-rhamnopyranosyl-(1->2)-beta-D-galactopyranosyl-(1->2)-beta-D-glucopyranosiduronic acid moiety attached at the 3-position via a glycosidic linkage." []
 subset: 3_STAR
@@ -36137,6 +36321,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CC(C)(C)C
 [Term]
 id: CHEBI:9228
 name: Spinasaponin A
+name: Spinasaponin A 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Spinasaponin A" EXACT [KEGG_COMPOUND]
@@ -36179,6 +36364,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Mg++].CCCCCCCCCCCC
 [Term]
 id: CHEBI:9271
 name: stevioside
+name: stevioside 
 namespace: chebi_ontology
 def: "A diterpene glycoside that is rubusoside in which the hydroxy group at position 2 of the allylic beta-D-glucoside has been converted to the corresponding beta-D-glucoside. It is a natural herbal sweetener that is 250-300 times sweeter than sucrose (though with a bitter aftertaste), extracted from the Stevia rebaudiana plant native to South America." []
 subset: 3_STAR
@@ -36285,6 +36471,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "COc1ccc(cc1)-c1cc(=
 [Term]
 id: CHEBI:9433
 name: Tellimagrandin I
+name: Tellimagrandin I 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "1-Desgalloyleugeniin" RELATED [KEGG_COMPOUND]
@@ -36304,6 +36491,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1O[C@@H]2COC(=O)c
 [Term]
 id: CHEBI:9454
 name: Terminalin
+name: Terminalin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Gallagic acid" RELATED [KEGG_COMPOUND]
@@ -36323,6 +36511,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1cc2c(c(O)c1O)c1c
 [Term]
 id: CHEBI:9517
 name: Theasaponin
+name: Theasaponin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "Theasaponin" EXACT [KEGG_COMPOUND]
@@ -36341,6 +36530,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C\\C=C(\\C)C(=O)O[C
 [Term]
 id: CHEBI:9518
 name: theasinensin A
+name: theasinensin A 
 namespace: chebi_ontology
 def: "A biflavonoid that is obtained by coupling of two molecules of (-)-epigallocatechin 3-gallate resulting in a bond between positions C-2 of the hydroxyphenyl ring. It is a natural product found in oolong tea." []
 subset: 3_STAR
@@ -36385,6 +36575,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC1=CC2=C(C[C@@H](O
 [Term]
 id: CHEBI:9522
 name: theogallin
+name: theogallin 
 namespace: chebi_ontology
 def: "A gallate ester resulting from the formal condensation of gallic acid with the (5R)-hydroxy group of (-)-quinic acid (i.e. the hydroxy group on the same side of the cyclohexane ring as the carboxy group)." []
 subset: 3_STAR
@@ -36447,6 +36638,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12C[C@]1(CC(
 [Term]
 id: CHEBI:9630
 name: tomatine
+name: tomatine 
 namespace: chebi_ontology
 def: "A steroid alkaloid that is tomatidine in which the hydroxy group at position 3 is linked to lycotetraose, a tetrasaccharide composed of two units of D-glucose, one unit of D-xylose, and one unit of D-galactose." []
 subset: 3_STAR
@@ -36487,6 +36679,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CC[C@]3([
 [Term]
 id: CHEBI:9647
 name: Trachelogenin
+name: Trachelogenin 
 namespace: chebi_ontology
 subset: 2_STAR
 synonym: "(-)-Trachelogenin" RELATED [KEGG_COMPOUND]
@@ -36525,6 +36718,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CC(=O)[C@]
 [Term]
 id: CHEBI:9908
 name: ursolic acid
+name: ursolic acid 
 namespace: chebi_ontology
 def: "A pentacyclic triterpenoid that is urs-12-en-28-oic acid substituted by a beta-hydroxy group at position 3." []
 subset: 3_STAR
@@ -36892,26 +37086,6 @@ property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_alg
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends." xsd:string
 
 [Typedef]
-id: RO:0002229
-name: ends
-def: "inverse of ends with" []
-subset: ro-eco
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-
-[Typedef]
-id: RO:0002234
-name: has output
-def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-subset: ro-eco
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "produces" xsd:string
-
-[Typedef]
 id: RO:0002254
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
@@ -37004,6 +37178,13 @@ is_a: RO:0002502 ! depends on
 transitive_over: part_of ! part_of
 
 [Typedef]
+id: RO:0002320
+name: evolutionarily related to
+def: "A relationship that holds via some environmental process" []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the process of evolution." xsd:string
+
+[Typedef]
 id: RO:0002321
 name: ecologically related to
 def: "A relationship that is mediated in some way by the environment or environmental feature (ENVO:00002297)" []
@@ -37030,6 +37211,7 @@ property_value: IAO:0000232 "Do not use this relation directly. It is ended as a
 [Typedef]
 id: RO:0002327
 name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: IAO:0000112 "a particular instances of akt-2 enables some instance of protein kinase activity" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -37083,14 +37265,6 @@ property_value: IAO:0000119 "SIO" xsd:string
 property_value: RO:0001900 RO:0001901
 
 [Typedef]
-id: RO:0002353
-name: output of
-def: "inverse of has output" []
-subset: ro-eco
-subset: RO:0002259
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-
-[Typedef]
 id: RO:0002354
 name: formed as result of
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -37128,11 +37302,42 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002387 ! has potential to develop into
 
 [Typedef]
+id: RO:0002407
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "indirectly activates" xsd:string
+property_value: RO:0002579 RO:0002213
+holds_over_chain: RO:0002409 RO:0002409
+holds_over_chain: RO:0002629 RO:0002407
+holds_over_chain: RO:0002629 RO:0002629
+is_transitive: true
+is_a: positively_regulates ! positively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002629 ! directly positively regulates
+
+[Typedef]
+id: RO:0002409
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "indirectly inhibits" xsd:string
+property_value: RO:0002579 RO:0002212
+holds_over_chain: RO:0002630 RO:0002409
+holds_over_chain: RO:0002630 RO:0002630
+is_transitive: true
+is_a: negatively_regulates ! negatively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002630 ! directly negatively regulates
+
+[Typedef]
 id: RO:0002410
 name: causally related to
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." [https://en.wikipedia.org/wiki/Causality]
 def: "This relation groups causal relations between material entities and causal relations between processes" []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
+property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative?\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 
@@ -37282,7 +37487,7 @@ inverse_of: process_has_causal_agent ! process has causal agent
 [Typedef]
 id: RO:0002501
 name: causal relation between processes
-def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
@@ -37359,7 +37564,7 @@ is_a: RO:0002506 ! causal relation between entities
 [Typedef]
 id: RO:0002578
 name: directly regulates
-def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -37379,6 +37584,11 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 holds_over_chain: has_part capable_of
 is_a: functionally_related_to ! functionally related to
 is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002586
+name: results in breakdown of
+def: "p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p" []
 
 [Typedef]
 id: RO:0002595
@@ -37419,7 +37629,7 @@ is_a: RO:0002596 ! capable of regulating
 [Typedef]
 id: RO:0002629
 name: directly positively regulates
-def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -37432,7 +37642,7 @@ is_a: RO:0002578 ! directly regulates
 [Typedef]
 id: RO:0002630
 name: directly negatively regulates
-def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -37524,6 +37734,23 @@ range: BFO:0000040 ! material entity
 is_a: RO:0002566 ! causally influences
 
 [Typedef]
+id: RO:0012011
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+is_a: causally_upstream_of ! causally upstream of
+created_by: pg
+creation_date: 2022-09-26T06:07:17Z
+
+[Typedef]
+id: RO:0012012
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+is_a: regulates ! regulates
+is_a: RO:0012011 ! indirectly causally upstream of
+created_by: pg
+creation_date: 2022-09-26T06:08:01Z
+
+[Typedef]
 id: RO:0017001
 name: device utilizes material
 def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
@@ -37612,11 +37839,10 @@ is_a: RO:0002501 ! causal relation between processes
 id: causally_upstream_of
 name: causally upstream of
 namespace: external
-def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002411
-property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_transitive: true
 is_a: causally_upstream_of_or_within ! causally upstream of or within
@@ -37626,7 +37852,9 @@ is_a: precedes ! precedes
 id: causally_upstream_of,_negative_effect
 name: causally upstream of, negative effect
 namespace: external
-comment: holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002305
 property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004050 RO:0002411
@@ -37637,6 +37865,7 @@ is_a: RO:0004046 ! causally upstream of or within, negative effect
 id: causally_upstream_of,_positive_effect
 name: causally upstream of, positive effect
 namespace: external
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -37650,7 +37879,7 @@ is_a: RO:0004047 ! causally upstream of or within, positive effect
 id: causally_upstream_of_or_within
 name: causally upstream of or within
 namespace: external
-def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
 synonym: "affects" RELATED []
 xref: RO:0002418
 property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
@@ -37659,6 +37888,28 @@ property_value: IAO:0000118 "influences (processual)" xsd:string
 is_transitive: true
 is_a: RO:0002501 ! causal relation between processes
 inverse_of: causally_downstream_of_or_within ! causally downstream of or within
+
+[Typedef]
+id: ends
+name: ends
+namespace: uberon
+def: "inverse of ends with" []
+subset: ro-eco
+xref: RO:0002229
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+
+[Typedef]
+id: ends_with
+name: ends with
+namespace: external
+namespace: uberon
+def: "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+xref: RO:0002230
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "finished by" xsd:string
 
 [Typedef]
 id: functionally_related_to
@@ -37720,6 +37971,21 @@ created_by: dos
 creation_date: 2017-05-24T09:31:01Z
 
 [Typedef]
+id: has_output
+name: has output
+namespace: external
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+xref: RO:0002234
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "produces" xsd:string
+
+[Typedef]
 id: has_parent_hydride
 name: has parent hydride
 namespace: chebi_ontology
@@ -37767,6 +38033,26 @@ property_value: IAO:0000112 "this process has participant this input material (o
 property_value: IAO:0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time." xsd:string
 property_value: IAO:0000118 "has_participant" xsd:string
 holds_over_chain: has_part has_participant
+
+[Typedef]
+id: has_primary_input_or_output
+name: has primary input or output
+namespace: external
+def: "p 'has primary input ot output' c iff either (a) p 'has primary input' c or (b) p 'has primary output' c." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+xref: RO:0004007
+created_by: cjm
+creation_date: 2018-12-13T11:26:17Z
+
+[Typedef]
+id: has_primary_output
+name: has primary output
+namespace: external
+def: "p has primary output c if (a) p has output c and (b) the goal of process is to modify, produce, or transform c." [GOC:cjm, GOC:dph, GOC:kva, GOC:pt] {comment="PMID:27812932"}
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+xref: RO:0004008
+created_by: cjm
+creation_date: 2018-12-13T11:26:32Z
 
 [Typedef]
 id: has_quality
@@ -37819,18 +38105,16 @@ inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
 id: immediately_causally_upstream_of
 name: immediately causally upstream of
 namespace: external
-def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
 xref: RO:0002412
-property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: RO:0002575 RO:0002411
 is_a: causally_upstream_of ! causally upstream of
-is_a: immediately_precedes ! immediately_precedes
+is_a: immediately_precedes ! immediately precedes
 
 [Typedef]
 id: immediately_preceded_by
 name: immediately preceded by
-name: immediately_preceded_by
 namespace: external
 namespace: uberon
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
@@ -37838,12 +38122,11 @@ xref: RO:0002087
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
 is_a: preceded_by ! preceded by
-inverse_of: immediately_precedes ! immediately_precedes
+inverse_of: immediately_precedes ! immediately precedes
 
 [Typedef]
 id: immediately_precedes
 name: immediately precedes
-name: immediately_precedes
 namespace: external
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 subset: ro-eco
@@ -37853,6 +38136,21 @@ property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
 property_value: RO:0002575 BFO:0000063
 is_a: precedes ! precedes
+
+[Typedef]
+id: in_taxon
+name: in taxon
+namespace: uberon
+def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
+comment: Connects a biological entity to its taxon of origin.
+subset: ro-eco
+xref: RO:0002162
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 "Jennifer Deegan" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
 
 [Typedef]
 id: input_of
@@ -37914,7 +38212,7 @@ is_a: regulated_by ! regulated by
 id: negatively_regulates
 name: negatively regulates
 namespace: external
-def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -37937,6 +38235,31 @@ property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002
 holds_over_chain: negatively_regulates positively_regulates_characteristic
 holds_over_chain: positively_regulates negatively_regulates_characteristic
 is_a: regulates_characteristic ! regulates characteristic
+
+[Typedef]
+id: only_in_taxon
+name: only in taxon
+namespace: uberon
+def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
+xref: RO:0002160
+property_value: IAO:0000112 "lactation SubClassOf 'only in taxon' some 'Mammalia'" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "The original intent was to treat this as a macro that expands to 'in taxon' only ?Y - however, this is not necessary if we instead have supplemental axioms that state that each pair of sibling tax have a disjointness axiom using the 'in taxon' property - e.g.\n\n 'in taxon' some Eukaryota DisjointWith 'in taxon' some Eubacteria" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
+
+[Typedef]
+id: output_of
+name: output of
+namespace: external
+namespace: uberon
+def: "inverse of has output" []
+subset: ro-eco
+subset: RO:0002259
+xref: RO:0002353
+property_value: IAO:0000117 "Chris Mungall" xsd:string
 
 [Typedef]
 id: overlaps
@@ -37991,7 +38314,6 @@ inverse_of: has_part ! has_part
 [Typedef]
 id: participates_in
 name: participates in
-name: participates_in
 namespace: external
 namespace: uberon
 def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
@@ -38017,7 +38339,7 @@ is_a: regulated_by ! regulated by
 id: positively_regulates
 name: positively regulates
 namespace: external
-def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -38098,13 +38420,11 @@ is_a: causally_downstream_of_or_within ! causally downstream of or within
 id: regulates
 name: regulates
 namespace: external
-def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002211
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "We use 'regulates' here to specifically imply control. However, many colloquial usages of the term correctly correspond to the weaker relation of 'causally upstream of or within' (aka influences). Consider relabeling to make things more explicit" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 "David Hill" xsd:string
 property_value: IAO:0000117 "Tanya Berardini" xsd:string
@@ -38131,23 +38451,82 @@ holds_over_chain: regulates regulates_characteristic
 is_a: RO:0002410 ! causally related to
 
 [Typedef]
+id: results_in_assembly_of
+name: results in assembly of
+namespace: external
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+xref: RO:0002588
+
+[Typedef]
+id: results_in_changes_to_anatomical_or_cellular_structure
+name: results in changes to anatomical or cellular structure
+namespace: external
+def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
+xref: RO:0040036
+created_by: cjm
+creation_date: 2018-09-26T01:08:58Z
+
+[Typedef]
 id: results_in_developmental_progression_of
 name: results in developmental progression of
+namespace: external
 def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
+xref: RO:0002295
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint." xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: seeAlso Ontology:extensions
 
 [Typedef]
+id: results_in_disassembly_of
+name: results in disassembly of
+namespace: external
+xref: RO:0002590
+
+[Typedef]
 id: results_in_formation_of
 name: results in formation of
+namespace: external
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
+xref: RO:0002297
 property_value: IAO:0000112 "an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists." xsd:string
 property_value: IAO:0000112 "every \"endocardial cushion formation\" (GO:0003272) results_in_formation_of some \"endocardial cushion\" (UBERON:0002062)" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
+
+[Typedef]
+id: results_in_organization_of
+name: results in organization of
+namespace: external
+def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
+xref: RO:0002592
+
+[Typedef]
+id: starts
+name: starts
+namespace: uberon
+def: "inverse of starts with" []
+subset: ro-eco
+xref: RO:0002223
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000119 "Allen" xsd:string
+
+[Typedef]
+id: starts_with
+name: starts with
+namespace: external
+namespace: uberon
+def: "x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+xref: RO:0002224
+property_value: IAO:0000112 "Every insulin receptor signaling pathway starts with the binding of a ligand to the insulin receptor" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "started by" xsd:string
 
