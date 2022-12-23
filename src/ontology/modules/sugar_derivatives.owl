@@ -1067,7 +1067,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1252,12 +1252,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_37165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37165"/>
@@ -1291,6 +1285,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_74961 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74961"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
 </rdf:RDF>
 
 

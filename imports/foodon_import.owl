@@ -17,7 +17,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/foodon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-11-17/imports/foodon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2022-12-23/imports/foodon_import.owl"/>
     </owl:Ontology>
     
 
@@ -518,6 +518,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://www.w3.org/XML/1998/namespacestring -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/XML/1998/namespacestring"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -686,7 +692,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
         <obo:BFO_0000179>entity</obo:BFO_0000179>
         <obo:BFO_0000180>Entity</obo:BFO_0000180>
-        <obo:IAO_0000111 xml:lang="en">entity</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Julius Caesar</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">Verdi’s Requiem</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the Second World War</obo:IAO_0000112>
@@ -694,13 +699,10 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Entity doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example Werner Ceusters &apos;portions of reality&apos; include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, &apos;How to track absolutely everything&apos; at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/agro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ecocore.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
         <obo:IAO_0000600 xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</obo:IAO_0000600>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label>entity</rdfs:label>
@@ -742,15 +744,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/agro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:IAO_0000600 xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</obo:IAO_0000601>
@@ -920,12 +916,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/agro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:IAO_0000601 xml:lang="en">For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])</obo:IAO_0000601>
         <obo:IAO_0000602>(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] </obo:IAO_0000602>
@@ -1042,7 +1035,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:BFO_0000179>sdc</obo:BFO_0000179>
         <obo:BFO_0000180>SpecificallyDependentContinuant</obo:BFO_0000180>
-        <obo:IAO_0000111 xml:lang="en">specifically dependent continuant</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">of one-sided specifically dependent continuants: the mass of this tomato</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.</obo:IAO_0000112>
@@ -1054,11 +1046,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000112 xml:lang="en">the role of being a doctor</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the shape of this hole.</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the smell of this portion of mozzarella</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
         <obo:IAO_0000602>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
@@ -1127,14 +1116,11 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:BFO_0000179>gdc</obo:BFO_0000179>
         <obo:BFO_0000180>GenericallyDependentContinuant</obo:BFO_0000180>
-        <obo:IAO_0000111 xml:lang="en">generically dependent continuant</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity.</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the pdf file on your laptop, the pdf file that is a copy thereof on my laptop</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
         <obo:IAO_0000602>(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
@@ -1267,7 +1253,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411041"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that is ingested and contributes to survival, growth and development</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary chemical component</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary chemical component</rdfs:label>
     </owl:Class>
     
 
@@ -1279,7 +1265,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">Carbohydrates that are absorbed in the small intestine and provide carbohydrate for metabolism in monogastric animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
         <oboInOwl:hasExactSynonym xml:lang="en">digestible carbohydrate</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">available carbohydrate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">available carbohydrate</rdfs:label>
     </owl:Class>
     
 
@@ -1290,7 +1276,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">Available carbohydrate in monosaccharide and disaccharide form</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">free sugar</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">free sugar</rdfs:label>
     </owl:Class>
     
 
@@ -1302,7 +1288,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">A mineral nutrient that represents a major proportion of the minerals required in the diet</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
         <oboInOwl:hasExactSynonym xml:lang="en">macromineral</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">macro element</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">macro element</rdfs:label>
     </owl:Class>
     
 
@@ -1314,7 +1300,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">A plant metabolite that is not essential for growth or division of plant cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
         <oboInOwl:hasExactSynonym xml:lang="en">secondary metabolite</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">plant secondary metabolite</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">plant secondary metabolite</rdfs:label>
     </owl:Class>
     
 
@@ -1325,7 +1311,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Calcium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary calcium</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary calcium</rdfs:label>
     </owl:Class>
     
 
@@ -1336,7 +1322,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Chlorine ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary chlorine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary chlorine</rdfs:label>
     </owl:Class>
     
 
@@ -1347,7 +1333,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Magnesium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary magnesium</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary magnesium</rdfs:label>
     </owl:Class>
     
 
@@ -1358,7 +1344,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Phosphorus ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary phosphorus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary phosphorus</rdfs:label>
     </owl:Class>
     
 
@@ -1369,7 +1355,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Potassium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary potassium</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary potassium</rdfs:label>
     </owl:Class>
     
 
@@ -1380,7 +1366,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Sodium ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary sodium</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary sodium</rdfs:label>
     </owl:Class>
     
 
@@ -1391,7 +1377,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000011"/>
         <obo:IAO_0000115 xml:lang="en">Sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <rdfs:label xml:lang="en">dietary sulfur</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary sulfur</rdfs:label>
     </owl:Class>
     
 
@@ -1488,9 +1474,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of carbohydrate when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>USDA_NDB: 1005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1050</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1072</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1072</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity carbohydrate concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of carbohydrate in material entity</rdfs:label>
     </owl:Class>
@@ -1540,7 +1526,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of monosaccharide when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: MNSAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:MNSAC</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity monosaccharide concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of monosaccharide in material entity</rdfs:label>
     </owl:Class>
@@ -1591,9 +1577,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of glucose when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: GLUFB</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: GLUS</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:GLUFB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:GLUS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1011</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity glucose concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of glucose in material entity</rdfs:label>
     </owl:Class>
@@ -1643,12 +1629,12 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of available carbohydrate when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: CHOAVL</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: CHOAVL-</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: CHOAVLDF</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: CHOAVLM</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: CHOAVLO</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CHOAVL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CHOAVL-</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CHOAVLDF</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CHOAVLM</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CHOAVLO</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1005</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity available carbohydrate concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of available carbohydrate in material entity</rdfs:label>
     </owl:Class>
@@ -1698,12 +1684,12 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of free sugar when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: SUGAR</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: SUGAR-</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>INFOODs: SUGARM</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1063</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1235</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 2000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:SUGAR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:SUGAR-</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:SUGARM</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1235</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:2000</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity free sugar concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of free sugar in material entity</rdfs:label>
     </owl:Class>
@@ -1754,8 +1740,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of cysteine when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: CYSTE</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1232</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CYSTE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1232</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity cysteine concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of cysteine in material entity</rdfs:label>
     </owl:Class>
@@ -1806,8 +1792,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of methionine when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: MET</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1215</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:MET</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1215</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity methionine concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of methionine in material entity</rdfs:label>
     </owl:Class>
@@ -1857,8 +1843,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of lipid when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: FATPL</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:FATPL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1004</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity lipid concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of lipid in material entity</rdfs:label>
     </owl:Class>
@@ -1908,7 +1894,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of phospholipid when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: PHOLIP</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:PHOLIP</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity phospholipid concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of phospholipid in material entity</rdfs:label>
     </owl:Class>
@@ -1959,7 +1945,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of phosphatidylcholine when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: CHLNP</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CHLNP</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity phosphatidylcholine concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of phosphatidylcholine in material entity</rdfs:label>
     </owl:Class>
@@ -2010,7 +1996,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of phosphatidylethanolamine when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: PHOETHN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:PHOETHN</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity phosphatidylethanolamine concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of phosphatidylethanolamine in material entity</rdfs:label>
     </owl:Class>
@@ -2061,7 +2047,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of phosphatidylinositol when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: PHOINOTL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:PHOINOTL</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity phosphatidylinositol concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of phosphatidylinositol in material entity</rdfs:label>
     </owl:Class>
@@ -2259,7 +2245,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of chloride when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: CLD</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:CLD</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity chloride concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of chloride in material entity</rdfs:label>
     </owl:Class>
@@ -2309,7 +2295,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of salt when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: NACL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:NACL</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity salt concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of salt in material entity</rdfs:label>
     </owl:Class>
@@ -2458,7 +2444,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of flavonoids when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: FLAVD</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:FLAVD</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity flavonoids concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of flavonoids in material entity</rdfs:label>
     </owl:Class>
@@ -2508,7 +2494,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of organic acid when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: OA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:OA</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity organic acid concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of organic acid in material entity</rdfs:label>
     </owl:Class>
@@ -2560,7 +2546,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of myo-inositol hexakisphosphate when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: IP6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:IP6</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity myo-inositol hexakisphosphate concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of myo-inositol hexakisphosphate in material entity</rdfs:label>
     </owl:Class>
@@ -2610,8 +2596,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of inositol when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: INOTL</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1181</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:INOTL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1181</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity inositol concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of inositol in material entity</rdfs:label>
     </owl:Class>
@@ -2662,7 +2648,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of polyol when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: POLYL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:POLYL</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity polyol concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of polyol in material entity</rdfs:label>
     </owl:Class>
@@ -2712,7 +2698,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of mannitol when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: MANTL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:MANTL</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity mannitol concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of mannitol in material entity</rdfs:label>
     </owl:Class>
@@ -2762,8 +2748,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of xylitol when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: XYLTL</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>USDA_NDB: 1078</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:XYLTL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>USDA_NDB:1078</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity xylitol concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of xylitol in material entity</rdfs:label>
     </owl:Class>
@@ -2844,7 +2830,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200714"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -2863,7 +2849,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115>The concentration of glycerol when measured in some material entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <oboInOwl:hasDbXref>INFOODs: GLYRL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>INFOODs:GLYRL</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>material entity glycerol concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of glycerol in material entity</rdfs:label>
     </owl:Class>
@@ -4002,7 +3988,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:15356</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>cysteine</rdfs:label>
-        <rdfs:label xml:lang="en">cysteine</rdfs:label>
     </owl:Class>
     
 
@@ -4078,7 +4063,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:16038</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>phosphatidylethanolamine</rdfs:label>
-        <rdfs:label xml:lang="en">phosphatidylethanolamine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">phosphatidylethanolamine</rdfs:label>
     </owl:Class>
     
 
@@ -4103,7 +4088,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:16247</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>phospholipid</rdfs:label>
-        <rdfs:label xml:lang="en">phospholipid</rdfs:label>
     </owl:Class>
     
 
@@ -4140,7 +4124,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:16646</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>carbohydrate</rdfs:label>
-        <rdfs:label xml:lang="en">carbohydrate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">carbohydrate</rdfs:label>
     </owl:Class>
     
 
@@ -4164,7 +4148,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:167164</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>mineral nutrient</rdfs:label>
-        <rdfs:label xml:lang="en">mineral nutrient</rdfs:label>
     </owl:Class>
     
 
@@ -4215,7 +4198,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:16811</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>methionine</rdfs:label>
-        <rdfs:label xml:lang="en">methionine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">methionine</rdfs:label>
     </owl:Class>
     
 
@@ -4296,10 +4279,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasRelatedSynonym>xylite</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CHEBI:17151</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): emulsifier, humectant, stabilizer, sweetener, thickener.</rdfs:comment>
         <rdfs:label>xylitol</rdfs:label>
-        <rdfs:label xml:lang="en">xylitol</rdfs:label>
     </owl:Class>
     
 
@@ -4333,7 +4314,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:17234</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>glucose</rdfs:label>
-        <rdfs:label xml:lang="en">glucose</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">glucose</rdfs:label>
     </owl:Class>
     
 
@@ -4403,7 +4384,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:17401</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>myo-inositol hexakisphosphate</rdfs:label>
-        <rdfs:label xml:lang="en">myo-inositol hexakisphosphate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">myo-inositol hexakisphosphate</rdfs:label>
     </owl:Class>
     
 
@@ -4431,7 +4412,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:17522</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>alditol</rdfs:label>
-        <rdfs:label xml:lang="en">alditol</rdfs:label>
     </owl:Class>
     
 
@@ -4469,13 +4449,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_17754 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17754">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17522"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27136"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412972"/>
         <obo:IAO_0000115>A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">glycerol</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>C3H8O3</chebi:formula>
@@ -4574,10 +4552,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasRelatedSynonym>glycyl alcohol</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CHEBI:17754</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
-        <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): bodying agent, humectant.</rdfs:comment>
         <rdfs:label>glycerol</rdfs:label>
-        <rdfs:label xml:lang="en">glycerol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">glycerol</rdfs:label>
     </owl:Class>
     
 
@@ -4620,7 +4596,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:17996</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>chloride</rdfs:label>
-        <rdfs:label xml:lang="en">chloride</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">chloride</rdfs:label>
     </owl:Class>
     
 
@@ -4643,7 +4619,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:18059</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>lipid</rdfs:label>
-        <rdfs:label xml:lang="en">lipid</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">lipid</rdfs:label>
     </owl:Class>
     
 
@@ -4672,7 +4648,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:190295</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR"/>
         <rdfs:label>inorganic calcium salt</rdfs:label>
-        <rdfs:label xml:lang="en">inorganic calcium salt</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">inorganic calcium salt</rdfs:label>
     </owl:Class>
     
 
@@ -4690,7 +4666,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:190297</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR"/>
         <rdfs:label>inorganic magnesium salt</rdfs:label>
-        <rdfs:label xml:lang="en">inorganic magnesium salt</rdfs:label>
     </owl:Class>
     
 
@@ -4708,7 +4683,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:190303</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR"/>
         <rdfs:label>inorganic potassium salt</rdfs:label>
-        <rdfs:label xml:lang="en">inorganic potassium salt</rdfs:label>
     </owl:Class>
     
 
@@ -4723,7 +4697,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:190516</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR"/>
         <rdfs:label>organic phosphate compound</rdfs:label>
-        <rdfs:label xml:lang="en">organic phosphate compound</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">organic phosphate compound</rdfs:label>
     </owl:Class>
     
 
@@ -4873,7 +4847,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:24840</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>inorganic sulfate salt</rdfs:label>
-        <rdfs:label xml:lang="en">inorganic sulfate salt</rdfs:label>
     </owl:Class>
     
 
@@ -4899,7 +4872,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:24848</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>inositol</rdfs:label>
-        <rdfs:label xml:lang="en">inositol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">inositol</rdfs:label>
     </owl:Class>
     
 
@@ -4926,7 +4899,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:24866</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>salt</rdfs:label>
-        <rdfs:label xml:lang="en">salt</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">salt</rdfs:label>
     </owl:Class>
     
 
@@ -5052,7 +5025,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:26191</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>polyol</rdfs:label>
-        <rdfs:label xml:lang="en">polyol</rdfs:label>
     </owl:Class>
     
 
@@ -5113,7 +5085,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:26709</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>sodium hydrogensulfite</rdfs:label>
-        <rdfs:label xml:lang="en">sodium hydrogensulfite</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium hydrogensulfite</rdfs:label>
     </owl:Class>
     
 
@@ -5158,7 +5130,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:26710</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>sodium chloride</rdfs:label>
-        <rdfs:label xml:lang="en">sodium chloride</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium chloride</rdfs:label>
     </owl:Class>
     
 
@@ -5217,17 +5189,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_27136 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
-        <obo:IAO_0000115>A chemical compound containing three hydroxy groups.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label>triol</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_28874 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28874">
@@ -5253,7 +5214,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:28874</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>phosphatidylinositol</rdfs:label>
-        <rdfs:label xml:lang="en">phosphatidylinositol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">phosphatidylinositol</rdfs:label>
     </owl:Class>
     
 
@@ -5286,10 +5247,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:29864</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): anticaking agent, bulking agent, humectant, stabilizer, sweetener.</rdfs:comment>
         <rdfs:label>mannitol</rdfs:label>
-        <rdfs:label xml:lang="en">mannitol</rdfs:label>
     </owl:Class>
     
 
@@ -5334,11 +5293,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasRelatedSynonym xml:lang="en">sorbitol</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CHEBI:30911</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
-        <rdfs:comment xml:lang="en">LanguaL term definition: Food additive.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): bulking agent, humectant, sequestrant, stabilizer, sweetener.</rdfs:comment>
         <rdfs:label>glucitol</rdfs:label>
-        <rdfs:label xml:lang="en">glucitol</rdfs:label>
     </owl:Class>
     
 
@@ -5380,10 +5336,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasSynonym xml:lang="en">sodium sulfate</oboInOwl:hasSynonym>
         <oboInOwl:id>CHEBI:32149</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): acidity regulator.</rdfs:comment>
         <rdfs:label>sodium sulfate</rdfs:label>
-        <rdfs:label xml:lang="en">sodium sulfate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium sulfate</rdfs:label>
     </owl:Class>
     
 
@@ -5429,10 +5384,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasRelatedSynonym>sylvite</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CHEBI:32588</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): gelling agent, flavour enhancer, stabilizer, thickener.</rdfs:comment>
         <rdfs:label>potassium chloride</rdfs:label>
-        <rdfs:label xml:lang="en">potassium chloride</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">potassium chloride</rdfs:label>
     </owl:Class>
     
 
@@ -5487,10 +5441,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasRelatedSynonym>calcium chloride anhydrous</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CHEBI:3312</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): firming agent, stabilizer, thickener.</rdfs:comment>
         <rdfs:label>calcium dichloride</rdfs:label>
-        <rdfs:label xml:lang="en">calcium dichloride</rdfs:label>
     </owl:Class>
     
 
@@ -5534,7 +5486,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:33261</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>organosulfur compound</rdfs:label>
-        <rdfs:label xml:lang="en">organosulfur compound</rdfs:label>
     </owl:Class>
     
 
@@ -5725,7 +5676,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:33709</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>amino acid</rdfs:label>
-        <rdfs:label xml:lang="en">amino acid</rdfs:label>
     </owl:Class>
     
 
@@ -5852,7 +5802,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:35381</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>monosaccharide</rdfs:label>
-        <rdfs:label xml:lang="en">monosaccharide</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">monosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -5905,7 +5855,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:36093</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>inorganic chloride</rdfs:label>
-        <rdfs:label xml:lang="en">inorganic chloride</rdfs:label>
     </owl:Class>
     
 
@@ -6069,7 +6018,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:38702</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>inorganic sodium salt</rdfs:label>
-        <rdfs:label xml:lang="en">inorganic sodium salt</rdfs:label>
     </owl:Class>
     
 
@@ -6140,7 +6088,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasDbXref>Codex::941</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Europe::941</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3173</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): packaging gas, propellant.</rdfs:comment>
         <rdfs:label>nitrogen molecular entity</rdfs:label>
     </owl:Class>
@@ -6196,7 +6143,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:60479</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>lysophosphatidylcholine</rdfs:label>
-        <rdfs:label xml:lang="en">lysophosphatidylcholine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">lysophosphatidylcholine</rdfs:label>
     </owl:Class>
     
 
@@ -6221,7 +6168,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:64482</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>phosphatidylcholine</rdfs:label>
-        <rdfs:label xml:lang="en">phosphatidylcholine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">phosphatidylcholine</rdfs:label>
     </owl:Class>
     
 
@@ -6238,7 +6185,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:64709</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>organic acid</rdfs:label>
-        <rdfs:label xml:lang="en">organic acid</rdfs:label>
     </owl:Class>
     
 
@@ -6280,10 +6226,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasRelatedSynonym>[MgCl2]</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CHEBI:6636</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): colour retention agent, firming agent, stabilizer.</rdfs:comment>
         <rdfs:label>magnesium dichloride</rdfs:label>
-        <rdfs:label xml:lang="en">magnesium dichloride</rdfs:label>
     </owl:Class>
     
 
@@ -6303,7 +6247,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:id>CHEBI:72544</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>flavonoids</rdfs:label>
-        <rdfs:label xml:lang="en">flavonoids</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">flavonoids</rdfs:label>
     </owl:Class>
     
 
@@ -7291,8 +7235,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001262"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Mature ovary of a plant, with a fleshy part of the carpel that develops with the seed to attract animals for aid in dispersal. Botanically, nuts are considered fruits.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://eurovoc.europa.eu/drupal/?q=request&amp;amp;uri=http://eurovoc.europa.eu/1115</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oek1.fao.org/skosmos/agrovoc/en/page/c_3119</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eurovoc.europa.eu/drupal/?q=request&amp;amp;uri=http://eurovoc.europa.eu/1115</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://oek1.fao.org/skosmos/agrovoc/en/page/c_3119</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.fao.org/pollination/resources/glossary/en/</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fruit</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -13589,7 +13533,6 @@ SIREN DB annotation:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001611"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A whole apple or some substance made from processed apple.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">An apple, whole or in pieces, for eating, baking or other food processing.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10788</oboInOwl:hasDbXref>
@@ -14725,7 +14668,6 @@ Note however that the LanguaL category includes additives which may be naturally
         <obo:IAO_0000115 xml:lang="en">*Phaseolus vulgaris*, also known as the common bean among other names,[ is a herbaceous annual plant grown worldwide for its edible dry seeds or unripe fruit. The main categories of common beans, on the basis of use, are dry beans (seeds harvested at complete maturity), snap beans (tender pods with reduced fibre harvested before the seed development phase) and shell beans (seeds harvested at physiological maturity). Its leaf is also occasionally used as a vegetable and the straw as fodder. Its botanical classification, along with other *Phaseolus* species, is as a member of the legume family *Fabaceae*, most of whose members acquire the nitrogen they require through an association with rhizobia, a species of nitrogen-fixing bacteria.[https://en.wikipedia.org/wiki/Phaseolus_vulgaris]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3885"/>
-        <oboInOwl:hasDbXref>DPNL 2003:11805</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:27632</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:312013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26857</oboInOwl:hasDbXref>
@@ -14768,7 +14710,6 @@ Note however that the LanguaL category includes additives which may be naturally
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Brassica_juncea#Food</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3707"/>
-        <oboInOwl:hasDbXref>DPNL 2003:8096</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:7654</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:23059</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:24014</oboInOwl:hasDbXref>
@@ -14958,7 +14899,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4513"/>
-        <oboInOwl:hasDbXref>DPNL 2003:10323</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:317403</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:40874</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:33890</oboInOwl:hasDbXref>
@@ -15000,7 +14940,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4577"/>
-        <oboInOwl:hasDbXref>DPNL 2003:13973</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:311987</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:42269</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:36372</oboInOwl:hasDbXref>
@@ -15087,7 +15026,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000119>WIKIPEDIA:List_of_tomato_cultivars</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4081"/>
-        <oboInOwl:hasDbXref>DPNL 2003:10985</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:101442</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:521671</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:529044</oboInOwl:hasDbXref>
@@ -15118,7 +15056,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000119>WIKIPEDIA:Kale)</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <oboInOwl:hasDbXref>DPNL 2003:8115</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:319629</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:23062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:23870</oboInOwl:hasDbXref>
@@ -15184,7 +15121,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000119>WIKIPEDIA:Beta_vulgaris</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_161934"/>
-        <oboInOwl:hasDbXref>DPNL 2003:8005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:300073</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:20681</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:BEVU2</oboInOwl:hasDbXref>
@@ -15273,7 +15209,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
  Rice occurs in a variety of colors, including white, brown, black, purple, and red rices. Black rice (also known as purple rice) is a range of rice types, some of which are glutinous rice. Varieties include Indonesian black rice and Thai jasmine black rice. [https://en.wikipedia.org/wiki/Oryza_sativa]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4530"/>
-        <oboInOwl:hasDbXref>DPNL 2003:11528</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:26077</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:41976</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:20986</oboInOwl:hasDbXref>
@@ -15314,7 +15249,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">*Vitis* (grapevines) is a genus of 79 accepted species of vining plants in the flowering plant family *Vitaceae*. The genus is made up of species predominantly from the Northern hemisphere. It is economically important as the source of grapes, both for direct consumption of the fruit and for fermentation to produce wine. [https://en.wikipedia.org/wiki/Vitis]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:13866</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/38383</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1329</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>Vitis</oboInOwl:hasNarrowSynonym>
@@ -15394,7 +15328,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasBroadSynonym xml:lang="en">vicia faba</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3906"/>
-        <oboInOwl:hasDbXref>DPNL 2003:13823</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:300661</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26339</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:30416</oboInOwl:hasDbXref>
@@ -15476,7 +15409,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Cabbage</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <oboInOwl:hasDbXref>DPNL 2003:8101</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:7668</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:23062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:526963</oboInOwl:hasDbXref>
@@ -15549,7 +15481,6 @@ Citrus is a common term and genus (*Citrus*) of flowering plants in the rue fami
 Broccoli is classified in the *Italica* cultivar group of the species *Brassica oleracea*. Broccoli has large flower heads, usually green in color, arranged in a tree-like fashion on branches sprouting from a thick, edible stalk. The mass of flower heads is surrounded by leaves. Broccoli most closely resembles cauliflower, which is a different cultivar group of the same species.</obo:IAO_0000115>
         <obo:IAO_0000119>WIKIPEDIA:Broccoli</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8104</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:105447</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:530957</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:37506</oboInOwl:hasDbXref>
@@ -15611,10 +15542,9 @@ Broccoli is classified in the *Italica* cultivar group of the species *Brassica 
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The hazelnut is the nut of the hazel and therefore includes any of the nuts deriving from species of the genus Corylus, especially the nuts of the species Corylus avellana.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Hazelnut"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13451"/>
-        <oboInOwl:hasDbXref>DPNL 2003:8880</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8881</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:11643</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:300151</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:501642</oboInOwl:hasDbXref>
@@ -15634,7 +15564,6 @@ Broccoli is classified in the *Italica* cultivar group of the species *Brassica 
         <oboInOwl:hasSynonym xml:lang="en">filbert nut</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">hazel</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: When indexing the hazel fruit (nut) index both *HAZEL [B1533]* and *FRUIT [C0167]* (or its more precise narrower terms).</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Hazelnut</rdfs:comment>
         <rdfs:label xml:lang="en">european filbert plant</rdfs:label>
     </owl:Class>
     
@@ -15654,7 +15583,6 @@ Broccoli is classified in the *Italica* cultivar group of the species *Brassica 
         <obo:IAO_0000115 xml:lang="en">*Phaseolus vulgaris*, also known as the common bean among other names,[ is a herbaceous annual plant grown worldwide for its edible dry seeds or unripe fruit. The main categories of common beans, on the basis of use, are dry beans (seeds harvested at complete maturity), snap beans (tender pods with reduced fibre harvested before the seed development phase) and shell beans (seeds harvested at physiological maturity). Its leaf is also occasionally used as a vegetable and the straw as fodder. Its botanical classification, along with other *Phaseolus* species, is as a member of the legume family *Fabaceae*, most of whose members acquire the nitrogen they require through an association with rhizobia, a species of nitrogen-fixing bacteria.[https://en.wikipedia.org/wiki/Phaseolus_vulgaris]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3885"/>
-        <oboInOwl:hasDbXref>DPNL 2003:11805</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:27632</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:312013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26857</oboInOwl:hasDbXref>
@@ -15761,7 +15689,6 @@ Broccoli is classified in the *Italica* cultivar group of the species *Brassica 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413372"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8107</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:7675</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:530959</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:23884</oboInOwl:hasDbXref>
@@ -15787,7 +15714,6 @@ Broccoli is classified in the *Italica* cultivar group of the species *Brassica 
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Phaseolus_vulgaris</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3885"/>
-        <oboInOwl:hasDbXref>DPNL 2003:11805</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:27632</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:312013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26857</oboInOwl:hasDbXref>
@@ -15927,7 +15853,6 @@ If used for food supplement substances, thissection and its narrover terms refer
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>CCPR:</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8093</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:30008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:300085</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:BRASS2</oboInOwl:hasDbXref>
@@ -15989,7 +15914,6 @@ In parts of the United States and Canada, &quot;yam&quot; is sometimes used to r
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4565"/>
-        <oboInOwl:hasDbXref>DPNL 2003:13671</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:40544</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:410383</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:42237</oboInOwl:hasDbXref>
@@ -16075,7 +15999,6 @@ In parts of the United States and Canada, &quot;yam&quot; is sometimes used to r
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">*Ipomoea* is the largest genus in the flowering plant family *Convolvulaceae*, with over 500 species. It is a large and diverse group with common names including morning glory, water convolvulus or kangkung, sweet potato, bindweed, moonflower, etc. [https://en.wikipedia.org/wiki/Ipomoea]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL:10479</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:300283</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:IPOMO</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/4431</oboInOwl:hasDbXref>
@@ -16133,7 +16056,6 @@ In parts of the United States and Canada, &quot;yam&quot; is sometimes used to r
  *Solanum* species show a wide range of growing habits, such as annual and perennials, vines, subshrubs, shrubs, and small trees. Many formerly independent genera like *Lycopersicon* (the tomatoes) and *Cyphomandra* are now included in *Solanum* as subgenera or sections. Thus, the genus today contains roughly 1,500-2,000 species.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Solanum"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:13160</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:300568</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:SOLAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/4437</oboInOwl:hasDbXref>
@@ -16444,9 +16366,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
         <rdfs:label xml:lang="en">data item</rdfs:label>
     </owl:Class>
     
@@ -16462,7 +16382,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
         <rdfs:label xml:lang="en">information content entity</rdfs:label>
     </owl:Class>
     
@@ -16564,7 +16483,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>CCPR:</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:13838</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:105107</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:506274</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:VISU7</oboInOwl:hasDbXref>
@@ -16668,7 +16586,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">common hazel plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8881</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:11643</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:501642</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:COAV80</oboInOwl:hasDbXref>
@@ -16707,7 +16624,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000119>WIKIPEDIA:Cocos_nucifera</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8763</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:11043</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:42451</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:10983</oboInOwl:hasDbXref>
@@ -16835,7 +16751,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">mung bean plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:13837</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:312026</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:506804</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:27370</oboInOwl:hasDbXref>
@@ -16866,7 +16781,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Beta_vulgaris"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:103151</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:7057</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:20681</oboInOwl:hasDbXref>
@@ -17290,7 +17204,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym>angiosperms</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>flowering plants</oboInOwl:hasExactSynonym>
-        <rdfs:label>Magnoliophyta</rdfs:label>
         <rdfs:label>Magnoliopsida</rdfs:label>
     </owl:Class>
     
@@ -17385,7 +17298,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">garden rhubarb plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:12484</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:311395</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:504747</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:RHRH2</oboInOwl:hasDbXref>
@@ -17545,7 +17457,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">black mustard plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:7666</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:23061</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:24109</oboInOwl:hasDbXref>
@@ -17571,8 +17482,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8120</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8121</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>field mustard</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Brassica rapa L.</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Brassica rapa L. var. rapa</oboInOwl:hasNarrowSynonym>
@@ -17594,12 +17503,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8103</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8105</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8110</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8113</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8114</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:8115</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:311416</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:319629</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:319632</oboInOwl:hasDbXref>
@@ -17654,7 +17557,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000119>WIKIPEDIA:White_mustard</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:13121</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:33963</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:23309</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:24142</oboInOwl:hasDbXref>
@@ -17714,7 +17616,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">garden strawberry plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:9868</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:244</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:24630</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:8618</oboInOwl:hasDbXref>
@@ -17812,7 +17713,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">peanut plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:7636</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:3785</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26463</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:29861</oboInOwl:hasDbXref>
@@ -17866,7 +17766,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">garbanzo bean plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8647</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:10535</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26537</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:30808</oboInOwl:hasDbXref>
@@ -17903,7 +17802,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasBroadSynonym xml:lang="en">soya bean</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym xml:lang="en">soybean</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>DPNL 2003:10065</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:17711</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:26716</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:27017</oboInOwl:hasDbXref>
@@ -18149,7 +18047,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000119>WIKIPEDIA:Tomato</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:10985</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:101442</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:521671</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:529044</oboInOwl:hasDbXref>
@@ -18219,7 +18116,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">sweet potato plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:10481</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:20142</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:30764</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:21565</oboInOwl:hasDbXref>
@@ -18310,7 +18206,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">tea plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:8281</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:8732</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:506801</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:4999</oboInOwl:hasDbXref>
@@ -18362,7 +18257,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Oat"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:7879</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:6123</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:41459</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:33218</oboInOwl:hasDbXref>
@@ -18388,9 +18282,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:10323</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:10324</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DPNL 2003:10325</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:19333</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:317403</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:40874</oboInOwl:hasDbXref>
@@ -18438,7 +18329,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">pearl millet plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:11715</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:27187</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:565385</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:PEGL2</oboInOwl:hasDbXref>
@@ -18491,7 +18381,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T22:01:08Z</dc:date>
         <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B2622"/>
-        <oboInOwl:hasDbXref>DPNL 2003:13225</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:35092</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:42108</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:35798</oboInOwl:hasDbXref>
@@ -18550,7 +18439,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">durum wheat plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:13672</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:406896</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:34092</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:TRDU3</oboInOwl:hasDbXref>
@@ -18630,7 +18518,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-19T03:27:12Z</dc:date>
-        <oboInOwl:hasDbXref>DPNL 2003:11276</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:312415</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:MUSA2</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/4249</oboInOwl:hasDbXref>
@@ -18652,7 +18539,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">dwarf banana plant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>DPNL 2003:11277</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GRIN:24706</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:42390</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MANSFELD:12410</oboInOwl:hasDbXref>
@@ -20708,8 +20594,9 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PO:0025034</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/po#TraitNet"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: If the part indexed consists of a large leafstalk and a leaf blade, use *PLANT ABOVE SURFACE, EXCLUDING FRUIT OR SEED*. Compare *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
-        <rdfs:comment xml:lang="en">LanguaL definition: The flat or fleshy expanded blade (lamina) including a small and insignificant leafstalk but excluding a large and fleshy leafstalk such as celery stalks or rhubarb stalks.</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL definition: The flat or fleshy expanded blade (lamina) including a small and insignificant leafstalk but excluding a large and fleshy leafstalk such as celery stalks or rhubarb stalks.
+
+LanguaL curation note: If the part indexed consists of a large leafstalk and a leaf blade, use *PLANT ABOVE SURFACE, EXCLUDING FRUIT OR SEED*. Compare *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
         <rdfs:label>leaf</rdfs:label>
     </owl:Class>
     

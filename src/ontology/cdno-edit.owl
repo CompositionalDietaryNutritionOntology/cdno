@@ -19,10 +19,12 @@
      xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#2"
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cdno/modules/chemical_concentration.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cdno/modules/mappings.owl"/>
@@ -79,8 +81,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200562">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200546"/>
-        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200572">
         <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
@@ -113,8 +115,8 @@
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200433"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200594">
-        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The equivalency statement has been duplicated</obo:IAO_0000231>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200564"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200601">
