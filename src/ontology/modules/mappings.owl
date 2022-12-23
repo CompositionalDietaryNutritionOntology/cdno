@@ -78,9 +78,7 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0200005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200005">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1050</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1072</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2039</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -108,6 +106,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200008">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:PECT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1017</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -184,6 +183,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200017">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:GALAAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1034</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -200,6 +200,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200019">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:XYLFB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1074</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -209,6 +210,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200020">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ARAFB</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ARAS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1073</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -227,6 +229,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200022">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:MANFB</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:MANS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1399</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -279,6 +282,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200028">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:OLSAC</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:OLSACM</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1069</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -295,6 +299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200030">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:RAFS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1076</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -304,6 +309,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200031">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:STAS</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:STASM</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1077</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -313,6 +319,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200032">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VERS</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VERSM</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2063</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -337,8 +344,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:SUGAR-</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:SUGARM</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1063</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1235</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2000</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -350,7 +355,9 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FIBC</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FIBDF</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FIBTGLC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1079</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3020</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -387,6 +394,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FIBINS</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FIBTGLCS</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2034</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -477,6 +485,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200049">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ASN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1231</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -647,7 +656,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200068">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FATPL</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2044</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -925,6 +934,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200113">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:PHOLIP</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1255</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -971,6 +981,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200119">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:GLYLIP</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1256</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -987,6 +998,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:STEOTH</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:STERFRE</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:STERT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3007</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1027,6 +1039,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200126">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:AVEDT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3011</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1044,6 +1057,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200128">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:AVED7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1295</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1070,6 +1084,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200131">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ERGSTR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1284</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1078,6 +1093,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200132">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:SITSTR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3010</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1107,7 +1123,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200136 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200136"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200136">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2043</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1429,6 +1447,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200175">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:NACL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1149</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1458,7 +1477,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200179 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200179"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200179">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2046</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1472,7 +1493,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200182 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200182"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200182">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3002</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1556,6 +1579,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITC</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITC-</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3003</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1564,6 +1588,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200193">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ASCL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1162</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1576,6 +1601,8 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITAA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1104</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1156</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ex:3001</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1630,6 +1657,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITD</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITD-</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3004</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1648,7 +1676,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITEA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1124</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1158</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1242</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1745,19 +1772,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200214">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VITK</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1183</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3006</oboInOwl:hasDbXref>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200215 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200215"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200215">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3008</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200216 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200216"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200216">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3013</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1787,7 +1820,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200220 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200220"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200220">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3019</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1795,6 +1830,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200221">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:POLYPHENT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1209</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1803,6 +1839,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200222">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:TAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3021</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1811,6 +1848,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200223">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:CHLRAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1030</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1820,6 +1858,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200224">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:PAPOLY</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:TAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3017</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1875,7 +1914,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200232 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200232"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200232">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3015</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1883,6 +1924,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200233">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:GALLAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1035</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1897,6 +1939,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200235">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:SALAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1045</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1911,6 +1954,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200237">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:VANAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1207</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -1943,7 +1987,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200242 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200242"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200242">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3014</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -1951,6 +1997,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200243">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:CAFFAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1201</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2005,6 +2052,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200251">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FERAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1204</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2109,6 +2157,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200268">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FLAVD</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1347</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2117,6 +2166,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200269">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:FLAVD</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDBex:1347</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2125,6 +2175,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200270">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:MALVIDIN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1358</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2133,19 +2184,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200271">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:KAEMF</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1388</oboInOwl:hasDbXref>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200272 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200272"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200272">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1362</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200273 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200273"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200273">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1372</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2169,7 +2225,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200277 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200277"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200277">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1373</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2177,6 +2235,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200278">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:HESPT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1374</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2197,7 +2256,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200281 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200281"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200281">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1375</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2205,6 +2266,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200282">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:NARING</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1377</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2257,7 +2319,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200290 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200290"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200290">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1378</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2283,6 +2347,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200294">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:APIGEN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1379</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2363,6 +2428,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200307">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:LUTEOL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1382</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2381,7 +2447,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200310 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200310"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200310">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1383</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2389,6 +2457,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200311">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:QUERCE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1391</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2407,7 +2476,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200314 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200314"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200314">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1384</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2415,6 +2486,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200315">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:TANGER</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1385</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2442,6 +2514,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200319">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:CATEC</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:CATECT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1364</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2582,7 +2655,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200341 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200341"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200341">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1370</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2644,6 +2719,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200351">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ANTCYAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1348</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2688,7 +2764,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200358 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200358"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200358">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1359</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2700,7 +2778,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200360 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200360"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200360">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:3018</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2780,7 +2860,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200373 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200373"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200373">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1343</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -2794,6 +2876,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200375">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:DDZEIN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1340</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2802,6 +2885,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200376">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:GNSTEIN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1341</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2838,6 +2922,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200381">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:GLYCTN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2051</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -2978,6 +3063,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200402">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:LIGN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1080</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3125,6 +3211,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200422">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:OA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1025</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3205,6 +3292,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200432">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:OXALAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1041</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3221,6 +3309,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200434">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:QUINAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1044</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3229,6 +3318,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200435">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:PYRAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1043</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3245,6 +3335,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200437">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:SUCAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1046</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3253,6 +3344,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200438">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:TARAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1047</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3261,6 +3353,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200439">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:ISOCAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1037</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3269,6 +3362,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200440">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:OXACAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1040</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3310,6 +3404,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200445">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:MANTL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1055</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3429,6 +3524,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200460">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:AMYP</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1016</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3437,6 +3533,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200461">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:AMYS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1015</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -3457,7 +3554,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200464 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200464"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200464">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2042</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -3926,7 +4025,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200523 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200523"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200523">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1157</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4036,7 +4137,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200540 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200540"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200540">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:2059</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4070,7 +4173,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200544 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200544"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200544">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1087</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4160,7 +4265,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200559 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200559"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200559">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1088</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4214,7 +4321,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200570 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200570"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200570">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1090</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4256,7 +4365,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200578 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200578"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200578">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1091</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4310,7 +4421,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200592 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200592"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200592">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1092</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4346,7 +4459,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200599 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200599"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200599">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1093</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4460,7 +4575,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200619 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200619"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200619">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1094</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4532,13 +4649,17 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200632 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200632"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200632">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1232</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200633 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200633"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200633">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1215</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4574,7 +4695,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200639 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200639"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200639">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1096</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4592,7 +4715,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200642 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200642"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200642">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1098</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4628,7 +4753,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200648 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200648"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200648">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1100</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4646,7 +4773,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200651 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200651"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200651">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1089</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4682,7 +4811,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200657 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200657"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200657">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1101</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4706,7 +4837,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200661 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200661"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200661">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1102</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4730,7 +4863,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200665 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200665"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200665">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1103</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4760,7 +4895,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200670 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200670"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200670">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1095</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -4852,6 +4989,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200685">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INFOODs:LACS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1013</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -5496,13 +5634,17 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200795 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200795"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200795">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1381</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200796 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200796"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200796">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1390</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -5622,7 +5764,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200816 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200816"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200816">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1387</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -5682,7 +5826,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200826 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200826"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200826">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1386</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -5730,7 +5876,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200834 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200834"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200834">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1361</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -5796,13 +5944,17 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200845 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200845"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200845">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1357</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200846 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200846"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200846">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1360</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -5838,7 +5990,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200852 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200852"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200852">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1376</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -5874,7 +6028,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200858 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200858"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200858">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1345</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -6234,7 +6390,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200918 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200918"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200918">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA_NDB:1083</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -6528,7 +6686,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CDNO_0200967 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200967"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0200967">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ex:1048</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
