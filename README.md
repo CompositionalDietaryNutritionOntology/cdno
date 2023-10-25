@@ -47,5 +47,8 @@ Please use the issue tracker for comments, requests for new terms, and suggestin
 
 <img width="153" alt="cdno" src="https://user-images.githubusercontent.com/25215773/137417012-78e5a8c4-1726-47bb-a193-8f11ff4f6f8e.png">
 
-
+## Contact
+CDNO curator Liliana Andres Hernandez
+Email: landreshdz@gmail.com
+Linkedin: https://www.linkedin.com/in/liliana-andres/
 
