@@ -27,7 +27,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/cdno-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-03-20/cdno-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-03-29/cdno-base.owl"/>
         <dce:description>None</dce:description>
         <dce:title>Compositional Dietary Nutrition Ontology</dce:title>
         <dce:type>http://purl.obolibrary.org/obo/IAO_8000001</dce:type>

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2024-03-20
+data-version: releases/2024-03-29
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -8640,7 +8640,7 @@ is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: CDNO:0500001
-name: dietary role
+name: human dietary role
 def: "A biological role that may be assigned to a dietary chemical component based on evidence that supports a role defined at the levels of molecular interaction, cellular process or physiological role." []
 is_a: BFO:0000023 ! role
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: cdno/releases/2024-03-20/cdno-full.owl
+data-version: cdno/releases/2024-03-29/cdno-full.owl
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -8640,7 +8640,7 @@ is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: CDNO:0500001
-name: dietary role
+name: human dietary role
 def: "A biological role that may be assigned to a dietary chemical component based on evidence that supports a role defined at the levels of molecular interaction, cellular process or physiological role." []
 is_a: BFO:0000023 ! role
 
@@ -33865,8 +33865,8 @@ def: "A 20-carbon, polyunsaturated fatty acid having two double bonds at unspeci
 subset: 3_STAR
 synonym: "20:2" RELATED [ChEBI]
 synonym: "C20:2" RELATED [ChEBI]
-synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acid" RELATED []
+synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acids" RELATED [ChEBI]
 synonym: "icosadienoic acids" RELATED [ChEBI]
 xref: PMID:23475189 {source="Europe PMC"}
