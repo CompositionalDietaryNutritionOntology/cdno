@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/foodon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-03-20/imports/foodon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-03-29/imports/foodon_import.owl"/>
     </owl:Ontology>
     
 
@@ -240,6 +240,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
     
 
 
@@ -3966,7 +3972,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>CHEBI:17151</oboInOwl:id>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): emulsifier, humectant, stabilizer, sweetener, thickener.</rdfs:comment>
         <rdfs:label>xylitol</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">xylitol</rdfs:label>
     </owl:Class>
     
 
@@ -4104,6 +4109,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasAlternativeId>CHEBI:6486</oboInOwl:hasAlternativeId>
         <oboInOwl:id>CHEBI:18059</oboInOwl:id>
         <rdfs:label>lipid</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">lipid</rdfs:label>
     </owl:Class>
     
 
@@ -4142,6 +4148,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <oboInOwl:id>CHEBI:190297</oboInOwl:id>
         <rdfs:label>inorganic magnesium salt</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">inorganic magnesium salt</rdfs:label>
     </owl:Class>
     
 
@@ -4493,7 +4500,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasExactSynonym xml:lang="en">sodium bisulfate</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CHEBI:26709</oboInOwl:id>
         <rdfs:label>sodium hydrogensulfite</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium hydrogensulfite</rdfs:label>
     </owl:Class>
     
 
@@ -4597,7 +4603,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>CHEBI:29864</oboInOwl:id>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): anticaking agent, bulking agent, humectant, stabilizer, sweetener.</rdfs:comment>
         <rdfs:label>mannitol</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">mannitol</rdfs:label>
     </owl:Class>
     
 
@@ -6897,6 +6902,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4567"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A hard wheat food product which has durum wheat as a defining ingredient.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">durum wheat food product</rdfs:label>
     </owl:Class>
     
@@ -7858,7 +7864,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115 xml:lang="en">Invertebrates are animals that neither possess nor develop a vertebral column (commonly known as a backbone or spine), derived from the notochord. This includes all animals apart from the subphylum Vertebrata.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Invertebrate</obo:IAO_0000119>
-        <oboInOwl:hasBroadSynonym xml:lang="en">animal</oboInOwl:hasBroadSynonym>
         <rdfs:label xml:lang="en">invertebrate animal</rdfs:label>
     </owl:Class>
     
@@ -8449,14 +8454,14 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A multicellular eukaryotic heterotrophic organism within the kingdom Animalia.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A whole animal.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Animal"/>
+        <obo:IAO_0000600 xml:lang="en">A multicellular eukaryotic heterotrophic organism within the kingdom Animalia.</obo:IAO_0000600>
         <terms:contributor>http://orcid.org/0000-0002-8844-9165</terms:contributor>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-14T18:02:36Z</terms:date>
         <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B1297"/>
         <rdfs:comment xml:lang="en">A whole animal can be dead or alive, but its body must be relatively intact.</rdfs:comment>
+        <rdfs:comment xml:lang="en">An organism which is dead or alive and has a relatively intact body.</rdfs:comment>
         <rdfs:label xml:lang="en">animal</rdfs:label>
     </owl:Class>
     
@@ -9131,6 +9136,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003478"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030103"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -9140,9 +9146,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A drupe fruit of a sweet cherry plant (Prunus avium).</obo:IAO_0000115>
         <terms:contributor>http://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:48:03</terms:date>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-12T12:43:23</terms:date>
         <oboInOwl:hasExactSynonym xml:lang="en">sweet cherry</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">sweet cherry</rdfs:label>
     </owl:Class>
@@ -9654,7 +9658,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115 xml:lang="en">A caryopsis fruit of a rice plant (Oryza sativa).</obo:IAO_0000115>
         <terms:contributor>http://orcid.org/0000-0002-8844-9165</terms:contributor>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T03:37:39</terms:date>
-        <rdfs:label xml:lang="en">whole grain rice</rdfs:label>
+        <rdfs:label xml:lang="en">whole grain rice kernel</rdfs:label>
     </owl:Class>
     
 
@@ -10003,7 +10007,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003478">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002478"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030103"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -14440,8 +14443,6 @@ Renamed from *SEED OR KERNEL, SKIN PRESENT, GERM PRESENT* in LanguaL 2008.</rdfs
         <obo:IAO_0000115 xml:lang="en">A material that derives from some animal.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://langual.org"/>
         <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
         <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0164"/>
         <rdfs:comment xml:lang="en">Langual note: Includes eggs and milk that, although separated from the animal, are produced as integral parts and are affected by the animal&apos;s food intake and metabolism.</rdfs:comment>
@@ -17231,18 +17232,18 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasExactSynonym>植物体全体 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>bush (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>frutex (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>frutices (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>frutices (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>gametophyte (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>herb (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>liana (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>prothalli (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>prothalli (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>prothallium (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>prothallus (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>seedling (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>shrub (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>sporophyte (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>suffrutex (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>suffrutices (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>suffrutices (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>tree (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>vine (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>woody clump (narrow)</oboInOwl:hasNarrowSynonym>
@@ -17918,7 +17919,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Poaceae crown (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>shoot (related)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>thalli (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>thalli (related, plural)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>thallus (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PO:0009006</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/po#TraitNet"/>
@@ -18295,7 +18296,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasNarrowSynonym>bole (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>cane (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>caudex (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>caudices (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>caudices (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>core (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>primocane (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>scape (narrow)</oboInOwl:hasNarrowSynonym>
@@ -19194,7 +19195,7 @@ LanguaL curation note: If the part indexed consists of a large leafstalk and a l
         <oboInOwl:hasExactSynonym>microsporangio (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>小胞子嚢 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>macrosporangia (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>macrosporangia (related, plural)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>macrosporangium (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PO:0025202</oboInOwl:id>
         <rdfs:label>microsporangium</rdfs:label>
