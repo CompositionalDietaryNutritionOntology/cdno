@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/foodon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-03-29/imports/foodon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-05-13/imports/foodon_import.owl"/>
     </owl:Ontology>
     
 
@@ -4603,6 +4603,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>CHEBI:29864</oboInOwl:id>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): anticaking agent, bulking agent, humectant, stabilizer, sweetener.</rdfs:comment>
         <rdfs:label>mannitol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">mannitol</rdfs:label>
     </owl:Class>
     
 
@@ -8131,24 +8132,13 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3821"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3821"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002780"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310646"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8654,17 +8644,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301353"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3818"/>
                     </owl:Restriction>
@@ -8673,12 +8652,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002099"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310646"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301353"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -10922,35 +10895,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301353">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420227"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3818"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002099"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420227"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A pod of a peanut plant.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F1353"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* whole, natural shape FOODON:03430150
-* seed in shell or hull FOODON:03420227</rdfs:comment>
-        <rdfs:label xml:lang="en">peanut pod</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03301403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301403">
@@ -11593,8 +11537,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A whole soybean or some substance made from a processed soybean.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://langual.org"/>
+        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
         <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F4996"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">soybean</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">SIREN DB annotation:
 * seed (anatomical part) FOODON:03420155</rdfs:comment>
         <rdfs:label xml:lang="en">soybean (whole or pieces)</rdfs:label>
@@ -14524,19 +14471,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420227 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0227"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used for seeds in hard shells rather than pods. Examples include brazil nuts, walnuts, almonds and peanuts.</rdfs:comment>
-        <rdfs:label xml:lang="en">seed(s) in shell or hull</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03420228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420228">
@@ -16137,7 +16071,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">The soybean or soya bean (Glycine max) is a species of legume native to East Asia, widely grown for its edible bean, which has numerous uses.  Traditional unfermented food uses of soybeans include soy milk, from  which tofu and tofu skin are made. Fermented soy foods include soy sauce, fermented bean paste, nattō, and tempeh.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">soybean plant</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Soybean</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasBroadSynonym xml:lang="en">soya bean</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym xml:lang="en">soybean</oboInOwl:hasBroadSynonym>
@@ -16147,7 +16080,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B1452"/>
         <oboInOwl:hasDbXref>MANSFELD:27017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PLANTS:GLMA4</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">glycine max</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>soybean</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>soybeans</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Glycine max (L.) Merr.</oboInOwl:hasNarrowSynonym>
