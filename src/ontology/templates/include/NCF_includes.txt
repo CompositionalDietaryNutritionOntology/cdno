@@ -1008,6 +1008,16 @@ CHEBI:9151	#Sinalbin
 CHEBI:9162	#sinigrin(1-) 
 CHEBI:78802	#diarylheptanoid 
 CHEBI:141540	#myricanone 
+CDNO:0000032	#soluble dietary fibre precipitate (SDFP)
+CDNO:0000033	#soluble dietary fibre soluble (SDFS)
+CDNO:0000034	#low molecular weight dietary fibre
+CDNO:0000035	#high molecular weight dietary fibre
+CDNO:0000036	#fermentable dietary fibre
+CDNO:0000037	#non-fermentable dietary fibre
+CDNO:0000038	#viscous dietary fibre
+CDNO:0000039	#added dietary fibre
+CDNO:0000040	#prebiotic dietary fibre
+
 
 
 CDNO:0400001	#dietary material physical attribute
