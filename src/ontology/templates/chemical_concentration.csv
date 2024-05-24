@@ -926,16 +926,16 @@ CDNO:0200929,,CHEBI:5769,humulone ,BFO:0000040,material entity
 CDNO:0200930,,CHEBI:8870,Rishitin ,BFO:0000040,material entity
 CDNO:0200931,,CHEBI:16997,"propane-1,2-diol ",BFO:0000040,material entity
 CDNO:0200932,,CHEBI:17268,myo-inositol,BFO:0000040,material entity
-CDNO:0200933,,CHEBI:28600),farnesol ,BFO:0000040,material entity
-CDNO:0200934,,CHEBI:28283),capsidiol ,BFO:0000040,material entity
-CDNO:0200935,,CHEBI:4038),Cynaropicrin ,BFO:0000040,material entity
-CDNO:0200936,,CHEBI:5993),Isocaryophyllene ,BFO:0000040,material entity
+CDNO:0200933,,CHEBI:28600,farnesol ,BFO:0000040,material entity
+CDNO:0200934,,CHEBI:28283,capsidiol ,BFO:0000040,material entity
+CDNO:0200935,,CHEBI:4038,Cynaropicrin ,BFO:0000040,material entity
+CDNO:0200936,,CHEBI:5993,Isocaryophyllene ,BFO:0000040,material entity
 CDNO:0200937,,CHEBI:61700,(+)-valencene,BFO:0000040,material entity
-CDNO:0200938,,CHEBI:6360),Lactupicrin ,BFO:0000040,material entity
-CDNO:0200939,,CHEBI:6699),Matricin ,BFO:0000040,material entity
-CDNO:0200940,,CHEBI:7603),Nobilin ,BFO:0000040,material entity
+CDNO:0200938,,CHEBI:6360,Lactupicrin ,BFO:0000040,material entity
+CDNO:0200939,,CHEBI:6699,Matricin ,BFO:0000040,material entity
+CDNO:0200940,,CHEBI:7603,Nobilin ,BFO:0000040,material entity
 CDNO:0200941,,CHEBI:81377,(+)-nootkatone ,BFO:0000040,material entity
-CDNO:0200942,,CHEBI:90275),lactucopicrin ,BFO:0000040,material entity
+CDNO:0200942,,CHEBI:90275,lactucopicrin ,BFO:0000040,material entity
 CDNO:0200943,,CHEBI:9698,Tricyclodehydroisohumulone,BFO:0000040,material entity
 CDNO:0200944,,CHEBI:3918,crocetin ,BFO:0000040,material entity
 CDNO:0200945,,CHEBI:5920,Ineketone ,BFO:0000040,material entity
