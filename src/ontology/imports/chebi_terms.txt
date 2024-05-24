@@ -6,20 +6,20 @@ CHEBI:31018	#(+)-gallocatechin
 CHEBI:67347	#(+)-pisatin
 CHEBI:4806	#(−)-epigallocatechin 3-gallate
 CHEBI:108	#(−)-phaseolin
-CHEBI:57455	#(6R)-5,10-methenyltetrahydrofolate
-CHEBI:132141	#1,2-napthoquinone
-CHEBI:132142	#1,4-napthoquinone
+CHEBI:57455	"#(6R)-5,10-methenyltetrahydrofolate"
+CHEBI:132141	"#1,2-napthoquinone"
+CHEBI:132142	"#1,4-napthoquinone"
 CHEBI:166897	#3-arylcoumarin
 CHEBI:88354	#3-hydroxyphloretin-2'-o-xylosyl-glucoside
 CHEBI:70254	#3'-o-methylepicatechin
 CHEBI:70253	#4'-o-methylepigallocatechin
 CHEBI:70256	#4'-o-methylepigallocatechin-3-O-gallate
-CHEBI:29503	#4',7-dihydroxyflavone
+CHEBI:29503	"#4',7-dihydroxyflavone"
 CHEBI:15640	#5-formyltetrahydrofolic acid
 CHEBI:2197	#6-hydroxyluteolin
 CHEBI:66046	#6-hydroxyluteolin 7-o-rhamnoside
 CHEBI:27566	#6-prenylnaringenin
-CHEBI:77366	#6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid
+CHEBI:77366	"#6Z,9Z,12Z,15Z,18Z,21Z-tetracosahexaenoic acid"
 CHEBI:15366	#acetic acid
 CHEBI:27632	#acetophenone
 CHEBI:133348	#acetyl glycitin
@@ -674,7 +674,7 @@ CHEBI:18394	#6-O-α-D-glucopyranosyl-D-fructofuranose
 CHEBI:26667	#sialic acid
 CHEBI:181906	#Polydextrose
 CHEBI:16261	#chitosan
-CHEBI:88363	#8,5'-diferulic acid
+CHEBI:88363	"#8,5'-diferulic acid"
 CHEBI:28814	#piceatannol
 CHEBI:132853	#acteoside
 CHEBI:133365	#pelargonin
@@ -686,7 +686,7 @@ CHEBI:71045	#bisdemethoxycurcumin
 CHEBI:149610	#(+)-catechin-3'-methyl ether
 CHEBI:174910	#4'-O-methyl-(−)-epicatechin
 CHEBI:3962	#curcumin
-CHEBI:42680	#(2-cis,6-cis)-farnesol
+CHEBI:42680	"#(2-cis,6-cis)-farnesol"
 CHEBI:76193	#(E)-trans-miyabenol C
 CHEBI:8824	#trans-rhaponticin
 CHEBI:36027	#stilbenol 
@@ -705,12 +705,12 @@ CHEBI:18125	#trans-2-coumaric acid
 CHEBI:18346	#vanillin
 CHEBI:4917	#eugenol
 CHEBI:33570	#benzenediols
-CHEBI:50205	#3,4-dihydroxybenzaldehyde
+CHEBI:50205	"#3,4-dihydroxybenzaldehyde"
 CHEBI:145967	#5-heptadecylresorcinol
 CHEBI:145969	#5-tricosylresorcinol
 CHEBI:2120	#cardol
-CHEBI:39912	#3,5-dihydroxybenzoic acid
-CHEBI:18414	#2',4'-dihydroxyacetophenone
+CHEBI:39912	"#3,5-dihydroxybenzoic acid"
+CHEBI:18414	"#2',4'-dihydroxyacetophenone"
 CHEBI:17594	#hydroquinone
 CHEBI:18243	#dopamine
 CHEBI:27810	#resorcinol
@@ -721,7 +721,7 @@ CHEBI:67244	#(−)-lariciresinol
 CHEBI:67246	#(+)-lariciresinol
 CHEBI:9127	#Sesamolinol
 CHEBI:143237	#2-O-sulfate-4-hydroxyacetophenone
-CHEBI:15712	#2,3-dihydrobiochanin A
+CHEBI:15712	"#2,3-dihydrobiochanin A"
 CHEBI:16388	#4-hydroxymandelic acid
 CHEBI:16786	#vestitone
 CHEBI:17445	#3-hydroxyphenylacetic acid
@@ -741,11 +741,11 @@ CHEBI:37946	#dopamine 3-O-sulfate
 CHEBI:5325	#gentisyl alcohol
 CHEBI:71062	#quinol sulfate
 CHEBI:17043	#biphenyl-2-ol
-CHEBI:41941	#(3,4-dihydroxyphenyl)acetic acid 
-CHEBI:36062	#3,4-dihydroxybenzoic acid 
+CHEBI:41941	"#(3,4-dihydroxyphenyl)acetic acid "
+CHEBI:36062	"#3,4-dihydroxybenzoic acid "
 CHEBI:17254	#4-methylcatechol 
 CHEBI:18404	#3-methylcatechol 
-CHEBI:1387	#3,4-dihydroxyphenylethyleneglycol 
+CHEBI:1387	"#3,4-dihydroxyphenylethyleneglycol "
 CHEBI:28631	#3-phenylpropionic acid 
 CHEBI:28647	#3-O-methylgallic acid
 CHEBI:192499	#anthoxanthin
@@ -767,16 +767,16 @@ CHEBI:17846	#(S)-naringenin
 CHEBI:5262	#galangin 
 CHEBI:6099	#kaempferide 
 CHEBI:6579	#luteolin 7-O-(6-O-malonyl-β-D-glucoside) 
-CHEBI:131498	#quercetin 3,4'-di-O-β-D-glucoside 
-CHEBI:131499	#quercetin 7,4'-di-O-β-D-glucoside 
+CHEBI:131498	"#quercetin 3,4'-di-O-β-D-glucoside "
+CHEBI:131499	"#quercetin 7,4'-di-O-β-D-glucoside "
 CHEBI:31743	#kaempferol 3-O-β-D-glucosyl-(1→2)-β-D-glucosyl-(1→2)-β-D-glucoside 
 CHEBI:32082	#quercetin 3-O-β-D-glucosyl-(1→2)-β-D-glucoside
 CHEBI:6052	#isorhamnetin 
 CHEBI:67486	#quercetin 3-O-β-D-galactopyranoside 
-CHEBI:16514	#4',5,7-trihydroxy-3'-methoxyflavone 
+CHEBI:16514	"#4',5,7-trihydroxy-3'-methoxyflavone "
 CHEBI:31742	#kaempferol 3-O-β-D-galactoside 
 CHEBI:42567	#fisetin 
-CHEBI:59979	#3',5'-di-O-methyltricetin 
+CHEBI:59979	"#3',5'-di-O-methyltricetin "
 CHEBI:6553	#lucenin-2 
 CHEBI:68352	#quercetin 3-O-β-D-glucopyranoside 
 CHEBI:75721	#kaempferol 3-O-glucuronide 
@@ -786,7 +786,7 @@ CHEBI:17965	#isoorientin
 CHEBI:66395	#miquelianin 
 CHEBI:4932	#eupatilin 
 CHEBI:3978	#cyanin 
-CHEBI:5263	#galangin 3,5,7-trimethyl ether
+CHEBI:5263	"#galangin 3,5,7-trimethyl ether"
 CHEBI:35218	#anthocyanin cation
 CHEBI:80441	#Tulipanin 
 CHEBI:75318	#petunidin 
@@ -795,7 +795,7 @@ CHEBI:31967	#pelargonidin 3-O-beta-D-glucoside
 CHEBI:74793	#peonidin 3-O-β-D-glucoside
 CHEBI:310312	#isoliquiritigenin 
 CHEBI:145829	#trilobatin 
-CHEBI:15649	#3,6,9-trihydroxypterocarpan
+CHEBI:15649	"#3,6,9-trihydroxypterocarpan"
 CHEBI:17556	#phaseollidin 
 CHEBI:38695	#anthocyanidin 
 CHEBI:38701	#delphinidin chloride 
@@ -824,10 +824,10 @@ CHEBI:5972	#Irisolidone
 CHEBI:17574	#biochanin A 
 CHEBI:17678	#2'-hydroxyformononetin 
 CHEBI:17793	#calycosin
-CHEBI:74957	#4',6,7-trihydroxyisoflavone
+CHEBI:74957	"#4',6,7-trihydroxyisoflavone"
 CHEBI:69437	#orobol 
 CHEBI:5970	#irilone 
-CHEBI:50399	#3',4',7-trihydroxyisoflavone 
+CHEBI:50399	"#3',4',7-trihydroxyisoflavone "
 CHEBI:8600	#prunetin 
 CHEBI:27479	#2'-hydroxydaidzein 
 CHEBI:28620	#licoisoflavone A 
@@ -854,10 +854,10 @@ CHEBI:7948	#Pedunculagin
 CHEBI:9433	#Tellimagrandin I
 CHEBI:30763	#4-hydroxybenzoic acid 
 CHEBI:30764	#3-hydroxybenzoic acid 
-CHEBI:18026	#2,3-dihydroxybenzoic acid 
-CHEBI:17189	#2,5-dihydroxybenzoic acid 
-CHEBI:68465	#2,6-dihydroxybenzoic acid 
-CHEBI:165217	#2,4,6-Trihydroxybenzoic acid 
+CHEBI:18026	"#2,3-dihydroxybenzoic acid "
+CHEBI:17189	"#2,5-dihydroxybenzoic acid "
+CHEBI:68465	"#2,6-dihydroxybenzoic acid "
+CHEBI:165217	"#2,4,6-Trihydroxybenzoic acid "
 CHEBI:63798	#3-hydroxy-4-methoxybenzoic acid 
 CHEBI:10607	#n-propyl gallate
 CHEBI:27881	#resveratrol 
@@ -892,20 +892,20 @@ CHEBI:8367	#Prebetanin
 CHEBI:85533	#trans-4-hydroxy-L-proline betaine
 CHEBI:5769	#humulone 
 CHEBI:8870	#Rishitin 
-CHEBI:16997	#propane-1,2-diol 
+CHEBI:16997	"#propane-1,2-diol "
 CHEBI:17113	#erythritol 
 CHEBI:17268	#myo-inositol
 CHEBI:26658	#sesquiterpenoid 
-CHEBI:28600)	#farnesol 
-CHEBI:28283)	#capsidiol 
-CHEBI:4038)	#Cynaropicrin 
-CHEBI:5993)	#Isocaryophyllene 
+CHEBI:28600	#farnesol 
+CHEBI:28283	#capsidiol 
+CHEBI:4038	#Cynaropicrin 
+CHEBI:5993	#Isocaryophyllene 
 CHEBI:61700	#(+)-valencene
-CHEBI:6360)	#Lactupicrin 
-CHEBI:6699)	#Matricin 
-CHEBI:7603)	#Nobilin 
+CHEBI:6360	#Lactupicrin 
+CHEBI:6699	#Matricin 
+CHEBI:7603	#Nobilin 
 CHEBI:81377	#(+)-nootkatone 
-CHEBI:90275)	#lactucopicrin 
+CHEBI:90275	#lactucopicrin 
 CHEBI:9698	#Tricyclodehydroisohumulone
 CHEBI:3918	#crocetin 
 CHEBI:5920	#Ineketone 
@@ -934,7 +934,7 @@ CHEBI:9210	#Soyasaponin A1
 CHEBI:9908	#ursolic acid 
 CHEBI:23042	#carotene 
 CHEBI:8191	#all-trans-phytoene 
-CHEBI:27448	#lutein 5,6-epoxide
+CHEBI:27448	"#lutein 5,6-epoxide"
 CHEBI:27867	#antheraxanthin 
 CHEBI:32446	#all-trans-neoxanthin 
 CHEBI:3362	#canthaxanthin 
@@ -966,20 +966,20 @@ CHEBI:15420	#perillyl alcohol
 CHEBI:10782	#(S)-(-)-perillyl alcohol
 CHEBI:15939	#glycyrrhizinic acid
 CHEBI:16226	#limonin 
-CHEBI:165	#(1S,4R)-fenchone
-CHEBI:17219	#limonene-1,2-diol 
+CHEBI:165	"#(1S,4R)-fenchone"
+CHEBI:17219	"#limonene-1,2-diol "
 CHEBI:17327	#phytol 
-CHEBI:17407	#2-trans,6-trans-farnesyl diphosphate 
+CHEBI:17407	"#2-trans,6-trans-farnesyl diphosphate "
 CHEBI:17447	#geraniol 
 CHEBI:17898	#all-trans-retinal 
 CHEBI:2366	#absinthin 
 CHEBI:25459	#myrtenic acid 
 CHEBI:27408	#avenacin A-1 
 CHEBI:27774	#lubimin 
-CHEBI:27961	#1,8-cineole 
+CHEBI:27961	"#1,8-cineole "
 CHEBI:28093	#borneol 
 CHEBI:2961	#Azukisaponin III 
-CHEBI:90236	#(2E,6E)-farnesyl monophosphate 
+CHEBI:90236	"#(2E,6E)-farnesyl monophosphate "
 CHEBI:9211	#soyasaponin I 
 CHEBI:9228	#Spinasaponin A 
 CHEBI:9517	#Theasaponin 
@@ -1005,5 +1005,3 @@ CHEBI:9151	#Sinalbin
 CHEBI:9162	#sinigrin(1-) 
 CHEBI:78802	#diarylheptanoid 
 CHEBI:141540	#myricanone
-
-
