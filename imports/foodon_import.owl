@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/foodon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-05-13/imports/foodon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2024-05-24/imports/foodon_import.owl"/>
     </owl:Ontology>
     
 
@@ -3972,6 +3972,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>CHEBI:17151</oboInOwl:id>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): emulsifier, humectant, stabilizer, sweetener, thickener.</rdfs:comment>
         <rdfs:label>xylitol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">xylitol</rdfs:label>
     </owl:Class>
     
 
@@ -4109,7 +4110,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasAlternativeId>CHEBI:6486</oboInOwl:hasAlternativeId>
         <oboInOwl:id>CHEBI:18059</oboInOwl:id>
         <rdfs:label>lipid</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">lipid</rdfs:label>
     </owl:Class>
     
 
@@ -4500,6 +4500,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasExactSynonym xml:lang="en">sodium bisulfate</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CHEBI:26709</oboInOwl:id>
         <rdfs:label>sodium hydrogensulfite</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium hydrogensulfite</rdfs:label>
     </owl:Class>
     
 
@@ -4603,7 +4604,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>CHEBI:29864</oboInOwl:id>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): anticaking agent, bulking agent, humectant, stabilizer, sweetener.</rdfs:comment>
         <rdfs:label>mannitol</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">mannitol</rdfs:label>
     </owl:Class>
     
 
@@ -4636,6 +4636,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>CHEBI:30911</oboInOwl:id>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): bulking agent, humectant, sequestrant, stabilizer, sweetener.</rdfs:comment>
         <rdfs:label>glucitol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">glucitol</rdfs:label>
     </owl:Class>
     
 
