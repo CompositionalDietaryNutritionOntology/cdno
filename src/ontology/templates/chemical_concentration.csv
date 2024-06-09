@@ -1033,3 +1033,12 @@ CDNO:0201036,,CHEBI:9151,Sinalbin ,BFO:0000040,material entity
 CDNO:0201037,,CHEBI:9162,sinigrin(1-) ,BFO:0000040,material entity
 CDNO:0201038,,CHEBI:78802,diarylheptanoid ,BFO:0000040,material entity
 CDNO:0201039,,CHEBI:141540,myricanone ,BFO:0000040,material entity
+CDNO:0201040,,CDNO:0000032,high molecular weight dietary fibre,BFO:0000040,material entity
+CDNO:0201041,,CDNO:0000033,fermentable dietary fibre,BFO:0000040,material entity
+CDNO:0201042,,CDNO:0000034,non-fermentable dietary fibre,BFO:0000040,material entity
+CDNO:0201043,,CDNO:0000035,viscous dietary fibre,BFO:0000040,material entity
+CDNO:0201044,,CDNO:0000036,added dietary fibre,BFO:0000040,material entity
+CDNO:0201045,,CDNO:0000037,prebiotic dietary fibre,BFO:0000040,material entity
+CDNO:0201046,,CDNO:0000038,soluble dietary fibre precipitate (SDFP),BFO:0000040,material entity
+CDNO:0201047,,CDNO:0000039,soluble dietary fibre soluble (SDFS),BFO:0000040,material entity
+CDNO:0201048,,CDNO:0000040,low molecular weight dietary fibre,BFO:0000040,material entity

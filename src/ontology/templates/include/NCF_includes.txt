@@ -33,7 +33,16 @@ CHEBI:28586	#verbascose
 CDNO:0000003	#available
 CDNO:0000004	#free
 CDNO:0000005	#dietary
+CDNO:0000032	#high molecular weight dietary fibre
+CDNO:0000033	#fermentable dietary fibre
+CDNO:0000034	#non-fermentable dietary fibre
+CDNO:0000035	#viscous dietary fibre
+CDNO:0000036	#added dietary fibre
+CDNO:0000037	#prebiotic dietary fibre
 CDNO:0000006	#soluble
+CDNO:0000038	#soluble dietary fibre precipitate (SDFP)
+CDNO:0000039	#soluble dietary fibre soluble (SDFS)
+CDNO:0000040	#low molecular weight dietary fibre
 CDNO:0000007	#resistant
 CDNO:0000008	#insoluble
 CHEBI:28796	#fructan
