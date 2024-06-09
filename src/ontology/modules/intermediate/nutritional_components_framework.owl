@@ -142,13 +142,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
-        <obo:IAO_0000115 xml:lang="en">A carbohydrate that resists enzymatic digestion in the digestive systems of humans and other monogastric species.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A carbohydrate or associated lignin that resists hydrolytic digestion in the small intestine of humans and other monogastric species, with fermentative digestion in the large intestine</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary fibre</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A carbohydrate that resists enzymatic digestion in the digestive systems of humans and other monogastric species.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A carbohydrate or associated lignin that resists hydrolytic digestion in the small intestine of humans and other monogastric species, with fermentative digestion in the large intestine</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3614039/"/>
     </owl:Axiom>
     
@@ -158,13 +158,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
-        <obo:IAO_0000115 xml:lang="en">Dietary fibre which dissolves in water and is primarily fermented in the colon of monogastric animals by gut bacteria</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre which dissolves in water and is partially or completely fermented in the colon of monogastric animals by gut bacteria.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">water soluble dietary fibre</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">soluble dietary fibre</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Dietary fibre which dissolves in water and is primarily fermented in the colon of monogastric animals by gut bacteria</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Dietary fibre which dissolves in water and is partially or completely fermented in the colon of monogastric animals by gut bacteria.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://dx.doi.org/10.20431/2454-6224.0310004"/>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.4141/A05-049"/>
     </owl:Axiom>
@@ -192,13 +193,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
-        <obo:IAO_0000115 xml:lang="en">Dietary fibre which does not dissolve in water and is inert to digestive enzymes in the upper gastrointestinal tract of monogastric animals.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre which does not dissolve in water and is inert to digestive enzymes in the upper gastrointestinal tract of monogastric animals, with variable fermentability in the large bowel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">water insoluble dietary fibre</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">insoluble dietary fibre</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Dietary fibre which does not dissolve in water and is inert to digestive enzymes in the upper gastrointestinal tract of monogastric animals.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Dietary fibre which does not dissolve in water and is inert to digestive enzymes in the upper gastrointestinal tract of monogastric animals, with variable fermentability in the large bowel.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Dietary_fiber#cite_note-Oregon-3"/>
     </owl:Axiom>
     
@@ -508,6 +510,132 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">A complex carbohydrate with various rheological properties that result in viscoelastic behavior</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.4013/4964"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">Fractions of dietary fibre calculated as the sum of water insoluble dietary fibre (IDF)(e.g. cellulose) and soluble dietary fibre that precipitates in the presence of 78% aqueous ethanol (SDFP).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">high molecular weight dietary fibre</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Fractions of dietary fibre calculated as the sum of water insoluble dietary fibre (IDF)(e.g. cellulose) and soluble dietary fibre that precipitates in the presence of 78% aqueous ethanol (SDFP).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/jaoacint/qsad051"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre of degree of polymerization (DP) &gt; 2 resistant to digestion and absorption in the human small intestine but that is partially or completely fermented by the large bowel microbiota.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">fermentable dietary fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre that resists degradation by the bacteria in the colon, resulting in limited action by the large bowel microbiota.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">non-fermentable dietary fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Soluble dietary fibre that dissolves in water to form semifluid solutions or a gel-like matrix, and exhibits high shear strength in aqueous solutions.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">viscous dietary fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre which has been isolated or synthesized and is added to the diet of humans or other monogastric species that has beneficial physiological effects.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">added dietary fibre</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dietary fibre which has been isolated or synthesized and is added to the diet of humans or other monogastric species that has beneficial physiological effects.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.17226/10161"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre that is selectively utilized by host microorganisms conferring a health benefit.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">prebiotic dietary fibre</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dietary fibre that is selectively utilized by host microorganisms conferring a health benefit.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1038/nrgastro.2017.75"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Water soluble dietary fibre which precipitates in 78% aqueous ethanol.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">soluble dietary fibre precipitate (SDFP)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Water soluble dietary fibre which precipitates in 78% aqueous ethanol.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/jaoacint/qsad051"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Water soluble dietary fibre which remains soluble in 78% aqueous ethanol.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">soluble dietary fibre soluble (SDFS)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Water soluble dietary fibre which remains soluble in 78% aqueous ethanol.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/jaoacint/qsad051"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary fibre oligomers of degree of polymerization (DP) &gt; 2 which remain soluble in 78% aqueous ethanol and are not digested by enzymes of the human digestive tract.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">low molecular weight dietary fibre</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Dietary fibre oligomers of degree of polymerization (DP) &gt; 2 which remain soluble in 78% aqueous ethanol and are not digested by enzymes of the human digestive tract.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1093/jaoacint/qsad051"/>
     </owl:Axiom>
     
 
@@ -7620,7 +7748,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24698"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">quercetin 3-O-β-D-glucopyranoside </rdfs:label>
     </owl:Class>
     
 
