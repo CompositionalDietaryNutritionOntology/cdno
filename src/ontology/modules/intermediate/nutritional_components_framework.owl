@@ -141,7 +141,7 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A carbohydrate or associated lignin that resists hydrolytic digestion in the small intestine of humans and other monogastric species, with fermentative digestion in the large intestine</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dietary fibre</rdfs:label>
     </owl:Class>
@@ -158,6 +158,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <obo:IAO_0000115 xml:lang="en">Dietary fibre which dissolves in water and is partially or completely fermented in the colon of monogastric animals by gut bacteria.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">water soluble dietary fibre</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">soluble dietary fibre</rdfs:label>
@@ -7465,6 +7466,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_6457 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26004"/>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">lignin</rdfs:label>
     </owl:Class>
