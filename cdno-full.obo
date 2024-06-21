@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: cdno/releases/2024-06-09/cdno-full.owl
+data-version: cdno/releases/2024-06-21/cdno-full.owl
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -81,7 +81,7 @@ is_a: CDNO:0000003 ! available carbohydrate
 id: CDNO:0000005
 name: dietary fibre
 def: "A carbohydrate or associated lignin that resists hydrolytic digestion in the small intestine of humans and other monogastric species, with fermentative digestion in the large intestine" [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3614039/]
-is_a: CHEBI:16646 ! carbohydrate
+is_a: CDNO:0000001 ! dietary chemical component
 
 [Term]
 id: CDNO:0000006
@@ -89,6 +89,7 @@ name: soluble dietary fibre
 def: "Dietary fibre which dissolves in water and is partially or completely fermented in the colon of monogastric animals by gut bacteria." [http://dx.doi.org/10.20431/2454-6224.0310004, https://doi.org/10.4141/A05-049]
 synonym: "water soluble dietary fibre" EXACT []
 is_a: CDNO:0000005 ! dietary fibre
+is_a: CHEBI:16646 ! carbohydrate
 
 [Term]
 id: CDNO:0000007
@@ -1117,7 +1118,7 @@ xref: USDA_fdc_id:1079
 xref: USDA_fdc_id:2033
 xref: USDA_nutrient_nbr:291
 xref: USDA_nutrient_nbr:293
-is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
+is_a: CDNO:0200001 ! concentration of dietary chemical component in material entity
 
 [Term]
 id: CDNO:0200036
@@ -1134,6 +1135,7 @@ xref: USDA_nutrient_nbr:293.2
 xref: USDA_nutrient_nbr:295
 xref: USDA_nutrient_nbr:953
 xref: USDA_nutrient_nbr:954
+is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
 is_a: CDNO:0200035 ! concentration of dietary fibre in material entity
 
 [Term]
@@ -4183,6 +4185,7 @@ synonym: "material entity lignin concentration" EXACT []
 xref: INFOODs:LIGN
 xref: USDA_fdc_id:1080
 xref: USDA_nutrient_nbr:292
+is_a: CDNO:0200035 ! concentration of dietary fibre in material entity
 is_a: CDNO:0200398 ! concentration of phenylpropanoid in material entity
 
 [Term]
@@ -31981,6 +31984,7 @@ alt_id: CHEBI:25037
 def: "A polyphenylpropanoid derived from three monolignol monomers: trans-p-coumaryl alcohol, coniferol and trans-sinapyl alcohol. There is extensive cross-linking and no defined primary structure." []
 subset: 3_STAR
 xref: Wikipedia:Lignin
+is_a: CDNO:0000005 ! dietary fibre
 is_a: CHEBI:26004 ! phenylpropanoid
 
 [Term]
