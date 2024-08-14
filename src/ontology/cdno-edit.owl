@@ -75,6 +75,26 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0100005">
+        <rdfs:comment>Term has been declared redundant by the The Fiber Ontology Working Group</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0100006">
+        <rdfs:comment>Term has been declared redundant by the The Fiber Ontology Working Group</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0100007">
+        <rdfs:comment>Term has been declared redundant by the The Fiber Ontology Working Group</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0100008">
+        <rdfs:comment>Term has been declared redundant by the The Fiber Ontology Working Group</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0100009">
+        <rdfs:comment>Term has been declared redundant by the The Fiber Ontology Working Group</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0200561">
         <obo:IAO_0000231>The equivalency statement has been duplicated</obo:IAO_0000231>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CDNO_0200176"/>
