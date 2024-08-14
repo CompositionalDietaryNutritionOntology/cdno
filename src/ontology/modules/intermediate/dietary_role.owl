@@ -51,8 +51,45 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0500001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A biological role that may be assigned to a dietary chemical component based on evidence that supports a role defined at the levels of molecular interaction, cellular process or physiological role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A biological role that may be assigned to a dietary nutritional component based on supporting evidence defined at the levels of molecular interaction, cellular process or physiology.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0500002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0500002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0500001"/>
+        <obo:IAO_0000115 xml:lang="en">A biological role in humans that may be assigned to a dietary nutritional component based on supporting evidence defined at the levels of molecular interaction, cellular process or physiology.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">human dietary role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
+        <rdfs:label xml:lang="en">fat-soluble vitamin (role)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33229"/>
+        <rdfs:label xml:lang="en">water-soluble vitamin (role)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0500002"/>
+        <rdfs:label xml:lang="en">vitamin (role)</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

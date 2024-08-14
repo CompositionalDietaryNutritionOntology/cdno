@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: cdno/releases/2024-06-21/cdno-full.owl
+data-version: cdno/releases/2024-08-13/cdno-full.owl
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -137,6 +137,7 @@ name: vitamin (molecular entity)
 def: "An organic molecule that has a vitamin(role)" []
 comment: This term can be assigned to CHEBI or any other ontology that claims it
 is_a: CDNO:0000001 ! dietary chemical component
+relationship: has_role CHEBI:33229 ! vitamin (role)
 
 [Term]
 id: CDNO:0000015
@@ -332,48 +333,38 @@ intersection_of: RO:0001000 CHEBI:17309 ! derives from pectin
 
 [Term]
 id: CDNO:0100005
-name: mannan derived from hemicellulose
-def: "Mannan which is derived from hemicellulose." []
-is_a: CHEBI:28808 ! mannan
-intersection_of: CHEBI:28808 ! mannan
-intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
-relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+name: obsolete mannan derived from hemicellulose
+def: "OBSOLETE. Mannan which is derived from hemicellulose." []
+comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_obsolete: true
 
 [Term]
 id: CDNO:0100006
-name: xylan derived from hemicellulose
-def: "Xylan which is derived from hemicellulose." []
-is_a: CHEBI:37166 ! xylan
-intersection_of: CHEBI:37166 ! xylan
-intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
-relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+name: obsolete xylan derived from hemicellulose
+def: "OBSOLETE. Xylan which is derived from hemicellulose." []
+comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_obsolete: true
 
 [Term]
 id: CDNO:0100007
-name: xyloglucan derived from hemicellulose
-def: "Xyloglucan which is derived from hemicellulose." []
-is_a: CHEBI:18233 ! xyloglucan
-intersection_of: CHEBI:18233 ! xyloglucan
-intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
-relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+name: obsolete xyloglucan derived from hemicellulose
+def: "OBSOLETE. Xyloglucan which is derived from hemicellulose." []
+comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_obsolete: true
 
 [Term]
 id: CDNO:0100008
-name: glucomannan derived from hemicellulose
-def: "Glucomannan which is derived from hemicellulose." []
-is_a: CHEBI:17020 ! glucomannan
-intersection_of: CHEBI:17020 ! glucomannan
-intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
-relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+name: obsolete glucomannan derived from hemicellulose
+def: "OBSOLETE. Glucomannan which is derived from hemicellulose." []
+comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_obsolete: true
 
 [Term]
 id: CDNO:0100009
-name: arabinoxylan derived from hemicellulose
-def: "Arabinoxylan which is derived from hemicellulose." []
-is_a: CHEBI:28427 ! arabinoxylan
-intersection_of: CHEBI:28427 ! arabinoxylan
-intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
-relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+name: obsolete arabinoxylan derived from hemicellulose
+def: "OBSOLETE. Arabinoxylan which is derived from hemicellulose." []
+comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_obsolete: true
 
 [Term]
 id: CDNO:0100010
@@ -651,8 +642,8 @@ name: mannose derived from mannan derived from hemicellulose
 def: "Mannose which is derived from mannan derived from hemicellulose." []
 is_a: CHEBI:37684 ! mannose
 intersection_of: CHEBI:37684 ! mannose
-intersection_of: RO:0001000 CDNO:0100005 ! derives from mannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100005 ! derives from mannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100005 ! derives from obsolete mannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100005 ! derives from obsolete mannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100041
@@ -660,8 +651,8 @@ name: glucose derived from xylan derived from hemicellulose
 def: "Glucose which is derived from xylan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100042
@@ -669,8 +660,8 @@ name: xylose derived from xylan derived from hemicellulose
 def: "Xylose which is derived from xylan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100043
@@ -678,8 +669,8 @@ name: glucose derived from xyloglucan derived from hemicellulose
 def: "Glucose which is derived from xyloglucan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
 
 [Term]
 id: CDNO:0100044
@@ -687,8 +678,8 @@ name: xylose derived from xyloglucan derived from hemicellulose
 def: "Xylose which is derived from xyloglucan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
 
 [Term]
 id: CDNO:0100045
@@ -696,8 +687,8 @@ name: glucose derived from glucomannan derived from hemicellulose
 def: "Glucose which is derived from glucomannan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100046
@@ -705,8 +696,8 @@ name: mannose derived from glucomannan derived from hemicellulose
 def: "Mannose which is derived from glucomannan derived from hemicellulose." []
 is_a: CHEBI:37684 ! mannose
 intersection_of: CHEBI:37684 ! mannose
-intersection_of: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100047
@@ -714,8 +705,8 @@ name: arabinose derived from arabinoxylan derived from hemicellulose
 def: "Arabinose which is derived from arabinoxylan derived from hemicellulose." []
 is_a: CHEBI:22599 ! arabinose
 intersection_of: CHEBI:22599 ! arabinose
-intersection_of: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100048
@@ -723,8 +714,8 @@ name: xylose derived from arabinoxylan derived from hemicellulose
 def: "Xylose which is derived from arabinoxylan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100049
@@ -4805,7 +4796,7 @@ name: concentration of mannan derived from hemicellulose in material entity
 def: "The concentration of mannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity mannan derived from hemicellulose concentration" EXACT []
 xref: INFOODs:MANN
-is_a: CDNO:0200463 ! concentration of mannan in material entity
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: CDNO:0200474
@@ -4813,14 +4804,14 @@ name: concentration of xylan derived from hemicellulose in material entity
 def: "The concentration of xylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xylan derived from hemicellulose concentration" EXACT []
 xref: INFOODs:XYLN
-is_a: CDNO:0200467 ! concentration of xylan in material entity
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: CDNO:0200475
 name: concentration of xyloglucan derived from hemicellulose in material entity
 def: "The concentration of xyloglucan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xyloglucan derived from hemicellulose concentration" EXACT []
-is_a: CDNO:0200453 ! concentration of xyloglucan in material entity
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: CDNO:0200476
@@ -4828,14 +4819,14 @@ name: concentration of glucomannan derived from hemicellulose in material entity
 def: "The concentration of glucomannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity glucomannan derived from hemicellulose concentration" EXACT []
 xref: INFOODs:GLUMNM
-is_a: CDNO:0200450 ! concentration of glucomannan in material entity
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: CDNO:0200477
 name: concentration of arabinoxylan derived from hemicellulose in material entity
 def: "The concentration of arabinoxylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity arabinoxylan derived from hemicellulose concentration" EXACT []
-is_a: CDNO:0200462 ! concentration of arabinoxylan in material entity
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: CDNO:0200478
@@ -9082,9 +9073,15 @@ is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: CDNO:0500001
-name: human dietary role
-def: "A biological role that may be assigned to a dietary chemical component based on evidence that supports a role defined at the levels of molecular interaction, cellular process or physiological role." []
+name: dietary role
+def: "A biological role that may be assigned to a dietary nutritional component based on supporting evidence defined at the levels of molecular interaction, cellular process or physiology." []
 is_a: BFO:0000023 ! role
+
+[Term]
+id: CDNO:0500002
+name: human dietary role
+def: "A biological role in humans that may be assigned to a dietary nutritional component based on supporting evidence defined at the levels of molecular interaction, cellular process or physiology." []
+is_a: CDNO:0500001 ! dietary role
 
 [Term]
 id: CHEBI:10086
@@ -18627,6 +18624,21 @@ xref: Wikipedia:Ellagitannin
 is_a: CHEBI:78689 ! hydrolysable tannin
 
 [Term]
+id: CHEBI:24020
+name: fat-soluble vitamin (role)
+namespace: chebi_ontology
+def: "Any vitamin that dissolves in fats and are stored in body tissues. Unlike the water-soluble vitamins, they are stored in the body for long periods of time and generally pose a greater risk for toxicity when consumed in excess." []
+subset: 3_STAR
+synonym: "fat-soluble vitamin" RELATED [ChEBI]
+synonym: "fat-soluble vitamins" RELATED [ChEBI]
+synonym: "fettloesliche Vitamine" RELATED [ChEBI]
+xref: PMID:31838543 {source="Europe PMC"}
+xref: PMID:32057251 {source="Europe PMC"}
+xref: PMID:33549284 {source="Europe PMC"}
+xref: PMID:34045883 {source="Europe PMC"}
+is_a: CHEBI:33229 ! vitamin (role)
+
+[Term]
 id: CHEBI:24043
 name: flavones
 namespace: chebi_ontology
@@ -19775,6 +19787,17 @@ synonym: "vitamina B6" RELATED [ChEBI]
 synonym: "vitamine B6" RELATED [ChEBI]
 synonym: "vitamins B6" RELATED [ChEBI]
 is_a: CHEBI:75769 ! B vitamin
+
+[Term]
+id: CHEBI:27314
+name: water-soluble vitamin (role)
+namespace: chebi_ontology
+def: "Any vitamin that dissolves in water and readily absorbed into tissues for immediate use. Unlike the fat-soluble vitamins, they are not stored in the body and need to be replenished regularly in the diet and will rarely accumulate to toxic levels since they are quickly excreted from the body via urine." []
+subset: 3_STAR
+synonym: "wasserloesliche Vitamine" RELATED [ChEBI]
+synonym: "water-soluble vitamin" RELATED [ChEBI]
+synonym: "water-soluble vitamins" RELATED [ChEBI]
+is_a: CHEBI:33229 ! vitamin (role)
 
 [Term]
 id: CHEBI:27325
@@ -26532,6 +26555,24 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "MNWBNISUBARLIT-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "49.007" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "48.99284" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C-]#N.[Na+]" xsd:string
+
+[Term]
+id: CHEBI:33229
+name: vitamin (role)
+namespace: chebi_ontology
+alt_id: CHEBI:10004
+alt_id: CHEBI:27305
+def: "A biochemical role played by any micronutrient that is an organic compound. Vitamins are present in foods in small amounts and are essential to normal metabolism and biochemical functions, usually as coenzymes. The term \"vitamines\" (from vita + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines." []
+subset: 3_STAR
+synonym: "vitamin" RELATED [ChEBI]
+synonym: "vitamina" RELATED [ChEBI]
+synonym: "vitaminas" RELATED [ChEBI]
+synonym: "vitamine" RELATED [ChEBI]
+synonym: "vitamines" RELATED [ChEBI]
+synonym: "vitamins" RELATED [ChEBI]
+synonym: "vitaminum" RELATED [ChEBI]
+xref: Wikipedia:Vitamin
+is_a: CDNO:0500002 ! human dietary role
 
 [Term]
 id: CHEBI:33234
@@ -33512,8 +33553,8 @@ def: "A 20-carbon, polyunsaturated fatty acid having two double bonds at unspeci
 subset: 3_STAR
 synonym: "20:2" RELATED [ChEBI]
 synonym: "C20:2" RELATED [ChEBI]
-synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acid" RELATED []
+synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acids" RELATED [ChEBI]
 synonym: "icosadienoic acids" RELATED [ChEBI]
 xref: PMID:23475189 {source="Europe PMC"}

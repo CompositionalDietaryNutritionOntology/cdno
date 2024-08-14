@@ -1,3 +1,7 @@
 Ontology ID,label,parent class,definition,definition cross reference,comment,has role,has quality,original index,Related syn.,English syn.
 ID,AL rdfs:label@en,SC % SPLIT=|,AL IAO:0000115@en,>AI oboInOwl:hasDbXref SPLIT=|,AL rdfs:comment@en,C 'has role' some % SPLIT=|,C 'has quality' some % SPLIT=|,AL oboInOwl:hasRelatedSynonym@en SPLIT=|,AL oboInOwl:hasExactSynonym@en SPLIT=|,
-CDNO:0500001,human dietary role,BFO:0000023,"A biological role that may be assigned to a dietary chemical component based on evidence that supports a role defined at the levels of molecular interaction, cellular process or physiological role.",,,,,,,
+CDNO:0500001,dietary role,BFO:0000023,"A biological role that may be assigned to a dietary nutritional component based on supporting evidence defined at the levels of molecular interaction, cellular process or physiology.",,,,,,,
+CDNO:0500002,human dietary role,CDNO:0500001,"A biological role in humans that may be assigned to a dietary nutritional component based on supporting evidence defined at the levels of molecular interaction, cellular process or physiology.",,,,,,,
+CHEBI:33229,vitamin (role),CDNO:0500002,,,,,,,,
+CHEBI:24020,fat-soluble vitamin (role),CHEBI:33229,,,,,,,,
+CHEBI:27314,water-soluble vitamin (role),CHEBI:33229,,,,,,,,
