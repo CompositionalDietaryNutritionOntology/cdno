@@ -1020,6 +1020,12 @@ CHEBI:141540	#myricanone
 CHEBI:33229	#vitamin (role)
 CHEBI:24020	#fat-soluble vitamin (role)
 CHEBI:27314	#water-soluble vitamin (role)
+CDNO:0000041	#non-starch polysaccharide
+CDNO:0000042	#cellulosic polysaccharide
+CDNO:0000043	#non-starch non-cellulosic polysaccharide
+CHEBI:17029	#chitin
+
+
 
 
 CDNO:0400001	#dietary material physical attribute

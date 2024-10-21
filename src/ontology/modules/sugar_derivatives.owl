@@ -141,8 +141,19 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100005">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Mannan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete mannan derived from hemicellulose</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28808"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Mannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mannan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -150,8 +161,19 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100006">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Xylan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete xylan derived from hemicellulose</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37166"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xylan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">xylan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -159,8 +181,19 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100007">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Xyloglucan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete xyloglucan derived from hemicellulose</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18233"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Xyloglucan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">xyloglucan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -168,8 +201,19 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100008">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Glucomannan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete glucomannan derived from hemicellulose</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17020"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Glucomannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">glucomannan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -177,8 +221,19 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100009">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Arabinoxylan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete arabinoxylan derived from hemicellulose</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Arabinoxylan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">arabinoxylan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -1240,5 +1295,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 

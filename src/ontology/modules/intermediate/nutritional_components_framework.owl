@@ -664,6 +664,61 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <obo:IAO_0000115 xml:lang="en">A polysaccharide fraction of dietary fibre that excludes lignin and all starch.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">NSP, polysaccharide, non-starch</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">non-starch polysaccharide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A polysaccharide fraction of dietary fibre that excludes lignin and all starch.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.17226/10161"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">A non-starch polysaccharide composed of cellulose or its derivatives.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">polysaccharide, cellulosic, non-starch cellulosic polysaccharide</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">cellulosic polysaccharide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A non-starch polysaccharide composed of cellulose or its derivatives.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.merriam-webster.com/dictionary/cellulosic"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">A non-starch polysaccharide, other than cellulose, composed of chains of various types of monosaccharide units, that may be substituted with side chains and by various functional groups.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">non-cellulosic polysaccharide, polysaccharides, non-cellulosic</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">non-starch non-cellulosic polysaccharide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A non-starch polysaccharide, other than cellulose, composed of chains of various types of monosaccharide units, that may be substituted with side chains and by various functional groups.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.3389/fpls.2018.01537"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_10086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10086">
@@ -1149,7 +1204,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15712">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">2,3-dihydrobiochanin A</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">2,3-dihydrobiochanin A</rdfs:label>
     </owl:Class>
     
@@ -1168,7 +1222,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15756">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">palmitic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">hexadecanoic acid</rdfs:label>
     </owl:Class>
     
@@ -1385,6 +1438,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16261 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">chitosan</rdfs:label>
     </owl:Class>
@@ -1781,7 +1838,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16914">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24676"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">2-hydroxybenzoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">salicylic acid</rdfs:label>
     </owl:Class>
     
@@ -1845,6 +1901,19 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">glucomannan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">chitin</rdfs:label>
     </owl:Class>
     
 
@@ -2025,7 +2094,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24848"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
         <oboInOwl:hasExactSynonym xml:lang="en">phytate</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">phytic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">myo-inositol hexakisphosphate</rdfs:label>
     </owl:Class>
     
@@ -2183,7 +2251,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17620">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">4-hydroxy-3-methoxycinnamic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">ferulic acid</rdfs:label>
     </owl:Class>
     
@@ -3791,7 +3858,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78689"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">condensed tannin</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">proanthocyanidin</rdfs:label>
     </owl:Class>
     
@@ -3882,7 +3948,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26709">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32149"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">sodium bisulfate</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium hydrogensulfite</rdfs:label>
     </owl:Class>
     
@@ -4118,7 +4183,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">isosakuranetin</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">4&apos;-methoxy-5,7-dihydroxyflavanone</rdfs:label>
     </owl:Class>
     
@@ -4233,7 +4297,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27843">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">cyanidin</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">cyanidin cation</rdfs:label>
     </owl:Class>
     
@@ -4594,7 +4657,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28604">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166888"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">delta5-avenasterol</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">isofucosterol</rdfs:label>
     </owl:Class>
     
@@ -4789,7 +4851,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28822">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">arachidic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">icosanoic acid</rdfs:label>
     </owl:Class>
     
@@ -4826,7 +4887,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28842">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">stearic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">octadecanoic acid</rdfs:label>
     </owl:Class>
     
@@ -4873,7 +4933,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28875">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">myristic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">tetradecanoic acid</rdfs:label>
     </owl:Class>
     
@@ -4919,7 +4978,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28941">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">behenic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">docosanoic acid</rdfs:label>
     </owl:Class>
     
@@ -5151,7 +5209,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30768">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">propionic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">propionic acid</rdfs:label>
     </owl:Class>
     
@@ -5170,7 +5227,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30778">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24676"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">3,4,5- trihydrox benzoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">gallic acid</rdfs:label>
     </owl:Class>
     
@@ -5189,7 +5245,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30805">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">lauric acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">dodecanoic acid</rdfs:label>
     </owl:Class>
     
@@ -5208,7 +5263,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30816">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24676"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">4-hydroxy-3-methoxy benzoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">vanillic acid</rdfs:label>
     </owl:Class>
     
@@ -5243,7 +5297,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26191"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">sorbitol</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">glucitol</rdfs:label>
     </owl:Class>
     
@@ -5270,7 +5323,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">rhoifolin</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">apigenin 7-O-neohesperidoside</rdfs:label>
     </owl:Class>
     
@@ -5429,7 +5481,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38702"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">sodium bicarbonate</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sodium hydrogencarbonate</rdfs:label>
     </owl:Class>
     
@@ -5493,7 +5544,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25681"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">stearidonic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">all-cis-octadeca-6,9,12,15-tetraenoic acid</rdfs:label>
     </owl:Class>
     
@@ -5503,7 +5553,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32425">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">gondoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">(11Z)-icos-11-enoic acid</rdfs:label>
     </owl:Class>
     
@@ -6060,7 +6109,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23401"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">p-coumaric acid, 4-hydroxycinnamic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">4-coumaric acid</rdfs:label>
     </owl:Class>
     
@@ -6475,7 +6523,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78320"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">D-lactic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">(R)-lactic acid</rdfs:label>
     </owl:Class>
     
@@ -6485,7 +6532,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_422">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78320"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">L-lactic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">(S)-lactic acid</rdfs:label>
     </owl:Class>
     
@@ -6574,7 +6620,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">nervonic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">(15Z)-tetracosenoic acid</rdfs:label>
     </owl:Class>
     
@@ -6676,7 +6721,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47925">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23401"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">m-coumaric, 3-hydroxycinnamic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">3-coumaric acid</rdfs:label>
     </owl:Class>
     
@@ -7103,7 +7147,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53460">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25681"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">eicosatrienoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">all-cis-icosa-11,14,17-trienoic acid</rdfs:label>
     </owl:Class>
     
@@ -7113,7 +7156,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53486">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36009"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">homo-gamma-linolenic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">all-cis-icosa-8,11,14-trienoic acid</rdfs:label>
     </owl:Class>
     
@@ -7769,7 +7811,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24676"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">3,5-dimethoxy-4-hydroxybenzoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">syringic acid</rdfs:label>
     </owl:Class>
     
@@ -7964,7 +8005,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38691"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">flavanols</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">hydroxyflavan</rdfs:label>
     </owl:Class>
     
@@ -8020,7 +8060,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72850">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36009"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">eicosadienoic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">icosadienoic acid</rdfs:label>
     </owl:Class>
     
@@ -8367,7 +8406,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24689"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">3,5-dimethoxy-4-hydroxycinnamic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">sinapic acid</rdfs:label>
     </owl:Class>
     
@@ -8429,7 +8467,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">lactic acid</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">2-hydroxypropanoic acid</rdfs:label>
     </owl:Class>
     
@@ -8490,7 +8527,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_166888"/>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">delta7-avenasterol</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">delta7-avenasterol</rdfs:label>
     </owl:Class>
     
