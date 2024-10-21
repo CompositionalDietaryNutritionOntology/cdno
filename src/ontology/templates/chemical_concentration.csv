@@ -1042,3 +1042,7 @@ CDNO:0201045,,CDNO:0000037,prebiotic dietary fibre,BFO:0000040,material entity
 CDNO:0201046,,CDNO:0000038,soluble dietary fibre precipitate (SDFP),BFO:0000040,material entity
 CDNO:0201047,,CDNO:0000039,soluble dietary fibre soluble (SDFS),BFO:0000040,material entity
 CDNO:0201048,,CDNO:0000040,low molecular weight dietary fibre,BFO:0000040,material entity
+CDNO:0201049,,CDNO:0000041,non-starch polysaccharide,BFO:0000040,material entity
+CDNO:0201050,,CDNO:0000042,cellulosic polysaccharide,BFO:0000040,material entity
+CDNO:0201051,,CDNO:0000043,non-starch non-cellulosic polysaccharide,BFO:0000040,material entity
+CDNO:0201052,,CHEBI:17029,chitin,BFO:0000040,material entity

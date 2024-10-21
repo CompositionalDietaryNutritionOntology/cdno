@@ -1,24 +1,11 @@
 format-version: 1.2
-data-version: cdno/releases/2024-08-13/cdno-full.owl
+data-version: cdno/releases/2024-10-21/cdno-full.owl
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
 subsetdef: attribute_slim ""
 subsetdef: common_anatomy ""
 subsetdef: EnvO-Lite-GSC ""
-subsetdef: goslim_agr ""
-subsetdef: goslim_candida ""
-subsetdef: goslim_chembl ""
-subsetdef: goslim_drosophila ""
-subsetdef: goslim_flybase_ribbon ""
-subsetdef: goslim_generic ""
-subsetdef: goslim_metagenomics ""
-subsetdef: goslim_mouse ""
-subsetdef: goslim_pir ""
-subsetdef: goslim_plant ""
-subsetdef: goslim_pombe ""
-subsetdef: goslim_prokaryote ""
-subsetdef: goslim_yeast ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -296,6 +283,31 @@ def: "Dietary fibre oligomers of degree of polymerization (DP) > 2 which remain 
 is_a: CDNO:0000006 ! soluble dietary fibre
 
 [Term]
+id: CDNO:0000041
+name: non-starch polysaccharide
+def: "A polysaccharide fraction of dietary fibre that excludes lignin and all starch." [https://doi.org/10.17226/10161]
+synonym: "NSP, polysaccharide, non-starch" EXACT []
+is_a: CDNO:0000005 ! dietary fibre
+is_a: CHEBI:18154 ! polysaccharide
+
+[Term]
+id: CDNO:0000042
+name: cellulosic polysaccharide
+def: "A non-starch polysaccharide composed of cellulose or its derivatives." [https://www.merriam-webster.com/dictionary/cellulosic]
+synonym: "polysaccharide, cellulosic, non-starch cellulosic polysaccharide" EXACT []
+is_a: CDNO:0000008 ! insoluble dietary fibre
+is_a: CDNO:0000032 ! high molecular weight dietary fibre
+is_a: CDNO:0000036 ! added dietary fibre
+is_a: CDNO:0000041 ! non-starch polysaccharide
+
+[Term]
+id: CDNO:0000043
+name: non-starch non-cellulosic polysaccharide
+def: "A non-starch polysaccharide, other than cellulose, composed of chains of various types of monosaccharide units, that may be substituted with side chains and by various functional groups." [https://doi.org/10.3389/fpls.2018.01537]
+synonym: "non-cellulosic polysaccharide, polysaccharides, non-cellulosic" EXACT []
+is_a: CDNO:0000041 ! non-starch polysaccharide
+
+[Term]
 id: CDNO:0100001
 name: amylopectin derived from starch
 def: "Amylopectin which is derived from starch." []
@@ -333,37 +345,57 @@ intersection_of: RO:0001000 CHEBI:17309 ! derives from pectin
 
 [Term]
 id: CDNO:0100005
-name: obsolete mannan derived from hemicellulose
-def: "OBSOLETE. Mannan which is derived from hemicellulose." []
+name: mannan derived from hemicellulose
+def: "Mannan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_a: CHEBI:28808 ! mannan
+intersection_of: CHEBI:28808 ! mannan
+intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
 is_obsolete: true
 
 [Term]
 id: CDNO:0100006
-name: obsolete xylan derived from hemicellulose
-def: "OBSOLETE. Xylan which is derived from hemicellulose." []
+name: xylan derived from hemicellulose
+def: "Xylan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_a: CHEBI:37166 ! xylan
+intersection_of: CHEBI:37166 ! xylan
+intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
 is_obsolete: true
 
 [Term]
 id: CDNO:0100007
-name: obsolete xyloglucan derived from hemicellulose
-def: "OBSOLETE. Xyloglucan which is derived from hemicellulose." []
+name: xyloglucan derived from hemicellulose
+def: "Xyloglucan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_a: CHEBI:18233 ! xyloglucan
+intersection_of: CHEBI:18233 ! xyloglucan
+intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
 is_obsolete: true
 
 [Term]
 id: CDNO:0100008
-name: obsolete glucomannan derived from hemicellulose
-def: "OBSOLETE. Glucomannan which is derived from hemicellulose." []
+name: glucomannan derived from hemicellulose
+def: "Glucomannan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_a: CHEBI:17020 ! glucomannan
+intersection_of: CHEBI:17020 ! glucomannan
+intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
 is_obsolete: true
 
 [Term]
 id: CDNO:0100009
-name: obsolete arabinoxylan derived from hemicellulose
-def: "OBSOLETE. Arabinoxylan which is derived from hemicellulose." []
+name: arabinoxylan derived from hemicellulose
+def: "Arabinoxylan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
+is_a: CHEBI:28427 ! arabinoxylan
+intersection_of: CHEBI:28427 ! arabinoxylan
+intersection_of: RO:0001000 CHEBI:61266 ! derives from hemicellulose
+relationship: RO:0001000 CHEBI:61266 ! derives from hemicellulose
 is_obsolete: true
 
 [Term]
@@ -642,8 +674,8 @@ name: mannose derived from mannan derived from hemicellulose
 def: "Mannose which is derived from mannan derived from hemicellulose." []
 is_a: CHEBI:37684 ! mannose
 intersection_of: CHEBI:37684 ! mannose
-intersection_of: RO:0001000 CDNO:0100005 ! derives from obsolete mannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100005 ! derives from obsolete mannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100005 ! derives from mannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100005 ! derives from mannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100041
@@ -651,8 +683,8 @@ name: glucose derived from xylan derived from hemicellulose
 def: "Glucose which is derived from xylan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100042
@@ -660,8 +692,8 @@ name: xylose derived from xylan derived from hemicellulose
 def: "Xylose which is derived from xylan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100043
@@ -669,8 +701,8 @@ name: glucose derived from xyloglucan derived from hemicellulose
 def: "Glucose which is derived from xyloglucan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
 
 [Term]
 id: CDNO:0100044
@@ -678,8 +710,8 @@ name: xylose derived from xyloglucan derived from hemicellulose
 def: "Xylose which is derived from xyloglucan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
 
 [Term]
 id: CDNO:0100045
@@ -687,8 +719,8 @@ name: glucose derived from glucomannan derived from hemicellulose
 def: "Glucose which is derived from glucomannan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100046
@@ -696,8 +728,8 @@ name: mannose derived from glucomannan derived from hemicellulose
 def: "Mannose which is derived from glucomannan derived from hemicellulose." []
 is_a: CHEBI:37684 ! mannose
 intersection_of: CHEBI:37684 ! mannose
-intersection_of: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100047
@@ -705,8 +737,8 @@ name: arabinose derived from arabinoxylan derived from hemicellulose
 def: "Arabinose which is derived from arabinoxylan derived from hemicellulose." []
 is_a: CHEBI:22599 ! arabinose
 intersection_of: CHEBI:22599 ! arabinose
-intersection_of: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100048
@@ -714,8 +746,8 @@ name: xylose derived from arabinoxylan derived from hemicellulose
 def: "Xylose which is derived from arabinoxylan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100049
@@ -4796,7 +4828,7 @@ name: concentration of mannan derived from hemicellulose in material entity
 def: "The concentration of mannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity mannan derived from hemicellulose concentration" EXACT []
 xref: INFOODs:MANN
-is_a: PATO:0000033 ! concentration of
+is_a: CDNO:0200463 ! concentration of mannan in material entity
 
 [Term]
 id: CDNO:0200474
@@ -4804,14 +4836,14 @@ name: concentration of xylan derived from hemicellulose in material entity
 def: "The concentration of xylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xylan derived from hemicellulose concentration" EXACT []
 xref: INFOODs:XYLN
-is_a: PATO:0000033 ! concentration of
+is_a: CDNO:0200467 ! concentration of xylan in material entity
 
 [Term]
 id: CDNO:0200475
 name: concentration of xyloglucan derived from hemicellulose in material entity
 def: "The concentration of xyloglucan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity xyloglucan derived from hemicellulose concentration" EXACT []
-is_a: PATO:0000033 ! concentration of
+is_a: CDNO:0200453 ! concentration of xyloglucan in material entity
 
 [Term]
 id: CDNO:0200476
@@ -4819,14 +4851,14 @@ name: concentration of glucomannan derived from hemicellulose in material entity
 def: "The concentration of glucomannan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity glucomannan derived from hemicellulose concentration" EXACT []
 xref: INFOODs:GLUMNM
-is_a: PATO:0000033 ! concentration of
+is_a: CDNO:0200450 ! concentration of glucomannan in material entity
 
 [Term]
 id: CDNO:0200477
 name: concentration of arabinoxylan derived from hemicellulose in material entity
 def: "The concentration of arabinoxylan derived from hemicellulose when measured in some material entity." []
 synonym: "material entity arabinoxylan derived from hemicellulose concentration" EXACT []
-is_a: PATO:0000033 ! concentration of
+is_a: CDNO:0200462 ! concentration of arabinoxylan in material entity
 
 [Term]
 id: CDNO:0200478
@@ -6725,7 +6757,10 @@ id: CDNO:0200719
 name: concentration of chitosan in material entity
 def: "The concentration of chitosan when measured in some material entity." []
 synonym: "material entity chitosan concentration" EXACT []
-is_a: CDNO:0200005 ! concentration of carbohydrate in material entity
+is_a: CDNO:0201040 ! concentration of high molecular weight dietary fibre in material entity
+is_a: CDNO:0201043 ! concentration of viscous dietary fibre in material entity
+is_a: CDNO:0201046 ! concentration of soluble dietary fibre precipitate (SDFP) in material entity
+is_a: CDNO:0201051 ! concentration of non-starch non-cellulosic polysaccharide in material entity
 
 [Term]
 id: CDNO:0200720
@@ -9059,6 +9094,41 @@ synonym: "material entity low molecular weight dietary fibre concentration" EXAC
 is_a: CDNO:0200036 ! concentration of soluble dietary fibre in material entity
 
 [Term]
+id: CDNO:0201049
+name: concentration of non-starch polysaccharide in material entity
+def: "The concentration of non-starch polysaccharide when measured in some material entity." []
+synonym: "material entity non-starch polysaccharide concentration" EXACT []
+is_a: CDNO:0200006 ! concentration of polysaccharide in material entity
+is_a: CDNO:0200035 ! concentration of dietary fibre in material entity
+
+[Term]
+id: CDNO:0201050
+name: concentration of cellulosic polysaccharide in material entity
+def: "The concentration of cellulosic polysaccharide when measured in some material entity." []
+synonym: "material entity cellulosic polysaccharide concentration" EXACT []
+is_a: CDNO:0200038 ! concentration of insoluble dietary fibre in material entity
+is_a: CDNO:0201040 ! concentration of high molecular weight dietary fibre in material entity
+is_a: CDNO:0201044 ! concentration of added dietary fibre in material entity
+is_a: CDNO:0201049 ! concentration of non-starch polysaccharide in material entity
+
+[Term]
+id: CDNO:0201051
+name: concentration of non-starch non-cellulosic polysaccharide in material entity
+def: "The concentration of non-starch non-cellulosic polysaccharide when measured in some material entity." []
+synonym: "material entity non-starch non-cellulosic polysaccharide concentration" EXACT []
+is_a: CDNO:0201049 ! concentration of non-starch polysaccharide in material entity
+
+[Term]
+id: CDNO:0201052
+name: concentration of chitin in material entity
+def: "The concentration of chitin when measured in some material entity." []
+synonym: "material entity chitin concentration" EXACT []
+is_a: CDNO:0200038 ! concentration of insoluble dietary fibre in material entity
+is_a: CDNO:0201040 ! concentration of high molecular weight dietary fibre in material entity
+is_a: CDNO:0201044 ! concentration of added dietary fibre in material entity
+is_a: CDNO:0201051 ! concentration of non-starch non-cellulosic polysaccharide in material entity
+
+[Term]
 id: CDNO:0300001
 name: nutritional functional attribute
 def: "A functional attribute that inheres in one or more dietary nutritional component (or food material) and may contribute to a dietary role." []
@@ -10789,7 +10859,6 @@ is_a: CHEBI:47916 ! flavonoid
 [Term]
 id: CHEBI:15712
 name: 2,3-dihydrobiochanin A
-synonym: "2,3-dihydrobiochanin A" RELATED []
 is_a: CHEBI:33853 ! phenols
 
 [Term]
@@ -10882,7 +10951,6 @@ synonym: "n-hexadecoic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "Palmitate" RELATED [KEGG_COMPOUND]
 synonym: "PALMITIC ACID" RELATED [PDBeChem]
 synonym: "Palmitic acid" RELATED [KEGG_COMPOUND]
-synonym: "palmitic acid" RELATED []
 synonym: "palmitic acid" RELATED [ChEBI]
 synonym: "Palmitinic acid" RELATED [HMDB]
 synonym: "Palmitinsaeure" RELATED [ChEBI]
@@ -12192,7 +12260,10 @@ xref: PMID:36501559 {source="Europe PMC"}
 xref: PMID:36547302 {source="Europe PMC"}
 xref: PMID:36547931 {source="Europe PMC"}
 xref: Wikipedia:Chitosan
-is_a: CHEBI:16646 ! carbohydrate
+is_a: CDNO:0000032 ! high molecular weight dietary fibre
+is_a: CDNO:0000035 ! viscous dietary fibre
+is_a: CDNO:0000038 ! soluble dietary fibre precipitate (SDFP)
+is_a: CDNO:0000043 ! non-starch non-cellulosic polysaccharide
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "H2O(C6H11NO4)n" xsd:string
 
@@ -13221,15 +13292,14 @@ subset: 3_STAR
 synonym: "2-carboxyphenol" RELATED [NIST_Chemistry_WebBook]
 synonym: "2-HYDROXYBENZOIC ACID" RELATED [PDBeChem]
 synonym: "2-hydroxybenzoic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "2-hydroxybenzoic acid" RELATED []
 synonym: "o-carboxyphenol" RELATED [NIST_Chemistry_WebBook]
 synonym: "o-Hydroxybenzoic acid" RELATED [KEGG_COMPOUND]
 synonym: "o-hydroxybenzoic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "Salicylic acid" EXACT [KEGG_COMPOUND]
 xref: Beilstein:774890 {source="Beilstein"}
-xref: CAS:69-72-7 {source="KEGG COMPOUND"}
 xref: CAS:69-72-7 {source="ChemIDplus"}
 xref: CAS:69-72-7 {source="NIST Chemistry WebBook"}
+xref: CAS:69-72-7 {source="KEGG COMPOUND"}
 xref: Drug_Central:2416 {source="DrugCentral"}
 xref: DrugBank:DB00936
 xref: Gmelin:3418 {source="Gmelin"}
@@ -13540,6 +13610,32 @@ xref: PMID:9742462 {source="Europe PMC"}
 xref: Reaxys:11315759 {source="Reaxys"}
 xref: Reaxys:8188346 {source="Reaxys"}
 is_a: CHEBI:61266 ! hemicellulose
+
+[Term]
+id: CHEBI:17029
+name: chitin
+namespace: chebi_ontology
+alt_id: CHEBI:13962
+alt_id: CHEBI:23099
+alt_id: CHEBI:3596
+def: "An aminoglycan consisting of beta-(1->4)-linked N-acetyl-D-glucosamine residues." []
+subset: 3_STAR
+synonym: "(1->4)-2-acetamido-2-deoxy-beta-D-glucan" EXACT IUPAC_NAME [IUPAC]
+synonym: "[1,4-(N-Acetyl-beta-D-glucosaminyl)]n" RELATED [KEGG_COMPOUND]
+synonym: "[4)-beta-D-GlcpNAc(1->]n" RELATED [IUPAC]
+synonym: "beta-1,4-Poly-N-acetyl-D-glucosamine" RELATED [KEGG_COMPOUND]
+synonym: "Chitin" EXACT [KEGG_COMPOUND]
+synonym: "chitin" EXACT [IUPAC]
+synonym: "chitin" EXACT [UniProt]
+xref: CAS:1398-61-4 {source="KEGG COMPOUND"}
+xref: KEGG:C00461
+xref: KEGG:G10483
+is_a: CDNO:0000008 ! insoluble dietary fibre
+is_a: CDNO:0000032 ! high molecular weight dietary fibre
+is_a: CDNO:0000036 ! added dietary fibre
+is_a: CDNO:0000043 ! non-starch non-cellulosic polysaccharide
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "H2O(C8H13NO5)n" xsd:string
 
 [Term]
 id: CHEBI:17043
@@ -14431,7 +14527,6 @@ synonym: "myo-Inositol hexakisphosphate" EXACT [KEGG_COMPOUND]
 synonym: "Phytate" RELATED [KEGG_COMPOUND]
 synonym: "phytate" EXACT []
 synonym: "Phytic acid" RELATED [KEGG_COMPOUND]
-synonym: "phytic acid" RELATED []
 synonym: "Phytine" RELATED [ChemIDplus]
 synonym: "Saeure des phytins" RELATED [ChemIDplus]
 xref: Beilstein:2201952 {source="Beilstein"}
@@ -15134,7 +15229,6 @@ synonym: "3-(4-Hydroxy-3-methoxyphenyl)propenoic acid" RELATED [NIST_Chemistry_W
 synonym: "3-methoxy-4-hydroxy-trans-cinnamic acid" RELATED [ChEBI]
 synonym: "4-Hydroxy-3-methoxycinnamic acid" RELATED [KEGG_COMPOUND]
 synonym: "4-hydroxy-3-methoxycinnamic acid" RELATED [ChEBI]
-synonym: "4-hydroxy-3-methoxycinnamic acid" RELATED []
 synonym: "Ferulic acid" EXACT [KEGG_COMPOUND]
 synonym: "trans-4-Hydroxy-3-methoxycinnamic acid" RELATED [ChemIDplus]
 synonym: "trans-Ferulic acid" RELATED [ChemIDplus]
@@ -19299,7 +19393,6 @@ name: proanthocyanidin
 namespace: chebi_ontology
 def: "A flavonoid oligomer obtained by the the condensation of two or more units of hydroxyflavans." []
 subset: 3_STAR
-synonym: "condensed tannin" RELATED []
 synonym: "condensed tannins" RELATED [ChEBI]
 synonym: "polyflavonoid tannins" RELATED [ChEBI]
 synonym: "proanthocyanidins" RELATED [ChEBI]
@@ -19463,7 +19556,6 @@ synonym: "Natriumbisulfit" RELATED [ChEBI]
 synonym: "Natriumhydrogensulfit" RELATED [ChEBI]
 synonym: "primaeres Natriumsulfit" RELATED [ChEBI]
 synonym: "saures Natriumsulfit" RELATED [ChEBI]
-synonym: "sodium bisulfate" EXACT []
 synonym: "sodium bisulfite" RELATED [ChemIDplus]
 synonym: "sodium bisulphite" RELATED [ChemIDplus]
 synonym: "sodium hydrogen sulfite" RELATED [ChemIDplus]
@@ -20158,7 +20250,6 @@ synonym: "(2S)-naringenin 4'-methyl ether" RELATED [UniProt]
 synonym: "(S)-2,3-dihydro-5,7-dihydroxy-2-(4-methoxyphenyl)-4H-1-benzopyran-4-one" RELATED [ChemIDplus]
 synonym: "4'-Methylnaringenin" RELATED [KEGG_COMPOUND]
 synonym: "Isosakuranetin" RELATED [KEGG_COMPOUND]
-synonym: "isosakuranetin" RELATED []
 synonym: "naringenin 4'-methyl ether" RELATED [ChEBI]
 xref: CAS:480-43-3 {source="ChemIDplus"}
 xref: CAS:480-43-3 {source="KEGG COMPOUND"}
@@ -20673,7 +20764,6 @@ synonym: "3,3',4',5,7-pentahydroxyflavylium" RELATED [ChEBI]
 synonym: "3,5,7,3',4'-Pentahydroxyflavylium" RELATED [ChemIDplus]
 synonym: "Cyanidin" RELATED [ChemIDplus]
 synonym: "Cyanidin" RELATED [KEGG_COMPOUND]
-synonym: "cyanidin" RELATED []
 synonym: "Cyanidine" RELATED [KEGG_COMPOUND]
 synonym: "Cyanidol" RELATED [KEGG_COMPOUND]
 xref: Beilstein:1690254 {source="Beilstein"}
@@ -22247,7 +22337,6 @@ synonym: "24Z-ethylidene-cholest-5-en-3beta-ol" RELATED [LIPID_MAPS]
 synonym: "28-isofucosterol" RELATED [ChemIDplus]
 synonym: "Delta(5)-avenasterol" RELATED [KEGG_COMPOUND]
 synonym: "delta5-avenasterol" RELATED [KEGG_COMPOUND]
-synonym: "delta5-avenasterol" RELATED []
 synonym: "isofucosterol" EXACT [LIPID_MAPS]
 xref: CAS:18472-36-1 {source="ChemIDplus"}
 xref: CAS:481-14-1 {source="ChemIDplus"}
@@ -23078,7 +23167,6 @@ def: "A C20 striaght-chain saturated fatty acid which forms a minor constituent 
 subset: 3_STAR
 synonym: "arachic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "Arachidic acid" RELATED [KEGG_COMPOUND]
-synonym: "arachidic acid" RELATED []
 synonym: "arachidic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "arachidinic acid" RELATED [ChEBI]
 synonym: "Arachinsaeure" RELATED [ChEBI]
@@ -23276,7 +23364,6 @@ synonym: "octadecoic acid" RELATED [ChEBI]
 synonym: "Oktadekansaeure" RELATED [ChEBI]
 synonym: "STEARIC ACID" RELATED [PDBeChem]
 synonym: "stearic acid" RELATED [ChEBI]
-synonym: "stearic acid" RELATED []
 synonym: "Stearinsaeure" RELATED [ChemIDplus]
 xref: Beilstein:608585 {source="Beilstein"}
 xref: CAS:57-11-4 {source="ChemIDplus"}
@@ -23520,7 +23607,6 @@ synonym: "CH3-[CH2]12-COOH" RELATED [IUPAC]
 synonym: "MYRISTIC ACID" RELATED [PDBeChem]
 synonym: "Myristic acid" RELATED [KEGG_COMPOUND]
 synonym: "myristic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "myristic acid" RELATED []
 synonym: "Myristinsaeure" RELATED [ChEBI]
 synonym: "n-Tetradecan-1-oic acid" RELATED [ChemIDplus]
 synonym: "n-tetradecanoic acid" RELATED [NIST_Chemistry_WebBook]
@@ -23785,7 +23871,6 @@ def: "A straight-chain, C22, long-chain saturated fatty acid." []
 subset: 3_STAR
 synonym: "1-docosanoic acid" RELATED [ChEBI]
 synonym: "Behenic acid" RELATED [KEGG_COMPOUND]
-synonym: "behenic acid" RELATED []
 synonym: "Behensaeure" RELATED [ChEBI]
 synonym: "CH3-[CH2]20-COOH" RELATED [IUPAC]
 synonym: "docosanic acid" RELATED [ChEBI]
@@ -23798,9 +23883,9 @@ synonym: "Dokosansaeure" RELATED [ChEBI]
 synonym: "Heneicosansaeure" RELATED [ChEBI]
 synonym: "n-docosanoic acid" RELATED [NIST_Chemistry_WebBook]
 xref: Beilstein:1792887 {source="Beilstein"}
-xref: CAS:112-85-6 {source="KEGG COMPOUND"}
 xref: CAS:112-85-6 {source="ChemIDplus"}
 xref: CAS:112-85-6 {source="NIST Chemistry WebBook"}
+xref: CAS:112-85-6 {source="KEGG COMPOUND"}
 xref: Chemspider:7923
 xref: Drug_Central:3855 {source="DrugCentral"}
 xref: FooDB:FDB005830
@@ -24751,7 +24836,6 @@ synonym: "propanoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "propioic acid" RELATED [LIPID_MAPS]
 synonym: "Propionic acid" EXACT [KEGG_COMPOUND]
 synonym: "propionic acid" EXACT [IUPAC]
-synonym: "propionic acid" RELATED []
 synonym: "Propionsaeure" RELATED [ChEBI]
 synonym: "propoic acid" RELATED [ChEBI]
 synonym: "pseudoacetic acid" RELATED [ChemIDplus]
@@ -24847,7 +24931,6 @@ alt_id: CHEBI:24180
 alt_id: CHEBI:5268
 def: "A trihydroxybenzoic acid in which the hydroxy groups are at positions 3, 4, and 5." []
 subset: 3_STAR
-synonym: "3,4,5- trihydrox benzoic acid" RELATED []
 synonym: "3,4,5-Trihydroxybenzoic acid" RELATED [KEGG_COMPOUND]
 synonym: "3,4,5-trihydroxybenzoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "3,4,5-trihydroxybenzoic acid" RELATED [ChEBI]
@@ -24949,7 +25032,6 @@ synonym: "Duodecylic acid" RELATED [DrugBank]
 synonym: "LAURIC ACID" RELATED [PDBeChem]
 synonym: "Lauric acid" RELATED [KEGG_COMPOUND]
 synonym: "lauric acid" RELATED [ChEBI]
-synonym: "lauric acid" RELATED []
 synonym: "Laurinsaeure" RELATED [DrugBank]
 synonym: "Laurinsaeure" RELATED [ChEBI]
 synonym: "Laurostearic acid" RELATED [DrugBank]
@@ -25015,7 +25097,6 @@ alt_id: CHEBI:27278
 alt_id: CHEBI:9933
 def: "A monohydroxybenzoic acid that is 4-hydroxybenzoic acid substituted by a methoxy group at position 3." []
 subset: 3_STAR
-synonym: "4-hydroxy-3-methoxy benzoic acid" RELATED []
 synonym: "4-Hydroxy-3-methoxybenzoic acid" RELATED [KEGG_COMPOUND]
 synonym: "4-hydroxy-3-methoxybenzoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Vanillic acid" EXACT [KEGG_COMPOUND]
@@ -25165,7 +25246,6 @@ synonym: "glucitol" EXACT IUPAC_NAME [IUPAC]
 synonym: "gulitol" RELATED [ChEBI]
 synonym: "rel-(2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol" RELATED [IUPAC]
 synonym: "Sorbitol" RELATED [KEGG_COMPOUND]
-synonym: "sorbitol" RELATED []
 xref: Beilstein:1721909 {source="Beilstein"}
 xref: Gmelin:83165 {source="Gmelin"}
 xref: Wikipedia:Sorbitol
@@ -25267,7 +25347,6 @@ synonym: "7-((2-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-5-
 synonym: "Apigenin 7-O-neohesperidoside" EXACT [KEGG_COMPOUND]
 synonym: "Apigenin-7-O-rhamnoglucoside" RELATED [ChemIDplus]
 synonym: "Rhoifolin" RELATED [KEGG_COMPOUND]
-synonym: "rhoifolin" RELATED []
 synonym: "Rhoifoloside" RELATED [KEGG_COMPOUND]
 xref: Beilstein:73879 {source="Beilstein"}
 xref: CAS:17306-46-6 {source="KEGG DRUG"}
@@ -25839,7 +25918,6 @@ synonym: "NaHCO3" RELATED [IUPAC]
 synonym: "Natriumhydrogenkarbonat" RELATED [ChemIDplus]
 synonym: "sodium acid carbonate" RELATED [ChemIDplus]
 synonym: "Sodium bicarbonate" RELATED [KEGG_COMPOUND]
-synonym: "sodium bicarbonate" EXACT []
 synonym: "sodium hydrogen carbonate" RELATED [ChemIDplus]
 synonym: "Sodium hydrogencarbonate" EXACT [KEGG_COMPOUND]
 synonym: "sodium hydrogencarbonate" EXACT IUPAC_NAME [IUPAC]
@@ -26121,7 +26199,6 @@ synonym: "(6Z,9Z,12Z,15Z)-octadeca-6,9,12,15-tetraenoic acid" EXACT IUPAC_NAME [
 synonym: "(6Z,9Z,12Z,15Z)-Octadecatetraenoic acid" RELATED [KEGG_COMPOUND]
 synonym: "6,9,12,15-Octadecatetraenoic acid" RELATED [KEGG_COMPOUND]
 synonym: "SDA" RELATED [ChEBI]
-synonym: "stearidonic acid" RELATED []
 synonym: "stearidonic acid" RELATED [ChEBI]
 xref: Beilstein:1712973 {source="Beilstein"}
 xref: CAS:20290-75-9 {source="ChemIDplus"}
@@ -26165,7 +26242,6 @@ synonym: "cis-11-eicosenoic acid" RELATED [ChEBI]
 synonym: "cis-Delta(11)-eicosenoic acid" RELATED [ChEBI]
 synonym: "cis-gondoic acid" RELATED [ChEBI]
 synonym: "Eicosenoic acid" RELATED [KEGG_COMPOUND]
-synonym: "gondoic acid" RELATED []
 synonym: "gondoic acid" RELATED [ChEBI]
 synonym: "Z-Delta(11)-Eicosensaeure" RELATED [ChEBI]
 xref: Beilstein:1727313 {source="Beilstein"}
@@ -27764,7 +27840,6 @@ synonym: "4-coumaric acid" EXACT [ChemIDplus]
 synonym: "4-hydroxycinnamic acid" RELATED [ChemIDplus]
 synonym: "beta-[4-hydroxyphenyl]acrylic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "p-coumaric acid" RELATED [ChemIDplus]
-synonym: "p-coumaric acid, 4-hydroxycinnamic acid" RELATED []
 synonym: "p-hydroxycinnamic acid" RELATED [ChemIDplus]
 synonym: "p-hydroxyphenylacrylic acid" RELATED [ChemIDplus]
 synonym: "para-coumaric acid" RELATED [NIST_Chemistry_WebBook]
@@ -28761,7 +28836,6 @@ synonym: "(R)-(-)-lactic acid" RELATED [ChemIDplus]
 synonym: "D-2-Hydroxypropanoic acid" RELATED [KEGG_COMPOUND]
 synonym: "D-2-Hydroxypropionic acid" RELATED [KEGG_COMPOUND]
 synonym: "D-Lactic acid" RELATED [KEGG_COMPOUND]
-synonym: "D-lactic acid" RELATED []
 synonym: "D-lactic acid" RELATED [ChemIDplus]
 synonym: "D-Milchsaeure" RELATED [ChEBI]
 synonym: "LACTIC ACID" RELATED [PDBeChem]
@@ -28804,7 +28878,6 @@ synonym: "(S)-2-hydroxypropionic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "L-(+)-alpha-hydroxypropionic acid" RELATED [ChemIDplus]
 synonym: "L-(+)-lactic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "L-Lactic acid" RELATED [KEGG_COMPOUND]
-synonym: "L-lactic acid" RELATED []
 synonym: "L-Milchsaeure" RELATED [ChEBI]
 xref: Beilstein:1720251 {source="Beilstein"}
 xref: CAS:79-33-4 {source="NIST Chemistry WebBook"}
@@ -29196,7 +29269,6 @@ synonym: "15cis-tetracosenoic acid" RELATED [ChEBI]
 synonym: "cis-15-tetracosenoic acid" RELATED [CBN]
 synonym: "cis-Delta(15)-tetracosenoic acid" RELATED [ChEBI]
 synonym: "Nervonic acid" RELATED [KEGG_COMPOUND]
-synonym: "nervonic acid" RELATED []
 synonym: "Nervonsaeure" RELATED [ChEBI]
 synonym: "selacholeic acid" RELATED [ChEBI]
 xref: Beilstein:1728551 {source="Beilstein"}
@@ -29669,7 +29741,6 @@ synonym: "3-(3-hydroxyphenyl)prop-2-enoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "3-coumaric acid" EXACT [ChemIDplus]
 synonym: "3-hydroxycinnamic acid" RELATED [ChemIDplus]
 synonym: "m-coumaric acid" RELATED [NIST_Chemistry_WebBook]
-synonym: "m-coumaric, 3-hydroxycinnamic acid" RELATED []
 synonym: "m-hydroxycinnamic acid" RELATED [NIST_Chemistry_WebBook]
 xref: Beilstein:2690254 {source="Beilstein"}
 xref: CAS:588-30-7 {source="NIST Chemistry WebBook"}
@@ -30921,7 +30992,6 @@ synonym: "cis,cis,cis-11,14,17-eicosatrienoic acid" RELATED [ChEBI]
 synonym: "eicosa-11Z,14Z,17Z-trienoic acid" RELATED [ChEBI]
 synonym: "Eicosatrienoic acid" RELATED [KEGG_COMPOUND]
 synonym: "eicosatrienoic acid" RELATED [SUBMITTER]
-synonym: "eicosatrienoic acid" RELATED []
 synonym: "ETA" RELATED [KEGG_COMPOUND]
 synonym: "ETE" RELATED [ChEBI]
 xref: Beilstein:2458494 {source="Beilstein"}
@@ -30970,11 +31040,10 @@ synonym: "dihomo-gamma-linolenic acid" RELATED [ChEBI]
 synonym: "eicosa-8Z,11Z,14Z-trienoic acid" RELATED [ChEBI]
 synonym: "gamma-Homolinolenic acid" RELATED [DrugBank]
 synonym: "Homo-gamma-linolenic acid" RELATED [SUBMITTER]
-synonym: "homo-gamma-linolenic acid" RELATED []
 synonym: "Homo-gamma-linolensaeure" RELATED [ChEBI]
 xref: Beilstein:1913514 {source="Beilstein"}
-xref: CAS:1783-84-2 {source="ChemIDplus"}
 xref: CAS:1783-84-2 {source="KEGG COMPOUND"}
+xref: CAS:1783-84-2 {source="ChemIDplus"}
 xref: DrugBank:DB00154
 xref: HMDB:HMDB0002925
 xref: KEGG:C03242
@@ -32933,7 +33002,6 @@ namespace: chebi_ontology
 alt_id: CHEBI:9379
 def: "A dimethoxybenzene that is 3,5-dimethyl ether derivative of gallic acid." []
 subset: 3_STAR
-synonym: "3,5-dimethoxy-4-hydroxybenzoic acid" RELATED []
 synonym: "4-hydroxy-3,5-dimethoxybenzoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Cedar acid" RELATED [ChEBI]
 synonym: "Gallic acid 3,5-dimethyl ether" RELATED [KEGG_COMPOUND]
@@ -33461,7 +33529,6 @@ alt_id: CHEBI:24036
 def: "A member of the class of flavans in which one or more ring hydrogens are replaced by hydroxy groups." []
 subset: 3_STAR
 synonym: "flavanols" RELATED [ChEBI]
-synonym: "flavanols" RELATED []
 synonym: "hydroxyflavans" RELATED [ChEBI]
 is_a: CHEBI:38691 ! flavan
 
@@ -33553,7 +33620,6 @@ def: "A 20-carbon, polyunsaturated fatty acid having two double bonds at unspeci
 subset: 3_STAR
 synonym: "20:2" RELATED [ChEBI]
 synonym: "C20:2" RELATED [ChEBI]
-synonym: "eicosadienoic acid" RELATED []
 synonym: "eicosadienoic acid" RELATED [ChEBI]
 synonym: "eicosadienoic acids" RELATED [ChEBI]
 synonym: "icosadienoic acids" RELATED [ChEBI]
@@ -34603,7 +34669,6 @@ name: sinapic acid
 namespace: chebi_ontology
 def: "A monohydroxycinnamic acid that is cinnamic acid in which the phenyl hydrogens at positions 3, 4, and 5 are replaced by methoxy, hydroxy, and methoxy groups, respectively." []
 subset: 3_STAR
-synonym: "3,5-dimethoxy-4-hydroxycinnamic acid" RELATED []
 synonym: "3,5-dimethoxy-4-hydroxycinnamic acid" RELATED [ChEBI]
 synonym: "3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoic acid" EXACT IUPAC_NAME [IUPAC]
 xref: CAS:530-59-6 {source="KEGG COMPOUND"}
@@ -34767,7 +34832,6 @@ synonym: "2-Hydroxypropanoic acid" EXACT [KEGG_COMPOUND]
 synonym: "2-hydroxypropanoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "2-Hydroxypropionic acid" RELATED [KEGG_COMPOUND]
 synonym: "Lactic acid" RELATED [KEGG_COMPOUND]
-synonym: "lactic acid" RELATED []
 xref: CAS:50-21-5 {source="KEGG COMPOUND"}
 xref: KEGG:C01432
 xref: KEGG:D00111
@@ -36601,6 +36665,57 @@ xref: Wikipedia:Physical_property
 is_a: PATO:0000001 ! quality
 
 [Typedef]
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000111 "is part of" xsd:string
+property_value: IAO:0000112 "my brain is part of my body (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
+property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
+property_value: IAO:0000118 "part_of" xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
+property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+inverse_of: has_part ! has part
+
+[Typedef]
+id: BFO:0000062
+name: preceded by
+def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: dce:source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
+property_value: dcterms:source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
+property_value: IAO:0000111 "preceded by" xsd:string
+property_value: IAO:0000116 "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
+property_value: IAO:0000118 "is preceded by" xsd:string
+property_value: IAO:0000118 "preceded_by" xsd:string
+holds_over_chain: BFO:0000050 BFO:0000062
+is_transitive: true
+is_a: RO:0002086 ! ends after
+inverse_of: BFO:0000063 ! precedes
+
+[Typedef]
+id: BFO:0000063
+name: precedes
+def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: IAO:0000111 "precedes" xsd:string
+holds_over_chain: BFO:0000050 BFO:0000063
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
 id: BFO:0000066
 name: occurs in
 def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
@@ -36653,7 +36768,45 @@ property_value: IAO:0000118 "inheres_in" xsd:string
 property_value: RO:0001900 RO:0001901
 is_functional: true
 is_a: RO:0002314 ! characteristic of part of
-inverse_of: bearer_of ! bearer of
+inverse_of: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000053
+name: has characteristic
+def: "Inverse of characteristic_of" []
+property_value: IAO:0000111 "bearer of" xsd:string
+property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
+property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
+property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "bearer_of" xsd:string
+property_value: IAO:0000118 "is bearer of" xsd:string
+property_value: RO:0001900 RO:0001901
+is_inverse_functional: true
+
+[Typedef]
+id: RO:0000056
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+property_value: IAO:0000111 "participates in" xsd:string
+property_value: IAO:0000112 "this blood clot participates in this blood coagulation" xsd:string
+property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
+property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
+property_value: IAO:0000118 "participates_in" xsd:string
+inverse_of: RO:0000057 ! has participant
+
+[Typedef]
+id: RO:0000057
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+property_value: dce:source "http://www.obofoundry.org/ro/#OBO_REL:has_participant" xsd:string
+property_value: dcterms:source "http://www.obofoundry.org/ro/#OBO_REL:has_participant" xsd:string
+property_value: IAO:0000111 "has participant" xsd:string
+property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
+property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
+property_value: IAO:0000112 "this process has participant this input material (or this output material)" xsd:string
+property_value: IAO:0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time." xsd:string
+property_value: IAO:0000118 "has_participant" xsd:string
+holds_over_chain: has_part RO:0000057
 
 [Typedef]
 id: RO:0000079
@@ -36698,7 +36851,7 @@ def: "a relation between an independent continuant (the bearer) and a function, 
 property_value: IAO:0000112 "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)" xsd:string
 property_value: IAO:0000116 "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists." xsd:string
 property_value: IAO:0000118 "has_function" xsd:string
-is_a: bearer_of ! bearer of
+is_a: RO:0000053 ! has characteristic
 
 [Typedef]
 id: RO:0000086
@@ -36707,13 +36860,13 @@ def: "a relation between an independent continuant (the bearer) and a quality, i
 property_value: IAO:0000112 "this apple has quality this red color" xsd:string
 property_value: IAO:0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist." xsd:string
 property_value: IAO:0000118 "has_quality" xsd:string
-is_a: bearer_of ! bearer of
+is_a: RO:0000053 ! has characteristic
 
 [Typedef]
 id: RO:0000091
 name: has disposition
 def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
-is_a: bearer_of ! bearer of
+is_a: RO:0000053 ! has characteristic
 inverse_of: RO:0000092 ! disposition of
 
 [Typedef]
@@ -36799,12 +36952,33 @@ subset: ro-eco
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 
 [Typedef]
+id: RO:0002013
+name: has regulatory component activity
+def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002334 ! regulated by
+created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:30:46Z
+
+[Typedef]
+id: RO:0002014
+name: has negative regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
+comment: By convention GO molecular functions are classified by their effector function.  Internal regulatory functions are treated as components.  For example, NMDA glutmate receptor activity is a cation channel activity with positive regulatory component 'glutamate binding' and negative regulatory components including 'zinc binding' and 'magnesium binding'.
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002335 ! negatively regulated by
+created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:31:01Z
+
+[Typedef]
 id: RO:0002015
 name: has positive regulatory component activity
 def: "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B." []
 comment: By convention GO molecular functions are classified by their effector function and internal regulatory functions are treated as components.  So, for example calmodulin has a protein binding activity that has positive regulatory component activity calcium binding activity. Receptor tyrosine kinase activity is a tyrosine kinase activity that has positive regulatory component 'ligand binding'.
-is_a: has_regulatory_component_activity ! has regulatory component activity
-is_a: positively_regulated_by ! positively regulated by
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002336 ! positively regulated by
 created_by: dos
 created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:31:17Z
@@ -36822,7 +36996,7 @@ creation_date: 2017-05-24T09:44:33Z
 id: RO:0002018
 name: has component process
 def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
-is_a: has_component ! has component
+is_a: RO:0002180 ! has component
 created_by: dos
 created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:49:21Z
@@ -36832,8 +37006,8 @@ id: RO:0002022
 name: directly regulated by
 comment: Process(P2) is directly regulated by process(P1) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2. {xref="GOC:dos"}
 comment: Process(P2) is directly regulated by process(P1) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2. {xref="https://orcid.org/0000-0002-7073-9172"}
-is_a: regulated_by ! regulated by
-inverse_of: directly_regulates ! directly regulates
+is_a: RO:0002334 ! regulated by
+inverse_of: RO:0002578 ! directly regulates
 created_by: dos
 created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-17T13:52:24Z
@@ -36844,7 +37018,7 @@ name: directly negatively regulated by
 def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [GOC:dos]
 def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
 is_a: RO:0002022 ! directly regulated by
-inverse_of: directly_negatively_regulates ! directly negatively regulates
+inverse_of: RO:0002630 ! directly negatively regulates
 created_by: dos
 created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-17T13:52:38Z
@@ -36855,7 +37029,7 @@ name: directly positively regulated by
 def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [GOC:dos]
 def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
 is_a: RO:0002022 ! directly regulated by
-inverse_of: directly_positively_regulates ! directly positively regulates
+inverse_of: RO:0002629 ! directly positively regulates
 created_by: dos
 created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-17T13:52:47Z
@@ -36889,6 +37063,27 @@ is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
 [Typedef]
+id: RO:0002087
+name: immediately preceded by
+comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "starts_at_end_of" xsd:string
+is_a: BFO:0000062 ! preceded by
+inverse_of: RO:0002090 ! immediately precedes
+
+[Typedef]
+id: RO:0002090
+name: immediately precedes
+comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000118 "ends_at_start_of" xsd:string
+property_value: IAO:0000118 "meets" xsd:string
+property_value: RO:0002575 BFO:0000063
+is_a: BFO:0000063 ! precedes
+
+[Typedef]
 id: RO:0002093
 name: ends during
 comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). 
@@ -36896,6 +37091,23 @@ subset: ro-eco
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "o" xsd:string
 property_value: IAO:0000118 "overlaps" xsd:string
+
+[Typedef]
+id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: RO:0001900 RO:0001901
+holds_over_chain: BFO:0000050 BFO:0000050
+holds_over_chain: has_part BFO:0000050 {RO:0002582="true"}
+holds_over_chain: has_part RO:0002131
+is_symmetric: true
+is_a: RO:0002323 ! mereotopologically related to
+transitive_over: BFO:0000050 ! part of
+expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
 
 [Typedef]
 id: RO:0002163
@@ -36910,6 +37122,18 @@ property_value: IAO:0000232 "Note that it would be possible to use the relation 
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso "https://github.com/obophenotype/uberon/wiki/Part-disjointness-Design-Pattern" xsd:anyURI
 expand_expression_to: "BFO_0000051 exactly 0 (BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: RO:0002180
+name: has component
+def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "The definition of 'has component' is still under discussion. The challenge is in providing a definition that does not imply transitivity." xsd:string
+property_value: IAO:0000232 "For use in recording has_part with a cardinality constraint, because OWL does not permit cardinality constraints to be used in combination with transitive object properties. In situations where you would want to say something like 'has part exactly 5 digit, you would instead use has_component exactly 5 digit." xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:Componency
+is_a: has_part ! has part
 
 [Typedef]
 id: RO:0002202
@@ -36966,6 +37190,92 @@ def: "inverse of directly develops from" []
 subset: RO:0002259
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000118 "developmental precursor of" xsd:string
+
+[Typedef]
+id: RO:0002211
+name: regulates
+name: regulates (processual)
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 "David Hill" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-7476-6306
+property_value: IAO:0000117 https://orcid.org/0000-0002-3837-8864
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 "Tanya Berardini" xsd:string
+property_value: IAO:0000119 "GO" xsd:string
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000232 "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
+property_value: IAO:0000589 "regulates (processual)" xsd:string
+property_value: IAO:0000600 "false" xsd:boolean
+holds_over_chain: RO:0002578 RO:0002578
+is_transitive: true
+is_a: RO:0002411 ! causally upstream of
+inverse_of: RO:0002334 ! regulated by
+transitive_over: RO:0002025 ! has effector activity
+
+[Typedef]
+id: RO:0002212
+name: negatively regulates
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "negatively regulates (process to process)" xsd:string
+property_value: RO:0004050 RO:0002211
+is_a: RO:0002211 ! regulates
+is_a: RO:0002305 ! causally upstream of, negative effect
+inverse_of: RO:0002335 ! negatively regulated by
+
+[Typedef]
+id: RO:0002213
+name: positively regulates
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "positively regulates (process to process)" xsd:string
+property_value: RO:0004049 RO:0002211
+holds_over_chain: RO:0002212 RO:0002212
+is_transitive: true
+is_a: RO:0002211 ! regulates
+is_a: RO:0002304 ! causally upstream of, positive effect
+inverse_of: RO:0002336 ! positively regulated by
+
+[Typedef]
+id: RO:0002215
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+subset: ro-eco
+property_value: IAO:0000112 "mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)" xsd:string
+property_value: IAO:0000112 "osteoclast SubClassOf 'capable of' some 'bone resorption'" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "has function realized in" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20123131
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
+property_value: IAO:0000232 "For compatibility with BFO, this relation has a shortcut definition in which the expression \"capable of some P\" expands to \"bearer_of (some realized_by only P)\"." xsd:string
+is_a: RO:0002216 ! capable of part of
+
+[Typedef]
+id: RO:0002216
+name: capable of part of
+def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "has function in" xsd:string
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
+holds_over_chain: RO:0002215 BFO:0000050 {RO:0002582="true"}
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
 id: RO:0002219
@@ -37055,6 +37365,22 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000118 "ends with process that occurs in" xsd:string
 
 [Typedef]
+id: RO:0002233
+name: has input
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "consumes" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Has_input" xsd:anyURI
+is_a: RO:0000057 ! has participant
+inverse_of: RO:0002352 ! input of
+
+[Typedef]
 id: RO:0002234
 name: has output
 def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
@@ -37086,7 +37412,7 @@ subset: RO:0002259
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-holds_over_chain: RO:0002203 part_of
+holds_over_chain: RO:0002203 BFO:0000050
 is_a: RO:0002286 ! developmentally succeeded by
 is_a: RO:0002385 ! has potential to developmentally contribute to
 
@@ -37110,7 +37436,7 @@ def: "c acts upstream of p if and only if c enables some f that is involved in p
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: IAO:0000112 "A faulty traffic light (material entity) whose malfunctioning (a process) is causally upstream of a traffic collision (a process): the traffic light acts upstream of the collision." xsd:string
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of
-holds_over_chain: RO:0002327 causally_upstream_of
+holds_over_chain: RO:0002327 RO:0002411
 is_a: RO:0002264 ! acts upstream of or within
 
 [Typedef]
@@ -37122,7 +37448,7 @@ synonym: "affects" RELATED []
 property_value: IAO:0000112 "A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway." xsd:string
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within
 property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within" xsd:anyURI
-holds_over_chain: RO:0002327 causally_upstream_of_or_within
+holds_over_chain: RO:0002327 RO:0002418
 is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
@@ -37163,6 +37489,33 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 "GOC:mtg_berkeley_2013" xsd:string
 
 [Typedef]
+id: RO:0002304
+name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
+comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: dcterms:creator "cjm" xsd:string
+property_value: dcterms:creator https://orcid.org/0000-0002-6601-2165
+property_value: RO:0004049 RO:0002411
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_positive_effect
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004047 ! causally upstream of or within, positive effect
+
+[Typedef]
+id: RO:0002305
+name: causally upstream of, negative effect
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: dcterms:creator "cjm" xsd:string
+property_value: dcterms:creator https://orcid.org/0000-0002-6601-2165
+property_value: RO:0004050 RO:0002411
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_negative_effect
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004046 ! causally upstream of or within, negative effect
+
+[Typedef]
 id: RO:0002314
 name: characteristic of part of
 def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
@@ -37173,9 +37526,9 @@ property_value: IAO:0000118 "inheres in part of" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
-holds_over_chain: RO:0000052 part_of {RO:0002582="true"}
+holds_over_chain: RO:0000052 BFO:0000050 {RO:0002582="true"}
 is_a: RO:0002502 ! depends on
-transitive_over: part_of ! part_of
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
 id: RO:0002323
@@ -37209,7 +37562,7 @@ property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
 property_value: seeAlso "https://wiki.geneontology.org/Enables" xsd:anyURI
-is_a: capable_of ! capable of
+is_a: RO:0002215 ! capable of
 inverse_of: RO:0002333 ! enabled by
 transitive_over: has_part ! has part
 transitive_over: RO:0002017 ! has component activity
@@ -37229,7 +37582,7 @@ def: "this relation holds between c and p when c is part of some c', and c' is c
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "false" xsd:boolean
-holds_over_chain: part_of capable_of {RO:0002581="true"}
+holds_over_chain: BFO:0000050 RO:0002215 {RO:0002581="true"}
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
@@ -37242,10 +37595,10 @@ property_value: IAO:0000118 "actively involved in" xsd:string
 property_value: IAO:0000118 "enables part of" xsd:string
 property_value: seeAlso "https://wiki.geneontology.org/Involved_in" xsd:anyURI
 property_value: seeAlso Involved:in
-holds_over_chain: RO:0002327 part_of
-is_a: participates_in ! participates in
+holds_over_chain: RO:0002327 BFO:0000050
+is_a: RO:0000056 ! participates in
 is_a: RO:0002431 ! involved in or involved in regulation of
-transitive_over: part_of ! part_of
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
 id: RO:0002333
@@ -37255,8 +37608,37 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso "https://wiki.geneontology.org/Enabled_by" xsd:anyURI
-is_a: has_participant ! has participant
+is_a: RO:0000057 ! has participant
 is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002334
+name: regulated by
+def: "inverse of regulates" []
+subset: RO:0002259
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000589 "regulated by (processual)" xsd:string
+is_transitive: true
+is_a: RO:0002427 ! causally downstream of or within
+
+[Typedef]
+id: RO:0002335
+name: negatively regulated by
+def: "inverse of negatively regulates" []
+subset: RO:0002259
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002336
+name: positively regulated by
+def: "inverse of positively regulates" []
+subset: RO:0002259
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002334 ! regulated by
 
 [Typedef]
 id: RO:0002350
@@ -37283,7 +37665,7 @@ subset: ro-eco
 subset: RO:0002259
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: participates_in ! participates in
+is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
@@ -37344,6 +37726,27 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002387 ! has potential to develop into
 
 [Typedef]
+id: RO:0002404
+name: causally downstream of
+def: "inverse of upstream of" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: BFO:0000062 ! preceded by
+is_a: RO:0002427 ! causally downstream of or within
+inverse_of: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002405
+name: immediately causally downstream of
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002087 ! immediately preceded by
+is_a: RO:0002404 ! causally downstream of
+inverse_of: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
 id: RO:0002407
 name: indirectly positively regulates
 def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
@@ -37352,13 +37755,13 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly activates" xsd:string
 property_value: RO:0002579 RO:0002213
 property_value: seeAlso "https://wiki.geneontology.org/Indirectly_positively_regulates" xsd:anyURI
-holds_over_chain: directly_positively_regulates directly_positively_regulates
-holds_over_chain: directly_positively_regulates RO:0002407
 holds_over_chain: RO:0002409 RO:0002409
+holds_over_chain: RO:0002629 RO:0002407
+holds_over_chain: RO:0002629 RO:0002629
 is_transitive: true
-is_a: positively_regulates ! positively regulates
+is_a: RO:0002213 ! positively regulates
 is_a: RO:0012012 ! indirectly regulates
-transitive_over: directly_positively_regulates ! directly positively regulates
+transitive_over: RO:0002629 ! directly positively regulates
 
 [Typedef]
 id: RO:0002409
@@ -37369,12 +37772,12 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly inhibits" xsd:string
 property_value: RO:0002579 RO:0002212
 property_value: seeAlso "https://wiki.geneontology.org/Indirectly_negatively_regulates" xsd:anyURI
-holds_over_chain: directly_negatively_regulates directly_negatively_regulates
-holds_over_chain: directly_negatively_regulates RO:0002409
+holds_over_chain: RO:0002630 RO:0002409
+holds_over_chain: RO:0002630 RO:0002630
 is_transitive: true
-is_a: negatively_regulates ! negatively regulates
+is_a: RO:0002212 ! negatively regulates
 is_a: RO:0012012 ! indirectly regulates
-transitive_over: directly_negatively_regulates ! directly negatively regulates
+transitive_over: RO:0002630 ! directly negatively regulates
 
 [Typedef]
 id: RO:0002410
@@ -37386,13 +37789,59 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 
 [Typedef]
+id: RO:0002411
+name: causally upstream of
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_transitive: true
+is_a: BFO:0000063 ! precedes
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002412
+name: immediately causally upstream of
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: RO:0002575 RO:0002411
+is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002418
+name: causally upstream of or within
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
+synonym: "affects" RELATED []
+property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "influences (processual)" xsd:string
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+inverse_of: RO:0002427 ! causally downstream of or within
+
+[Typedef]
+id: RO:0002427
+name: causally downstream of or within
+def: "inverse of causally upstream of or within" []
+subset: RO:0002259
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+
+[Typedef]
 id: RO:0002428
 name: involved in regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-holds_over_chain: RO:0002327 regulates
-holds_over_chain: RO:0002331 regulates
+holds_over_chain: RO:0002327 RO:0002211
+holds_over_chain: RO:0002331 RO:0002211
 is_a: RO:0002263 ! acts upstream of
 is_a: RO:0002431 ! involved in or involved in regulation of
 
@@ -37403,8 +37852,8 @@ def: "c involved in regulation of p if c is involved in some p' and p' positivel
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004049 RO:0002428
-holds_over_chain: RO:0002327 positively_regulates
-holds_over_chain: RO:0002331 positively_regulates
+holds_over_chain: RO:0002327 RO:0002213
+holds_over_chain: RO:0002331 RO:0002213
 is_a: RO:0002428 ! involved in regulation of
 
 [Typedef]
@@ -37414,8 +37863,8 @@ def: "c involved in regulation of p if c is involved in some p' and p' negativel
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004050 RO:0002428
-holds_over_chain: RO:0002327 negatively_regulates
-holds_over_chain: RO:0002331 negatively_regulates
+holds_over_chain: RO:0002327 RO:0002212
+holds_over_chain: RO:0002331 RO:0002212
 is_a: RO:0002428 ! involved in regulation of
 
 [Typedef]
@@ -37570,7 +38019,7 @@ name: causal agent in process
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 is_a: RO:0002595 ! causal relation between material entity and a process
-inverse_of: process_has_causal_agent ! process has causal agent
+inverse_of: RO:0002608 ! process has causal agent
 
 [Typedef]
 id: RO:0002501
@@ -37667,13 +38116,28 @@ property_value: IAO:0000589 "causally influences (entity-centric)" xsd:string
 is_a: RO:0002506 ! causal relation between entities
 
 [Typedef]
+id: RO:0002578
+name: directly regulates
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly regulates (processual)" xsd:string
+property_value: RO:0002575 RO:0002211
+is_a: RO:0002211 ! regulates
+is_a: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
 id: RO:0002584
 name: has part structure that is capable of
 def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
 property_value: IAO:0000112 "gland SubClassOf 'has part structure that is capable of' some 'secretion by cell'" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-holds_over_chain: has_part capable_of
+holds_over_chain: has_part RO:0002215
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002595 ! causal relation between material entity and a process
 
@@ -37694,7 +38158,7 @@ name: capable of regulating
 def: "Holds between c and p if and only if c is capable of some activity a, and a regulates p." []
 property_value: IAO:0000112 "pyrethroid -> growth" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-holds_over_chain: capable_of regulates
+holds_over_chain: RO:0002215 RO:0002211
 is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
@@ -37702,7 +38166,7 @@ id: RO:0002597
 name: capable of negatively regulating
 def: "Holds between c and p if and only if c is capable of some activity a, and a negatively regulates p." []
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-holds_over_chain: capable_of negatively_regulates
+holds_over_chain: RO:0002215 RO:0002212
 is_a: RO:0002596 ! capable of regulating
 
 [Typedef]
@@ -37711,8 +38175,43 @@ name: capable of positively regulating
 def: "Holds between c and p if and only if c is capable of some activity a, and a positively regulates p." []
 property_value: IAO:0000112 "renin -> arteriolar smooth muscle contraction" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-holds_over_chain: capable_of positively_regulates
+holds_over_chain: RO:0002215 RO:0002213
 is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002608
+name: process has causal agent
+def: "Inverse of 'causal agent in process'" []
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002629
+name: directly positively regulates
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly positively regulates (process to process)" xsd:string
+property_value: RO:0004049 RO:0002578
+property_value: seeAlso "https://wiki.geneontology.org/Directly_positively_regulates" xsd:anyURI
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002630
+name: directly negatively regulates
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly negatively regulates (process to process)" xsd:string
+property_value: RO:0004050 RO:0002578
+property_value: seeAlso "https://wiki.geneontology.org/Directly_negatively_regulates" xsd:anyURI
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0002578 ! directly regulates
 
 [Typedef]
 id: RO:0003000
@@ -37774,7 +38273,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: RO:0004049 RO:0002263
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of,_positive_effect
 property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of,_positive_effect" xsd:anyURI
-holds_over_chain: RO:0002327 causally_upstream_of,_positive_effect
+holds_over_chain: RO:0002327 RO:0002304
 is_a: RO:0002263 ! acts upstream of
 is_a: RO:0004032 ! acts upstream of or within, positive effect
 created_by: cjm
@@ -37789,7 +38288,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: RO:0004050 RO:0002263
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of,_negative_effect
 property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of,_negative_effect" xsd:anyURI
-holds_over_chain: RO:0002327 causally_upstream_of,_negative_effect
+holds_over_chain: RO:0002327 RO:0002305
 is_a: RO:0002263 ! acts upstream of
 is_a: RO:0004033 ! acts upstream of or within, negative effect
 created_by: cjm
@@ -37801,7 +38300,7 @@ id: RO:0004046
 name: causally upstream of or within, negative effect
 property_value: RO:0004050 RO:0002418
 property_value: seeAlso "https://wiki.geneontology.org/Causally_upstream_of_or_within,_negative_effect" xsd:anyURI
-is_a: causally_upstream_of_or_within ! causally upstream of or within
+is_a: RO:0002418 ! causally upstream of or within
 created_by: cjm
 created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:05Z
@@ -37811,7 +38310,7 @@ id: RO:0004047
 name: causally upstream of or within, positive effect
 property_value: RO:0004049 RO:0002418
 property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of_or_within,_positive_effect
-is_a: causally_upstream_of_or_within ! causally upstream of or within
+is_a: RO:0002418 ! causally upstream of or within
 created_by: cjm
 created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:19Z
@@ -37830,7 +38329,7 @@ is_a: RO:0002566 ! causally influences
 id: RO:0012011
 name: indirectly causally upstream of
 def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
-is_a: causally_upstream_of ! causally upstream of
+is_a: RO:0002411 ! causally upstream of
 created_by: https://orcid.org/0000-0003-1813-6857
 created_by: pg
 creation_date: 2022-09-26T06:07:17Z
@@ -37839,11 +38338,17 @@ creation_date: 2022-09-26T06:07:17Z
 id: RO:0012012
 name: indirectly regulates
 def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
-is_a: regulates ! regulates
+is_a: RO:0002211 ! regulates
 is_a: RO:0012011 ! indirectly causally upstream of
 created_by: https://orcid.org/0000-0003-1813-6857
 created_by: pg
 creation_date: 2022-09-26T06:08:01Z
+
+[Typedef]
+id: RO:0015012
+name: reciprocal of
+def: "q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e." [https://orcid.org/0000-0002-6601-2165]
+comment: There are frequently two ways to state the same thing: we can say 'spermatocyte lacks asters' or 'asters absent from spermatocyte'. In this case the quality is 'lacking all parts of type' - it is a (relational) quality of the spermatocyte, and it is with respect to instances of 'aster'. One of the popular requirements of PATO is that it continue to support 'absent', so we need to relate statements which use this quality to the 'lacking all parts of type' quality.
 
 [Typedef]
 id: RO:0017001
@@ -37853,210 +38358,38 @@ synonym: "utilizes" BROAD []
 property_value: dcterms:contributor https://orcid.org/0000-0001-9625-1899
 property_value: dcterms:contributor https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899
 property_value: IAO:0000117 "https://orcid.org/0000-0001-9625-1899" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000117 "https://orcid.org/0000-0003-2620-0345" xsd:string
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
-holds_over_chain: capable_of has_input
+holds_over_chain: RO:0002215 RO:0002233
 creation_date: 2021-11-08T12:00:00Z
 
 [Typedef]
-id: bearer_of
-name: bearer of
-name: has characteristic
-namespace: external
-def: "Inverse of characteristic_of" []
-xref: RO:0000053
-property_value: IAO:0000111 "bearer of" xsd:string
-property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
-property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
-property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
-property_value: IAO:0000118 "bearer_of" xsd:string
-property_value: IAO:0000118 "is bearer of" xsd:string
-property_value: RO:0001900 RO:0001901
-is_inverse_functional: true
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
+range: PATO:0000001 ! quality
+holds_over_chain: RO:0002211 RO:0019000
+is_a: RO:0002410 ! causally related to
 
 [Typedef]
-id: capable_of
-name: capable of
-namespace: external
-def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
-subset: ro-eco
-xref: RO:0002215
-property_value: IAO:0000112 "mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)" xsd:string
-property_value: IAO:0000112 "osteoclast SubClassOf 'capable of' some 'bone resorption'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000118 "has function realized in" xsd:string
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20123131
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
-property_value: IAO:0000232 "For compatibility with BFO, this relation has a shortcut definition in which the expression \"capable of some P\" expands to \"bearer_of (some realized_by only P)\"." xsd:string
-is_a: capable_of_part_of ! capable of part of
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002213 RO:0019001
+is_a: RO:0019000 ! regulates characteristic
 
 [Typedef]
-id: capable_of_part_of
-name: capable of part of
-namespace: external
-def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
-xref: RO:0002216
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000118 "has function in" xsd:string
-property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
-holds_over_chain: capable_of part_of {RO:0002582="true"}
-is_a: RO:0002328 ! functionally related to
-is_a: RO:0002500 ! causal agent in process
-
-[Typedef]
-id: causally_downstream_of
-name: causally downstream of
-namespace: external
-def: "inverse of upstream of" []
-xref: RO:0002404
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: causally_downstream_of_or_within ! causally downstream of or within
-is_a: preceded_by ! preceded by
-inverse_of: causally_upstream_of ! causally upstream of
-
-[Typedef]
-id: causally_downstream_of_or_within
-name: causally downstream of or within
-namespace: external
-def: "inverse of causally upstream of or within" []
-subset: RO:0002259
-xref: RO:0002427
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-is_transitive: true
-is_a: RO:0002501 ! causal relation between processes
-
-[Typedef]
-id: causally_upstream_of
-name: causally upstream of
-namespace: external
-def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002411
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_transitive: true
-is_a: causally_upstream_of_or_within ! causally upstream of or within
-is_a: precedes ! precedes
-
-[Typedef]
-id: causally_upstream_of,_negative_effect
-name: causally upstream of, negative effect
-namespace: external
-def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002305
-property_value: dcterms:creator "cjm" xsd:string
-property_value: dcterms:creator https://orcid.org/0000-0002-6601-2165
-property_value: RO:0004050 RO:0002411
-property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_negative_effect
-is_a: causally_upstream_of ! causally upstream of
-is_a: RO:0004046 ! causally upstream of or within, negative effect
-
-[Typedef]
-id: causally_upstream_of,_positive_effect
-name: causally upstream of, positive effect
-namespace: external
-def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
-comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002304
-property_value: dcterms:creator "cjm" xsd:string
-property_value: dcterms:creator https://orcid.org/0000-0002-6601-2165
-property_value: RO:0004049 RO:0002411
-property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_positive_effect
-is_a: causally_upstream_of ! causally upstream of
-is_a: RO:0004047 ! causally upstream of or within, positive effect
-
-[Typedef]
-id: causally_upstream_of_or_within
-name: causally upstream of or within
-namespace: external
-def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
-synonym: "affects" RELATED []
-xref: RO:0002418
-property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000118 "influences (processual)" xsd:string
-is_transitive: true
-is_a: RO:0002501 ! causal relation between processes
-inverse_of: causally_downstream_of_or_within ! causally downstream of or within
-
-[Typedef]
-id: directly_negatively_regulates
-name: directly negatively regulates
-namespace: external
-def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002630
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "directly negatively regulates (process to process)" xsd:string
-property_value: RO:0004050 RO:0002578
-property_value: seeAlso "https://wiki.geneontology.org/Directly_negatively_regulates" xsd:anyURI
-is_a: directly_regulates ! directly regulates
-is_a: negatively_regulates ! negatively regulates
-
-[Typedef]
-id: directly_positively_regulates
-name: directly positively regulates
-namespace: external
-def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002629
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "directly positively regulates (process to process)" xsd:string
-property_value: RO:0004049 RO:0002578
-property_value: seeAlso "https://wiki.geneontology.org/Directly_positively_regulates" xsd:anyURI
-is_a: directly_regulates ! directly regulates
-is_a: positively_regulates ! positively regulates
-
-[Typedef]
-id: directly_regulates
-name: directly regulates
-namespace: external
-def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002578
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "directly regulates (processual)" xsd:string
-property_value: RO:0002575 RO:0002211
-is_a: immediately_causally_upstream_of ! immediately causally upstream of
-is_a: regulates ! regulates
-
-[Typedef]
-id: has_component
-name: has component
-namespace: external
-def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
-subset: ro-eco
-xref: RO:0002180
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "The definition of 'has component' is still under discussion. The challenge is in providing a definition that does not imply transitivity." xsd:string
-property_value: IAO:0000232 "For use in recording has_part with a cardinality constraint, because OWL does not permit cardinality constraints to be used in combination with transitive object properties. In situations where you would want to say something like 'has part exactly 5 digit, you would instead use has_component exactly 5 digit." xsd:string
-property_value: RO:0001900 RO:0001901
-property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:Componency
-is_a: has_part ! has part
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002212 RO:0019001
+holds_over_chain: RO:0002213 RO:0019002
+is_a: RO:0019000 ! regulates characteristic
 
 [Typedef]
 id: has_functional_parent
@@ -38064,37 +38397,6 @@ name: has functional parent
 namespace: chebi_ontology
 is_cyclic: false
 is_transitive: false
-
-[Typedef]
-id: has_input
-name: has input
-namespace: external
-def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-subset: ro-eco
-xref: RO:0002233
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000118 "consumes" xsd:string
-property_value: seeAlso "https://wiki.geneontology.org/Has_input" xsd:anyURI
-is_a: has_participant ! has participant
-inverse_of: RO:0002352 ! input of
-
-[Typedef]
-id: has_negative_regulatory_component_activity
-name: has negative regulatory component activity
-namespace: external
-def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
-comment: By convention GO molecular functions are classified by their effector function.  Internal regulatory functions are treated as components.  For example, NMDA glutmate receptor activity is a cation channel activity with positive regulatory component 'glutamate binding' and negative regulatory components including 'zinc binding' and 'magnesium binding'.
-xref: RO:0002014
-is_a: has_regulatory_component_activity ! has regulatory component activity
-is_a: negatively_regulated_by ! negatively regulated by
-created_by: dos
-created_by: https://orcid.org/0000-0002-7073-9172
-creation_date: 2017-05-24T09:31:01Z
 
 [Typedef]
 id: has_parent_hydride
@@ -38106,10 +38408,7 @@ is_transitive: false
 [Typedef]
 id: has_part
 name: has part
-name: has_part
 namespace: chebi_ontology
-namespace: external
-namespace: quality
 def: "a core relation that holds between a whole and its part" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
@@ -38126,35 +38425,7 @@ property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
 is_cyclic: false
 is_transitive: true
-is_a: overlaps ! overlaps
-
-[Typedef]
-id: has_participant
-name: has participant
-namespace: external
-def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
-xref: RO:0000057
-property_value: dce:source "http://www.obofoundry.org/ro/#OBO_REL:has_participant" xsd:string
-property_value: dcterms:source "http://www.obofoundry.org/ro/#OBO_REL:has_participant" xsd:string
-property_value: IAO:0000111 "has participant" xsd:string
-property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
-property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
-property_value: IAO:0000112 "this process has participant this input material (or this output material)" xsd:string
-property_value: IAO:0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time." xsd:string
-property_value: IAO:0000118 "has_participant" xsd:string
-holds_over_chain: has_part has_participant
-
-[Typedef]
-id: has_regulatory_component_activity
-name: has regulatory component activity
-namespace: external
-def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
-xref: RO:0002013
-is_a: regulated_by ! regulated by
-is_a: RO:0002017 ! has component activity
-created_by: dos
-created_by: https://orcid.org/0000-0002-7073-9172
-creation_date: 2017-05-24T09:30:46Z
+is_a: RO:0002131 ! overlaps
 
 [Typedef]
 id: has_role
@@ -38168,56 +38439,7 @@ property_value: IAO:0000118 "has_role" xsd:string
 range: BFO:0000023 ! role
 is_cyclic: false
 is_transitive: false
-is_a: bearer_of ! bearer of
-
-[Typedef]
-id: immediately_causally_downstream_of
-name: immediately causally downstream of
-namespace: external
-xref: RO:0002405
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: causally_downstream_of ! causally downstream of
-is_a: immediately_preceded_by ! immediately preceded by
-inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
-
-[Typedef]
-id: immediately_causally_upstream_of
-name: immediately causally upstream of
-namespace: external
-def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
-xref: RO:0002412
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: RO:0002575 RO:0002411
-is_a: causally_upstream_of ! causally upstream of
-is_a: immediately_precedes ! immediately precedes
-
-[Typedef]
-id: immediately_preceded_by
-name: immediately preceded by
-namespace: external
-comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
-xref: RO:0002087
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000118 "starts_at_end_of" xsd:string
-is_a: preceded_by ! preceded by
-inverse_of: immediately_precedes ! immediately precedes
-
-[Typedef]
-id: immediately_precedes
-name: immediately precedes
-namespace: external
-comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
-subset: ro-eco
-xref: RO:0002090
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
-property_value: IAO:0000118 "ends_at_start_of" xsd:string
-property_value: IAO:0000118 "meets" xsd:string
-property_value: RO:0002575 BFO:0000063
-is_a: precedes ! precedes
+is_a: RO:0000053 ! has characteristic
 
 [Typedef]
 id: is_conjugate_acid_of
@@ -38252,236 +38474,4 @@ id: is_tautomer_of
 name: is tautomer of
 namespace: chebi_ontology
 is_cyclic: true
-
-[Typedef]
-id: negatively_regulated_by
-name: negatively regulated by
-namespace: external
-def: "inverse of negatively regulates" []
-subset: RO:0002259
-xref: RO:0002335
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: regulated_by ! regulated by
-
-[Typedef]
-id: negatively_regulates
-name: negatively regulates
-namespace: external
-def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002212
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "negatively regulates (process to process)" xsd:string
-property_value: RO:0004050 RO:0002211
-is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative effect
-is_a: regulates ! regulates
-inverse_of: negatively_regulated_by ! negatively regulated by
-
-[Typedef]
-id: negatively_regulates_characteristic
-name: negatively regulates characteristic
-namespace: gene_ontology
-def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
-xref: RO:0019002
-property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
-holds_over_chain: negatively_regulates positively_regulates_characteristic
-holds_over_chain: positively_regulates negatively_regulates_characteristic
-is_a: regulates_characteristic ! regulates characteristic
-
-[Typedef]
-id: overlaps
-name: overlaps
-namespace: external
-def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-subset: ro-eco
-xref: RO:0002131
-property_value: IAO:0000114 IAO:0000125
-property_value: RO:0001900 RO:0001901
-holds_over_chain: has_part overlaps
-holds_over_chain: has_part part_of {RO:0002582="true"}
-holds_over_chain: part_of part_of
-is_symmetric: true
-is_a: RO:0002323 ! mereotopologically related to
-transitive_over: part_of ! part_of
-expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
-
-[Typedef]
-id: part_of
-name: part of
-name: part_of
-namespace: external
-namespace: quality
-def: "a core relation that holds between a part and its whole" []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: BFO:0000050
-property_value: IAO:0000111 "is part of" xsd:string
-property_value: IAO:0000112 "my brain is part of my body (continuant parthood, two material entities)" xsd:string
-property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
-property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
-property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
-property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
-property_value: IAO:0000118 "part_of" xsd:string
-property_value: RO:0001900 RO:0001901
-property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
-property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
-property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
-property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
-is_transitive: true
-is_a: overlaps ! overlaps
-inverse_of: has_part ! has part
-
-[Typedef]
-id: participates_in
-name: participates in
-namespace: external
-def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
-xref: RO:0000056
-property_value: IAO:0000111 "participates in" xsd:string
-property_value: IAO:0000112 "this blood clot participates in this blood coagulation" xsd:string
-property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
-property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
-property_value: IAO:0000118 "participates_in" xsd:string
-inverse_of: has_participant ! has participant
-
-[Typedef]
-id: positively_regulated_by
-name: positively regulated by
-namespace: external
-def: "inverse of positively regulates" []
-subset: RO:0002259
-xref: RO:0002336
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: regulated_by ! regulated by
-
-[Typedef]
-id: positively_regulates
-name: positively regulates
-namespace: external
-def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002213
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "positively regulates (process to process)" xsd:string
-property_value: RO:0004049 RO:0002211
-holds_over_chain: negatively_regulates negatively_regulates
-is_transitive: true
-is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive effect
-is_a: regulates ! regulates
-inverse_of: positively_regulated_by ! positively regulated by
-
-[Typedef]
-id: positively_regulates_characteristic
-name: positively regulates characteristic
-namespace: gene_ontology
-def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
-xref: RO:0019001
-property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
-holds_over_chain: positively_regulates positively_regulates_characteristic
-is_a: regulates_characteristic ! regulates characteristic
-
-[Typedef]
-id: preceded_by
-name: preceded by
-namespace: external
-def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
-subset: ro-eco
-xref: BFO:0000062
-property_value: dce:source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
-property_value: dcterms:source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
-property_value: IAO:0000111 "preceded by" xsd:string
-property_value: IAO:0000116 "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
-property_value: IAO:0000118 "is preceded by" xsd:string
-property_value: IAO:0000118 "preceded_by" xsd:string
-holds_over_chain: part_of preceded_by
-is_transitive: true
-is_a: RO:0002086 ! ends after
-inverse_of: precedes ! precedes
-
-[Typedef]
-id: precedes
-name: precedes
-namespace: external
-def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
-subset: ro-eco
-xref: BFO:0000063
-property_value: IAO:0000111 "precedes" xsd:string
-holds_over_chain: part_of precedes
-is_transitive: true
-is_a: RO:0002222 ! temporally related to
-
-[Typedef]
-id: process_has_causal_agent
-name: process has causal agent
-namespace: external
-def: "Inverse of 'causal agent in process'" []
-xref: RO:0002608
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-is_a: RO:0002410 ! causally related to
-
-[Typedef]
-id: regulated_by
-name: regulated by
-namespace: external
-def: "inverse of regulates" []
-subset: RO:0002259
-xref: RO:0002334
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000589 "regulated by (processual)" xsd:string
-is_transitive: true
-is_a: causally_downstream_of_or_within ! causally downstream of or within
-
-[Typedef]
-id: regulates
-name: regulates
-name: regulates (processual)
-namespace: external
-def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-xref: RO:0002211
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Hill" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0001-7476-6306
-property_value: IAO:0000117 https://orcid.org/0000-0002-3837-8864
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000117 "Tanya Berardini" xsd:string
-property_value: IAO:0000119 "GO" xsd:string
-property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000232 "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
-property_value: IAO:0000589 "regulates (processual)" xsd:string
-property_value: IAO:0000600 "false" xsd:boolean
-holds_over_chain: directly_regulates directly_regulates
-is_transitive: true
-is_a: causally_upstream_of ! causally upstream of
-inverse_of: regulated_by ! regulated by
-transitive_over: RO:0002025 ! has effector activity
-
-[Typedef]
-id: regulates_characteristic
-name: regulates characteristic
-namespace: gene_ontology
-def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
-xref: RO:0019000
-property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
-range: PATO:0000001 ! quality
-holds_over_chain: regulates regulates_characteristic
-is_a: RO:0002410 ! causally related to
 
