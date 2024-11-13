@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: cdno/releases/2024-10-21/cdno-base.owl
+data-version: cdno/releases/2024-11-12/cdno-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: foaf http://xmlns.com/foaf/0.1/ 

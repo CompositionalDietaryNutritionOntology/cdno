@@ -1024,7 +1024,11 @@ CDNO:0000041	#non-starch polysaccharide
 CDNO:0000042	#cellulosic polysaccharide
 CDNO:0000043	#non-starch non-cellulosic polysaccharide
 CHEBI:17029	#chitin
-
+CDNO:0000044	#pullulan
+CDNO:0000045	#modified cellulose
+CDNO:0000046	#chitin-glucan
+CDNO:0000047	#nondigestible oligosaccharide
+CHEBI:28554	#ajugose
 
 
 

@@ -719,6 +719,74 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
+        <obo:IAO_0000115 xml:lang="en">A linear α-glucan composed of repeating α-1,4-linked maltotriose or maltotetraose subunits, connected by α-1,6-glycosidic bonds.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">pullulan</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A linear α-glucan composed of repeating α-1,4-linked maltotriose or maltotetraose subunits, connected by α-1,6-glycosidic bonds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/B978-0-12-820104-6.00032-2"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000042"/>
+        <obo:IAO_0000115 xml:lang="en">A cellulosic polysaccharide to which substituent groups have been added.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">modified cellulose</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cellulosic polysaccharide to which substituent groups have been added.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.3390/polym14153206"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
+        <obo:IAO_0000115 xml:lang="en">A non-starch polysaccharide composed of chitin (β-1,4-poly-N-acetyl-D-glucosamine) and β-1,3-D-glucan, obtained from Aspergillus niger mycelial cell walls.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Chitin-glucan complex, CGC, CG</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">chitin-glucan</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A non-starch polysaccharide composed of chitin (β-1,4-poly-N-acetyl-D-glucosamine) and β-1,3-D-glucan, obtained from Aspergillus niger mycelial cell walls.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.3390/nu13093249"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+        <obo:IAO_0000115 xml:lang="en">A dietary fiber consisting of 3-9 monomeric units not digested by enzymes of the human digestive tract and soluble in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Oligosaccharide, nondigestible, Resistant Oligosaccharide</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">nondigestible oligosaccharide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A dietary fiber consisting of 3-9 monomeric units not digested by enzymes of the human digestive tract and soluble in water.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.eurofir.org/our-resources/eurofir-thesauri/"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_10086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10086">
@@ -4626,6 +4694,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35368"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">ajugose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_28586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28586">
@@ -5988,6 +6066,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">fatty acid</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35368"/>
     
 
 
