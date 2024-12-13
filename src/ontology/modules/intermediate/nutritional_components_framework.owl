@@ -385,7 +385,8 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1186/1743-7075-4-24, https://doi.org/10.1016/j.nut.2010.01.014"/>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1186/1743-7075-4-24"/>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/j.nut.2010.01.014"/>
     </owl:Axiom>
     
 
