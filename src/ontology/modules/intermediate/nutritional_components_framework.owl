@@ -385,8 +385,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Sulfur ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1186/1743-7075-4-24"/>
-        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/j.nut.2010.01.014"/>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1186/1743-7075-4-24, https://doi.org/10.1016/j.nut.2010.01.014"/>
     </owl:Axiom>
     
 
@@ -784,6 +783,100 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">A dietary fiber consisting of 3-9 monomeric units not digested by enzymes of the human digestive tract and soluble in water.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://www.eurofir.org/our-resources/eurofir-thesauri/"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28796"/>
+        <obo:IAO_0000115 xml:lang="en">A fructan consisting primarily of β-(2,6)-linked fructose residues with β-(1,2)-branches</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">graminan</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A fructan consisting primarily of β-(2,6)-linked fructose residues with β-(1,2)-branches</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/b978-0-240-52118-3.00009-0"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
+        <obo:IAO_0000115 xml:lang="en">A polysaccharide primarily composed of a backbone containing α−1,4-D-galacturonic acid residues</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">pectic polysaccharide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A polysaccharide primarily composed of a backbone containing α−1,4-D-galacturonic acid residues</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/b978-044451967-2/00005-2, https://doi.org/10.1007/978-3-030-12919-4_12"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">A highly water-soluble or water-dispersible polysaccharide that readily dissolves or disperses to form highly hydrated entities of colloidal (nanoscale) dimensions</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">hydrocolloid</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">polysaccharide-based hydrocolloid</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A highly water-soluble or water-dispersible polysaccharide that readily dissolves or disperses to form highly hydrated entities of colloidal (nanoscale) dimensions</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/j.foodhyd.2017.01.025, https://doi.org/10.1016/j.ijbiomac.2023.127152, https://doi.org/10.1016/b978-012373739-7.50011-3"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">resistant glucan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">A nondigestible oligosaccharide composed of a backbone of β-(1→4)-linked d-xylopyranosyl residues partially substituted with arabinofuranosyl side chains.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">arabinoxylo-oligosaccharide</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/XML/1998/namespacestring">arabinoxylan-oligosaccharide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A nondigestible oligosaccharide composed of a backbone of β-(1→4)-linked d-xylopyranosyl residues partially substituted with arabinofuranosyl side chains.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1016/j.carbpol.2024.122933"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.sciencedirect.com/science/article/pii/S0008621500000951, https://doi.org/10.1111/j.1751-7915.2008.00064.x"/>
     </owl:Axiom>
     
 

@@ -1051,3 +1051,8 @@ CDNO:0201054,,CDNO:0000045,modified cellulose,BFO:0000040,material entity
 CDNO:0201055,,CDNO:0000046,chitin-glucan,BFO:0000040,material entity
 CDNO:0201056,,CDNO:0000047,nondigestible oligosaccharide,BFO:0000040,material entity
 CDNO:0201057,,CHEBI:28554,ajugose,BFO:0000040,material entity
+CDNO:0201058,,CDNO:0000048,graminan,BFO:0000040,material entity
+CDNO:0201059,,CDNO:0000049,pectic polysaccharide,BFO:0000040,material entity
+CDNO:0201060,,CDNO:0000050,polysaccharide-based hydrocolloid,BFO:0000040,material entity
+CDNO:0201061,,CDNO:0000051,resistant glucan,BFO:0000040,material entity
+CDNO:0201062,,CDNO:0000052,arabinoxylan-oligosaccharide,BFO:0000040,material entity
