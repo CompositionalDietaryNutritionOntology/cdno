@@ -351,6 +351,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000048"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000049"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000052"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CDNO_0100001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100001"/>
@@ -32887,6 +32917,161 @@
         <obo:IAO_0000115>The concentration of ajugose when measured in some material entity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>material entity ajugose concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of ajugose in material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201058">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000048"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of graminan when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>material entity graminan concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of graminan in material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201059">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000049"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of pectic polysaccharide when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>material entity pectic polysaccharide concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of pectic polysaccharide in material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201060">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000050"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of polysaccharide-based hydrocolloid when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>material entity polysaccharide-based hydrocolloid concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of polysaccharide-based hydrocolloid in material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201061">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000051"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of resistant glucan when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>material entity resistant glucan concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of resistant glucan in material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201062">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDNO_0000052"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The concentration of arabinoxylan-oligosaccharide when measured in some material entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>material entity arabinoxylan-oligosaccharide concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of arabinoxylan-oligosaccharide in material entity</rdfs:label>
     </owl:Class>
     
 

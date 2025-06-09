@@ -7488,6 +7488,90 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0201048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201048"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201049"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201058"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201059"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201061"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDNO_0201062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0201062"/>
 </rdf:RDF>
 
 

@@ -1029,7 +1029,11 @@ CDNO:0000045	#modified cellulose
 CDNO:0000046	#chitin-glucan
 CDNO:0000047	#nondigestible oligosaccharide
 CHEBI:28554	#ajugose
-
+CDNO:0000048	#graminan
+CDNO:0000049	#pectic polysaccharide
+CDNO:0000050	#polysaccharide-based hydrocolloid
+CDNO:0000051	#resistant glucan
+CDNO:0000052	#arabinoxylan-oligosaccharide
 
 
 CDNO:0400001	#dietary material physical attribute
