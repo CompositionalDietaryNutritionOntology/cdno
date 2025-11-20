@@ -47,6 +47,26 @@ Please use the issue tracker for comments, requests for new terms, and suggestin
 
 <img width="153" alt="cdno" src="https://user-images.githubusercontent.com/25215773/137417012-78e5a8c4-1726-47bb-a193-8f11ff4f6f8e.png">
 
+
+## Request an ontology term 
+Based on the OBO recommendations described [here](https://obofoundry.org/faq/how-do-i-request-a-term.html): 
+Before you request a term, please search [OntoBee](https://ontobee.org/), [BioPortal](https://bioportal.bioontology.org/) or [OLS](https://www.ebi.ac.uk/ols4/) for the term you want and its synonyms. An OBO ontology might already include the term you want under a different name. Check the OBO home page to find appropriate ontologies.
+
+
+### Request an ontology term in CDNO
+
+To request a CDNO term, please follow click on "New issue" in the [Github issue tracker of the CDNO repository](https://github.com/CompositionalDietaryNutritionOntology/cdno/issues).
+Choose the template "Request New Term" from all the issue options and fill the described information. We will work on checking if you need to actually submit the term in CHEBI or if we can add it into CDNO.
+We will discuss if your term should be added in CDNO or CHEBI, we are happy to discuss.
+
+
+### Requesting new terms in CHEBI
+
+CDNO reuses terms from CHEBI, if you want to add a new term which you think should be considerated in CHEBI, please create an account and directly create the term using the CHEBI submission tool [here](https://www.ebi.ac.uk/chebi/backend/auth/login/?next=/chebi/backend/submit/) 
+Please read the submission manual in your CHEBI account - to know how to submit your term. 
+
+Once CHEBI makes a new release with your new term, we can then import it into CDNO, please make an issue using the "Request New Term" template.
+
 ## CDNO is currently funded by the [Nutrient Institute](https://www.nutrientinstitute.org) 
 
 ## Contact
