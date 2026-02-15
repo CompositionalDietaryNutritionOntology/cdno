@@ -496,7 +496,7 @@ CHEBI:29222	#hypochlorite
 CHEBI:18420	#magnesium(2+)
 CHEBI:190297	#inorganic magnesium salt
 CHEBI:6636	#magnesium dichloride
-CHEBI:190298	#magnesium phosphate
+CHEBI:747291	#magnesium phosphate
 CHEBI:35149	#magnesium hydroxide
 CHEBI:190299	#organic magnesium salt
 CHEBI:9254	#magnesium distearate
@@ -508,7 +508,6 @@ CHEBI:190300	#inorganic phosphate salt
 CHEBI:37586	#sodium phosphate
 CHEBI:190301	#potassium phosphate
 CHEBI:77635	#calcium phosphate
-CHEBI:190298	#magnesium phosphate
 CHEBI:131371	#iron(3+) phosphate
 CHEBI:190302	#organic phosphate salt
 CHEBI:190516	#organic phosphate compound
