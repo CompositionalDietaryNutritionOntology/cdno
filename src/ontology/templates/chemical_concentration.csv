@@ -190,7 +190,7 @@ CDNO:0200570,,CDNO:0000017,dietary magnesium,BFO:0000040,material entity
 CDNO:0200140,,CHEBI:18420,magnesium(2+),BFO:0000040,material entity
 CDNO:0200571,,CHEBI:190297,inorganic magnesium salt,BFO:0000040,material entity
 CDNO:0200572,,CHEBI:6636,magnesium dichloride,BFO:0000040,material entity
-CDNO:0200573,,CHEBI:190298,magnesium phosphate,BFO:0000040,material entity
+CDNO:0200573,,CHEBI:747291,magnesium phosphate,BFO:0000040,material entity
 CDNO:0200574,,CHEBI:35149,magnesium hydroxide,BFO:0000040,material entity
 CDNO:0200575,,CHEBI:190299,organic magnesium salt,BFO:0000040,material entity
 CDNO:0200576,,CHEBI:9254,magnesium distearate,BFO:0000040,material entity
@@ -298,7 +298,7 @@ CDNO:0200658,,CHEBI:29041,manganese(3+),BFO:0000040,material entity
 CDNO:0200659,,CHEBI:190422,inorganic manganese salt,BFO:0000040,material entity
 CDNO:0200660,,CHEBI:190423,organic manganese salt,BFO:0000040,material entity
 CDNO:0200161,,CHEBI:16793,mercury(2+),BFO:0000040,material entity
-CDNO:0200661,,CDNO:0000028,dietary molybdenum ,BFO:0000040,material entity
+CDNO:0200661,,CDNO:0000028,dietary molybdenum,BFO:0000040,material entity
 CDNO:0200162,,CHEBI:49414,molybdenum(4+),BFO:0000040,material entity
 CDNO:0200662,,CHEBI:49446,molybdenum(6+),BFO:0000040,material entity
 CDNO:0200663,,CHEBI:190424,inorganic molybdenum salt,BFO:0000040,material entity

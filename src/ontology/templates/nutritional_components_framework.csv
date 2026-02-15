@@ -1,5 +1,5 @@
 ﻿Ontology ID,label,parent class,definition,definition cross reference,comment,has role,has quality,original index,Related syn.,English syn.
-ID,AT rdfs:label^^xml:string,SC % SPLIT=|,AL IAO:0000115@en,>AI oboInOwl:hasDbXref SPLIT=|,AL rdfs:comment@en,C 'has role' some % SPLIT=|,C 'has quality' some % SPLIT=|,,AL oboInOwl:hasRelatedSynonym@en SPLIT=|,AL oboInOwl:hasExactSynonym@en SPLIT=|
+ID,AT rdfs:label^^xsd:string,SC % SPLIT=|,AL IAO:0000115@en,>AI oboInOwl:hasDbXref SPLIT=|,AL rdfs:comment@en,C 'has role' some % SPLIT=|,C 'has quality' some % SPLIT=|,,AL oboInOwl:hasRelatedSynonym@en SPLIT=|,AL oboInOwl:hasExactSynonym@en SPLIT=|
 CDNO:0000001,dietary chemical component,BFO:0000040,"A material entity that is ingested and contributes to survival, growth and development",,,,,2,,
 CHEBI:15377,water,CDNO:0000001,,,,,,3,,
 CDNO:0000002,dry plant matter,CDNO:0000001,Material which remains after the removal of water from plant matter.,,,,,4,,dry matter
@@ -203,7 +203,7 @@ CDNO:0000017,dietary magnesium,CDNO:0000011,"Magnesium ingested by an organism t
 CHEBI:18420,magnesium(2+),CDNO:0000017,,https://doi.org/10.1002/med.10013,,,,217,,
 CHEBI:190297,inorganic magnesium salt,CDNO:0000017,,,,,,,,
 CHEBI:6636,magnesium dichloride,CHEBI:36093|CHEBI:190297,,https://doi.org/10.1016/j.foodchem.2014.06.102,,,,,,
-CHEBI:190298,magnesium phosphate,CHEBI:190297|CHEBI:190300,,,,,,,,
+CHEBI:747291,magnesium phosphate,CHEBI:190297|CHEBI:190300,,,,,,,,
 CHEBI:35149,magnesium hydroxide,CHEBI:190297,,https://doi.org/10.1016/j.jtice.2016.01.006,,,,,,
 CHEBI:190299,organic magnesium salt,CDNO:0000017,,,,,,,,
 CHEBI:9254,magnesium distearate,CHEBI:190299,,https://doi.org/10.1016/j.toxrep.2017.10.003,,,,,,
@@ -216,7 +216,6 @@ CHEBI:190300,inorganic phosphate salt,CDNO:0000018,,https://doi.org/10.1016/S027
 CHEBI:37586,sodium phosphate,CHEBI:190300|CHEBI:38702,,https://doi.org/10.3238/arztebl.2012.0049,,,,,,
 CHEBI:190301,tripotassium phosphate,CHEBI:190300|CHEBI:190303,,https://doi.org/10.1053/j.jrn.2009.08.010,,,,,,
 CHEBI:77635,calcium phosphate,CHEBI:190295|CHEBI:190300,,https://doi.org/10.1111/j.1834-7819.2009.01127.x,,,,,,
-CHEBI:190298,magnesium phosphate,CHEBI:190297|CHEBI:190300,,,,,,,,
 CHEBI:131371,iron(3+) phosphate,CHEBI:190300|CDNO:0000026,,https://doi.org/10.1021/jf60171a020,,,,,,
 CHEBI:190302,organic phosphate salt,CDNO:0000018,,,,,,,,
 CHEBI:190516,organic phosphate compound,CDNO:0000018,,,,,,,,
@@ -320,7 +319,7 @@ CHEBI:29041,manganese(3+),CDNO:0000027,,,,,,,,
 CHEBI:190422,inorganic manganese salt,CDNO:0000027,,,,,,,,
 CHEBI:190423,organic manganese salt,CDNO:0000027,,,,,,,,
 CHEBI:16793,mercury(2+),CDNO:0000012,,https://doi.org/10.1007/s00216-012-6052-1,,,,238,,
-CDNO:0000028,dietary molybdenum ,CDNO:0000012,"Molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts",https://doi.org/10.1016/j.jnutbio.2003.10.003,,,,,,
+CDNO:0000028,dietary molybdenum,CDNO:0000012,"Molybdenum ingested by an organism that contributes to the survival, growth, development, or other biological function of itself, its bionts, or its holobionts",https://doi.org/10.1016/j.jnutbio.2003.10.003,,,,,,
 CHEBI:49414,molybdenum(4+),CDNO:0000028,,,,,,239,,
 CHEBI:49446,molybdenum(6+),CDNO:0000028,,,,,,,,
 CHEBI:190424,inorganic molybdenum salt,CDNO:0000028,,,,,,,,

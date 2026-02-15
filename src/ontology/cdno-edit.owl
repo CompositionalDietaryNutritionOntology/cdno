@@ -20,11 +20,16 @@
      xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#2"
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:chebi4="http://purl.obolibrary.org/obo/chebi/2"
+     xmlns:chebi5="http://purl.obolibrary.org/obo/chebi/3"
+     xmlns:chebi6="http://purl.obolibrary.org/obo/chebi/1"
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
+     xmlns:chemrof="https://w3id.org/chemrof/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:taxslim1="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.obo#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cdno/modules/chemical_concentration.owl"/>
