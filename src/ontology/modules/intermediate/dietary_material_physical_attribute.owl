@@ -44,16 +44,16 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0400001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0400001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
         <obo:IAO_0000115 xml:lang="en">A physical property that inheres in a food material or one or more dietary nutritional component</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary material physical attribute</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
 </rdf:RDF>
 
 

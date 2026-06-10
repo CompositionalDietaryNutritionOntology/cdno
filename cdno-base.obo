@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: cdno/releases/2026-02-15/cdno-base.owl
+data-version: cdno/releases/2026-06-10/cdno-base.owl
 idspace: chemrof https://w3id.org/chemrof/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 

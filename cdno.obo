@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2026-02-15
+data-version: releases/2026-06-10
 subsetdef: 1:STAR ""
 subsetdef: 2:STAR ""
 subsetdef: 3:STAR ""
@@ -426,36 +426,36 @@ intersection_of: RO:0001000 CHEBI:17309 ! derives from pectin
 
 [Term]
 id: CDNO:0100005
-name: obsolete mannan derived from hemicellulose
-def: "OBSOLETE. Mannan which is derived from hemicellulose." []
+name: mannan derived from hemicellulose
+def: "Mannan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
 is_obsolete: true
 
 [Term]
 id: CDNO:0100006
-name: obsolete xylan derived from hemicellulose
-def: "OBSOLETE. Xylan which is derived from hemicellulose." []
+name: xylan derived from hemicellulose
+def: "Xylan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
 is_obsolete: true
 
 [Term]
 id: CDNO:0100007
-name: obsolete xyloglucan derived from hemicellulose
-def: "OBSOLETE. Xyloglucan which is derived from hemicellulose." []
+name: xyloglucan derived from hemicellulose
+def: "Xyloglucan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
 is_obsolete: true
 
 [Term]
 id: CDNO:0100008
-name: obsolete glucomannan derived from hemicellulose
-def: "OBSOLETE. Glucomannan which is derived from hemicellulose." []
+name: glucomannan derived from hemicellulose
+def: "Glucomannan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
 is_obsolete: true
 
 [Term]
 id: CDNO:0100009
-name: obsolete arabinoxylan derived from hemicellulose
-def: "OBSOLETE. Arabinoxylan which is derived from hemicellulose." []
+name: arabinoxylan derived from hemicellulose
+def: "Arabinoxylan which is derived from hemicellulose." []
 comment: Term has been declared redundant by the The Fiber Ontology Working Group
 is_obsolete: true
 
@@ -735,8 +735,8 @@ name: mannose derived from mannan derived from hemicellulose
 def: "Mannose which is derived from mannan derived from hemicellulose." []
 is_a: CHEBI:37684 ! mannose
 intersection_of: CHEBI:37684 ! mannose
-intersection_of: RO:0001000 CDNO:0100005 ! derives from obsolete mannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100005 ! derives from obsolete mannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100005 ! derives from mannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100005 ! derives from mannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100041
@@ -744,8 +744,8 @@ name: glucose derived from xylan derived from hemicellulose
 def: "Glucose which is derived from xylan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100042
@@ -753,8 +753,8 @@ name: xylose derived from xylan derived from hemicellulose
 def: "Xylose which is derived from xylan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100006 ! derives from obsolete xylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100006 ! derives from xylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100043
@@ -762,8 +762,8 @@ name: glucose derived from xyloglucan derived from hemicellulose
 def: "Glucose which is derived from xyloglucan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
 
 [Term]
 id: CDNO:0100044
@@ -771,8 +771,8 @@ name: xylose derived from xyloglucan derived from hemicellulose
 def: "Xylose which is derived from xyloglucan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100007 ! derives from obsolete xyloglucan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100007 ! derives from xyloglucan derived from hemicellulose
 
 [Term]
 id: CDNO:0100045
@@ -780,8 +780,8 @@ name: glucose derived from glucomannan derived from hemicellulose
 def: "Glucose which is derived from glucomannan derived from hemicellulose." []
 is_a: CHEBI:17234 ! glucose
 intersection_of: CHEBI:17234 ! glucose
-intersection_of: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100046
@@ -789,8 +789,8 @@ name: mannose derived from glucomannan derived from hemicellulose
 def: "Mannose which is derived from glucomannan derived from hemicellulose." []
 is_a: CHEBI:37684 ! mannose
 intersection_of: CHEBI:37684 ! mannose
-intersection_of: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100008 ! derives from obsolete glucomannan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100008 ! derives from glucomannan derived from hemicellulose
 
 [Term]
 id: CDNO:0100047
@@ -798,8 +798,8 @@ name: arabinose derived from arabinoxylan derived from hemicellulose
 def: "Arabinose which is derived from arabinoxylan derived from hemicellulose." []
 is_a: CHEBI:22599 ! arabinose
 intersection_of: CHEBI:22599 ! arabinose
-intersection_of: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100048
@@ -807,8 +807,8 @@ name: xylose derived from arabinoxylan derived from hemicellulose
 def: "Xylose which is derived from arabinoxylan derived from hemicellulose." []
 is_a: CHEBI:18222 ! xylose
 intersection_of: CHEBI:18222 ! xylose
-intersection_of: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
-relationship: RO:0001000 CDNO:0100009 ! derives from obsolete arabinoxylan derived from hemicellulose
+intersection_of: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
+relationship: RO:0001000 CDNO:0100009 ! derives from arabinoxylan derived from hemicellulose
 
 [Term]
 id: CDNO:0100049
@@ -5625,8 +5625,8 @@ is_a: CDNO:0200139 ! concentration of chloride in material entity
 
 [Term]
 id: CDNO:0200561
-name: obsolete concentration of sodium chloride in material entity
-def: "OBSOLETE. The concentration of sodium chloride when measured in some material entity." []
+name: concentration of sodium chloride in material entity
+def: "The concentration of sodium chloride when measured in some material entity." []
 synonym: "material entity sodium chloride concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5634,8 +5634,8 @@ replaced_by: CDNO:0200176
 
 [Term]
 id: CDNO:0200562
-name: obsolete concentration of calcium dichloride in material entity
-def: "OBSOLETE. The concentration of calcium dichloride when measured in some material entity." []
+name: concentration of calcium dichloride in material entity
+def: "The concentration of calcium dichloride when measured in some material entity." []
 synonym: "material entity calcium dichloride concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5710,8 +5710,8 @@ is_a: CDNO:0200570 ! concentration of dietary magnesium in material entity
 
 [Term]
 id: CDNO:0200572
-name: obsolete concentration of magnesium dichloride in material entity
-def: "OBSOLETE. The concentration of magnesium dichloride when measured in some material entity." []
+name: concentration of magnesium dichloride in material entity
+def: "The concentration of magnesium dichloride when measured in some material entity." []
 synonym: "material entity magnesium dichloride concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5816,8 +5816,8 @@ is_a: CDNO:0200578 ! concentration of dietary phosphorus in material entity
 
 [Term]
 id: CDNO:0200586
-name: obsolete concentration of lysophosphatidylcholine in material entity
-def: "OBSOLETE. The concentration of lysophosphatidylcholine when measured in some material entity." []
+name: concentration of lysophosphatidylcholine in material entity
+def: "The concentration of lysophosphatidylcholine when measured in some material entity." []
 synonym: "material entity lysophosphatidylcholine concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5825,8 +5825,8 @@ replaced_by: CDNO:0200118
 
 [Term]
 id: CDNO:0200587
-name: obsolete concentration of phosphatidylcholine in material entity
-def: "OBSOLETE. The concentration of phosphatidylcholine when measured in some material entity." []
+name: concentration of phosphatidylcholine in material entity
+def: "The concentration of phosphatidylcholine when measured in some material entity." []
 synonym: "material entity phosphatidylcholine concentration" EXACT []
 property_value: IAO:0000231 CDNO:0200114
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
@@ -5834,8 +5834,8 @@ is_obsolete: true
 
 [Term]
 id: CDNO:0200588
-name: obsolete concentration of phosphatidylethanolamine in material entity
-def: "OBSOLETE. The concentration of phosphatidylethanolamine when measured in some material entity." []
+name: concentration of phosphatidylethanolamine in material entity
+def: "The concentration of phosphatidylethanolamine when measured in some material entity." []
 synonym: "material entity phosphatidylethanolamine concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5843,8 +5843,8 @@ replaced_by: CDNO:0200115
 
 [Term]
 id: CDNO:0200589
-name: obsolete concentration of phosphatidylinositol in material entity
-def: "OBSOLETE. The concentration of phosphatidylinositol when measured in some material entity." []
+name: concentration of phosphatidylinositol in material entity
+def: "The concentration of phosphatidylinositol when measured in some material entity." []
 synonym: "material entity phosphatidylinositol concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5859,8 +5859,8 @@ is_a: CDNO:0200585 ! concentration of organic phosphate compound in material ent
 
 [Term]
 id: CDNO:0200591
-name: obsolete concentration of myo-inositol hexakisphosphate in material entity
-def: "OBSOLETE. The concentration of myo-inositol hexakisphosphate when measured in some material entity." []
+name: concentration of myo-inositol hexakisphosphate in material entity
+def: "The concentration of myo-inositol hexakisphosphate when measured in some material entity." []
 synonym: "material entity myo-inositol hexakisphosphate concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -5929,8 +5929,8 @@ is_a: CDNO:0200599 ! concentration of dietary sodium in material entity
 
 [Term]
 id: CDNO:0200601
-name: obsolete concentration of sodium chloride in material entity
-def: "OBSOLETE. The concentration of sodium chloride when measured in some material entity." []
+name: concentration of sodium chloride in material entity
+def: "The concentration of sodium chloride when measured in some material entity." []
 synonym: "material entity sodium chloride concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6096,8 +6096,8 @@ is_a: CDNO:0200652 ! concentration of inorganic iron salt in material entity
 
 [Term]
 id: CDNO:0200624
-name: obsolete concentration of sodium hydrogensulfite in material entity
-def: "OBSOLETE. The concentration of sodium hydrogensulfite when measured in some material entity." []
+name: concentration of sodium hydrogensulfite in material entity
+def: "The concentration of sodium hydrogensulfite when measured in some material entity." []
 synonym: "material entity sodium hydrogensulfite concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6157,8 +6157,8 @@ is_a: CDNO:0200627 ! concentration of organosulfur compound in material entity
 
 [Term]
 id: CDNO:0200632
-name: obsolete concentration of cysteine in material entity
-def: "OBSOLETE. The concentration of cysteine when measured in some material entity." []
+name: concentration of cysteine in material entity
+def: "The concentration of cysteine when measured in some material entity." []
 synonym: "material entity cysteine concentration" EXACT []
 xref: USDA_fdc_id:1232
 xref: USDA_nutrient_nbr:526
@@ -6168,8 +6168,8 @@ replaced_by: CDNO:0200051
 
 [Term]
 id: CDNO:0200633
-name: obsolete concentration of methionine in material entity
-def: "OBSOLETE. The concentration of methionine when measured in some material entity." []
+name: concentration of methionine in material entity
+def: "The concentration of methionine when measured in some material entity." []
 synonym: "material entity methionine concentration" EXACT []
 xref: USDA_fdc_id:1215
 xref: USDA_nutrient_nbr:506
@@ -6322,8 +6322,8 @@ is_a: CDNO:0200651 ! concentration of dietary iron in material entity
 
 [Term]
 id: CDNO:0200653
-name: obsolete concentration of iron(2+) sulfate (anhydrous) in material entity
-def: "OBSOLETE. The concentration of iron(2+) sulfate (anhydrous) when measured in some material entity." []
+name: concentration of iron(2+) sulfate (anhydrous) in material entity
+def: "The concentration of iron(2+) sulfate (anhydrous) when measured in some material entity." []
 synonym: "material entity iron(2+) sulfate (anhydrous) concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6703,8 +6703,8 @@ is_a: CDNO:0200703 ! concentration of ketohexose in material entity
 
 [Term]
 id: CDNO:0200705
-name: obsolete concentration of polyol in material entity
-def: "OBSOLETE. The concentration of polyol when measured in some material entity." []
+name: concentration of polyol in material entity
+def: "The concentration of polyol when measured in some material entity." []
 synonym: "material entity polyol concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6720,8 +6720,8 @@ is_a: CDNO:0200444 ! concentration of polyol in material entity
 
 [Term]
 id: CDNO:0200707
-name: obsolete concentration of mannitol in material entity
-def: "OBSOLETE. The concentration of mannitol when measured in some material entity." []
+name: concentration of mannitol in material entity
+def: "The concentration of mannitol when measured in some material entity." []
 synonym: "material entity mannitol concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6729,8 +6729,8 @@ replaced_by: CDNO:0200445
 
 [Term]
 id: CDNO:0200708
-name: obsolete concentration of glycerol in material entity
-def: "OBSOLETE. The concentration of glycerol when measured in some material entity." []
+name: concentration of glycerol in material entity
+def: "The concentration of glycerol when measured in some material entity." []
 synonym: "material entity glycerol concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6738,8 +6738,8 @@ replaced_by: CDNO:0200451
 
 [Term]
 id: CDNO:0200709
-name: obsolete concentration of glucitol in material entity
-def: "OBSOLETE. The concentration of glucitol when measured in some material entity." []
+name: concentration of glucitol in material entity
+def: "The concentration of glucitol when measured in some material entity." []
 synonym: "material entity glucitol concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -6747,8 +6747,8 @@ replaced_by: CDNO:0200447
 
 [Term]
 id: CDNO:0200710
-name: obsolete concentration of xylitol in material entity
-def: "OBSOLETE. The concentration of xylitol when measured in some material entity." []
+name: concentration of xylitol in material entity
+def: "The concentration of xylitol when measured in some material entity." []
 synonym: "material entity xylitol concentration" EXACT []
 property_value: IAO:0000231 "The equivalency statement has been duplicated" xsd:string
 is_obsolete: true
@@ -9290,7 +9290,7 @@ is_a: PATO:0000001 ! quality
 id: CDNO:0400001
 name: dietary material physical attribute
 def: "A physical property that inheres in a food material or one or more dietary nutritional component" []
-is_a: PATO:0001018 ! physical quality
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: CDNO:0500001
@@ -37156,14 +37156,22 @@ subset: scalar_slim
 synonym: "concentration" EXACT []
 
 [Term]
-id: PATO:0001018
-name: physical quality
+id: PATO:0001241
+name: physical object quality
 namespace: quality
-alt_id: PATO:0002079
-def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." [PATOC:GVG]
-subset: attribute_slim
-synonym: "relational physical quality" EXACT []
-xref: Wikipedia:Physical_property
+alt_id: PATO:0001237
+alt_id: PATO:0001238
+def: "A quality which inheres in a continuant." [PATOC:GVG]
+comment: Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.
+synonym: "monadic quality of a continuant" EXACT []
+synonym: "monadic quality of an object" NARROW []
+synonym: "monadic quality of continuant" NARROW []
+synonym: "multiply inhering quality of a physical entity" EXACT []
+synonym: "quality of a continuant" EXACT []
+synonym: "quality of a single physical entity" EXACT []
+synonym: "quality of an object" EXACT []
+synonym: "quality of continuant" EXACT []
+xref: snap:Quality
 is_a: PATO:0000001 ! quality
 
 [Typedef]
