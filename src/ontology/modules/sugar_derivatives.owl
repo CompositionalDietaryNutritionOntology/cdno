@@ -141,8 +141,8 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100005">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Mannan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete mannan derived from hemicellulose</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Mannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mannan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -150,8 +150,8 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100006">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Xylan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete xylan derived from hemicellulose</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Xylan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">xylan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -159,8 +159,8 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100007">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Xyloglucan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete xyloglucan derived from hemicellulose</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Xyloglucan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">xyloglucan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -168,8 +168,8 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100008">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Glucomannan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete glucomannan derived from hemicellulose</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Glucomannan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">glucomannan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 
@@ -177,8 +177,8 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0100009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0100009">
-        <obo:IAO_0000115 xml:lang="en">OBSOLETE. Arabinoxylan which is derived from hemicellulose.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">obsolete arabinoxylan derived from hemicellulose</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Arabinoxylan which is derived from hemicellulose.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">arabinoxylan derived from hemicellulose</rdfs:label>
     </owl:Class>
     
 

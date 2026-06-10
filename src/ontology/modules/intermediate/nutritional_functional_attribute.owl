@@ -58,11 +58,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:label xml:lang="en">physical quality</rdfs:label>
+        <rdfs:label xml:lang="en">physical object quality</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
