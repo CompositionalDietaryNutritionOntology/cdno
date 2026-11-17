@@ -40,6 +40,94 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605013 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605013">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605014 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605014">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605015 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605015">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605017 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605017">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605018 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605018">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605019 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605019">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605021 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605021">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605022 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605022">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605023 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605023">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605025 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605025">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605026 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ENVO_03605026">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
@@ -99,6 +187,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
     
 
 
@@ -273,6 +367,110 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/envo#environmental_hazards -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#environmental_hazards">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoAstro -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoAstro">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoAtmo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoAtmo">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoCryo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoCryo">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoEmpo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoEmpo">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoMarine -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoMarine">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoMeo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoMeo">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoNceas -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoNceas">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoOmics -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoOmics">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoPlastics -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoPlastics">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#envoPolar -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#envoPolar">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#nlcd2011 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#nlcd2011">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#wwfBiome -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/envo#wwfBiome">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.obo#has_rank -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.obo#has_rank"/>
@@ -376,6 +574,12 @@
     <!-- http://purl.org/dc/terms/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
     
 
 
@@ -600,6 +804,7 @@
 A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_gp2term"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
@@ -1283,10 +1488,24 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002170 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002170">
+        <obo:IAO_0000112>a &apos;toe distal phalanx bone&apos; that is connected to a &apos;toe medial phalanx bone&apos; (an interphalangeal joint *connects* these two bones).</obo:IAO_0000112>
+        <obo:IAO_0000115>a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
+        <rdfs:label xml:lang="en">connected to</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0019009"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>w &apos;has component&apos; p if w &apos;has part&apos; p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.</obo:IAO_0000115>
         <obo:IAO_0000116>The definition of &apos;has component&apos; is still under discussion. The challenge is in providing a definition that does not imply transitivity.</obo:IAO_0000116>
@@ -1894,7 +2113,6 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000118>catalyzes</obo:IAO_0000118>
         <obo:IAO_0000118>executes</obo:IAO_0000118>
-        <obo:IAO_0000118>has</obo:IAO_0000118>
         <obo:IAO_0000118>is catalyzing</obo:IAO_0000118>
         <obo:IAO_0000118>is executing</obo:IAO_0000118>
         <obo:IAO_0000232>This relation differs from the parent relation &apos;capable of&apos; in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized.</obo:IAO_0000232>
@@ -2428,8 +2646,8 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A relationship that holds between two entities in which the processes executed by the two entities are causally connected.</obo:IAO_0000115>
+        <obo:IAO_0000116>Considering relabeling as &apos;pairwise interacts with&apos;</obo:IAO_0000116>
         <obo:IAO_0000116>This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact.</obo:IAO_0000116>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Considering relabeling as &apos;pairwise interacts with&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000232>Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules.</obo:IAO_0000232>
         <oboInOwl:hasExactSynonym>in pairwise interaction with</oboInOwl:hasExactSynonym>
@@ -3243,6 +3461,17 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0019009 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0019009">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <obo:IAO_0000115>Inverse of &apos;has component&apos;.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8688-6599"/>
+        <rdfs:label>component of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0020105 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0020105">
@@ -3852,7 +4081,8 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
         <obo:IAO_0000115 xml:lang="en">A polysaccharide fraction of dietary fibre that excludes lignin and all starch.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">NSP, polysaccharide, non-starch</oboInOwl:hasExactSynonym>
         <rdfs:label>non-starch polysaccharide</rdfs:label>
@@ -3906,8 +4136,9 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CDNO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
         <obo:IAO_0000115 xml:lang="en">A linear α-glucan composed of repeating α-1,4-linked maltotriose or maltotetraose subunits, connected by α-1,6-glycosidic bonds.</obo:IAO_0000115>
         <rdfs:label>pullulan</rdfs:label>
     </owl:Class>
@@ -3993,9 +4224,9 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CDNO_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000041"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <obo:IAO_0000115 xml:lang="en">A polysaccharide primarily composed of a backbone containing α−1,4-D-galacturonic acid residues</obo:IAO_0000115>
         <rdfs:label>pectic polysaccharide</rdfs:label>
@@ -27698,8 +27929,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_17309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000049"/>
         <obo:IAO_0000115>A heteropolysaccharide containing a large proportion of &lt;small&gt;D&lt;/small&gt;-galactopyranosyluronic acid residues in α-(1→4) linkage, of which the hydroxy groups at positions C2 and C3  may be acetylated and carboxy groups at positions C6 may be esterified to varying degrees by methyl groups or be partially or completely converted into salts.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>CHEBI:14741</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>CHEBI:26180</oboInOwl:hasAlternativeId>
@@ -39823,7 +40054,9 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_181906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_181906">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <oboInOwl:hasDbXref>chemspider:30782594</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>hmdb:HMDB0133305</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>6-[[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxane-2,3,4,5-tetrol</oboInOwl:hasExactSynonym>
@@ -46508,7 +46741,9 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_22590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22590">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <obo:IAO_0000115>A polysaccharide composed of arabinose residues.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>kegg.compound:C02474</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>kegg.glycan:G10584</oboInOwl:hasDbXref>
@@ -61864,6 +62099,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_28427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37166"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
         <obo:IAO_0000115>A member of the class of arabinoxylans that consists of a polymer chain of β-(1→4)-linked &lt;small&gt;D&lt;/small&gt;-xylopyranose units, many of which are 2- or 3-substituted, or 2,3-disubstituted by α-&lt;small&gt;L&lt;/small&gt;-arabinofuranosyl residues.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>CHEBI:22602</oboInOwl:hasAlternativeId>
@@ -66165,8 +66402,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_28796 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28796">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
         <obo:IAO_0000115>Polysaccharides composed of fructose residues.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>CHEBI:24101</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>CHEBI:6434</oboInOwl:hasAlternativeId>
@@ -105361,7 +105600,9 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <obo:IAO_0000115>Hemicelluloses are polysaccharides in plant cell walls that have β-(1→4)-linked backbones with an equatorial configuration. Hemicelluloses include xyloglucans, xylans, mannans and glucomannans, and β-(1→3,1→4)-glucans.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>pubmed:20192742</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
@@ -125730,9 +125971,12 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
         <obo:IAO_0000115>A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</obo:IAO_0000115>
+        <obo:IAO_0000115>The properties, attributes, or modifiers used to describe an entity or process or some aspect of an entity or process.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PATO:0000072</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>quality</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0000001</oboInOwl:id>
+        <rdfs:label>characteristic</rdfs:label>
         <rdfs:label>quality</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -125740,6 +125984,18 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The properties, attributes, or modifiers used to describe an entity or process or some aspect of an entity or process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/pato-ontology/pato/issues/602</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBO:legacy</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -125769,12 +126025,13 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115>A characteristic which inheres in a continuant.</obo:IAO_0000115>
         <obo:IAO_0000115>A quality which inheres in a continuant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PATO:0001237</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>PATO:0001238</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref>snap:Quality</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>monadic quality of a continuant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>multiply inhering quality of a physical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>physical object quality</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>quality of a continuant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>quality of a single physical entity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>quality of an object</oboInOwl:hasExactSynonym>
@@ -125783,15 +126040,22 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasNarrowSynonym>monadic quality of continuant</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0001241</oboInOwl:id>
-        <rdfs:comment>Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.</rdfs:comment>
+        <rdfs:comment>Relational characteristics are characteristics that hold between multiple entities. Normal (monadic) characteristics such as the shape of a eyeball exist purely as a characteristic of that eyeball. A relational characteristic such as sensitivity to light is a characteristic of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.</rdfs:comment>
+        <rdfs:label>physical object characteristic</rdfs:label>
         <rdfs:label>physical object quality</rdfs:label>
         <rdfs:label xml:lang="en">physical object quality</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A quality which inheres in a continuant.</owl:annotatedTarget>
+        <owl:annotatedTarget>A characteristic which inheres in a continuant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>physical object quality</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBO:legacy</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -126313,8 +126577,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A polar front between the deep, cold Arctic air and the shallower, warmer polar air of northern latitudes on Earth.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-20T13:47:18Z</dc:date>
-        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
-        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#envoAtmo"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#envoPolar"/>
         <rdfs:label xml:lang="en">Arctic front</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
@@ -126332,8 +126596,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A polar front between the deep, cold Antarctic air and the shallower, warmer polar air of southern latitudes on Earth.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-20T13:48:44Z</dc:date>
-        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
-        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#envoAtmo"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#envoPolar"/>
         <rdfs:label xml:lang="en">Antarctic front</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
@@ -126353,6 +126617,84 @@ For example, A and B may be gene products and binding of B by A positively regul
         <dc:creator rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T22:27:44Z</dc:date>
         <rdfs:label xml:lang="en">Solar radiation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_03605201">
+        <obo:IAO_0000115>An ecoregion in the Eastern Cape of South Africa with vegetation characterized by sclerophyllous and succulent shrubs.</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-29T15:44:00Z</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9076-6066"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2179-0745"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/at1201"/>
+        <rdfs:label xml:lang="en">Albany Thicket ecoregion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_03605202">
+        <obo:IAO_0000115>An ecoregion in the Cape Floristic Region of South Africa containing vegetation of the mediterranean shrubland biome [ENVO:01000217] occurring below 300 m.</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-29T15:44:00Z</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9076-6066"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2179-0745"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/at1202"/>
+        <rdfs:label xml:lang="en">Lowland Fynbos and Renosterveld ecoregion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03605203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_03605203">
+        <obo:IAO_0000115>An ecoregion in the Cape Floristic Region of South Africa containing vegetation of the mediterranean shrubland biome [ENVO:01000217] occurring above 300 m.</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-29T15:44:00Z</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9076-6066"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2179-0745"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/at1203"/>
+        <rdfs:label xml:lang="en">Montane Fynbos and Renosterveld ecoregion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03606003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_03606003">
+        <obo:IAO_0000115>An ecoregion in the montane grassland biome [ENVO:01001808] in the Drakensberg mountains of southern Africa above 2500 m.</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-29T15:44:00Z</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9076-6066"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2179-0745"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/at1003"/>
+        <rdfs:label xml:lang="en">Drakensberg Alti-Montane Grassland and Woodland ecoregion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03606004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_03606004">
+        <obo:IAO_0000115>An ecoregion in the montane grassland biome [ENVO:01001808] in the Drakensberg mountains of southern Africa between 1800 and 2500 m.</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-29T15:44:00Z</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9076-6066"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2179-0745"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/at1004"/>
+        <rdfs:label xml:lang="en">Drakensberg Montane Grassland, Woodland, and Forest ecoregion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03606009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_03606009">
+        <obo:IAO_0000115>An ecoregion in the montane grassland biome [ENVO:01001808] in the interior plateau of southern Africa between 1400 and 1800 m.</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-29T15:44:00Z</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9076-6066"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-2179-0745"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.worldwildlife.org/ecoregions/at1009"/>
+        <rdfs:label xml:lang="en">Highveld Grassland ecoregion</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -126558,13 +126900,13 @@ For example, A and B may be gene products and binding of B by A positively regul
     <rdf:Description rdf:about="urn:swrl:var#D">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#mf">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#eff">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#in">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl:var#mf">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#mf2">
@@ -126576,13 +126918,13 @@ For example, A and B may be gene products and binding of B by A positively regul
     <rdf:Description rdf:about="urn:swrl:var#q">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#y">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#z">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl:var#x">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#u">
@@ -126815,9 +127157,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#eff"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -126826,9 +127168,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -126860,9 +127202,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -126871,9 +127213,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -126905,9 +127247,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -126916,9 +127258,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -126950,9 +127292,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002629"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -126961,9 +127303,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002629"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -126995,9 +127337,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002630"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -127006,9 +127348,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002630"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -127039,7 +127381,7 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0012011"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
                     </rdf:Description>
@@ -127050,7 +127392,7 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0012011"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
                                 <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
                             </rdf:Description>
@@ -127083,9 +127425,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -127094,9 +127436,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -127127,9 +127469,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0019002"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -127138,9 +127480,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0019002"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -127171,9 +127513,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -127182,9 +127524,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -127215,9 +127557,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002264"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -127226,9 +127568,9 @@ For example, A and B may be gene products and binding of B by A positively regul
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002264"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -127260,8 +127602,8 @@ For example, A and B may be gene products and binding of B by A positively regul
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#q"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#u"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -127271,8 +127613,8 @@ For example, A and B may be gene products and binding of B by A positively regul
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#q"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#u"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>

@@ -651,7 +651,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
         <obo:IAO_0000115 xml:lang="en">A polysaccharide fraction of dietary fibre that excludes lignin and all starch.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">NSP, polysaccharide, non-starch</oboInOwl:hasExactSynonym>
         <rdfs:label>non-starch polysaccharide</rdfs:label>
@@ -705,8 +706,9 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37163"/>
         <obo:IAO_0000115 xml:lang="en">A linear α-glucan composed of repeating α-1,4-linked maltotriose or maltotetraose subunits, connected by α-1,6-glycosidic bonds.</obo:IAO_0000115>
         <rdfs:label>pullulan</rdfs:label>
     </owl:Class>
@@ -792,9 +794,9 @@
     <!-- http://purl.obolibrary.org/obo/CDNO_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CDNO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000035"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000041"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <obo:IAO_0000115 xml:lang="en">A polysaccharide primarily composed of a backbone containing α−1,4-D-galacturonic acid residues</obo:IAO_0000115>
         <rdfs:label>pectic polysaccharide</rdfs:label>
@@ -2182,8 +2184,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000049"/>
         <rdfs:label>pectin</rdfs:label>
     </owl:Class>
     
@@ -2732,7 +2734,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_181906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_181906">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <rdfs:label>Polydextrose</rdfs:label>
     </owl:Class>
     
@@ -3407,7 +3411,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_22590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22590">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <rdfs:label>arabinan</rdfs:label>
     </owl:Class>
     
@@ -4711,7 +4717,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_28427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28427">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_371663"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37166"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61266"/>
         <rdfs:label>arabinoxylan</rdfs:label>
     </owl:Class>
@@ -4941,8 +4948,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_28796 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28796">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000036"/>
         <rdfs:label>fructan</rdfs:label>
     </owl:Class>
     
@@ -6378,12 +6387,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_371663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_371663"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_37167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37167">
@@ -7552,7 +7555,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDNO_0000043"/>
         <rdfs:label>hemicellulose</rdfs:label>
     </owl:Class>
     
