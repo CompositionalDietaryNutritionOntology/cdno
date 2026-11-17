@@ -14,7 +14,7 @@
      xmlns:chemrof="https://w3id.org/chemrof/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cdno/imports/chebi_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2026-06-10/imports/chebi_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cdno/releases/2026-11-17/imports/chebi_import.owl"/>
     </owl:Ontology>
     
 
